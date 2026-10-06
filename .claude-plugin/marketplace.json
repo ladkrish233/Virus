@@ -9,6 +9,7 @@
     {
       "name": "campusx",
       "source": "./plugins/campusx",
+      "icon": "./plugins/campusx/assets/icon.webp",
       "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits, with interactive HTML decks on request.",
       "category": "education",
       "tags": ["education", "mentor", "hinglish", "tutor"]

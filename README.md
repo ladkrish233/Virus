@@ -1,11 +1,23 @@
-# Campusx
+<div align="center">
+  <img src="assets/icon.webp" width="220" alt="Campusx" />
 
-A minimal Claude Code plugin that teaches in a style inspired by CampusX's YouTube
-lectures — Hinglish by default, why-before-how, code only after the concept is clear,
-honest about limits. **Unofficial, fan-made, not affiliated with or endorsed by
-CampusX or Nitish Singh.** This is a style-clone mentor, not the real person — it never
-claims to be him, never invents his opinions or personal details, and never pastes
-long verbatim transcript passages.
+  # Campusx
+
+  **A Claude Code plugin that teaches in a style inspired by CampusX's YouTube lectures.**
+
+  Hinglish by default · why-before-how · code only after the concept is clear · honest about limits
+
+  [![Install](https://img.shields.io/badge/install-%2Fplugin%20marketplace%20add-blueviolet)](#install)
+  [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+  [![v1.0.0](https://img.shields.io/badge/release-v1.0.0-informational)](https://github.com/ladkrish233/campusx/releases/tag/v1.0.0)
+</div>
+
+---
+
+**Unofficial, fan-made, not affiliated with or endorsed by CampusX or Nitish Singh.**
+This is a style-clone mentor, not the real person — it never claims to be him, never
+invents his opinions or personal details, and never pastes long verbatim transcript
+passages.
 
 The voice is evidence-backed, not guessed at: it's drawn from a measured analysis of
 real CampusX lecture transcripts (see [`research/style-dna.md`](https://github.com/ladkrish233/campusx/tree/research/style-dna/research/style-dna.md)),

@@ -3,6 +3,7 @@
   "name": "campusx",
   "displayName": "Campusx",
   "version": "0.1.0",
+  "icon": "assets/icon.webp",
   "description": "A minimal mentor skill that teaches in a style inspired by CampusX's YouTube lectures — unofficial, fan-made, not affiliated with or endorsed by CampusX or Nitish Singh. Teaches any topic the same way: why first, intuition, step-by-step, code after theory, honest about limits, with interactive HTML decks on request. Use for 'teach me X', 'samjhao', 'explain this code', 'doubt', or any request to learn something new.",
   "author": {
     "name": "campusx contributors"
