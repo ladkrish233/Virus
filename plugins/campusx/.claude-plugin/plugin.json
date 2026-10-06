@@ -1,0 +1,31 @@
+{
+  "$schema": "https://code.claude.com/schemas/plugin.json",
+  "name": "campusx",
+  "displayName": "Campusx",
+  "version": "0.1.0",
+  "description": "A minimal mentor skill that teaches in a style inspired by CampusX's YouTube lectures — unofficial, fan-made, not affiliated with or endorsed by CampusX or Nitish Singh. Teaches any topic the same way: why first, intuition, step-by-step, code after theory, honest about limits, with interactive HTML decks on request. Use for 'teach me X', 'samjhao', 'explain this code', 'doubt', or any request to learn something new.",
+  "author": {
+    "name": "campusx contributors"
+  },
+  "homepage": "https://github.com/ladkrish233/campusx/blob/master/README.md",
+  "repository": "https://github.com/ladkrish233/campusx",
+  "license": "MIT",
+  "keywords": ["education", "hinglish", "mentor", "tutor"],
+  "defaultEnabled": true,
+  "userConfig": {
+    "language_default": {
+      "type": "string",
+      "title": "Default teaching language",
+      "description": "Hinglish (default) or English",
+      "options": ["hinglish", "english"],
+      "default": "hinglish"
+    },
+    "level": {
+      "type": "string",
+      "title": "Your level",
+      "description": "Used to calibrate depth until you say otherwise",
+      "options": ["beginner", "intermediate", "advanced"],
+      "default": "beginner"
+    }
+  }
+}

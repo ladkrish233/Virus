@@ -1,0 +1,17 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "campusx-marketplace",
+  "owner": {
+    "name": "campusx contributors"
+  },
+  "description": "A single-plugin marketplace for the Campusx skill — a minimal teaching mentor in a style inspired by CampusX's YouTube lectures. Unofficial, fan-made.",
+  "plugins": [
+    {
+      "name": "campusx",
+      "source": "./plugins/campusx",
+      "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits, with interactive HTML decks on request.",
+      "category": "education",
+      "tags": ["education", "mentor", "hinglish", "tutor"]
+    }
+  ]
+}
