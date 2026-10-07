@@ -1,0 +1,302 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body>
+<title>Routing: path aur query parameters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f7f5f0;
+  --surface:#ffffff;
+  --surface-2:#eeeae1;
+  --border:#ddd7c9;
+  --text:#232019;
+  --text-dim:#6b6455;
+  --accent:#b6541c;
+  --accent-soft:#f0e1d3;
+  --accent-strong:#8c3f13;
+  --code-bg:#232019;
+  --code-text:#f3ead9;
+  --good:#3f6b3a;
+  --font-display:'Manrope',system-ui,sans-serif;
+  --font-body:'Manrope',system-ui,sans-serif;
+  --font-mono:'JetBrains Mono',ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1b1812;
+    --surface:#252119;
+    --surface-2:#2e291f;
+    --border:#3d3728;
+    --text:#f1ece1;
+    --text-dim:#a89e88;
+    --accent:#e08b4f;
+    --accent-soft:#3a2a1c;
+    --accent-strong:#f0a870;
+    --code-bg:#12100b;
+    --code-text:#f3ead9;
+    --good:#7fb478;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1b1812;
+  --surface:#252119;
+  --surface-2:#2e291f;
+  --border:#3d3728;
+  --text:#f1ece1;
+  --text-dim:#a89e88;
+  --accent:#e08b4f;
+  --accent-soft:#3a2a1c;
+  --accent-strong:#f0a870;
+  --code-bg:#12100b;
+  --code-text:#f3ead9;
+  --good:#7fb478;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  line-height:1.6;
+}
+.wrap{
+  max-width:920px;
+  margin:0 auto;
+  padding:56px 24px 120px;
+}
+header.hero{
+  padding:0 0 36px;
+  border-bottom:2px solid var(--border);
+  margin-bottom:40px;
+}
+.eyebrow{
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--accent-strong);
+  font-weight:600;
+}
+h1{
+  font-family:var(--font-display);
+  font-size:clamp(2.1rem,5vw,3.1rem);
+  font-weight:800;
+  letter-spacing:-0.01em;
+  margin:.4em 0 .3em;
+  text-wrap:balance;
+}
+.dek{
+  color:var(--text-dim);
+  font-size:1.08rem;
+  max-width:640px;
+  text-wrap:pretty;
+}
+nav.toc{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:24px;
+}
+nav.toc a{
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  color:var(--text-dim);
+  text-decoration:none;
+  padding:5px 10px;
+  border:1px solid var(--border);
+  border-radius:5px;
+  background:var(--surface);
+}
+nav.toc a:hover, nav.toc a:focus-visible{
+  border-color:var(--accent);
+  color:var(--accent-strong);
+  outline:none;
+}
+section{
+  margin-bottom:52px;
+}
+.section-num{
+  font-family:var(--font-mono);
+  color:var(--accent);
+  font-weight:600;
+  font-size:.85rem;
+}
+h2{
+  font-family:var(--font-display);
+  font-size:1.5rem;
+  font-weight:700;
+  margin:.15em 0 .5em;
+  text-wrap:balance;
+}
+h3{
+  font-family:var(--font-display);
+  font-size:1.05rem;
+  font-weight:700;
+  margin:1.4em 0 .5em;
+}
+p{ max-width:70ch; }
+p.lead{ color:var(--text-dim); }
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:20px 22px;
+  margin:16px 0;
+}
+.card.tip{
+  border-left:3px solid var(--good);
+}
+.card.tip .label, .card.warn .label{
+  font-family:var(--font-mono);
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-weight:600;
+  color:var(--good);
+  display:block;
+  margin-bottom:6px;
+}
+.card.warn{
+  border-left:3px solid var(--accent);
+}
+.card.warn .label{ color:var(--accent-strong); }
+pre{
+  background:var(--code-bg);
+  color:var(--code-text);
+  padding:16px 18px;
+  border-radius:8px;
+  overflow-x:auto;
+  font-family:var(--font-mono);
+  font-size:.86rem;
+  line-height:1.55;
+  margin:14px 0;
+}
+code{
+  font-family:var(--font-mono);
+  font-size:.86em;
+  background:var(--surface-2);
+  padding:.15em .4em;
+  border-radius:4px;
+}
+pre code{ background:none; padding:0; }
+.comment{ color:var(--text-dim); }
+ol,ul{ padding-left:1.3em; max-width:68ch; }
+li{ margin-bottom:.35em; }
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin:16px 0;
+  font-size:.92rem;
+}
+th,td{
+  text-align:left;
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+}
+th{
+  font-family:var(--font-mono);
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--text-dim);
+}
+td code{ font-size:.82em; }
+.grid2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+@media (max-width:640px){ .grid2{ grid-template-columns:1fr; } }
+.stage{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  font-family:var(--font-mono);
+  font-size:.85rem;
+  margin:18px 0;
+}
+.stage span{
+  background:var(--surface-2);
+  border:1px solid var(--border);
+  padding:6px 12px;
+  border-radius:6px;
+}
+.stage .arrow{ color:var(--text-dim); background:none; border:none; padding:0; }
+footer{
+  border-top:2px solid var(--border);
+  margin-top:60px;
+  padding-top:24px;
+  color:var(--text-dim);
+  font-size:.9rem;
+}
+a{ color:var(--accent-strong); }
+::selection{ background:var(--accent-soft); }
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">fastapi roadmap — lecture 2 of 8</div>
+  <h1>Routing: path aur query parameters</h1>
+  <p class="dek">Pichhle lecture mein ek fixed endpoint banaya tha. Aaj dekhte hain dynamic endpoints kaise banate hain — jahan URL ka part ya query string khud data carry karta hai.</p>
+  <nav class="toc">
+    <a href="#path-params">01. Path parameters</a>
+    <a href="#query-params">02. Query parameters</a>
+    <a href="#validation">03. Free validation</a>
+  </nav>
+</header>
+
+<section id="path-params">
+  <div class="section-num">01</div>
+  <h2>Path parameters — URL ke andar hi data</h2>
+  <p class="lead">Maan lo tumhe "ek specific user ki detail do" wala endpoint chahiye — <code>/users/5</code>, <code>/users/42</code>, waghera. Yahan <code>5</code> aur <code>42</code> ek "path parameter" hain.</p>
+
+  <pre><code>@app.get("/users/{user_id}")
+def get_user(user_id: int):
+    return {"user_id": user_id}</code></pre>
+
+  <p>Dekho — <code>{user_id}</code> URL mein ek placeholder hai, aur function ka parameter <code>user_id: int</code> usi naam se match hota hai. FastAPI automatically URL se wo value nikaal ke function ko de deta hai.</p>
+
+  <div class="card tip">
+    <span class="label">theek hai?</span>
+    Type hint (<code>: int</code>) sirf documentation ke liye nahi hai — FastAPI isko actually enforce karta hai. Agar koi <code>/users/abc</code> try kare, automatically ek validation error wapas aayega, tumhe khud check likhne ki zaroorat nahi.
+  </div>
+</section>
+
+<section id="query-params">
+  <div class="section-num">02</div>
+  <h2>Query parameters — optional extra data</h2>
+  <p class="lead">Ab maan lo tumhe results limit karne ka option chahiye — <code>/users?limit=10</code>. Ye query parameter hai, path ka part nahi.</p>
+
+  <pre><code>@app.get("/users")
+def list_users(limit: int = 10):
+    return {"limit": limit}</code></pre>
+
+  <div class="stage">
+    <span>URL: /users?limit=5</span><span class="arrow">→</span><span>FastAPI parses query string</span><span class="arrow">→</span><span>limit=5 as int</span>
+  </div>
+
+  <p>Yahan fark ye hai — jo parameter URL path (<code>{...}</code>) mein nahi hai, wo automatically query parameter ban jaata hai. Aur <code>= 10</code> dene se wo optional ho jaata hai — agar koi <code>limit</code> na de, default <code>10</code> use hoga.</p>
+</section>
+
+<section id="validation">
+  <div class="section-num">03</div>
+  <h2>Ye validation free mein kyun mili</h2>
+  <p class="lead">Ab sawaal ye aata hai ki humne kahin explicitly "agar invalid ho toh error do" jaisa code toh likha hi nahi — ye kaam kaise ho raha hai? Theek hai, answer hai: FastAPI tumhare type hints ko padhta hai aur unke base pe Pydantic (ek validation library) automatically use karta hai — iske baare mein agle lecture mein detail se baat karenge jab hum request bodies banayenge.</p>
+
+  <div class="card warn">
+    <span class="label">dhyan rakhna</span>
+    Path aur query parameter dono same naam se function mein aa sakte hain, par agar tumne URL mein <code>{user_id}</code> likha hai, FastAPI use hamesha path parameter maanega, chahe tum query string mein bhi wahi naam bhejo — confusion yahin se aata hai jab naming clash ho jaaye.
+  </div>
+
+  <p><em>Note: yeh lecture bhi live FastAPI docs scrape kiye bina likha gaya hai (demo session mein koi browser tool nahi chalaya gaya) — path/query parameter ka ye basic behavior kaafi samay se stable hai FastAPI mein, par production use se pehle apne installed version ke saath ek baar confirm kar lena.</em></p>
+</section>
+
+<footer>
+  Agle lecture mein hum request bodies banayenge Pydantic models ke saath — jahan validation aur bhi powerful ho jaati hai, aur response ka shape bhi control kar paayenge.
+</footer>
+
+</div>
+
+</body></html>

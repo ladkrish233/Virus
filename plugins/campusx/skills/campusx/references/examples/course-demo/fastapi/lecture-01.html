@@ -1,0 +1,310 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}</style></head><body>
+<title>FastAPI kya hai, aur pehla running app</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f7f5f0;
+  --surface:#ffffff;
+  --surface-2:#eeeae1;
+  --border:#ddd7c9;
+  --text:#232019;
+  --text-dim:#6b6455;
+  --accent:#b6541c;
+  --accent-soft:#f0e1d3;
+  --accent-strong:#8c3f13;
+  --code-bg:#232019;
+  --code-text:#f3ead9;
+  --good:#3f6b3a;
+  --font-display:'Manrope',system-ui,sans-serif;
+  --font-body:'Manrope',system-ui,sans-serif;
+  --font-mono:'JetBrains Mono',ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1b1812;
+    --surface:#252119;
+    --surface-2:#2e291f;
+    --border:#3d3728;
+    --text:#f1ece1;
+    --text-dim:#a89e88;
+    --accent:#e08b4f;
+    --accent-soft:#3a2a1c;
+    --accent-strong:#f0a870;
+    --code-bg:#12100b;
+    --code-text:#f3ead9;
+    --good:#7fb478;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1b1812;
+  --surface:#252119;
+  --surface-2:#2e291f;
+  --border:#3d3728;
+  --text:#f1ece1;
+  --text-dim:#a89e88;
+  --accent:#e08b4f;
+  --accent-soft:#3a2a1c;
+  --accent-strong:#f0a870;
+  --code-bg:#12100b;
+  --code-text:#f3ead9;
+  --good:#7fb478;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  line-height:1.6;
+}
+.wrap{
+  max-width:920px;
+  margin:0 auto;
+  padding:56px 24px 120px;
+}
+header.hero{
+  padding:0 0 36px;
+  border-bottom:2px solid var(--border);
+  margin-bottom:40px;
+}
+.eyebrow{
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--accent-strong);
+  font-weight:600;
+}
+h1{
+  font-family:var(--font-display);
+  font-size:clamp(2.1rem,5vw,3.1rem);
+  font-weight:800;
+  letter-spacing:-0.01em;
+  margin:.4em 0 .3em;
+  text-wrap:balance;
+}
+.dek{
+  color:var(--text-dim);
+  font-size:1.08rem;
+  max-width:640px;
+  text-wrap:pretty;
+}
+nav.toc{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:24px;
+}
+nav.toc a{
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  color:var(--text-dim);
+  text-decoration:none;
+  padding:5px 10px;
+  border:1px solid var(--border);
+  border-radius:5px;
+  background:var(--surface);
+}
+nav.toc a:hover, nav.toc a:focus-visible{
+  border-color:var(--accent);
+  color:var(--accent-strong);
+  outline:none;
+}
+section{
+  margin-bottom:52px;
+}
+.section-num{
+  font-family:var(--font-mono);
+  color:var(--accent);
+  font-weight:600;
+  font-size:.85rem;
+}
+h2{
+  font-family:var(--font-display);
+  font-size:1.5rem;
+  font-weight:700;
+  margin:.15em 0 .5em;
+  text-wrap:balance;
+}
+h3{
+  font-family:var(--font-display);
+  font-size:1.05rem;
+  font-weight:700;
+  margin:1.4em 0 .5em;
+}
+p{ max-width:70ch; }
+p.lead{ color:var(--text-dim); }
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:20px 22px;
+  margin:16px 0;
+}
+.card.tip{
+  border-left:3px solid var(--good);
+}
+.card.tip .label, .card.warn .label{
+  font-family:var(--font-mono);
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-weight:600;
+  color:var(--good);
+  display:block;
+  margin-bottom:6px;
+}
+.card.warn{
+  border-left:3px solid var(--accent);
+}
+.card.warn .label{ color:var(--accent-strong); }
+pre{
+  background:var(--code-bg);
+  color:var(--code-text);
+  padding:16px 18px;
+  border-radius:8px;
+  overflow-x:auto;
+  font-family:var(--font-mono);
+  font-size:.86rem;
+  line-height:1.55;
+  margin:14px 0;
+}
+code{
+  font-family:var(--font-mono);
+  font-size:.86em;
+  background:var(--surface-2);
+  padding:.15em .4em;
+  border-radius:4px;
+}
+pre code{ background:none; padding:0; }
+.comment{ color:var(--text-dim); }
+ol,ul{ padding-left:1.3em; max-width:68ch; }
+li{ margin-bottom:.35em; }
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin:16px 0;
+  font-size:.92rem;
+}
+th,td{
+  text-align:left;
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+}
+th{
+  font-family:var(--font-mono);
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:var(--text-dim);
+}
+td code{ font-size:.82em; }
+.grid2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+@media (max-width:640px){ .grid2{ grid-template-columns:1fr; } }
+.stage{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  font-family:var(--font-mono);
+  font-size:.85rem;
+  margin:18px 0;
+}
+.stage span{
+  background:var(--surface-2);
+  border:1px solid var(--border);
+  padding:6px 12px;
+  border-radius:6px;
+}
+.stage .arrow{ color:var(--text-dim); background:none; border:none; padding:0; }
+footer{
+  border-top:2px solid var(--border);
+  margin-top:60px;
+  padding-top:24px;
+  color:var(--text-dim);
+  font-size:.9rem;
+}
+a{ color:var(--accent-strong); }
+::selection{ background:var(--accent-soft); }
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">fastapi roadmap — lecture 1 of 8</div>
+  <h1>FastAPI kya hai, aur pehla running app</h1>
+  <p class="dek">Dekhte hain FastAPI kyun exist karta hai, aur ek minimal app likh ke chalate hain — taaki baaki poore course ke liye ek concrete starting point mil jaaye.</p>
+  <nav class="toc">
+    <a href="#why">01. Kyun FastAPI</a>
+    <a href="#hello-world">02. Pehla app</a>
+    <a href="#run-it">03. Chalao aur dekho</a>
+  </nav>
+</header>
+
+<section id="why">
+  <div class="section-num">01</div>
+  <h2>Kyun FastAPI, plain Python se kya problem thi</h2>
+  <p class="lead">Maan lo tumhe ek simple API banani hai — ek endpoint jo JSON leta hai aur JSON return karta hai. Plain Python mein (bina kisi framework ke) tumhe khud HTTP request parse karni padegi, JSON validate karni padegi, errors handle karne padenge, aur documentation khud likhni padegi. Har chhoti si cheez manual.</p>
+
+  <p>Ab sawaal ye aata hai ki existing Python web frameworks (jaise Flask) ye sab kyun nahi karte automatically? Theek hai, answer hai: wo karte hain request routing, lekin validation aur documentation zyada manual rehte hain. FastAPI ka pura point yahi hai — Python ke type hints use karke validation aur documentation dono automatically generate kar deta hai.</p>
+
+  <div class="card tip">
+    <span class="label">basically</span>
+    FastAPI khud ek naya language nahi seekha raha — jo type hints tum already Python mein likhte ho (<code>def foo(x: int)</code>), FastAPI unhi ko use karke validation aur docs bana deta hai. Yahi uska core idea hai.
+  </div>
+</section>
+
+<section id="hello-world">
+  <div class="section-num">02</div>
+  <h2>Pehla app — sirf 5 lines mein</h2>
+  <p class="lead">Chalo ek minimal app likhte hain. Pehle install karo:</p>
+  <pre><code>pip install fastapi uvicorn</code></pre>
+
+  <p>Ab <code>main.py</code> mein ye likho:</p>
+  <pre><code>from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello, Campusx!"}</code></pre>
+
+  <p>Line by line dekhte hain — <code>FastAPI()</code> se ek app instance banta hai, <code>@app.get("/")</code> ek decorator hai jo batata hai "jab koi <code>GET /</code> pe request bheje, ye function chalao," aur function jo bhi Python dictionary return karega, wo automatically JSON mein convert ho jaayega — tumhe manually <code>json.dumps</code> karne ki zaroorat nahi.</p>
+</section>
+
+<section id="run-it">
+  <div class="section-num">03</div>
+  <h2>Chalao aur dekho kya milta hai</h2>
+  <p class="lead">FastAPI khud server nahi chalata — uske liye ek separate tool use hota hai jo actually requests sunta hai aur unhe tumhare app tak pahunchata hai.</p>
+
+  <div class="stage">
+    <span>Browser request</span><span class="arrow">→</span><span>Uvicorn (server)</span><span class="arrow">→</span><span>Tumhara FastAPI app</span><span class="arrow">→</span><span>JSON response</span>
+  </div>
+
+  <pre><code>uvicorn main:app --reload</code></pre>
+
+  <p><code>main:app</code> ka matlab hai "<code>main.py</code> file mein jo <code>app</code> variable hai, wahi chalao." <code>--reload</code> flag development ke liye hai — code change karte hi server khud restart ho jaata hai, production mein ye flag nahi use karte (production setup Lecture 8 mein aayega).</p>
+
+  <p>Ab browser mein <code>http://127.0.0.1:8000</code> khol ke dekho — <code>{"message": "Hello, Campusx!"}</code> dikhna chahiye. Aur ek bonus: <code>http://127.0.0.1:8000/docs</code> pe jaake dekho — FastAPI ne automatically ek interactive documentation page bana diya hai, bina tumne kuch likhe.</p>
+
+  <div class="card warn">
+    <span class="label">dhyan rakhna</span>
+    Agar <code>uvicorn: command not found</code> jaisa error aaye, toh confirm karo ki <code>pip install</code> wahi Python environment mein hua jisse tum command chala rahe ho — ye ek bahut common mistake hai jab multiple Python versions ya virtual environments involved hote hain.
+  </div>
+
+  <p><em>Note: yeh code is lecture ko likhte waqt live docs se scrape nahi kiya gaya tha (koi browser tool is demo session mein nahi chalaya gaya) — FastAPI/Uvicorn ka basic setup pattern kaafi stable hai, par agar tum ise kisi bahut naye FastAPI version pe try kar rahe ho, syntax double-check kar lena.</em></p>
+</section>
+
+<footer>
+  Agle lecture mein hum real endpoints banayenge — path aur query parameters ke saath, aur dekhenge FastAPI type hints se validation kaise free mein milti hai.
+</footer>
+
+</div>
+
+</body></html>
