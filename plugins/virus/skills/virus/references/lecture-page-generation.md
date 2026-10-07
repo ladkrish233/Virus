@@ -8,19 +8,40 @@ first; this file is about fitting that voice and structure into the HTML contain
 
 Copy `references/templates/lecture-page-skeleton.html` as the base for every lecture
 page — don't write HTML from scratch each time. It already carries the visual system
-(colors, type, light/dark via `prefers-color-scheme`, card/callout/code-block styles)
-matching the reference format the user supplied. Fill in its placeholder sections;
-don't restructure the skeleton's CSS or layout system per-lecture.
+(dark theme, orange accent, card/callout/code-block styles) and the **mascot image
+pre-embedded as an inline base64 data URI** (`--mascot-img-data`) — fully
+self-contained, no external image file or network fetch needed. Fill in its
+placeholder sections; don't restructure the skeleton's CSS or layout system
+per-lecture, and never re-encode or re-fetch the mascot image — reuse the CSS
+variable that's already there.
+
+## The mascot is a character in the page, not a decoration
+
+A generic docs-site look was the original (v2) design and it read as flavorless — the
+page should feel like the mascot is actually presenting it, the way the plugin's own
+persona ("the strict sir who explains everything") is sold everywhere else. The
+skeleton wires this in three places; keep all three when filling a lecture:
+
+- **`.mascot`** — a circular avatar in the hero header, next to the title, as if the
+  teacher is standing there about to start the lecture. Don't remove it or shrink it
+  out of the layout.
+- **`.mascot-badge`** — a small version of the same image inside `.card.tip` and
+  `.card.warn` labels (e.g. "Virus says:", "dhyan rakhna" — see the skeleton's label
+  markup) — it's the same character pointing something out mid-lecture, not a random
+  info icon.
+- **Footer `.mascot-badge`** — present at the sign-off, same idea as the hero: the
+  teacher closing the lecture, not a page just ending.
 
 ## Mapping teaching-framework.md's flow into the page's sections
 
-The skeleton's structure (hero header, table-of-contents nav, numbered sections, tip/
-warn callout cards, a "stage" flow diagram) is a container for the same six-beat
-lesson flow in `teaching-framework.md` — translate, don't replace:
+The skeleton's structure (mascot hero header, table-of-contents nav, numbered
+sections, tip/warn callout cards with the mascot badge, a "stage" flow diagram) is a
+container for the same six-beat lesson flow in `teaching-framework.md` — translate,
+not replace:
 
 - **Hero header** — the lecture's title + a one-line "what we'll cover and why"
   (the recap+agenda beat, minus any literal spoken-greeting language — this is a
-  written page, not a transcript).
+  written page, not a transcript) — displayed beside the mascot avatar.
 - **A numbered section per major beat** — typically: the "why" (motivation/problem),
   the "what" (concept + example), one or more "how" sections (mechanism, then code),
   then a "common mistakes / edge cases" section. Use `<h2>` with a section number, same
@@ -29,14 +50,15 @@ lesson flow in `teaching-framework.md` — translate, don't replace:
   core idea is a pipeline or sequence of steps (request→response, data flowing through
   stages, a build process) — skip it when the topic doesn't have a natural stage flow;
   don't force one in.
-- **Tip cards** (`.card.tip`) — for a genuinely good practice or a "here's the right
-  way to do X" callout. **Warn cards** (`.card.warn`) — for a real gotcha, a common
-  mistake, or something that silently breaks (matches the confirmed error-narration
-  habit — call it out, don't bury it in prose).
+- **Tip cards** (`.card.tip`, mascot badge + a label like "virus says") — for a
+  genuinely good practice or a "here's the right way to do X" callout. **Warn cards**
+  (`.card.warn`, same badge + a label like "dhyan rakhna") — for a real gotcha, a
+  common mistake, or something that silently breaks (matches the confirmed
+  error-narration habit — call it out, don't bury it in prose).
 - **Code blocks** — real, runnable code the lecture is actually about, narrated around
   it in prose (per `teaching-framework.md`'s code-teaching pattern), not just dumped in.
 - **Footer** — a short close naming what's next (the lecture that follows in the
-  roadmap), not a generic sign-off.
+  roadmap), not a generic sign-off, with the mascot badge beside it.
 
 ## Voice inside HTML text
 
