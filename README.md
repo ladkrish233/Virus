@@ -38,7 +38,7 @@ Same prompt, asked two ways — and Virus answers in both languages it supports.
 **Prompt:** `teach me how REST APIs work`
 
 <table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus (Hinglish, default)</th><th>Claude, with Virus ("english mein")</th></tr>
+<tr><th>Claude, no plugin</th><th>Claude, with Virus (Hinglish, default)</th><th>Claude, with Virus ("English")</th></tr>
 <tr valign="top"><td>
 
 REST (Representational State Transfer) is an architectural style for designing networked applications. A REST API exposes resources via URLs and uses standard HTTP methods to operate on them:
