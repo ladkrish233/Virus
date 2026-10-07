@@ -33,12 +33,12 @@ Virus puts him inside Claude Code.
 
 ## See the difference
 
-Same prompt, asked two ways. No fabricated stats here — just read both and judge for yourself.
+Same prompt, asked two ways — and Virus answers in both languages it supports. No fabricated stats here, just read all three and judge for yourself.
 
 **Prompt:** `teach me how REST APIs work`
 
 <table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
+<tr><th>Claude, no plugin</th><th>Claude, with Virus (Hinglish, default)</th><th>Claude, with Virus ("english mein")</th></tr>
 <tr valign="top"><td>
 
 REST (Representational State Transfer) is an architectural style for designing networked applications. A REST API exposes resources via URLs and uses standard HTTP methods to operate on them:
@@ -54,7 +54,7 @@ REST APIs are stateless, meaning each request contains all the information neede
 
 Chalo, REST API samajhte hain — pehle dekhte hain problem kya hai. Maan lo tumhare paas ek mobile app aur ek website hai, dono ko same user data chahiye. Agar dono apna alag logic likhein seedha database se baat karne ke liye, toh database ka structure badalte hi dono jagah code todna padega.
 
-Ab sawaal ye aata hai: iska fix kya hai? Theek hai, answer hai — ek beech ka layer banao jisे **API** bolte hain, jo request leta hai aur database se khud baat karta hai.
+Ab sawaal ye aata hai: iska fix kya hai? Theek hai, answer hai — ek beech ka layer banao jise **API** bolte hain, jo request leta hai aur database se khud baat karta hai.
 
 Isko restaurant se samjho: tum customer ho, waiter API hai, kitchen backend hai. Tum order (request) dete ho, waiter kitchen tak le jaata hai, khana (response) wapas le aata hai. Tumhe pata hi nahi chalta kitchen ke andar kya ho raha hai.
 
@@ -62,10 +62,22 @@ REST ek fixed tarika hai order dene ka — GET, POST, PUT, DELETE. Basically ek 
 
 Ab bolo, agar tumhe ek user ka data *update* karna ho, konsa method use karoge — GET ya PUT?
 
+</td><td>
+
+Alright, let's get into REST APIs — first, what's the actual problem? Say you have a mobile app and a website, and both need the same user data. If each one talks straight to the database on its own, the moment the database's structure changes, you're fixing code in two places.
+
+So the question becomes: what's the fix? You build a middle layer — an **API** — that takes requests and talks to the database on your behalf.
+
+Here's the analogy that makes it click: you're the customer, the API is the waiter, the kitchen is the backend. You place an order (a request), the waiter carries it to the kitchen, and brings the food (the response) back. You never see what's happening in the kitchen.
+
+REST is just a fixed way of placing that order — GET, POST, PUT, DELETE. Think of it like a menu card: a protocol everyone's agreed to follow.
+
+Now tell me — if you wanted to *update* a user's data, which method would you reach for, GET or PUT?
+
 </td></tr>
 </table>
 
-Same facts, same four HTTP methods — but one assumes you already think like an engineer, and one builds the idea from a problem you'd actually recognize, then checks you got it before moving on.
+Same facts, same four HTTP methods, same teaching method in both languages — but the no-plugin answer assumes you already think like an engineer, while Virus builds the idea from a problem you'd actually recognize, then checks you got it before moving on. Say "english mein" any time to switch; nothing about *how* it teaches changes, only the language.
 
 <div align="center">
   <img src="assets/banner.webp" width="100%" alt="It explains. You pass. Slides, quizzes, and one very strict teacher." />
