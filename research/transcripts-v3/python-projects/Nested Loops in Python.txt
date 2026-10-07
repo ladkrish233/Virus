@@ -1,0 +1,10 @@
+00:05 [Music]
+00:10 [Music]
+02:48 enter
+02:49 the
+03:03 plus
+03:17 [Music]
+04:36 this is the output right
+04:39 so that is how this code works
+06:47 we are going to learn about break
+06:48 continue and pass statements

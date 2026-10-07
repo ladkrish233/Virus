@@ -1,0 +1,520 @@
+00:00 Hi guys, my name is Nitish and you are
+00:02 
+
+00:02  welcome to my YouTube channel. So, this
+00:05 
+
+00:05  is a short video where I am going to
+00:07 
+
+00:08  share a small resource with you. So,
+00:11 
+
+00:11  what happened a few days ago, in fact
+00:13 
+
+00:13  over the last six months, I was
+00:15 
+
+00:15  constantly receiving calls, WhatsApp
+00:17 
+
+00:17  messages, and emails from you guys. And
+00:21 
+
+00:21  your concern was generally that, "I am
+00:23 
+
+00:23  trying to learn data science." But I am
+00:26 
+
+00:26  not able to master it. I am not able to
+00:28 
+
+00:28  learn it properly. So when I spoke to
+00:31 
+
+00:31  people, I realized that there is a
+00:32 
+
+00:32  common problem. The problem is that if
+00:36 
+
+00:36  you want to enter data science, then
+00:38 
+
+00:38  believe it or not, you must know Python
+00:40 
+
+00:40  well. If you don't know Python well.
+00:43 
+
+00:43  Since Python is a very important tool.
+00:46 
+
+00:46  Whatever you study later will require
+00:48 
+
+00:48  Python, and if you haven't mastered
+00:50 
+
+00:50  Python, you will face problems. And I
+00:53 
+
+00:53  saw this in everyone I spoke to: they
+00:56 
+
+00:56  learned a little Python, watched some
+00:58 
+
+00:58  videos, and moved on, but now when they
+01:00 
+
+01:00  see even slightly difficult code or try
+01:03 
+
+01:03  to implement it, they don't understand,
+01:05 
+
+01:05  they face problems, and they are
+01:07 
+
+01:07  getting frustrated. So, I came up with
+01:11 
+
+01:11  a solution from my side: I already have
+01:13 
+
+01:13  a Python playlist on my channel. People
+01:16 
+
+01:16  are watching it, and the feedback is
+01:17 
+
+01:17  good. The videos are good, in my
+01:19 
+
+01:19  opinion. But there is nothing there to
+01:21 
+
+01:21  practice with. Right? And I personally
+01:24 
+
+01:24  feel that programming is just like any
+01:27 
+
+01:27  other skill. You can only master it
+01:29 
+
+01:29  when you practice it. It is like
+01:31 
+
+01:31  swimming. No matter how many books you
+01:33 
+
+01:34  read or how many videos you watch, you
+01:36 
+
+01:36  won't learn swimming until you actually
+01:38 
+
+01:38  start swimming. So I decided to compile
+01:41 
+
+01:41  a list of problems. For you guys, what
+01:46 
+
+01:46  I have done is compiled a document of
+01:49 
+
+01:49  almost exactly 100 problems, and I want
+01:51 
+
+01:51  to share that with you in this video.
+01:54 
+
+01:55  Who is that document for? If you are
+01:59 
+
+01:59  coming from a non-technical background
+02:01 
+
+02:01  and want to transition into data
+02:02 
+
+02:02  science, and you have never done
+02:04 
+
+02:04  programming before and are doing it for
+02:06 
+
+02:06  the first time, then I would recommend
+02:08 
+
+02:08  that along with watching the videos,
+02:10 
+
+02:10  you also solve these 100 problems. And
+02:14 
+
+02:14  if you solve these 100 problems, then I
+02:16 
+
+02:16  guarantee you, no matter how complex
+02:18 
+
+02:18  Python code you see in the future, you
+02:20 
+
+02:20  won't have any trouble. All right? So
+02:24 
+
+02:24  let me share the screen and let me show
+02:26 
+
+02:26  you the document, which programs are in
+02:28 
+
+02:28  it, how they are organized, and I have
+02:30 
+
+02:30  also created solutions for them. So I
+02:33 
+
+02:33  will share those with you as well. So
+02:34 
+
+02:34  guys, this is the document I am talking
+02:37 
+
+02:37  about. At this point, there aren't
+02:39 
+
+02:39  exactly 100 questions here. But there
+02:41 
+
+02:41  are 85 questions. All right? I have
+02:43 
+
+02:43  added 85 questions here. If I tell you
+02:46 
+
+02:46  the good things about these questions,
+02:48 
+
+02:48  there are three or four good things.
+02:50 
+
+02:51  The first good thing is that I have
+02:53 
+
+02:53  included all the common problems here,
+02:55 
+
+02:55  the common programs that you should
+02:58 
+
+02:58  know if you are learning Python
+02:60 
+
+02:60  programming, or for that matter, any
+03:02 
+
+03:02  programming language. Second, we have
+03:05 
+
+03:05  covered all the topics. Topics from the
+03:07 
+
+03:07  very basic to the advanced level are
+03:10 
+
+03:10  covered here. I will just add some
+03:12 
+
+03:12  Object-Oriented Programming questions
+03:14 
+
+03:14  to this in a few days. So in total,
+03:16 
+
+03:16  there will be 100 questions. And I
+03:18 
+
+03:18  personally feel that if you do these
+03:20 
+
+03:20  100 questions, you will know all the
+03:22 
+
+03:22  common questions. You will know how to
+03:24 
+
+03:24  create questions on all the topics. The
+03:26 
+
+03:26  second good thing about this is that
+03:28 
+
+03:28  the questions in this entire document
+03:31 
+
+03:31  are progressively difficult. So the
+03:33 
+
+03:33  first few questions are very easy. So
+03:35 
+
+03:35  if you are starting programming today,
+03:37 
+
+03:37  you will find the first few questions
+03:39 
+
+03:39  easy. You will be able to solve them,
+03:41 
+
+03:41  and gradually, as you learn difficult
+03:43 
+
+03:43  things, the level of the questions will
+03:44 
+
+03:44  also become more difficult. I have
+03:46 
+
+03:46  organized this entire sheet in this way
+03:48 
+
+03:48 . And you would find that the last few
+03:51 
+
+03:51  questions are actually a bit difficult,
+03:52 
+
+03:52  and for that, you need to know
+03:54 
+
+03:54  programming well. The third good thing
+03:57 
+
+03:57  is, since we talk about Data
+03:59 
+
+03:59  Science-related topics. So in these
+04:01 
+
+04:02  questions, you will get a bit of a Data
+04:03 
+
+04:03  Science flavor. What does this mean? It
+04:06 
+
+04:06  means I have created some questions in
+04:08 
+
+04:08  such a way that they are related to the
+04:11 
+
+04:11  Data Science field. Now when you see
+04:13 
+
+04:13  this document, you will understand what
+04:15 
+
+04:15  I am saying. And the fourth thing,
+04:17 
+
+04:17  which is the best part, is that I don't
+04:19 
+
+04:19  just want to give you these problems. I
+04:22 
+
+04:22  would also like to give you the
+04:24 
+
+04:24  solutions. All right? Meaning, if
+04:26 
+
+04:26  tomorrow you get stuck on a problem, it
+04:27 
+
+04:27  is important to get a solution.
+04:29 
+
+04:29  Otherwise, it will just lead to
+04:30 
+
+04:30  frustration again. So, I am sharing a
+04:33 
+
+04:33  playlist from another channel with you.
+04:36 
+
+04:36  Actually, this is my sister's channel.
+04:38 
+
+04:38  She started it recently. Actually, I
+04:41 
+
+04:41  had given my sister all these questions
+04:43 
+
+04:43  to solve. So, she didn't just solve
+04:45 
+
+04:45  those questions. She also created a
+04:47 
+
+04:47  video for all those solutions. So, this
+04:51 
+
+04:51  is a playlist of Python programs where
+04:54 
+
+04:54  you will find the solutions to all
+04:56 
+
+04:56  these problems. We have tried to ensure
+04:59 
+
+04:59  that the solutions are in the same
+05:01 
+
+05:01  order as the questions provided here.
+05:03 
+
+05:04  Okay? So, if you like my sister's work,
+05:06 
+
+05:07  you can also subscribe to her channel.
+05:08 
+
+05:09  She has started it recently. So yeah,
+05:12 
+
+05:12  if you are wondering how to approach
+05:16 
+
+05:16  these questions and how to start
+05:19 
+
+05:19  solving them? Then I would recommend
+05:24 
+
+05:24  that you start with my '100 Days of
+05:26 
+
+05:26  Python Programming' playlist and
+05:28 
+
+05:28  simultaneously start solving these
+05:30 
+
+05:31  questions, and I think this entire
+05:33 
+
+05:33  playlist is sufficient to solve all
+05:35 
+
+05:35  these questions. Okay? So, that would
+05:40 
+
+05:40  be my suggestion. How much time will it
+05:43 
+
+05:43  take to solve all 100 questions? I
+05:46 
+
+05:46  would say, if you dedicate two to three
+05:47 
+
+05:47  hours daily, it would take around two
+05:49 
+
+05:49  to four weeks, depending on how much
+05:51 
+
+05:51  time you give. You will be able to
+05:53 
+
+05:53  complete these questions in two to four
+05:55 
+
+05:55  weeks. Uh, one more suggestion I would
+05:57 
+
+05:57  give: please don't just watch the
+05:59 
+
+05:59  solution first and then try to solve
+06:01 
+
+06:01  the question, just because I have
+06:02 
+
+06:02  provided the solution. The solution has
+06:05 
+
+06:05  been provided so that in a worst-case
+06:07 
+
+06:07  scenario, if you are unable to solve it
+06:09 
+
+06:09 , you can take a hint or get help; but
+06:11 
+
+06:11  please don't copy it, there will be no
+06:13 
+
+06:13  benefit. Okay? And in the end, I
+06:16 
+
+06:16  guarantee that if you are just starting
+06:18 
+
+06:18  to learn Python programming. Just
+06:21 
+
+06:21  finish these 100 questions. I can
+06:23 
+
+06:23  promise you that after that, you won't
+06:25 
+
+06:25  have any trouble with Python. And I
+06:28 
+
+06:28  would also like to tell you that you
+06:29 
+
+06:30  have to become proficient in Python in
+06:31 
+
+06:31  a certain way. So, this is a good way
+06:34 
+
+06:34  to become an expert in Python. Okay? So
+06:36 
+
+06:36 , you will find all these links in the
+06:39 
+
+06:39  description of this video. If you liked
+06:41 
+
+06:41  this entire effort, then please do like
+06:43 
+
+06:43 . Like this video, subscribe to the
+06:46 
+
+06:46  channel, and also try to subscribe to
+06:48 
+
+06:48  my sister's channel, okay? So yeah,
+06:50 
+
+06:50  that's it, thanks for watching, bye.

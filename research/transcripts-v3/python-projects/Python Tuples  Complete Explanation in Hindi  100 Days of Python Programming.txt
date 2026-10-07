@@ -1,0 +1,763 @@
+00:00 So let's start with tuples. We are
+00:07 
+
+00:07  starting with tuples, guys. Talking
+00:10 
+
+00:10  about tuples, they are basically very
+00:14 
+
+00:14  similar to lists. Meaning, the list you
+00:18 
+
+00:18  studied yesterday and the tuple you are
+00:21 
+
+00:21  studying now are very similar. There
+00:23 
+
+00:23  are just a few big differences that we
+00:26 
+
+00:26  will see as we learn. So we will study
+00:29 
+
+00:29  in the same order. We will first create
+00:33 
+
+00:33 , then access, then edit, then add,
+00:40 
+
+00:40  then delete, and finally we will learn
+00:45 
+
+00:45  operations and functions on tuples.
+00:52 
+
+00:52  Okay? So let's start with creating
+00:55 
+
+00:55  tuples. How to create a tuple. Okay? So
+00:59 
+
+00:59 , first of all, I will show you how to
+01:01 
+
+01:01  create an empty tuple. Okay? So, if you
+01:04 
+
+01:04  want to create an empty tuple, if you
+01:08 
+
+01:08  follow this syntax, then it will create
+01:13 
+
+01:13  an empty tuple. Okay? So, this is an
+01:16 
+
+01:16  empty tuple. You can also create a
+01:19 
+
+01:19  homogeneous tuple. A homogeneous tuple
+01:21 
+
+01:21  means a tuple where all items are of
+01:23 
+
+01:23  the same data type. Okay? So I will
+01:26 
+
+01:26  just do this. This is a homogeneous
+01:32 
+
+01:32  tuple. Okay? Similarly, you can also
+01:35 
+
+01:35  have heterogeneous tuples. Where all
+01:38 
+
+01:39  your items or some items are of
+01:42 
+
+01:42  different data types. Like this one.
+01:46 
+
+01:47  Hello 4 5.6 now this is a heterogeneous
+01:52 
+
+01:52  tuple. Everything up to here is going
+01:55 
+
+01:55  exactly like lists. You can also create
+01:57 
+
+01:57  2D tuples. Just as you can make a 2D
+01:60 
+
+01:60  list, you can also make 2D tuples. Okay
+02:07 
+
+02:07 ? It's very similar so far. You can
+02:10 
+
+02:10  also make a 3D tuple. I am not making
+02:12 
+
+02:12  one. I think you get the idea. One
+02:14 
+
+02:15  thing becomes different. If you try to
+02:17 
+
+02:17  make a tuple that has only one item,
+02:20 
+
+02:20  like this. Then there is a problem. How
+02:23 
+
+02:23  is there a problem? Let me show you.
+02:25 
+
+02:25  You might think that a tuple has been
+02:28 
+
+02:28  created, but it does not become a tuple
+02:31 
+
+02:31 . Look, if you check the type of T5,
+02:34 
+
+02:34  you would see it is an integer. Okay?
+02:38 
+
+02:38  So creating a single-item tuple is not
+02:40 
+
+02:40  done like this. I will quickly show you
+02:42 
+
+02:42  someone. Yeah, so If you put a string
+02:49 
+
+02:49  in T5 equals to......it still won't
+02:52 
+
+02:52  work. If you check the type of T5 at
+02:55 
+
+02:55  this point, you will still get STR. So
+02:58 
+
+02:58  how do you make a single-item tuple?
+03:00 
+
+03:00  Look quickly. You will make a
+03:02 
+
+03:02  single-item tuple like this. Put an
+03:04 
+
+03:04  item and then put a comma after it.
+03:07 
+
+03:07  Okay? What will happen with that? T5
+03:09 
+
+03:09  will become a tuple now. So if you
+03:11 
+
+03:11  check the type of T5. You would see now
+03:15 
+
+03:15  it is a tuple. Right? So this was just
+03:17 
+
+03:17  a little different compared to a list.
+03:19 
+
+03:20  So far there are two differences. First
+03:21 
+
+03:21 , a list uses square brackets. A tuple
+03:24 
+
+03:24  uses small brackets. And making a
+03:26 
+
+03:26  single-item tuple is a bit different.
+03:28 
+
+03:29  Right? There is one more way to create
+03:31 
+
+03:31  tuples. That is type conversion. So
+03:33 
+
+03:34  let's say if I am creating T6. I can
+03:36 
+
+03:36  actually use the tuple function to
+03:38 
+
+03:38  create a tuple like this. Just like we
+03:41 
+
+03:41  could do with lists. So this is T6.
+03:43 
+
+03:44  Right? You can also create a tuple from
+03:48 
+
+03:48  a list, if you want to. Like, we have a
+03:52 
+
+03:52  list: 1, 2, 3, 4, 5 and this is T6.
+03:55 
+
+03:56  Right? So, that's it. That is all you
+03:59 
+
+03:59  needed to learn about creating tuples
+04:01 
+
+04:01  and everything is exactly the same,
+04:03 
+
+04:03  except how to make a single-item tuple,
+04:05 
+
+04:06  you have to remember that you need to
+04:08 
+
+04:08  put a comma after the item. Right?
+04:10 
+
+04:10  Everything else is the same. Now let's
+04:13 
+
+04:13  discuss how to access items from a
+04:16 
+
+04:16  tuple. Here too, you would find that
+04:19 
+
+04:19  everything is exactly similar to lists.
+04:21 
+
+04:21  Like, I will give you one example.
+04:22 
+
+04:22  Let's say we have T2. If we want one,
+04:25 
+
+04:25  we again put zero in square brackets
+04:27 
+
+04:27  after t2. We will get one. If we want
+04:30 
+
+04:30  five, we put -1 after t2 and we will
+04:33 
+
+04:33  get five. Right? Slicing also works
+04:35 
+
+04:35  exactly the same way here. So if you
+04:37 
+
+04:37  gave 0 to 4, you will get 1, 2, 3, 4,
+04:40 
+
+04:40  right? If you talk about a 2D tuple,
+04:43 
+
+04:43  everything happens in the same way.
+04:45 
+
+04:45  Let's say if I want to extract four, I
+04:49 
+
+04:49  would write -1's zero index. And this
+04:52 
+
+04:52  would give me four. So you can see it
+04:55 
+
+04:55  is exactly similar to lists. Now comes
+04:58 
+
+04:58  the question, where does the difference
+05:00 
+
+05:00  lie? What is the difference? Because
+05:02 
+
+05:02  obviously, if there are two data types,
+05:04 
+
+05:04  there must be a difference somewhere.
+05:05 
+
+05:05  So the difference actually comes in
+05:07 
+
+05:07  editing. Let me show you. Let me give
+05:10 
+
+05:10  you an example of a list. If you have a
+05:12 
+
+05:12  list like this and you want to change
+05:15 
+
+05:15  the first item of the list from one to
+05:17 
+
+05:17  100, you would write this code and your
+05:20 
+
+05:20  list would get updated. But if you do
+05:23 
+
+05:23  the same thing in a tuple, that if you
+05:26 
+
+05:26  want to replace the first item to
+05:28 
+
+05:28  change one to 100, then this happens.
+05:31 
+
+05:32  See, read this error. Tuple object does
+05:34 
+
+05:35  not support item assignment. It means
+05:37 
+
+05:37  that tuples do not support editing.
+05:40 
+
+05:40  Meaning, once a tuple is created. You
+05:43 
+
+05:43  cannot edit the items inside it. And
+05:46 
+
+05:46  the reason for this is that tuples,
+05:50 
+
+05:50  just like strings, are immutable.
+05:57 
+
+05:57  Alright? Just as you cannot change
+05:59 
+
+05:59  strings once they are created.
+06:01 
+
+06:01  Similarly, tuples cannot be changed
+06:03 
+
+06:03  once they are created. Alright? This is
+06:06 
+
+06:06  the biggest difference. If anyone asks
+06:08 
+
+06:08  you what the differences are between a
+06:10 
+
+06:10  tuple and a list? Then the brackets are
+06:12 
+
+06:12  different. There is a problem in
+06:14 
+
+06:14  creating a single item. These would all
+06:16 
+
+06:16  be secondary or tertiary reasons or
+06:18 
+
+06:19  differences. The most primary
+06:21 
+
+06:21  difference is that tuples are immutable
+06:24 
+
+06:24 . Lists are mutable. Alright? Always
+06:27 
+
+06:27  remember this. So you cannot do editing
+06:29 
+
+06:29 . Editing will not happen. Let me ask
+06:31 
+
+06:31  you a question. Can you add new items
+06:34 
+
+06:34  to a tuple? Can you? Can you add new
+06:38 
+
+06:38  items to an existing tuple? The answer
+06:40 
+
+06:41  is no. You cannot. Because, again, the
+06:43 
+
+06:43  reason is that tuples are immutable. So
+06:45 
+
+06:45  changes cannot be made to an existing
+06:48 
+
+06:48  tuple. Alright? Now let's move on to
+06:51 
+
+06:51  deleting tuples. Not studying editing,
+06:53 
+
+06:53  not studying adding. Let's move on to
+06:57 
+
+06:57  deleting. For deleting, it is the same;
+07:00 
+
+07:00  let's say we had T1 as an empty tuple.
+07:03 
+
+07:03  We can use the del keyword. So you can
+07:06 
+
+07:06  delete the entire tuple. Now comes this
+07:09 
+
+07:09  question. Can you do this? Think and
+07:11 
+
+07:11  tell me. We have T3, or rather we have
+07:15 
+
+07:16  T2, sorry, T2. You have to tell me,
+07:21 
+
+07:21  will this work or not: del T2 [-1],
+07:26 
+
+07:26  what do you think guys, will it work or
+07:30 
+
+07:30  not? The answer is no. Because if you
+07:34 
+
+07:34  are deleting a single item from a tuple
+07:37 
+
+07:37 , you are making changes to the overall
+07:40 
+
+07:40  tuple, which again is not possible. And
+07:43 
+
+07:43  because of this reason, you cannot
+07:46 
+
+07:46  delete a part of a tuple. Alright?
+07:49 
+
+07:49  Because tuples are immutable. Okay? And
+07:52 
+
+07:52  after this, if you talk about what
+07:54 
+
+07:54  operations are available? What are the
+07:57 
+
+07:57  operations that are available? So guys,
+07:59 
+
+07:60  the operations are exactly the same as
+08:03 
+
+08:03  they are in lists. Here, you can
+08:06 
+
+08:06  concatenate like this. Here, you can
+08:10 
+
+08:10  multiply like this. You can also run a
+08:14 
+
+08:14  loop here. Not in the range T2. Print i
+08:22 
+
+08:22 , and you can see you are able to run a
+08:26 
+
+08:26  loop in the same way. And you can use
+08:29 
+
+08:29  membership operators here just as you
+08:33 
+
+08:33  used to in lists. So all the operations
+08:36 
+
+08:36  are exactly the same. Alright? If you
+08:39 
+
+08:39  talk about functions, then guys, all
+08:41 
+
+08:41  the functions are also the same. All
+08:43 
+
+08:43  right? You can find the length of a
+08:46 
+
+08:46  tuple. You can find the min and max of
+08:50 
+
+08:50  a tuple. You can find the sum of a
+08:54 
+
+08:54  tuple. And you can sort a tuple.
+08:60 
+
+08:60  Obviously, it will convert to a list.
+09:02 
+
+09:02  And if you want it in ascending order,
+09:05 
+
+09:05  you can do that too using the hidden
+09:08 
+
+09:08  parameter reverse. reverse equals True.
+09:12 
+
+09:12  All right? So you can see, if someone
+09:14 
+
+09:14  asks you to conclude at this point,
+09:17 
+
+09:17  what are the differences? I mean, what
+09:19 
+
+09:19  are the differences between tuples and
+09:21 
+
+09:21  lists? The difference is very, very
+09:23 
+
+09:24  subtle, that a tuple is immutable,
+09:26 
+
+09:26  meaning you cannot make any changes to
+09:29 
+
+09:29  it. Once created, lists are mutable,
+09:31 
+
+09:31  meaning you can make changes to them.
+09:33 
+
+09:34  Right? Now, think about it, in a way,
+09:37 
+
+09:37  only those operations don't work on
+09:40 
+
+09:40  tuples that are write operations. Just
+09:43 
+
+09:43  think about it. Once it's created in
+09:45 
+
+09:45  memory, I cannot change it. Changing
+09:48 
+
+09:48  means writing. There are two types of
+09:50 
+
+09:50  operations on data. Write operation,
+09:52 
+
+09:52  read operation. All right? Read
+09:54 
+
+09:54  operation means you are accessing the
+09:57 
+
+09:57  item, that works. But if you are
+09:59 
+
+09:59  writing, meaning changing an existing
+10:01 
+
+10:01  item, then that doesn't work. So, in a
+10:03 
+
+10:03  way, you can say that tuples are a
+10:07 
+
+10:08  read-only data type. And this is the
+10:13 
+
+10:13  most important thing about a tuple,
+10:15 
+
+10:15  that it is read-only. Meaning you can
+10:18 
+
+10:18  only read it. All the read
+10:20 
+
+10:20  functionalities are exactly like a list
+10:22 
+
+10:22 . But the write functionalities are not
+10:25 
+
+10:25  there, like they are in a list. What is
+10:27 
+
+10:27  the benefit? In what kind of scenarios
+10:29 
+
+10:29  could it be beneficial? It could be
+10:31 
+
+10:31  beneficial in scenarios where data
+10:34 
+
+10:34  integrity should remain as it is. Is
+10:36 
+
+10:36  very important. I will give you one
+10:38 
+
+10:38  scenario. I gave you this same example
+10:41 
+
+10:41  in the first year, let's say you got a
+10:44 
+
+10:44  placement in your own college. You are
+10:46 
+
+10:46  the web developer for your college. And
+10:48 
+
+10:48  it's your responsibility to publish all
+10:50 
+
+10:50  the results. All the exams that happen
+10:52 
+
+10:52  in your college, and tomorrow your
+10:54 
+
+10:54  brother gets admission in the same
+10:56 
+
+10:56  college and he didn't get his preferred
+10:58 
+
+10:58  branch. Let's say he didn't get CSE. He
+10:60 
+
+10:60  wanted CSE. All right? And now he was
+11:02 
+
+11:02  very unhappy, saying, "I want to take
+11:03 
+
+11:04  CSE, what can I do?" So someone told
+11:06 
+
+11:06  him that if you keep an 8.5 CGPA in the
+11:09 
+
+11:09  first two semesters, then you get your
+11:11 
+
+11:11  preferred branch. But you know how
+11:14 
+
+11:14  studying goes there, so the poor guy
+11:16 
+
+11:16  couldn't study and his CGPA came to 6.5
+11:19 
+
+11:19 . All right? Now he comes to you crying
+11:21 
+
+11:21  and requests, "Brother, you are a web
+11:23 
+
+11:24  developer.""You can show anything on
+11:26 
+
+11:26  the website, so when 6.5 comes from the
+11:29 
+
+11:29  database, just show it as 8.5." Now
+11:32 
+
+11:32  just think, if the data coming from the
+11:35 
+
+11:35  database were in a tuple, which branch
+11:38 
+
+11:38  would your brother be in? If it were in
+11:41 
+
+11:41  a list, which branch would your brother
+11:42 
+
+11:43  be in? And you can easily see that if
+11:45 
+
+11:45  it were a tuple, you couldn't change it
+11:47 
+
+11:47  because you cannot write to it. So your
+11:49 
+
+11:50  brother would still be studying in the
+11:52 
+
+11:52  same branch he was in. And if you had
+11:54 
+
+11:54  received the data in a list, you would
+11:56 
+
+11:56  have edited it and your brother would
+11:58 
+
+11:58  be studying in CSE. So this is one
+11:60 
+
+11:60  example through which you can
+12:02 
+
+12:02  understand that in scenarios where data
+12:05 
+
+12:05  integrity is important, you use tuples
+12:08 
+
+12:08  instead of lists. Okay? So I really
+12:11 
+
+12:11  hope you guys understood this entire
+12:13 
+
+12:13  discussion.

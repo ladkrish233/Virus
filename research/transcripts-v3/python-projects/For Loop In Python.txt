@@ -1,0 +1,658 @@
+00:00 Hi guys, welcome to my YouTube channel.
+00:03 
+
+00:03  In this video, we will learn about for
+00:05 
+
+00:05  loops in Python. So let's start the
+00:07 
+
+00:07  video. So guys, we have studied the
+00:10 
+
+00:10  while loop so far, and another loop in
+00:13 
+
+00:13  Python is the for loop. But Python's
+00:15 
+
+00:15  for loop is a bit different from for
+00:18 
+
+00:18  loops in other languages. So if you
+00:21 
+
+00:21  have done C programming or Java
+00:22 
+
+00:22  programming, you will know that the
+00:24 
+
+00:24  structure of a for loop there is
+00:25 
+
+00:25  something like this. i = 0, i less than
+00:30 
+
+00:30  10, i plus plus, curly braces, and you
+00:33 
+
+00:33  write some code here. This is the
+00:37 
+
+00:37  general structure of a for loop in C ++
+00:41 
+
+00:41  or Java. Right? Python's for loop is
+00:43 
+
+00:43  slightly different. Right? And also
+00:45 
+
+00:45  very useful and very powerful. Right?
+00:47 
+
+00:47  So to learn Python's for loop, you
+00:49 
+
+00:49  first need to understand two things. I
+00:52 
+
+00:52  will explain those two things to you
+00:53 
+
+00:53  one by one. The first one is the range
+00:57 
+
+00:57  function. So this is a special built-in
+01:00 
+
+01:00  function in Python whose job is to
+01:02 
+
+01:02  generate integers in a given range. I
+01:05 
+
+01:05  will give you an example. Let's say you
+01:08 
+
+01:08  wrote range from one to 11, and as soon
+01:11 
+
+01:11  as you run it, you will get this output
+01:14 
+
+01:14 : range one to 11. Basically, whatever
+01:17 
+
+01:17  you wrote here, you got it in the
+01:18 
+
+01:18  output. But what happened internally is
+01:21 
+
+01:21  that numbers from one to 10 were
+01:24 
+
+01:24  generated. Not up to 11, but up to 10.
+01:26 
+
+01:26  11 is not included. Your first number
+01:29 
+
+01:29  is included. The last one is excluded.
+01:32 
+
+01:33  If you want to see which numbers were
+01:35 
+
+01:35  generated, you can convert it to a data
+01:37 
+
+01:37  type that you can see. Like a list. I
+01:41 
+
+01:41  converted it into a list. And you can
+01:43 
+
+01:43  see these numbers were generated. Right
+01:46 
+
+01:46 ? So the range function is very useful.
+01:48 
+
+01:48  How does the range function work? We
+01:50 
+
+01:50  will see that in the for loop after a
+01:51 
+
+01:51  while. Until then, let me show you some
+01:53 
+
+01:53  more things about the range function.
+01:55 
+
+01:55  First, you give two things in the range
+01:58 
+
+01:58  function. In fact, you give three
+01:59 
+
+01:59  things. If you look at its
+02:01 
+
+02:02  documentation, the first is start. The
+02:05 
+
+02:05  second is stop, and the third is step.
+02:07 
+
+02:07  Right? But if you give only one number.
+02:10 
+
+02:10  Suppose you only gave five, then it
+02:13 
+
+02:13  means this is the end number. The
+02:15 
+
+02:15  starting number is automatically
+02:17 
+
+02:17  assumed to be zero. Meaning if you are
+02:20 
+
+02:20  giving five, it is as if you are giving
+02:23 
+
+02:23  0, 5, so your output will be this. See,
+02:29 
+
+02:29  from zero up to four. All right? If you
+02:31 
+
+02:31  had provided 15 here, then it would
+02:34 
+
+02:34  print from zero up to 14. So, you can
+02:36 
+
+02:36  pass three things into the range
+02:38 
+
+02:38  function. Start, stop, and a third
+02:40 
+
+02:40  thing we will study in a bit, which is
+02:43 
+
+02:43  called step, and if you have given just
+02:45 
+
+02:45  a single number, then it is assumed
+02:47 
+
+02:47  that this is the stop number, and the
+02:49 
+
+02:50  start is automatically assumed to be
+02:52 
+
+02:52  zero. All right? Now next, let's study
+02:55 
+
+02:55  what the function of step is. So, the
+02:58 
+
+02:58  step, if you have noticed until now,
+03:00 
+
+03:00  the gap between any two numbers is one.
+03:03 
+
+03:03  What does step do? It increases that
+03:05 
+
+03:05  gap. All right? Or decreases it,
+03:07 
+
+03:07  depending on the case. So let's say I
+03:10 
+
+03:10  wrote here one to 11, two, so what will
+03:13 
+
+03:13  happen now? Now your numbers will still
+03:16 
+
+03:16  be generated in the same range. From
+03:18 
+
+03:18  one to 10, but the gap between every
+03:21 
+
+03:21  two numbers will be two. Step two. All
+03:24 
+
+03:24  right? Let me show you by printing it
+03:26 
+
+03:26  once. So if the first number is one,
+03:28 
+
+03:28  then the second number cannot be two.
+03:29 
+
+03:30  Because then the gap would be one. The
+03:32 
+
+03:32  second number will be three. Look at
+03:34 
+
+03:34  this. One and three. The gap between
+03:36 
+
+03:36  these two is two, five and three, the
+03:38 
+
+03:38  gap between these two is two, seven and
+03:41 
+
+03:41  nine, the gap between these is two. All
+03:44 
+
+03:44  right? If you had given three here,
+03:46 
+
+03:46  then there would be a gap of three. All
+03:49 
+
+03:49  right? I hope you are understanding
+03:51 
+
+03:51  this. If you want, you can also give
+03:52 
+
+03:53  the gap in negative. Let's say you want
+03:55 
+
+03:55  to print, I don't know. Backward
+03:58 
+
+03:58  counting from 10 to one. In that case,
+04:02 
+
+04:02  you will write this code: 10 to 0,
+04:05 
+
+04:05  comma -1, and now if you put this
+04:08 
+
+04:08  inside a list, Then it would give you
+04:13 
+
+04:13  backward counting from 10 to one. All
+04:16 
+
+04:16  right? So I hope you have understood
+04:18 
+
+04:18  how the range function works. The
+04:20 
+
+04:20  second thing you need to learn to
+04:22 
+
+04:22  understand for loops is sequence. In
+04:25 
+
+04:25  Python, there is a concept of sequence.
+04:28 
+
+04:28  So, a sequence is an order. If you are
+04:30 
+
+04:31  getting anything in an order, then it
+04:32 
+
+04:32  is a sequence. Such as a string. In a
+04:35 
+
+04:35  string, if you take the example,
+04:38 
+
+04:38  Kolkata, then it is actually a sequence
+04:41 
+
+04:42  of characters. All right? Sequence of
+04:45 
+
+04:45  characters. It can also be a sequence
+04:47 
+
+04:47  of words. Let's say Kolkata, Delhi,
+04:53 
+
+04:54  Mumbai. Now this is a sequence of words
+04:57 
+
+04:57 , or you can say that this is a list.
+04:59 
+
+05:00  Similarly, tuples are also sequences.
+05:03 
+
+05:04  Sets are also sequences. Dictionaries
+05:08 
+
+05:08  are also sequences. Okay? So a sequence
+05:11 
+
+05:11  means anything that comes to you in an
+05:13 
+
+05:13  order. Okay? Now why did we study both
+05:16 
+
+05:16  of these things? Before the for loop?
+05:18 
+
+05:18  Because what does a for loop in Python
+05:20 
+
+05:20  do? It either iterates over a sequence
+05:24 
+
+05:24  or iterates over a range function. Okay
+05:27 
+
+05:27 ? I will show you. First, I will show
+05:29 
+
+05:29  you how to iterate a loop over a range
+05:31 
+
+05:31  function. So we will write for i in
+05:36 
+
+05:36  range of 1 to 11 print i, and this is
+05:42 
+
+05:42  the output guys. What was the output of
+05:46 
+
+05:46  range? Numbers from one to ten, and you
+05:49 
+
+05:49  ran a loop over it. So the first time
+05:51 
+
+05:51  the loop ran, the value of i was the
+05:53 
+
+05:53  first number. That is one. Then the
+05:55 
+
+05:55  second time the loop ran, the value of
+05:57 
+
+05:57  i was the second number which was two,
+05:59 
+
+05:59  and so on. Okay? If you give a step of
+06:02 
+
+06:02  two here, then exactly the same things
+06:05 
+
+06:05  happen that you saw a while ago in the
+06:08 
+
+06:08  range function. Okay? You can also do
+06:11 
+
+06:11  backward counting if you want. 10, 0,
+06:14 
+
+06:14  -1. And you would get this. Okay? So
+06:19 
+
+06:19  Python's for loop, you can see, is
+06:21 
+
+06:21  different from C's for loop. There is
+06:24 
+
+06:24  no termination condition here. There is
+06:27 
+
+06:27  no increment. Okay? What is it simply
+06:30 
+
+06:30  doing overall? You are providing an
+06:32 
+
+06:32  object here, either it is a range
+06:34 
+
+06:34  function or some sequence, and what
+06:36 
+
+06:36  will your for loop do? It will simply
+06:38 
+
+06:38  iterate over it. It will cycle through
+06:40 
+
+06:40  it. There is no termination condition
+06:42 
+
+06:42  here. As soon as that object is
+06:44 
+
+06:44  finished, your loop's iteration will
+06:46 
+
+06:46  also finish. Okay? Similarly, what you
+06:49 
+
+06:49  can do is you can write this code: for
+06:51 
+
+06:51  i in "Kolkata", print i, and now what
+06:55 
+
+06:55  will happen since this is a sequence of
+06:58 
+
+06:58  characters, every time the loop runs,
+07:01 
+
+07:01  the value of i will be each sequence.
+07:04 
+
+07:04  So when the loop runs for the first
+07:05 
+
+07:05  time, the value of i will be the first
+07:07 
+
+07:07  character, then the second, then the
+07:08 
+
+07:08  third, and then the last character. As
+07:09 
+
+07:09  soon as the string ended, the loop also
+07:11 
+
+07:11  finished. You did not need to
+07:13 
+
+07:13  explicitly provide any condition. Okay?
+07:15 
+
+07:15  Let's look at another example. For i in
+07:19 
+
+07:22  1 2 3 4 5 and here I put print i, and
+07:26 
+
+07:26  this time your output is this. Okay? So
+07:32 
+
+07:32  you can see, you provide any sequence
+07:34 
+
+07:34  here or provide a range function. Your
+07:37 
+
+07:37  for loop will iterate over it and keep
+07:40 
+
+07:40  giving you the output. Okay? You can
+07:42 
+
+07:43  try this same thing with tuples. You
+07:46 
+
+07:46  can try this same thing with tuples.
+07:50 
+
+07:52  And you can try it with sets. And you
+07:58 
+
+07:58  can try it with dictionaries. I am not
+08:00 
+
+08:00  showing dictionaries right now because
+08:01 
+
+08:02  there is a small difference that we
+08:03 
+
+08:03  will study when we cover dictionaries.
+08:04 
+
+08:05  But yeah, for now, just understand that
+08:07 
+
+08:07  the for loop here is very simple. You
+08:10 
+
+08:10  give it an iterable object that you can
+08:12 
+
+08:12  iterate over, a sequence, and your for
+08:15 
+
+08:15  loop iterates over it. There is no need
+08:17 
+
+08:17  to provide an end condition. There is
+08:19 
+
+08:19  no need to provide a termination. There
+08:20 
+
+08:20  is no need to provide an increment.
+08:22 
+
+08:22  Python will do everything automatically
+08:24 
+
+08:24  behind the scenes. Okay? Now the
+08:26 
+
+08:26  question arises that we studied two
+08:27 
+
+08:28  loops. While loop and for loop. And
+08:29 
+
+08:30  both of these are very different loops.
+08:31 
+
+08:31  So the question is, when should you use
+08:35 
+
+08:35  which loop? Beginners have a bit of
+08:37 
+
+08:37  difficulty with this. But I can tell
+08:39 
+
+08:39  you from my experience. The answer is
+08:41 
+
+08:41  very simple. If you ever know
+08:43 
+
+08:43  beforehand that the loop will run
+08:45 
+
+08:45  exactly this many times. Then you
+08:47 
+
+08:47  should use a for loop. If you don't
+08:50 
+
+08:50  know how many times the loop will run,
+08:52 
+
+08:52  then use a while loop. Like in the last
+08:55 
+
+08:55  video, we built a guessing game. There,
+08:58 
+
+08:58  we didn't know how many attempts the
+09:01 
+
+09:01  user would take to guess the correct
+09:03 
+
+09:03  number. So we used a while loop there.
+09:05 
+
+09:05  In the future, I will give you some
+09:07 
+
+09:07  examples where we will know beforehand
+09:08 
+
+09:09  that the loop needs to run a specific
+09:10 
+
+09:10  number of times. In that case, you can
+09:12 
+
+09:13  very easily use a for loop. And there
+09:15 
+
+09:15  will be many places where you will be
+09:17 
+
+09:17  able to use both. But yeah, a while
+09:19 
+
+09:19  loop is more important in cases where
+09:22 
+
+09:22  you don't know the number of times you
+09:24 
+
+09:24  have to loop through. Okay? But if you
+09:27 
+
+09:27  do know, then you can use a for loop.
+09:30 
+
+09:30  Okay? So that was it for these for
+09:34 
+
+09:34  loops. Next, we will study nested loops
+09:37 
+
+09:37 .

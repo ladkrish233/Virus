@@ -1,0 +1,407 @@
+00:00 Hey Guys,
+00:01 Welcome to my YouTube Channel
+00:03 In this video,
+00:04 I am going to make an announcement.
+00:06 that, I'm going to create a new Playlist
+00:08 for my YouTube Channel.
+00:10 and I'm going to call that Playlist
+00:12 "100 days of Machine Learning"
+00:14 So...
+00:16 You might be thinking
+00:16 Sounds interesting
+00:18 But what is it exactly?
+00:19 Here's the thing
+00:21 In the past few days,
+00:22 Many of you messaged me..
+00:25 over WhatsApp or through Youtube comments regarding
+00:28 They weren't able to find..
+00:29 a end-to-end machine learning playlist on my channel.
+00:32 and that is true actually.
+00:34 If you go to my channel,
+00:35 you would find videos related to
+Machine Learning algorithms
+00:38 I've created videos on various machine learning algorithms.
+00:42 But a complete end-to-end playlist
+isn't available in my channel.
+00:47 So,I thought why not create one
+comprehensive Playlist on Machine Learning?
+00:52 So, that's the plan.
+00:54 In the coming 100 days,
+00:55 I have planned to shoot and upload one video every day.
+01:01 I've developed a structured curriculum
+01:04 To the best of my experience and knowledge,
+01:07 I think this Playlist will be more than
+sufficient to teach you..
+01:10 Intermediate-level machine learning.
+01:11 For advanced-level machine learning,
+it's completely in your hands.
+01:14 but if you're a beginner or slightly more experienced,
+01:18 If you follow the course throughout,
+01:21 I hope you'll advance to a proficient level
+in Machine Learning.
+01:26 Now comes the question about
+01:28 What are the topics we'll be covering?
+01:33 So, I will tell you something about myself
+01:35 When I began learning machine learning,
+01:37 my primary focus was on mastering ML algorithms.
+01:42 Gradually, I realized that after learning the algorithms
+01:46 and working on few projects,
+01:48 there are two essential aspects to focus on
+in Machine Learning
+01:52 One of them is learning algorithms
+01:54 knowing about algorithms is mandatory.
+01:56 But along with that,
+01:58 Simultaneously, it's crucial to understand how to
+develop an end-to-end machine learning project,
+02:01 including the complete flow.
+02:02 We call this as "Machine Learning Life Cycle"
+02:05 also known as the "Product Life Cycle".
+02:08 and beginners usually doesn't focus much on this aspect.
+02:12 Beginners often believe that knowing Machine
+Learning algorithms alone is sufficient.
+02:16 but not really.
+02:17 So, I planned in the following 100 days..
+02:20 I will start with the basics of Machine Learning
+02:23 and I'll cover the entire flow of Machine Learning.
+02:26 If you want to do a Machine Learning project,
+02:29 I'll cover all the potential challenges you might encounter while working on an Machine Learning project.
+02:37 Since we're covering 100 topics in 100 days,
+02:39 no topic will be left untouched.
+02:42 Keep in mind, we won't be delving into algorithms in this Playlist.
+02:46 We are not going to cover any of the algorithms.
+02:48 For algorithms, we already have a separate
+playlist in our channel.
+02:52 If you want to learn about any algorithms,
+02:55 then you can go to the playlist of
+that particular algorithm.
+02:60 But in this "100 days of Machine Learning",
+03:04 Here, we learn the techniques
+03:05 we learn the flow
+03:07 we learn about how we deploy.
+03:11 We'll learn how to perform imputation,
+03:13 how to perform pre-processing,
+03:14 how to perform analysis,
+03:16 model selection, feature selection,
+03:19 and such important concepts like
+03:20 What is Bias-Variance Trade Off?
+03:22 and the weighted and important topics
+03:24 that differentiates ordinary Machine Learning engineers
+03:26 from extraordinary Machine Learning engineers.
+03:28 We'll cover such topics here.
+03:31 I am still working on the curriculum
+03:33 it is not completed yet.
+03:35 I will be uploading that curriculum as well in the coming few days.
+03:38 In fact, if want any certain topic to be covered,
+03:42 you can share that with me
+03:44 and I'll be covering that topic as well.
+03:45 But I'm thinking in this 100 days,
+03:49 I have to create a resource that is meaningful for you
+03:52 and your Machine Learning journey.
+03:56 and the other question which may pop out in your mind
+03:57 For whom is this playlist intended?
+04:01 If you are a beginner, then it is definitely for you.
+04:05 and even if you know intermediate machine learning,
+04:07 it could be a great resource for you
+04:10 as you can come here
+04:13 and use this as a valuable resource
+04:16 to watch and learn anything that you could've missed,
+04:19 or gain a deeper understanding of
+familiar topics with clarity.
+04:24 This will be helpful for you in such cases.
+04:27 In short, this will benefit everyone following the channel,
+04:30 including students and professionals.
+04:33 I'll try to be very honest while making these videos
+04:37 I'll try to put my maximum effort
+04:40 So, yeah..
+04:41 This is the announcement I was planning to make.
+04:44 Now, I am not going waste any time
+04:47 I will start it today itself.
+04:49 Today we are going to cover the first topic
+04:52 which is "What is Machine Learning?"
+04:53 I know that many of you already knew it.
+04:56 However, I want to begin everything from scratch.
+04:59 So let's cover this topic:
+What is Machine Learning?
+05:02 So, let's dive into what machine learning is
+05:04 We'll start with the formal definition
+05:06 According to definition,
+05:07 Machine learning is a field of computer science
+05:10 that uses statistical techniques to give computer systems
+05:13 the ability to "learn" with data,
+without being explicitly programmed.
+05:18 To put it in simpler terms,
+05:22 Machine Learning is all about learning from data.
+05:26 There is it a term in this definition called as
+"Explicit Programming"
+05:29 Let's explore the concept of explicit programming.
+05:32 Explicit programming involves writing code for each specific scenario.
+05:35 To handle that scenario, you write a code.
+05:38 But in Machine Learning, you don't do that.
+05:40 what you do is that you've got some data
+05:42 and you've got an algorithm
+05:44 You instruct the algorithm to explore the data
+05:47 and identify patterns between input and output.
+05:51 Once you've identified the patterns,
+05:53 we provide new input to the algorithm to derive the output.
+05:58 If you check out this flow diagram,
+05:60 you can observe that in conventional programming approach
+06:03 we write a program
+06:06 for which logic is written by us.
+06:08 If you give input to that program, you'll get your output.
+06:13 But in Machine Learning, things are different.
+06:15 what you do is you provide some data.
+06:17 In that data, you give an input as well as an output
+06:21 But you haven't written any program or logic.
+06:24 That logic is generated by none other than the
+Machine Learning algorithm.
+06:29 The good part is that you don't have to write code
+for each condition/case.
+06:36 It is automatically handled by Machine Learning algorithm.
+06:39 For example, you've written code for adding two numbers
+06:44 Whenever you give two numbers to that program,
+06:47 it returns you the value of sum
+06:51 But in Machine Learning, what you will do is you give data
+06:55 You'll give an excel file in which the rows contain the numbers and their respective sum.
+07:01 Whenever Machine learning models train on that data,
+07:06 The model realises the pattern as addition.
+07:09 After training, irrespective of giving two or
+four or ten numbers as an input,
+07:13 your machine learning model knows
+that it has to perform addition.
+07:16 It adds all of them and gives to you.
+07:18 Whereas in the code written for sum of two numbers,
+07:22 If you give more than two numbers as input,
+then the program doesn't function
+07:27 since it is explicitly coded to
+perform sum of two numbers.
+07:31 That's the key difference
+07:32 I hope from the example
+07:35 you can understand the reason behind the powerful
+nature of machine learning in the industry.
+07:41 Now that we know about Machine Learning,
+07:46 Let's also discuss when and
+where Machine Learning is used
+07:51 Let us know in which type of
+scenarios, Machine Learning can be used
+07:55 and is useful than traditional software development
+07:59 I'll provide you three scenarios
+08:01 and there are other scenarios as well.
+08:03 These three scenarios feel significant to me.
+08:05 First scenario is that you can't perform
+few things using programming
+08:11 You can't write cases for everything
+08:13 In such situations, we use Machine Learning
+08:16 I will give you one real life scenario
+08:17 Consider that you are trying to build
+an e-mail spam classifier
+08:20 to detect whether the given email is spam or not.
+08:25 If you were given to write a program
+for that as a software developer,
+08:32 Then what would you possibly do?
+08:34 you will pick a bunch of e-mails
+08:36 and you'll have the information about
+that e-mail, whether is spam or not
+08:40 then you will try to create patterns for them.
+08:43 like any word such as 'discount' or 'sale'
+or 'awesome' is repeated more often
+08:49 or it is filled with bunch of pictures,
+08:51 then you create a long if-else ladder
+by using if else for each and every condition
+08:57 That would be the possible program
+for you Spam classifier.
+09:04 but let us say that you've written something like
+09:07 if 'huge' is repeated more than three times,
+09:12 huge as in discount is used,
+09:14 you'll label that e-mail to be spam.
+09:18 and somehow advertising companies
+got to know that
+09:24 if code is written to classify the mail as spam if the
+world is repeated more than three times
+09:33 then those companies might use 'big'
+or 'massive' instead of 'huge'
+09:39 then the program couldn't pick that mail as spam.
+09:46 then you've to modify the logic of the code
+09:52 to handle a new scenario
+09:54 but again, advertising companies can experiment
+with different words if they get to know about it
+09:58 In short, you've to keep changing
+the logic more frequently
+10:02 to make sure that the code runs effectively.
+10:05 In machine learning, it doesn't
+happen that way
+10:08 since it learns from data, if data changes, then it will automatically get reflected in logic
+10:14 That's the beauty of 'Machine Learning'
+10:16 You just have to write just one algorithm,
+10:19 and everything will be handled
+by that algorithm itself
+10:23 and second scenario where Machine Learning
+is useful over traditional programming
+10:30 A scenario where you cannot even
+imagine the number of cases
+10:37 like 'Image Classification'
+10:39 Let us say you want to classify dogs,
+that if dog is present in picture or not
+10:45 There will be hundreds of breeds which varies in looks,
+10:49 few large and few short,
+10:52 vary in colours and other characteristics.
+10:58 So, if you were to create a program that
+detects the presence of dog in a picture
+11:07 Can you imagine the number of cases you've to write
+inorder to cover characteristics of every breed?
+11:13 You cannot do so.
+11:15 You cannot code it
+11:18 We have use the technique that we, humans,
+use to identify dogs
+11:22 We were thought from our childhood to
+identify that particular animal is dog
+11:26 That one is not a dog, that is a cat
+11:29 Our mind mentally keeps tagging
+the name with the animal
+11:32 It keeps learning from the data
+11:35 It is also one of the scenarios where you cannot use conventional software development approach
+11:40 You'll have to use the Machine Learning approach
+11:43 One more important use case is Data Mining.
+11:47 What exactly is Data Mining?
+11:49 First, let's discuss about
+what data analysis is.
+11:53 Data analysis is a process where you extract patterns or search for hidden information
+11:59 by plotting graphs
+12:01 That is 'Data Analysis'
+12:03 but sometimes the information is more hidden
+which you won't able to get through graphs
+12:09 I'll give you one scenario
+12:11 Just by looking at the e-mail content,
+12:14 if we're unable to detect key words due
+to which we can the e-mail as spam,
+12:22 then you perform Data Mining.
+12:26 In Data Mining, you
+12:28 apply Machine Learning algorithm on the data
+12:32 you create a prediction model
+12:35 just like e-mail spam classifier
+12:38 you can check the patterns extracted by
+the Machine Learning model
+12:43 like if 'huge' is occurring more frequently,
+then there it is labeled as a spam
+12:50 if it is not that frequent, it is treated as not spam
+12:52 After applying Machine Learning,
+12:54 If you are able to extract important
+data from the information,
+13:00 That is known as "Data Mining"
+13:02 Most of the times in order to extract the hidden patterns,
+13:08 in order to perform such data analysis,
+we use Machine Learning
+13:11 and this is called as Data Mining
+13:14 Machine learning is a very important tool
+to perform data mining
+13:18 You should have understood the importance of machine learning using these 3 to 4 scenarios
+13:22 And why is it taking over the world
+13:28 Next you should be knowing a little
+history about Machine Learning
+13:35 You should be learning about it's history if you
+are starting on any new technology
+13:43 I feel that history of machine learning is more or less like Nawazuddin Siddiqui
+13:50 I hope you all know about him,
+he is a great actor
+13:54 Just like Nawazuddin Siddiqui, machine learning is already existing from a long time in the industry
+14:04 He was playing a very small role in Munna Bhai MBBS
+14:10 Similarly, machine learning is there from 40 to 50 years
+14:13 But it couldn't get into limelight like
+other important technologies
+14:20 Until the recent 2010s
+14:25 Only from then,it raised to the level
+that machine learning is today
+14:31 If you talk about Nawazuddin Siddiqui, what could be
+the success reason behind him?
+14:36 It might be the OTTs or the audience
+preferring the content-based films
+14:43 So there is a paradigm shift which led him
+to be one of the biggest actors of the country.
+14:50 Similar events occurred in the case
+of machine learning also
+14:54 All the theory and Maths existed from very long time
+15:00 but machine learning is not that famous
+15:03 because of the reason that machine learning
+requires significant amount of data
+15:10 Unfortunately,back then gathering and labelling
+the data is a quite tedious task
+15:18 Also, the inefficiency of hardware to run algorithms
+on such data back then
+15:29 After 2010, with evolution of
+internet and smartphone,
+15:33 These two problems are sorted out.
+15:36 We are generating data at a heavy pace,
+15:39 You can consider the example of your own life from morning to evening before going to bed
+15:42 So much of data is generated by yourself alone
+15:45 Then imagine the data generated by 4 billion
+Internet users around the globe
+15:51 In fact, the amount of digital data created from the starting of mankind till 2015
+15:57 is generated in 2016 alone
+16:02 That is the speed at which we are generating data
+16:05 this data is aiding the growth of machine learning
+16:10 Second thing is hardware
+16:12 In the modern day world, we ourselves are carrying up to 12GB of RAM in our pocket in the form of mobile
+16:18 We are carrying GPUs in our pocket
+16:20 which were not available to research scientists.
+16:24 Even 128MB RAM was a big deal then
+16:28 but we are equipped with good hardware,
+data and algorithms now
+16:33 That is the reason why machine learning
+is enjoying it's fruits
+16:36 This is not going to stop any time soon
+16:38 The growth curve will keep on growing exponentially
+16:42 and that is the reason for jobs in this sector
+16:44 If we talk about jobs,
+16:48 I will also have to discuss about few things
+16:55 Do you think the jobs that are available now, the salaries which we get now in this industry
+17:02 Will they continue to be same in the future?
+17:05 The answer is NO
+17:06 This is just pure economics
+17:08 When Java entered the market, only a handful
+of people were familiar with the language.
+17:12 But companies needed Java because their
+competitors were  implementing it
+17:19 Therefore, as a company, I also
+need Java in my software
+17:23 For that, I have to hire some professionals
+17:26 But when I reach out to market for hiring process, I realised that there is a lack of talent in this space
+17:31 So all the companies will be fighting for
+those few available professionals
+17:35 So that would obviously lead to
+more salary of that professional
+17:39 SIMPLE ECONOMICS
+17:41 The similar trend is now going
+on with machine learning
+17:44 Even in the colleges, machine learning is not being taught
+17:46 and many of the engineers doesn't know machine
+learning as of now, which is changing gradually
+17:51 Every time when a company goes to a college, they only find less number of students who know Machine Learning
+18:01 So they have to fight for those students
+resulting in a higher salary
+18:05 Over time, as salaries increased, more people became interested in learning the technology to secure those jobs.
+18:27 When everyone in the market learns
+machine learning in the coming few years
+18:34 Majority of the population would be knowing
+machine learning just like Java today
+18:39 Once most of the people knows machine learning,
+the salaries would be automatically normalised
+18:44 as companies will have a lot more options
+18:49 and that's the reason why they won't be paying
+high salaries that they're paying today
+18:58 The good part is that we are at an initial growing phase
+19:04 The graph of any technology will be like this,
+19:06 initially increasing and then decreasing
+19:08 The positive aspect is that for those learning machine learning, we are on an upward trajectory.
+19:14 and there is still time which I feel
+19:17 If we learn correctly now,
+19:19 we can expect to achieve the same level of success that machine learning is currently experiencing.
+19:24 I understand it's been a lengthy video,
+19:26 but this was the introduction I wanted to
+provide on machine learning.
+19:31 In the next video, we'll delve into an essential topic that often raises doubts among beginners.
+19:38 What is the difference between
+AI, ML and DL?
+19:43 We will be covering this on the next day,
+which is Monday.
+19:49 That's a wrap for this video. I hope you like it.
+19:53 If you plan to follow this series, '100 Days of ML,' please consider subscribing to the channel.
+19:59 Thank you for watching!

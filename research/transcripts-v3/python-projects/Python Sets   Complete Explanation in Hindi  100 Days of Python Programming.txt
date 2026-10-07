@@ -1,0 +1,1081 @@
+00:01 Now let's move on to an interesting
+00:02 
+
+00:02  data type, that is sets. So, sets are
+00:05 
+
+00:05  basically that same data type. Actually
+00:07 
+
+00:07 , it is the same thing that you might
+00:09 
+
+00:09  have studied in 11 th-grade math. Set
+00:11 
+
+00:11  union, set intersection, it is that
+00:13 
+
+00:13  same thing. It is just available as a
+00:15 
+
+00:15  data type in Python. Okay? Now, before
+00:19 
+
+00:19  starting sets, I would like to tell you
+00:22 
+
+00:22  four rules about sets that are very
+00:23 
+
+00:24  important. Okay? If you remember these
+00:27 
+
+00:27  four rules, then you will not make any
+00:29 
+
+00:29  mistakes in MCQ questions based on sets
+00:31 
+
+00:31  because errors in sets only happen when
+00:33 
+
+00:34  you don't know about these four rules.
+00:36 
+
+00:36  Okay? So, rule number one: sets do not
+00:41 
+
+00:42  allow duplicates. This is the first
+00:45 
+
+00:45  rule. Okay? Second: sets have no
+00:51 
+
+00:51  indexing. For that matter, slicing is
+00:55 
+
+00:55  also not there. Okay? Third: sets don't
+01:01 
+
+01:01  allow mutable data types. Meaning, you
+01:07 
+
+01:07  can never keep mutable data types
+01:09 
+
+01:09  inside a set. Fourth: a set itself is a
+01:21 
+
+01:21  mutable data type. These are the four
+01:26 
+
+01:26  rules, guys. I will repeat them once.
+01:28 
+
+01:29  Inside a set, you can never keep
+01:31 
+
+01:31  duplicates. Okay? Second: inside a set,
+01:33 
+
+01:34  there is no indexing. Meaning, if you
+01:36 
+
+01:36  have put an item inside a set. You
+01:38 
+
+01:38  cannot take it back out using indexing.
+01:40 
+
+01:40  Square bracket 0, square bracket -1
+01:42 
+
+01:42  will not work. Slicing also will not
+01:44 
+
+01:44  work. Okay? Third: mutable data types
+01:48 
+
+01:48  cannot go inside sets. Like, a list
+01:51 
+
+01:51  will not go in. Fourth: a set itself is
+01:53 
+
+01:53  also a mutable data type. Meaning, a
+01:56 
+
+01:56  set itself cannot go inside a set. So,
+01:59 
+
+01:59  would 2D sets be possible? Think about
+02:03 
+
+02:03  it. What does a 2D set mean? There
+02:05 
+
+02:05  should be a set inside a set. But a set
+02:07 
+
+02:07  cannot be inside a set because a set
+02:09 
+
+02:09  itself is mutable and by definition,
+02:11 
+
+02:11  inside a set, you cannot put mutable
+02:13 
+
+02:13  data types. So, 2D sets, 3D sets are
+02:16 
+
+02:16  not possible. They don't exist. Okay?
+02:19 
+
+02:19  Now, what will I do? We will follow the
+02:21 
+
+02:21  same order. Create, access, edit,
+02:24 
+
+02:24  delete—we will follow that same order
+02:27 
+
+02:27 . But I will prove all these four rules
+02:30 
+
+02:30  to you that yes, it really happens like
+02:32 
+
+02:32  this. Okay? So yeah, let's start with
+02:36 
+
+02:37  creating a set. Okay? Creating a set,
+02:40 
+
+02:41  let's say we want to create an empty
+02:43 
+
+02:43  set. So, creating an empty set is a bit
+02:45 
+
+02:45  difficult. Because you will feel that a
+02:47 
+
+02:47  set has been created, but this is not a
+02:49 
+
+02:49  set. I can actually prove this. If I
+02:51 
+
+02:51  put S1 inside the type function, you
+02:53 
+
+02:53  can see it has become a dictionary. So
+02:55 
+
+02:56  I think you already know that
+02:57 
+
+02:57  dictionaries also use curly braces. And
+02:59 
+
+02:59  sets also use curly braces. But Python
+03:02 
+
+03:02  has kept the default behavior for
+03:05 
+
+03:05  dictionaries. So whenever you write
+03:07 
+
+03:07  this code, it will always create an
+03:09 
+
+03:09  empty dictionary rather than an empty
+03:11 
+
+03:11  set. So if you want to create an empty
+03:13 
+
+03:14  set, you have to use this code. This is
+03:18 
+
+03:18  an empty set. Obviously, I can show you
+03:20 
+
+03:20  by typing it as well. But I guess you
+03:22 
+
+03:22  have already understood. Okay? You have
+03:26 
+
+03:26  to create an empty set using this
+03:28 
+
+03:28  function. Okay? Now I will create a
+03:31 
+
+03:31  homogeneous set in which all items will
+03:34 
+
+03:34  have the same data type. This is a
+03:40 
+
+03:40  homogeneous set. Okay? I can also have
+03:45 
+
+03:45  a heterogeneous set where different
+03:47 
+
+03:47  data types will coexist within the set.
+03:49 
+
+03:50  This can happen. Okay? So we have Hello
+03:53 
+
+03:53 , we have 4.5, we have True. Okay? And
+03:57 
+
+03:57  here is s2. Okay? Is it okay up to here
+04:00 
+
+04:00 ? Now I will prove this first rule that
+04:04 
+
+04:04  sets do not allow duplicates. Okay? So,
+04:08 
+
+04:08  I will create s3, this is equal to 1, 2
+04:11 
+
+04:11 , 3 and if I print s3, you can see that
+04:14 
+
+04:14  automatically, according to the
+04:16 
+
+04:16  internal mechanism, all the duplicates
+04:19 
+
+04:19  are removed and what are you left with?
+04:22 
+
+04:24  Unique items. Okay, please remember
+04:27 
+
+04:27  this, duplicates are not allowed. Okay?
+04:31 
+
+04:31  Now I will prove the third rule that
+04:35 
+
+04:35  sets don't allow mutable data types. So
+04:39 
+
+04:39  we are creating a set S4 and in this, I
+04:43 
+
+04:43  am going to put a list 1 2 3 and
+04:46 
+
+04:46  outside I am going to put a string.
+04:50 
+
+04:50  String, by the way, you know is
+04:53 
+
+04:53  immutable. So an error occurred because
+04:56 
+
+04:56  of this list. But if I do the same
+04:59 
+
+04:59  thing with a tuple, which you know what
+05:03 
+
+05:03  it is? Immutable, and what is a string?
+05:07 
+
+05:07  Immutable. Then S4 will be created.
+05:12 
+
+05:12  Does anyone have any doubt at this
+05:14 
+
+05:14  point? Looking at this code, is there
+05:15 
+
+05:16  any doubt? There should be one doubt.
+05:18 
+
+05:18  The doubt could be that you wrote Hello
+05:22 
+
+05:22  later. I mean, I wrote it later. But
+05:24 
+
+05:24  when the set was formed, how did Hello
+05:26 
+
+05:26  come first? How did this ordering
+05:29 
+
+05:29  change? The reason is, first of all,
+05:33 
+
+05:33  sets have no indexing, meaning the
+05:36 
+
+05:36  order in which we send items is not
+05:40 
+
+05:40  followed. Okay? But why does this
+05:42 
+
+05:43  happen? If indexing is not followed,
+05:45 
+
+05:45  then what logic is followed? The answer
+05:48 
+
+05:48  is hashing. Hashing. So what is hashing
+05:53 
+
+05:53 ? Hashing is a technique used to decide
+05:56 
+
+05:56  which position an item will go into
+05:58 
+
+05:58  within a data structure. Okay? It's a
+06:01 
+
+06:01  proper algorithmic technique and we
+06:03 
+
+06:03  will study it in detail when we cover
+06:05 
+
+06:05  DS Algo. But at this point, if anyone
+06:08 
+
+06:08  asks why the set is showing so much
+06:10 
+
+06:10  randomness? Things are going just
+06:11 
+
+06:11  anywhere. Something similar happened in
+06:13 
+
+06:13  yesterday's class where the set
+06:15 
+
+06:15  misbehaved. So the answer for that is
+06:17 
+
+06:17  hashing. And why exactly did "hello" go
+06:20 
+
+06:20  first? We will learn the reason for
+06:22 
+
+06:22  this when we study hashing. Where we
+06:24 
+
+06:24  calculate hashes and then find the
+06:26 
+
+06:26  index position, and we get the idea
+06:28 
+
+06:28  that okay, this thing will sit here.
+06:30 
+
+06:31  This thing will sit here. Okay? So
+06:33 
+
+06:33  don't get confused for now. Whenever
+06:34 
+
+06:34  sets misbehave like this, it is because
+06:36 
+
+06:36  of hashing. Okay? Okay. So we have
+06:40 
+
+06:40  proved this. We have also proved this.
+06:45 
+
+06:45  And we can also prove that 2D sets are
+06:48 
+
+06:48  not possible. So I will create S5 and
+06:52 
+
+06:52  inside it, I will try to put one more
+06:54 
+
+06:54  set and this is a second set, and this
+06:57 
+
+06:57  will throw an error. Focus on this word
+07:00 
+
+07:00  too. It says unhashable type: 'set'.
+07:03 
+
+07:03  Okay? It said unhashable type: 'list'
+07:06 
+
+07:06  here as well. Both of these happened
+07:08 
+
+07:08  because they are mutable data types. So
+07:11 
+
+07:11  by definition, you cannot create 2D or
+07:13 
+
+07:13  3D or 4D sets. Okay? So now. Now let's
+07:18 
+
+07:18  move on to accessing items. Let's do
+07:22 
+
+07:22  how to access items. Okay? So I have S2
+07:27 
+
+07:27 . I have S1 and let's say I want to
+07:30 
+
+07:30  extract 1 from S1. And now I am going
+07:32 
+
+07:33  to prove, by the way, this rule that
+07:35 
+
+07:35  indexing and slicing does not work.
+07:37 
+
+07:37  Okay? So if I write S1 square bracket 0
+07:41 
+
+07:41 , you cannot do that. Look here, it
+07:45 
+
+07:45  says 'set' object does not support
+07:47 
+
+07:47  indexing. Okay? Positive indexing won't
+07:50 
+
+07:50  work, negative indexing won't work
+07:53 
+
+07:53  either. Okay? And even slicing won't
+07:56 
+
+07:57  work either. Okay? So I hope you have
+08:00 
+
+08:00  understood this. So basically, this
+08:02 
+
+08:02  thing does not work here. You cannot
+08:04 
+
+08:05  access items out of a set. You cannot
+08:07 
+
+08:07  extract them. Not possible. Okay? So
+08:09 
+
+08:09  now comes the question. Can we edit
+08:12 
+
+08:12  items? Can we edit the items? It just
+08:16 
+
+08:16  doesn't work. You cannot edit items.
+08:19 
+
+08:20  Now some people here might think, what
+08:23 
+
+08:23  if we do one thing, that we convert
+08:26 
+
+08:26  sets into a list. Lists have indexing.
+08:29 
+
+08:30  Change it and then convert it back into
+08:32 
+
+08:32  a set. Do you think this method will
+08:34 
+
+08:34  work? Will editing happen with this?
+08:36 
+
+08:37  What do you think, guys? What I am
+08:39 
+
+08:39  saying is that you convert the set into
+08:41 
+
+08:41  a list. You can edit in a list. Do the
+08:44 
+
+08:44  editing. Convert it back into a set.
+08:46 
+
+08:46  This will not work. I mean, the task
+08:48 
+
+08:48  will be done. But you didn't actually
+08:49 
+
+08:49  do any editing. The reason for that is
+08:51 
+
+08:51  you created a new set. Meaning, editing
+08:54 
+
+08:54  won't happen in the same set. I can
+08:55 
+
+08:55  actually prove this. Watch carefully.
+08:58 
+
+08:58  Here is S1 and here is S 1's memory
+09:01 
+
+09:01  address. It is stored here. Okay? Now
+09:04 
+
+09:04  what did I do? I made a list L which is
+09:07 
+
+09:07  a type conversion of S1. Is that okay
+09:10 
+
+09:10  so far? This is l. Now what am I doing?
+09:13 
+
+09:13  I am replacing one with 100. So I would
+09:15 
+
+09:15  write L of zero is equal to 100. So now
+09:19 
+
+09:19  l is this. Now what did I do? I wrote
+09:21 
+
+09:22  S1 equal to set of L and here is my S1,
+09:27 
+
+09:27  this is a different set. Take a look
+09:30 
+
+09:31  once. Now if you find the ID of S1 It's
+09:35 
+
+09:35  a different ID. So, what does editing
+09:38 
+
+09:38  actually mean? That you are able to
+09:41 
+
+09:41  change things at the same memory
+09:43 
+
+09:43  address. That isn't happening. You are
+09:45 
+
+09:45  creating a new set at a completely new
+09:47 
+
+09:47  address and putting something into it.
+09:49 
+
+09:49  So we wouldn't call that editing. This
+09:51 
+
+09:51  is not editing. So in short, you cannot
+09:55 
+
+09:55  edit sets. You cannot, there is no
+09:58 
+
+09:58  mechanism available. Although sets are
+10:00 
+
+10:00  mutable data types, you cannot access
+10:02 
+
+10:02  the items, and if you cannot access
+10:05 
+
+10:05  them, you cannot edit them either. I
+10:08 
+
+10:08  hope you are understanding this. Okay?
+10:10 
+
+10:11  Now, can we delete items? Can we add
+10:14 
+
+10:14  items? We can't edit, though. Can we
+10:17 
+
+10:17  add items? The answer is yes. In an
+10:19 
+
+10:19  existing set, like we have S1. You can
+10:23 
+
+10:23  add items by using the add function.
+10:26 
+
+10:27  Let's say I wanted to add six. And here
+10:29 
+
+10:29  is S1. Okay? So if you are able to add,
+10:33 
+
+10:33  the memory is the same. Meaning, I can
+10:36 
+
+10:36  actually prove this that the memory
+10:37 
+
+10:37  doesn't change by adding. Here it is.
+10:40 
+
+10:40  Now I will use S1 dot add to add seven.
+10:44 
+
+10:44  Here is my S1 and the ID of S1, you
+10:47 
+
+10:47  will find it is still the same. This
+10:52 
+
+10:52  proves that you are able to add items
+10:55 
+
+10:55  at the same address in in-place memory.
+10:58 
+
+10:58  So this proves that set is a mutable
+10:60 
+
+10:60  data type. So we just proved this last
+11:02 
+
+11:02  point. This one. Okay? So you can add,
+11:10 
+
+11:10  and you can also remove. Okay? You can
+11:12 
+
+11:12  also delete. So there are three
+11:14 
+
+11:14  mechanisms for deletion. First, the del
+11:17 
+
+11:17  keyword, second, remove, and third, pop
+11:21 
+
+11:21 . Okay? You know about the del keyword,
+11:26 
+
+11:26  let's say you have S1 and what did you
+11:29 
+
+11:30  do? I don't want to delete S1. There is
+11:32 
+
+11:32  S2. Let's say you wrote del S2 and that
+11:35 
+
+11:36  will delete the entire set. Okay? Now,
+11:40 
+
+11:40  can we do this? Someone think and tell
+11:43 
+
+11:43  me. s1 Zero. I am deleting the first
+11:48 
+
+11:48  item of this set. Will this work? If
+11:51 
+
+11:51  you have been following the class
+11:53 
+
+11:53  properly so far, you would know there
+11:55 
+
+11:55  is no indexing. So this code will not
+11:58 
+
+11:58  work. So your del keyword will apply to
+12:01 
+
+12:01  the entire set, but not to individual
+12:04 
+
+12:04  items or a set of items. Okay? So
+12:07 
+
+12:07  please be careful with this code. Next
+12:09 
+
+12:09  is remove. Remove is a great thing
+12:12 
+
+12:12  where you can remove any item as per
+12:15 
+
+12:15  your choice. Let's say I want to remove
+12:17 
+
+12:18  100. Then I would use this code. And it
+12:23 
+
+12:23  will remove 100 and the memory will not
+12:27 
+
+12:27  change. The address will not change. So
+12:30 
+
+12:30  again, it's a mutable operation. Okay?
+12:32 
+
+12:33  You can also pop, S 1.pop, it pops the
+12:37 
+
+12:37  item that is at the very last. Now you
+12:42 
+
+12:42  might think it's seven, but it will be
+12:45 
+
+12:45  two. Why? Again, because of hashing. So
+12:49 
+
+12:49 , according to hashing, two is stored
+12:52 
+
+12:52  at the very last address. I mean, this
+12:55 
+
+12:55  is how storage happens inside sets. We
+12:57 
+
+12:57  will discuss this. When we study
+12:58 
+
+12:58  hashing, we will discuss sets in full.
+13:00 
+
+13:00  Then you will understand why pop is
+13:02 
+
+13:02  showing such reverse behavior. Okay?
+13:04 
+
+13:05  Five, then four, that is how the
+13:06 
+
+13:06  deletion will happen. Okay? So that was
+13:09 
+
+13:09  deletion. Okay? Now I will show you
+13:14 
+
+13:14  some set operations. Set operations.
+13:18 
+
+13:18  Okay? Let's say we have an S1. I am
+13:20 
+
+13:20  creating completely new sets. 1 2 3 4 5
+13:23 
+
+13:23  and let's say I have S2 and this is 3 4
+13:28 
+
+13:28  5 6 7. Okay? First of all, you cannot
+13:32 
+
+13:32  concatenate here. This operation is not
+13:34 
+
+13:35  available. Until now, in lists, strings
+13:36 
+
+13:36 , and tuples, this operation was
+13:38 
+
+13:38  present in all three. It is not in sets
+13:40 
+
+13:40 . Okay? And also you cannot multiply
+13:43 
+
+13:43  sets. Like how it was possible in the
+13:45 
+
+13:45  previous three data structures, it
+13:46 
+
+13:46  doesn't work here. Okay? So again
+13:48 
+
+13:49  remember this, but you can run a loop
+13:51 
+
+13:51  here. For i in s1 Print i, this will
+13:58 
+
+13:59  work. Looping works. Okay? Similarly,
+14:01 
+
+14:01  membership operators also work. 1 in s1
+14:04 
+
+14:04  will work. Okay? So if you talk about
+14:07 
+
+14:07  operators, concatenation is not working
+14:10 
+
+14:10 , multiplication is not working, but
+14:12 
+
+14:12  looping and membership operators are
+14:14 
+
+14:14  available. Okay? If you talk about
+14:16 
+
+14:17  functions, some common functions are
+14:19 
+
+14:19  useful everywhere and come in handy.
+14:21 
+
+14:22  Like length. So length of S1 will give
+14:24 
+
+14:24  me how many items are present inside S1
+14:27 
+
+14:27 . Okay? Similarly, if all are the same
+14:30 
+
+14:30  type, numerical, then you can also find
+14:33 
+
+14:33  min and max. Okay? And you can also
+14:39 
+
+14:39  find sum by the way, and you can also
+14:43 
+
+14:43  do sorted of S1, so this will convert
+14:46 
+
+14:46  this set into a list. Okay? And
+14:50 
+
+14:50  obviously, you can also add a reverse
+14:53 
+
+14:53  parameter here. We have already seen
+14:56 
+
+14:56  all of this. Okay? Now there are
+15:01 
+
+15:01  certain functions which are specific to
+15:03 
+
+15:03  sets that only sets can use. These are
+15:06 
+
+15:06  the most interesting ones. Okay? Like
+15:08 
+
+15:08  there is a function called union, s1
+15:11 
+
+15:11  union s2, by the way, this is s1 s2.
+15:14 
+
+15:14  Let me show you. Then you shouldn't be
+15:16 
+
+15:16  confused. s2 and s1 dot union s2, I
+15:20 
+
+15:20  guess you understand what the output
+15:25 
+
+15:25  will be. All the numbers, all the
+15:28 
+
+15:28  unique numbers in both the sets. Okay?
+15:31 
+
+15:31  Then there is S1 dot intersection. And
+15:37 
+
+15:37  again I hope you can tell that the
+15:39 
+
+15:39  output would be 3, 4, 5 because these
+15:40 
+
+15:41  are the common ones. Okay? Then we also
+15:45 
+
+15:45  have S1 dot difference. The spelling of
+15:51 
+
+15:51  difference is correct, right? S2, what
+15:55 
+
+15:55  is S1 dot difference S2? Those items
+16:01 
+
+16:01  that are in S1 but not in S2. The
+16:03 
+
+16:03  answer would be 1 and 2. Okay? And if
+16:06 
+
+16:06  you write the reverse of this, S2 dot
+16:09 
+
+16:12  difference S1, then those items that
+16:15 
+
+16:15  are in S2 but not in S1. 6, 7, okay?
+16:18 
+
+16:19  And then we have S1 dot symmetric
+16:22 
+
+16:23  difference S2, so all those items that
+16:28 
+
+16:28  are not in each other, 1, 2 and 6, 7.
+16:31 
+
+16:31  Okay, then we have some more functions
+16:34 
+
+16:34  like isdisjoint. What are disjoint sets
+16:37 
+
+16:37 ? When there is not a single item
+16:39 
+
+16:39  common between two sets, that is called
+16:42 
+
+16:42  a disjoint set. So I think you
+16:44 
+
+16:44  understand the answer will be False
+16:46 
+
+16:46  because there are some common items
+16:47 
+
+16:48  between S1 and S2. Okay? Then we also
+16:51 
+
+16:51  have is_subset. Subset means All items
+17:00 
+
+17:00  of S1 are in S2, and S2 has some of its
+17:03 
+
+17:03  own items too. That is not the case.
+17:04 
+
+17:05  That is why it will return false. S1
+17:06 
+
+17:07  dot is_superset S2, is S2 a superset of
+17:14 
+
+17:14  S1? No, is S1 a superset of S2? It is
+17:18 
+
+17:18  not. So the answer would be false. Okay
+17:22 
+
+17:22 ? So these are some functions that are
+17:24 
+
+17:24  available to you for sets. Okay? So
+17:28 
+
+17:28  yeah guys, that's it. This is all we
+17:31 
+
+17:31  had to study in sets. In fact, we
+17:32 
+
+17:32  didn't even need to study this much. I
+17:33 
+
+17:33  have taught you almost everything. A
+17:36 
+
+17:36  couple of functions might still be left
+17:38 
+
+17:38 , they are probably not that important.
+17:40 
+
+17:41  If you wait and type here, you will get
+17:43 
+
+17:43  a list of all the functions that are
+17:45 
+
+17:45  available like this. Okay? So I have
+17:48 
+
+17:48  covered almost everything here. One or
+17:50 
+
+17:50  two might not be there, you can check
+17:52 
+
+17:52  those yourself once. Okay? Like clear,
+17:54 
+
+17:54  etc. You know what clear will do. Clear
+17:56 
+
+17:56  will clear the set. Okay? So now S1
+17:59 
+
+17:59  will be an empty set. Okay? So that's
+18:02 
+
+18:02  it. This is all you had to study in
+18:04 
+
+18:04  sets, guys.

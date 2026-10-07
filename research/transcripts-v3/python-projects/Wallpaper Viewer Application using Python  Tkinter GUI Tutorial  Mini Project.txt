@@ -1,0 +1,802 @@
+00:00 Hi guys, my name is Nitish and you are
+00:03 
+
+00:03  welcome to my YouTube channel. In the
+00:05 
+
+00:06  last video, we learned how to build a
+00:08 
+
+00:08  GUI in Python using a library called
+00:10 
+
+00:10  Tkinter. Okay? In this video, we will
+00:15 
+
+00:15  extend that a bit and use what we
+00:17 
+
+00:17  learned last time to build a small but
+00:19 
+
+00:19  useful application. The name of our
+00:23 
+
+00:23  application is Wallpaper Viewer. So, it
+00:28 
+
+00:28  is a small application where we will
+00:30 
+
+00:30  browse all the images inside your
+00:31 
+
+00:31  folder and display them on our
+00:33 
+
+00:33  application. So, the first image will
+00:37 
+
+00:37  load initially. Clicking 'Next' will
+00:39 
+
+00:39  load the second, then the third, and so
+00:42 
+
+00:42  on. Okay? So we have to build this
+00:44 
+
+00:44  using Tkinter. If you haven't watched
+00:46 
+
+00:46  the previous video and you don't know
+00:48 
+
+00:48  Tkinter, I would first recommend that
+00:50 
+
+00:50  you go and watch that video, then you
+00:52 
+
+00:52  will find this video very easy. Okay?
+00:54 
+
+00:54  Now let's start the video. So let me
+00:56 
+
+00:57  first show you the demo. On the screen
+00:59 
+
+00:59  is this small demo app. There were only
+01:02 
+
+01:02  three images in my folder. If there are
+01:04 
+
+01:04  more, it will browse more. It's okay.
+01:06 
+
+01:06  It makes no difference. So these are
+01:08 
+
+01:08  the three images. Clicking on next
+01:09 
+
+01:09  loaded the next image. Clicking next
+01:11 
+
+01:11  again loaded the next, and as soon as I
+01:13 
+
+01:13  clicked next again, it rotated back to
+01:16 
+
+01:16  the first image. And this cycle will
+01:17 
+
+01:18  continue. Okay? So we have to build
+01:20 
+
+01:20  this application and we will try to
+01:21 
+
+01:21  make the GUI look a bit better. Okay?
+01:23 
+
+01:24  So what did I do first? I created a new
+01:27 
+
+01:27  Python file named wallpaper_viewer.py.
+01:30 
+
+01:30  Also, if you notice, in my project
+01:32 
+
+01:32  folder, there is a folder called '
+01:35 
+
+01:35 wallpapers' which contains three images
+01:37 
+
+01:37 . This is the first image, this is the
+01:40 
+
+01:40  second, and this is the third. Okay? So
+01:44 
+
+01:44  we need to build an application that
+01:46 
+
+01:46  will go inside the wallpapers folder
+01:48 
+
+01:48  and load all the images present there.
+01:50 
+
+01:52  Whether it's three or three thousand,
+01:54 
+
+01:54  it will load them all and show them on
+01:56 
+
+01:56  clicking next. Okay? This is what we
+01:58 
+
+01:58  need to build. The code will be just
+02:00 
+
+02:00  like last time; first, what we do is...
+02:03 
+
+02:03 let's build a bit of the UI. After that
+02:05 
+
+02:05 , we will move forward. For that, you
+02:08 
+
+02:08  first need to import from Tkinter...all
+02:14 
+
+02:14  the classes. Also, we need to load
+02:16 
+
+02:16  images here. So we will write, "from
+02:22 
+
+02:23  PIL import Image, ImageTk". Now, we
+02:29 
+
+02:29  will start coding from here. First, we
+02:31 
+
+02:31  will create a root object of the Tk
+02:33 
+
+02:34  class. And we will write root.mainloop.
+02:39 
+
+02:41  With just this, our GUI will be ready.
+02:43 
+
+02:43  Let me quickly show it to you. If we
+02:46 
+
+02:46  run this. Here is our GUI, guys. Okay?
+02:51 
+
+02:52  I am fixing its size. Also, I am
+02:55 
+
+02:55  changing the title. So I would write
+03:02 
+
+03:02  root.title and I would write Wallpaper
+03:04 
+
+03:04  Viewer. After this, I will set its
+03:11 
+
+03:11  geometry. We will keep the geometry at
+03:14 
+
+03:14  200. x 350 or 400. Let's make it 250
+03:22 
+
+03:22  and see how it looks now. Yes, it looks
+03:31 
+
+03:31  like this, and our app will run at this
+03:33 
+
+03:33  size. Okay, for the background, we can
+03:39 
+
+03:39  set it to black: root.configure
+03:42 
+
+03:42  background = 'black'. Okay? And let's
+03:49 
+
+03:49  run it once more to see. Yes, like this
+03:56 
+
+03:56 . Here, if you want, you can put a
+03:59 
+
+03:59  label at the top, Wallpaper Viewer. But
+04:01 
+
+04:01  it's fine. We will directly show the
+04:03 
+
+04:03  images. Now look, the main work starts
+04:05 
+
+04:05  from here. What do you need to do?
+04:07 
+
+04:07  First, as I showed you in the last
+04:09 
+
+04:09  video, how to load a single image. We
+04:12 
+
+04:12  will do the same thing, but this time
+04:14 
+
+04:14  in a loop. How many times will the loop
+04:16 
+
+04:16  run? As many images as we have in our
+04:18 
+
+04:18  folder. Okay? So look, what will we do?
+04:21 
+
+04:21  First, we will go to the top and import
+04:23 
+
+04:23  the OS module. Using the OS module, you
+04:26 
+
+04:26  can navigate inside files and folders.
+04:29 
+
+04:29  So what will I do first? I will write
+04:33 
+
+04:33  os.listdir and give my directory name,
+04:35 
+
+04:35  'wallpapers'. It will give me the names
+04:40 
+
+04:40  of all files inside 'wallpapers'. So
+04:43 
+
+04:43  what do I do? I will go here and just
+04:45 
+
+04:45  print what's inside the files. Just to
+04:49 
+
+04:49  show you, we are running this code. See
+04:55 
+
+04:55 , a list is created containing the
+04:57 
+
+04:57  names of three images. These three
+04:60 
+
+04:60  images. But I need the complete path.
+05:02 
+
+05:04  So what I would do is write 'for i', or
+05:06 
+
+05:07  rather 'for file in files'. I will pick
+05:12 
+
+05:12  up every file and what will I do? I
+05:15 
+
+05:15  will create an array. I will create an
+05:20 
+
+05:20  image array that will hold all our
+05:21 
+
+05:22  image objects that we need to load.
+05:23 
+
+05:25  Okay? Now what will I do? I will go in
+05:29 
+
+05:29  one by one and I would write image =
+05:31 
+
+05:31  image.open. Exactly, I am doing all
+05:35 
+
+05:35  this work inside the loop. You can see
+05:38 
+
+05:38  this entire task, I will do it inside
+05:40 
+
+05:40  the loop. Okay? And here I have to
+05:43 
+
+05:43  provide the complete path. So for that,
+05:46 
+
+05:47  I would write OS dot path dot join, and
+05:49 
+
+05:49  here I’ll write "wallpapers" for the
+05:51 
+
+05:51  full path. Comma, I will write "
+05:54 
+
+05:54 individual file". So this will give me
+05:56 
+
+05:56  the complete path of an image. I have
+05:59 
+
+05:59  opened it. Now I need to resize it. So
+06:06 
+
+06:06  I would write resized underscore image
+06:09 
+
+06:09  is equal to, I will call the image dot
+06:11 
+
+06:11  resize function, and let's say for now
+06:14 
+
+06:14  we keep it 200, 300; this will be my
+06:16 
+
+06:16  resized image, and then what will we do
+06:19 
+
+06:19 ? We will exactly repeat this line, the
+06:26 
+
+06:26  image tk photo image one. So we would
+06:32 
+
+06:32  write image tk dot photo image, and
+06:34 
+
+06:34  here I would write image, or I should
+06:36 
+
+06:36  directly pass the resized image I have,
+06:38 
+
+06:38  and this image object that is now being
+06:40 
+
+06:40  created, I will append it inside. So I
+06:47 
+
+06:47  would write image array dot append. So
+06:54 
+
+06:54  as soon as this loop ends, I will have
+06:56 
+
+06:56  three image objects in this array which
+06:58 
+
+06:58  I can load onto my GUI. See, here we
+07:06 
+
+07:06  have those three PIL image objects;
+07:08 
+
+07:08  this is for the first image. This is
+07:11 
+
+07:11  for the second image and then for the
+07:13 
+
+07:13  third image. Now what do I just have to
+07:15 
+
+07:15  do? Come here and I need to display my
+07:17 
+
+07:17  image here. So to display the image, I
+07:20 
+
+07:20  will create a label. Let's call that
+07:24 
+
+07:24  image label. This will be placed onto
+07:27 
+
+07:27  the root. And the image for this, the
+07:31 
+
+07:31  first time you start the app, you have
+07:33 
+
+07:33  to load the first image. So I would
+07:37 
+
+07:37  write the zeroth item of the image
+07:39 
+
+07:39  array, and I will write image label dot
+07:41 
+
+07:41  pack. I will fit it on the screen. And
+07:46 
+
+07:46  now I ran it. You would see this, our
+07:51 
+
+07:51  first image is visible to us. Okay? If
+07:55 
+
+07:55  you want a little gap from the top, I
+07:57 
+
+07:57  told you in the last video. You will
+07:60 
+
+07:60  write pad y, we want 15 from the top
+08:02 
+
+08:02  and 10 from the bottom. Let's run it
+08:06 
+
+08:06  one more time. Look, it has moved down
+08:09 
+
+08:09  a bit from the top. Now, it's done up
+08:11 
+
+08:11  to here. Now, below this, I need to add
+08:14 
+
+08:14  a button. So what I will do is, I would
+08:16 
+
+08:16  write next underscore button, creating
+08:18 
+
+08:18  a button. Which will be an object of
+08:21 
+
+08:21  the button class. It will sit on the
+08:23 
+
+08:23  root. It will have text on it. Uh It
+08:28 
+
+08:28  will have the text "Next" on it. It is
+08:31 
+
+08:31  the next button. Uh, its background
+08:34 
+
+08:34  color would be white. And its
+08:39 
+
+08:39  foreground color, as in font color,
+08:41 
+
+08:42  would be black. Okay? Its width would
+08:49 
+
+08:49  be 25 and height would be two, and I
+08:51 
+
+08:51  have packed the next button. So that
+08:57 
+
+08:57  this button is visible to us. Let's run
+08:60 
+
+08:60  this code. Let's see. Look here guys,
+09:07 
+
+09:07  here is our button. You can match it if
+09:10 
+
+09:10  you want. Let's make it 28 just to make
+09:14 
+
+09:14  it look a little better. Yeah, that
+09:20 
+
+09:20  looks good. Alright? Now what do we
+09:22 
+
+09:22  need to do? On this next click, we need
+09:24 
+
+09:24  to develop a functionality so that the
+09:26 
+
+09:26  next, next, next image appears, and as
+09:28 
+
+09:28  soon as it reaches the last one, if you
+09:30 
+
+09:30  press next again, the first image comes
+09:33 
+
+09:33  back. Alright? So I told you, how do
+09:35 
+
+09:35  you handle a button click? You attach a
+09:39 
+
+09:39  function to it using the command
+09:41 
+
+09:41  attribute. Here I have written a
+09:45 
+
+09:45  function name called rotate image.
+09:47 
+
+09:48  Alright? And now I am going up. And
+09:53 
+
+09:53  here I am creating a function rotate
+09:55 
+
+09:55  image. Also, what am I doing? Where I
+10:02 
+
+10:02  created the root, I am creating a
+10:04 
+
+10:04  variable called counter that will
+10:06 
+
+10:06  always keep track of which image is
+10:08 
+
+10:08  currently on the screen or which next
+10:09 
+
+10:09  image will come on screen. Alright? And
+10:14 
+
+10:14  here I will change that counter. Since
+10:16 
+
+10:16  it is a global variable. I will have to
+10:19 
+
+10:19  use the global keyword to make changes
+10:20 
+
+10:21  to it. Now what will I do? It is very
+10:24 
+
+10:24  simple. As soon as the first image is
+10:27 
+
+10:27  loaded, that is the zeroth image is
+10:29 
+
+10:29  loaded. So if they press next, I need
+10:31 
+
+10:31  to load the second image which has
+10:33 
+
+10:33  index position one. So as soon as
+10:34 
+
+10:34  someone clicks the button, I would
+10:36 
+
+10:36  write this code. I would write image
+10:41 
+
+10:41  label, inside which the image is being
+10:44 
+
+10:44  displayed, dot config, I will change
+10:46 
+
+10:46  the image, and in its place, I will put
+10:48 
+
+10:48  the image array's current counter value
+10:50 
+
+10:50  and increase the counter by one so that
+10:52 
+
+10:52  the next time next is pressed, the
+10:54 
+
+10:54  third image loads. Let me show you
+11:00 
+
+11:00  whether this functionality is working
+11:02 
+
+11:02  or not. The first time, the counter
+11:05 
+
+11:05  value is one. As soon as you pressed
+11:07 
+
+11:07  next. Look, the next image loaded. The
+11:12 
+
+11:13  next image loaded. Now when I click on
+11:15 
+
+11:15  next, the code will break. Because my
+11:17 
+
+11:17  list is finished. So here I have to
+11:18 
+
+11:19  develop a mechanism so that as soon as
+11:20 
+
+11:21  we reach the last item. It rotates back
+11:23 
+
+11:23  to the first. And I guess you must have
+11:25 
+
+11:25  studied all these techniques in coding.
+11:26 
+
+11:27  You don't have to do anything. Here you
+11:29 
+
+11:29  just have to apply the modulus with the
+11:31 
+
+11:31  length of your array. Basically, what
+11:34 
+
+11:34  are you doing? You are doing counter
+11:36 
+
+11:36  modulus three every time. So when the
+11:38 
+
+11:38  button was pressed for the first time,
+11:40 
+
+11:40  the counter value was one. What is one
+11:42 
+
+11:42  modulus three? One. So image number one
+11:44 
+
+11:44 , as in the second image, will load.
+11:47 
+
+11:47  The counter was increased to two. So
+11:49 
+
+11:49  now, what is two modulus three? It is
+11:51 
+
+11:51  two. So the third image will load again
+11:53 
+
+11:53 . Then two was increased to three. What
+11:55 
+
+11:55  is three modulus three? It is zero. So
+11:57 
+
+11:57  the first image loaded. Then it became
+11:59 
+
+11:59  four. What is four modulus three? One.
+12:02 
+
+12:02  So the first image loaded again. This
+12:04 
+
+12:04  is our code. We ran it. Next, the
+12:06 
+
+12:06  second image. Next, the third image.
+12:09 
+
+12:09  Next, look here. It is working. And the
+12:15 
+
+12:15  best part is that if I come tomorrow
+12:17 
+
+12:17  and add another image here. Suppose I
+12:22 
+
+12:22  copied this image and put it inside. So
+12:29 
+
+12:29  now I have four images in my folder.
+12:31 
+
+12:32  Now I am running this code again. Look,
+12:40 
+
+12:40  since the Flipkart one was first, it
+12:42 
+
+12:42  loaded first. Second, third, fourth,
+12:44 
+
+12:45  fifth, back to the first one loaded. So
+12:47 
+
+12:47  this is a code which is flexible. You
+12:49 
+
+12:49  can keep adding as many images as you
+12:51 
+
+12:51  want to that wallpaper folder, it will
+12:53 
+
+12:53  handle them all, and after reaching the
+12:55 
+
+12:55  last one, it will automatically return
+12:57 
+
+12:57  to the first. We wrote that rotation
+12:59 
+
+12:59  code. Right? So I hope you understood
+13:01 
+
+13:01  this. It is a small application, a
+13:03 
+
+13:03  sweet application, but if you are just
+13:05 
+
+13:05  starting to learn, it is a good
+13:06 
+
+13:06  application to practice your skills. So
+13:08 
+
+13:08  I would recommend, try building it
+13:10 
+
+13:10  yourself once after the video, you will
+13:12 
+
+13:12  enjoy it. Right? So that's it. There is
+13:15 
+
+13:15  one more video left in this series,
+13:16 
+
+13:17  where we will build our own calculator.
+13:19 
+
+13:19  Right? So if you liked the video, then
+13:21 
+
+13:21  like it and subscribe to the channel.
+13:23 
+
+13:23  Thanks for watching. Bye.

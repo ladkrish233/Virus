@@ -1,0 +1,769 @@
+00:00 Hi guys, welcome to my YouTube channel.
+00:02 
+
+00:02  This is 100 Days of Python programming
+00:05 
+
+00:05  and today is day eight. Today we are
+00:07 
+
+00:07  going to study loops. If you have ever
+00:10 
+
+00:10  done any programming, you have probably
+00:12 
+
+00:12  heard this word because it is a very
+00:13 
+
+00:13  famous topic in programming. No matter
+00:16 
+
+00:16  what language you learn to program in,
+00:18 
+
+00:18  you have to study loops. Okay? So loops
+00:20 
+
+00:20 , or you can also call them iteration
+00:23 
+
+00:23  control blocks. What are these? If you
+00:26 
+
+00:26  go by the definition, let me explain it
+00:28 
+
+00:28  to you in very simple words. If you
+00:30 
+
+00:30  want to do any task repeatedly in
+00:32 
+
+00:32  programming, the same task again and
+00:35 
+
+00:35  again, then you put it inside a loop.
+00:37 
+
+00:38  Okay? Now, many people know how to run
+00:41 
+
+00:41  loops. How to code them. But very few
+00:45 
+
+00:45  students know exactly where loops are
+00:47 
+
+00:47  used. So, we use many software
+00:50 
+
+00:50  throughout the day. Can you imagine?
+00:53 
+
+00:54  Think of any one software where loops
+00:56 
+
+00:56  are used. I will tell you my personal
+00:59 
+
+00:59  story. When I was sitting for
+01:01 
+
+01:01  placements, I was asked where loops are
+01:03 
+
+01:03  used. And at that time, since I wasn't
+01:06 
+
+01:06  very much into programming, I gave a
+01:08 
+
+01:08  very novice answer. A very basic answer
+01:11 
+
+01:11 . I said for printing tables, and
+01:14 
+
+01:14  seeing the HR's reaction, I clearly
+01:17 
+
+01:17  understood that I wasn't going to get
+01:19 
+
+01:19  the job. Okay? So, first of all, what
+01:22 
+
+01:22  will I do? I will explain to you where
+01:24 
+
+01:24  loops are used. Okay? Whenever you are
+01:27 
+
+01:27  studying anything, you should know
+01:29 
+
+01:29  where its real-world use is. Okay? So,
+01:32 
+
+01:32  first we will look at that, and then we
+01:34 
+
+01:34  will look at how many types of loops
+01:35 
+
+01:35  there are in Python and how they are
+01:37 
+
+01:37  used. Okay? So, let's start the video.
+01:40 
+
+01:40  So guys, first we need to understand
+01:43 
+
+01:43  where we should use loops. Okay? I will
+01:47 
+
+01:47  give you such a practical example that
+01:48 
+
+01:48  if you give this example in front of
+01:50 
+
+01:50  your HR, you will surely get the job.
+01:52 
+
+01:53  Okay? So, in front of us is a Flipkart
+01:56 
+
+01:57  webpage, and here I have searched for
+01:59 
+
+01:59  Mi mobiles, Redmi company phones. So,
+02:02 
+
+02:02  if you look at this point on this page,
+02:05 
+
+02:05  there are 41 results. Okay? Here is the
+02:08 
+
+02:08  detail of 41 phones. Okay? Now, I am
+02:11 
+
+02:11  telling you one thing. Try to
+02:13 
+
+02:13  understand. First of all, I am saying
+02:17 
+
+02:17  that this entire area where there is a
+02:20 
+
+02:20  complete description of a phone,
+02:21 
+
+02:22  meaning the phone's image, the phone's
+02:24 
+
+02:24  description, and the phone's price, I
+02:26 
+
+02:26  will call this whole area a container.
+02:28 
+
+02:29  Okay? This means there are a total of
+02:32 
+
+02:32  41 containers on this page. Okay? Now
+02:36 
+
+02:36  let me ask you two questions. The first
+02:39 
+
+02:39  question is, if you pick any two
+02:41 
+
+02:41  containers, like this first container
+02:43 
+
+02:43  is the Mi 10i and this second container
+02:46 
+
+02:46  is the Redmi 9, you have to think and
+02:48 
+
+02:48  tell me what the difference is between
+02:51 
+
+02:51  these two containers. What is the
+02:54 
+
+02:54  difference? So if you look even a
+02:56 
+
+02:56  little bit, you will clearly understand
+02:58 
+
+02:58  that the content of both is different.
+02:59 
+
+02:60  The image is different, the description
+03:02 
+
+03:02  is different, and the price is also
+03:04 
+
+03:04  different. Right? Now if I ask the next
+03:07 
+
+03:07  question, what is the similarity
+03:08 
+
+03:09  between these two containers? Then you
+03:11 
+
+03:11  will have to think a little, but you
+03:14 
+
+03:14  should immediately understand that the
+03:16 
+
+03:16  similarity between these two containers
+03:18 
+
+03:18  is that the way the information is
+03:20 
+
+03:20  being displayed is the same in both. On
+03:23 
+
+03:23  the left side, there is an image in
+03:25 
+
+03:25  both places. In the center, there is a
+03:27 
+
+03:27  description in both places, and on the
+03:28 
+
+03:28  right side, there are prices in both
+03:30 
+
+03:30  places. Right? Now if I ask you one
+03:33 
+
+03:33  more question, if you were creating or
+03:36 
+
+03:36  designing this web page, how many
+03:38 
+
+03:38  containers would you make? If your
+03:41 
+
+03:41  answer is 41, then you are wrong.
+03:44 
+
+03:45  Because if you are making 41 containers
+03:47 
+
+03:47 , this is not a very efficient
+03:49 
+
+03:49  technique to build this page. If 50
+03:53 
+
+03:53  more phones arrive tomorrow, you will
+03:55 
+
+03:55  have to make 50 more containers. If 100
+03:59 
+
+03:59  phones go out of stock tomorrow, you
+04:01 
+
+04:01  will have to remove 100 more containers
+04:03 
+
+04:03 . And these are just phones. What about
+04:06 
+
+04:06  t-shirts? Where you will have products
+04:08 
+
+04:08  in the millions. So will you make
+04:10 
+
+04:10  millions of containers? The answer is
+04:12 
+
+04:12  no. Whenever you code, you will make
+04:15 
+
+04:15  just a single container. A single
+04:17 
+
+04:17  container. And what will you do? You
+04:19 
+
+04:19  will put that container in a loop. You
+04:22 
+
+04:22  will fetch data from the database. As
+04:24 
+
+04:25  many products as there are in the
+04:26 
+
+04:26  database, your loop will run that many
+04:28 
+
+04:28  times, and every time, a container will
+04:30 
+
+04:30  keep getting printed. So this is a very
+04:33 
+
+04:33  good example where you can understand
+04:35 
+
+04:35  clearly and upfront how useful loops
+04:38 
+
+04:38  are. Right? If you have understood this
+04:42 
+
+04:42 , then I guess I don't need to explain
+04:43 
+
+04:44  to you what technique Zomato must be
+04:45 
+
+04:45  using to show their restaurants. So on
+04:49 
+
+04:49  Zomato, the description of all
+04:51 
+
+04:51  restaurants is similar. Look, all these
+04:53 
+
+04:53  containers are completely similar. So
+04:55 
+
+04:55  what is the difference? The data being
+04:58 
+
+04:58  shown and its format are similar. You
+05:01 
+
+05:01  will fetch all this data from the
+05:03 
+
+05:03  database. You will put a single
+05:05 
+
+05:05  container into a loop and keep printing
+05:07 
+
+05:07  it. Alright? If you understood this,
+05:10 
+
+05:10  you probably also understood how OLX
+05:14 
+
+05:14  works. You also understood how
+05:16 
+
+05:16  Instagram works. So, whenever you go to
+05:19 
+
+05:19  any application and products are
+05:22 
+
+05:22  displayed in any form or there is a
+05:24 
+
+05:24  news feed option, they are using loops.
+05:27 
+
+05:27  And this is one of the most practical
+05:29 
+
+05:29  examples that you can give in front of
+05:31 
+
+05:31  your HR. If you give this example, they
+05:34 
+
+05:34  will understand that this person has
+05:36 
+
+05:36  worked on projects before. Alright? So
+05:39 
+
+05:39  now that we know what loops are, and
+05:42 
+
+05:42  how and where loops work. Now we will
+05:46 
+
+05:46  focus on Python and understand how
+05:49 
+
+05:49  looping is done in Python. So unlike
+05:51 
+
+05:51  other programming languages, there are
+05:53 
+
+05:53  two types of loops in Python. In other
+05:55 
+
+05:55  languages, there are generally three
+05:57 
+
+05:57  loops. You might have even studied them
+05:58 
+
+05:58 . The first is the while loop. Then
+06:01 
+
+06:01  there is the do-while loop and the
+06:03 
+
+06:03  third is the for loop. Apart from this,
+06:05 
+
+06:05  sometimes some other languages have a
+06:07 
+
+06:07  few more special loops. Like for-in
+06:09 
+
+06:09  loops or for-each loops. These are all
+06:11 
+
+06:11  in languages like Java, PHP, and
+06:13 
+
+06:13  JavaScript. There are only two loops in
+06:16 
+
+06:16  Python. The first is the while loop and
+06:19 
+
+06:19  the second is the for loop. In this
+06:22 
+
+06:22  video, we will study the while loop and
+06:23 
+
+06:23  in the next video, we will go for the
+06:25 
+
+06:25  for loop. Alright? So the while loop is
+06:29 
+
+06:29  not very difficult. I will give you a
+06:32 
+
+06:32  simple example so that you understand
+06:35 
+
+06:35  how the while loop works. We will build
+06:38 
+
+06:38  a small application where we will ask
+06:40 
+
+06:40  the user which number's table they want
+06:42 
+
+06:42  to print, and we will print the table
+06:45 
+
+06:45  of that number. Alright? Meanwhile, I
+06:48 
+
+06:48  will briefly explain to you what the
+06:49 
+
+06:49  syntax of the while loop is. So, if you
+06:52 
+
+06:52  talk about the while loop in any other
+06:55 
+
+06:55  language like C, after the while loop,
+06:57 
+
+06:57  you put a bracket, then you write the
+06:59 
+
+06:59  condition, and then you put a bracket
+07:01 
+
+07:01  to write the code here. This is a
+07:04 
+
+07:04  syntax that is generally used in C or
+07:07 
+
+07:07  Java and similar languages. Python is a
+07:10 
+
+07:10  bit different. In Python, there are no
+07:13 
+
+07:13  brackets after 'while'; there's a space
+07:15 
+
+07:15 , then the condition, and the condition
+07:18 
+
+07:18  ends with a colon, after which you
+07:20 
+
+07:20  write the code with indentation. So,
+07:23 
+
+07:23  the code above is useful for C
+07:25 
+
+07:25  programming, and this one is for Python
+07:27 
+
+07:27 . Okay? Now I will show you how to
+07:30 
+
+07:30  build a small application to print a
+07:32 
+
+07:32  table. So, what will we do first? We
+07:35 
+
+07:35  will ask the user for a number using
+07:38 
+
+07:38  the input function. We will say 'Enter
+07:41 
+
+07:41  the number' and convert it into an
+07:45 
+
+07:45  integer. Because we need to perform
+07:47 
+
+07:47  mathematical operations on it. You
+07:49 
+
+07:49  already know that the output I, as a
+07:51 
+
+07:51  programmer, get from input is a string.
+07:54 
+
+07:54  So, I performed a type conversion. Now,
+07:56 
+
+07:56  what will I do? First, I will take a
+07:59 
+
+07:59  variable 'i' and set its initial value
+08:02 
+
+08:02  to one. Okay? Then I will use a while
+08:06 
+
+08:06  loop, and my termination condition will
+08:08 
+
+08:09  be 'i less than 11'; as long as the
+08:11 
+
+08:11  value of i is not 11, whatever is
+08:13 
+
+08:13  written inside this loop will keep
+08:15 
+
+08:15  executing, and I simply need to print '
+08:18 
+
+08:18 number times i'. And that's my code. Oh
+08:22 
+
+08:22 , I forgot one more thing; if we had
+08:24 
+
+08:24  left it as it is, it would have been an
+08:26 
+
+08:26  infinite loop. You also have to keep
+08:32 
+
+08:32  increasing 'i' in every iteration. And
+08:34 
+
+08:34  that's the code. So, if I provided 11,
+08:38 
+
+08:38  here is my answer: 11, 22, 33, 44, 55,
+08:42 
+
+08:42  66, 77, 88, 99, 110. Okay? Let me
+08:46 
+
+08:46  quickly explain to you how this code is
+08:48 
+
+08:48  working. Initially, the value of 'i' is
+08:50 
+
+08:50  one. We entered the while loop and
+08:52 
+
+08:52  asked, "Is the value of 'i' currently
+08:54 
+
+08:54  less than 11?" One less than 11 is true
+08:58 
+
+08:58 . So, we went inside. And we multiplied
+09:01 
+
+09:01  the value of the number, which was 11,
+09:03 
+
+09:03  with the current value of 'i', which
+09:05 
+
+09:05  was one, and printed it, so 11 was
+09:07 
+
+09:07  printed. Then we increased the value of
+09:10 
+
+09:10  'i'. Now, the value of 'i' has become
+09:12 
+
+09:12  two. We came back here, 2 less than 11
+09:14 
+
+09:15  is still true. So, we multiplied the
+09:17 
+
+09:17  number by the current value of 'i'.
+09:19 
+
+09:19  Meaning, 11*2, 22 was printed.
+09:23 
+
+09:23  Continuing like this, you went up to 99
+09:26 
+
+09:26 . And suppose at this point, the value
+09:29 
+
+09:29  of 'i' is nine, then 9 less than 11 is
+09:32 
+
+09:32  still true. Number multiplied by 'i',
+09:36 
+
+09:36  11*9, 99 was printed. The value of 'i'
+09:39 
+
+09:39  increased and became 10. Then we went
+09:41 
+
+09:41  back up, 10 less than 11 is still true.
+09:43 
+
+09:43  So number is 11, current value of i is
+09:46 
+
+09:46  10, 110 is printed. The value of i
+09:48 
+
+09:48  increased and is now 11. And now this
+09:51 
+
+09:51  condition is 11 less than 11 which is
+09:54 
+
+09:54  false. That is why this code of yours
+09:56 
+
+09:56  did not execute. And since there was no
+09:58 
+
+09:58  code after this. Your code terminated.
+10:01 
+
+10:01  And this is your answer. Now if you
+10:03 
+
+10:03  want, you can format and print this in
+10:06 
+
+10:06  a better way. Like you can write number
+10:09 
+
+10:10  comma times comma i comma equals to
+10:17 
+
+10:20  comma. I want the table of 24 and here
+10:24 
+
+10:25  is the table of 24. Okay? And that is
+10:29 
+
+10:29  all there is to it. While loop is very
+10:30 
+
+10:31  simple. I mean it is too easy. I mean
+10:33 
+
+10:34  you just have to follow one condition.
+10:36 
+
+10:37  As soon as that condition becomes false
+10:39 
+
+10:39 , your loop will end. Okay? In the next
+10:42 
+
+10:42  video, we will build a small app, build
+10:44 
+
+10:44  an application. We will write a program
+10:46 
+
+10:47  for a guessing game. Okay? Where we
+10:49 
+
+10:49  will use all the concepts we have
+10:51 
+
+10:51  studied so far. Okay? We will use the
+10:54 
+
+10:54  concept of if-else. We will use the
+10:55 
+
+10:56  concept of while loop. We will also use
+10:58 
+
+10:58  an external library named random. So we
+11:01 
+
+11:01  will cover that particular topic in the
+11:04 
+
+11:04  next video. Okay? So that is it for
+11:06 
+
+11:06  this video. Thanks for watching. Bye.

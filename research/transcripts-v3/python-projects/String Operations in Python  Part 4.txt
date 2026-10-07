@@ -1,0 +1,553 @@
+00:00 So guys, in this video we are going to
+00:03 
+
+00:03  look at the operations you can perform
+00:05 
+
+00:05  on strings. Okay? Well, you cannot
+00:07 
+
+00:07  perform all operations. In short, you
+00:09 
+
+00:10  cannot apply all operators to strings.
+00:12 
+
+00:12  So I have made a list of the operators
+00:14 
+
+00:14  available for you to apply on strings.
+00:17 
+
+00:17  Arithmetic operators, relational
+00:19 
+
+00:19  operators, logical operators, you can
+00:21 
+
+00:21  run loops and use membership operators
+00:24 
+
+00:24  in and not in. Okay? First, let's look
+00:26 
+
+00:26  at arithmetic operators. Now, there are
+00:28 
+
+00:28  many types of arithmetic operators.
+00:30 
+
+00:30  Plus, minus, multiplication, division,
+00:32 
+
+00:32  modulus, there are many. Here, you can
+00:35 
+
+00:35  only use two operators. One is plus,
+00:37 
+
+00:37  which you call concatenation in strings
+00:39 
+
+00:39 , and the other is multiplication. I
+00:42 
+
+00:42  will show you an example of both. You
+00:44 
+
+00:44  can add two strings using a plus. Okay?
+00:48 
+
+00:48  You can add two strings together. And
+00:52 
+
+00:52  the output would be this. We call this
+00:54 
+
+00:54  string concatenation. You might have
+00:56 
+
+00:56  studied this in other languages too.
+00:57 
+
+00:58  Okay? So the plus operator means you
+01:00 
+
+01:00  can add two strings. Okay? You can add
+01:04 
+
+01:04  another plus in between if you want,
+01:06 
+
+01:06  like this. And you can add a space or a
+01:09 
+
+01:09  hyphen here. And it would be added. You
+01:12 
+
+01:12  can add as many strings as you want
+01:14 
+
+01:14  using multiple plus operators. You can
+01:16 
+
+01:16  concatenate them. Okay? Concatenation
+01:18 
+
+01:18  is a very important thing. As you build
+01:21 
+
+01:21  applications later, you will notice
+01:24 
+
+01:24  that you need to use concatenation in
+01:26 
+
+01:26  small places. Okay? So you just need to
+01:29 
+
+01:29  know it. That's it. Next is string
+01:31 
+
+01:31  multiplication. So you can do something
+01:36 
+
+01:36  like multiplying a string, like this.
+01:41 
+
+01:42  And whenever you do that, you will get
+01:45 
+
+01:45  an output like this. So it is useful
+01:48 
+
+01:48  for generating such patterns. You could
+01:51 
+
+01:51  have done this too. Now, obviously, it
+01:57 
+
+01:57  is not that useful. But if you ever
+01:60 
+
+01:60  need to generate patterns like this for
+02:02 
+
+02:02  formatting, you can use string
+02:04 
+
+02:04  multiplication there. Okay? No other
+02:07 
+
+02:07  arithmetic operator will work here.
+02:09 
+
+02:09  Okay? Division, subtraction, none of
+02:11 
+
+02:11  these work. You can try it out and see.
+02:14 
+
+02:14  Next is relational operators. Greater
+02:16 
+
+02:16  than, less than, equal to, double equal
+02:19 
+
+02:19  to, not equal to. Right? I will show
+02:21 
+
+02:21  you. Like, let's say we have 'hello'
+02:24 
+
+02:24  and 'equal to equal to world'. It will
+02:27 
+
+02:27  obviously give you false because both
+02:29 
+
+02:29  these strings are not the same. All
+02:31 
+
+02:31  right? Similarly, you can also have
+02:35 
+
+02:35  hello not equal to world. This will
+02:39 
+
+02:39  give true because both strings are not
+02:41 
+
+02:41  equal. Things get interesting when you
+02:44 
+
+02:44  use this. Let me show you Mumbai
+02:47 
+
+02:47  greater than Pune. Now you have to
+02:50 
+
+02:51  think about what the output will be.
+02:52 
+
+02:52  The answer is false. All right? Now you
+02:55 
+
+02:55  will wonder why this happened. If you
+02:57 
+
+02:57  think in terms of length, Mumbai's
+02:59 
+
+02:59  length is much larger. Pune's length is
+03:01 
+
+03:01  smaller, so it should have been true.
+03:03 
+
+03:03  But it is false because this comparison
+03:06 
+
+03:06  is happening lexicographically. Think
+03:12 
+
+03:12  of lexicographical as if you have a
+03:15 
+
+03:15  dictionary, like the Oxford dictionary,
+03:18 
+
+03:18  which of these two words comes first?
+03:21 
+
+03:22  Obviously, the word that comes first is
+03:24 
+
+03:24  Mumbai because it starts with M. Pune
+03:26 
+
+03:26  will come later because it starts with
+03:28 
+
+03:28  P. Always remember, the word that comes
+03:31 
+
+03:31  later in the dictionary is larger and
+03:33 
+
+03:33  the word that comes earlier is smaller.
+03:35 
+
+03:35  So, going by that logic, it is
+03:37 
+
+03:37  returning false here. All right? If you
+03:40 
+
+03:40  write Goa less than Kolkata, then think
+03:45 
+
+03:46  what it would be? The answer is true.
+03:50 
+
+03:50  Because Kolkata will come later in the
+03:53 
+
+03:53  dictionary. It will come after Goa. So
+03:55 
+
+03:55  Kolkata is larger than Goa. So there is
+03:58 
+
+03:58  no need to be confused here. It's
+03:60 
+
+03:60  basically a lexicographical comparison.
+04:03 
+
+04:03  All right? The thing that comes earlier
+04:05 
+
+04:05  in the dictionary is smaller and the
+04:07 
+
+04:07  thing that comes later is larger. All
+04:09 
+
+04:09  right? One more thing that sometimes
+04:11 
+
+04:11  causes a bit of confusion. Between
+04:14 
+
+04:14  small letters and capital letters. So
+04:18 
+
+04:18  this is false because small letters
+04:21 
+
+04:21  come later. Capital letters come first.
+04:23 
+
+04:23  So the thing that comes earlier is
+04:25 
+
+04:25  smaller. Therefore, this relationship
+04:27 
+
+04:27  also became false. All right? I hope I
+04:29 
+
+04:29  was able to explain it to you. There is
+04:30 
+
+04:30  nothing particularly difficult here.
+04:32 
+
+04:32  Okay? Now let's move on to logical
+04:35 
+
+04:35  operations. This is a bit interesting.
+04:37 
+
+04:37  So if you ever wrote this code: hello
+04:41 
+
+04:41  and world. And if you run it, you will
+04:44 
+
+04:44  get the output: world. Now you will
+04:46 
+
+04:46  keep wondering why this output is
+04:48 
+
+04:48  coming. Always remember that whenever
+04:52 
+
+04:52  you apply logical operators like and,
+04:55 
+
+04:55  or, and not on strings, remember that
+04:58 
+
+04:58  Python calls an empty string false and
+05:01 
+
+05:02  any non-empty string true. Once you
+05:05 
+
+05:05  have this knowledge, you will be able
+05:07 
+
+05:07  to solve it. Look, let's try it once.
+05:10 
+
+05:10  And hello. Now you have to think what
+05:14 
+
+05:14  the output will be. Look, this is false
+05:17 
+
+05:17  and this is true. So what is true and
+05:21 
+
+05:21  false? False. That is why this is the
+05:24 
+
+05:24  answer. Okay? Now let's try another one
+05:27 
+
+05:27 . Now here we are using the OR operator
+05:32 
+
+05:32 . So this is false as in zero and this
+05:35 
+
+05:35  is one. So what is one and zero? One.
+05:38 
+
+05:38  So here world will be printed. Okay? If
+05:41 
+
+05:41  you write hello and world here. Since
+05:46 
+
+05:46  this is already one, it had to be one,
+05:50 
+
+05:50  so hello will be printed. Okay? And
+05:53 
+
+05:53  similarly, when you apply the same
+05:56 
+
+05:56  logic to AND, having a one gives you
+05:58 
+
+05:58  the certainty that the answer will be
+06:01 
+
+06:01  one. That is why your answer will be
+06:03 
+
+06:03  world. Okay? If you write not hello or
+06:07 
+
+06:07  any string, you will get false because
+06:11 
+
+06:11  the reverse of true is false. So the
+06:14 
+
+06:14  reverse of a non-empty string is an
+06:16 
+
+06:16  empty string, and internally what is an
+06:18 
+
+06:18  empty string? It is false. Okay? If you
+06:21 
+
+06:21  print this out You will get the same
+06:26 
+
+06:26  thing. Okay? Similarly, if you put a
+06:29 
+
+06:29  not in front of an empty string, you
+06:32 
+
+06:32  will get true. Okay? So don't get
+06:34 
+
+06:34  confused by this. In some places, you
+06:36 
+
+06:36  find this implementation where someone
+06:38 
+
+06:38  has written such code and then it’s
+06:40 
+
+06:40  hard to understand. You just need to
+06:42 
+
+06:42  remember one simple fundamental thing:
+06:45 
+
+06:45  Python treats empty strings as false
+06:47 
+
+06:47  and non-empty strings as true. Once you
+06:50 
+
+06:50  understand this, you won't get stuck on
+06:52 
+
+06:52  it. Okay? Yeah, the next two operators
+06:56 
+
+06:56  are loops and membership operators. Let
+06:59 
+
+06:59  me quickly show you how to run loops.
+07:01 
+
+07:01  For instance, let's say c is hello
+07:04 
+
+07:05  world, what can you do? You can run a
+07:09 
+
+07:09  loop, for i in c, print i. Now what
+07:13 
+
+07:13  will happen every time? Your loop will
+07:15 
+
+07:15  catch every character and start
+07:17 
+
+07:17  iterating. As long as there are
+07:19 
+
+07:19  characters left, it will print
+07:21 
+
+07:21  everything one by one. Okay? Now here
+07:24 
+
+07:24  you can use a lot more splitting,
+07:26 
+
+07:26  slicing, etc. Like you said, no, I only
+07:29 
+
+07:29  want from two to seven, so now this
+07:31 
+
+07:31  will print. You said, no, I want it at
+07:34 
+
+07:34  a jump of one, so this will print. Okay
+07:36 
+
+07:36 ? So whatever you learned earlier in
+07:38 
+
+07:38  slicing, you can apply that same thing
+07:40 
+
+07:40  to loops and create custom logic as per
+07:42 
+
+07:42  your needs. Okay? It's up to you. If
+07:45 
+
+07:45  you had written colon colon -1 here,
+07:47 
+
+07:47  the entire string would print in
+07:49 
+
+07:49  reverse. Okay? It's completely up to
+07:51 
+
+07:51  you. You have that flexibility. All
+07:53 
+
+07:53  right? So you can run loops freely.
+07:55 
+
+07:55  Okay? The last thing is membership
+07:58 
+
+07:58  operators, in and not in. All right? So
+08:03 
+
+08:03  if I have C, I can actually check H in
+08:08 
+
+08:08  C is true, capital H in C is false.
+08:12 
+
+08:15  World not in C is false. All right? So
+08:22 
+
+08:22  membership operators are available to
+08:24 
+
+08:24  you. You can easily apply them to
+08:26 
+
+08:26  strings. All right? So these are all
+08:29 
+
+08:29  the operators you can use on strings.
+08:31 
+
+08:31  And now we will learn about the
+08:33 
+
+08:33  functions available for strings.

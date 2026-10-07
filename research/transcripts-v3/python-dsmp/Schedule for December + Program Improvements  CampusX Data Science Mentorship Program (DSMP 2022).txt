@@ -1,0 +1,1549 @@
+00:00 Hi guys, my name is Nitish and you are
+00:02 
+
+00:02  welcome to my YouTube channel. So, this
+00:05 
+
+00:05  is a very important video. As you know,
+00:08 
+
+00:08  we are running a mentorship program on
+00:10 
+
+00:10  Data Science through our channel. And
+00:13 
+
+00:13  the good part is that we have already
+00:15 
+
+00:15  successfully covered the first month.
+00:17 
+
+00:18  So, this is a video that is very
+00:20 
+
+00:20  important for those who are already
+00:22 
+
+00:22  enrolled in this program. And also for
+00:25 
+
+00:26  those who haven't enrolled in this
+00:28 
+
+00:28  program yet. Okay? So, in this video, I
+00:31 
+
+00:31  am going to tell you two things. First,
+00:34 
+
+00:34  I will discuss what improvements we
+00:36 
+
+00:36  have planned for month two after
+00:39 
+
+00:39  learning from month one. Okay? One
+00:42 
+
+00:42  month has passed. Now, we are going to
+00:44 
+
+00:44  bring in some improvements. In this
+00:46 
+
+00:46  video, I will tell you what
+00:47 
+
+00:47  improvements we are going to make.
+00:49 
+
+00:49  That's the first point. And the second
+00:51 
+
+00:52  thing that I will discuss is the
+00:53 
+
+00:53  planning for December. What is going to
+00:56 
+
+00:56  happen in December, day by day. Okay?
+00:59 
+
+00:60  So, if you are already enrolled in this
+01:02 
+
+01:02  program, then you must watch this
+01:03 
+
+01:03  entire video, and if you are not
+01:05 
+
+01:05  enrolled but are interested, then too I
+01:06 
+
+01:07  would request you to watch this video
+01:08 
+
+01:08  in full. Okay? So, let's start the
+01:11 
+
+01:11  video. Let's first talk about the
+01:13 
+
+01:13  improvements for the month of December.
+01:16 
+
+01:16  So, since we started for the first time
+01:19 
+
+01:19  in November. I myself didn't know many
+01:21 
+
+01:21  things. So, I have learned after
+01:23 
+
+01:23  working for a month. And these are the
+01:25 
+
+01:25  improvements I am planning to bring in
+01:26 
+
+01:27  December. I have already told you a lot
+01:29 
+
+01:29  about the first improvement. That we
+01:32 
+
+01:32  ran our entire program in the first
+01:35 
+
+01:35  month through YouTube. You also made
+01:39 
+
+01:39  payments on YouTube. But now we have
+01:42 
+
+01:42  decided and we have launched our own
+01:45 
+
+01:45  website. Okay? So, going forward, all
+01:48 
+
+01:48  our payments and registrations will be
+01:51 
+
+01:51  done on the website. So, if you guys
+01:55 
+
+01:56  made payments on YouTube earlier and
+01:57 
+
+01:57  now your YouTube subscription is about
+01:59 
+
+01:59  to end. It's been 30 days, so I would
+02:03 
+
+02:03  request you not to pay on YouTube again
+02:05 
+
+02:05 , but to pay on our website. Okay? You
+02:08 
+
+02:08  will find the entire course here. Okay?
+02:11 
+
+02:11  If you are paying for the first time, I
+02:13 
+
+02:13  would still request you to make the
+02:15 
+
+02:15  payment on this website. Because if you
+02:17 
+
+02:17  pay here, you will get all the content
+02:19 
+
+02:20  from the last month in one place. Okay?
+02:22 
+
+02:23  I hope this first point is clear to you
+02:26 
+
+02:26 , and apart from that, our website is
+02:28 
+
+02:28  well-designed and organized, so it will
+02:30 
+
+02:30  give you a better experience than
+02:32 
+
+02:32  YouTube. All right? This is improvement
+02:35 
+
+02:35  number one. Improvement number two is
+02:38 
+
+02:38  paid classes on Zoom. So, a big reason
+02:42 
+
+02:42  for moving to the website was that
+02:44 
+
+02:44  until now, all our sessions—whether
+02:46 
+
+02:46  free or paid—were happening through
+02:48 
+
+02:48  YouTube. And you suggested that it
+02:52 
+
+02:52  would be better if the sessions were
+02:54 
+
+02:54  via Zoom so you could talk to me and
+02:57 
+
+02:57  ask doubts. So, this is the second
+02:60 
+
+02:60  improvement since we have now moved to
+03:01 
+
+03:01  the website. All paid sessions, okay?
+03:04 
+
+03:05  The sessions that take place on Friday
+03:08 
+
+03:08  and Saturday will now be held through
+03:11 
+
+03:11  our Zoom app. So, what will happen is
+03:14 
+
+03:14  that you will receive a message. All
+03:17 
+
+03:17  enrolled members will get a message and
+03:19 
+
+03:19  an email with the Zoom link, and you
+03:22 
+
+03:22  will be able to join the class through
+03:24 
+
+03:24  it; after the class, you will also find
+03:26 
+
+03:26  the recording there. For those who are
+03:29 
+
+03:29  members on YouTube and whose 30 days
+03:31 
+
+03:31  are not yet over, and who are waiting
+03:33 
+
+03:33  for the 30 days to finish before moving
+03:35 
+
+03:35  to the website. You don't need to worry
+03:38 
+
+03:38 . Before every class, we will post the
+03:41 
+
+03:41  Zoom class link in the YouTube
+03:43 
+
+03:43  membership tab. So, you can join the
+03:45 
+
+03:45  Zoom class from there, and as soon as
+03:48 
+
+03:48  the class is over, we will also upload
+03:50 
+
+03:50  the Zoom recording to YouTube for paid
+03:52 
+
+03:52  members. So basically, you can continue
+03:55 
+
+03:55  through YouTube for now, or use our
+03:57 
+
+03:57  website for paid content until then. We
+03:60 
+
+04:00  are providing this support until
+04:02 
+
+04:02  December. After December, paid classes
+04:04 
+
+04:04  will be held exclusively on Zoom. Okay?
+04:07 
+
+04:07  That was the second improvement. The
+04:09 
+
+04:09  third improvement is one that I haven't
+04:12 
+
+04:12  talked about yet. So, you can call this
+04:15 
+
+04:15  a surprise improvement. So, until now,
+04:17 
+
+04:17  our doubt clearance process was that I
+04:20 
+
+04:20  would share a Google Form in the
+04:22 
+
+04:22  membership tab. You would ask your
+04:25 
+
+04:25  doubt there. Our team would reply and
+04:28 
+
+04:28  provide answers via email. So now, we
+04:31 
+
+04:31  have thought of improving this a bit
+04:33 
+
+04:33  more. Now, all doubt clearing in our
+04:36 
+
+04:37  program will be done live, one-on-one.
+04:40 
+
+04:41  So, let's say you have a doubt, you can
+04:43 
+
+04:44  get on a one-on-one Zoom call with a
+04:46 
+
+04:46  member of our team and resolve your
+04:48 
+
+04:48  doubt there. Okay? Let me tell you how
+04:51 
+
+04:51  this will happen. First of all, this is
+04:53 
+
+04:53  reserved for paid members. So, what
+04:55 
+
+04:55  will happen? Just like before, we will
+04:57 
+
+04:57  give you a Google Form every week. Okay
+04:59 
+
+04:59 ? Okay? Just like we used to give you
+05:01 
+
+05:01  on YouTube. What do you just need to do
+05:03 
+
+05:03 ? You just need to explain your doubt
+05:06 
+
+05:06  in that Google Form and submit it. Our
+05:10 
+
+05:10  teammates will send a Zoom link to your
+05:12 
+
+05:12  email ID, and by joining that Zoom link
+05:15 
+
+05:15 , you will come on Zoom at a decided
+05:18 
+
+05:18  time, and our person will clear your
+05:20 
+
+05:20  doubt there. So roughly it will be like
+05:24 
+
+05:24 , let's say today is Thursday. You
+05:27 
+
+05:27  submitted your doubt today. Then you
+05:30 
+
+05:30  will receive an email from our side on
+05:32 
+
+05:32  Friday, and you can join the Zoom
+05:34 
+
+05:34  meeting on Friday evening, and your
+05:36 
+
+05:37  doubt will be resolved one-on-one. Also
+05:39 
+
+05:39 , I am doing this only for December
+05:41 
+
+05:42  right now. I am not guaranteeing that
+05:44 
+
+05:44  this will continue in January and
+05:45 
+
+05:45  February. We want to try it out for a
+05:47 
+
+05:47  month. We want to see what kind of load
+05:49 
+
+05:49  it puts on us. How many people join,
+05:52 
+
+05:52  and after that, we will decide whether
+05:53 
+
+05:53  to continue it in January or not. There
+05:57 
+
+05:57  is a 90%chance that we will continue it
+05:58 
+
+05:58  throughout the program. But for now,
+06:01 
+
+06:01  understand that we are beta testing it
+06:03 
+
+06:03  for the month of December. So from next
+06:06 
+
+06:06  week onwards, we will handle all the
+06:08 
+
+06:08  doubts one-on-one on Zoom. I really
+06:11 
+
+06:11  hope you liked this improvement. If you
+06:13 
+
+06:13  have any feedback related to this,
+06:15 
+
+06:15  definitely write it in the comments.
+06:16 
+
+06:16  Okay? The fourth improvement is that we
+06:19 
+
+06:19  are bringing in weekly quizzes. So
+06:22 
+
+06:23  every week we conduct three free
+06:25 
+
+06:25  classes. Then we do a special Friday
+06:27 
+
+06:27  class and then on Saturday, we do
+06:29 
+
+06:29  interview questions. So now my plan is
+06:31 
+
+06:31  that on Saturday we will also provide
+06:34 
+
+06:34  you with a quiz. Which will have MCQ
+06:38 
+
+06:38  questions, and those MCQ questions will
+06:40 
+
+06:40  be based on everything you have studied
+06:42 
+
+06:42  that week. So you have to take that
+06:45 
+
+06:45  quiz to test yourself on how much you
+06:47 
+
+06:47  learned throughout the week, and then
+06:49 
+
+06:49  we will also give you the answers so
+06:51 
+
+06:51  you will know what you did wrong and
+06:53 
+
+06:53  what you did right. Okay? So this is a
+06:55 
+
+06:56  new addition. Since we have come to a
+06:57 
+
+06:57  new website. There is a feature here to
+06:59 
+
+06:59  conduct quizzes. So I thought, why not
+07:01 
+
+07:01  implement this. Okay? Again, let me
+07:03 
+
+07:03  know in the comments how you liked this
+07:05 
+
+07:05  improvement. And the last improvement,
+07:07 
+
+07:07  the fifth improvement is that our
+07:09 
+
+07:09  Python module will end this week. So,
+07:12 
+
+07:12  we will provide you with some
+07:14 
+
+07:14  additional content related to that.
+07:15 
+
+07:16  Okay? What additional content will we
+07:17 
+
+07:18  provide? So, for all the four weeks
+07:19 
+
+07:19  that have passed in Python, we will
+07:21 
+
+07:21  provide you with four quizzes for those
+07:23 
+
+07:23  four weeks. A quiz for week one, a quiz
+07:25 
+
+07:25  for week two, a quiz for week three,
+07:27 
+
+07:27  and a quiz for week four. You can go
+07:30 
+
+07:30  back and attempt them. Second, we will
+07:33 
+
+07:33  provide you with some additional
+07:34 
+
+07:35  practice questions with solutions. Many
+07:37 
+
+07:37  of you were asking, where should we
+07:39 
+
+07:39  practice? The theory is easy to
+07:41 
+
+07:41  understand. But where to practice?
+07:42 
+
+07:42  Although we did give you tasks. But if
+07:45 
+
+07:45  you want, we will give you some
+07:46 
+
+07:46  additional practice problems. Those who
+07:49 
+
+07:49  are interested, please attempt these
+07:51 
+
+07:51  practice problems. The more practice
+07:53 
+
+07:53  problems you do, the more you will
+07:55 
+
+07:55  improve in Python. Okay? Third, we will
+07:58 
+
+07:58  give you more interview questions.
+07:60 
+
+08:01  Until now, what we were doing was that
+08:02 
+
+08:02  every Saturday, we were covering
+08:03 
+
+08:03  interview questions related to what we
+08:05 
+
+08:05  studied throughout the week. Now, my
+08:07 
+
+08:07  plan is to provide you with some
+08:09 
+
+08:09  additional interview questions. Because
+08:12 
+
+08:12  the questions we discussed on Saturdays
+08:14 
+
+08:14  were generally a bit difficult. But
+08:17 
+
+08:17  difficult questions are not always
+08:18 
+
+08:18  asked. Sometimes easy questions are
+08:20 
+
+08:20  also asked. Sometimes medium-level
+08:22 
+
+08:22  questions are also asked. So, we will
+08:25 
+
+08:25  provide you with a kind of document, a
+08:27 
+
+08:27  well-documented PDF format, containing
+08:29 
+
+08:29  all the interview questions that could
+08:32 
+
+08:32  be asked related to the Python you have
+08:34 
+
+08:34  studied. Okay? And the last one is that
+08:38 
+
+08:38  we are documenting all the doubts asked
+08:41 
+
+08:41  by you so far in an Excel file,
+08:43 
+
+08:43  including what the question was and how
+08:45 
+
+08:45  we resolved it, and we will share that
+08:48 
+
+08:48  with you as well. Also, I might not
+08:52 
+
+08:52  have mentioned it, but all these
+08:55 
+
+08:55  features that are currently selected on
+08:57 
+
+08:57  the screen—two, three, four, and five
+09:00 
+
+09:00 —are available only for paid members.
+09:03 
+
+09:04  None of this is for free members. Okay?
+09:07 
+
+09:07  I want to clarify right now that paid
+09:09 
+
+09:09  classes on Zoom are for paid members.
+09:11 
+
+09:11  Doubt clearance is for paid members.
+09:13 
+
+09:15  These weekly quizzes are also only for
+09:17 
+
+09:17  paid members, and the additional Python
+09:19 
+
+09:19  module content that will be provided to
+09:21 
+
+09:21  you is also exclusively for paid
+09:23 
+
+09:23  members. Okay? So, these are the
+09:26 
+
+09:26  improvements. First of all, you tell me
+09:29 
+
+09:29  how all of this sounds, and otherwise,
+09:31 
+
+09:31  I will take feedback from you in the
+09:33 
+
+09:34  next two or three days. Do let me know
+09:37 
+
+09:37  in that as well how you are finding the
+09:38 
+
+09:38  course so far and what improvements you
+09:40 
+
+09:40  would like, and we will implement them
+09:42 
+
+09:42  gradually. But for now, I noticed these
+09:44 
+
+09:44  shortcomings, so I have tried to add
+09:46 
+
+09:46  them. Okay? I really hope that by
+09:48 
+
+09:49  adding these, the overall experience of
+09:51 
+
+09:51  this program will improve. Okay? Let's
+09:54 
+
+09:54  move forward now and discuss the second
+09:57 
+
+09:57  thing that you all were waiting for and
+09:60 
+
+09:60  also demanding, which is, what is the
+10:02 
+
+10:02  scene for December? What things will
+10:05 
+
+10:05  happen in December? So here is your
+10:07 
+
+10:07  full calendar view of what we are going
+10:10 
+
+10:10  to do in December. Okay? This will give
+10:12 
+
+10:12  you clarity, and you will be able to
+10:14 
+
+10:15  plan accordingly. So, before
+10:17 
+
+10:17  understanding this whole thing, let me
+10:19 
+
+10:19  explain the color coding to you because
+10:21 
+
+10:21  every day here is represented by a
+10:23 
+
+10:23  different color. Focus below. The gray
+10:27 
+
+10:27  color indicates that the day has
+10:29 
+
+10:29  already passed. So basically, these
+10:31 
+
+10:31  four days in November, we have already
+10:33 
+
+10:33  crossed them. So that is what it shows.
+10:35 
+
+10:36  All the white cells represent the free
+10:40 
+
+10:40  YouTube lectures. The light blue cells
+10:45 
+
+10:45  denote the free recorded sessions. This
+10:49 
+
+10:49  orange cell represents paid sessions on
+10:52 
+
+10:52  Zoom. Okay? The green one is the reason
+10:56 
+
+10:56  for your happiness. There will be a
+10:58 
+
+10:58  holiday on this day. Wherever you see a
+11:01 
+
+11:01  T mark, understand that you will also
+11:03 
+
+11:03  get a task with that session. Okay? And
+11:08 
+
+11:08  lastly, wherever you see this dangerous
+11:09 
+
+11:09  red, your test is going to happen, an
+11:11 
+
+11:11  assessment is going to happen. Okay?
+11:14 
+
+11:14  And lastly, I want to tell you one
+11:16 
+
+11:16  thing in advance: there might be some
+11:19 
+
+11:19  changes in this schedule because
+11:21 
+
+11:21  changes can happen at any time. I would
+11:24 
+
+11:24  try for it to remain as I have stated,
+11:26 
+
+11:26  but minor changes might occur. Like
+11:28 
+
+11:28  last month, the power went out. Now, we
+11:30 
+
+11:30  cannot handle such things. So, minor
+11:32 
+
+11:33  changes might happen. You need to be
+11:34 
+
+11:34  ready for that. Okay? Let's then
+11:36 
+
+11:36  discuss week by week what is going to
+11:39 
+
+11:39  happen in our program in December. So
+11:41 
+
+11:41  let's start with the 1st of December,
+11:44 
+
+11:44  today's day. So, this evening we will
+11:47 
+
+11:47  release a video. A recorded video, not
+11:50 
+
+11:50  a live session, on how to build a
+11:52 
+
+11:52  resume as a data scientist. We will
+11:55 
+
+11:56  discuss the right techniques to build a
+11:58 
+
+11:58  data scientist's resume in a recorded
+11:60 
+
+11:60  video. And this is a free video under '
+12:02 
+
+12:02 Career Pe Charcha', which means anyone
+12:05 
+
+12:05  can watch it. You don't need to be a
+12:07 
+
+12:07  paid member. Okay? The actual sessions
+12:10 
+
+12:10  will start from tomorrow. So, tomorrow
+12:12 
+
+12:12  is Friday and you have a Friday special
+12:14 
+
+12:14  session. And in this Friday special
+12:17 
+
+12:17  session, we are going to learn how to
+12:20 
+
+12:20  build GUI using Python. Okay? And this
+12:23 
+
+12:23  session will be on Zoom. Okay? So, only
+12:26 
+
+12:26  paid members will be able to join. Then
+12:28 
+
+12:28  on Saturday, we'll have our usual
+12:31 
+
+12:31  interview question session, which will
+12:33 
+
+12:33  be the last Python interview session
+12:36 
+
+12:36  where we will quickly discuss all the
+12:38 
+
+12:38  remaining topics and important
+12:40 
+
+12:40  questions. So, this will be week one of
+12:44 
+
+12:44  December. Now, let me quickly tell you
+12:46 
+
+12:46  about something new I have planned for
+12:48 
+
+12:48  this month. Friends, I received some
+12:51 
+
+12:52  feedback from your side that six
+12:53 
+
+12:53  classes in a week feels a bit too much,
+12:55 
+
+12:55  and people feel this way because many
+12:57 
+
+12:57  of you have jobs and you are managing
+12:59 
+
+12:59  this course alongside them. I can
+13:02 
+
+13:02  totally understand; I face pressure as
+13:05 
+
+13:05  well. I am teaching too, so I can feel
+13:07 
+
+13:07  that taking classes for six days is
+13:08 
+
+13:09  very, very heavy for me as well. So, I
+13:11 
+
+13:11  have planned that from every week, we
+13:13 
+
+13:14  are removing the Thursday session, '
+13:16 
+
+13:16 Career Par Charcha,' for the month of
+13:19 
+
+13:19  December and moving it to the last week
+13:21 
+
+13:21 . In the last week, the Christmas and
+13:24 
+
+13:24  New Year week, we are moving all these
+13:26 
+
+13:26  Thursday sessions there. So, in total,
+13:29 
+
+13:29  there are three weeks. One, two, three.
+13:32 
+
+13:32  So, I have decided that on the 25th,
+13:35 
+
+13:35  26th, and 27th. On these three days, we
+13:38 
+
+13:38  will have three 'Career Par Charcha'
+13:40 
+
+13:40  sessions. Okay? Out of these, the first
+13:44 
+
+13:44  session on the 25th is a free session,
+13:47 
+
+13:47  and it is not live. It is a recorded
+13:50 
+
+13:50  session. And here, I will tell you how
+13:53 
+
+13:53  to build a kick-ass LinkedIn profile
+13:56 
+
+13:56  and how you can use it to build a
+13:58 
+
+13:58  personal brand. I will teach you this
+14:01 
+
+14:01  in that video. Okay? Then, on the 26th
+14:05 
+
+14:05  and 27th, we will have two paid live
+14:08 
+
+14:08  sessions on Zoom. So, in the 26th
+14:12 
+
+14:12  session, I will teach you how to work
+14:14 
+
+14:14  with Git and GitHub. There have been a
+14:16 
+
+14:16  lot of requests for this. So, on the
+14:19 
+
+14:19  26th we will cover this, and on the
+14:21 
+
+14:21  27th, I am planning a very interesting
+14:24 
+
+14:24  session where I will bring in a senior
+14:26 
+
+14:26  professional from a great company who
+14:29 
+
+14:29  is a data scientist, and they will come
+14:31 
+
+14:31  and talk to you on Zoom to explain how
+14:34 
+
+14:34  things work in a top company and how
+14:36 
+
+14:36  projects are handled. So that you get a
+14:40 
+
+14:40  perspective on what kind of work you
+14:42 
+
+14:42  will do when you work in the industry.
+14:43 
+
+14:44  Okay? So, basically, what I've done is
+14:47 
+
+14:47  remove all three Thursday sessions and
+14:50 
+
+14:51  moved them to the last week. Okay? I
+14:54 
+
+14:54  guess you understand this point. The
+14:56 
+
+14:56  benefit of this is that now you have
+14:58 
+
+14:58  one less session to attend each week.
+14:60 
+
+15:00  So, where you were previously doing six
+15:02 
+
+15:02  sessions, now you only have to do five.
+15:04 
+
+15:04  Okay? And another benefit is that you
+15:07 
+
+15:07  will now get a two-day gap on Sunday
+15:09 
+
+15:09  and Monday. According to the new
+15:12 
+
+15:12  schedule, all the free sessions that
+15:14 
+
+15:14  used to be on Monday, Tuesday, and
+15:16 
+
+15:16  Wednesday will now be on Tuesday,
+15:18 
+
+15:18  Wednesday, and Thursday. The Friday
+15:20 
+
+15:20  session will happen just as it did
+15:22 
+
+15:22  before. And the Saturday session will
+15:24 
+
+15:24  also happen exactly as it did before.
+15:26 
+
+15:26  Sunday will be a holiday. Monday will
+15:28 
+
+15:28  also be a holiday. Okay? I really hope
+15:30 
+
+15:30  this is helping you out a bit. Now,
+15:32 
+
+15:32  let's move on to week two. So, from
+15:34 
+
+15:34  week two, we are starting NumPy. The
+15:38 
+
+15:38  Tuesday class and the Wednesday class
+15:40 
+
+15:40  are the two days we will study and
+15:42 
+
+15:42  complete NumPy. The first class will be
+15:45 
+
+15:45  on NumPy basics. The second class will
+15:47 
+
+15:48  be on advanced NumPy. Okay? Then, the
+15:50 
+
+15:50  Thursday class is again a free session.
+15:52 
+
+15:53  This will start with Pandas, and in
+15:55 
+
+15:55  Pandas, we will first study Series. All
+15:58 
+
+15:58  three of these have a 'T' marked on
+15:59 
+
+15:59  them. Which means after these three
+16:01 
+
+16:01  sessions, you will be given a task.
+16:02 
+
+16:03  Just as you are always given. After
+16:06 
+
+16:06  that, the first Friday session—
+16:07 
+
+16:07 technically speaking, the second Friday
+16:09 
+
+16:09  session of this month—is where we
+16:11 
+
+16:11  will teach you Flask. Using Flask, you
+16:15 
+
+16:15  can build websites in Python. And trust
+16:17 
+
+16:17  me, going forward, there will be many
+16:19 
+
+16:19  times when you build a machine learning
+16:21 
+
+16:21  model. You will need to convert it into
+16:23 
+
+16:23  a website, and one way to convert it is
+16:25 
+
+16:25  by using Flask. So, you should know
+16:28 
+
+16:28  this, and then on the 10th, which is
+16:31 
+
+16:31  Saturday, we will have an interview
+16:33 
+
+16:33  session on NumPy. There are certain
+16:35 
+
+16:35  questions asked about NumPy as well. We
+16:37 
+
+16:37  will discuss them. Okay? Week three
+16:39 
+
+16:39  will start on Tuesday again. We will
+16:42 
+
+16:42  study Pandas on Tuesday, Wednesday, and
+16:44 
+
+16:44  Thursday. First, we will study
+16:46 
+
+16:46  DataFrames. Then we will study GroupBy,
+16:48 
+
+16:48  and then we will study a very important
+16:50 
+
+16:50  topic. Merging, Joining, and
+16:51 
+
+16:52  Concatenation. Okay? And along with
+16:54 
+
+16:54  these three, you will get a task again.
+16:55 
+
+16:56  Then on the 16th, which is Friday, you
+16:58 
+
+16:58  have your third Friday session on
+17:00 
+
+17:00  Streamlit. Streamlit is a library that
+17:03 
+
+17:03  you can use to quickly build websites
+17:06 
+
+17:06  and data-based applications. Okay, so
+17:09 
+
+17:09  we will work on this, and trust me, you
+17:11 
+
+17:11  will use it a lot moving forward. Okay,
+17:14 
+
+17:14  then on Saturday, instead of doing
+17:16 
+
+17:16  interview questions, we will do a
+17:18 
+
+17:18  Pandas case study because I have
+17:20 
+
+17:20  noticed that you are not asked as many
+17:22 
+
+17:23  interview questions on Pandas as you
+17:25 
+
+17:25  are given take-home challenges. So our
+17:27 
+
+17:27  goal will be that on Saturday, I will
+17:29 
+
+17:30  give you a great dataset and we will
+17:31 
+
+17:32  conduct a proper case study on it which
+17:34 
+
+17:34  will help you a lot. Okay? After that
+17:37 
+
+17:37  comes the 18th, which is Sunday, and on
+17:40 
+
+17:40  Sunday you will have the test for your
+17:43 
+
+17:44  first module, Python. So everything we
+17:47 
+
+17:47  have taught you in Python up to the
+17:49 
+
+17:49  fourth week will be covered in that
+17:51 
+
+17:51  test. Your test will be MCQ plus coding
+17:55 
+
+17:55  type, and you can take the test on
+17:58 
+
+17:58  Sunday. You can also take the test
+17:60 
+
+18:00  after that. But the leaderboard will
+18:02 
+
+18:02  only feature those who take the test on
+18:05 
+
+18:05  Sunday. You can take it later if you
+18:07 
+
+18:07  want. But if you want to see your name
+18:10 
+
+18:10  on the leaderboard, then you have to
+18:12 
+
+18:12  take the exam on Sunday itself. Okay?
+18:15 
+
+18:15  There are no other restrictions. You
+18:16 
+
+18:16  can take it whenever you want according
+18:18 
+
+18:18  to your time, and it doesn't matter how
+18:20 
+
+18:20  many marks you get. But if you want to
+18:22 
+
+18:23  compete with the crowd and see where
+18:25 
+
+18:25  you stand, then I would recommend
+18:27 
+
+18:27  finding time on Sunday to take this
+18:29 
+
+18:29  test. I will tell you more about this
+18:32 
+
+18:32  test in detail, but for now, I just
+18:34 
+
+18:34  wanted to inform you that your
+18:36 
+
+18:36  assessment for Module 1 will be on the
+18:39 
+
+18:39  18th. Only all paid members can take
+18:41 
+
+18:41  this test. Free members cannot take
+18:44 
+
+18:44  this test. Okay? Let's move into week
+18:46 
+
+18:46  number three, week number four. In week
+18:49 
+
+18:49  number four, there will be sessions
+18:51 
+
+18:51  again on Tuesday, Wednesday, and
+18:52 
+
+18:52  Thursday. MultiIndex objects will be
+18:54 
+
+18:54  taught. Input/Output in Pandas will be
+18:56 
+
+18:56  taught. Working with text will be
+18:58 
+
+18:58  taught using regular expressions. And
+18:60 
+
+19:00  then working with date and time will be
+19:02 
+
+19:02  taught. Where we will also have you
+19:04 
+
+19:04  work a bit on time series data. All
+19:06 
+
+19:06  right? And after that, on the 23rd,
+19:08 
+
+19:08  which is a Friday, and the 24th, which
+19:11 
+
+19:11  is a Saturday. On both these days, we
+19:13 
+
+19:13  will teach you two different Pandas
+19:15 
+
+19:15  case studies. So basically, in total,
+19:17 
+
+19:17  paid members will be able to do three
+19:19 
+
+19:19  case studies. And trust me, after doing
+19:22 
+
+19:22  these three case studies, your
+19:24 
+
+19:24  knowledge of Pandas will become solid.
+19:26 
+
+19:26  All right? And then, from the 28th
+19:29 
+
+19:29  onwards, you will get a break until
+19:31 
+
+19:31  January 4th. You will get a five-day
+19:34 
+
+19:34  holiday. Because we all deserve it. You
+19:38 
+
+19:38  deserve it too. I deserve it too. We
+19:40 
+
+19:40  will take a five-day break and then
+19:42 
+
+19:42  return in January to continue the
+19:44 
+
+19:44  course. All right? So this is the plan.
+19:47 
+
+19:47  Now it's your decision. If you want, if
+19:50 
+
+19:50  you feel that you want to do it through
+19:52 
+
+19:52  a paid membership, then do it through a
+19:53 
+
+19:54  paid membership. If you feel that, no,
+19:57 
+
+19:57  I want to do it for free, then you can
+19:59 
+
+19:59  attend all the white sessions for free.
+20:01 
+
+20:02  This is the plan for December. If you
+20:04 
+
+20:04  have any doubts or any feedback, write
+20:07 
+
+20:07  it in the comments. I have written here
+20:10 
+
+20:10  that the schedule may change. So if I
+20:12 
+
+20:12  get a great suggestion from your side,
+20:15 
+
+20:15  we will try to accommodate it. All
+20:18 
+
+20:18  right? But there is a high chance that
+20:20 
+
+20:20  we will stick to this. This is the
+20:23 
+
+20:23  schedule for December and this is the
+20:25 
+
+20:25  list of improvements that you will see
+20:27 
+
+20:27  next month. I really hope that, first
+20:30 
+
+20:30  of all, you have liked the program so
+20:31 
+
+20:32  far. And I really hope you liked the
+20:35 
+
+20:35  list of improvements for next month and
+20:37 
+
+20:37  also the entire schedule we have
+20:39 
+
+20:39  planned for next month. Next month, I
+20:43 
+
+20:43  guarantee you that you will become so
+20:45 
+
+20:45  good and so strong at Pandas that you
+20:47 
+
+20:47  will be able to work on any kind of
+20:49 
+
+20:49  data. That is my guarantee. All right?
+20:52 
+
+20:52  So yeah, that's it from my side in this
+20:54 
+
+20:54  video. I really hope you liked the
+20:56 
+
+20:56  video. If you liked it, please hit the
+20:58 
+
+20:58  like button. If you haven't subscribed
+20:59 
+
+20:59  to the channel, then please subscribe.
+21:01 
+
+21:01  See you tomorrow. All right? Okay, bye.
