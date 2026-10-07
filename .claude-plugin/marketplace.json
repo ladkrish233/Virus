@@ -10,9 +10,9 @@
       "name": "campusx",
       "source": "./plugins/campusx",
       "icon": "./plugins/campusx/assets/icon.webp",
-      "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits, with interactive HTML decks on request.",
+      "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits. Also builds full lecture-wise courses: a roadmap first, then lecture pages.",
       "category": "education",
-      "tags": ["education", "mentor", "hinglish", "tutor"]
+      "tags": ["education", "mentor", "hinglish", "tutor", "course", "roadmap"]
     }
   ]
 }
