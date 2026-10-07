@@ -45,7 +45,7 @@ drive what counts as advanced, not a template.
 
 ## The roadmap file
 
-Write `./campusx-courses/<topic>/roadmap.md`:
+Write `./virus-courses/<topic>/roadmap.md`:
 
 ```markdown
 # <Topic> Roadmap

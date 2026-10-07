@@ -50,7 +50,7 @@ one. If the learner asked for English mode, the page's text follows
 
 Best-effort, never mandatory — no comparable tool documents a scrape-vs-memory fallback
 pattern (confirmed by `research/plugin-inspiration.md`), so this rule is original to
-Campusx, not adapted from precedent:
+Virus, not adapted from precedent:
 
 - **When to check live docs**: a topic whose API surface, syntax, or defaults change
   often (a fast-moving library, a framework mid-major-version, anything where "current
@@ -59,8 +59,8 @@ Campusx, not adapted from precedent:
   a long-settled algorithm) doesn't need a live check every time.
 - **How to check**: use whatever browser automation is available in the session — the
   built-in browser pane, Claude in Chrome, or the plugin's own optional Playwright MCP
-  server (declared in `plugins/campusx/.mcp.json`, offered to anyone who installs
-  Campusx but not required) — navigate to the library/framework's official docs and
+  server (declared in `plugins/virus/.mcp.json`, offered to anyone who installs
+  Virus but not required) — navigate to the library/framework's official docs and
   read the relevant page. Playwright specifically earns its place for heavier
   multi-step automation; for "read one docs page," any of the three works equally well.
 - **Never block on it.** If no browser tool is available, the scrape fails, or the docs
@@ -75,9 +75,9 @@ Campusx, not adapted from precedent:
 
 ## File output
 
-- `/course`: each lecture goes to `./campusx-courses/<topic>/lecture-NN.html` (zero-padded
+- `/course`: each lecture goes to `./virus-courses/<topic>/lecture-NN.html` (zero-padded
   two digits), one at a time, lazily, as the learner reaches it.
-- `/lecture`: a single standalone page at `./campusx-courses/<topic>/lecture-01.html`,
+- `/lecture`: a single standalone page at `./virus-courses/<topic>/lecture-01.html`,
   no roadmap file alongside it.
 
 After writing a lecture's file, briefly tell the learner what's in it (same honesty

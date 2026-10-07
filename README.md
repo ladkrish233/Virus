@@ -1,59 +1,71 @@
 <div align="center">
-  <img src="assets/icon.webp" width="220" alt="Campusx" />
-
-  # Campusx
-
-  **A Claude Code plugin that teaches in a style inspired by CampusX's YouTube lectures.**
-
-  Hinglish by default · why-before-how · code only after the concept is clear · honest about limits
-
-  [![Install](https://img.shields.io/badge/install-%2Fplugin%20marketplace%20add-blueviolet)](#install)
-  [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-  [![v2.0.0](https://img.shields.io/badge/release-v2.0.0-informational)](https://github.com/ladkrish233/campusx/releases/tag/v2.0.0)
+  <img src="assets/banner.webp" width="100%" alt="Virus — it explains, you pass" />
 </div>
+
+# Virus
+
+**The strict sir who explains everything.**
+
+He asks one question and the whole class goes quiet. Then he explains it so well you feel bad for hating him.
+
+A Claude Code plugin that teaches any topic in a friendly, why-before-how style. Hinglish by default, English on request.
+
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-orange.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-green.svg)
+
+> **Unofficial and fan-made.** Virus is not affiliated with or endorsed by CampusX or Nitish Singh. It is a teaching-style plugin inspired by the style of their YouTube lectures. It is not the real person, it never claims to be, it never invents anyone's opinions or personal details, and it never pastes long verbatim transcript passages.
 
 ---
 
-**Unofficial, fan-made, not affiliated with or endorsed by CampusX or Nitish Singh.**
-This is a style-clone mentor, not the real person — it never claims to be him, never
-invents his opinions or personal details, and never pastes long verbatim transcript
-passages.
+## What it is
 
-The voice is evidence-backed, not guessed at: it's drawn from a measured analysis of
-real CampusX lecture transcripts (see [`research/style-dna.md`](https://github.com/ladkrish233/campusx/tree/research/style-dna/research/style-dna.md)),
-with confidence tiers preserved — confirmed high-frequency patterns are treated as
-rules, one-off patterns are flagged and used sparingly.
+You know him. Last bench was never safe. He doesn't rush, he doesn't skip the basics, and he never says "it's obvious."
+
+Virus puts him inside Claude Code.
+
+- **Why before how.** The problem comes first, then the idea.
+- **Code only after the concept is clear.** Never before.
+- **Errors are shown and explained before they are fixed.** Nothing is silently patched.
+- **Honest about limits.** If something is hard or uncertain, it says so.
+- **Hinglish by default.** Say "english mein" and it switches. Same teacher, different language.
 
 ## Install
 
-**Claude Code (CLI/desktop):**
+Claude Code, as two separate commands:
 
-```bash
+```
 /plugin marketplace add ladkrish233/campusx
-/plugin install campusx
+/plugin install virus@virus-marketplace
 ```
 
-## Modes
+Then start a new session and say `teach me how REST APIs work`.
 
-- **Teach a concept** — `/teach <topic>`, or just say "teach me X", "X kya hota hai",
-  "samjhao". Works for any topic, including ones never covered in the source
-  transcripts — the method generalizes, not just the topic list.
-- **Explain or write code** — `/code`, or paste code and ask for an explanation. Code
-  is always explained after the concept, line by line; errors are shown and explained
-  before being fixed, never silently patched.
-- **Doubt clearing** — `/doubt`, or describe what's confusing you ("I'm stuck on...").
-  Restates the doubt, finds the root misconception, re-explains with a fresh analogy,
-  then checks understanding.
-- **Course** — `/course <topic>` (e.g. `/course FastAPI`), or "build me a course on X",
-  "give me a roadmap for X and teach it lecture by lecture". Generates a roadmap first
-  (beginner → advanced, via backward design from a stated end-state capability), then
-  builds one dense, scrollable HTML lecture page at a time, lazily, as you reach each
-  one — never the whole course upfront. Saved locally under
-  `./campusx-courses/<topic>/roadmap.md` + `lecture-01.html`, `lecture-02.html`, etc.
-- **Lecture** — `/lecture <topic>`, the same dense HTML page format for a single
-  one-off deep-dive, no roadmap needed.
+Plugin names follow the `plugin@marketplace` form. If an install command fails, run `/plugin` to see the exact marketplace name and use that.
 
-Sample prompts:
+### Install from a local folder (for testing)
+
+```
+claude plugin validate /path/to/repo
+claude plugin marketplace add /path/to/repo
+claude plugin install virus@virus-marketplace
+```
+
+If your path contains spaces, wrap it in quotes.
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `/teach <topic>` | Teaches a concept: the problem first, the idea built step by step, then code. |
+| `/code` | Explains code line by line, after the concept. Errors are shown before they are fixed. |
+| `/doubt` | Restates your doubt, finds the root misconception, re-explains with a fresh analogy, then checks understanding. |
+| `/course <topic>` | Builds a roadmap first, then one HTML lecture page at a time, as you reach each lecture. |
+| `/lecture <topic>` | One dense HTML lecture page for a single topic. No roadmap needed. |
+
+You don't need the slash. Plain sentences trigger the same modes: "teach me X", "X kya hota hai", "samjhao", "I'm stuck on Y".
+
+## Sample prompts
 
 ```
 teach me how REST APIs work
@@ -65,70 +77,82 @@ give me a roadmap for Docker, then teach it lecture by lecture
 make a lecture page on how Git branching works
 ```
 
-Hinglish is the default; say "english mein" (or just ask in English) to switch — same
-teaching method, different language.
+## How he teaches
 
-Course/lecture pages try to verify fast-changing facts (library APIs, current syntax)
-against live documentation before writing code examples — using whatever browser tool
-is available in your session, or the plugin's own optional bundled Playwright MCP
-server (offered on install, never required). This is always best-effort: if no browser
-tool is available or a check fails, the page still gets built, with an honest caveat in
-its own text rather than presenting unverified content as certain.
+1. **Start from a real situation.** A concrete problem a learner would actually hit.
+2. **Name the idea after the problem is felt.** The term comes second.
+3. **Build step by step, small to big.** Like a whiteboard, not a textbook.
+4. **Ground unfamiliar jargon.** Words like "API" or "JSON" are tied to an everyday scenario before they are used.
+5. **Code after the concept.** Explained line by line, with the expected output.
+6. **Show the error, then fix it.** Debugging is part of the lesson.
+7. **Check understanding.** A short question, then the next step.
 
-## What's in v2
+## Courses and lectures
 
-**v1** shipped teach / code-explain / doubt-clearing / visual-teaching modes, backed by
-4 reference files and 3 worked examples, voice-evidenced from 6 real CampusX playlists
-(~91 transcript files) — see [`docs/test-results-v1.md`](docs/test-results-v1.md)
-(scored ~8.2–8.8/10) and [v1.0.0](https://github.com/ladkrish233/campusx/releases/tag/v1.0.0).
+`/course` and `/lecture` produce single-file HTML pages you open in your browser.
 
-**v2** adds `/course` and `/lecture`, retiring v1's `/slides` click-through-deck mode
-entirely in favor of the dense reference-page format. Backed by `roadmap-generation.md`
-(backward-design sequencing) and `lecture-page-generation.md` (maps the established
-teaching flow onto a reusable HTML skeleton), plus a bundled optional Playwright
-dependency for doc-scraping. A full worked example — an 8-lecture FastAPI course — lives
-at `references/examples/course-demo/fastapi/`. Tested against the mechanism end-to-end;
-see [`docs/test-results-v2.md`](docs/test-results-v2.md). One real gap was found during
-testing (foundational jargon like "API"/"JSON" used without being defined for a true
-beginner) and fixed using a real CampusX FastAPI transcript as evidence — new lectures
-now ground unfamiliar jargon in a concrete everyday scenario before using it, per
-`teaching-framework.md`'s "Grounding foundational jargon" rule.
+- **`/course <topic>`** writes a `roadmap.md` first (beginner to advanced, planned backward from the skill you want at the end). Then it builds `lecture-01.html`, `lecture-02.html` and so on, **one at a time as you reach each one**, never the whole course upfront.
+- **`/lecture <topic>`** builds one standalone page.
+- Files are saved locally in your current folder under `./virus-courses/<topic>/`.
+- Re-running `/course` on the same topic reads the existing `roadmap.md` instead of starting over.
 
-**Deferred** (may become a fresh effort later): revision/quiz mode, project
-walkthroughs, compare-two-concepts mode, scraping CampusX's or other educators' GitHub
-repos for code-style evidence, and a book-ingestion pipeline.
+An 8-lecture FastAPI example is included under `plugins/virus/skills/virus/references/examples/course-demo/fastapi/`.
+
+### Fast-changing facts
+
+Course and lecture pages try to check things that change quickly (library APIs, current syntax) against live documentation before writing code examples. This uses whatever browser tool your session has, or the plugin's optional bundled Playwright MCP server, which is offered on install and never required.
+
+This check is best effort. If no browser tool is available or a check fails, the page is still built, with an honest caveat in its text rather than unverified content presented as certain.
+
+## Language
+
+Hinglish is the default: Hindi sentence structure with English technical terms, written in Roman script. Say "english mein" or just ask in English to switch. The teaching method stays the same.
+
+## FAQ
+
+**Does it skip the basics?** No.
+
+**Will it let me copy-paste without understanding?** He'll notice.
+
+**Does it only work for topics from the original lectures?** No. The method generalizes to any topic, including ones that were never covered.
+
+**Can I ask in English?** Yes. Same sir, different language.
+
+**Is it the real person?** No. See the disclaimer at the top.
+
+**Why "Virus"?** Every class had one.
 
 ## Known limitations
 
-- Voice evidence comes from 6 general playlists (~91 files) plus one topic-specific
-  FastAPI playlist (13 files) — real but limited samples. More source material would
-  sharpen edge cases the current evidence is "thin" on (see `style-guide.md`'s own
-  confidence tiers).
-- Style-clone only: it approximates a teaching method from transcripts, it isn't the
-  real person, and it won't have opinions or facts about him beyond what's evidenced.
-- `/course` lectures are generated lazily and locally — there's no resume/continue
-  tracking beyond the files already on disk; re-running `/course` on the same topic
-  will re-read `roadmap.md` if it exists rather than starting over, but this isn't a
-  database-backed progress tracker.
-- No built-in roadmap/quiz/revision modes yet beyond `/course`'s own roadmap step (see
-  "deferred" above — a dedicated standalone revision/quiz mode is still missing).
+- The teaching style comes from a limited set of lecture transcripts. Edge cases may feel less accurate than the common patterns.
+- It approximates a teaching method. It has no opinions or facts about any real person beyond what is evidenced.
+- Lectures are generated lazily and stored locally. There is no database-backed progress tracker, only the files already on disk.
+- There is no standalone quiz, revision or compare mode yet.
+- It teaches from Claude's own knowledge plus optional live documentation checks. It does not read your books yet.
 
-## Re-running style extraction with more transcripts
+## Roadmap
 
-1. Add new transcript files anywhere under a local folder.
-2. Re-run the Style DNA extraction as a wayfinder research ticket against this repo's
-   map (see `docs/agents/issue-tracker.md` for how tickets work here), pointing it at
-   the new source material.
-3. Update `references/style-guide.md` and `references/teaching-framework.md` with any
-   new confirmed patterns — keep the confidence-tier discipline (don't promote a
-   one-off into a hard rule).
+These are ideas, not promises.
+
+- Interactive slide-deck output (step reveal, predict-first questions, mini quiz)
+- Teaching from your own books, with a source tag on every slide
+- Revision and quiz mode
+- Project walkthroughs
+- Compare-two-concepts mode
+
+## Updating the teaching style with more material
+
+1. Add new transcript files in a local folder. Do not commit them.
+2. Re-run the style analysis against the new material.
+3. Update `references/style-guide.md` and `references/teaching-framework.md` with confirmed patterns only. Do not promote a one-off pattern into a hard rule.
 
 ## How this was built
 
-Planned and tracked via GitHub Issues through `wayfinder:map` issues — see
-[issue #1](https://github.com/ladkrish233/campusx/issues/1) (v1: spec, Style DNA
-research, every implementation step) and [issue #10](https://github.com/ladkrish233/campusx/issues/10)
-(v2: `/course`/`/lecture`, the FastAPI worked example, and the beginner-jargon fix).
+Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/campusx/issues/1) (v1) and [issue #10](https://github.com/ladkrish233/campusx/issues/10) (v2, `/course`/`/lecture`).
+
+## Contributing
+
+Issues and pull requests are welcome. Please do not add transcripts, book text or any third-party content you don't have the right to share. Examples must be original.
 
 ## License
 

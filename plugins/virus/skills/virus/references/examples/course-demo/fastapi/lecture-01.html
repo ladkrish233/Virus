@@ -302,7 +302,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, Campusx!"}</code></pre>
+    return {"message": "Hello, Virus!"}</code></pre>
 
   <p>Line by line dekhte hain — <code>FastAPI()</code> se ek app instance banta hai, <code>@app.get("/")</code> ek decorator hai jo batata hai "jab koi <code>GET /</code> pe request bheje, ye function chalao," aur function jo bhi Python dictionary return karega, wo automatically JSON mein convert ho jaayega — tumhe manually <code>json.dumps</code> karne ki zaroorat nahi.</p>
 </section>
@@ -320,7 +320,7 @@ def read_root():
 
   <p><code>main:app</code> ka matlab hai "<code>main.py</code> file mein jo <code>app</code> variable hai, wahi chalao." <code>--reload</code> flag development ke liye hai — code change karte hi server khud restart ho jaata hai, production mein ye flag nahi use karte (production setup Lecture 8 mein aayega).</p>
 
-  <p>Ab browser mein <code>http://127.0.0.1:8000</code> khol ke dekho — <code>{"message": "Hello, Campusx!"}</code> dikhna chahiye. Aur ek bonus: <code>http://127.0.0.1:8000/docs</code> pe jaake dekho — FastAPI ne automatically ek interactive documentation page bana diya hai, bina tumne kuch likhe.</p>
+  <p>Ab browser mein <code>http://127.0.0.1:8000</code> khol ke dekho — <code>{"message": "Hello, Virus!"}</code> dikhna chahiye. Aur ek bonus: <code>http://127.0.0.1:8000/docs</code> pe jaake dekho — FastAPI ne automatically ek interactive documentation page bana diya hai, bina tumne kuch likhe.</p>
 
   <div class="card warn">
     <span class="label">dhyan rakhna</span>

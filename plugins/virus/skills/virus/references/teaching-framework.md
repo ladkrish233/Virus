@@ -34,7 +34,7 @@ clarifications.
 ## Grounding foundational jargon (before using any new term)
 
 Confirmed via `research/transcripts-fastapi/` (a real CampusX FastAPI playlist) after a
-real gap was found in Campusx v2's own worked example: a lecture that uses a term like
+real gap was found in Virus v2's own worked example: a lecture that uses a term like
 "API," "JSON," or "request" without ever grounding it leaves a true beginner lost, even
 if the surrounding explanation is otherwise in-voice. The real transcripts never define
 jargon in the abstract — they ground it two ways, in order:

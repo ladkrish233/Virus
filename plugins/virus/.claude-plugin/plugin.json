@@ -1,17 +1,17 @@
 {
   "$schema": "https://code.claude.com/schemas/plugin.json",
-  "name": "campusx",
-  "displayName": "Campusx",
+  "name": "virus",
+  "displayName": "Virus",
   "version": "2.0.0",
   "icon": "assets/icon.webp",
-  "description": "A mentor skill that teaches in a style inspired by CampusX's YouTube lectures — unofficial, fan-made, not affiliated with or endorsed by CampusX or Nitish Singh. Teaches any topic the same way: why first, intuition, step-by-step, code after theory, honest about limits. Also builds full lecture-wise courses: a roadmap first, then dense HTML lecture pages one at a time. Use for 'teach me X', 'samjhao', 'explain this code', 'doubt', 'build me a course on X', or any request to learn something new.",
+  "description": "The strict sir who explains everything — a mentor skill that teaches in a style inspired by CampusX's YouTube lectures, unofficial and fan-made, not affiliated with or endorsed by CampusX or Nitish Singh. Teaches any topic the same way: why first, intuition, step-by-step, code after theory, honest about limits. Also builds full lecture-wise courses: a roadmap first, then dense HTML lecture pages one at a time. Use for 'teach me X', 'samjhao', 'explain this code', 'doubt', 'build me a course on X', or any request to learn something new.",
   "author": {
-    "name": "campusx contributors"
+    "name": "virus contributors"
   },
   "homepage": "https://github.com/ladkrish233/campusx/blob/master/README.md",
   "repository": "https://github.com/ladkrish233/campusx",
   "license": "MIT",
-  "keywords": ["education", "hinglish", "mentor", "tutor"],
+  "keywords": ["education", "hinglish", "mentor", "tutor", "course", "roadmap"],
   "defaultEnabled": true,
   "userConfig": {
     "language_default": {

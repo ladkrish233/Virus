@@ -1,15 +1,15 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
-  "name": "campusx-marketplace",
+  "name": "virus-marketplace",
   "owner": {
-    "name": "campusx contributors"
+    "name": "virus contributors"
   },
-  "description": "A single-plugin marketplace for the Campusx skill — a minimal teaching mentor in a style inspired by CampusX's YouTube lectures. Unofficial, fan-made.",
+  "description": "A single-plugin marketplace for Virus — the strict sir who explains everything, a teaching mentor in a style inspired by CampusX's YouTube lectures. Unofficial, fan-made.",
   "plugins": [
     {
-      "name": "campusx",
-      "source": "./plugins/campusx",
-      "icon": "./plugins/campusx/assets/icon.webp",
+      "name": "virus",
+      "source": "./plugins/virus",
+      "icon": "./plugins/virus/assets/icon.webp",
       "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits. Also builds full lecture-wise courses: a roadmap first, then lecture pages.",
       "category": "education",
       "tags": ["education", "mentor", "hinglish", "tutor", "course", "roadmap"]
