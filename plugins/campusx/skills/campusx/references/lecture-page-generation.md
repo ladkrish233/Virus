@@ -48,9 +48,30 @@ one. If the learner asked for English mode, the page's text follows
 
 ## Accuracy and doc-scraping
 
-See the doc-scraping guidance (added alongside the Playwright bundling work in
-[issue #14](https://github.com/ladkrish233/campusx/issues/14)) for when to verify facts
-against live documentation before writing a lecture's code examples.
+Best-effort, never mandatory — no comparable tool documents a scrape-vs-memory fallback
+pattern (confirmed by `research/plugin-inspiration.md`), so this rule is original to
+Campusx, not adapted from precedent:
+
+- **When to check live docs**: a topic whose API surface, syntax, or defaults change
+  often (a fast-moving library, a framework mid-major-version, anything where "current
+  version" materially changes the correct code) — check before writing that lecture's
+  code examples. A stable, well-known, rarely-changing concept (core language syntax,
+  a long-settled algorithm) doesn't need a live check every time.
+- **How to check**: use whatever browser automation is available in the session — the
+  built-in browser pane, Claude in Chrome, or the plugin's own optional Playwright MCP
+  server (declared in `plugins/campusx/.mcp.json`, offered to anyone who installs
+  Campusx but not required) — navigate to the library/framework's official docs and
+  read the relevant page. Playwright specifically earns its place for heavier
+  multi-step automation; for "read one docs page," any of the three works equally well.
+- **Never block on it.** If no browser tool is available, the scrape fails, or the docs
+  site can't be reached, fall back to careful from-memory content — but say so plainly
+  in the lecture's prose or your chat response (e.g. "yeh thoda purana syntax ho sakta
+  hai, docs check nahi ho paya" / "couldn't verify against current docs, so double-check
+  before running this in production") rather than presenting unverified content as
+  equally certain. This matches `style-guide.md`'s honesty-about-limits anti-pattern
+  rule — never fake certainty.
+- **Never let scraping gate lecture generation.** A lecture is still built and delivered
+  even when doc-scraping isn't possible; the only change is the confidence caveat above.
 
 ## File output
 
