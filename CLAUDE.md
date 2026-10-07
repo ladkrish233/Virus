@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-Issues are tracked as GitHub Issues in `ladkrish233/campusx`, using the `gh` CLI. See `docs/agents/issue-tracker.md`.
+Issues are tracked as GitHub Issues in `ladkrish233/virus`, using the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
 ### Domain docs
 

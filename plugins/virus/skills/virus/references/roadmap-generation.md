@@ -1,7 +1,7 @@
 # Roadmap Generation
 
 How `/course <topic>` builds its roadmap. Read this before generating any roadmap.
-See [research/plugin-inspiration.md](https://github.com/ladkrish233/campusx/blob/research/plugin-inspiration/research/plugin-inspiration.md)
+See [research/plugin-inspiration.md](https://github.com/ladkrish233/virus/blob/research/plugin-inspiration/research/plugin-inspiration.md)
 for where the backward-design approach below came from (adapted as an idea, not copied
 as implementation — no comparable tool does this exact roadmap+lazy-HTML shape).
 

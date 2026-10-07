@@ -2,7 +2,10 @@
   <img src="assets/banner.webp" width="100%" alt="Virus — it explains, you pass" />
 </div>
 
+<img src="assets/icon.webp" width="110" align="left" alt="Virus mascot" />
+
 # Virus
+<br clear="left"/>
 
 **The strict sir who explains everything.**
 
@@ -35,7 +38,7 @@ Virus puts him inside Claude Code.
 Claude Code, as two separate commands:
 
 ```
-/plugin marketplace add ladkrish233/campusx
+/plugin marketplace add ladkrish233/virus
 /plugin install virus@virus-marketplace
 ```
 
@@ -148,7 +151,7 @@ These are ideas, not promises.
 
 ## How this was built
 
-Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/campusx/issues/1) (v1) and [issue #10](https://github.com/ladkrish233/campusx/issues/10) (v2, `/course`/`/lecture`).
+Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/virus/issues/1) (v1) and [issue #10](https://github.com/ladkrish233/virus/issues/10) (v2, `/course`/`/lecture`).
 
 ## Contributing
 
