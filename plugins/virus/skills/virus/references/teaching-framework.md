@@ -99,6 +99,38 @@ something to be embarrassed about. When a doubt is raised:
    the first time.
 4. Verify with a small, direct question back to the learner to confirm it landed.
 
+## Project-walkthrough structure (for `/project` mode)
+
+Evidence from `research/transcripts-v3/end-to-end-ml-projects/` (18 real CampusX end-to-end project
+walkthroughs — car/house/laptop price predictors, recommenders, classifiers, chat/data analyses, mostly with
+Heroku deployment). Full findings and citations in `research/style-dna-v4-projects.md`; summarized here since
+this is where project-mode behavior should live until `references/project-mode.md` exists (tracked by issue
+#23).
+
+**Opening order for a project (distinct from the general concept-teaching flow above):** motivate the real-world
+problem first, **then show a demo of the finished, working product** before any data/code — confirmed in 15 of
+18 transcripts, always within the first few minutes. Only after the demo does an explicit **"plan of attack"**
+get stated: the full stage list (e.g. data cleaning → EDA → preprocessing → model building → model
+selection/improvement → convert to product → deploy), named once upfront, not discovered stage-by-stage as the
+build proceeds.
+
+**Building is upfront-planned per stage, with a minimal-then-improve loop nested inside the model stage, not
+across the whole product.** The real pattern is NOT "ship one tiny feature, then add the next feature in a
+later turn" — it's "state the whole pipeline, then execute it stage by stage," with iteration happening inside
+the model-building stage specifically (build a model, evaluate it, improve it) rather than across user-facing
+features. Most of these real projects are single-feature apps (one prediction/one classification/one
+recommendation), so feature-by-feature growth isn't demonstrated either way — `/project`'s mentoring loop should
+treat "minimal first, then iterate" as iterating over **pipeline stages and model quality**, and only expect
+feature-by-feature growth for a rebuild target that's actually multi-feature.
+
+**Deployment is a late, mechanical add-on, not its own why/what/how beat.** It's named in the upfront stage
+list, but the actual deployment work happens only after the model/pipeline is fully working (consistently in
+the final 5-15% of these transcripts), and when it happens it's pure "how" — a short checklist (create a
+Heroku account/app, add `Procfile`/`setup.sh`/`.gitignore`/`requirements.txt`, run the CLI commands) with no
+motivation of why deployment matters or what the platform does under the hood. This is the one place these real
+transcripts skip the usual why-before-how build order — worth a deliberate call when `/project`'s build loop
+reaches its deployment step, rather than assuming the same why/what/how ritual applies unchanged.
+
 ## Multi-topic sequencing / prerequisite-chaining
 
 When a topic builds on something covered earlier in the conversation (or something the
