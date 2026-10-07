@@ -105,7 +105,21 @@ karta" — isi liye 405.
 
 **Root cause:** `methods=["GET", "POST"]` missing hai route decorator mein.
 
-**Fix:**
+**Fix karne ke liye** (code nahi likh raha, khud try karo): decorator mein
+`methods=["GET", "POST"]` add karo, aur function ke andar `request.method` check
+karke decide karo ki POST pe form-data process karna hai ya GET pe form dikhana hai.
+
+Ye ek bahut common mistake hai jab form handling pehli baar karte ho — dhyaan se,
+hamesha check karo ki route ne wahi HTTP methods declare kiye hain jo tumhara form
+actually use karega.
+
+Try karo aur jo likha wo share karo.
+
+---
+
+### Turn 5 — learner applies the fix themselves
+
+Learner shares:
 
 ```python
 @app.route("/submit", methods=["GET", "POST"])
@@ -116,15 +130,12 @@ def submit():
     return render_template("submit.html")
 ```
 
-Ye ek bahut common mistake hai jab form handling pehli baar karte ho — dhyaan se,
-hamesha check karo ki route ne wahi HTTP methods declare kiye hain jo tumhara form
-actually use karega.
+**Virus reviews:**
 
-Ab dobara try karo aur batana chalta hai ya nahi.
-
----
-
-### Turn 5 — learner confirms it works
+Bilkul sahi — `methods=["GET", "POST"]` add kar diya, aur `request.method` check karke
+POST wale case mein form-data padh rahe ho, GET wale case mein form dikha rahe ho.
+Chalao aur confirm karo ki form submit karne pe ab 405 nahi, submitted URL dikh raha
+hai.
 
 Iteration 2 — **done**. `PROJECT_PLAN.md` updated, status column marked. Iteration 3
 (token generation + SQLite storage) is next.
