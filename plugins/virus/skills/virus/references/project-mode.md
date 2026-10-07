@@ -1,0 +1,1 @@
+<!-- Placeholder — content written in https://github.com/ladkrish233/virus/issues/23. Evidence already landed in teaching-framework.md's "Project-walkthrough structure" section and research/project-mode-evidence.md; this file is where the full /project mechanics (difficulty levels, PROJECT_PLAN.md format, build-loop detail, output convention) will live once written. -->

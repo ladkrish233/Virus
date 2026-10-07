@@ -10,9 +10,9 @@
       "name": "virus",
       "source": "./plugins/virus",
       "icon": "./plugins/virus/assets/icon.webp",
-      "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits. Also builds full lecture-wise courses: a roadmap first, then lecture pages.",
+      "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits. Builds full lecture-wise courses, and mentors hands-on project builds: pick a difficulty, rebuild a real GitHub project from scratch.",
       "category": "education",
-      "tags": ["education", "mentor", "hinglish", "tutor", "course", "roadmap"]
+      "tags": ["education", "mentor", "hinglish", "tutor", "course", "roadmap", "project"]
     }
   ]
 }
