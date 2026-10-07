@@ -4,8 +4,8 @@
 
 ## Lectures
 
-1. **What FastAPI is, and your first running app** — motivation (why not just plain Python HTTP handling), hello-world app, running it with Uvicorn.
-   - Prerequisites: none (assumes basic Python functions and type hints)
+1. **What an API, request, and response actually are — then your first running app** — grounds the jargon in a concrete everyday scenario (a restaurant: customer/waiter/chef) before touching FastAPI, then motivation for FastAPI specifically, hello-world app, running it with Uvicorn.
+   - Prerequisites: none (assumes basic Python functions and type hints — not web/API concepts, which this lecture itself covers)
 2. **Routing: path and query parameters** — building real endpoints, type-hinted parameters, automatic validation from type hints.
    - Prerequisites: Lecture 1
 3. **Request and response bodies with Pydantic** — structured input/output, validation errors, response models.

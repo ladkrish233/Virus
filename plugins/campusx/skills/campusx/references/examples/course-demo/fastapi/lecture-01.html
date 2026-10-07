@@ -241,16 +241,45 @@ a{ color:var(--accent-strong); }
   <h1>FastAPI kya hai, aur pehla running app</h1>
   <p class="dek">Dekhte hain FastAPI kyun exist karta hai, aur ek minimal app likh ke chalate hain — taaki baaki poore course ke liye ek concrete starting point mil jaaye.</p>
   <nav class="toc">
-    <a href="#why">01. Kyun FastAPI</a>
-    <a href="#hello-world">02. Pehla app</a>
-    <a href="#run-it">03. Chalao aur dekho</a>
+    <a href="#foundations">01. API, request, response — real example se</a>
+    <a href="#why">02. Kyun FastAPI</a>
+    <a href="#hello-world">03. Pehla app</a>
+    <a href="#run-it">04. Chalao aur dekho</a>
   </nav>
 </header>
 
-<section id="why">
+<section id="foundations">
   <div class="section-num">01</div>
+  <h2>Pehle samjho: API, request, response hote kya hain</h2>
+  <p class="lead">Is poore course mein hum "API," "request," "response," "JSON" jaise words baar baar use karenge — toh code pe jaane se pehle inhe ek bilkul non-technical example se samajh lete hain, taaki aage kabhi confusion na ho.</p>
+
+  <p>Socho tum ek restaurant mein gaye ho. Tum table pe baithe ho (tum yahan <strong>customer</strong> ho). Tumhe khana chahiye, lekin tum khud kitchen mein jaake nahi bana sakte — ek <strong>waiter</strong> hai jo tumhare aur kitchen ke beech khada hai. Tum waiter ko apna order bolte ho, waiter wo order kitchen mein <strong>chef</strong> tak le jaata hai, chef khana banata hai, aur waiter wahi khana wapas tumhare table pe le aata hai.</p>
+
+  <div class="stage">
+    <span>Customer (tum)</span><span class="arrow">→ order →</span><span>Waiter</span><span class="arrow">→ →</span><span>Chef / Kitchen</span><span class="arrow">→ khana →</span><span>Waiter</span><span class="arrow">→ →</span><span>Customer</span>
+  </div>
+
+  <p>Ab in roles ko tech ke terms se map karte hain:</p>
+  <ul>
+    <li><strong>Tum (customer)</strong> = <strong>frontend</strong> — jo app ya website tum use kar rahe ho.</li>
+    <li><strong>Chef/kitchen</strong> = <strong>backend/server</strong> — jahan actual kaam hota hai (database check karna, calculation karna, waghera).</li>
+    <li><strong>Waiter</strong> = <strong>API</strong> — frontend aur backend ke beech ka connector. Waiter khud khana nahi banata, wo sirf order le jaata hai aur result wapas le aata hai — API bhi yahi karta hai.</li>
+    <li>Tumhara <strong>order</strong> ("ek paneer tikka dena") = ek <strong>request</strong> — tumne kuch maanga.</li>
+    <li>Waiter jo <strong>khana le ke aata hai</strong> = ek <strong>response</strong> — jo maanga tha, uska jawaab.</li>
+    <li><strong>Menu card</strong> = ek <strong>protocol</strong> — fixed rules ki tum restaurant mein kya-kya order kar sakte ho aur kaise.</li>
+    <li>Khana jis <strong>particular tarike se plate mein saja ke aata hai</strong> = <strong>data format</strong> — tech mein jab data ek fixed, predictable tarike se likha jaata hai (jaise <code>{"dish": "paneer tikka", "price": 220}</code>), usko hum <strong>JSON</strong> bolte hain. Abhi itna samajh lo ki ye data likhne ka ek standard tarika hai — isme hum age aur detail mein jaayenge.</li>
+  </ul>
+
+  <div class="card tip">
+    <span class="label">theek hai?</span>
+    Jab bhi aage "API ko request bheji" ya "API ne JSON response diya" jaisa sentence aaye, wapas is restaurant wale example pe aa jaana — request = order, response = khana, JSON = us khane ko ek fixed, predictable tarike se describe karna.
+  </div>
+</section>
+
+<section id="why">
+  <div class="section-num">02</div>
   <h2>Kyun FastAPI, plain Python se kya problem thi</h2>
-  <p class="lead">Maan lo tumhe ek simple API banani hai — ek endpoint jo JSON leta hai aur JSON return karta hai. Plain Python mein (bina kisi framework ke) tumhe khud HTTP request parse karni padegi, JSON validate karni padegi, errors handle karne padenge, aur documentation khud likhni padegi. Har chhoti si cheez manual.</p>
+  <p class="lead">Ab jab humein pata hai ki API ek connector hai jo requests leta hai aur responses deta hai — maan lo tumhe khud apna "waiter" (API) banana hai Python mein. Plain Python mein (bina kisi framework ke) tumhe khud HTTP request parse karni padegi, JSON validate karni padegi, errors handle karne padenge, aur documentation khud likhni padegi. Har chhoti si cheez manual.</p>
 
   <p>Ab sawaal ye aata hai ki existing Python web frameworks (jaise Flask) ye sab kyun nahi karte automatically? Theek hai, answer hai: wo karte hain request routing, lekin validation aur documentation zyada manual rehte hain. FastAPI ka pura point yahi hai — Python ke type hints use karke validation aur documentation dono automatically generate kar deta hai.</p>
 
@@ -261,7 +290,7 @@ a{ color:var(--accent-strong); }
 </section>
 
 <section id="hello-world">
-  <div class="section-num">02</div>
+  <div class="section-num">03</div>
   <h2>Pehla app — sirf 5 lines mein</h2>
   <p class="lead">Chalo ek minimal app likhte hain. Pehle install karo:</p>
   <pre><code>pip install fastapi uvicorn</code></pre>
@@ -279,7 +308,7 @@ def read_root():
 </section>
 
 <section id="run-it">
-  <div class="section-num">03</div>
+  <div class="section-num">04</div>
   <h2>Chalao aur dekho kya milta hai</h2>
   <p class="lead">FastAPI khud server nahi chalata — uske liye ek separate tool use hota hai jo actually requests sunta hai aur unhe tumhare app tak pahunchata hai.</p>
 

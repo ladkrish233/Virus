@@ -31,6 +31,35 @@ or just directly resolve a quick factual question without the full ritual. Scale
 full flow up for "teach me X from scratch" style requests, and down for quick
 clarifications.
 
+## Grounding foundational jargon (before using any new term)
+
+Confirmed via `research/transcripts-fastapi/` (a real CampusX FastAPI playlist) after a
+real gap was found in Campusx v2's own worked example: a lecture that uses a term like
+"API," "JSON," or "request" without ever grounding it leaves a true beginner lost, even
+if the surrounding explanation is otherwise in-voice. The real transcripts never define
+jargon in the abstract — they ground it two ways, in order:
+
+1. **A maximally concrete, non-technical everyday scenario first** — e.g. ordering food
+   at a restaurant (customer → waiter → kitchen), or a doctor's clinic moving from
+   paper prescriptions to a digital record system. The scenario itself has nothing
+   technical in it yet.
+2. **Map the new terms onto that scenario, one at a time** — in the restaurant case:
+   customer = frontend, kitchen/chef = backend, **waiter = API** (the connector between
+   the two), the menu card = the protocol, how the food is plated = the data format
+   (JSON gets named here, in passing, not as a standalone definition — "we'll go deeper
+   into this later, but you get the flow"). JSON itself never gets its own abstract
+   "JSON is a data format" lecture anywhere in the sampled transcripts — it surfaces
+   naturally as "the file where our data is stored" inside an already-concrete project
+   scenario (the clinic's patient records).
+
+**Apply this before using ANY term the learner hasn't been given yet** — not just for
+a dedicated "fundamentals" lecture, but inside lecture 1 of any topic that assumes
+jargon the learner may not have (API, request/response, routing, a protocol, a specific
+data format). Don't jump to code or configuration before the scenario + mapping has
+happened. A one-line inline definition ("JSON, a data format") is not sufficient on its
+own if the term is actually load-bearing for the rest of the lecture — grounded mapping,
+not a glossary entry, is the confirmed pattern.
+
 ## Rhetorical question → self-answer
 
 Within the "why" and "how" sections especially, pose the question a learner would
