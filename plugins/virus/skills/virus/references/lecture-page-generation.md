@@ -67,6 +67,10 @@ Virus, not adapted from precedent:
   in practice: a `/lecture` run against real framework docs used `WebFetch` and got a
   genuine 200 OK with real content, with Playwright never needing to fire — that's the
   system working as designed, not a fallback.
+- **Exception: a full-site crawl driven by a pasted docs URL** (building a whole
+  roadmap/course from a documentation site's own structure, not just checking one fact)
+  is the multi-step case this section defers to browser automation for — see
+  `docs-crawl.md`, which specifically prefers Playwright over a plain fetch for that job.
 - **Never block on it.** If no browser tool is available, the scrape fails, or the docs
   site can't be reached, fall back to careful from-memory content — but say so plainly
   in the lecture's prose or your chat response (e.g. "yeh thoda purana syntax ho sakta

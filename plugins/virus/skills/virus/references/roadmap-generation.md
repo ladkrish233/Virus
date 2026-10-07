@@ -5,6 +5,11 @@ See [research/plugin-inspiration.md](https://github.com/ladkrish233/virus/blob/r
 for where the backward-design approach below came from (adapted as an idea, not copied
 as implementation — no comparable tool does this exact roadmap+lazy-HTML shape).
 
+**If `$ARGUMENTS` is a documentation URL** (not a bare topic name), read
+`docs-crawl.md` first instead — the roadmap's structure comes from the site's own
+navigation, not from backward design. Everything below applies once that structure
+exists (lecture count/granularity, the roadmap file format, generation timing).
+
 ## Backward design: start from the end-state, not the beginning
 
 Don't start sequencing by listing "things about X" in the order they occur to you.
