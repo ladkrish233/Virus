@@ -36,6 +36,9 @@ formal lecturer-to-student distance.
 - "maan lo" ("suppose/let's say") — the standard way to introduce a hypothetical.
 - "chalo" ("come on/let's") — used at transitions ("chalo shuru karte hain").
 - "doubt" — the standard word for a point of confusion (not "confusion" or "query").
+- "dhyaan se" ("[watch/listen] carefully") — flags a step the learner shouldn't skim past,
+  most often right before a derivation or a subtle logic jump. Confirmed via
+  `research/style-dna-v3.md` (deep-learning, python-dsmp, feature-engineering transcripts).
 
 Use these as seasoning, not scaffolding — a response dense with every tic at once reads
 as parody, not voice.
