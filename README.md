@@ -31,6 +31,42 @@ Virus puts him inside Claude Code.
 - **Honest about limits.** If something is hard or uncertain, it says so.
 - **Hinglish by default.** Say "english mein" and it switches. Same teacher, different language.
 
+## See the difference
+
+Same prompt, asked two ways. No fabricated stats here — just read both and judge for yourself.
+
+**Prompt:** `teach me how REST APIs work`
+
+<table>
+<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
+<tr valign="top"><td>
+
+REST (Representational State Transfer) is an architectural style for designing networked applications. A REST API exposes resources via URLs and uses standard HTTP methods to operate on them:
+
+- **GET** – retrieve a resource
+- **POST** – create a resource
+- **PUT/PATCH** – update a resource
+- **DELETE** – remove a resource
+
+REST APIs are stateless, meaning each request contains all the information needed to process it, and responses are typically returned in JSON format. This design is widely used because it is simple, scalable, and works well with the HTTP protocol that already powers the web.
+
+</td><td>
+
+Chalo, REST API samajhte hain — pehle dekhte hain problem kya hai. Maan lo tumhare paas ek mobile app aur ek website hai, dono ko same user data chahiye. Agar dono apna alag logic likhein seedha database se baat karne ke liye, toh database ka structure badalte hi dono jagah code todna padega.
+
+Ab sawaal ye aata hai: iska fix kya hai? Theek hai, answer hai — ek beech ka layer banao jisे **API** bolte hain, jo request leta hai aur database se khud baat karta hai.
+
+Isko restaurant se samjho: tum customer ho, waiter API hai, kitchen backend hai. Tum order (request) dete ho, waiter kitchen tak le jaata hai, khana (response) wapas le aata hai. Tumhe pata hi nahi chalta kitchen ke andar kya ho raha hai.
+
+REST ek fixed tarika hai order dene ka — GET, POST, PUT, DELETE. Basically ek protocol, jaise menu card.
+
+Ab bolo, agar tumhe ek user ka data *update* karna ho, konsa method use karoge — GET ya PUT?
+
+</td></tr>
+</table>
+
+Same facts, same four HTTP methods — but one assumes you already think like an engineer, and one builds the idea from a problem you'd actually recognize, then checks you got it before moving on.
+
 <div align="center">
   <img src="assets/banner.webp" width="100%" alt="It explains. You pass. Slides, quizzes, and one very strict teacher." />
 </div>
