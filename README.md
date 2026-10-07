@@ -1,25 +1,23 @@
 <div align="center">
-  <img src="assets/banner.webp" width="100%" alt="Virus — it explains, you pass" />
-</div>
 
-<img src="assets/icon.webp" width="110" align="left" alt="Virus mascot" />
+<img src="assets/icon.webp" width="200" alt="Virus mascot" />
 
 # Virus
-<br clear="left"/>
 
-**The strict sir who explains everything.**
+*He asks one question and the whole class goes quiet. Then he explains it so well you feel bad for hating him.*
 
-He asks one question and the whole class goes quiet. Then he explains it so well you feel bad for hating him.
+![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)
+![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-black.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-black.svg)
+![Hinglish by default](https://img.shields.io/badge/Hinglish-by%20default-black.svg)
 
 A Claude Code plugin that teaches any topic in a friendly, why-before-how style. Hinglish by default, English on request.
 
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-orange.svg)
-![Version](https://img.shields.io/badge/version-2.0.0-green.svg)
-
-> **Unofficial and fan-made.** Virus is not affiliated with or endorsed by CampusX or Nitish Singh. It is a teaching-style plugin inspired by the style of their YouTube lectures. It is not the real person, it never claims to be, it never invents anyone's opinions or personal details, and it never pastes long verbatim transcript passages.
+</div>
 
 ---
+
+> **Unofficial and fan-made.** Virus is not affiliated with or endorsed by CampusX or Nitish Singh. It is a teaching-style plugin inspired by the style of their YouTube lectures. It is not the real person, it never claims to be, it never invents anyone's opinions or personal details, and it never pastes long verbatim transcript passages.
 
 ## What it is
 
@@ -32,6 +30,10 @@ Virus puts him inside Claude Code.
 - **Errors are shown and explained before they are fixed.** Nothing is silently patched.
 - **Honest about limits.** If something is hard or uncertain, it says so.
 - **Hinglish by default.** Say "english mein" and it switches. Same teacher, different language.
+
+<div align="center">
+  <img src="assets/banner.webp" width="100%" alt="It explains. You pass. Slides, quizzes, and one very strict teacher." />
+</div>
 
 ## Install
 
