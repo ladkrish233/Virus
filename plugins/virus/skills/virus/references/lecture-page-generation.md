@@ -57,12 +57,16 @@ Virus, not adapted from precedent:
   version" materially changes the correct code) — check before writing that lecture's
   code examples. A stable, well-known, rarely-changing concept (core language syntax,
   a long-settled algorithm) doesn't need a live check every time.
-- **How to check**: use whatever browser automation is available in the session — the
-  built-in browser pane, Claude in Chrome, or the plugin's own optional Playwright MCP
-  server (declared in `plugins/virus/.mcp.json`, offered to anyone who installs
-  Virus but not required) — navigate to the library/framework's official docs and
-  read the relevant page. Playwright specifically earns its place for heavier
-  multi-step automation; for "read one docs page," any of the three works equally well.
+- **How to check, cheapest first**: for a single static docs page, a plain fetch tool
+  (Claude Code's built-in `WebFetch`, if available) is the right first choice — it's
+  lighter than launching a browser and is usually sufficient. Reach for browser
+  automation (the built-in browser pane, Claude in Chrome, or the plugin's own optional
+  Playwright MCP server, declared in `plugins/virus/.mcp.json`) only when the page needs
+  JS rendering, interaction, or multi-step navigation to reach the content — a plain
+  fetch returning the real page is success, not a sign Playwright "didn't work." Confirmed
+  in practice: a `/lecture` run against real framework docs used `WebFetch` and got a
+  genuine 200 OK with real content, with Playwright never needing to fire — that's the
+  system working as designed, not a fallback.
 - **Never block on it.** If no browser tool is available, the scrape fails, or the docs
   site can't be reached, fall back to careful from-memory content — but say so plainly
   in the lecture's prose or your chat response (e.g. "yeh thoda purana syntax ho sakta
