@@ -1,0 +1,297 @@
+00:00 hello all my name is krishak and welcome
+00:02 to my YouTube channel so guys I hope
+00:05 everybody of you are super excited for
+00:07 the launch of the agentic AI free course
+00:10 and uh I hope you have probably
+00:12 registered for the course itself uh the
+00:15 reason is very simple because from
+00:16 Tomorrow 28th uh December we are going
+00:19 to have our first endtoend project of
+00:22 building agentic AI applications with
+00:23 the help of python and we will be using
+00:26 a framework which is called as fi data
+00:28 okay so tomorrow we are going to start
+00:29 with that uh in this video I really want
+00:32 to just give you a brief idea about all
+00:35 the
+00:36 prerequisites uh to know before you
+00:38 probably start this particular free
+00:39 course uh because many people yesterday
+00:42 had requested Kish what are the
+00:44 prerequisites what we really need to
+00:46 know to start this specific course and
+00:48 all and uh in this video I'll be talking
+00:50 about that okay so let me just go ahead
+00:53 and share my screen and let us go step
+00:55 by step to just make you understand what
+00:58 all prerequisites you specifically play
+01:00 require okay so over here first of all
+01:03 uh this was the entire course details uh
+01:05 building agentic AI free course if you
+01:07 have not registered go ahead and
+01:08 register it um the reason is that I will
+01:11 be providing you the dashboard along
+01:14 with that all the materials will be
+01:15 available over there uh even the videos
+01:17 once it is made live in YouTube channel
+01:19 it will also be shown over there so that
+01:22 you have a place where in you can
+01:25 probably discuss with your peers you can
+01:27 discuss in the form of community if you
+01:28 have any queries everything will be
+01:30 available in the dashboard anyhow I will
+01:32 be providing this particular Link in the
+01:33 description of this particular video now
+01:36 uh coming to the most important thing
+01:39 what are the prerequisites you know so
+01:41 here uh first of all understand what is
+01:43 the goal of this entire course the goal
+01:46 is very simple in this course we will be
+01:48 building agentic AI application with the
+01:50 help of Frameworks such as langlow fi
+01:52 data Lang graph and autogen so as I said
+01:55 every every day I will be uploading some
+01:58 kind of videos I'll be uploading some
+01:59 tutorial some end to end projects
+02:01 wherein we will be building agent Ki
+02:03 application so I've considered four to
+02:05 five Frameworks which will be more than
+02:07 sufficient to get started with okay and
+02:10 the second aim is that I will also try
+02:12 to include multiple llm models right it
+02:16 will not be only open a because open a
+02:18 is paid I will try to use Gro which has
+02:20 open source llm models we'll try to use
+02:22 hugging face which again has some of the
+02:24 open source llm models so that you will
+02:26 be able to understand now the first
+02:29 prerequisite that everybody needs to
+02:31 know is Python programming language why
+02:34 I'm saying Python programming language
+02:36 and when I say Python programming
+02:38 language I'm not saying that uh hey you
+02:39 need to be very good at list you need to
+02:41 be very good at dictionaries and all
+02:43 that I hope everybody knows about it but
+02:46 why Python programming language I'll
+02:48 just give you an example let's say that
+02:49 I'm building this particular project
+02:51 okay and uh tomorrow probably I'll be
+02:53 uploading this here I'm using grock API
+02:56 you know uh in my environment variable I
+02:58 have the grock API how to read that that
+03:00 particular API Keys how to load all the
+03:02 environment variables you know how to
+03:05 probably import all these libraries how
+03:07 to how to write this particular code in
+03:08 such a way that you should be able to
+03:10 understand and here I'm also going to
+03:12 use GitHub copilot because it is
+03:13 completely available uh for free uh I'll
+03:16 also show you how you can increase your
+03:17 productivity right how to probably use
+03:20 some kind of modular structure code all
+03:22 those things I will try to show you uh
+03:25 but the prerequisite is that you need to
+03:27 know some Hands-On you need to probably
+03:29 have some knowledge with respect the
+03:30 hands on itself right now here I'm using
+03:32 open a API key I'm using grock API key
+03:34 grock API is for open source many people
+03:36 would definitely require over here you
+03:38 can see Lama 3 70 billion parameters I'm
+03:40 using it over here this is just one
+03:42 agent this is the other agent so these
+03:44 all are specific python code right and
+03:47 with respect to the Frameworks that we
+03:48 are uh learning uh you know your your
+03:51 libraries your your parameters may
+03:52 change a bit you know and then finally
+03:54 you go ahead and execute it let's let's
+03:56 show you one more thing right now this
+03:58 this code that I've actually written
+03:59 this uh I created as a playground so
+04:01 here you can see I've also created some
+04:03 playgrounds over here now this code that
+04:06 you'll be seeing it is specific to the
+04:07 framework but along with that some of
+04:10 the Necessary Things how to probably
+04:11 create the requirement. txt how to
+04:13 create the environment virtual
+04:14 environment how to create a EnV file
+04:16 this all you should definitely know
+04:18 python is super important right now you
+04:20 know there were time you know where I
+04:22 probably used to explain everything from
+04:24 scratch machine learning deep learning
+04:25 and all used to build end to end
+04:27 application but now fast forward because
+04:29 of LM because of Frameworks like this
+04:32 now building application has become much
+04:34 more easier and uh when I say easier uh
+04:38 in a very much faster way you'll be able
+04:40 to create it and you'll also be able to
+04:42 deploy it right so these are some of the
+04:44 examples and this is the first tutorial
+04:45 that I'm also going to upload tomorrow
+04:47 right so python is definitely required
+04:49 you need to know have some kind of
+04:51 Hands-On knowledge of integrating llm
+04:53 models like how do you work with hugging
+04:55 face how do you probably work with
+04:56 opening ilm models how do you work with
+04:58 mistra all these things right right so
+05:00 once I probably implement this uh you
+05:02 should need to know have some knowledge
+05:04 about tools like dug Duo why Finance
+05:07 tools and there are multiple tools
+05:09 already Frameworks like Lang chin and
+05:10 all have been given up right so one is
+05:13 python definitely you need to know have
+05:14 a very good knowledge about it the
+05:16 second thing is that you need to have
+05:18 some idea about working with generative
+05:21 AI applications right so here if you
+05:23 probably see Krishna generative AI
+05:24 playlist here I have created one amazing
+05:27 playlist in my YouTube channel it has
+05:28 more than millions of views over here uh
+05:31 everything I've explained and here the
+05:34 common framework that I've used is
+05:35 langin and Lang graph if you are
+05:37 familiar with Lang chain at least you
+05:39 should be able to understand any other
+05:41 Frameworks that we specifically use
+05:43 because all the functionalities will be
+05:45 common like it'll be almost common it'll
+05:48 have some similar functionalities itself
+05:50 you know uh like in Lang chain how do
+05:52 you specifically use tools so here one
+05:54 of the videos there over there right and
+05:56 if you know how to integrate tools you
+05:57 can also integrate uh with respect to
+05:59 any Frameworks because those are the
+06:01 same thing over there right so this is
+06:03 really really important you have to
+06:05 probably cover my generative AI playlist
+06:07 it can be with respect to Lan and but
+06:09 again let's say that if you also want a
+06:11 course right I have also created an udmi
+06:13 course now in Udi you can see complete
+06:15 data science complete generative AI with
+06:17 lch and hugging face if you probably see
+06:18 this more than 39,000 plus people have
+06:21 probably taken this the average rating
+06:23 is 4.65 it is a best seller and you can
+06:26 also go ahead and the price is just
+06:27 $5.49 you can just go ahead and try it
+06:29 out and here like how python is
+06:32 specifically used along with generative
+06:34 AI applications that everything is
+06:36 basically explained over here you know
+06:39 uh like for the people who really want
+06:41 to start from Basics you can probably
+06:43 also start it from here so I've
+06:44 implemented almost everything how to
+06:46 probably create a conversational Q adbot
+06:48 end to end Q adbot you know how to
+06:50 probably create a drag document Q&amp;A so
+06:53 this course is must for everyone okay so
+06:55 if you probably just go and search for
+06:57 Krishna and Udi and search for generi
+06:59 course you should be able to get this
+07:01 particular course and my main name is
+07:03 again to come up with much more
+07:05 affordable courses as we go ahead right
+07:07 so once you are also familiar with this
+07:09 you can also take this because see you
+07:12 need to have gender applications
+07:14 knowledge right how do you develop an
+07:15 entend how do you play with libraries
+07:17 like Lang chain this that and all
+07:19 because here we are developing agentic
+07:21 AI it is the workflows are quite complex
+07:24 it is more complex than normal
+07:26 generative AI applications because in
+07:27 generative AI application we may just
+07:29 use some tools but here in agent
+07:31 applications we are creating agents we
+07:34 are creating autonomous agents and this
+07:36 agents internally will be having a lot
+07:39 of communications with different
+07:40 different tools right so the more
+07:42 complex workflows is being built in aent
+07:44 AI applications it is important that you
+07:46 have the generative AI knowledge if you
+07:49 don't have this I think it'll be a
+07:50 problem for you all to understand okay
+07:53 along with this uh if you also are
+07:55 interested you can also go ahead and
+07:57 join my live classes okay uh so we have
+08:00 also launched live boot cam classes we
+08:02 have three one is complete Big Data boot
+08:04 camp live Advanced NLP Genera AI boot
+08:06 cam so you can also go ahead and
+08:08 probably join this you know and this is
+08:10 also live sessions like if you are
+08:12 starting from Basics definitely
+08:14 generative AI if you're starting from
+08:16 Basics if you want more Hands-On more
+08:18 explanation more handholding then this
+08:20 is the live boot camp that you can start
+08:22 and the price is just 354 and right now
+08:25 in the Christmas we are going up ahead
+08:26 with 20% off uh which you cana probably
+08:30 contact a counseling team and you can
+08:31 get more help out of it you know then
+08:34 there is also live computer vision it is
+08:35 up to you this is also with generative
+08:37 AI what we are trying to do okay so once
+08:39 you probably cover this all uh then we
+08:41 are good to go and then you'll be seeing
+08:44 that this kind of application I'll I'll
+08:45 write each and every line of code how to
+08:47 probably go ahead and create environment
+08:49 variables and all uh that is a
+08:51 prerequisite so I don't want to again
+08:53 discuss about that but this is just one
+08:55 kind of uh code that you'll be seeing
+08:57 now see um I have just asked this
+08:60 question okay and it is using Gro API a
+09:02 open source model uh summarize uh like
+09:04 Lama 3 it is using summarize analyst
+09:06 recommendation and share the latest news
+09:08 for a specific stock and if you probably
+09:11 see this over here if I just go ahead
+09:14 and execute it all the informations I
+09:17 will be able to get it in a much more
+09:19 easier way right so as soon as proba
+09:21 execute this see summarizing analyst
+09:23 recommendation share the latest news for
+09:25 nvda how to probably convert this into a
+09:27 custom chat bot I will also show you
+09:30 again with the same Frameworks whatever
+09:31 Frameworks we using so this is with
+09:33 respect to coding after completing this
+09:35 we'll also go in no code Solutions okay
+09:37 where you can just drag and drop and you
+09:38 can create complex workflows so this is
+09:41 quite amazing so here you can see the
+09:43 entire nowadays there are a lot of
+09:45 startups who are doing this specific
+09:46 work you know they're just analyzing the
+09:49 recommendation and they're sending the
+09:50 reports to that hni individuals you know
+09:54 so here you can see the entire answer so
+09:57 I hope you are super excited and I hope
+09:59 you have understood about the
+09:60 prerequisites that you really need to
+10:01 know uh yeah tomorrow uh morning 10:00
+10:04 a.m. will be our first video first
+10:06 tutorial uh we will start with five data
+10:09 and uh we'll start building projects end
+10:11 to endend Applications so yeah this was
+10:13 it uh please make sure that you hit like
+10:15 share with many of your friends I will
+10:16 see you in the next video have a great
+10:17 day thank you one

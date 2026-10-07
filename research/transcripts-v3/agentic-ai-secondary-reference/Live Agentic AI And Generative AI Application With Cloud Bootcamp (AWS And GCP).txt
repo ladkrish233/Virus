@@ -1,0 +1,276 @@
+00:01 hello all my name is krishak and welcome
+00:03 to my YouTube channel so guys I am super
+00:06 excited to announce our first live
+00:09 agentic Ai and generative AI boot camp
+00:12 with cloud and this specific batch is
+00:16 starting from January 25th 2025 so in
+00:19 this specific video I'll be talking
+00:22 about the entire information about this
+00:24 particular course how many months it is
+00:26 basically going to take uh to cover this
+00:29 particular course and when we are going
+00:30 to have the live session so let me
+00:33 quickly share my screen over here so
+00:36 this is the batch name that is live
+00:37 agentic Ai and generative AI application
+00:39 with Cloud boot cam so uh here uh I was
+00:43 just thinking okay should we only go
+00:45 ahead with agentic AI application but we
+00:48 thought that okay if we add this Cloud
+00:51 part wherein we teach you how to build
+00:53 generative AI application in Cloud
+00:55 specifically in ews and gcp from
+00:58 fine-tuning to deployment to probably
+01:00 creating multiple application that would
+01:03 be quite amazing so that is the reason
+01:04 we have included this additional part of
+01:07 generative AI application with Cloud
+01:08 boot gam so this is a huge syllabus
+01:11 altoe the price of the course is only
+01:14 4500 inclusive of GST I will go ahead
+01:17 and show you the entire curriculum right
+01:20 now along with the syllabus we will
+01:22 discuss that too now let me go ahead
+01:24 with some of the basic information right
+01:26 now uh the CL the course is going to
+01:29 start from January 25th
+01:31 2025 and here we have included multiple
+01:34 mentors let me talk about why we have
+01:36 included multiple mentors so first of
+01:38 all the mentors that we are going to
+01:40 have is Sanu Paul then we have mayank
+01:42 Agarwal then myself and sunny now see
+01:45 Sanu is very much good in uh building
+01:49 generative applications specifically in
+01:50 Cloud he has worked in multiple fine
+01:52 tuning techniques he has worked in
+01:54 deployment so we have included him so
+01:56 specifically when it comes to uh the
+01:59 work or when it comes to the syllabus
+02:01 related to gen application specifically
+02:03 with respect to Cloud you will be seeing
+02:05 chanu Paul teaching you then m is really
+02:08 good in generative AI application he
+02:10 will also be included uh myself I will
+02:13 be working and teaching you specifically
+02:15 agentic AI application and when we talk
+02:17 about Sunny he will be coming up in uh
+02:20 sessions which will be involving related
+02:22 to langra because Sunny has already that
+02:24 specific experience he's currently
+02:26 working in PWC and he's building
+02:28 application over there and right now is
+02:30 just taking the session to probably uh
+02:33 do the brand building of his side right
+02:35 so it'll be quite amazing to see that
+02:37 what kind of experience he brings
+02:39 specifically in this particular course
+02:40 and how we will be able to take it
+02:42 Forward okay the timing of this course
+02:44 will be 3:00 p.m. to 6 p.m. IST every
+02:46 Saturday and Sunday the duration will be
+02:49 somewhere around four to 5 months right
+02:51 so four to 5 months of duration will be
+02:53 there uh on Saturday and Sunday we'll be
+02:55 having this 3 hours of session and what
+02:58 all things we'll be covering this
+02:60 because if I just show you the syllabus
+03:02 right you'll be able to understand it's
+03:03 a very huge syllabus but we are thinking
+03:06 okay to cover it in within 4 to 5 months
+03:08 it may be scenarios like if there are
+03:10 some national holidays that are coming
+03:12 it may take somewhere around to 6 months
+03:14 okay so uh let's go ahead and check the
+03:16 detail syllabus to check the detail
+03:18 syllabus you can go over here right now
+03:20 what are the features to be provided see
+03:22 features over here first of all uh
+03:24 dashboard access with one year now you
+03:26 may be thinking Krish will one year be
+03:28 sufficient yes guys like four to five 5
+03:30 months uh we will try to cover up the
+03:32 syllabus if I take more than 5 months I
+03:35 will again extend the dashboard access
+03:37 to another 6 months so one and a half
+03:39 year of dashboard will be provided to
+03:41 you if we take more than 5 months to
+03:44 cover the syllabus then you have this
+03:46 community chat forum for discussion you
+03:48 have live doubt clearing session after
+03:49 sessions uh then you have hackathons and
+03:52 rewards we will be conducting multiple
+03:54 hackathons in the session itself where
+03:55 only people who have participated in
+03:58 this uh will be able to join I uh will
+04:01 also plan to hire some people within our
+04:03 team because we are expanding our team
+04:06 slowly you know now we are somewhere
+04:08 around 15 people who are working nicely
+04:11 and this is like hand bck people who are
+04:13 really doing amazingly well right with
+04:15 respect to all the people that are
+04:16 specifically working Krishna Academy
+04:19 okay then we'll be also having resume
+04:21 discussion and mock interview and these
+04:22 are the information where you can also
+04:24 contact our counseling team uh our
+04:27 counseling team is not like selling the
+04:28 courses instead they will be talking
+04:30 about your problem like what you really
+04:32 want to go ahead with and then they will
+04:34 suggest you with free resources or any
+04:37 additional courses if it is required
+04:39 okay now let's go ahead and talk about
+04:41 the syllabus the syllabus is really
+04:42 really welld designed uh here uh V 4 to
+04:45 5 mentors you know we discussed very
+04:47 thoroughly to just understand like how
+04:50 uh the syllabus needs to be designed
+04:52 first of all let's talk about the
+04:53 prerequisite you need to know python NLP
+04:55 and generative AI you need to probably
+04:57 uh have experience in working with some
+04:59 of the libr you know anyhow we are going
+05:01 to cover those libraries over here but
+05:03 when we talk about gen application you
+05:05 should know about it you should know
+05:06 about Foundation models you should know
+05:08 about NLP you should know about python
+05:10 so this is pretty much uh there you know
+05:13 because that is just one step ahead we
+05:14 are going ahead because if you don't
+05:16 know this it'll become little bit
+05:18 difficult because we are going to start
+05:19 at one specific point of time because
+05:21 agentic AI is something right before
+05:23 that you should know about tools agents
+05:25 and all what all things are there right
+05:27 then we have the course instructions
+05:29 over here my cres sunny and Paul we will
+05:32 be actively taking up the sessions and
+05:34 we will be joining the sessions itself
+05:36 uh we'll first of all start with agentic
+05:38 AI we are going to cover some amazing
+05:40 Frameworks like fi data we are going to
+05:42 cover like langin langra you know all
+05:45 these things we'll be covering up we'll
+05:46 talk about Langer we'll talk about Lang
+05:49 Smith you know we'll talk about ux and
+05:50 human in the loop with langra the most
+05:53 amazing topics over there then we'll
+05:56 talk about different types of Rags like
+05:58 agentic rags and all other self
+05:60 correcting Rags right all those kind of
+06:02 Rags we'll discuss then we'll talk about
+06:03 multi- aai agent system with langra Will
+06:06 designing it then there is also one more
+06:08 amazing framework which is called as
+06:10 crew AI you know which will actually
+06:12 help you to build agentic AI
+06:14 applications that also we'll discussed
+06:15 about then we have langlow a no code
+06:18 tool framework right which is quite
+06:19 amazing just by using drag and drop and
+06:21 how you can probably convert this
+06:23 entirely into a production grade
+06:24 application we will be discussing about
+06:27 that too right then we have this Lang
+06:29 Lang flow as I said we will also see how
+06:31 we can integrate langlow with uh
+06:33 thirdparty tools from um SQL CSV and
+06:36 we'll also try to build some amazing
+06:38 workflows right then you have Lang fuse
+06:41 then you have how to monitor in Lang
+06:43 watch all these terms right Lang Smith
+06:46 we will be covering uh then the final
+06:48 framework that we going to discuss is
+06:49 about autogen we'll also show you how to
+06:51 work with autogen studio and all okay uh
+06:54 then uh end to endend agentic AI
+06:56 projects we will be having some four to
+06:58 five projects which we'll be doing till
+06:59 the deployment part then comes the next
+07:02 moduel see till module 18 we just have
+07:04 agentic ai just imagine the kind of
+07:06 syllabus that we have designed for you
+07:08 then AWS and cloud and services for
+07:09 generative AI is there then you can see
+07:11 AWS Bedrock AWS Sage maker AWS Lambda
+07:15 AWS API Gateway tech summarization with
+07:18 AWS services fine-tuning with Foundation
+07:20 models projects we will be covering
+07:22 multiple projects then after covering
+07:24 AWS we'll be also focusing on gcp with
+07:26 vertex AI uh gemin models and all right
+07:29 now Google models are also becoming much
+07:31 more better so it is good that we know
+07:33 how to work with Google vertex AI
+07:35 because there are also many clients who
+07:37 are specifically many companies who are
+07:38 specifically using them right then we
+07:40 have this projects in gcp so total 28
+07:43 modules an extensive and vast syllabus
+07:46 and I hope you will specifically enjoy
+07:48 the see over here I'm trying to plan a
+07:51 team in such a way that who will keep on
+07:53 exploring multiple things who will build
+07:55 multiple applications who are binging
+07:57 that Real World experience and this is
+07:59 all for you where we will specifically
+08:02 be learning more and more right and uh
+08:05 here you can probably see we have just
+08:07 kept the price very much affordable 4500
+08:10 because over here GST is included 18%
+08:13 will be GST so if I probably see over
+08:15 here 686 rupes will be going in GST uh
+08:18 and this we have to pay to the
+08:19 government so we are trying to come up
+08:21 with much more affordable courses and
+08:22 making sure that you just try to learn
+08:25 as much as possible as I said the
+08:26 prerequisite python NLP and generative
+08:29 AI if you want more information about
+08:31 the prerequisite you can just contact a
+08:32 counseling team they'll also guide you
+08:34 with videos materials and all who
+08:36 completely for free my videos or my team
+08:39 videos or anything free courses that we
+08:41 are currently running in Krishna Academy
+08:44 you can also follow that now at the end
+08:46 of the day all this kind of experience
+08:49 we're trying to bring so that see why I
+08:51 started this agentic AI right because in
+08:54 recent interviews some of the people
+08:56 have faced this kind of questions how to
+08:57 build Agent K applications what are the
+08:60 differences between AI agents and
+09:02 agentic AI this kind of questions are
+09:04 probably coming up what is the
+09:05 difference between agentic Ai and gentic
+09:07 generative AI application if you have
+09:08 some amazing use case definitely you
+09:11 will be able to impress the interviewer
+09:13 right so all the information regarding
+09:15 this will be provided in the description
+09:17 of this particular video you can go
+09:19 ahead and check it out and if you have
+09:21 any concerns any queries please go ahead
+09:23 and call our counseling team they'll be
+09:25 able to help you out so yes uh let's go
+09:29 ahead and uh yeah I'll be super excited
+09:31 to teach you all in this batch and uh I
+09:33 will see you all in the class I hope you
+09:36 go ahead and probably consider this and
+09:38 uh with respect to experience I'm making
+09:40 sure that my team provides you the best
+09:42 thing that is possible we slowly try to
+09:45 create more jobs through this you know
+09:47 because parall I'm also building some
+09:49 products and we are also taking students
+09:51 from this kind of batches directly to
+09:53 build that particular products from
+09:54 internships to full-time jobs right so
+09:57 yeah this was it from my side I will see
+09:59 you all in the next video have a great
+09:60 day thank you and all take care bye-bye

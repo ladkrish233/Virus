@@ -1,0 +1,507 @@
+00:00 hello all my name is Krish naak and
+00:02 welcome to my YouTube channel so guys uh
+00:06 I'm super excited to probably continue
+00:08 the series of agentic AI application and
+00:11 in this particular video we are going to
+00:13 build agentic AI application wherein
+00:15 agents will start communicating with
+00:17 Vector databases to probably uh ask any
+00:20 queries and try to get a specific kind
+00:22 of response okay now we are going to go
+00:25 ahead one step ahead already in our
+00:27 previous video we have discussed about
+00:28 how we can probably create an AI agentic
+00:30 application which can integrate with
+00:32 multiple tools here we going to use
+00:35 external Vector databases which will be
+00:37 quite amazing for learnings right uh one
+00:39 more amazing thing guys uh in the
+00:41 previous video I really got an amazing
+00:43 response from all of you thank you very
+00:45 much for supporting this specific series
+00:48 uh one important thing that you really
+00:49 need to do is that like how I kept a
+00:51 Target in the previous video in this
+00:53 video also I'll keep a Target the likes
+00:56 is 1200 1200 likes is the minimum likes
+00:59 that you really need to go ahead and and
+01:00 give along with that we will keep a
+01:03 target of 150 comments so please make
+01:05 sure to do this the reason is very
+01:07 simple I will get motivated I'll try to
+01:09 upload more and more videos for all of
+01:11 you along with this if you start
+01:14 interacting on these particular videos
+01:15 if you have lot of discussion these
+01:17 videos will be probably recommended to
+01:20 many many people out there and yes many
+01:22 people require this kind of videos
+01:23 itself okay so um let's go ahead and
+01:28 probably share my screen and uh I will
+01:30 probably talk about the problem
+01:32 statement now before we go ahead uh I
+01:34 already told you in my last class right
+01:37 in my last video one very important
+01:39 thing that uh one issue that we are
+01:41 getting is that to probably use the open
+01:43 API key right when we are trying to run
+01:45 this particular code and the reason was
+01:47 very simple because uh over here in the
+01:49 multii agent you know even though we
+01:51 were using GRS over here in the
+01:53 independent agent right here we are
+01:56 using Gro and Gro usually has open
+01:58 source models right llm models but here
+02:00 we did not gve any model over here right
+02:03 so that is the reason by default it was
+02:05 considering the open AI models right so
+02:08 this is the code change that you really
+02:10 need to do because many people had
+02:11 actually suggested in the comment see
+02:13 this is quite amazing people started
+02:15 giving suggestions hey you probably go
+02:17 ahead and give the model and the issue
+02:18 will get solved and there's some people
+02:20 also who converted this entire
+02:21 application into a streamly project that
+02:23 was the Super exciting thing for me okay
+02:26 so please make sure that you go ahead
+02:27 and update this and automatically your
+02:29 application will start working now the
+02:31 next thing what I'm actually doing is
+02:33 that I'm creating a PDF assistant now
+02:35 here I'll be creating agents that will
+02:37 be interacting with your vector database
+02:40 because this kind of examples also you
+02:42 need to shap okay now if I probably go
+02:45 and see this five data you know so they
+02:47 are multiple things let's say if I go
+02:49 ahead and see some Vector DBS there is
+02:51 like multiple DBS like PG Vector
+02:54 quadrant pine cone L DB chroma DB single
+02:57 store let's consider that I'm going to
+02:58 probably use uh PG Vector okay let's see
+03:01 that uh I'll go ahead and use this PG
+03:03 Vector this is my Vector database right
+03:05 now from this particular Vector database
+03:07 what we are basically going to do is
+03:08 that we first of all going to run it in
+03:09 our local now there are two ways how you
+03:12 can run it right one is directly run it
+03:14 uh in the form of Dockers in the docker
+03:16 container so here what I'm actually
+03:18 going to do is that I'll go ahead and
+03:19 run this particular command and
+03:21 automatically uh this particular uh
+03:23 Vector database will be running in my
+03:24 Docker so you need to have Docker
+03:26 desktop installed I'll be showing you
+03:28 step by step how things can be basically
+03:30 done okay now what happens in this
+03:33 particular Vector database later on if I
+03:35 upload any PDF URL right then that PDF
+03:39 URL content will be extracted and it
+03:40 will be stored in this Vector database
+03:42 right and then I will try to create an
+03:44 agent which will try to interact with
+03:46 this Vector database now why I'm
+03:48 creating this see if I show you one
+03:50 example you can probably explore all the
+03:52 other examples like quadrant pine cone
+03:54 Lou DB chroma DB and that is what I'm
+03:56 going to probably give you an
+03:57 assignments as we go ahead you know so
+03:59 that you can also go ahead and practice
+04:01 along with this I will also I have also
+04:03 started exploring one very important
+04:04 thing which is called as this knowledge
+04:06 right now what is this knowledge
+04:07 knowledge base is a database of
+04:09 information that can Agent can search to
+04:11 improve its responses now if I probably
+04:13 see over here there's something called
+04:14 as PDF URL now here what does this PDF
+04:17 URL does is that uh it reads the PDF
+04:20 from URLs like let's say if I'm having a
+04:22 PDF URL if I just give the URL it will
+04:24 read them convert that into Vector
+04:26 embedding and load them into a vector
+04:28 database so what I'm actually going to
+04:30 do I'll also use this okay I will read
+04:32 any PDFs I will try to convert that into
+04:34 vector and store in the PG Vector now
+04:36 this is just one example you can use
+04:38 anything you can use R save you can use
+04:40 combined you can use CSV whatever things
+04:42 you basically require you can actually
+04:44 do now see if I probably see in PDF URL
+04:47 here we are giving some post gr SQL uh
+04:50 URL right and this right now is uh will
+04:53 be running in my do Docker right uh if I
+04:55 don't want to do it from my local I can
+04:56 also go ahead and probably host it in
+04:59 some AWS or aure database and from there
+05:01 I can just get the link and just upload
+05:03 it over here okay so step by step this
+05:06 entire application will be created so
+05:08 this is what I say a agent which can
+05:10 interact with your vector database but
+05:12 initially that agent should read the
+05:15 content and upload it in the vector
+05:17 database right so that kind of chatbot
+05:19 we are just going to create over here
+05:21 okay so now let's go ahead and let's
+05:23 start writing the code okay so first of
+05:25 all I have created a file which is
+05:27 called as PDF assistant. py so here I
+05:29 have imported two like Li so let me just
+05:31 go ahead and hide my face so that you
+05:32 focus on the coding okay now along with
+05:35 this what I'm actually going to do I'm
+05:37 going to also upload one very important
+05:39 Library which is called as assistant now
+05:41 this assistant have not taught in my
+05:44 previous session right so in this
+05:46 session I'll also go ahead and show you
+05:47 what this assistant basically does okay
+05:50 assistant is just like a independent AI
+05:53 autonomous AI you know which will be
+05:54 able to assist for different different
+05:56 task okay so we are going to do this uh
+05:59 along with this uh
+06:00 there is also something called as PG
+06:02 assistant storage okay this is
+06:04 specifically for the storage so if I
+06:06 just go ahead and import this see 5.
+06:08 storage. assistant postgress PG
+06:10 assistant storage so if I go ahead and
+06:12 see over here there is something called
+06:14 a storage inside this uh inside this
+06:17 there is something called as post Grace
+06:19 and we are just going to run this PG
+06:20 Vector right and here you'll be able to
+06:22 see that we have also imported this so
+06:24 PG agent storage is there there is also
+06:27 like PG assistant storage okay and
+06:29 somewhere here or there it should be
+06:31 there inside this particular storage
+06:32 itself okay so for right now let's go
+06:34 ahead and use this uh if you want to use
+06:36 any other database there also multiple
+06:38 database which you can specifically use
+06:40 at the end of the day this is just going
+06:41 to create a session and some temporary
+06:44 file name where it is going to get
+06:45 stored but right now I'm just going to
+06:47 run everything into the docker so I
+06:49 should be able to run it okay so let's
+06:51 go back to my code and I have imported
+06:54 this along with this I told you I'm
+06:56 going to import PDF URL knowledge base
+06:58 the reason is I will read the PDF URL
+07:01 and try to probably read the content out
+07:03 of it and try to save it in a vector
+07:04 database okay then the kind of vector
+07:08 database I'm going to specifically use
+07:10 is PG Vector how do I get this
+07:12 particular class it is very simple just
+07:14 go to my Vector DB see in the PG vector
+07:18 and just go ahead and copy it see here
+07:20 you have URL knowledge base here you
+07:22 have PG Vector you can just go ahead and
+07:24 copy this right there is also one more
+07:26 variant of PG Vector that is PG Vector 2
+07:28 so it is really necessary that you start
+07:31 seeing the documentation because in the
+07:33 documentation you almost have each and
+07:34 everything okay perfect this is done now
+07:38 I have imported all these libraries now
+07:39 the one important thing that you also
+07:41 need to know about this is that you need
+07:43 to make sure that you also install all
+07:45 these libraries but we'll see step by
+07:47 step whenever we start getting an error
+07:49 okay not right now but whenever we get
+07:51 an error we will try to probably go
+07:53 ahead and see it okay so this was my
+07:56 another library now along with this I'm
+07:58 going to import o
+08:00 okay along with this I'm going to
+08:02 probably go ahead and write from EnV
+08:05 import load. EnV and then I'm going to
+08:08 initialize load. okay now first thing I
+08:11 will just go ahead and set up my
+08:13 environment variable and the environment
+08:15 variable that I'm actually going to use
+08:17 is nothing but um I don't want open a
+08:20 API key because I'm not going to use it
+08:22 so instead of setting the environment
+08:24 I'll just go ahead and use my Gro API
+08:26 key because I require my Gro API key so
+08:28 I'll just go ahead and write Gro API key
+08:30 I will copy it over here and I'll set up
+08:33 this particular environment and I'll say
+08:35 hey os.
+08:37 getv and here I'm going to use my grock
+08:39 API key perfect so this I think is the
+08:42 most common step that we have
+08:43 specifically used okay now let's go back
+08:45 to the documentation we have to create
+08:47 this particular DB URL because see as
+08:49 soon as we run this okay run this uh
+08:52 command uh we should be it should be
+08:54 running inside our Docker with this URL
+08:56 okay so what I will do I will just go
+08:57 ahead and copy this and I'll run run
+08:60 this okay so in order to run it first of
+09:02 all you need to have your Docker desktop
+09:05 started okay you need to install your
+09:07 Docker desktop and now I will just go
+09:09 ahead and open one git bash okay git
+09:14 bash so let's open the git bash and I'll
+09:16 paste it over here okay so this is the
+09:19 paste now here you can see that error
+09:21 response from demon conflict PG Vector
+09:22 already in newed okay no worries so the
+09:25 problem is that I have already tried it
+09:27 out so I'm just going to delete this PG
+09:29 vector but if you're doing it for the
+09:30 first time you don't have to worry about
+09:32 it okay now I will just go ahead and
+09:34 paste it over here and now it should run
+09:37 okay and uh here I think it should be
+09:41 running okay so now this has started and
+09:43 the URL is
+09:45 55322 5432 so my URL should also be set
+09:49 up in that way only okay so if you see
+09:51 over here 5532 right so I will just copy
+09:54 this DB URL with 5532 okay 5532 perfect
+09:60 uh so this is there I'll paste it over
+10:02 here okay I will this will be my dbrl
+10:07 okay now step by step we have
+10:09 specifically do done each and everything
+10:11 we have set up our DB URL and all okay
+10:13 over here I will not run it right now
+10:16 because as soon as we run because we
+10:17 need to also install some of the
+10:18 libraries that you'll be able to see uh
+10:21 in just some time like what are
+10:22 libraries I will require now I will just
+10:24 go ahead and create my knowledge base
+10:26 okay so my knowledge base will be with
+10:28 respect to all the PD PF URLs that I'm
+10:30 actually going to give because I'm
+10:32 saying that hey you have to probably
+10:33 retrieve from this many number of PDFs
+10:35 so here I'm just going to use my PDF URL
+10:38 knowledge base as I told you I'm going
+10:39 to use this the first parameter is
+10:41 something called as URLs okay now inside
+10:44 this URL I'm going to use one URL uh
+10:46 which was also available in the
+10:48 documentation and here this is the URL
+10:50 right https 5 public S3 Amazon aws.com
+10:54 recipes thy recipes.pdf so if I go ahead
+10:57 and see this URL this is what the PDF is
+11:01 you know so I can probably get lot of
+11:03 details from this what are the content
+11:05 see all the details like if I want to
+11:07 probably make this particular dish these
+11:09 are the ingredients and all what are
+11:12 health things is there how much
+11:13 preparation time all this information is
+11:15 available over here so we'll try to
+11:17 probably create a chat bot which will be
+11:19 able to interact over here okay then the
+11:22 next parameter that I will be using over
+11:24 here is my Vector DB right so my Vector
+11:26 DB will be nothing but my PG Vector
+11:28 which I have initially ized PG Vector 2
+11:32 okay and I will say hey let's create a
+11:34 collection name over here my collection
+11:36 will be nothing but I will write recipes
+11:39 and I will say hey this is My dbor URL
+11:43 okay is equal to dbor URL okay so
+11:47 whatever URL I've actually set it over
+11:48 here with respect to this dbor URL that
+11:51 will be there okay now uh along with
+11:54 this what I will do as soon as I create
+11:55 my knowledge base as soon as we run this
+11:57 program we need to also load it so here
+11:59 here I will write knowledgebase do load
+12:02 okay and
+12:04 then uh storage is equal to PG assistant
+12:08 storage and here I'm just going to give
+12:10 my table name okay my table name let's
+12:13 say I'm going to write a PDF assistant
+12:16 okay and again this DB URL is equal to
+12:20 DB URL so this will basically be my PG
+12:23 assistant that is the postra uh whatever
+12:26 Vector database that I'm specifically
+12:28 going to use okay now this is really
+12:31 important because now we are going to
+12:33 create that assistant that we
+12:35 specifically require okay and uh from
+12:38 documentation that I have actually seen
+12:41 uh this is just like a function you know
+12:43 we specifically just create a function
+12:45 and we try to uh load this up okay now
+12:48 in order to probably explore this uh I
+12:50 will just go ahead and copy one code
+12:52 okay and here I'm not writing anything
+12:55 because no python code specifically
+12:57 normal python code is required but we
+12:59 are just seeing the documentation now
+13:01 this definition PDF assistant we are
+13:04 just going to create it as a function
+13:06 and remember this name should be same as
+13:08 this particular name okay new Boolean is
+13:10 equal to false user is equal to string
+13:13 is equal to user now finally we have to
+13:15 create this assistant so here we will be
+13:17 giving the same run ID uh which we have
+13:19 mentioned earlier okay uh and this run
+13:22 ID will be assigned once we start the
+13:25 program right then you have this user ID
+13:27 is equal to user knowledge base is equal
+13:29 to knowledge base right uh then you have
+13:31 the storage uh then you have this show
+13:34 tools uncore call is equal to True
+13:36 search knowledge equal to true and read
+13:38 chat history is equal to True with the
+13:39 help of this we will be enabling the
+13:41 assistant to read the chat history with
+13:43 this we are enabling the assistant to
+13:45 search the knowledge base and here we
+13:47 are also showing that hey you can
+13:49 specifically use the tools in the
+13:51 response okay now if you're running it
+13:53 For the First Time The Run ID is going
+13:54 to become none and then we assigned a
+13:57 assistant. run ID then we start the
+13:59 specific run right and then we are
+14:01 running this in our command line prompt
+14:03 okay so that is the reason we are
+14:05 writing ccore app markdown is equal to
+14:08 true and then we are running this
+14:10 program from here where we using this
+14:11 typer right the imported Library over
+14:14 here typer do run PDF assistant right so
+14:17 this is what we are specifically using
+14:19 over here okay so I hope uh you have got
+14:22 an idea with respect to this this is
+14:24 more about the things we are
+14:25 specifically doing in the documentation
+14:27 like this is basically referred from the
+14:29 docum mentation now as I said like if I
+14:31 run this particular code right there
+14:33 will be multiple issues that will
+14:35 probably come because I'm not installed
+14:37 the libraries that is required when we
+14:39 are using uh our Vector database right
+14:42 like PG Vector so we need to probably
+14:44 import some of the libraries for this
+14:46 install some of the libraries for this
+14:48 along with this uh you'll also be seeing
+14:50 that we require some more libraries like
+14:52 SQL Alchemy and all right so here in the
+14:55 requirement. txt you can see that I have
+14:57 put up this four different Library Li
+14:60 which we are going to probably install
+15:01 SQL Alchemy PG Vector uh uh psyc PG
+15:06 binary and Pi PDF Pi PDF is specifically
+15:08 for the PDF reading right now let me
+15:10 just go ahead and open my terminal okay
+15:13 and uh here I'm inside my VNV I will
+15:15 quickly go ahead and install my
+15:18 requirement. txt okay let me just go
+15:22 back or let me just open one more
+15:23 command prompt so that it becomes easy
+15:26 for me to handle because I have two two
+15:28 different paths right so here what I
+15:31 will do I will write cond
+15:33 activate VNV and now from here I will
+15:37 just go ahead and write pip
+15:39 install minus r requirement. txt okay so
+15:45 the requirement. txt is already
+15:46 installed for my case like I've already
+15:49 done this installation to test the
+15:50 application now I will just go ahead and
+15:53 run my python PDF assistant so sorry
+15:57 first of all I need to change my path
+15:59 and for that I can go back to my command
+16:01 prompt I'm inside my PDF assistant and
+16:04 then I will go ahead and write python
+16:06 PDF assistant. py okay so uh this is
+16:10 perfect now here you can see oh the
+16:13 loading the knowledge database it is
+16:15 reading this specific PDF and this PDF
+16:17 looks something like this you know so
+16:19 this is the entire PDF you know uh we
+16:22 can get all the ingredients all the
+16:24 dishes you know all everything we can
+16:26 specifically get from here right so so
+16:29 let me see okay now I'm actually getting
+16:31 this uh it is showing this user and all
+16:35 the documents have already been added in
+16:37 my uh Vector database so let me let's
+16:40 down all the dishes okay so I'm just
+16:45 going to asked one question so it is
+16:46 just going to search this knowledge base
+16:48 and now it has uh it is providing me all
+16:51 the details from that particular PDF
+16:52 this is quite amazing right now you can
+16:54 use any number of PDFs you want but the
+16:57 answer is quite accurate let's say that
+16:59 I want to probably see the
+17:01 ingredients okay so what are the
+17:07 ingredients of this dish that masam guy
+17:10 masan guy okay so here we are going to
+17:14 oh nice 300 G chicken rum 80 g this this
+17:18 this this roasted peanuts everything is
+17:20 basically coming up right this this is
+17:22 rich in vitamins and minerals such as
+17:24 Vitamin A B6 c e k these all things are
+17:27 there right let's say that uh I ask how
+17:30 to make this particular dish okay so
+17:35 here again it is probably going to see
+17:37 okay it is also giving the same
+17:38 ingredients like these all ingredients
+17:40 you can specifically use oh now this is
+17:42 nice to make tamarind rid juice this
+17:44 this this directions okay it has also
+17:46 given the directions now how to make it
+17:48 right now just imagine if I have a
+17:52 knowledge database of like this and I'm
+17:54 able to interact it you know probably I
+17:56 want to convert my entire GitHub
+17:58 repository in this per format by
+17:59 uploading multiple PDF storing
+18:01 everything and people can directly use
+18:03 it as a chat bot and get all the answers
+18:06 right this is quite amazing the main aim
+18:08 of this particular project was to
+18:10 Showcase that how we can use multiple
+18:12 tools to make it as a complex workflow
+18:15 and solve this kind of problems right
+18:17 isn't it quite amazing right now one
+18:20 assignment for you try to convert this
+18:21 as an end to-end project try to use
+18:23 streamlit uh try to convert this so that
+18:26 you'll be able to use a front end where
+18:28 you can actually give your inputs and
+18:30 you can probably do it right anyhow I
+18:31 will be providing all the information in
+18:33 the description of this particular video
+18:35 now one very important thing guys uh
+18:38 these all videos are crucial because
+18:41 whenever you go and nowadays you can
+18:43 work in the company people are going to
+18:44 definitely ask you and here my main aim
+18:47 is to Showcase how you can probably get
+18:50 started how you can probably get start
+18:52 thinking of complex work flows and how
+18:54 you can solve it right so yeah this was
+18:56 it from my side I hope you like this
+18:58 particular video I will see in the next
+18:59 video thank you take care bye-bye

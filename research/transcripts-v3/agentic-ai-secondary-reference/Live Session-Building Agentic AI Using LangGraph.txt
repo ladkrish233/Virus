@@ -1,0 +1,2742 @@
+00:35 hey guys can you give me a quick
+00:36 confirmation if everybody is able to
+00:38 hear me
+00:46 out I'll just wait for some time so that
+00:48 everybody joins hello
+00:51 everyone hello Kesh hello hello
+00:54 everybody hello I hope everybody's doing
+00:57 well I hope everybody's doing fine today
+00:60 we are just going to have one another
+01:01 amazing session uh I'll talk about the
+01:03 agenda each and everything as we go
+01:05 ahead uh but yes let's let's see whether
+01:08 I'm probably audible itself I hope I'm
+01:13 able
+01:15 to Great
+01:17 hi Kip says thank you for your deit
+01:20 tutorials helpful sir thank you
+01:25 everyone okay then good
+01:28 evening okay we are also live in
+01:31 LinkedIn so people may also be able to
+01:33 see us over there just give a quick yes
+01:36 uh if you able to hear me out and uh
+01:40 please do make sure that you hit
+01:43 like
+01:45 okay perfect so I'll talk about the
+01:48 agenda of this particular video what all
+01:50 things we are basically going to discuss
+01:53 and uh what all things are there as you
+01:55 know that we have already started our
+01:56 agentic AI series till now we have
+01:58 covered two amazing Frameworks one is F
+02:00 data and uh Lang flow today we are also
+02:03 going to start with Lang graph uh which
+02:05 is again a very important um you know
+02:09 important framework Al together so you
+02:11 are my inspiration towards joury I thank
+02:12 you thank you Jan uh so I hope
+02:16 everybody's excited for this
+02:19 okay great now uh before I go ahead uh
+02:24 let's talk more about uh what all things
+02:26 are basically there for this particular
+02:28 session and quickly if you all know guys
+02:31 uh let me first of all share my screen
+02:34 uh we have come up with an amazing
+02:38 course uh let me just share my screen
+02:41 and let me show you over here right so
+02:44 here you'll be able to see that we are
+02:46 coming up with this live agentic Ai and
+02:48 generative AI application with Cloud
+02:49 boot camp so here we are going to build
+02:52 agentic AI application and separately we
+02:54 also going to build gender AI
+02:55 application specifically with respect to
+02:57 Cloud platforms that is AWS and gcp uh
+03:00 this particular batch is starting from
+03:02 January 25th 2025 the timing will be 300
+03:05 p.m. to 6 p.m. IST every Saturday and
+03:08 Sunday and uh to go ahead with you know
+03:12 quickly I'll also show you the syllabus
+03:14 uh I'll just take another five minutes
+03:16 to probably show you and then we'll
+03:17 start the session so this is the entire
+03:19 syllabus which you can probably go ahead
+03:21 and have a look okay the link is
+03:23 basically given in the pin comment and
+03:25 even in the description of this
+03:26 particular video okay your course
+03:28 instructors will be m
+03:31 uh Paul and sunny sunny uh is already
+03:34 working in a company called as PWC but
+03:36 uh you know he was very happy to
+03:38 probably take this entire sessions of
+03:41 langra uh in terms of his brand building
+03:44 so we are happy to bring him and he'll
+03:46 also try to give you some of the
+03:47 industry experience okay and here you
+03:50 have introduction to Agent K will be
+03:52 learning Frameworks like fi data Lang
+03:54 chain LC Lang surve langra the they
+03:59 around 30 modules including both agentic
+04:02 Ai and all so you have different
+04:04 different Frameworks like langlow also
+04:07 uh we have Lang Smith we have autogen
+04:09 you know so everything is included end
+04:11 to endend gen projects is also included
+04:14 uh then we have this Cloud right so
+04:16 overall if you probably go ahead and see
+04:17 the syllabus it's a huge syllabus where
+04:19 we are going to cover 28 modules
+04:21 including cloud like AWS and gcp now
+04:24 many of you may be thinking Krish why we
+04:26 have not included Azure and guys Azure
+04:29 uh getting the account for openi
+04:32 services it usually uh is allowed for
+04:34 business so I thought like it'll be very
+04:36 difficult to get that account
+04:38 specifically for you for us it will
+04:40 become easy okay so that is the reason
+04:42 we have not included uh so if you have
+04:44 any doubts any queries you can check out
+04:46 in the description we have our
+04:48 counseling team with respect to this
+04:49 particular course but this course is
+04:51 basically going to start from January
+04:52 25th okay so this is the quick
+04:56 announcement uh regarding our course uh
+04:58 which many people were specifically
+04:60 asking and this will basically start
+05:02 from 25th here we are going to focus on
+05:05 two main things one is agentic AI
+05:07 application building and gen application
+05:09 building specifically in cloud like AWS
+05:11 and gcp from fine tuning to building to
+05:14 deployment everything will be showing
+05:15 you over here okay so you can basically
+05:17 check it out so this was the first thing
+05:20 now if you have any queries now let me
+05:22 talk about the agenda okay so agenda of
+05:26 this session will be that we will be
+05:29 building generative AI uh sorry agentic
+05:32 AI application uh by using langra so
+05:35 langra is a very important framework all
+05:38 together and in this session we will be
+05:41 showing you how we can work with langra
+05:44 and how you can probably build an end to
+05:45 endend agentic AI applications and uh
+05:49 the best part of this will be that here
+05:52 uh we will be keeping this series uh not
+05:55 for only today uh in the upcoming Monday
+05:58 Tuesday also we will plan this series
+05:59 okay
+06:00 so yeah uh let me welcome sunny sunny
+06:03 you
+06:04 there you can add
+06:08 yourself can you hear
+06:11 me yeah I can hear you Sun you can just
+06:15 sh
+06:17 your okay perfect us who has some
+06:21 tremendous experience working in langra
+06:24 with respect to various use cases so he
+06:26 will be taking care of the series of
+06:28 session and uh again very thankful for
+06:31 sunny because he was um coming from an
+06:34 industry taking out this specific time
+06:35 to probably teach all these things
+06:37 completely for free to everyone is the
+06:39 best thing that we can get from an
+06:41 industry expert right so um so sun to
+06:45 you you can probably introduce yourself
+06:46 and you can uh give a brief introduction
+06:49 you can talk about the agenda what all
+06:50 things we are basically going to discuss
+06:51 in this particular
+06:53 session yeah sure sir so guys uh hello
+06:58 uh everyone and uh my name is
+07:00 Savita uh in total I have 4 and half
+07:03 year of experience uh in the industry uh
+07:06 and uh from the starting of my career I
+07:08 worked with the AI uh so previously I
+07:10 work with the machine learning deep
+07:12 learning and then probably I'm working
+07:14 like currently I'm working with the jbi
+07:17 and guys I started my career with the
+07:19 ino in 2020 itself and there basically I
+07:23 worked with the machine learning
+07:24 engineer and after that I explore about
+07:28 the mlops I build lots of end to project
+07:31 uh in the field of the mlops and uh then
+07:33 uh
+07:34 basically like I switch to the DL there
+07:38 I explor about the
+07:39 genv uh probably I started with the uh
+07:42 like basic of the computer vision and
+07:44 all and then I moved to the NLP I
+07:46 explore a couple of things inside the
+07:47 NLP as well uh and currently I'm working
+07:51 in one of the big four and here basic
+07:54 I'm uh like I'm going to teach you about
+07:57 the like this agent the specific branch
+08:00 of the generative a uh and yes I will
+08:03 try to understand will try to learn many
+08:05 more thing and definitely I will give
+08:07 you the quick agenda as well that what
+08:09 all thing we are going to discuss in
+08:11 this uh completely free series how many
+08:13 session basically we have decided what
+08:15 all framework we are going to discuss
+08:18 and langra what is the importance of the
+08:20 Lang graph and the other framework for
+08:22 building the AI
+08:25 agents okay fine Sun I think you can go
+08:28 with the agenda what you're going to
+08:29 cover in the session and then we good to
+08:32 go with that yeah sure sir so uh I think
+08:36 I can share my screen uh just a second
+08:40 uh give me a second guys
+09:07 okay I think uh my screen is visible to
+09:08 everyone please do confirm in the chat
+09:10 if you can see my screen
+09:12 guys yes Sun we can see
+09:15 it
+09:17 okay so uh guys first of all I will
+09:20 introduce the uh agenda okay I will
+09:23 write each and everything over the
+09:24 Blackboard itself and uh U like I will
+09:28 create the PPT as well uh not from this
+09:30 class in the from the next class I'll be
+09:32 showing you couple of pp uh if I have to
+09:35 discuss some theoretical Point
+09:36 theoretical stuff and all I'll try to
+09:38 discuss over there but yeah uh first of
+09:40 all uh let me tell you that what thing
+09:42 we are going to discuss uh so the first
+09:45 thing guys we'll try to understand about
+09:47 the AI agents okay that what is the AI
+09:50 agents and what is the importance of the
+09:52 AI agents and all so I hope guys my
+09:55 Blackboard is visible to all of you yes
+09:56 or no please give me a quick
+09:58 confirmation in the chat if you can see
+10:00 my screen yes or no I want quick
+10:02 confirmation from your end you can give
+10:04 me a thumbs up inside the chat if
+10:07 everything is perfect everything is
+10:08 visible to all of
+10:11 you yes okay
+10:14 great I'm looking into the chat if you
+10:17 have any doubt anything any concern uh
+10:19 you can directly uh write inside the
+10:21 chat and definitely I will try to answer
+10:24 of your questions okay so the first
+10:27 thing guys I will try to understand
+10:29 about the AI agents I will give you the
+10:31 quick uh theory about the AI agents that
+10:34 what is this AI agents and all and why
+10:36 it is important okay uh then after this
+10:39 one uh we'll try to look into the
+10:41 different different framework of the AI
+10:42 agents I will just I will give you the
+10:44 like quick overview regarding the
+10:46 different different framework okay of
+10:48 the a agents so let me write over here
+10:50 the framework of the a agents okay then
+10:54 after uh like going through uh with all
+10:56 the Frameworks and all okay after uh
+10:59 like this discussing some theoretical
+11:00 point I'll be coming up to this Lang
+11:03 graph which is one of the framework for
+11:05 building the AI agents okay so we'll try
+11:08 to understand uh about this Lang graph
+11:10 we'll go through with the documentation
+11:12 and we'll try to create one uh we'll try
+11:15 to create one application also using
+11:17 this langra okay I will show you how you
+11:20 can code uh from a scratch uh how you
+11:23 can set up first of all I will show you
+11:24 the setup okay uh that how you can
+11:26 access the model and all what all tools
+11:28 actually we need to set up the API key
+11:30 and all and even I will show you the
+11:32 setup of the Lang Smith as well so for
+11:34 tracking the uh for tracking each and
+11:37 every instruction you can set up the
+11:39 like Lang Smith instead of setting any
+11:42 custom logging and all you just need to
+11:45 like mention the API key from the lon
+11:47 itself and every uh sort of a execution
+11:50 you can track from the Lang Smith also
+11:53 okay so L graph uh how you can code that
+11:57 from a scratch and then uh basically
+11:59 we'll come to the the chat bot we'll try
+12:00 to create one chatbot using this langra
+12:03 and this is going to be completely
+12:05 agentic chatbot okay uh and uh soon the
+12:10 uh the meaning of the agents right
+12:11 what's the meaning of the agent it will
+12:13 be clarified right so guys this is going
+12:15 to be agenda for today's session and I
+12:18 hope so uh like you will be able to
+12:20 learn many more thing and uh yes so guys
+12:24 uh tell me is it clear to all of you yes
+12:26 or
+12:28 no the agent is clear whatever points I
+12:31 have written over the Blackboard if it
+12:33 is clear then I can move
+12:36 ahead
+12:39 yes what we are going to discuss about
+12:41 the human in Loop human in Loop actually
+12:43 one of the concept inside the Lang graph
+12:45 yes we can understand about it uh not
+12:48 today later on in the upcoming session
+12:50 definitely I will let you know if you
+12:52 want to know more about me you can check
+12:54 out with my LinkedIn and all okay and uh
+12:57 yes you will get everything about about
+12:59 me about my experience and
+13:03 all are we going to have a human Loop
+13:05 agentic leg yes definitely we will uh
+13:07 look into it uh in the going forward
+13:09 session in the upcoming session I will
+13:11 let you know about the human in Loop
+13:13 concept as well
+13:16 okay
+13:21 okay please do confirm guys if agenda is
+13:24 clear okay uh then we'll proceed further
+13:27 we'll try to understand a couple of more
+13:29 thing with respect to this agents and
+13:31 all
+13:32 and yeah we'll try to do the Practical
+13:36 as well
+13:38 yes yes definitely today we are going to
+13:40 learn the Practical as well
+13:48 correct okay clear great so uh guys uh
+13:52 what I can do uh first of all uh let me
+13:55 show you couple of thing from the lenon
+13:57 itself because many people are having
+13:59 doubts right why sir we are not using
+14:02 the L chain why we are directly moving
+14:04 to the Lang graph okay so guys uh once
+14:07 you will go through with the Lin
+14:09 documentation so just a second let me
+14:12 open
+14:16 it
+14:20 wait is it visible guys can you see my
+14:23 screen yes or no
+14:40 good so guys uh here you can see this is
+14:44 the documentation of the uh blank chain
+14:48 okay here you will find out the complete
+14:50 and detailed information about the
+14:53 agents right what is the agents and like
+14:57 what all classes actually we have with
+14:58 respect to the agents and all and here
+15:01 you will find out the information
+15:02 regarding the different different tools
+15:04 as well okay uh just uh go and check
+15:07 just try to click on this hyper link or
+15:09 search about the uh lenen agents okay
+15:12 once you will search about the lenen
+15:14 agents uh on your Google right you will
+15:16 get this particular page now guys here
+15:19 they have mentioned one headline so the
+15:22 headline is saying this document this
+15:24 documentation for langen 0.1 okay which
+15:27 is no longer actively maintained check
+15:30 out for the doc latest version is here
+15:33 so if you want to create an agents right
+15:35 if you want to create an agents using
+15:37 the Lang CH so by default you will have
+15:39 to use the Lang graph and specifically
+15:42 they have mentioned this thing inside
+15:44 the documentation itself as you can see
+15:46 inside the headline guys tell me is it
+15:48 visible to all of you yes or
+15:51 no yes so once you will click on this
+15:54 latest version okay just just click on
+15:56 this latest version here you will see
+15:59 okay 0.3 now once you will scroll down
+16:01 okay once you will read once you will
+16:03 try to read this particular page from
+16:05 the version three from this particular
+16:07 documentation from this particular
+16:09 version specifically from the version
+16:11 three so specifically they have
+16:13 mentioned about the langr okay so if you
+16:16 want to build a agent so you will have
+16:18 to go through with the langr so once you
+16:21 will click on this langr on this
+16:23 hyperlink automatically you will get
+16:26 this page okay so here they are talking
+16:29 about about the langra andol why it is
+16:31 useful why we should use it right and
+16:34 again what you can do you can click on
+16:36 this hyper link and finally you will be
+16:37 getting the lra documentation so I'm not
+16:41 saying that you should not use this lch
+16:43 even the Lang Chen Community right the
+16:45 owner of the langen uh they are saying
+16:48 that you have to use the langra from now
+16:51 onwards because langen is a depricated
+16:54 and they are uh not maintaining it right
+16:57 they are uh like uh not updating
+16:60 anything inside the previous uh version
+17:03 of this L chain okay uh they are relying
+17:07 means they are coming up with each and
+17:09 every New Concept inside the Lang graph
+17:11 itself okay now what is the Lang graph
+17:14 and why we should use it so here each
+17:16 and everything basically they have
+17:17 mentioned inside the documentation
+17:19 itself if you will go through with this
+17:20 documentation you will get a clear-cut
+17:22 idea that uh what's the meaning of the
+17:24 Lang graph and all and how we can create
+17:26 an application using the Lang graph this
+17:28 is not on one of the framework we have
+17:30 lots of framework for building a for
+17:32 building this uh AI agents okay and yes
+17:36 AI agents nowadays it's a was word and
+17:39 uh we can build anything using this AI
+17:41 agents and this AI agents is uh not
+17:44 doing anything special they are using
+17:46 the capability of the large language
+17:48 model only okay we are giving certain
+17:50 instruction to the model and because of
+17:53 that because of those instruction that
+17:55 model actually it is able to perform a
+17:57 different different kind of task it is
+17:58 able to do a reasoning okay it is able
+18:01 to it is able to call the different
+18:02 different tools different different API
+18:04 based on the instruction B based on the
+18:06 coding and all and that's a work of the
+18:08 agents right so you can say agents are
+18:11 nothing agents is a powerful AI
+18:13 assistant or agents are nothing agent is
+18:16 a updated AI assistant we'll talk about
+18:18 it what is the AI assistant and all but
+18:20 I think guys you got to know about this
+18:21 L graph you got the uh the initial
+18:24 introduction of the Lang graph that why
+18:26 we are not using the Lang chain why we
+18:28 moved onto the langra tell me guys is it
+18:31 clear to all of you you can give me a
+18:33 quick thumbs up or you can let me know
+18:35 inside the chat if this thing is clear
+18:37 to all of you tell me guys yes or
+18:39 no is it getting
+18:42 clear did you understand uh about the
+18:45 langra that why we move to the langra
+18:48 why we are not using this Lin yes or
+18:53 no as we will progress you will get a
+18:56 clearcut idea but first of all tell me
+18:58 did you you understand till here or
+19:05 not yeah sh definitely I will do it uh I
+19:09 will continue my J playlist so guys I I
+19:14 sometimes I create a videos on my
+19:16 YouTube as well on the Gen itself so if
+19:19 you want to check you can check I
+19:21 uploaded so many videos with respect to
+19:22 the rag and all
+19:25 okay if I'm using AWS badog still I need
+19:28 to use the langra
+19:30 uh Lang graph is a separate framework
+19:33 you can check the integration whether
+19:34 the integration is available or not
+19:36 inside the Bedrock itself okay recently
+19:39 I haven't checked the Bedrock I will
+19:40 have to check if the integation is
+19:41 available you can directly use it from
+19:43 there otherwise uh separately what you
+19:46 can do like you can code using this Lang
+19:48 graph and you can use the model from the
+19:50 Bedrock itself okay you can read the
+19:53 model and all everything from the
+19:55 Bedrock because they have hosted so many
+19:58 model of the B drop and directly you can
+20:01 take it from there
+20:05 itself okay
+20:08 great yes you can directly start with
+20:12 the lra but your Basics should be clear
+20:15 and uh uh you you should have
+20:19 understanding of the AI assistant uh and
+20:22 the basics of the rag and all okay how
+20:25 we can uh use the model how we can use
+20:28 the llm model as a AI assistant as a rag
+20:31 then you will understand better about
+20:33 this agents because in the agents in the
+20:35 multi AI agents right you will find out
+20:38 a complexity complexity in terms of uh
+20:41 like calling routing right because they
+20:45 actually we are dividing many tasks into
+20:47 uh different different subtask right so
+20:49 first of all you should have a good
+20:51 foundation if you want to become or if
+20:53 you want to code a good project using
+20:56 this eii agents and all understood
+20:59 yes definitely I will repeat it why we
+21:02 use uh Lang flow Lang flow actually it's
+21:05 a no code plateform okay no code
+21:08 platform from the lon itself so guys if
+21:11 you don't want to code if you don't want
+21:12 to write much code directly you can use
+21:15 the Lang flow okay you can think uh this
+21:19 Lang flow is nothing it's a extended
+21:21 okay it's the extended version of the
+21:23 langra where you don't need to write any
+21:24 sort of a code using the UI UI okay
+21:28 using the UI itself you can make a
+21:29 certain connection certain connection
+21:32 and you can build your AI agent within a
+21:35 minutes that's the power of the Lang
+21:37 flow okay we'll talk about it in the
+21:40 going forward session definitely we'll
+21:42 try to discuss about this Lang flow and
+21:43 all don't
+21:46 worry understood guys yes or no tell me
+21:50 Fe data ident same as it yes Fe F data
+21:53 is nothing it's a framework only right
+21:55 so they have coded something and they
+21:57 just given to you you just need to use
+21:59 high level function like the Lang graph
+22:00 itself okay so guys uh let's uh try to
+22:04 discuss couple of things couple of
+22:05 theoretical point and then we'll try to
+22:07 start with the code okay so for the
+22:09 coding guys uh I'm going to use the BS
+22:11 code and first of all let me show you
+22:13 the setup means the how you can create a
+22:16 folder and all and how you can open your
+22:18 vs code and then we'll try to understand
+22:20 some theoretical point and finally uh
+22:24 we'll move to the coding part okay so
+22:27 first of all guys what you have to do
+22:28 you you have to create a folder and uh
+22:31 you have to open the vs code inside that
+22:34 folder so this is my command prom guys
+22:37 using the command form itself I'm going
+22:39 to create a folder okay it is very easy
+22:41 to create a folder using the command
+22:42 form so here I'm writing a command
+22:46 mkd and my I'm going to write a folder
+22:49 name YouTube live okay so this is my
+22:54 folder name and now what I'm doing I'm
+22:56 going inside this folder YouTube live
+22:59 okay and here I just need to write this
+23:02 code space dot so guys once I will write
+23:06 it so you can see automatically uh I
+23:10 will uh get my vs code okay I open the
+23:13 vs code inside this YouTube live folder
+23:16 so I hope guys you have this vs code
+23:19 tell me yes or no do you have this vs
+23:21 code inside your system tell me if you
+23:25 don't have it you can download it if you
+23:27 want to use any other uh
+23:29 if you want to use any other ID you can
+23:31 use that as well or else what you can do
+23:34 uh you can use the Google collab right
+23:36 so let me show you how you can uh set up
+23:40 your Google collab Google collab
+23:41 notebook so if you don't have this vs
+23:44 code uh so in that case what you can do
+23:46 you can uh write a code uh inside your
+23:49 Google collab as well because today we
+23:51 are not going to create any and to end
+23:53 project and uh today we will just try to
+23:56 write a code inside the ipy file itself
+23:59 so Google collab is a perfect choice for
+24:02 it so here here here guys this is my
+24:05 Google collab what you need to do you
+24:07 just need to write Google collab okay
+24:11 inside your Google and then you will get
+24:13 it and here you just need to click on
+24:15 this new notebook so this is this is a
+24:18 notebook guys just a second it will take
+24:23 time yeah so guys this is The Notebook
+24:26 now here what I can do I can change my
+24:28 runtime means I can switch to the uh I
+24:31 can switch to the uh basically GPU as
+24:33 well because they are providing a free
+24:35 GPU access to all of us right so just go
+24:38 inside this change runtime change
+24:40 runtime type and you will find out the
+24:42 various GPU option these are the paid
+24:45 GPU so once you will take a Google pro
+24:47 access you will get uh the access of
+24:50 this all the gpus right but as a free
+24:52 GPU you will get only this Tesla right
+24:55 Tesla T4 uh so just click on this T4
+24:58 right for GPU and then save it and then
+25:00 connect it right so likewise what you
+25:03 can do you can set up your Google collab
+25:05 along with a GPU and here you can write
+25:08 your name your custom name so my name is
+25:11 going to be lent
+25:13 graph
+25:14 uh intro okay so this is The Notebook
+25:19 guys which I created using the Google
+25:21 collab and here is my uh here is what
+25:25 guys here is my vs code so anywhere I
+25:27 can write a code anywhere I can code it
+25:29 is up to me so tell me guys are you
+25:31 ready with the setup yes or no here also
+25:35 I can create the same file so my file
+25:37 name is going to be lra
+25:41 intro do ipy entry if you are ready you
+25:46 can let me know you can mention inside
+25:48 the chat guys canly share the Google
+25:51 collab link yes I can share with all of
+25:54 you just a second
+26:04 okay copy link and I'm pasting inside
+26:06 the chat let's see whether you will get
+26:08 it or
+26:10 not yeah did you get it guys tell me yes
+26:13 or
+26:16 no how long the tutorial will be so I
+26:19 will take uh only for 1 hour I can
+26:22 extend also till 1 and a half hour or if
+26:25 I'm uh like discussing anything right
+26:29 uh which is not going to be complete
+26:31 within 1 and a half hour then I can
+26:32 extend up to 2 hour as well so 1 to 2
+26:35 hour guys is it perfect to all of you
+27:07 okay
+27:10 great yes Vishnu we we'll do that don't
+27:13 worry about it okay so today we just
+27:16 have started I I will show you one
+27:18 project as well don't worry so it's
+27:20 going to be a workshop for 4 to 5 days
+27:22 and within that I think so we'll be on
+27:24 that level where we can complete at
+27:27 least one and to end project
+27:35 okay so I hope so you got a link now
+27:38 let's do one thing uh let's try to
+27:42 understand some theoretical Point
+27:43 theoretical stuff and then we'll try to
+27:45 write a code okay so here guys I just uh
+27:49 given you the quick uh points that what
+27:51 thing we are going to discuss okay now
+27:53 let me write something about this AI
+27:55 agents and all so just a second guys
+27:59 uh okay
+28:00 great so see uh I think I can show you
+28:03 one image and with that particular image
+28:05 most of the thing will be clear but
+28:07 first of all let me uh draw something
+28:09 from my uh how many of you you know
+28:12 about the llm guys tell me do you know
+28:14 about the llm large language model yes
+28:18 or no do you know about the llm yes or
+28:22 no I think everyone knows about the
+28:24 large language model so let's assume
+28:27 this is what this is my large language
+28:29 model and to this large language model
+28:31 what we do we pass the input right and
+28:35 based on this input what we get guys
+28:37 tell me we got the output I think
+28:41 everyone is familiar with these type of
+28:43 concept again I'm saying I'm not going
+28:44 to discuss the fundamental of the
+28:47 generative AI it comes inside the
+28:49 fundamental of the generative AI where
+28:51 we discuss uh where we start the
+28:53 discussion from the Transformer itself
+28:55 okay uh then we understand the different
+28:57 different model
+28:59 uh which has been built up using the
+29:01 Transformer right then uh basically we
+29:04 come to the application of the
+29:06 generative like the track agents and all
+29:09 okay and then after this one we move to
+29:11 the llm Ops so this is the ideal road
+29:14 map okay to understand to learn about
+29:17 the agentic AI or generative AI again
+29:20 I'm saying generative AI this agent AI
+29:21 is nothing it's a subset of the Gen a
+29:25 means before starting with the agentic
+29:27 AI you should have fundament
+29:29 understanding of the Gen like the llms
+29:31 and all okay so guys uh here what we do
+29:34 we pass the input to the llm and uh then
+29:38 what we generate we generate the output
+29:40 okay now this input actually this is
+29:42 called my input to this this this is
+29:45 called my input prompt okay input prompt
+29:49 and uh here what I can do I can write
+29:51 the
+29:52 llm so llm is nothing llm is large
+29:56 language model okay llm as we know so
+29:60 guys uh this type of assistant actually
+30:02 it is called the simple AI assistant
+30:04 where we are asking anything to the llm
+30:07 okay simple AI assistant so simple AI
+30:13 assistant what it is doing it is just
+30:14 taking an input it is just taking a
+30:16 prompt and based on this particular
+30:17 input based on this particular prompt it
+30:19 is generating an output got it now guys
+30:22 uh using this llm what we can do we can
+30:25 build up our retrieval argument gener
+30:28 generation also okay so what's the
+30:31 problem with the llm actually see uh
+30:34 this llm actually it could not generate
+30:36 a correct output sometimes right let's
+30:40 say we have train this llm okay it's
+30:42 just a simple example let's say we have
+30:44 train this llm on some XY Z data okay
+30:48 now we are asking a question we are
+30:51 asking a question to this llm about this
+30:54 ABC data okay it's just an example I'm
+30:56 thinking a very simple example so guys
+30:59 what will happen this llm actually it
+31:01 won't be able to generate answer or I
+31:05 can I can say this llm will not be able
+31:07 to generate a correct answer it will it
+31:09 will generate a hallucinate answer okay
+31:11 that that this problem actually it is
+31:14 called the hallucinations hallucination
+31:16 means it is generating a wrong answer or
+31:18 it is not giving an answer up to the
+31:19 Mark if we are going to validate this
+31:21 particular answer we are going to
+31:22 generate if we are going to validate
+31:24 this particular output it is not
+31:26 matching with the ground truth it is not
+31:27 matching with with the real answer okay
+31:30 and that's a problem that's a problem of
+31:31 what that's a problem of the llm right
+31:34 so to overcome this particular problem
+31:36 what we do we create a rag okay so I
+31:40 think you all know about the rag what is
+31:41 the meaning of rag uh if you don't know
+31:43 I think you can check out the Chris
+31:45 playlist there are so many video with
+31:47 respect to the rag and all okay uh you
+31:49 will easily get about the rag so in the
+31:51 rag actually what we are doing we are
+31:53 providing an external data to the LM
+31:55 okay or in short I can say we are doing
+31:57 a few short learning right so uh this is
+32:00 called the zero short okay zero short
+32:03 prompting or zero short
+32:05 uh zero short learning right and here we
+32:09 are just passing a simple instruction to
+32:11 the L and this is what this is my simple
+32:13 AI system now when we talk about the rag
+32:17 okay so what we do inside the rag so
+32:19 inside the rag actually you will find
+32:21 out one data source so let's say this is
+32:23 your data source it could be anything it
+32:25 could be any database it could be any
+32:27 file API
+32:28 okay or any database from wherever
+32:31 actually you are going to collect a data
+32:33 right so this is what this is your data
+32:36 source let me write over here uh this is
+32:38 nothing it's my uh data source okay so
+32:43 here I can simply write data source now
+32:48 guys what we do we collect our data from
+32:50 this data source okay so here what I
+32:53 have done I collected a data now after
+32:55 collecting a data okay so I can keep it
+32:58 it anywhere this particular data so
+33:00 let's say I uh saved it somewhere this
+33:04 data okay let's say I collected this
+33:06 data from any API and I saved it inside
+33:09 my database now what I will do let's say
+33:11 inside this uh particular database I
+33:13 have a uh text Data okay I just kept it
+33:17 inside my database or maybe I can keep
+33:20 inside any physical file like the PDF
+33:22 XEL and on El okay so I have a text data
+33:25 now what I will do so this particular
+33:26 data actually I need to provide to the
+33:29 llm okay to give the more context so
+33:32 that it can generate a better answer
+33:34 right it can generate a better answer we
+33:36 can reduce the hallucinations right we
+33:39 can uh reduce the randomness or the
+33:41 biasness of the llm okay that's my motto
+33:44 so what I will do I will provide this
+33:46 particular data to where to my LM but
+33:48 there's a procedure okay there's a
+33:50 procedure for providing this data to the
+33:52 llm so you can assume guys this is what
+33:54 this is nothing so here is my uh I can
+33:58 draw the llm as well so this is my llm
+34:01 okay now I need to provide this
+34:03 particular data to the llm but guys I
+34:08 won't provide it directly right instead
+34:10 of that what I will do I will take some
+34:12 mathematical approach okay so uh this
+34:16 text actually could be uh little huge
+34:18 there could be a lots of pages okay the
+34:21 text size uh it could be anything means
+34:24 there could be a 10 pages 20 Pages 100
+34:26 Pages th000 pages right we don't know
+34:28 about it okay so what we do we generally
+34:30 break down this data because this llm
+34:32 actually it is having some context
+34:34 length means it can process the data up
+34:36 to the context because behind this llm
+34:39 one model is working the model name is
+34:41 what the model name is Transformer okay
+34:43 and the Transformer is having some
+34:44 limitation even though we can provide
+34:46 lots of data to the Transformer while we
+34:48 are training the Transformer okay uh
+34:51 simultaneously we can provide a lots of
+34:52 sentences uh the Transformer
+34:54 architecture and design has been
+34:56 designed in such a way but it's still it
+34:57 is having some uh it is having uh some
+35:02 limitation so what we do we usually
+35:03 break down this text okay so let me do
+35:06 one thing let me break down this text
+35:08 into the multiple chunks right so I can
+35:12 take a different color just a second so
+35:14 let's say this is my uh chunks now what
+35:16 we do guys we is store okay so after the
+35:19 chunking uh let me write over here so
+35:23 after the chunking what we do we store
+35:26 this data after uh this chunking we
+35:30 store this data where uh inside the
+35:36 database okay but we direct we don't
+35:38 store it directly we store after
+35:41 converting into the embedding right so
+35:43 what we do usually from this particular
+35:45 chunks we create an embedding let's say
+35:46 this is my embedding one this is my
+35:48 embedding two this is my embedding three
+35:50 now if you will ask to me sun what is
+35:51 the embedding so embedding is nothing
+35:53 it's a numerical representation of the
+35:56 text okay so we are save this particular
+35:59 Ming where inside the databases okay
+36:03 databases so let's say here is what here
+36:06 is my uh database and usually uh this
+36:10 database are nothing this database are
+36:11 the vector database right so we took the
+36:14 data we collected a data somewhere if
+36:17 required then we perform the chunking
+36:19 and all then we convert into the
+36:20 embedding and then we store inside the
+36:22 vector database okay then what we do
+36:26 guys let's say some uh now what what we
+36:28 have to do we have to provide this
+36:30 particular data to the llm so what we do
+36:32 guys we provide the relevant data to the
+36:34 llm okay we don't provide the complete
+36:37 data to the llm we just provide the
+36:38 relevant data okay relevant chunks
+36:41 relevant data to the llm so let's say if
+36:43 my uh user is asking any sort of a
+36:45 question so uh here is my
+36:48 user right now my user is asking any
+36:51 sort of a question now this question
+36:53 basically it will go through this Vector
+36:55 database okay and it will try to find
+36:58 out the relevant data from this Vector
+36:60 database and this relevant data will
+37:02 pass where will pass to the lln okay so
+37:05 here what we do guys you know we perform
+37:07 the similarity search this one this this
+37:10 particular operation actually is called
+37:12 the similarity search and this is
+37:15 nothing this is my rack pipeline right
+37:18 so this why I have introduced this rack
+37:20 pipeline to all of you so that you can
+37:23 understand agents in a better way right
+37:25 because agents are nothing agents are
+37:28 like taking some decision by themsel
+37:32 right so here this was my simple
+37:35 assistant where I was passing the
+37:37 question to my llm and based on that I
+37:39 was generating the answer inside the red
+37:41 uh pipeline what we are doing we are
+37:42 giving a more context to the llm based
+37:45 on the similarity search and all means
+37:46 whatever you my user is asking based on
+37:48 that I'm performing a similarity search
+37:50 and I'm trying to uh give that
+37:53 particular thing the specific the
+37:54 relevant thing to my llm okay and then
+37:57 llm give give me a final output so here
+38:00 I'm giving an input this is called the
+38:03 uh few short uh input okay few short
+38:06 prompting and all and based on this
+38:08 particular input what my llm will do llm
+38:10 will generate a final output right so
+38:13 let me uh highlight the output as well
+38:16 just a second let me take this arrow and
+38:18 I think so this is clear so what I'll be
+38:22 getting guys I'll be getting the final
+38:23 output over here so see I hope so this
+38:28 is perfect to all of you you understood
+38:30 about the rag and you understood about
+38:32 the uh simple AI assessment now guys
+38:36 let's try to understand about the agents
+38:38 that what the what agent is trying to do
+38:41 right and with that your understanding
+38:43 will be clear and whenever we are going
+38:45 to write a code okay so you will get a
+38:47 more clearity with respect to this
+38:49 agents and all and rightwise don't worry
+38:53 the agenda is not a rack pipeline we'll
+38:55 try to understand R pipeline later on
+38:58 so like or else you can check out the
+39:01 pre-recorded session which is already
+39:03 there over the YouTube itself you will
+39:04 get a clear cut understanding about the
+39:07 rag and all now so uh guys let's try to
+39:11 understand about the agents so inside
+39:13 the agents what we are doing see this is
+39:15 my llm okay let's say here is what here
+39:18 is my
+39:19 llm now uh to this llm actually what we
+39:22 are doing we are passing up input so
+39:25 what I can do I can uh draw one app so
+39:28 let's say here is what here is my input
+39:31 and this llm actually uh not having a
+39:35 sufficient information okay or else what
+39:38 I want to do I want to uh like generate
+39:42 an answer from somewhere else means I
+39:44 want to give the more context to the llm
+39:47 and based on that only I want to
+39:49 generate answer okay so first of all
+39:51 guys see to this llm what I will do I'll
+39:55 be providing the reasoning capability
+39:58 okay so let's say here is my llm large
+39:60 language model I'll be writing some
+40:02 prompts some instruction so this llm
+40:04 actually this llm will get a reasoning
+40:08 capability so let me uh write over here
+40:11 reasoning capability okay so reasoning
+40:15 capability means uh I'll be providing
+40:17 some sort of an instruction so that llm
+40:19 can think about something okay then guys
+40:23 what I will do I will try to connect
+40:25 this Ln with some third party tool tool
+40:28 third party resources and all okay so
+40:30 here what I will do I'll be connecting
+40:32 this llm with some third party tools or
+40:36 with some third party API okay so just a
+40:41 second let me write uh with the same
+40:43 color just a
+40:45 second okay this is perfect and yeah so
+40:50 this llm actually what I'm doing I'm
+40:51 trying to connect with the tools okay
+40:55 tools or this tool could be anything if
+40:57 I'm tools now so tools actually it is
+41:00 just representing to the functionality
+41:03 okay now with whatever functionality I
+41:05 want to connect my llm I can connect and
+41:07 later on llm can decide uh do I need to
+41:11 generate an answer by itself or do I
+41:13 need to call a tool okay so
+41:17 functionality
+41:19 functionality right so I'm giving some
+41:21 power to what I'm giving some power to
+41:23 the llm then guys what we can do we can
+41:25 add on one more component to this l the
+41:28 component it could be the memory
+41:30 component but again I'm seeing this is a
+41:31 optional component okay so one component
+41:35 actually it could be a memory component
+41:38 so here I am giving one more component
+41:40 to the llm and this is what this is my
+41:44 memory I can sustain the memory also of
+41:46 the conversation and this is what we are
+41:48 doing using the state graph we are going
+41:50 to maintain the conversation we are
+41:52 going to maintain the uh history of the
+41:55 messages history of the input and even I
+41:57 can add on one memory component also
+42:00 even inside the Lang graph and inside
+42:03 any sort of a framework right which I
+42:04 will show you so guys to this llm what
+42:07 we are doing we are providing an input
+42:10 along with it we are going to provide
+42:11 some reasoning capability we are
+42:13 providing some third party of
+42:16 functionality tooling and all okay we
+42:18 are uh providing this memory uh like
+42:21 capacity also so that it can sustain the
+42:24 memory uh we can hold the state of the
+42:27 conversation okay and uh then only we
+42:30 are generating a final output right so
+42:33 here what I'll be getting I'll be
+42:35 getting the final output so here guys
+42:37 you can see this llm okay we still have
+42:41 a llm we still have a large language
+42:42 model we still have a trained model but
+42:45 but guys here you will find out we are
+42:48 giving some specific power to the lln so
+42:51 that it can think about them themselves
+42:53 right it can call to some third party
+42:56 API third party tools and
+42:58 okay and based on it it can do it can
+43:01 take a better decision so this agent is
+43:03 nothing it is Agent actually it's a
+43:05 powerful assistant right what is Agent
+43:08 tell me guys agents are nothing agents
+43:10 actually it's a powerful assistant this
+43:13 llm actually is now working as a now
+43:16 working as a tell me guys this llm is
+43:18 working now working as a agent and this
+43:20 agent is nothing it is capable to do
+43:22 some sort of a reasoning it is capable
+43:24 to call some sort of a tools okay for
+43:26 the better output and uh with that
+43:29 actually what we can do with this
+43:30 powerful agent with this powerful
+43:32 assistant what we can do we can generate
+43:35 okay what we can do we can generate more
+43:37 reliable output and this is our goal
+43:40 right what is our end goal to generate a
+43:42 most reliable output and because of it
+43:44 guys this agentic AI is getting more
+43:47 popularity uh because our end goal is
+43:50 nothing our end goal is to generate our
+43:52 end goal is to generate a more reliable
+43:55 output okay on that actually we can
+43:58 rely we can do the tell me guys what we
+44:01 can do we can uh like create a co-pilot
+44:05 kind of system this llm this agents
+44:07 actually it's a co-pilot kind of system
+44:09 where it is thinking by them is taking a
+44:11 decision by themel and based on that it
+44:14 is trying to generate the output I hope
+44:17 guys this thing is getting clear yes or
+44:20 no tell
+44:21 me third party tool third party uh
+44:24 functionality it could be anything it
+44:26 could be any database it could be any
+44:27 API it could be any custom function from
+44:30 wherever actually we are going to
+44:32 collect the output right so I hope guys
+44:34 you understood you understood uh about
+44:38 you understood about what you understood
+44:40 about the agents now let me do one thing
+44:42 let me explain you couple of uh agent
+44:45 let me explain you couple of agentic uh
+44:48 uh like a classes okay uh which was
+44:51 created by the lon itself and which was
+44:54 created on top of some research paper
+44:56 actually okay this idea the entire idea
+44:59 actually the different different kind of
+45:00 agentic pattern and all it came from the
+45:02 different different research which was
+45:04 conducted by the different different
+45:05 researcher okay so uh first of all what
+45:08 you have to do you have to go through
+45:09 with this page okay this uh L chain
+45:12 agents page okay once you will go
+45:14 through with it guys here just click on
+45:16 this agent type now once you will click
+45:18 over here you will find out the
+45:20 different different type of the agents
+45:22 like the tool calling agents open tool
+45:24 calling okay now here open functions
+45:27 then you will find out the structure
+45:28 chat react agent self ask with search
+45:32 right so uh with respect to this agentic
+45:34 classes you will find out the different
+45:36 different research paper also let me
+45:37 show you a couple of research paper so
+45:40 that your understanding will be more
+45:42 complete and you will trust on my world
+45:44 right so here guys this is the first
+45:47 research paper right so what's the
+45:49 research paper name name the research
+45:51 paper name is synchronizing reasoning
+45:53 and acting in a language model So This
+45:56 research paper it was published in 2023
+45:59 and based on this particular research
+46:01 paper right they have created the react
+46:03 agents I will let you know what is the
+46:04 working of the react agent how this
+46:07 react agent is working okay uh then guys
+46:10 you will find out uh one more research
+46:13 paper so uh recently I checked it uh
+46:16 because I was working on this particular
+46:18 class uh I can give you the link or just
+46:21 a second let me first search over here
+46:23 yeah so the research paper name is what
+46:26 self ask okay so the research paper name
+46:28 is what measuring and narrowing the uh
+46:31 compos compos tality Gap in the language
+46:35 model okay sorry for the pr
+46:37 pronouncation I think you got that what
+46:39 I'm trying to say uh but uh this class
+46:42 actually has been implemented with this
+46:44 particular name the name is what the
+46:46 name is self ask okay self ask with
+46:48 search this one right so this is one of
+46:51 the research paper now guys I got one
+46:54 more research paper okay just a second
+46:58 uh let me show you that as well so guys
+47:02 this is the research paper actually it
+47:05 is telling you the importance of the
+47:07 tool calling right so here guys see if
+47:10 you will go through with this particular
+47:12 research paper you can search it by name
+47:13 by their name okay you can just check
+47:16 out with this name uh but I would
+47:19 suggest you this particular research
+47:21 paper the synchronizing reasoning and
+47:23 acting in the language model and I just
+47:25 checked with the archive and this papers
+47:27 with code and I got many more Ling guys
+47:30 uh with respect to the multimodel agents
+47:34 multi a system and all so guys uh this
+47:38 uh actually this uh agents it's a very
+47:41 hard topic okay and you'll find out many
+47:44 many research around to this particular
+47:47 topic okay around to this AI agents and
+47:49 all and you will find out many research
+47:52 paper and the basic implementation of
+47:54 those those particular research paper
+47:56 over the archive and the papers with
+47:58 code uh once you will go and search uh
+48:00 just do one thing search about the
+48:02 papers with code okay so papers with
+48:07 code now guys uh here just uh write
+48:10 about the multi AI agents okay so here
+48:14 uh inside the search box write multi
+48:20 agents okay so once you will write this
+48:23 multi- agents multi agents you will find
+48:25 out so many research paper right so This
+48:28 research paper actually is trying to uh
+48:32 build a different different pattern
+48:33 using this uh agentic flow okay uh
+48:37 you'll find out the attached code link
+48:39 as well so if you want to like uh
+48:41 utilize This research if you want to uh
+48:44 like utilize this particular code okay
+48:48 the uh the idea right whatever idea is
+48:50 there behind this research paper uh you
+48:53 can simply go ahead and check this code
+48:55 okay you can uh simply take a code from
+48:57 here and Implement inside your system so
+49:02 guys uh these website even the archive
+49:04 and this papers with code IX right or
+49:07 research gate and all there are so many
+49:09 research paper you will find out from
+49:11 the different different organization and
+49:13 uh different different framework also
+49:15 which is supporting to the agents
+49:18 building as well right so this is a very
+49:21 uh like hot area okay this is very uh
+49:25 like uh uh this is this is like a very
+49:28 this is going to be very famous as well
+49:30 it's a v word right uh nowadays this AI
+49:33 agents why uh basically so here actually
+49:36 we have a very capable llm now how we
+49:39 are going to use the capability of those
+49:41 llm using some reasoning right using uh
+49:45 some instruction uh using some tool
+49:47 calling and all some uh like third party
+49:49 connection and all uh so everyone is
+49:51 focusing on that right I hope so guys
+49:54 you got this initial introduction of the
+49:56 agents now let me do one thing let me
+49:59 give you the idea okay let me show you
+50:02 one or two pattern from the uh from this
+50:04 Lenin classes itself so what I will do
+50:07 I'll be like explaining you this react
+50:09 agent okay uh how basically it is
+50:12 working what is the idea behind this
+50:13 react agent and then we'll move to the L
+50:16 of this Lang graph okay L graph coding
+50:19 and all so first of all let me do one
+50:22 thing and let me look into the chat as
+50:23 well I think many more thing I have
+50:25 explained to all of you and I haven't
+50:27 look into the chat so tell me guys uh is
+50:31 it clear to all of you are you enjoying
+50:33 this session because uh many more thing
+50:35 I have explained you in the one go
+50:37 because I want to like fast forward this
+50:39 particular part and I want to focus more
+50:41 on the application building yes I can go
+50:45 in a more detailed manner detailed way
+50:47 and even I can give you more
+50:49 structure uh like uh uh the road map and
+50:54 all but guys this is sufficient just to
+50:56 kick start this agent uh agent AI so if
+51:01 everything is clear so far you can let
+51:03 me know you can mention uh inside the
+51:06 chat so that I can uh like I can explain
+51:10 the further concept and all tell me
+51:15 fast so can you tell me how we can pass
+51:18 the sub different agents workflow ionely
+51:21 yes we can pass the query parallely also
+51:24 okay we can create a par parallel Branch
+51:26 parallel function
+51:28 a s and
+51:31 all this is just a overview so perfect
+51:34 uh thank you kuu so this is
+51:38 great uh understood
+51:44 great
+51:46 okay so uh let's do one thing guys
+51:50 uh okay let's do one thing let's try to
+51:53 understand some uh agentic flow right
+51:58 so first of all guys let me explain you
+52:02 uh about the re digit that how it is
+52:04 working so the react agent what happened
+52:08 so whenever we are passing anything to
+52:11 the llm right so let's say here what I
+52:14 have I have my input I'm passing my
+52:18 input right so after passing this input
+52:21 right so there is one stage the stage is
+52:24 called the thought right so let me
+52:26 mention it over over here let me make
+52:28 the arrow first see so here what will
+52:32 come the next stage will come that is
+52:35 called
+52:37 thought so t h o u g s t right so after
+52:44 the thought right there is one more
+52:46 stage which will come so that particular
+52:49 stage is called action okay so let me
+52:53 mention that as well over here so the
+52:56 next this stage is called guys tell me
+52:59 what it is called is called the
+53:02 action so here is what here is my
+53:09 action or it is called action
+53:15 input okay action
+53:22 input now guys there is one more stage
+53:25 which will come so the stage actually
+53:28 which is
+53:30 called which is called
+53:33 Observation so here let me mention about
+53:36 the one more stage which is
+53:42 nothing which
+53:44 is
+53:48 obser vation okay then guys there is one
+53:52 more stage okay and that stage actually
+53:55 itself is called
+53:57 the final stage so here I can mention
+54:01 about that particular stage just a
+54:04 second so here is nothing it is a final
+54:10 output
+54:16 final output okay so see guys what is
+54:19 happening actually whenever we are
+54:21 passing the input where we are passing
+54:23 the input we are passing this particular
+54:25 input to the l l M okay so here is what
+54:29 here is my llm means my large language
+54:32 model this large language model what it
+54:35 will do so whatever instruction whatever
+54:39 instruction whatever instruction
+54:41 actually we are providing to this llm
+54:44 right based on this instruction is going
+54:47 to think and this particular is stage
+54:51 okay this particular stage is called the
+54:53 reasoning so here what we are doing we
+54:56 are performing a reasoning
+54:58 operation understood guys tell me so
+55:01 here what we have we have a llm and
+55:04 based on the given instruction we are
+55:07 trying to think what could be my next
+55:11 step understood guys tell
+55:15 me we are trying to understand that now
+55:18 see now what we do so once the LM will
+55:21 think okay that is fine so we'll call
+55:24 the action so here ins the action what
+55:27 will happen you know so we'll try to
+55:29 call the
+55:30 appropriate okay
+55:33 appropriate
+55:35 tool right we'll try to call the
+55:38 appropriate tool means let's say I given
+55:42 one question to the llm and this llm is
+55:44 not able to answer directly what it will
+55:46 do it will think about it and it will
+55:48 decide The Next Step so my next step is
+55:50 nothing my next step is a tool calling
+55:54 okay so here basically it will come to
+55:56 the
+55:57 tool calling tool calling for this tool
+55:60 it could be anything it could be any
+56:02 custom function it could be any API
+56:04 could be any data base or anything guys
+56:06 we can take a data from any any anywhere
+56:09 right so we are going to call the
+56:11 appropriate tool and this stage actually
+56:14 is called a tool calling and this tool
+56:16 actually could be anything understood
+56:19 guys I hope so this is clear now so here
+56:23 we are just passing the input to the
+56:25 tool and uh we'll be getting the answer
+56:28 now what we'll do we'll think about that
+56:31 particular answer okay so whatever
+56:34 answer we got whatever answer we got
+56:37 we'll think about that particular answer
+56:40 so here based on the certain instruction
+56:44 we have written an instruction and based
+56:47 on those particular instruction i n s d
+56:49 r u c i t i o i based on the instruction
+56:54 what we'll do we'll try to observe the
+56:56 the answer okay now see guys again I'm
+56:59 repeating we have an input we are
+57:02 passing it to the llm and based on the
+57:04 given instruction we are doing some sort
+57:06 of a reasoning and we are deciding what
+57:09 could be my next step once we'll decide
+57:12 The Next Step okay so let's say my next
+57:14 step is a tool calling my LM is not able
+57:16 to answer something then what will
+57:19 happen we try to observe this particular
+57:21 answer now in the observation let's
+57:24 suppose if my answer is not
+57:28 relevant okay not relevant so what we'll
+57:32 do guys you know again we'll go back
+57:35 again we'll go back to this particular
+57:38 stage let me show you to which stage we
+57:40 are going again so again we'll go back
+57:44 to this particular stage to this thing
+57:46 thought right we think we'll think about
+57:49 the we'll think about the question again
+57:52 okay and then again we'll try to call
+57:54 the appropriate tool and again will make
+57:58 observation understood guys so what we
+57:60 are doing here we are going to create a
+58:02 kind of pattern okay reasoning and
+58:05 action pattern means we are giving a
+58:08 capability to the llm based on some
+58:10 instruction actually it need to identify
+58:13 whether I need to choose this step that
+58:15 step then again based on some sort of an
+58:17 instruction we need to think about the
+58:19 output okay once my output is a reliable
+58:23 once my output is a relevant then only I
+58:26 will be generating a final final then
+58:30 only I'll will be generating my final
+58:31 answer so this is a whole sort of a
+58:33 process guys whole sort of a process of
+58:35 reasoning and action and guys whatever a
+58:38 classes whatever uh like a agent agentic
+58:42 pattern and all you are looking for
+58:44 right so this is a core this is a core
+58:47 of those agentic pattern in every
+58:50 agentic pattern you will find out the
+58:52 thought you'll find out the action
+58:53 you'll find out the observation and
+58:55 based on that that you'll be getting the
+58:57 final output okay I hope so guys the
+59:01 idea is clear to all of you what is the
+59:03 meaning of agent so agent are nothing
+59:05 it's a smart assistant there also we are
+59:08 using the capability of the llm okay
+59:11 there also we are going to generate an
+59:12 answer from the llm but based on certain
+59:15 condition my condition is what my
+59:17 condition could be anything and my final
+59:19 goal is what my final goal is nothing
+59:21 it's just a reliable output and for that
+59:23 guys you will find out every sort of a
+59:25 research uh every sort of a paper right
+59:28 they are just talking about this agentic
+59:30 pattern we go to that this whatever
+59:32 right and Lang graph actually is trying
+59:34 to help us to build this kind of pattern
+59:37 not only this one it's trying to help us
+59:39 to create a more custom pattern
+59:41 understood guys tell me yes or no so
+59:44 this agentic flow this agents the
+59:46 definition of the agents the definition
+59:48 of the rag AI assistant and the
+59:51 definition of the L graph Lang flow
+59:53 everything is clear to all of you yes or
+59:55 no
+60:02 yes how to check the reliability of the
+60:05 answer and all everything we'll get to
+60:07 know once we'll code it okay it is all
+60:09 about the coding that's it
+60:14 guys so if I can get a quick
+60:17 confirmation from your end so that would
+60:19 be great if you can let me know guys in
+60:21 the chat or whatever in your mind uh I
+60:24 will proceed according to this one
+60:31 because I want a quick confirmation guys
+60:33 uh so that uh we'll get to know this
+60:38 session is a Worth or not whether I'm
+60:40 going on a right way whether I'm
+60:43 teaching you the correct stuff or we are
+60:47 just wasting our time
+61:00 yes danush see uh I can extend this
+61:03 thing uh like uh up to any point okay
+61:07 there is no end of it but we have to
+61:10 keep this thing on mind uh this is not
+61:13 an end to endend course or somewhere
+61:15 something which I'm teaching you right
+61:17 this is just a like a workshop where I
+61:19 have to give you the quick uh uh like a
+61:22 quick tour of each and everything and we
+61:24 have to build something so that you can
+61:26 utilize it inside your resume you can
+61:28 get to know you can you could be
+61:30 familiar with your uh uh basically with
+61:33 the this agent and all the agents and
+61:36 all that's it otherwise this could be a
+61:38 very longer discussion I can introduce
+61:40 many more thing to all of you over here
+61:50 understood yes the output is correct or
+61:52 wrong for that we can use a certain
+61:54 evaluation matrixes we can use the llm
+61:56 also we can use a fine tune llm it is up
+61:59 to us it is just a coding practice okay
+62:03 it is just a logic
+62:07 building so tell me guys are you
+62:09 enjoying it or not are you enjoying this
+62:12 uh entire uh
+62:16 stuff yes you can use the open source
+62:18 llm anything now many people are having
+62:21 a doubt so the doubt is uh pretty common
+62:25 what agentic framework we have right
+62:28 right now currently the market there are
+62:30 so many names so I can highlight those
+62:33 thing as well over here I can give you
+62:34 the just I can give you the quick
+62:36 overview of it uh you'll find out the
+62:40 Len chain guys uh which will give you
+62:42 the different different classes the old
+62:45 Lin classes which I recently shown you
+62:47 then uh on top of the Lenin they have
+62:50 created a lang
+62:52 graph okay Lang graph uh is nothing it's
+62:56 just the extended version of the uh
+62:60 langon itself where actually you'll find
+63:02 out the uh where you will find out all
+63:05 all the thing with respect to the agents
+63:07 and all okay how you can create an agent
+63:10 from scratch then they have given you
+63:12 one more way of creating agent that is
+63:14 Lang
+63:15 flow okay Lang flow actually it's a no
+63:18 code tool where you just need to drag
+63:20 and drop and using uh those
+63:22 functionality you can create a what you
+63:25 can do you can create a agent
+63:26 okay then uh you will find out one more
+63:29 framework which is quite popular and
+63:31 I've seen many people are talking about
+63:33 it that is llama index you can you can
+63:36 use this as well llama index okay there
+63:40 are also uh like couple of classes
+63:43 couple of different pattern you will get
+63:46 but uh again uh whatever classes
+63:48 whatever of like kind of Agents actually
+63:51 you will find out inside the lch uh 90%
+63:54 same you will find out inside the L
+63:56 index also Okay the third one uh you
+63:59 will find out uh which is
+64:02 a autogen right it's a Microsoft
+64:05 framework for creating a agents then you
+64:09 will find out the crew AI also crew AI
+64:11 it's a very famous framework I seen many
+64:14 people have created a video related this
+64:16 to AI multi- agenting system and all
+64:18 okay so autogen through AI Lama index
+64:21 then F data so p e data P data f
+64:26 anything you can say right uh and then
+64:29 guys you'll find out the specific uh
+64:32 like framework and all so I recently
+64:34 seen with the anthropic so anthropic
+64:37 also anthropic right anthropic AI uh
+64:41 which is having this cloud asonet and
+64:43 all right so this anthropic AI also have
+64:46 introduced one framework related to the
+64:48 agents even Google also introduced one
+64:50 framework inside the vortex a itself so
+64:54 once you will explore the Vex a it's a
+64:55 Google platform inside that also you
+64:57 will find out the framework for creating
+64:59 agents okay uh then guys uh you will
+65:02 find out the open a swarm so open I also
+65:06 has introduced one framework uh and the
+65:09 framework name is what the framework
+65:12 name is open swamp Okay and lots of
+65:17 framework lots of framework and this
+65:19 framework actually what they are doing
+65:20 they are just giving the high level
+65:22 functionality uh to you means you can
+65:25 write a code you can create a function
+65:27 and everything is coded uh they have
+65:29 coded everything in a back end and some
+65:31 of the framework they are providing the
+65:33 FID functionality also like the QI and
+65:35 all Qi and if I'm not wrong this
+65:38 anthropic also you can check so what
+65:41 they will give you they will give you
+65:42 the assistant they will uh give you the
+65:44 assistant for creating the agents for
+65:47 your business and all okay till uh the
+65:49 dep because there could be any sort of a
+65:51 depth okay till U you can you can like
+65:55 uh code anything using this agents and
+65:57 all okay every sort of a functionality
+65:59 you can uh code okay you can create a
+66:02 co-pilot system you can create any type
+66:05 of pattern any type of custom pattern
+66:07 and some of the companies actually they
+66:09 are helping to you in that as well if
+66:11 I'm not wrong I think feed data as well
+66:13 uh I need to explore more about it but
+66:15 yeah uh black graph basically there you
+66:19 can code everything from scratch in the
+66:21 Lang flow you will get some sort of
+66:22 assistant from the langen side okay they
+66:25 have are having some paid plan they are
+66:27 having some commercial in the business
+66:28 plan A Lang graph basically it is
+66:30 completely open source you can find out
+66:32 the code of the Lang graph with the
+66:34 GitHub as well and you can code
+66:36 everything uh everything you can code
+66:39 inside the langra from scratch okay we
+66:41 have a more Authority while we are going
+66:44 to write a code using the L graph okay
+66:48 so tell me guys uh is it clear to all of
+66:51 you yes or no this framework or stuff
+66:54 and all can we move ahead to the
+66:58 code yes if you will give me a
+67:02 permission uh I will go
+67:10 ahead crew AI cre eii uh you will get uh
+67:14 you will get this crew eii video on the
+67:16 Chris Asser Channel itself
+67:21 okay great now everything I'm doing
+67:24 inside a local so first of all I will
+67:25 have to create a environment over here
+67:28 so I'm what I'm doing here I'm just
+67:31 going to create
+67:33 a virtual environment and this is uh
+67:37 this is a cond virtual environment you
+67:39 can create a python virtual environment
+67:41 okay if you don't have cond then uh here
+67:44 what I'm doing here I'm writing a cond
+67:48 create iPhone
+67:51 P okay v n b and here I'm using Python
+67:57 3.10 and uh iph y so guys if you don't
+68:03 have K or if you don't have a setup
+68:05 inside a local what you can do uh you
+68:08 can write a code inside your
+68:10 collab okay so just open your collab and
+68:13 try to write a code inside your
+68:18 collab so can you explain about the
+68:20 react agent here I explain you react
+68:22 means reasoning and extent which is
+68:24 working inside one Loop okay so first
+68:28 input thought action observation then if
+68:32 this answer is not correct then again
+68:33 thought action observation then again
+68:36 thought action observation and then only
+68:38 you'll be getting the final output okay
+68:41 so this is what this is my uh react
+68:45 agent reasoning and
+68:47 action so also can we talk about
+68:50 entropic AI in one session how many
+68:52 thing I can discuss tell me Mo so ropic
+68:56 AI we'll
+68:57 discuss uh in some other session so here
+69:01 I'll be discussing this length graph and
+69:03 all so uh here I created one virtual
+69:06 environment so first of all let me click
+69:08 on yes and let me activate this
+69:10 environment Source activate do/
+69:15 VV so here guys I what I did I activated
+69:19 the envirment now let me do one thing
+69:22 let me delete it just a second and I'm
+69:24 going to open the new teral okay guys
+69:27 what you have to do you have to create a
+69:30 of this one require txt as well so here
+69:34 I'm going to create one file the file
+69:36 name is what requirements.txt so that I
+69:38 can keep all the requirement inside the
+69:40 single file and I'm going to create one
+69:42 more file here this isv so I can keep
+69:45 all the keys inside this particular file
+69:49 now the same thing you can do inside
+69:51 your uh collab as well so once you will
+69:54 click on this uh
+69:56 this one this key option so you will get
+69:60 the uh you will get the option for
+70:02 adding your keys okay just click on this
+70:05 key and uh this key icon and then add
+70:08 your keys the required key over here
+70:10 inside my local I'm going to add the key
+70:13 in my EnV file and here guys I'm going
+70:16 to add on the key inside the collab
+70:18 actually inside this key section ins
+70:21 said the secret section so that no one
+70:24 can get it no one can take
+70:27 it okay if you ready guys then please
+70:31 give me a quick
+70:32 confirmation uh I will
+70:39 start are we going good or
+70:43 not are you understanding everything
+70:46 tell me guys yes or
+70:51 no if you're liking then you can give me
+70:54 the quick thumbs up as
+71:03 so okay so guys uh can we take a break
+71:07 uh 2 minute of break just a quick water
+71:09 break if you will allow then I will take
+71:11 2 minute of break
+71:21 yes okay so wait let's take two minute
+71:26 of break a quick break okay just a quick
+71:29 water break what I can do I can uh put a
+71:33 timer for the 2 minute so just a
+71:40 second yeah so we'll start guys after 2
+71:43 minute
+71:45 uh thank
+71:47 you don't leave the session B here I'll
+71:50 be
+71:54 started
+72:24 for
+73:24 for e
+74:25 okay okay so guys I think uh we are
+74:31 back everyone is back please do let me
+74:34 know in the chat if you are
+74:49 back can we start again
+74:59 how we will come to the clarification
+75:01 whether the output is correct or not we
+75:03 will see ma because it's all about the
+75:06 code what kind of code and logic we are
+75:08 going to
+75:12 write are all the keys free to use do we
+75:15 need to use pay for them no we are not
+75:18 going to use any paid key over here uh
+75:22 I'll be using all the free stuff
+75:25 so first of all what you have to do uh
+75:29 you have to set up uh you have to
+75:32 install couple of Library let me give
+75:35 you those Library okay just a
+75:39 second uh these are the library guys the
+75:43 very first Library which you need to
+75:44 install that is Lang graph so let me
+75:47 write over here Lang graph okay uh I
+75:51 will come to the langra or documentation
+75:53 again don't worry uh I will show you the
+75:55 detail DET I will give you the detail
+75:57 walk through of that of this langra
+75:59 documentation and the different
+76:01 different concept of using the whatever
+76:03 concept actually they have explained
+76:05 okay inside the lra documentation but
+76:07 there are so many things okay you will
+76:09 get it and even you can take a code from
+76:12 there itself and you can like a practice
+76:15 okay everything is possible so this is
+76:18 the first thing uh the langra then you
+76:21 need to install this Lang Chen guys so
+76:24 let me write this lenen then the next
+76:27 thing is going to be lenen Community
+76:29 okay I can give you uh this as don't
+76:33 worry I will give you this entire code
+76:34 first of all guys please try to write it
+76:36 from your end okay or else let me paste
+76:40 this uh this thing inside
+76:44 where inside the collab so I think I
+76:47 already shared this collab notebook you
+76:49 can take it from there okay this name
+76:51 and I'll be giving you the updated
+76:53 GitHub link also
+76:55 so guys this is my uh third Library
+76:58 langin
+76:59 community then what I can do uh I can
+77:03 use some other libraries as well so here
+77:07 here here the next library is going to
+77:09 be langen Hub okay so this 3 to four
+77:12 library is required uh and uh for
+77:15 installing this re. txt I simply need to
+77:18 write this P install hyph R requirement.
+77:22 PhD okay so inside my friend environment
+77:26 inside my new environment I'm installing
+77:28 all these packages now guys if you don't
+77:31 have this packages inside a collab let's
+77:33 say if you're going to import this L
+77:35 graph and you are not able to do insert
+77:36 the L inside your collab you can need to
+77:38 Simply write pip install L graph okay so
+77:42 this is the command which you need to
+77:43 write P install and you can mention all
+77:46 the names Al together after writing the
+77:49 comma if I'm not wrong if this comma is
+77:52 not working you can remove this as well
+77:55 so so I think so like this it would be
+77:58 working and uh there was one more
+78:00 Library the library name was langen Hub
+78:04 okay this one so I'm going to copy it
+78:06 and let me paste it over here langen Hub
+78:10 community Lenin and L graph so tell me
+78:13 guys did you install this Library yes or
+78:17 no did you install this library inside
+78:22 of your virtual environment
+78:29 if you have installed you can give me a
+78:31 quick
+78:39 confirmation tell me guys yes or
+78:44 no okay so module wise model wise
+78:48 actually we are going to use the gra Gro
+78:50 API I can use the uh I can use the this
+78:53 one also Google a studio uh Google a
+78:56 stud actually provide you the Google
+78:57 jimy access okay but as of now what I'm
+79:00 doing I'm going to use this Croc API
+79:02 which will give you the different
+79:03 different uh AES okay the AES of the
+79:06 different different model so here is a
+79:08 key so here is my key for the grock API
+79:11 how many of you you know how to set up
+79:13 this grock API for the model tell me
+79:15 guys do you know how to set up this
+79:17 grock API for accessing the
+79:22 model why we use Virtual environment we
+79:24 use Virtual envirment so that we can
+79:26 segregate the project requirement okay
+79:29 because one project requirement could be
+79:31 different from the other project that's
+79:33 why we use the virtual environment so
+79:35 here what I have I have the gro API uh
+79:37 grock API key and using this Gro API key
+79:40 I can access a different different model
+79:41 from the gro itself so once you will
+79:43 search about the gro API key okay so see
+79:47 open your Google and search grock API
+79:50 key so once you will search about the
+79:53 gro API key you will uh get this
+79:57 interface okay now here create your API
+79:60 key and if you want to check that what
+80:01 model actually it is being provided uh
+80:04 what model actually is being provided by
+80:05 this grock so simply you can check out
+80:07 with the documentation once you will
+80:09 click with the documentation uh here you
+80:11 need to go ahead with this model section
+80:14 so these are the model which is been
+80:15 provided by the uh Gro API okay so you
+80:20 can access any sort of a model from here
+80:22 so I'm using this GMA uh it's a model
+80:25 from the Google and it's open source
+80:27 model either I can use a Lama or GMA
+80:30 both are fine and yes as of now we are
+80:34 going to use this GMA for building our
+80:36 agents understood guys tell me yes or no
+80:39 so here is my key which I generated and
+80:41 you need to generate it and you need to
+80:43 keep it with you so I kept this key
+80:45 inside my uh EnV file and if you are
+80:47 going to save it inside your collab so
+80:50 you need to save it where you need to
+80:52 save it inside this particular SE SE
+80:56 tell me guys is it clear to all of you
+80:58 yes or no tell me if it's clear I can
+81:02 proceed ahead you can give me a quick
+81:04 confirmation inside the
+81:10 chat clear guys yes or
+81:16 no why Gro Cloud what is the benefit of
+81:19 it kichu is asking so kichu what is a
+81:22 Gro Cloud so grock is giving see they
+81:25 what they did they kep they hosted some
+81:27 model on their Cloud okay so certain
+81:30 model they are giving you for the fee uh
+81:34 and uh I don't know what is a paid plan
+81:36 of this Gro so Gro uh actually uh it is
+81:41 for the faster inferencing they hosted
+81:43 the model in such a way that you can
+81:45 perform the faster inferencing
+81:47 inferencing means what
+81:49 prediction right and that's a beauty of
+81:52 the gr as of now whatever I have seen
+81:55 and whatever I have felt and I tested it
+81:57 with the different different hugging pH
+81:59 based model as well and the output is
+82:01 quick like the output is very quick from
+82:04 the gro API okay from the gro
+82:07 models uh it is all about the hosting
+82:10 that how you have hosted a model on your
+82:12 infrastructure I think they have
+82:13 optimized the infrastructure in a pretty
+82:15 well
+82:17 mannered and you will find out the
+82:19 integration with each and everything so
+82:21 simply you can check out the
+82:23 documentation so I hope so guys this
+82:25 this thing is clear now what I have to
+82:26 do so I have to select a kernel first so
+82:30 this is my kernel and here what I'm
+82:32 doing I'm going to install one more
+82:34 thing this is my ipy kernel ipy kernel
+82:38 so that I can write a code inside my
+82:41 notebook and this thing I can mention
+82:43 inside the re of txt as well
+82:47 ipy understood guys tell me yes or no
+82:50 till here everything is perfect if yes I
+82:52 can proceed ahead with the code writing
+82:55 it is very simple very easy it is all
+82:58 about the system setup I think which you
+82:60 already
+83:01 know as a CH audience I'm expecting to
+83:04 all of you because he has explained you
+83:06 everything over his YouTube
+83:12 channel you can use pirti also yes I can
+83:14 use a pirti for the I will use a PIR
+83:17 okay uh for the validation guys use the
+83:20 ptic and a pretty amazing liability and
+83:23 I will show you the use of it don't
+83:27 worry so tell me guys this session is
+83:29 worth are you enjoying this
+83:46 session can I know what we add in the
+83:50 apart from the gro API key only the gro
+83:52 API key this one
+84:09 custom agents also we can break Grimmer
+84:12 don't worry we will talk about it
+84:17 okay okay fine so please do the setup
+84:20 then we'll proceed further and here I
+84:21 pasted my key you need to generate your
+84:24 own key if you want to access the model
+84:26 all right guys just give me a second
+84:28 wait
+85:24 okay so sorry guys I got a
+85:27 call fine now what I have to do here so
+85:31 first of all uh we need to check that
+85:34 whe whether we are able to import the
+85:35 Lang graph or not okay so uh here I'm
+85:38 going to write from a lang
+85:41 graph from Lang
+85:46 graph do graph okay so here is my graph
+85:52 and what I'm doing I'm going to be
+85:53 import
+85:56 this
+85:58 gra got it guys so let me import this
+86:01 particular class the class name is what
+86:03 graph so see guys I I'm able to import
+86:06 this graph class and you should be able
+86:08 to import it then you can write the
+86:10 further code okay now guys see after
+86:14 importing it first of all I need to
+86:16 check out with my model as well that
+86:18 whether I'm able to import the model or
+86:20 not whether I'm able to use it or not
+86:22 okay so for the model just a second let
+86:27 me uh load the
+86:30 model and here here here here just a
+86:38 second I'll be using this Gro model only
+86:42 if you want to use any sort of a model
+86:43 you can use but this is a free that's
+86:45 why I'm using this Gro so guys for
+86:49 importing the model from the gro what
+86:51 you have to do you have to use this is
+86:55 len Chen so I'm writing here Len Chen
+86:57 Grog okay Len Chen Grog L chore Grog
+87:05 Okay g r
+87:07 oq and what I'm doing I'm going to
+87:10 import
+87:12 this chat Dr okay chat Dr so this is
+87:17 what guys this is my class which is
+87:19 required for what which is required for
+87:21 loading the B so once I Lear it guys
+87:24 here you be able to find out I don't
+87:26 have this particular model okay it is
+87:28 saying Lang and Dr is not there so if it
+87:31 is not there what I have to do tell me I
+87:33 have to install it so here I'm
+87:35 mentioning this thing inside the uh
+87:37 inside the recon. txt as well as I'm
+87:40 installing it through the command prompt
+87:43 also so pip install Lin gr okay so it
+87:47 will take a time and uh now
+87:50 see I am able to install it now if I
+87:53 will uh run it so yes I'll be able to
+87:57 import this particular class the class
+87:58 name is what chat Gro understood guys
+88:01 tell me yes or no now what I can do I
+88:04 can create a object of this chat Croc
+88:06 and here inside this chat Croc okay
+88:09 inside this class I can write any sort
+88:11 of a name so I already shown you we have
+88:14 a various model so if you will go and
+88:16 check with the model section you'll find
+88:18 out the different different model now
+88:19 whatever model you want to read what you
+88:21 have to do you just need to pick that
+88:24 that ID okay let's say if I want to read
+88:26 this llama I told you I want to use the
+88:28 GMA no but I Chang my mode I I want to
+88:31 use this llama uh and guys see first of
+88:34 all you will have to make a proper
+88:36 comparison without before using any sort
+88:38 of llm you cannot use any LM directly
+88:41 okay if you are working to the
+88:42 production if you are working into the
+88:44 real time you have to do lots and lots
+88:46 and lots of back and forth you will have
+88:47 to go through the research paper and
+88:49 according to your requirement only you
+88:51 going to decide the model okay so while
+88:55 choosing the model be careful try to be
+88:57 focused on your requirement try to be
+88:59 focused on your problem statement and
+89:01 based on that select the model so here I
+89:04 don't have as such requirement so I can
+89:06 use any sort of a model so what I'm
+89:07 doing I'm just going to take this name
+89:09 Lama
+89:10 70b 8192 okay 70b actually it is
+89:14 representing to the parameter so how
+89:17 many parameters there inside this
+89:19 particular model we have 70 billion
+89:21 parameter what I'll be doing I'll be
+89:23 keeping it inside the double code and
+89:25 I'm going to load this particular model
+89:27 so this is going to become my llm and
+89:30 what I can do I can load it so just a
+89:35 second let me write the model over here
+89:37 this particular parameter and I hope so
+89:40 this llm is working fine so llm do
+89:44 invoke and see guys here I'm writing my
+89:46 message Hi how are you it is just a
+89:49 testing message whether it's working
+89:50 fine or not and you will find out to see
+89:52 it it is giving me answer so if you want
+89:55 to take a message simply you need to
+89:58 call this contact on top of it and see
+90:01 guys you will be getting your answer are
+90:04 you able to read the model yes or no are
+90:07 you able to read this model from The
+90:10 Croc and this particular model is
+90:12 completely free because you are going to
+90:14 read it from The Grog and grog is giving
+90:16 you the free access of the model and
+90:19 what is the benefit of using dra uh
+90:22 because it is giving you the faster
+90:24 interest say
+90:26 okay I hope so this is
+90:29 clear you can let me know inside the
+90:31 chat so that I can proceed further tell
+90:33 me guys
+90:38 fast yes or no are you able to import it
+90:41 I'm giving you one minute of time please
+90:43 do let me know in the chat and if you
+90:45 have any doubt you can ask
+90:48 me so I will end the session by 9:30
+90:51 don't worry within 10 minute so after
+90:52 doing this entire setup and all and rest
+90:55 of the thing we try to understand in the
+90:57 upcoming session okay inside the next
+90:59 session and for the detail understanding
+91:01 and for the detail introduction you can
+91:03 check out with my YouTube channel as
+91:05 well uh there I already created couple
+91:07 of tutorial uh with respect to this L
+91:10 gra Rag and all you will get a better
+91:12 understanding
+91:14 okay show in a collab in a collab also
+91:17 it would be same am okay just need to
+91:21 read the key and uh after reading the
+91:25 key this this particular key see this is
+91:28 the code you need to read a key load the
+91:30 key and then you can access
+91:40 understood
+91:44 great my channel name with the same name
+91:48 Savita okay so fine now what we can do
+91:51 guys here we can uh write a further code
+91:54 so my further code is going to be very
+91:56 interesting not please try to focus and
+91:59 here in my further code first of all
+92:03 what I will do see uh I'll be like
+92:06 writing one function okay so my function
+92:10 name is going to be what my function
+92:12 name is going to be llm or simply let me
+92:15 write the function one itself this
+92:18 function
+92:20 one function one okay now this function
+92:24 one what it will do it will take a input
+92:26 and after taking an input what it will
+92:28 do you know guys after taking an input
+92:31 it will try to generate a answer from
+92:32 the llm okay so for that what is
+92:35 required tell me guys for that actually
+92:37 we required this llm which I'm putting
+92:39 inside this particular function and
+92:41 along with it we require this uh llm
+92:45 call as well so here this content
+92:47 actually I'm going to keep inside the
+92:49 response variable response variable okay
+92:53 and then what I'm doing I'm going to
+92:55 return the response so this is my simple
+92:58 code guys did you understand this code
+93:00 and don't worry from next class onwards
+93:02 like whenever I taking I'll be like
+93:05 giving you one guub link from there
+93:06 itself you can take the entire code okay
+93:11 good uh where we can see the available
+93:14 models so you can check out with the
+93:16 documentation of the gro so just check
+93:19 out with the Grog the website of the
+93:21 Grog you'll get the complete information
+93:24 over there so here what I have I have
+93:26 the function one okay to this function
+93:28 one Whatever input I'll be passing I'll
+93:30 be getting the reply of that particular
+93:33 input so see I'm saying hi and it is
+93:35 giving me answer okay as simple as that
+93:38 that's it now what I'm doing guys here
+93:40 I'm going to create one more function
+93:43 okay and this particular function what
+93:45 is trying to do you know this particular
+93:47 function actually uh the name of this
+93:49 function is function two now whatever
+93:51 input actually I'll be getting uh uh
+93:54 like from this function one I'll be
+93:56 passing this to function two okay so
+93:59 here again I'm passing the
+94:01 input and now let me do one thing let me
+94:04 uh write one method okay on top of this
+94:07 input this input is nothing it's a
+94:08 string right so I can simply call the
+94:10 string method on top of this input and
+94:13 what I will do I'll be keeping inside
+94:15 the variable so this is what this is my
+94:18 upper string okay upper string or upper
+94:22 output upper up like a response right
+94:25 whatever it would be so here what I'm
+94:27 doing I'm just going to be return this
+94:29 particular upper string understood guys
+94:32 tell me this two function are very uh
+94:34 basic function why I WR it so that I can
+94:37 introduce the functionality of the Lang
+94:39 graph right uh step by step one by one
+94:42 uh we'll be going ahead and don't worry
+94:44 by end of the session you will be able
+94:45 to understand the working of the L graph
+94:48 okay now what I have to do guys here
+94:50 actually I have to create a object of
+94:52 this particular class what is my class
+94:54 class name so my class name is the graph
+94:56 so I'm just going to be take this name
+94:58 okay graph and here I'm going to take a
+95:01 I'm going to create a object of it so my
+95:03 object name is going to be workflow okay
+95:06 so this is the object name now to this
+95:10 object actually I can add on multiple
+95:12 things right so here I can add on the
+95:15 nodes okay so what I'm doing here I'm
+95:18 going to add the
+95:20 noes now what I can do I can add the
+95:22 ages also okay so one more thing guys
+95:25 which I can add on over here add the
+95:28 ages so here is what here is my ages
+95:30 right so notes ages everything I'm going
+95:33 to be add but guys uh you will be
+95:34 surprising that what is the meaning of
+95:36 this age okay what what is the meaning
+95:38 of this node so don't worry everything I
+95:40 will try to clarify over here now what I
+95:42 can do guys after adding this ages and
+95:45 node what I can do I can compile this
+95:48 workflow so once I will compile this
+95:50 workflow okay after compiling this
+95:52 workflow what I'll be getting I'll be be
+95:54 getting my final graph okay final graph
+95:58 and here this is going to be my
+95:60 application okay now what I can do I can
+96:02 invoke this particular application and
+96:05 this is representing to my workflow as
+96:08 of now we are just going to be create a
+96:10 simple workflow okay simple workflow so
+96:13 this is a l graph workflow guys okay
+96:16 this is a l graph workflow here I
+96:18 created function one here I created
+96:20 function two here I created a graph
+96:23 inside the graph I had ages notes and
+96:25 here I compile this graph and I'm
+96:27 invoking this particular CL so tell me
+96:30 guys till here everything is perfect
+96:32 everything is clear just just tell me
+96:34 based on this code because I haven't
+96:35 explained you the context I'm just
+96:38 asking based on this particular code
+96:41 because I need to explain you couple of
+96:42 more thing with respect to the Lang
+96:44 graph then only you will be able to
+96:46 understand this entire flow yes or no
+96:49 tell
+96:50 me if it is clear you can uh tell me you
+96:53 can mention the chat I will uh I'll be
+96:56 going the further concept but tell me is
+96:59 it clear to all of you function one
+97:02 function
+97:03 two this is my workflow and here is my
+97:06 invo
+97:15 method research paper for the research
+97:17 paper we have papers with code okay uh
+97:21 we
+97:22 have AR right we have I uh we have
+97:27 research gate uh website from the
+97:30 Academia right and the different
+97:32 different website from the different
+97:34 different organization you you might get
+97:36 a research paper over there but which
+97:39 website I use I use the research this
+97:41 one papers with code I use the archive
+97:43 there actually I try to I find each and
+97:45 every updated research paper got
+97:49 it but where you are calling this
+97:51 function that's a like point right
+97:54 that's a point which we need to
+97:55 understand with respect to this L graph
+97:57 so I hope so this thing is pretty much
+97:59 clear now what I will doing so I will be
+98:02 explaining the concept over here of the
+98:04 concept of the Lang graph and then we'll
+98:06 move forward so whenever guys I talked
+98:10 about the L
+98:12 graph so this L
+98:14 graph it gives
+98:17 you two
+98:19 classes the first class is called the
+98:22 graph
+98:24 okay and the second class is called the
+98:27 state
+98:29 graph this graph actually it is for
+98:31 implementing the basic graph and as of
+98:34 now whatever graph I created I created
+98:37 using this uh basic graph class going
+98:41 forward I'll be showing you this state
+98:43 graph this state graph why we use this
+98:45 state graph this state graph we use for
+98:48 uh sustaining the state okay state of
+98:51 the conversation state of the
+98:54 conversation okay so I'll be showing you
+98:56 what is the meaning of this state graph
+98:58 as of now you can understand we are just
+98:60 going to be maintain the state of the
+99:03 conversation
+99:05 right uh whatever message is going to
+99:07 flow throughout the workflow right we
+99:10 are going to maintain that state so guys
+99:14 here you will be surprising that this
+99:17 graph actually it is nothing this graph
+99:20 are the same graph which we usually
+99:22 learn okay which we used to learn the
+99:25 graph basically it has been created with
+99:26 this two concept the concept name is
+99:28 node and the ages okay ages and here
+99:32 guys this node and ages this node
+99:34 actually it is representing to the
+99:36 function whatever function we are going
+99:38 to write right whatever function we are
+99:41 going to write it is being represented
+99:43 by this node right so I written this
+99:46 function one function one so this
+99:49 function one eventually will become this
+99:51 node okay this function two this
+99:53 function F two it will also a node okay
+99:57 so what I can do as a node I can
+99:60 represent okay as a node what I can do I
+100:02 can represent my functions so just a
+100:04 second let me one thing let me write
+100:07 node over here I think so it is clear so
+100:10 what I'm doing here I'm uh inside where
+100:12 wherever actually we have this node
+100:14 right I'll be writing a function means
+100:16 inside this particular node I'm uh
+100:18 giving the function name so this is my
+100:20 node one okay and this is representing
+100:25 to the function one and here is what
+100:27 here is my node two this is also this is
+100:30 also my function this is my function two
+100:33 right I can give any custom name to the
+100:35 function so as of time I'm writing a
+100:37 same name but later on I will show you
+100:39 we can write a custom name also okay we
+100:41 can give any sort of a name to this
+100:43 function so it's my function one and
+100:45 here is what here is my function two
+100:48 understood guys tell me so this node is
+100:50 nothing it's a function now what is the
+100:52 ages ages is nothing it's a relationship
+100:55 okay so whenever we are talking about
+100:57 the ages so this ages actually it is
+101:00 representing to the relation relation
+101:03 means how this node is going to be
+101:05 connect to each other what we are
+101:07 passing from one node to Second node
+101:09 right I can explain you with a very
+101:11 basic example let's say uh here you have
+101:14 the function one so let me write the
+101:17 function one over here function one okay
+101:21 and here what I have let's say this is
+101:23 my function two so this function one is
+101:25 nothing it's a node one and this
+101:27 function two this is nothing it's a node
+101:30 two okay
+101:33 function
+101:35 two so this is the node one okay I
+101:39 writing node one and here is node two so
+101:42 this function one and function two will
+101:44 be connected to each other with some
+101:46 relation okay with some relation as of
+101:50 now what what kind of relation we have
+101:53 uh we don't have as such like any
+101:55 specific relation right whatever input
+101:57 we are getting from here so we are
+101:59 passing the input to the N1 so we are
+102:02 passing input to the N1 and from this
+102:05 particular function we are generating a
+102:07 output okay so whatever output we are
+102:09 generating from this n one so this
+102:13 particular output is become will become
+102:15 input to This n r to my node to okay and
+102:19 after the entire processing and all
+102:20 we'll be getting the output so this is a
+102:22 flow right so if you will ask to me what
+102:25 is a lang graph so Lang graph is nothing
+102:27 it's just a orchestration framework okay
+102:30 so as I told you inside the agent what
+102:33 we were trying to do tell me inside the
+102:35 agent actually we are trying to create a
+102:36 different different pattern right we
+102:39 trying to create a different different
+102:40 pattern yes or no I think in the
+102:42 starting itself I have explained you
+102:43 this concept so guys this Lang graph
+102:46 actually it is trying to help us for
+102:49 creating a different different patent
+102:51 it's a orchestration framework right
+102:53 where actually we can code a different
+102:55 different functionality in terms of
+102:56 different different function and we can
+102:59 connect those function to each other and
+103:02 which concept we are using over here we
+103:03 are using the graph concept over here
+103:06 graph okay we are using the graph data
+103:08 structure over here right so I told you
+103:10 that this agents is I I explain you one
+103:13 pattern okay just now I explain this
+103:14 react pattern inside the react pattern
+103:16 what we are doing between this input and
+103:19 the output we are having the different
+103:21 different functionality right so so
+103:23 first we were passing the input then we
+103:25 were thinking about it right after that
+103:28 we were calling the tool so tool calling
+103:30 was there then we were having the
+103:32 observation if this thing is not working
+103:35 fine again we are going back to this
+103:36 thought observation and all and finally
+103:38 we were generating the answer so this is
+103:41 what so here in the center we were
+103:42 having the llm right and we were
+103:45 creating a kind of pattern right we were
+103:47 creating a kind of pattern using this
+103:49 llm we are giving the more power to the
+103:51 llm so that it can think something it
+103:53 can take a decision it can working on a
+103:55 co-pilot mode okay so using this langra
+103:59 what we are trying to do we are trying
+104:01 to create a different different
+104:02 functionality in terms of node okay and
+104:04 we are trying to connect those
+104:06 functionality to each other so in short
+104:09 what is the Lang graph Lang graph is
+104:10 nothing it's a orchestration framework
+104:13 where we can create a different
+104:14 different pattern different different
+104:16 custom pattern all right different
+104:18 different custom pattern using what
+104:20 using the function understood guys tell
+104:22 me yes or no
+104:24 is it getting clear to all of you what
+104:26 is the L gra so here I shown you the
+104:29 very basic here I shown you the very
+104:31 basic connectivity very basic a level of
+104:34 orchestration means how this function
+104:36 one is going to be connect to this
+104:38 function two without any sort of a
+104:39 relation we are just whatever input we
+104:41 are getting or whatever output we are
+104:43 getting from the function one we are
+104:44 directly passing to the function two
+104:46 okay and based on that we are going to
+104:47 generate answer but guys suppose over
+104:49 here if I want to implement this react
+104:51 agent okay so can I not code this
+104:54 functionality this thought of action
+104:57 observation in the form of different
+104:59 different function tell me yes or no I
+105:01 think we can do it we can create we can
+105:04 write a code related to this thought Rel
+105:06 to this action observation inside the
+105:09 different different function and we can
+105:10 connect to each other right so we can do
+105:14 orchestration of this each and every
+105:16 step and for this we are using the Lang
+105:20 graph so L graph is not a special thing
+105:22 it's not a very like unic or the very
+105:25 like rocket science kind of stuff it is
+105:28 a simple orchestration framework with
+105:31 that actually we are going to create a
+105:33 different a different agentic pattern
+105:35 and this gives us a lowlevel authority
+105:38 to us where I can customize the
+105:40 functionality where I can add as many as
+105:42 functionality we can do lots of things
+105:44 right so if you will go through with the
+105:46 Lang graph documentation and if you will
+105:48 read that uh you will get a more clarity
+105:51 so L graph is a library so just just
+105:53 read this particular line Lang graph is
+105:55 a library for building a stateful
+105:57 multiactor application with the llm so
+105:59 in the center what you will find out in
+106:01 the center actually you will find out
+106:03 the llm using that particular llm you
+106:06 are going to create an agent and the
+106:07 multi-agent multi-agent is not a again
+106:10 it's not a rocket science multi- agent
+106:12 means one single agent means you are
+106:15 going to create a like more than one
+106:18 functionality over there okay agent
+106:20 means uh basic agent with a simple
+106:23 functionality multi- agent means
+106:25 multiple functionality okay it's going
+106:27 to be a little complex in terms of
+106:29 coding and all because it is having a
+106:31 multiple functionality that's it okay
+106:34 now whenever we talk about this uh Lang
+106:36 graph why it is useful why it is popular
+106:39 because here we have cycle what is the
+106:42 meaning of cycle cycle is very very
+106:44 simple let's say you are going from
+106:46 function one to function two from node
+106:48 one to node two let's say if you want to
+106:49 go from node two to node one again can
+106:52 you do it
+106:53 it is very much required while we are
+106:55 going to create a different different
+106:56 pattern agentic pattern yes this is
+106:58 possible using the L graph guys and
+107:01 that's why guys L graph is uh very
+107:04 powerful and very useful okay you can
+107:07 create a cycle you can create a uh
+107:10 direct cyclic graph over here not a dag
+107:12 direct a cyclic graph here you can
+107:14 create a direct cyclic graph you can
+107:16 create a cycle between the function I I
+107:19 think you are able to understand it now
+107:22 controllability if if you have a like a
+107:24 low level if if if you can write a code
+107:27 from a scratch then you have a more
+107:28 controlability you have a persistent
+107:30 right it's a more robust lra allow to
+107:32 Define flow involves cycle essential for
+107:35 more agentic architecture differentiate
+107:37 it from the dag dag means what the dag
+107:40 actually we can only travel into the
+107:42 single Direction but here we can make as
+107:45 many as connection okay we can make a
+107:47 cyclic connection cyclic connection
+107:48 means what we are going in this
+107:50 particular direction and then then again
+107:52 we can move to move from this direction
+107:54 to this direction means whatever output
+107:56 let's say here what I have I have my LM
+107:59 okay I can give you very basic example
+108:01 inside the function one what we have we
+108:04 have a llm using this llm we are going
+108:06 to generate some output now this output
+108:08 we are passing to this function okay
+108:11 this function to where I'm simply I'm
+108:13 going to perform the uppercase now what
+108:16 I want to do after the upper case I
+108:18 again I want to refine the output using
+108:20 this llm so this this output this
+108:24 generated output again I can pass it to
+108:25 the
+108:26 llm getting my point and then again I
+108:29 can generate something from there and I
+108:31 can get my out so I can create a cycle I
+108:35 can create a cycle and that's a very
+108:36 robust feature of the lra okay you can
+108:40 go ahead and check out with this like
+108:42 documentation it is having many more
+108:44 things so today guys what I shown you I
+108:46 shown you the
+108:48 simple today I shown you the simple uh
+108:52 workflow like how basically we can
+108:54 create a workflow and what is the
+108:56 meaning of the agent assistant and all
+108:58 everything so what we are going to do
+108:59 here so first of all let me show you how
+109:01 basically I'll be getting the output if
+109:03 I'm passing something inside my invoke
+109:05 method so here is what here is my
+109:07 function one which is having Ln here is
+109:09 my function two which is having a simple
+109:11 functionality now I'm going to connect
+109:13 this two functionality over here so
+109:14 first of all guys let me create a notes
+109:16 so here is my node okay now I'll be
+109:19 creating my ages so inside the ages uh
+109:23 like from function one to function from
+109:27 function one to function two I'm going
+109:28 to make a connectivity so I have a
+109:29 function one and then I have this
+109:32 function two so I'm going to make a
+109:34 connectivity from this function one to
+109:35 function two so this is my age only
+109:38 right and let me do it this is fine now
+109:41 we have certain function as well I can
+109:44 introduce those as well so I can Define
+109:46 the entry point and the exit point so
+109:48 here I'm going to write the set entry
+109:49 point so my entry point is going to be
+109:51 Function One okay so here this is going
+109:56 to be my function one this one and my
+109:59 exit point is going to be what my exit
+110:01 point is going to be function two means
+110:03 my output entry means from where
+110:06 actually we are passing the input and
+110:07 exit means where actually I'm getting my
+110:09 output so input and output what I can do
+110:11 I can Define my exit Point as well so
+110:15 here here here guys what I can do I can
+110:18 Define my exit point so simply I need to
+110:20 write set finish Point set finish point
+110:24 this function actually you will get it
+110:25 once you will create object of it and
+110:28 here is what here is my function two so
+110:32 this function two actually is going to
+110:33 be my finished point because here I need
+110:36 to end my workflow as simple as that
+110:39 guys okay so see this is what this is my
+110:42 notes Here is the ages one first
+110:44 function is going to be connect to the
+110:46 next function here is my entry point
+110:48 here is my finish Point okay here I'm
+110:50 going to add my process now if I want to
+110:52 visual visualize this entire process so
+110:54 for that I simply need to compile it
+110:56 okay once I will compile it I can
+110:58 visualize my entire process okay so for
+111:01 visualization what is required I
+111:03 required this particular code right so
+111:06 my code name is what my code name is uh
+111:08 sorry my class name is what display
+111:10 which I'm going to import from the
+111:11 IPython okay so here is what here is my
+111:14 display now once I will get pass this
+111:16 app to this one so you will be able to
+111:18 find out this graph I'm starting then
+111:20 function one then function two and here
+111:22 I'm going to end the process right now
+111:24 let's say guys if I want to write any
+111:26 custom name to this function one so can
+111:28 I do it yes definitely I can do it I can
+111:31 write llm to this function one and here
+111:34 I can write what I can do guys I can
+111:36 write uh upper string okay upper string
+111:40 so this is my uh function two this is my
+111:42 function one and here is what uh okay
+111:45 just a second let me add this note you
+111:48 see it is fine and here is my ages this
+111:50 is my entry point this is my exit Point
+111:52 here is a compile and this is what this
+111:54 is my uh just a second let me do one
+111:58 thing let me run it from starting
+112:01 function one is fine this is clear this
+112:04 is clear okay this is fine work to clear
+112:07 okay great this is
+112:09 perfect and yes now
+112:13 perfect okay okay okay fine fine fine
+112:16 guys I'm doing one mistake sorry sorry
+112:17 sorry it's my bad uh it's my bad it's a
+112:22 name I need to pass the the name yes I
+112:23 got it now so here is my llm then up
+112:26 string and this is my entry point uh
+112:29 this is
+112:30 my entry point llm and here is my exit
+112:35 Point okay this is my exit point I think
+112:37 so now it will work fine sorry it was my
+112:41 mistake and here here here this is
+112:43 perfect this is
+112:45 perfect and yes now guys if I will show
+112:49 you see we have a custom name so what we
+112:52 are doing here we are passing input to
+112:54 this function llm function we are doing
+112:57 upper string okay we are converting to
+112:59 the upper string and then finally we are
+113:00 getting output now let's say if I want
+113:02 to go back to my llm okay so what I will
+113:05 do here I will add one more Edge okay
+113:08 here what I'll be doing from upper is to
+113:10 llm now let me add do with this thing so
+113:13 sorry from upper string to the llm I'll
+113:16 be adding one more Edge okay just a
+113:18 second it is just to Showcase you in the
+113:20 next class I'll be showing you the more
+113:22 function
+113:23 around to this thing so llm and this is
+113:26 fine so just a second let me again
+113:28 create object node is perfect this is
+113:30 fine now this is
+113:33 my oh set point I think this is perfect
+113:38 I don't need to do the Finish point this
+113:39 is not required over here or simply I
+113:43 can call this llm only so so so so just
+113:48 a second guys I think so it won't be
+113:51 required okay graph is here this is my
+113:55 two function and this is my edges okay
+113:59 sorry uh yeah this is my edges and here
+114:01 is my entry point llm is my entry point
+114:04 and now let me compile it and then let
+114:06 me show you so guys here you will find
+114:08 out see we have a start point we are
+114:11 passing an input to the llm we are going
+114:12 to the upper string now whatever thing
+114:14 we are going to generate from the upper
+114:16 string again we can pass it to the L
+114:18 getting my point yes or no so this type
+114:22 of loop you can create this type of
+114:24 pattern you can create which is very
+114:25 much required for creating the agents
+114:28 because agents is all about creating a
+114:31 pattern it is all about to give a power
+114:33 to the llm how llm can think in a
+114:36 multiple ways that's a meaning of agent
+114:40 okay I think you know about the agent u
+114:42 in the in our real life right so we have
+114:46 a agent like policy agent right we we
+114:48 generally purchase a policy from those
+114:50 agent so what there doing those agent
+114:53 actually they are contacting to the
+114:55 specific organization and behalf of the
+114:57 information okay whatever information
+114:59 they are collecting regarding those
+115:01 policy and all they are passing to us as
+115:03 output getting my point so this llm is a
+115:07 same this llm actually now working as a
+115:10 agent what they are doing they are
+115:12 connecting to some specific sources
+115:14 based on the given instruction they are
+115:16 collecting an information from there and
+115:18 they are giving you to back as a output
+115:20 and that's the meaning of agent right
+115:22 and we can create as much as complex
+115:25 pattern over here we can create a simple
+115:27 agentic pattern we can create a complex
+115:29 agentic pattern multi- agentic pattern
+115:31 and that's a simple fundamental thing so
+115:34 let me do one thing let me show you the
+115:36 final output here I'm not going to
+115:37 create this loop as of now let me remove
+115:39 it and I hope so guys you are enjoying
+115:42 this session so this is fine my graph is
+115:44 perfect here is my llm upper string and
+115:48 this is the edge here is my set entry
+115:50 point here is my set finish point there
+115:52 I'll will be getting the output now let
+115:55 me do one thing this is the wall this is
+115:59 the upper string so here is what here is
+116:02 my upper string okay perfect now let me
+116:06 compile it and see this is my workflow
+116:08 now whatever I will be passing to this
+116:10 invoke method I will be getting into the
+116:12 uppercase see guys I'm getting or not
+116:16 let me pass few more instruction so here
+116:19 I can pass the instruction hi can you
+116:24 give
+116:26 me a
+116:29 output of this sentence in
+116:33 Hindi so my uh sentence is going to be
+116:36 what my sentence going to
+116:38 be uh my name is s sa okay so this is my
+116:44 instruction which I'm passing okay so
+116:47 Hindi will not be required uh what I can
+116:50 do Hindi actually we we cannot convert
+116:53 into the upper case right it's logical
+116:56 question so okay let's change the
+116:58 question uh just a second hi can you
+117:02 tell me
+117:05 about about
+117:08 the
+117:11 first Prime
+117:14 Minister of India okay I just change the
+117:17 question though that question I will
+117:19 explain you the lat class okay I I had
+117:22 in my mind that's why I return but see
+117:25 this is the complete answer and it is an
+117:27 upper case so using Lang graph we are
+117:31 able to do our orchestration we are able
+117:33 to create a pattern okay and I hope so
+117:36 guys this fundamental thing is clear now
+117:37 in the next gra next class we'll try to
+117:39 understand about the state graph we'll
+117:41 try to create more complex pattern and
+117:43 uh different different pattern different
+117:44 different search paper I will try to
+117:45 show you right so tell me guys how was
+117:48 the session did you understand
+117:50 everything whatever I have explained you
+117:51 over here
+117:54 yes or no the session was worth or
+117:58 not you can do a kick start uh you can
+118:02 start your agent Journey from here you
+118:05 can understand about the agents and
+118:10 all why but why did llm give a
+118:13 nonrelevant answer because it is not
+118:16 having that
+118:18 information llm also is a mathematical
+118:20 model now which we are training on some
+118:23 data
+118:26 okay maybe we haven't trained on the
+118:28 recent data the latest data or maybe
+118:31 like we are asking some complex question
+118:33 it is not able to identify the context
+118:35 of it that could be the
+118:38 reason function for reasoning and
+118:41 instruction so nier in further more you
+118:43 can arrange a session how we can start F
+118:45 how to communicate with the Cent and yes
+118:48 there those thing I can do no I don't
+118:50 have any issue
+118:52 please show the code this is the
+118:58 code so did you like yes or
+119:04 no ask a different question give me the
+119:07 question I will ask that question
+119:08 whatever question you will pass to me I
+119:09 will write it over here it was a great
+119:13 it was worth uh thank you thank you guys
+119:17 without lra we can invoke the function
+119:19 program also right yes you can write
+119:21 your own logic but again this uh Lang
+119:24 graph as of now you are thinking it is
+119:26 not a useful but as our pattern
+119:29 functionality is going to be more
+119:30 complex you will understand it because
+119:33 uh in the agents we required many more
+119:36 thing for building agents so where you
+119:37 will get that you will get everything
+119:38 inside the Lenin documentation so do one
+119:41 thing just go through with this
+119:42 tutorials how to guide conceptual guide
+119:46 you will get that okay in the conceptual
+119:48 guide you will find out many more things
+119:50 tool calling memory planning right
+119:53 because whenever we are going to create
+119:54 a real time system we require a lot of
+119:57 things right uh it's not a simple
+120:00 process like this this is just to
+120:03 understand the flow but whenever we
+120:05 create a system in a real time we
+120:07 required lots and lots of thing lots and
+120:09 lots of uh like pattern functionality
+120:12 and all okay so using this L graph
+120:17 actually we can Implement those
+120:18 functionality like the parall execution
+120:21 recursion kind ofun functionality okay
+120:24 we can create a multi- Threading and
+120:26 all uh and uh this is the advanced
+120:28 functionality I would say but here you
+120:31 will find out the basic one as well if
+120:33 you want to quickly start your L graph
+120:34 you can go ahead with check with this
+120:35 code right and see chat Bots and all
+120:38 everything they have given you different
+120:40 different rag of pattern mean inside the
+120:42 rag also you can uh append the different
+120:44 different pattern what I will do I will
+120:46 explain you this agent take R I already
+120:47 uploaded one video on my YouTube channel
+120:49 Collective R you can go and check out
+120:51 right self r SQL agent also I will try
+120:53 to create see multi- agenting system
+120:55 like Network supervisor hierarchical
+120:57 planning agents so as many as functions
+121:02 we can create is it is up to you and me
+121:04 how we are using our brain uh for
+121:06 writing a code it is all about to
+121:08 writing a pattern to writing a code and
+121:11 to give a more power to the llm okay and
+121:14 that's the meaning of agent agent means
+121:16 which can bring something from somewhere
+121:18 and give you the reliable output that's
+121:21 the meaning of agent that's
+121:26 it yeah yeah we we'll discuss S as we
+121:29 progress now uh then you will understand
+121:34 okay you will be informed wherever we
+121:36 have a next session I just did it
+121:38 because I was having uh like I work with
+121:40 the agents I know agents and uh we will
+121:43 s you the next session soon you will get
+121:45 the notification so you can check out
+121:48 regularly with this live section or you
+121:51 can subscribe the channel you can press
+121:53 the Bell icon so you will get a
+121:55 notification
+121:57 okay so tell me guys do you enjoy this
+121:60 session do you love it if you love if
+122:02 you love it then give me a quick thumbs
+122:04 up so that we can end it
+122:11 peacefully what is the llm fine tuning
+122:14 in this context llm fine tuning is a
+122:15 retraining of the model on the required
+122:18 problem on the specific problem okay
+122:20 where we are going to retrain our
+122:21 weights and
+122:22 es pinu Yad got
+122:30 it you will get that P we will let you
+122:33 know when we have a next
+122:36 session so perfect uh in the next class
+122:40 we'll try to start from here itself and
+122:42 we'll let you know when we have a next
+122:44 session soon uh we'll talk about it uh
+122:46 so soon we'll in like announce that okay
+122:50 and uh until you can practice you can
+122:52 rewatch this session if you are beginner
+122:55 if you are a pro then you can wait for
+122:56 the upcoming session uh for the better
+122:59 application and all okay but guys please
+123:02 make a habit to explore something from
+123:03 your end as well because Mentor teacher
+123:07 can just give you the direction uh rest
+123:09 of rest of the thing rest 50% thing you
+123:12 have to do it from your end only so take
+123:14 a direction from the mentor understand
+123:17 the concept and then practice from your
+123:20 end because now you you are on you are
+123:23 on that stage where you can understand
+123:25 everything right you are not a kid you
+123:28 are not in the college we you required a
+123:31 proper handholding and all okay you are
+123:34 into the corporate you are into the job
+123:37 okay you are a mature guys right
+123:39 everyone whoever is attending this
+123:41 session so I would suggest to everyone
+123:43 please uh explore something from your
+123:46 end as well our guidance uh will be with
+123:49 you right we will let you know uh what
+123:53 is coming next and how we have to go
+123:55 through with that how we have to create
+123:56 an application what is the use of it in
+123:58 the industry because we are from the
+124:01 industry okay and we know about those
+124:04 things so fine thank you guys uh we'll
+124:07 meet you in the next session until thank
+124:08 you bye- bye take care uh have a great
+124:11 Daye good night if you haven't foll me
+124:13 on my LinkedIn you can check out with my
+124:15 LinkedIn you can check out with my
+124:16 YouTube as well until thank you bye-bye
+124:18 guys uh I will meet you in the next
+124:20 session and all the notes and all
+124:21 everything anything you will get inside
+124:23 the description of this video and I will
+124:25 share with the kis sir so he will give
+124:27 you the link inside the
+124:29 description
+124:31 okay
+124:37 okay okay thank you guys bye-bye take
+124:39 care

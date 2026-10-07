@@ -1,0 +1,577 @@
+00:01 hello all my name is Krish naak and
+00:03 welcome to my YouTube channel so guys as
+00:06 you all know that we are towards the end
+00:07 of 2024 uh there are some few more days
+00:10 to probably uh you know complete 2024
+00:13 and we are moving towards 2025 and if I
+00:17 talk about or give you a brief summary
+00:19 about this specific year with respect to
+00:21 the development of generative AI right
+00:22 in the field of generative AI we saw
+00:25 various llm models we saw Tech Giants
+00:27 competing between themselves to probably
+00:30 create the LM models in terms of uh you
+00:33 know applications in terms of content
+00:34 generation and many more uh we as a
+00:38 developer obviously we like we love to
+00:40 learn all those things so we also
+00:41 thought of using different different
+00:43 Frameworks and how we could probably
+00:45 integrate this kind of llm models and
+00:47 create some amazing custom chat Bots I
+00:49 think in this entire year we have
+00:51 specifically done this if I talk
+00:53 probably talk from the mid of this
+00:55 particular year there is something
+00:56 called as AI agents or agentic AI that
+00:59 have actually come you know uh companies
+01:01 have started talking more about multi-
+01:03 aai agents you know or we also say
+01:06 agentic AI you know so in this specific
+01:09 video uh I will be talking about what
+01:11 exactly agentic AI is because the reason
+01:13 of making this specific video is that
+01:15 what I feel uh now in this particular
+01:18 field of generative AI if I probably see
+01:20 in the upcoming years uh there are many
+01:23 many people who are going to work on
+01:24 this specific skill set that is agentic
+01:27 AI now what exactly is agentic AI how is
+01:30 is it different from generative AI I
+01:32 will be covering each and everything in
+01:34 this specific video along with this uh I
+01:37 will also be talking about which all
+01:39 Frameworks you can specifically use uh
+01:42 to probably create this agentic AI
+01:44 applications you know and uh if you
+01:46 probably see that while we go in 2025 I
+01:49 am going to probably cover many many
+01:51 many Frameworks and build amazing end to
+01:54 endend use cases with the help of
+01:55 agentic AI application and I'm also very
+01:58 near to launch my own mock interview
+02:00 platform initially we created that as a
+02:02 generative AI application now we also
+02:04 converting that into an agentic
+02:06 application now to understand all these
+02:09 things uh first of all let me just go
+02:10 ahead and share my screen and here uh in
+02:13 this particular video I will be making
+02:15 you understand about what exactly
+02:17 agentic AI is okay so uh till now
+02:20 whenever we used to probably talk about
+02:22 generative AI you know uh we used to
+02:24 probably say that hey we have some kind
+02:26 of models which will be able to help us
+02:29 create content
+02:32 right now here we are specifically using
+02:35 any kind of llm models right so let's
+02:38 say open a llm models or open source llm
+02:41 models Lama 3 different different llm
+02:43 models so if I probably consider these
+02:45 llm models our main task was that we
+02:48 used to query let's say a user is
+02:53 querying user used to put some kind of
+02:56 query and then what we used to do is
+02:59 that uh along with this llm model we
+03:01 also need to write a specific prompt
+03:03 like how this llm model needs to behave
+03:06 let's say I may probably say that hey
+03:08 you need to probably act like a author
+03:10 and you need to probably create a poem
+03:13 on this specific query whatever query we
+03:15 are trying to ask over here or the user
+03:17 is trying to ask and then based on this
+03:19 we used to specifically get some kind of
+03:22 output right so if we see in this
+03:26 particular flow the reason we used to
+03:28 say this as a generative AI because at
+03:30 at the end of the day it is creating or
+03:32 it is generating it is generating
+03:35 content right it is generating content
+03:39 and this is what is all about generative
+03:41 AI application you can probably finetune
+03:43 the prompt you can make this llm model
+03:45 behave in a better way you can probably
+03:47 create custom chat Bots uh we can modify
+03:50 this prompt we can uh we also say it as
+03:52 prompt finetuning you can probably make
+03:55 sure to write a right kind of prompt so
+03:57 that you will be able to get the right
+03:59 output but if I talk with respect to
+04:02 agentic AI application okay so agentic
+04:05 AI
+04:06 application now whenever we talk about
+04:08 agentic AI or let's talk about this
+04:12 agentic AI these are nothing but these
+04:14 are
+04:15 autonomous
+04:17 autonomous AI
+04:20 system okay autonomous AI system now
+04:23 let's say uh when we were specifically
+04:27 talking with respect to generative AI
+04:28 application there were also some
+04:30 applications that we used right like
+04:32 let's say rag right rag rag application
+04:35 I hope everybody has heard about it now
+04:38 what rag application basically does is
+04:40 that you know these llm models uh are
+04:43 not currently trained with the recent
+04:45 data you know it is regularly trained
+04:48 every 6 months every 8 months every year
+04:50 right but when I probably say today what
+04:52 we have this recent data in the internet
+04:55 it has not been trained with that you
+04:56 know if I probably ask any llm model hey
+04:59 what is the current news that I have
+05:01 right can you probably talk about the
+05:02 top AI news five top AI news then this
+05:05 llm model will not be able to answer it
+05:08 so what happens is that whenever a user
+05:10 try to query you know this llm model
+05:12 needs to also have access to something
+05:15 like an external external tool okay or
+05:19 external Source I can probably say this
+05:21 as external
+05:23 Source right now right now this
+05:27 particular exis is not there so what we
+05:29 do is that if you probably use some
+05:31 Frameworks like Lang chain and all we
+05:33 have something called as tools right one
+05:35 of the tool can be Doug dug go search I
+05:38 hope everybody has heard about this this
+05:40 basically helps you to do the Google
+05:43 search or uh do the search uh with
+05:46 respect to the recent news that are
+05:48 there in the internet okay you also have
+05:50 some other tools like let's say I want
+05:52 to specifically use uh Wikipedia search
+05:55 right so I can have Wikipedia tool for
+05:58 this and langin probably every tool is
+06:00 basically created if you also want to
+06:02 probably explore some other tool like RF
+06:05 so that is also available so Lang chain
+06:07 what it did is that it came up with this
+06:10 kind of various tools which you can
+06:11 probably integrate along with the llm
+06:14 applications to generate some kind of
+06:15 content okay but see you may be thinking
+06:19 if this external tools are there why
+06:21 can't we probably create autonomous AI
+06:24 system that can be able to perform this
+06:25 their own task now see guys over here
+06:28 when I I talk about autonomous AI system
+06:31 you know with respect to agent AI there
+06:33 is a specific goal to achieve right and
+06:37 while achieving this particular goal
+06:38 this all AI system will be working
+06:41 independently without any human
+06:44 intervention okay to achieve this
+06:46 specific goal okay now in this
+06:48 particular case if let's say that I
+06:50 require one tool so I may integrate if I
+06:52 require another tool that may also get
+06:54 integrated if I may uh probably use one
+06:57 more tool it may also get integrated
+06:59 right so those kind of tools you can
+07:01 manually integrate it if you have also
+07:03 used Lang graph okay Lang graph is one
+07:07 amazing uh module that has been coming
+07:09 by Lang chain you know and here also you
+07:11 can probably create agentic AI
+07:12 applications right uh this is also one
+07:15 of the Frameworks that you can
+07:16 specifically use but I hope you're
+07:18 understanding what is the basic
+07:20 difference between generative Ai and
+07:21 agentic AI in generative AI the main aim
+07:24 is just to create the content right if
+07:27 you are trying to make this applic ation
+07:31 uh have access to an external Source
+07:34 right here the workflow becomes quite
+07:37 complex because I have to keep on adding
+07:39 one or the other tool one or the other
+07:41 tool and there is no such end goal over
+07:43 here the main aim of this llm models is
+07:45 just to create content now similarly
+07:48 what we have actually done this agentic
+07:50 AI that is basically coming recently
+07:52 right it is really becoming popular many
+07:54 cosos are actually talking about it uh
+07:56 even Microsoft coo has said that hey
+07:58 this is probably going to replace the
+08:02 SAS products you know and it is it may
+08:04 be true guys because the application is
+08:06 quite amazing so as I said when compared
+08:09 to generative AI where the main name is
+08:11 not to probably create content as the
+08:14 goal here the goal will be based on the
+08:17 business outcome that you really want to
+08:19 do right business outcome business
+08:22 outcome and the best thing will be that
+08:25 this autonomous AI agents can have a
+08:28 very complex
+08:30 workflow very complex workflow right and
+08:36 this complex workflow will get executed
+08:39 independently to achieve this goal right
+08:44 and parall as this task is being
+08:46 probably completed right if it is
+08:48 getting completed this autonomous AI
+08:51 system can also fine tune themselves to
+08:55 perform much more better to perform much
+08:60 more better and this was not there in
+09:02 generative AI applications right so that
+09:05 is the reason there are so many
+09:06 Frameworks that are coming there's some
+09:07 Frameworks like Lang Lang graph there is
+09:10 framework like langlow there is a
+09:11 framework like fi data I'll also show
+09:14 you one amazing end to end examples
+09:16 which I have probably implemented for
+09:17 you okay now this is with respect to the
+09:20 agentic AI right now let me talk about
+09:22 some of the examples so that you get a
+09:24 complete idea like how this autonomous
+09:25 AI system works let's say that my task
+09:27 is probably to create
+09:30 a custom bot okay custom bot and this
+09:34 bot has uh this bot is nothing but it is
+09:38 an agentic AI application okay agentic
+09:41 AI application which probably interacts
+09:45 with many many things okay let's say my
+09:48 main goal is that this custom bot main
+09:51 goal is that whenever I ask any
+09:54 query I ask any query let's say that I
+09:57 ask this bot related something related
+09:59 to finance I'll say that hey I have
+10:03 $1,000 okay I want to probably buy some
+10:07 stocks buy some stocks and let's say
+10:10 that this is this particular stocks I
+10:13 want to sell it in 5 days sell in 5 days
+10:17 and I want a minimal profit of 50% let's
+10:20 say I'm just putting some context this
+10:23 is my goal that I really want to do I
+10:25 have probably kept a goal right now as
+10:28 soon as I do this
+10:30 now what this custom bot is basically
+10:32 going to do which is like an agentic AI
+10:35 this is going to create a complex
+10:38 workflow now the workflow let's say we
+10:40 have created a workflow this should be
+10:42 dependent on your uh Finance news let's
+10:45 say for finance news we can use YT YT
+10:49 Finance right so YT Finance
+10:51 functionality is also there YT Finance
+10:54 actually helps you to get all the stock
+10:56 details how the performance is like all
+10:58 the information that is probably there
+10:60 in the website right and this custom bot
+11:03 is just like an llm model this llm model
+11:05 can take this particular information and
+11:08 start working on it now along with this
+11:10 I may also require some other
+11:11 information what is the recent current
+11:14 news recent current news right so recent
+11:18 current news also so this referral
+11:21 should also be going now my workflow
+11:22 will look something like this first it
+11:24 goes and picks up all the detail related
+11:26 to finance news let's say that uh I just
+11:29 written by buy some stocks sell it in 5
+11:31 days get a 50% or let's say my query is
+11:34 that hey just let me know how is this
+11:36 Tesla stock okay how is this Tesla stock
+11:39 let's say uh I have something like uh
+11:42 okay I want to probably check what is
+11:44 this Tesla stock let me just uh change
+11:47 my pen okay okay perfect so let's say
+11:51 that I have a stock I want to probably
+11:53 compare and say that hey compare between
+11:56 Tesla and Nvidia and suggest me which
+11:59 one should I bu right so this if this is
+12:02 my question to my custom bot or to this
+12:05 agent AI application so the workflow
+12:07 will get started so my workflow will
+12:08 probably be in such a way that first of
+12:10 all I will go ahead and refer YT Finance
+12:13 okay I'll get the information about both
+12:14 the stock I will probably Compare the
+12:16 numbers the llm model will already
+12:18 Compare the numbers and I'll provide the
+12:19 information over there then my next flow
+12:21 will be that hey just go and see the
+12:23 current news like which what is a
+12:25 positive news what is a positive
+12:26 sentiment news that are probably there
+12:28 so I may probably go and see the top
+12:30 recent news right after this I may
+12:32 probably say that hey what kind of
+12:34 recent development is specifically
+12:36 happening right so this will also refer
+12:38 to some other news API right which is
+12:40 just acting like a tool right so this
+12:44 when I'm saying this is a tool this is
+12:45 basically an agentic AI application it
+12:48 is an autonomous AI Auto autonomous AI
+12:52 so this is a separate AI agent this is a
+12:54 separate AI agent this is a separate AI
+12:55 agent now this all executing together
+12:58 each and every task is basically handled
+13:01 by a separate autonomous AI agent right
+13:05 and they are working together they are
+13:07 executing this in a workflow right and
+13:09 finally after interacting with this you
+13:11 may get an output right you may get an
+13:14 output or the kind of suggestion that
+13:16 you probably looking for because what
+13:17 kind of question have you asked hey
+13:19 should I probably I I'll just say that
+13:21 hey go ahead and compare Tesla versus
+13:23 Nvidia stock and tell me which one
+13:24 should I buy so after doing all this
+13:27 after executing this entire workflow we
+13:29 will be getting a very good summary
+13:31 saying that hey what you really need to
+13:33 buy right this was not possible with the
+13:35 help of generative AI application
+13:37 because here the main aim is just to
+13:39 create content but if I talk about
+13:41 agentic AI application this has become
+13:43 much more smarter it is working
+13:45 autonomously and you can create any kind
+13:48 of complex workflow let's say you want
+13:50 to integrate multiple tools you want to
+13:52 integrate multiple AI autonomous agents
+13:55 you are able to do it and that is what
+13:57 is all about AI agents or agentic a
+13:60 right now what I am actually going to
+14:02 show you is that what all Frameworks you
+14:05 can specifically use and what I feel
+14:08 that in the upcoming years this
+14:09 Frameworks will be quite amazing because
+14:12 uh if I talk about I built my first
+14:14 agentic AI application 6 months back and
+14:17 now more and more amazing Frameworks are
+14:19 specifically coming up now these all
+14:21 Frameworks are open source and I'll also
+14:23 show you one end to endend example as we
+14:25 go ahead so let's go ahead and let's
+14:26 discuss about different different
+14:28 Frameworks but I hope you got an amazing
+14:30 example to to find out the differences
+14:32 between generative Ai and agentic AI
+14:35 right so guys now let us go ahead and
+14:37 probably discuss about some of the
+14:39 amazing Frameworks that are right now in
+14:41 there in the market which will actually
+14:42 help you to build about agent TK
+14:44 application once we specifically discuss
+14:46 about this I'm also going to show you
+14:47 one amazing end to end uh example where
+14:50 I've actually created a financial
+14:51 analyst which will actually help you to
+14:53 decide which stocks you can currently
+14:55 buy based on the recent information that
+14:59 we have have related to that particular
+15:00 stock price okay so here is one of the
+15:03 amazing framework which is called as F
+15:05 data now in that in this F data you will
+15:07 be able to create different different
+15:09 agents like legal agent financial
+15:11 analysis construction analyst marketing
+15:13 agent and these are like uh agentic AI
+15:16 application you can execute them in a
+15:18 specific workflow uh right now this is
+15:21 really really open source and uh here
+15:23 many many people are many many companies
+15:25 are specifically using it our end to end
+15:28 examples what we are basically going to
+15:29 do is that we going to use this and
+15:31 probably create that okay now uh you the
+15:34 best thing about this is that you will
+15:36 be able to integrate with any llm models
+15:38 that you specifically want from grock to
+15:40 Google Gemini to anthropic to cloudy to
+15:43 AWS to openi to Mistral anything that
+15:46 you specifically want okay then along
+15:49 with this you can also add any number of
+15:52 tools that you want right so it enable
+15:54 agents to integrates and interact with
+15:56 external system right so the autonomous
+15:58 AI system as said right hey let's
+16:00 probably if I ask hey which stock should
+16:02 I buy between Tesla or this I will
+16:04 probably go ahead and create an AI agent
+16:06 that AI agent will start uh you know
+16:08 communicating with the external uh apis
+16:11 News Channel or anything that you want
+16:13 right even you have options to integrate
+16:16 with payment Gateway and all right so
+16:18 that is the most amazing thing and is
+16:19 pretty much simple once I probably show
+16:21 you you can definitely have a look okay
+16:23 the next common and the famous uh um you
+16:27 know product or agentic AI framework
+16:29 work is nothing but Microsoft autogen
+16:32 right so this autogen is also coming
+16:34 like recently it is in the Talk of the
+16:36 Town and it it is again open source and
+16:39 it basically helps you to create a
+16:41 framework for agentic AI application
+16:43 along with this some more Frameworks
+16:45 that you can probably explore is
+16:46 something called as langlow now Lang
+16:48 flow I've already uploaded some videos
+16:50 in my channel this is a complete no code
+16:53 tool probably to develop your agentic AI
+16:56 applications which uh where you can also
+16:58 design complex workflows so uh yes you
+17:02 can probably do this and this is more
+17:03 like a drag and drop automatically your
+17:05 code your endpoint code will also be
+17:08 provided and you should also be able to
+17:10 deploy this in an amazing way so this is
+17:11 just one example here you can see uh
+17:14 user is probably creating an agent this
+17:17 agent is probably doing some kind of
+17:18 research uh the research is basically
+17:20 done based on the content research uh
+17:23 here you have different different API
+17:24 integration you can also go ahead and
+17:26 use your own prompting and many more so
+17:28 just to show you example let's say that
+17:30 I've created this simple agent over here
+17:32 and this is my entire uh you know
+17:35 workflow here you can see that I've I've
+17:37 used multiple agents URL calculator chat
+17:40 input dugdug go search and here I've
+17:42 used an agent with open Ai and finally
+17:45 I'm able to get the output once you
+17:47 probably create this you can also get
+17:49 your endtoend code over here so you just
+17:51 need to probably get your python API
+17:53 JavaScript API or python code whatever
+17:55 you like and you can integrate it and
+17:57 you can probably uh take it to that that
+17:59 entire Next Level okay then uh you have
+18:02 also one more amazing uh framework that
+18:05 is called as Lang graph and with respect
+18:08 to Lang graph here also you can create
+18:09 complex workflows uh if I consider Lang
+18:12 graph more complex workflows you can
+18:13 specifically create if I talk about data
+18:15 stack slang flow here you able to create
+18:17 complex workflow you can you can also
+18:19 use multiple agents as of your
+18:21 requirement multiple models multiple
+18:24 data preprocessing techniques multiple
+18:26 prompt techniques and all um here you
+18:28 can use Amazon Bedrock anthropic open AI
+18:31 cair Google generative AI Gro anything
+18:33 that you specifically want uh right now
+18:35 this is probably my favorite because
+18:37 with the help of this I'm able to create
+18:39 an application much more easier but yes
+18:42 my next year plan is to probably cover
+18:43 all this kind of amazing tools and
+18:46 develop some amazing end to end agent
+18:49 applications now let's go ahead and
+18:51 probably see one example I'll be using F
+18:53 data and I'll show you that how you can
+18:56 probably go ahead and create your own
+18:58 agent application
+18:60 so guys so here is one amazing endtoend
+19:02 agentic AI application uh where I'm
+19:06 specifically using open AI API key F API
+19:08 key here my main name is that I've
+19:10 created an agent which is called as web
+19:12 search agent and this main work is
+19:14 basically to interact with external
+19:17 thirdparty sources with respect to the
+19:19 recent news that we have so here you can
+19:21 see dougd Source search it is basically
+19:23 using the model it is using is open AI
+19:25 chat this is my web search agent along
+19:27 with that I also have a financial agent
+19:29 which is interacting with the Y Finance
+19:31 tool to get the stock market prices
+19:33 details and all and uh we can combine
+19:36 both the specific agent to probably
+19:38 create my entire playground where I will
+19:41 be able to create it in as a custom
+19:42 chatbot okay so here uh one amazing
+19:45 thing is that first of all we are
+19:47 creating an agent and inside that agent
+19:49 we can have any number of tools and
+19:50 model integration similarly over here
+19:52 this is my financial agent but
+19:55 internally you'll be able to see that it
+19:56 is interacting with tools like why
+19:58 Finance tool and it is using a model
+19:60 like open AI chat right and similarly we
+20:02 can probably use different different
+20:04 combination now this kind of projects I
+20:06 will also be coming up uh probably
+20:09 implementing everything from scratch but
+20:11 here I actually used this F data now
+20:13 this is running uh and here uh let's go
+20:15 ahead and probably check this in my um f
+20:19 data once you need to probably log in
+20:21 you'll be able to check it out in in the
+20:23 form of demo over
+20:25 here so guys now I am inside this
+20:27 particular playground of data. app all
+20:30 you have to do is probably login and
+20:31 right now you can also see that my code
+20:33 is running over here all I have to do is
+20:35 that I have to probably connect to an
+20:37 endpoint so the current my endpoint is
+20:39 basically running in Local Host uh 777
+20:42 okay and uh here you'll I'll just see
+20:45 that I'll just go ahead and ask hey what
+20:46 is your special skill okay and uh here
+20:50 you can probably see my answer right
+20:52 whether you need financial analysis St a
+20:54 recommendation or anything you'll be
+20:56 there to help right so now let's go
+20:57 ahead and ask some more questions uh
+20:59 I'll say hey can you
+21:02 provide
+21:03 me uh can you suggest me which stock to
+21:11 buy um is it
+21:15 between Tesla and Nvidia okay so let's
+21:20 say that this is my question okay and
+21:24 now here you can see that entire things
+21:25 are basically running yeah so I'm able
+21:28 to get the answer see over here Nvidia
+21:30 so and so this is the price overall hold
+21:33 based on the data analyze strong
+21:35 Contender Manus uh Nvidia shows strong
+21:38 buy Tesla also shows strong buy but the
+21:41 number is 12 or six buy 48 hold 4 so it
+21:45 appears to be a stronger Contender with
+21:47 an un strong buy recommendation this so
+21:50 here what is basically happening is that
+21:52 internally agents is basically getting
+21:54 called all the information from the
+21:55 stocks is basically getting up over here
+21:58 let's say that if I want to probably go
+21:59 ahead and click on this I will also be
+22:01 able to get maximum information as we
+22:03 can so it is probably taking all this
+22:04 information and based on that it is
+22:06 making this kind of decision so why we
+22:09 say this as agentic AI because
+22:11 internally all these agents has been
+22:13 calling this is basically interacting
+22:15 with this kind of uh uh external tools
+22:18 it is working in the form of a workflow
+22:20 right so I hope you like this particular
+22:22 video as we go ahead I've also created
+22:25 this kind of projects it'll be coming in
+22:26 my YouTube channel how you can probably
+22:28 go ahead and start from Basics so yeah
+22:30 this was it from my side I hope you like
+22:31 this particular video I'll see you in
+22:33 the next video itself thank you have a
+22:35 great day

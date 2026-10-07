@@ -1,0 +1,688 @@
+00:00 hello all my name is krishn and welcome
+00:03 to my YouTube channel so guys if you
+00:05 remember uh some few days back I had
+00:07 actually started a series on agentic AI
+00:10 and there I showed you how to create AI
+00:13 agents using fi data platform okay now
+00:15 this F data platform has become agno so
+00:19 in this specific video I will be
+00:21 showcasing you many things uh first of
+00:23 all the major announcement is that now F
+00:25 data will not be there that basically
+00:27 means if you just go ahead and hit F
+00:29 data right five dat . then it goes to
+00:32 ago.com right so the branding name has
+00:34 been changed um and the second thing is
+00:37 that in this video I will try to show
+00:39 you how easily we can go ahead and
+00:41 create AI agents multi- AI agents and
+00:43 along with that we can perform even
+00:45 complex workflows uh not only that we'll
+00:48 also try to create an end to-end project
+00:50 with the help of streamlet so this is
+00:51 just going to be a little bit longer
+00:53 video and I will show you each and
+00:55 everything as we go ahead okay now uh if
+00:58 you don't know about agno right now with
+01:00 the help of this you will be able to
+01:02 create agents and all not only that if I
+01:05 just go ahead and search for agno over
+01:07 here okay so agno right now the first
+01:11 page that is basically seen is the
+01:12 GitHub page okay now inside this GitHub
+01:15 page you will be able to see that there
+01:17 is something called as documentation but
+01:19 the most important thing is that why
+01:21 should you use agno when langra and all
+01:24 the other tools are specifically there
+01:26 one of the major reason if I probably
+01:29 talk about is the performance right so
+01:32 what they the founders of agno is
+01:34 basically claiming that they are
+01:36 obsessed with performance uh here you
+01:39 can probably see even simple AI workflow
+01:42 can spawn thousands of agents to achieve
+01:45 goals scal that to a modest number of
+01:47 users and performance becomes a
+01:49 bottleneck agno is designed to power
+01:51 high performance agentic AI systems
+01:54 agentic initiations like this much time
+01:56 it is basically taking up and all so the
+01:58 major aim over here of this specific
+02:00 platform is with respect to speed speed
+02:03 in creating the number of Agents right
+02:05 how quickly it'll be able to create the
+02:07 agent so here you can see agno is
+02:09 designed to be simple fast and model
+02:11 agnostic here are some key features
+02:13 agent creation is 10,000 faster than
+02:16 langra um yes I have definitely used
+02:19 langra so I know how the agents is
+02:22 basically created over there okay and
+02:24 soon don't worry because I will be
+02:26 coming up with the entire langra series
+02:28 uh I'm traveling uh to Nvidia
+02:31 conferences right now so I'll be busy
+02:32 for another 10 days but after that I
+02:35 will be coming and implementing and
+02:37 showcasing the entire L graph series for
+02:39 you okay so we'll start completely from
+02:41 Basics not only that here you can see
+02:43 model agonistic using any model any
+02:46 provider no lock in so it has access to
+02:48 probably every kind of models so it it
+02:50 supposed that along with this memory
+02:53 management is quite more easy there is
+02:54 something called as knowledge store for
+02:56 an external database or rag anything
+02:59 that you really want to implement and
+03:00 there is also structured outputs okay so
+03:02 all these things are there monitoring is
+03:04 also there right so what we will do is
+03:06 that we'll just go ahead and try to use
+03:07 this and showcase multiple examples now
+03:10 many people have specifically asked me
+03:12 Kish what are the prerequisites that we
+03:15 should learn in order to get into
+03:17 agentic AI that is the reason I have
+03:20 come up with this amazing course become
+03:22 a data science and Gen Master
+03:24 comprehensive online data science course
+03:27 so whatever prerequisite is specifically
+03:29 required we are launching a live batch
+03:32 on this and it starts from March 22nd
+03:35 2025 okay so this is what we are
+03:37 basically starting and here we are going
+03:38 to discuss about each and everything so
+03:40 if you just go ahead and click on enroll
+03:42 now here you should be able to see the
+03:44 detailed syllabus so here is the course
+03:46 syllabus over here and you should be
+03:48 able to see the detailed syllabus
+03:50 ultimate data science and gen boot camp
+03:52 uh here you will be able to see from
+03:54 python so many mentors are basically
+03:56 there uh you have machine learning deep
+03:58 learning computer vision NLP everything
+04:01 we are basically covering up and this is
+04:03 just one type of batch that is coming
+04:04 for the entire year okay uh after that
+04:06 we are not going to launch this specific
+04:08 back last 150 seats are left so just go
+04:11 ahead all the information will be given
+04:12 in the description of this particular
+04:14 video now let's go ahead and build some
+04:17 amazing application with the help of
+04:18 this okay so first of all what I'm
+04:20 actually going to do is that I've opened
+04:21 a workspace quickly the first thing is
+04:23 that I am just going to go ahead and
+04:25 create my terminal so let me just go to
+04:26 my command prompt now see uh in working
+04:29 in gentic AI applications or langra or
+04:32 anything right python is super important
+04:34 if you know python well and good okay
+04:36 I'm telling you python is the most
+04:38 important thing so like how I'm able to
+04:40 create the environment and all that all
+04:41 things we'll discuss so first of all we
+04:43 will just go ahead and create the
+04:44 environment cond create minus P vnb
+04:47 python equal to 3.12 I will take the uh
+04:51 python version 3.12 to work with so here
+04:53 you can see the installation of this
+04:55 particular libraries the default
+04:56 libraries will start then along with
+04:58 that I will start making my
+04:60 requirements.txt now in requirements.txt
+05:03 what I'm actually going to do is that
+05:05 I'm going to put some of the libraries
+05:07 you know the first library that I will
+05:09 require is agno let's say I want to go
+05:11 ahead and use open aai or you want to
+05:13 probably go ahead and use uh python. EnV
+05:18 okay uh and let's say that you also want
+05:20 to use some external uh internet search
+05:23 things right so I will for this I will
+05:25 be using dugdug go search Okay dug du go
+05:28 search so it supports almost everything
+05:30 you know and uh uh let's say that I also
+05:33 want to create a rag application so for
+05:35 that I will just go ahead and write one
+05:36 p PDF uh we are going to use one vector
+05:39 database which is called as Lang DB okay
+05:41 along with this since we are going to do
+05:43 this with streamlit we are going to use
+05:44 this I will just go ahead and write
+05:46 pandas one more library that I'm
+05:48 actually going to use is something
+05:49 called a St TV I'll talk about it when
+05:51 we go ahead and then I will go ahead and
+05:53 use wi Finance this is just for creating
+05:55 a finance analytics okay so everything
+05:58 uh we are trying to install okay so here
+05:60 a single agent I'll try to first of all
+06:01 show you then we'll try to create
+06:03 multiple agents and we'll play with
+06:05 agent memory we'll do multiple things
+06:07 and all as we go ahead okay so quickly
+06:09 let's me create a folder over here so
+06:12 folder this is my basic agents just let
+06:15 me know if you want a detailed course on
+06:17 this I mean free course on this I will
+06:19 be happy to create this okay I'll create
+06:21 a playlist for this also okay so I will
+06:24 just go ahead and rename it again the
+06:27 target likes Target limit is at least 2,
+06:30 guys come on do this okay so now I will
+06:32 just go ahead and write cond activate
+06:35 VNV since I need to do the installation
+06:38 and then I will just go ahead and do all
+06:39 the installation over here pip install
+06:43 minus r requirement. txt okay first of
+06:47 all I will try to go ahead and create
+06:49 one simple application and then with the
+06:51 help of that you should be able to see
+06:52 it let's see is the name requirement.
+06:56 txt or not requirements.txt let's see
+06:59 what is error no such file file okay
+07:01 pandas pandas pandas spelling mistake no
+07:05 worries I'll keep this error so that you
+07:08 should be able to see that if you're
+07:09 getting this particular error don't
+07:11 write anything in the comment section
+07:12 but at least try to solve it okay that
+07:15 is the most important thing I've seen
+07:16 many people after seeing the error they
+07:18 are like pissed off you know oh error
+07:20 came hey we are not able to fix it that
+07:22 is the reason prerequisits are really
+07:24 important okay and here you can see all
+07:27 the libraries are basically getting
+07:28 downloaded now what I will do inside
+07:30 this I will start writing my code so
+07:32 this will basically be
+07:34 my uh simple agents. py okay and I'll
+07:39 show you how you can go ahead and create
+07:40 your agents okay so once this is done
+07:44 now I will just go ahead and start
+07:46 writing the code now in this example
+07:48 what I'm actually going to do is that
+07:49 first of all uh one more thing I can
+07:52 also go ahead and write myv file I can
+07:54 create my EnV file and inside this EnV
+07:57 file I will try to upload two keys okay
+08:01 one is the open API key and one is the
+08:03 grock API key okay so for openi API key
+08:07 and the grock API key I'll will just go
+08:08 ahead and copy and paste it I hope
+08:10 everybody knows it how to create it and
+08:12 the second key that I'm actually going
+08:13 to use is grock okay
+08:16 so grock
+08:19 uh let
+08:23 me grock API key okay so this is done
+08:26 grock API key and open API key I will be
+08:28 using this two keys the reason is that I
+08:31 can use any of them for my uh llm models
+08:35 which will be responsible in executing
+08:37 or you can just say that the agent's
+08:39 brain right will basically be derived
+08:41 from this particular LMS okay now first
+08:43 of all uh as I said I'm just going to go
+08:45 ahead and create a normal basic agent so
+08:48 how do I do that so first of all I will
+08:49 go ahead and write from agno
+08:52 dot agent let's see whether this
+08:54 installation has happened or not that is
+08:56 the reason I'm not giving I'm not
+08:58 getting any uh you know over here uh
+09:01 like all the suggestions is basically
+09:03 off since this particular libraries are
+09:05 basically getting installed so let's
+09:07 wait for some time and see once this
+09:09 gets installed I think we are good to go
+09:12 uh it's taking some amount of time but I
+09:14 think it should be
+09:16 completed uh let's wait let's wait okay
+09:19 now it's done so I will quickly remove
+09:22 this from
+09:25 agno agno okay let me do one thing let
+09:28 me just reload this so I will close this
+09:31 I will write from agno still but it's
+09:36 not coming okay uh no
+09:42 worries I will create a file simple
+09:45 agents. py okay now let me write from
+09:49 agno but it's okay if it is not coming
+09:51 also let's see whether uh there's a
+09:54 problem with our errors or what it
+09:57 should be loading right okay okay the
+10:00 problem is that it is not selecting the
+10:02 correct environment variable okay now it
+10:04 should work from agno perfect do agent
+10:09 see all the most important thing and by
+10:11 using this kind of Frameworks over here
+10:13 they don't focus on the entire workflow
+10:15 but here they say that hey you just go
+10:17 ahead and create your independent agents
+10:19 give them the kind of task that you
+10:21 really want to do integrate with the
+10:22 specific model if they really want any
+10:25 kind of vector database just go ahead
+10:26 and integrate it over there and directly
+10:28 go ahead and run it so so that is the
+10:30 main fundamental behind agno and that is
+10:32 the reason you are able to quickly
+10:35 create applications over here not only
+10:37 that uh over here the best part about
+10:39 agno is that it is being integrated
+10:41 directly with those kind of libraries
+10:43 they're using the core libraries itself
+10:45 so it is not a wrapper on top of
+10:46 something okay so here uh from ago.
+10:49 agent we are just going to go ahead and
+10:50 import my Capital agent okay uh Capital
+10:55 agent okay so once this is
+10:58 done then I will just go ahead and
+11:00 import my models so I will write from
+11:02 agno do models uh
+11:06 openai okay do open AI
+11:11 import open AI
+11:14 chat open AI chat let's see for uh I'll
+11:18 just go ahead and check the
+11:19 documentation for a Gro how do we use it
+11:23 so here you'll be able to see that there
+11:24 will be something called as models and
+11:26 inside this models you have something
+11:28 like Gro for grock you require the grock
+11:30 API key but other than this I think you
+11:32 should be able to import it so let me go
+11:35 back over here and let's see whether we
+11:37 are able to import this or not yes we
+11:39 are able to import it okay
+11:41 then along with this I will also go
+11:43 ahead and write from agno do tools since
+11:46 I'm going to use some tools over here
+11:48 I'll just go ahead and write dugdug go
+11:51 import dugdug go tools okay so this dug
+11:55 du go is nothing but it is for an
+11:56 external internet search okay so here
+11:58 you don't even have to create the API
+11:60 and all okay so that will be the most
+12:01 amazing thing over here along with this
+12:03 I will just go ahead and import OS
+12:05 always remember whichever llm models you
+12:08 are planning to specifically use make
+12:10 sure to load the environment variable
+12:12 for that okay so from
+12:14 Dov import load. EnV then load. EnV here
+12:21 you will be able to create os.
+12:24 environment and here I'm just going to
+12:27 go ahead and create my open API key
+12:30 which I am initializing from os. get EnV
+12:36 and here I should be able to write my
+12:39 open aore API ke okay so once this is
+12:43 done uh the next thing is that I will
+12:45 also go ahead and use my grock API key
+12:47 so quickly paste it over here instead of
+12:50 open AI I will just go ahead and write
+12:53 grock and I will just go ahead and copy
+12:55 this okay so grock and this is done now
+12:59 it's time that you start creating the
+13:00 agent so for creating the agent all you
+13:02 have to write is that agent is equal to
+13:05 agent and here the first parameter is
+13:07 nothing but model okay so here you have
+13:09 to specify the model the model that you
+13:11 specifically going to use is opening a
+13:12 chat okay if you want to use grock use
+13:14 grock okay let's say that I want to just
+13:16 go ahead and use grock okay now inside
+13:18 this grock I will just go ahead and
+13:22 let's
+13:23 see is there an ID ID is equal to
+13:26 whatever model you want to call you can
+13:28 call okay so for model I will just go to
+13:32 console. grock do.
+13:35 gro.com
+13:38 uh will go over here uh I will sign it
+13:42 with my Google so Gro actually provides
+13:45 you some free um apis for open source
+13:49 models okay so I I'm heavily using Gro
+13:51 you know for most of my task but for
+13:54 Building Products we cannot depend we
+13:56 have to probably take the uh credits
+13:58 from them and even probably you know uh
+14:02 work with different different models so
+14:03 I'll take quen 2.5 32 billion so let's
+14:06 see whether this will work or not quen
+14:11 2532 billion okay so I'm I'm basically
+14:14 going to take this specific model okay
+14:16 so this is my first parameter with
+14:17 respect to the model the next thing is
+14:19 that description okay I can provide my
+14:21 description I can say hey uh you are an
+14:26 assistant okay uh you are an assistant
+14:29 please
+14:31 apply based on the questions okay so
+14:35 this is done then this is my second
+14:37 parameter in the third parameter if you
+14:38 see over here you can see everything
+14:39 right model description is also there
+14:42 session name is also there right but
+14:44 here I will just go ahead and show you
+14:45 one more basic tools which is called as
+14:47 tools right and here I will just go
+14:49 ahead and initialize this dougd go okay
+14:52 now the next thing will be that I will
+14:53 try to display whatever output it
+14:55 displays right in the form of markdown
+14:57 so I'll just go ahead and cre keep it as
+14:59 markdown down is equal to True okay now
+15:01 once this is done I can also convert
+15:04 this into an simple uh streamlit
+15:06 framework but let me just go ahead and
+15:08 use some
+15:09 default uh functions that is available
+15:11 inside this agno itself so like print
+15:14 response so here I will just go ahead
+15:15 and write what is the
+15:18 latest uh or I'll just go ahead and ask
+15:21 hey who won the
+15:24 India versus New
+15:28 Zealand MCH
+15:30 oops New
+15:32 Zealand
+15:34 finals in CT 2025 okay so this will
+15:38 basically be my question so this is just
+15:40 a single agent right now what we are
+15:42 specifically using Now quickly I will
+15:44 just go ahead and open my terminal and
+15:46 just open my command prompt in order to
+15:48 execute it I'll just go ahead and write
+15:50 python simple
+15:52 agent oh first of all let me just go
+15:54 ahead and write cd1 basic agents and
+15:57 here I'm just going to go ahead and
+15:58 write python
+15:60 simple agent. py so once I execute it uh
+16:03 it just saying matter hey go ahead and P
+16:06 install grock okay no worries I did not
+16:08 install Gro so that is the reason it is
+16:10 giving me the S I'll just go ahead and
+16:13 write this let's go ahead and create my
+16:14 another command prompt and from this I
+16:17 will go ahead and install my pip
+16:21 install install minus our requirement.
+16:25 txt okay perfect so this install
+16:29 solution has been taking place now we
+16:31 good I'll go to my another command
+16:33 prompt and let's start the run right
+16:36 python simple agent. py um okay
+16:40 description spelling is wrong it's okay
+16:43 sometime we just need to write the quite
+16:48 the quick that is the problem with
+16:50 coding when you start writing or typing
+16:53 very fast so who won the India versus
+16:55 New Zealand Final in CT
+16:57 2025 so I think it is think India won
+16:59 the match in the final they bit New
+17:01 Zealand by four wickets to claim the
+17:02 championship trophy Sharma led the team
+17:04 and scored amazing so here you are able
+17:06 to get the recent information also right
+17:08 so that that is very beautiful now this
+17:11 is uh just with respect to One agent
+17:13 okay now what if I I want to probably go
+17:16 ahead and create multiple agents you
+17:17 know I want a specific scenario where I
+17:20 just use I keep on using agents and
+17:22 along with that I also allow agents to
+17:24 communicate with themselves so here uh I
+17:27 will create my another file let's go go
+17:29 ahead and do that multiagents dopi okay
+17:33 all of this will be given in the GitHub
+17:35 uh Link in the description of this
+17:36 particular video okay now in the
+17:37 multiple agents what I'm actually going
+17:39 to do again from the simple agents what
+17:41 all things are required I'll copy this
+17:43 I'll paste it over here now with respect
+17:45 to multiple agents uh I am also going to
+17:47 use y Finance tool so let me just go
+17:50 ahead and write from agno
+17:53 dot tools do y Finance
+17:58 import y Finance tools right so this is
+18:01 their y Finance tool specifically for
+18:03 this now what I'm actually going to do
+18:05 quickly is that I will just go ahead and
+18:08 create my web agent okay so first agent
+18:10 that I'm actually going to create over
+18:12 here let's say this agent is responsible
+18:14 in doing the internet search okay uh
+18:17 whenever we want to specifically do an
+18:19 internet search this agent will be
+18:20 responsible so let me just go ahead and
+18:22 create web agent is called to
+18:25 agent and here I'm going to use my name
+18:28 let's say web
+18:30 agent then I will be having my
+18:33 role search the
+18:37 web search the
+18:40 web for
+18:43 information right search the web for
+18:46 information and then I will just go
+18:48 ahead and create one more thing that is
+18:50 nothing but model is equal to open AI or
+18:53 let me just go ahead and ruse grock
+18:56 grock okay now for for the grock over
+18:59 here here I will use the same id id will
+19:02 be nothing but
+19:03 quen this is from Alibaba I guess 2.5 32
+19:07 billion okay for the inferencing along
+19:10 with that what I'm actually going to use
+19:11 is that since we are going to do an
+19:13 internet search so here we going to use
+19:15 this dug du go tool search right now
+19:17 here you'll get an idea like how many
+19:19 different parameters are there role uh
+19:21 name tools right let me see so Doug duug
+19:26 go tools
+19:30 dug du go tools okay perfect till here
+19:35 everything is looks good then I have my
+19:40 instructions instructions is equal to I
+19:43 will just go ahead and write always
+19:45 include the sources some instructions
+19:48 that you really want this particular
+19:50 agent to do okay and then I will also
+19:53 say hey if you're making any tool call
+19:56 please show that information also and
+19:58 then my output should be in the form of
+20:00 markdown okay so this is basically my
+20:03 web agent over here uh this is my web
+20:06 agent over here and uh all this looks
+20:09 good uh with respect to markdown and
+20:12 let's see whether uh anything we are
+20:14 missing okay here one comma we are
+20:16 specifically missing so that is the
+20:18 reason it was showing an error okay now
+20:20 this is one way right uh let's go ahead
+20:22 and create another way right now here
+20:24 this is my first agent and this is my
+20:25 finance agent now the now the thing is
+20:27 that over here I'm taking the use of
+20:29 both open source and open AI models this
+20:32 time I'm specifically using open AI
+20:34 model ID is equal to GPT 4 here you'll
+20:37 be able to see why Finance tools stock
+20:38 price equ equal to true and inst
+20:40 recommendation is equal to true now you
+20:41 may be thinking Krish where did I get
+20:43 this specific information from right so
+20:45 if you go ahead and see the
+20:46 documentation the documentation is well
+20:49 built you know anybody can probably just
+20:51 go ahead and try it so in the tools here
+20:53 you'll be able to see that hey uh if I
+20:55 just go ahead and click on toolkit uh
+20:57 there is something called as Wi-Fi
+20:59 Finance somewhere here right so here you
+21:02 can see y Finance so with respect to Y
+21:04 Finance here you'll be able to see that
+21:05 what are the parameters and inside this
+21:07 parameters you have something like
+21:08 company info stock fundamentals income
+21:10 statement key financial ratios you can
+21:13 get all the specific information and
+21:14 this is directly coming from the Y
+21:15 Finance API right so based on that you
+21:18 can set up these particular parameters
+21:19 here I'm also saying hey use tables to
+21:21 display the data show two calls is equal
+21:23 to True okay now the main thing is that
+21:25 I've created two agents okay one is my
+21:28 web agent one is is my finance agent now
+21:30 the third thing is that how do I combine
+21:32 these two agents right so here I will
+21:34 just go ahead and say Hey you become an
+21:35 agent team okay agent team and then in
+21:39 this particular agent I will just go
+21:41 ahead and use this agent and one more
+21:43 option is there inside the agent that is
+21:45 nothing but team and here I can team up
+21:48 one web agent and the finance agent that
+21:50 is the most amazing thing just imagine
+21:53 getting the specific option okay and
+21:55 then I can specifically use my grock
+21:57 model okay I can use it over here uh
+22:01 with respect to the grock model also uh
+22:03 you'll be able to see that okay fine my
+22:04 grock model is uh visible over here uh
+22:07 then along with that I can also give my
+22:09 instructions right let's say the
+22:11 instruction over here I will combine
+22:13 both of them right I'll say hey these
+22:16 are my instructions you always include
+22:18 sources use tables to display and then I
+22:21 have this show calls true and the
+22:23 markdown is equal to True right so all
+22:25 this information is basically there
+22:26 right then uh like how we basically
+22:29 displayed the simple agent right
+22:30 similarly you can go ahead and go ahead
+22:32 and print the response over here so now
+22:35 let's go ahead and write this now since
+22:37 we are using some complex agents okay
+22:39 I'll say I I'll just ask hey uh okay so
+22:42 this should be agentcor
+22:45 team okay I'll just go ahead and ask uh
+22:48 one question uh let's say um
+22:52 analyze uh
+22:54 companies
+22:55 like
+22:57 Tesla and
+22:59 Bia or apple and
+23:03 suggest which to buy for longterm okay
+23:09 so this is my question okay now see the
+23:12 magic how amazingly it'll display you
+23:15 the entire results okay here I'm going
+23:16 to go ahead and write python multi-
+23:18 agent and like this you can create any
+23:20 number of agents and it is super super
+23:23 amazing that you're able to create just
+23:25 in no time with hardly some lines of
+23:27 code you know and all the necessary
+23:29 things are available to you okay analyze
+23:31 companies like Tesla Nvidia apple and
+23:33 suggest which to buy for a long term so
+23:35 this is my question now this is started
+23:37 thinking it will probably also make sure
+23:40 to search from the web based on the
+23:42 options that we have selected over here
+23:43 then this Finance agent is also there
+23:45 which will take the information from the
+23:47 Y Finance okay so let's uh wait uh for
+23:50 the response to probably come up and
+23:52 let's see that how the output is okay
+23:55 and if you probably go ahead and see
+23:56 this specific code here right here
+23:58 you'll be able to see that any number of
+24:00 agents that you call right here you can
+24:02 combine them so that to work together
+24:04 okay um let's see why is taking so much
+24:07 time I think before it should not take
+24:09 so much time is it because of uh am I
+24:13 using okay perfect here I've got the
+24:15 report and the report is quite big so
+24:17 that is the reason you're getting so
+24:18 much of time right um based on the
+24:21 financial answer provided to financial
+24:22 agent currently is more attractive
+24:24 Nvidia is more attractive see and
+24:26 longterm than Tesla Nvidia Apple okay so
+24:29 here is a summary all the P ratios and
+24:31 all are given right given the strong
+24:34 Revenue growth Superior margins and
+24:35 media emerg are the most compelling
+24:37 however always remember to consider a
+24:38 personal tricks this is also very really
+24:40 good okay so here you can probably see
+24:43 with uh just a very good example uh here
+24:46 you are able to see this entire thing
+24:48 okay now the next thing is that I will
+24:50 also try to show you one example where
+24:52 you have an option of putting a memory
+24:56 okay agent memory. py like let's say if
+24:59 you want a specific memory uh uh like a
+25:02 knowledge database itself uh that can
+25:04 also be done so I will just go ahead and
+25:06 show you with this code now here you'll
+25:08 be able to see that I am using something
+25:10 called as PDF URL knowledge so let's see
+25:13 do I have my PDF yeah it is there then
+25:15 you have Lun DB search type okay all
+25:18 these things are there I'm using open IM
+25:20 Ming dug Duo all these things you know
+25:23 right now here I've created a agent now
+25:25 full-fledged information about the agent
+25:27 this knowledge as I said the knowledge
+25:29 is just like an external knowledge right
+25:31 I can also provide instruction search
+25:33 your knowledge based for the thi recipes
+25:35 if the question is better you can take
+25:36 any PDF like what you want and you can
+25:39 basically execute it okay like this
+25:42 right so finally let's go ahead and run
+25:44 this particular agent memory uh also
+25:46 where we have a specific external
+25:48 knowledge database okay so here I'm just
+25:50 going to open my terminal uh let me
+25:53 delete this activated the virtual
+25:55 environment over here so let me go ahead
+25:57 and write python
+25:59 agent memory. py okay I have to go to
+26:03 cd1 basic agent python agent memory. py
+26:09 okay so two major updates as I said f
+26:12 data has now become agno so please try
+26:14 to use this as much as possible so now
+26:17 you you can see that the knowledge it's
+26:19 basically read from that particular
+26:20 external database this is the search
+26:22 query that has basically happened
+26:25 chicken and galangal in coconut milk
+26:27 soap here it is a tradition recipe to
+26:29 make this all the informations will be
+26:31 specifically coming up okay then uh then
+26:34 you can also ask chat GPD how to convert
+26:36 this with the help of stream late of
+26:38 fast API I think you should be able to
+26:40 get the answer so here is the entire
+26:42 suggestion and that is basically coming
+26:44 from this particular PDF file okay PDF
+26:47 file so I hope you like this particular
+26:49 video uh this was it just go ahead and
+26:51 try it out and uh I think uh this is a
+26:54 very good way of creating agents itself
+26:57 right so yes this was it for my side I
+26:59 will see you in the next video thank you
+27:00 take care

@@ -1,0 +1,3016 @@
+00:00 to you live
+00:36 hello everyone so welcome to today's
+00:39 session are you able to hear me can I
+00:41 get a quick yes if you're able to hear
+00:53 me hello B Krishna
+00:55 hello hi sh so yeah just drop your high
+00:59 let us wait a couple of minutes and then
+01:01 we are going to
+01:02 start uh I think now you must be a lot
+01:05 heit to see me gu Channel but
+01:14 yeah hi hi hi everyone so glad to see so
+01:17 much turnout I think it's Sunday as well
+01:20 today nor we do forget about the weekday
+01:23 and everything so let us wait a couple
+01:26 of more minutes uh let the audience join
+01:28 and then we are going to start okay
+01:29 today again we have a very very great
+01:31 project for you okay and we are going to
+01:34 create a Content generation agent AI so
+01:37 in the last video If you all attended we
+01:41 also created an agent and we did that
+01:43 end to end uh I also walk you through
+01:45 the course which we are going to
+01:46 basically start for agentic AI in today
+01:49 as well we are going to use a awesome
+01:51 framework UI very easy very great
+01:54 results and everything so I will show
+01:56 you like what exactly that is and then
+01:58 Paul sir is also with us today so he's
+02:01 going to walk you through all the
+02:03 projects the code and everything and
+02:05 towards the end you will see that how
+02:07 awesome it is to build your agents which
+02:09 can uh create the content for you based
+02:12 on what all documents you are providing
+02:15 okay
+02:16 uh yes so uh Malik I'm going to share
+02:19 what exactly are the prerequisits okay
+02:21 it's properly there don't
+02:25 worry so just let uh more and more
+02:28 people join
+02:34 okay so let me meanwhile try just few
+02:36 things out as well uh I'm sharing my
+02:39 screen everyone so let me know if you're
+02:40 able to see the
+02:46 screen uh I hope my screen is
+02:51 visible quick yes for the
+02:55 confirmation and let me try to draw
+02:56 something yeah so seems like I'm able to
+02:58 draw
+03:02 great so
+03:04 yeah uh I think uh we can get started so
+03:08 I this is not the right ways yeah this
+03:10 actually is another let us go on what we
+03:13 are going to learn today and just to
+03:15 give you a basic idea and then we are
+03:16 going to go towards the course uh the
+03:19 very first thing everyone so we are
+03:20 having these sessions majorly to
+03:22 demonstrate how to get started with
+03:24 agentic AI how you can create your
+03:28 agentic AI models based on the frame
+03:30 Works which are available to you with of
+03:32 course with coding is required right but
+03:34 with uh and we are also explaining you
+03:36 things so if someone is very new he
+03:38 wants to understand okay what exactly it
+03:40 is then you are uh you are very welcome
+03:42 to take these sessions and you will be
+03:45 able to then if you follow that very
+03:47 nicely you will be able to create your
+03:48 agents and then of course as you will go
+03:51 forward you will be able to learn more
+03:53 and more and refine those agent as well
+03:55 okay so we are covering framework by
+03:58 framework and we are making sure that on
+04:00 the way we are making you code okay so
+04:04 in the last few classes Sunny took some
+04:07 uh test cases then today we have Paul
+04:08 sir who is going to teach you as I said
+04:10 using Qi an awesome framework okay for
+04:13 making your agents I will also be taking
+04:15 some sessions in future so that you get
+04:18 that exposure right because agentic a
+04:20 it's a very hot Pro uh I would say term
+04:23 very hot technology which we will see
+04:26 getting more and more adapted in
+04:28 2025 okay so cool uh let me actually
+04:31 just quickly go and let me first tell
+04:34 tell a bit about myself hopefully many
+04:36 of you must have seen me already I'm
+04:38 mayal I a graduate of nsit Delhi I
+04:41 previously have worked with companies
+04:43 like oo rooms Goldman Sachs mle and uh
+04:46 Consulting for few startups so my
+04:48 expertise majorly lies in software
+04:50 development and making or integrating AI
+04:53 into projects so I also take batch for
+04:56 Big Data where I'm teaching uh students
+04:58 about Big Data engineering
+05:01 so majorly uh like coming to myself I
+05:06 also create content in the field of uh
+05:08 software development DSA and AI right so
+05:11 you can follow me on my YouTube channel
+05:13 as well I'm sharing the link and please
+05:15 for uh feel free to connect with me on
+05:17 LinkedIn as well right so now that
+05:21 through that you will get to know a
+05:23 little bit more about me now let us
+05:25 start everyone so first sorry for that
+05:29 first I'm going to just cover a little
+05:31 bit about the course which we are
+05:32 bringing okay so this course because
+05:34 it's going to start let me actually have
+05:36 one Banner as well one just a second
+05:38 everyone
+05:40 yeah so cool uh yeah I think we can get
+05:43 started you will all be also seeing a
+05:45 banner okay so if you are interested in
+05:49 joining the course if you feel that it
+05:51 will be helpful you can join us in this
+05:53 course you can reach out to the number
+05:55 as well if you want some counseling uh
+05:58 our counseling team majorly we have made
+05:60 make sure that we will not be sending
+06:02 you course uh sorry selling you course
+06:04 right we will try to understand and then
+06:06 advise that what can be right for you
+06:07 for example if you are a fresher we will
+06:10 first advise to get you started with
+06:12 some uh python okay either from some
+06:15 course my channel CH Channel we have a
+06:17 course on python then DSA then machine
+06:19 learning if you are someone who is
+06:21 working already on AI then we may say
+06:23 that okay agentic AI might be good for
+06:25 you so with that in mind we are bringing
+06:27 a course which is agentic AI and gen
+06:30 native AI uh asso application with Cloud
+06:33 boot camp now you will see two very
+06:36 important terms here the first being
+06:39 agentic AI that is making your agents
+06:42 right using Ai and generative AI so
+06:45 agentic AI of course subset of your gen
+06:47 where we try to make agents so these two
+06:50 terms you will be listening a lot from
+06:53 the last I think couple of years majorly
+06:56 especially since Chad GPD and Claude and
+06:58 how the companies are adapting the same
+07:01 okay so with that in mind we are like
+07:04 bringing up this course and it's also
+07:06 with Cloud so AWS and gcp in the last
+07:10 class I also gave you a full overall
+07:13 walk through that about the cabus and
+07:16 about with gcp platform as well the
+07:18 vertex AI so this is the course everyone
+07:22 okay now many people are asking for the
+07:24 prerequisits so let me quickly jump to
+07:26 the course material okay and let me
+07:28 scroll it down so this is something
+07:30 something which you can download from
+07:31 here let me first clear the prerequisite
+07:33 part and then we will come back to other
+07:34 things okay so these are the
+07:36 prerequisits everyone as I mentioned
+07:39 this is a generative Ai and agentic AI
+07:41 course we will not be teaching you
+07:43 programming though please feel free uh
+07:46 if you have done python you can revise
+07:48 it quickly from cler channel from my
+07:50 Channel or from anywhere similarly for
+07:52 NLP we expect that you will have the
+07:54 idea about the basic libraries like nltk
+07:57 SPAC text block okay for text processing
+07:59 and everything
+08:00 and basic knowledge about gen as well
+08:03 right so knowledge of python deep
+08:05 learning Frameworks okay gener AI models
+08:07 like Transformers Gans V along with of
+08:10 course data manipulation using numai and
+08:11 pandas so with respect to us we feel
+08:15 that this course is perfect for anyone
+08:17 who is right now working in the industry
+08:19 who wants to understand that okay how
+08:21 this J agent they are transforming the
+08:23 needs of a company because recently you
+08:26 must also have heard that how Salesforce
+08:27 is saying they will be hiring less
+08:29 engineers
+08:30 because how they're able to automate
+08:32 their work similarly in many projects
+08:35 which I have taken I have successfully
+08:36 integrated AI into the life cycle of the
+08:39 project which in some way reduces some
+08:42 dependency on the real engineer right so
+08:45 artificial intelligence in that way is
+08:46 of course taking over right everyone so
+08:49 here our main goal will be in this Pro
+08:52 full course is to make sure that we are
+08:54 able to help you catch up actually make
+08:58 you understand and then ALS also make
+09:00 you some projects on cloud so that you
+09:02 get a real industry relevant experience
+09:05 as you can see in this course you will
+09:07 learn to create agent application using
+09:09 Cutting Edge Frameworks llow something
+09:12 we used in the last class cre we are
+09:15 going to use today langra autogen we are
+09:17 going to guide you through multiple n
+09:19 project as well okay so we are making an
+09:21 in works of creating real world and
+09:25 state-of-the-art projects as well so
+09:26 right now you will see today uh the
+09:28 content generation one similarly we are
+09:30 trying to come up with projects which
+09:31 can be deployed and actually be used in
+09:34 companies right so and make sure yes we
+09:37 will make sure that they are on cloud as
+09:38 well so no local experience you will be
+09:40 doing that directly on cloud so that you
+09:43 get that exposure which is required
+09:45 right
+09:46 so this is all the features uh I will go
+09:48 through this details tbus in a bit
+09:50 dashboard access will be for 1 and a
+09:52 half years not one so after a lot of
+09:54 request uh we have
+09:57 just made it to one and a half years
+10:01 okay Community chat Forum so you will be
+10:03 once you enroll you will be given a
+10:04 proper dashboard where you will have all
+10:07 your peers you can connect with them uh
+10:09 easy thing right not we we have made
+10:12 sure that we are not making it a lot
+10:13 complex no then you have live out
+10:15 clearing after the sessions you have the
+10:17 hackathons which with rewards job
+10:20 referral so when like see all of us all
+10:23 the mentors sir we have a very good
+10:25 network if any of the companies reach
+10:27 out to us or any job re job request we
+10:29 we will surely be happy uh for people
+10:32 who are doing pretty great in the
+10:33 projects we are we will be happy to
+10:34 refer you and then of course resume a
+10:36 discussion and walk interviews you can
+10:38 reach out to this number uh the same
+10:40 number I think is in the bottom and yeah
+10:42 have your doubts clear let me now take
+10:44 up some Q&amp;A and then we will jump to the
+10:46 slus are you also planning to add as
+10:48 your no Kavita not as of now though uh
+10:51 if possible I will see but I cannot I'm
+10:54 not committing as of now because my
+10:56 understanding is uh and I'm taking the
+10:58 same route in the data as well which I'm
+11:00 teaching that if you understand the
+11:03 basic and few properties of cloud
+11:05 properly then you can work on a parallel
+11:07 Cloud as well so for example if you know
+11:10 Google or AWS properly aure will not be
+11:12 difficult to get so instead of just
+11:14 touch based on uh Technologies just for
+11:17 the name sake I think it makes a lot of
+11:19 sense to go in deep into a particular
+11:21 technology right so with that in mind we
+11:24 will try if we can add projects but as
+11:26 of now it is not in the course okay
+11:30 how will the doubts get clear during the
+11:31 course uh animes uh we so all the
+11:34 mentors majorly I will also be part of
+11:36 this course we sit back we have the
+11:38 community Forum you will get our emails
+11:41 we will sit after the session and clear
+11:42 your doubts talk to you okay so normally
+11:45 I teach for three hours and take doubts
+11:47 for one and a half to two hours so you
+11:48 can just imagine uh I think in that
+11:51 doubts will get clear right so I I sit
+11:53 till the last doubt okay till all the
+11:55 people who have doubts their doubts are
+11:56 cleared and then we leave the class so
+11:58 that is why we have written it live
+11:59 doubt clearing after session we will not
+12:01 just teach you and run away okay and
+12:04 believe me that is the best I don't
+12:05 think you will find anything else there
+12:08 uh okay are we building anything today
+12:10 or just course promotion a de it is not
+12:12 course promotion as such as I said our
+12:14 aim is not to just sell you uh in that
+12:18 way okay if you would have if you would
+12:20 just have to sell the course it would
+12:22 have been 45,000 as well so yeah I think
+12:25 it will be better to say it that we are
+12:26 making people aware of the course right
+12:29 uh there is the program link uh Martin
+12:31 on LinkedIn you will not be able to see
+12:33 it I have shared it if you can go on
+12:36 YouTube you will find the same
+12:39 okay great uh yes Andre will cover on
+12:42 the project so don't worry prerequisits
+12:43 for agent AI course I'm messaging on
+12:46 WhatsApp number uh Malik extremely sorry
+12:48 for that uh I think your now your
+12:50 prerequisits are clear
+12:52 okay prequisites which please the app in
+12:56 which language a mobile app or web uh
+12:58 but G if you asking for the dashboard
+13:00 where it will be it is going to be a web
+13:02 app like you can just access it using
+13:04 web it is going to be Krishna
+13:05 academy.com only but uh no mobile
+13:09 honestly because I want that you study
+13:12 this and te like code side by side when
+13:14 you see the recordings so
+13:16 yeah Malik I think we have covered on
+13:18 that as well the yeah I think these were
+13:20 the things prerequisits I think are done
+13:21 many questions are prerequisits somehow
+13:24 vishno if you know the basics of python
+13:25 I will suggest that you first go through
+13:28 NLP and other things as well before
+13:30 joining the course right I it won't make
+13:32 sense just with python Basics you are
+13:34 trying to join and learn about these
+13:36 things
+13:37 okay uh one thing more everyone when I
+13:39 say that course Dash dashboard is for 1
+13:41 and a half years that means that all the
+13:43 class recording you will be having for 1
+13:44 and a half years
+13:48 okay can a project be on AWS or not yes
+13:51 it can be from AWS okay great rajel glad
+13:54 to see hopefully uh can we know the
+13:57 timings of the course it uh is 3 to6 uh
+14:01 Shri so it is written here Krish Academy
+14:04 portal I will just get it updated no
+14:05 worries it is 3 to6 okay great great
+14:09 great project will be on AWS yes that is
+14:11 what we have mentioned if I Mis joining
+14:13 yes you can see the recording of that is
+14:15 not a
+14:16 problem and I think I forget to answer
+14:20 one question the person who was asking
+14:21 for the course promotion a yes so we are
+14:24 going to create an inn project using
+14:25 creai in the last video as well the
+14:28 sessions was still 10 p.m. right so we
+14:30 were teaching each and everything so
+14:32 yeah I think if you will stay back you
+14:33 will have lots of learn lots to learn
+14:35 for free
+14:37 only great uh n please start no time to
+14:41 waste yes exactly that's why I'm asking
+14:43 your question without even going to the
+14:45 score
+14:46 labus no you as of now I have told
+14:49 already can we download the recordings
+14:50 no SK no like for for real no and what
+14:54 will you do even after downloading the
+14:55 recordings exactly there will be DRM
+14:58 projected so just just study from them
+14:60 no you can you can see them as much time
+15:02 as you want right uh yes Martin you
+15:05 should be able to join from Denmar uh
+15:07 just go to this link and I think it will
+15:09 just change the currency to Euro or uh
+15:11 thing I don't think we have taken P like
+15:13 PPP into consideration you will just get
+15:16 that uh yes Sean there will be things so
+15:20 yeah I think let us now jump to the
+15:22 projects uh sorry jump to the course
+15:24 overview so PA like see everyone mons
+15:27 agent take AI with geni uh with cloud
+15:29 okay so AWS and Google
+15:31 Cloud now the course designed for AI
+15:34 Enthusiast and professionals 1 minute
+15:37 this is the laser which eager to dive
+15:40 into the world of agentic AI and NLP you
+15:42 will gain hands-on experience in
+15:43 building mastering NP techniques
+15:46 developing agentic ma framework and
+15:48 stateof the app gen Solutions right so
+15:52 again uh you can go through these
+15:53 learning objectives uh each and every
+15:55 class I will make sure that I'm just
+15:56 covering on the major topic the very
+15:58 first class which took you can see the
+16:00 same on the live I went through in deep
+16:02 of each and everything now in the next 5
+16:05 minutes we will be just uh making sure
+16:07 that we go to that let me just remove
+16:10 this comment one minute it's taking a
+16:12 lot of space though Goku is seeming nice
+16:14 but yeah okay cool everyone so again if
+16:17 I go back uh to each and every topic
+16:20 here you will be taking a lot of time we
+16:22 will be taking a lot of time so what I
+16:24 will suggest is instead either see the
+16:26 recordings uh where we have in the live
+16:29 uh like live panel of krishn Channel you
+16:33 will see the recordings of the live
+16:35 session we have previously took so there
+16:37 you can see like we have went top
+16:39 properly deep into these things all the
+16:41 projects now I'm just going to teach and
+16:43 study like move forward these are the
+16:45 course instructor mayang Agarwal that is
+16:47 me senior engineer I'm again sharing my
+16:50 LinkedIn so that if anyone of you have
+16:53 any doubts feel free to ping me on
+16:55 LinkedIn okay uh sharing YouTube as well
+16:57 so you can follow me there I make
+16:59 content in the field of programming
+17:01 python Big Data machine learning AI
+17:04 right all the things which I've done in
+17:06 my professional Journey then krishak
+17:08 okay so Krish naak hopefully you all
+17:10 will be knowing him you are on his
+17:11 channels only then s Savita okay he's a
+17:14 gen engineer at PWC and Sanu Paul so
+17:17 he's a senior data scientist uh
+17:18 associated with many companies Inon PW
+17:21 skills and uh he Paul S will be joining
+17:24 in just a bit and he will be taking your
+17:26 today's session where he will make you
+17:28 build a agent for Content generation
+17:31 using cre AI framework
+17:34 okay great so uh rishab uh what you can
+17:38 do there is a 10% discount coupon
+17:40 running uh just maybe either reach out
+17:42 to this number or fill in that form
+17:44 right so isan I think you are also there
+17:46 can you fill out the form as well if
+17:48 possible uh can you just give the zoom
+17:49 ID
+17:51 okay uh yaram we are going to start with
+17:54 the course so if you feel that you can
+17:56 cover the same within let's say at most
+17:59 two months of us starting then you can
+18:03 maybe purchase it I'm not really sure
+18:04 see there are limited seats that's the
+18:06 very first thing so again if you don't
+18:08 know the basics I am and please don't
+18:10 spam uh yokesh where I'm I think not
+18:13 required spamming I'm taking the
+18:15 questions right please don't spam so
+18:18 yeah again there are limited seats right
+18:21 please try to go through these things if
+18:25 you feel that you are done till we start
+18:28 the course that is 20
+18:29 Jan or till the seats are remaining for
+18:32 sure else uh yeah I will still feel see
+18:35 how I can teach you but yes that is what
+18:37 I will suggest I will not force you to
+18:40 buy it and say that okay you will cover
+18:41 it no but if you feel that you can cover
+18:44 it till we start then you can join the
+18:46 course okay so cool everyone uh just
+18:48 going to read the headings and a little
+18:50 bit about what exactly is going to be
+18:51 covered agentic AI right introduction to
+18:55 agentic AI then F data agentic AI
+18:59 framework I think I touched upon and
+19:00 showed this in the last uh class as well
+19:03 then Lang chain very important thing uh
+19:06 used it already I have used it in the
+19:08 production use case in one of my company
+19:10 so in mine tickle I created a project
+19:12 which was then getting used by Cisco and
+19:14 other Giants lnt as well for your
+19:18 basically assignments and stuff so no
+19:20 worries LC Lang expression language I'm
+19:23 just going through this uh you can
+19:25 download this V PDF from this link and
+19:27 go through the course okay sh have how
+19:30 many co seats are remaining I'm not I'm
+19:32 not check the count actually I we take
+19:34 classes on Saturday Sunday okay but yeah
+19:37 just see if you feel that I think and
+19:40 many people last time were complaining
+19:41 about the price uh I'm not really sure
+19:43 why like see uh somehow we have this
+19:47 Vision that we want to provide at a very
+19:48 affordable price like it's hardly a
+19:50 th000 per month like if it will go for
+19:52 four to five months it is way way less
+19:54 than any course which you will find on
+19:56 internet like J they are teaching for 80
+19:58 90,000 we all know that right or either
+20:00 they are teaching you for 9 or 19 rupees
+20:02 which is of no use so we are teaching
+20:05 you actual things here by coding you
+20:07 will get to understand the same as well
+20:09 right uh everyone who is on LinkedIn you
+20:11 will not be able to get the link please
+20:13 go back to YouTube okay or in the post
+20:16 only you will see the link okay when I
+20:18 send anything here you will not get
+20:21 that cool uh L Langer for efficient AI
+20:25 deployment so once you have created your
+20:26 models your J application gen k how to
+20:29 serve them so Lang serve is for that
+20:31 then yeah lra next thing I was looking
+20:33 over so that enables complex a workflows
+20:35 to making those workflows all these
+20:37 things in the langra then next is your
+20:39 ux and human in the loop with lra okay
+20:41 so just going a step forward making sure
+20:43 that you can understand the experience
+20:46 and uh major majorly these things okay
+20:49 human in the loop workflows then agentic
+20:51 R okay so rag I think now many of you
+20:54 might be having an idea designing
+20:56 multi-agent system with uh langra okay
+20:59 so multi-agent systems we will be
+21:01 designing with langra today also we will
+21:03 be making two agents if I'm not wrong so
+21:06 had a I saw the project and everything
+21:08 we will be bringing uh two agents as
+21:10 well today QA platform so you will get
+21:13 an idea that what QA is today in the
+21:15 class so let me write it here we
+21:19 will do a
+21:24 project of creating agents
+21:30 using crei right so the idea is that see
+21:34 when I we take these classes if you
+21:36 would have no like if we require like we
+21:39 can just take these classes behind any
+21:40 payall of 10 15 100 rupees RM is that
+21:44 when we are teaching you through these
+21:45 free live classes you can take the call
+21:47 like if you're able to understand things
+21:49 you can see that okay is will this be
+21:51 helpful you are able to make sense that
+21:53 okay why is this getting all the hype
+21:55 always make sure that along with hype
+21:57 try to see what exactly it helps you do
+21:59 when you see the use cases then you will
+22:01 understand why gentic AI is getting all
+22:03 the hype where Nvidia CEO is saying that
+22:07 Tech team will be the HRS and Salesforce
+22:10 unfortunately is reducing the hiring so
+22:12 that thing is very very important
+22:14 okay cool uh just I will come back to
+22:17 q&amp;as one just give me a second okay uh
+22:19 Lang flow overv and setup right and then
+22:22 your Lang flow yeah I think it is uh so
+22:24 it is just all the topics okay as I said
+22:27 I'm not going a deep into this because
+22:28 then it will take easily an hour uh did
+22:31 that already in the live uh session we
+22:33 took before we will focus more on
+22:35 building things today integration with
+22:37 third party tools again very very
+22:39 important once you have made your agents
+22:41 when you have made your applications how
+22:42 to integrate them via databases API all
+22:45 these things we will learn here then uh
+22:48 l fuse very important for llm
+22:50 observability so when you have made made
+22:52 your llm how will you observe them
+22:54 monitor them for all that we have Lang
+22:56 fuse uh metrics and monitorings in
+22:58 langbo
+22:59 okay uh lsmith okay so again covered all
+23:04 these things I'm just reading out the
+23:05 topic introduction to autogen right uh
+23:07 then we have this is cutting covered
+23:09 yeah end to end agenting projects so in
+23:11 the end you will see projects AWS cloud
+23:14 and services for Gen we are going to
+23:15 teach you AWS properly introduction to
+23:18 AWS Cloud compute and container
+23:21 services Bedrock uh I think many of you
+23:24 will be aware of that L Service uh for
+23:26 model for basically or this thing for
+23:29 making your uh AI models and everything
+23:31 then Sage maker very important thing
+23:34 something which I have been using since
+23:36 2018 for it was initially for machine
+23:38 learning and deep learning use cases now
+23:40 of course they have extended it for AI
+23:42 models as well then we have AWS Lambda
+23:45 serverless Computing one more technology
+23:47 I have been using since 2018 then API
+23:50 Gateway very important how you will be
+23:52 actually serving your all the things or
+23:54 anything which you are making text
+23:56 summarization with AWS services so some
+23:58 project projects and everything and I
+24:00 think is fine tuning Foundation models
+24:02 on custom data so whenever you have a
+24:03 custom use case how will you be found
+24:05 fine tuning the same thing fine tuning
+24:07 is something again which we did in ml
+24:10 for deep learning it was used a lot and
+24:12 in models where we have so many
+24:14 knowledge already how to fine tune for a
+24:16 specific use case is very very important
+24:19 and I think yeah project on AWS we are
+24:21 going to update uh we are like still in
+24:23 talk and making sure that we are
+24:24 providing you the best projects so we
+24:26 will update more about the projects in
+24:28 the same as well okay then gcp Basics
+24:30 introduction to verx AI I think I
+24:32 covered this a little bit in the last
+24:33 video as well last live session that was
+24:36 day before yesterday you can see that
+24:39 once uh gin model with verx AI and
+24:41 Google AI studio so I showed you gini
+24:43 models then we will see the Google
+24:45 studio there was one more technology
+24:47 which Google has basically introduced uh
+24:49 I forgot the name so we'll see that as
+24:52 well then project in gcp and yeah I
+24:55 think we have projects all across on
+24:57 clouds and everything so let me quickly
+24:60 now just go through again this is the
+25:02 course we are taking everyone it's going
+25:04 to start from January 25th prerequisits
+25:07 are here all the prerequisits if you
+25:09 will see they are here okay lot of
+25:13 scroll up yeah so these are the
+25:16 prerequisits now I think it's stable
+25:18 okay uh not project asra Martin I will
+25:21 just reduce asra Martin I will just
+25:23 search and show you that we will just
+25:25 now quickly jump one last time it's
+25:27 going to start from 20 January 25th 3:
+25:30 to 6:00 p.m. will be the classes
+25:33 duration 4 to 5 months all the class you
+25:35 will get the recordings though I will
+25:37 highly highly suggest to see the live
+25:39 sessions attend it ask your questions
+25:42 you will get the recordings for one and
+25:43 a half years but still uh dashboard
+25:47 access Community chat Forum live doubt
+25:49 clearing after sessions Aon with rewards
+25:51 job referals and resume discussion more
+25:54 than what is required just go to this uh
+25:56 website once more and yeah feel free to
+25:59 will this class be streamed live on
+26:00 YouTube if you are asking about today's
+26:02 class it is live on YouTube already if
+26:05 you are talking about the class which we
+26:07 take as part of this course no they will
+26:09 not be stream live why will we stream it
+26:12 live uh we can make content but yes in
+26:15 the class there will be many questions
+26:16 we will be making sure that everyone who
+26:18 joins has a great experience uh you can
+26:20 also apply Chris 10 hopefully the coupon
+26:22 is still valid it has not been yes so 10
+26:25 for 10% discount please apply Christian
+26:27 copon and you will get that okay so I
+26:30 think now let us also have Paul sir as
+26:34 well he is waiting if anyone has any
+26:36 question please feel free to reach out
+26:37 to me I am sharing my socials do you
+26:40 have any hiring Partners uh we are in
+26:43 talk with them uh shimu so as we are
+26:45 building and taking these courses so
+26:48 many individuals and companies do reach
+26:50 out but we are in process of formalizing
+26:52 the process as well
+26:56 okay aor I have covered all already that
+26:59 uh we are as of now it is not included
+27:01 our philosophy is to understand things
+27:03 in depth then to just touch base on
+27:05 things okay no no it will be hands on
+27:07 Project Tamil we are going to cover
+27:09 project today as well uh Paul sir I
+27:11 think hi everyone so I think we have
+27:13 Paul as well let me just remove the
+27:15 screen share yeah so we will be doing a
+27:17 project today uh Paul maybe if you can
+27:19 help tell people what project we are
+27:21 doing today yes uh so hello everyone my
+27:25 name is sangal okay and today we'll be
+27:27 discussing about an content generation
+27:30 project okay with Qi and very
+27:33 specifically like we'll be talking a
+27:35 little bit about agent AI also I will
+27:37 give you a brief about the introduction
+27:39 of thei how to work because the
+27:42 programming language will be python only
+27:44 so it will be completely based on Python
+27:46 and the framework we'll be using on
+27:48 which is on top of T which is very very
+27:50 easy we'll be using some free API for
+27:53 now in this class okay at that you can
+27:55 also easily access like chat GPT will be
+27:57 one of them and the other one will be
+27:59 the serer I'll be showing you all those
+28:01 things step by step so and I will give
+28:04 you a brief architecture also okay by a
+28:06 complete diagram so what things are
+28:08 going and how the complete orchestration
+28:10 is done by the so just a brief so I
+28:13 think M once you are done then I can
+28:15 continue yes yes uh sure sir so yeah
+28:18 everyone I think that was all I think I
+28:20 have taken the doubts which IDs will be
+28:23 covered if I get the IDS right I think
+28:25 we will be using vs code if you me that
+28:28 today also be using vs like that doesn't
+28:30 make sense you have to write code you
+28:31 can write the code using Vim as well
+28:34 what is the meaning of dashboard access
+28:36 so Amarin dashboard access means that
+28:38 when you will be buying the course we
+28:41 will be providing you with a proper
+28:44 website where you can go you can log in
+28:47 then you will see the videos the
+28:49 previous videos everything you will have
+28:52 a community Forum so I can maybe just
+28:54 let me try if I can show you that for uh
+28:57 just a second let me try if I can show
+28:58 you that for your uh this thing uh one
+29:02 minute let me just open
+29:05 it just a second let me show you that so
+29:08 it's uh normally easy for you to
+29:10 understand
+29:17 right one minute everyone so see
+29:20 everyone so I'm sharing my screen back
+29:22 let me know if you're able to see it
+29:27 properly uh
+29:35 okay yeah so yes uh this is the kind of
+29:39 dashboard so this is for the other batch
+29:41 which I'm taking like you will get all
+29:43 these things see we will be writing
+29:45 codes we will be having uh videos which
+29:48 we classes which we take okay in that we
+29:50 will have resources uh q&amp;as will be
+29:53 there right similarly uh you will have
+29:55 the whole Chat thing so this exess you
+29:58 will have this is what I mean by
+29:59 dashboard access so for example I took
+30:02 this class on 21st December now again if
+30:05 someone wants to revise the class and
+30:07 please these classes are not
+30:08 downloadable they are d protected so you
+30:11 will not be able to record as well okay
+30:14 so and don't even try like please don't
+30:16 waste time on that reach out to me and
+30:17 ask me I will teach you again okay so
+30:20 this is how you can just see the classes
+30:21 again you can go to resources you can
+30:24 download the notes which I'm creating
+30:26 any code which we will share with you
+30:28 any assignments any particular resource
+30:31 all these will be there then there will
+30:33 be Q&amp;A for with you to connect with your
+30:37 like let's say Mentor or with your peers
+30:39 similarly there is a feed and a proper
+30:43 chat Forum as well where you can ask
+30:45 your doubts so it is not this is not the
+30:47 real chat Forum I cannot show that I
+30:50 will have to log in bya the student side
+30:52 but yes this is what we mean by
+30:53 dashboard access like for example this
+30:55 is how it is going in the Big Data
+30:57 program you can see that how we have the
+30:59 classes so you can see these classes as
+31:00 many times as you want easily loadable
+31:03 and
+31:04 yeah okay so here I'm just showing that
+31:08 how to use Google Cloud again for Big
+31:09 Data so we are planning and making sure
+31:11 that everything is via Cloud things only
+31:14 okay so I think yeah everyone uh that
+31:16 was majorly all I don't see let me see
+31:20 how do we work on Hands-On project say
+31:22 you will get an idea for this today okay
+31:24 we just uh hang on for the
+31:27 class indan I'm working in mechanical uh
+31:30 okay for any career related doubt doubt
+31:33 everyone please come uh just connect
+31:35 with me uh like on LinkedIn or YouTube I
+31:38 will be better able to help you okay
+31:40 that I think will be better because here
+31:42 I'm just taking related to the overall
+31:44 course and the field right so not career
+31:47 because it will be taking everyone else
+31:48 time as
+31:50 well uh from USA you can join the time
+31:53 use unfortunately we will not be able to
+31:55 change uh I think yes so more or less we
+31:57 are done with doubt thanks a lot Paul
+31:59 sir for the wait I think everyone uh you
+32:01 we can get started with this so I will
+32:04 be answering your doubts in the
+32:05 background okay uh please feel free to
+32:08 now start with the project and if you
+32:10 have any doubts uh I have shared my
+32:12 LinkedIn and YouTube as well please uh
+32:14 try to reach me out on my YouTube you
+32:16 will find my email ID as well and I will
+32:18 be more than happy to help you okay so
+32:20 yeah I think thanks a lot PA I think we
+32:22 can start with the thing all right so
+32:26 let me just start sh sh
+32:36 in yes I hope my screen is
+32:42 visible
+32:44 actually yes I think it's
+32:48 fine all right guys so we'll be starting
+32:50 with G okay so before that let me talk
+32:54 briefly about agent little bit okay like
+32:57 what are the other Frameworks that are
+32:59 available and why very specifically
+33:01 agent
+33:02 tki okay
+33:05 so okay I hope you can see my screen
+33:09 okay so right now I have just uh just
+33:12 given a brief definition okay as you can
+33:15 see it's a subset of AI directly okay so
+33:18 agent AI refers to a branch of AI okay
+33:22 focus on creating autonomous software
+33:24 agents okay now today also we'll be
+33:26 creating the same thing okay we'll be
+33:29 creating agents okay and when you can
+33:30 see here it's simply written like
+33:32 autonomous it means that they can take
+33:34 decisions okay based on some type of
+33:37 constraints that you can provide okay
+33:39 and they are totally independent or they
+33:41 can work as a team also okay so that is
+33:43 one very good feature with respect to
+33:45 the agents like it can be a group of
+33:48 Agents which can work together there can
+33:50 be multiple hierarchies okay like a
+33:53 sequential based hierarchy okay or a
+33:55 long sequence adaptive comp Lex based
+33:59 hierarchies okay so for now in today's
+34:02 class we'll be going through a very
+34:03 simple hierarchy where we will try to
+34:05 create only two agents okay and I'll be
+34:08 talking about the architecture so as you
+34:11 can see here it can make decisions okay
+34:14 like today also I'll be giving some task
+34:16 to the agent it means that one example
+34:19 of task that I can give is like search
+34:21 the
+34:24 internet okay so this can be one task
+34:30 okay now for that I have to use some
+34:33 type of tools so agents and tools so
+34:35 these two things will come to today okay
+34:38 and today I'll be talking about what are
+34:40 tools so when I'm talking about tools
+34:43 okay they can be internal and
+34:47 external so in cre AI there are many
+34:49 tools as well as in the other Frameworks
+34:51 when I'm talking with respect to langra
+34:54 autogen okay so they also have their
+34:56 internal tools so if I'm talking about
+34:59 the internal tools you can think about
+35:01 directly like llms okay so as you know
+35:04 it's pretty much hot right now okay and
+35:07 people have been using llms and slms
+35:10 also Okay slms small language model and
+35:13 large language mod so when I'm talking
+35:16 about tools with llm it means that
+35:19 probably it can do integration with
+35:21 respect to like chat GPT okay like
+35:24 anything with respect to openi models it
+35:26 can be anthropic it can be
+35:30 okay similarly there are a lot of models
+35:34 that you can work with and even like
+35:35 locally if I'm talking about even it can
+35:38 work with
+35:39 AMA okay so you can integrate PR with
+35:42 AMA also and the other Frameworks also
+35:45 okay so right now with respect to the
+35:47 internal tools but when I'm talking
+35:49 about you have to look and search the
+35:51 internet okay now those will be referred
+35:53 to as third party
+35:56 tools okay and today we will be doing
+35:59 the integration of third party tools
+36:01 also okay one of the most common one
+36:03 which is serer API okay like to search
+36:06 Google and if you want to get some
+36:08 results based on that okay so serer is
+36:12 there okay today we will be using this
+36:15 tool also so One internal tool that
+36:17 we'll be picking up okay and the tool
+36:20 that we'll be picking up is basically
+36:22 the chat GPT okay and server other than
+36:25 that like Tav is also there with respect
+36:27 to party tools I'm talking okay it's a
+36:30 very famous one okay again used with a
+36:33 lot of rag applications okay so like in
+36:36 last class sun has taken okay he showed
+36:38 about langra so there also tab can be
+36:41 integrated as well as serer can also be
+36:44 integrated okay so right now as you can
+36:47 see in today's class so searching the
+36:48 internet will be one of the most
+36:50 important things okay with respect to
+36:52 serers so this is basically the tool
+36:53 that will be work so right now as you
+36:55 can see AI based systems will be
+36:58 creating autonomous agents which can
+37:01 take their own decisions it can
+37:03 collaborate with any other agent also if
+37:06 I'm talking about I have built two
+37:08 agents okay so let me take two
+37:14 agents agent one okay so when I'm
+37:18 talking with respect to agent one so it
+37:20 is doing some type of task like search
+37:22 the
+37:23 internet okay search the internet and
+37:27 then there is is another
+37:31 agent to who will be performing some
+37:36 type of task okay so let's take some
+37:38 type of task okay so it has given some
+37:41 type of output with respect to the
+37:43 searches now it will try to do some type
+37:45 of
+37:47 analyzis okay and then generate
+37:54 content okay so right now this is just
+37:58 an example that I'm giving for multiple
+38:00 type of Agents so right now agent one
+38:03 will perform one task then only agent
+38:05 two can do so basically a sequential
+38:07 task if I'm talking
+38:14 about okay and right now so agent two is
+38:18 dependent I can say that agent two is
+38:21 dependent on agent one if agent one is
+38:24 not searching the internet then agent 2
+38:28 not do the analysis so there is a
+38:29 dependency among the agents that we are
+38:31 creting okay so as we we can see here in
+38:34 the statement only we have written okay
+38:37 so it can create autonomous softwares
+38:39 okay and proactive decision making and
+38:41 collaboration so collaboration was
+38:43 basically the dependency of One agent
+38:46 with another okay so you can create a
+38:49 bunch of agents and you can connect
+38:50 together together okay it's very very
+38:53 good okay and today we'll be talking
+38:55 about that okay now let's talk little
+38:58 bit about 3i I think 3i is important and
+39:01 you guys need that because today we will
+39:05 be talking with respect to C okay all
+39:08 right so as you can see so one of the
+39:11 most leading multi-agent platform okay
+39:14 so similarly there are others also okay
+39:16 like uh langra very very good if I'm
+39:19 talking about the community is working
+39:21 very good then comes autogen from
+39:23 Microsoft okay so that is also getting
+39:25 very famous now uh coming to the
+39:29 multi-agent as you can see it has been
+39:32 used by many Tech Giants okay so right
+39:35 now the main thing that we want to focus
+39:37 on look into the docs quickly so that
+39:39 you understand what is the architecture
+39:41 of Crea okay so I will just go into the
+39:45 introduction part right now okay and I
+39:46 will just zoom into few of the things so
+39:50 the first part that comes around like
+39:51 what isi so it is an agentic eii
+39:54 framework which is used to build EI
+39:57 agents okay so as you can see autonomous
+40:00 EI agent so even today we'll be building
+40:03 the same thing now it will enable you to
+40:07 create AI teams where each agent has a
+40:09 specific role okay role it means that
+40:12 for example agent one I am telling that
+40:14 the first agent will do some type of
+40:16 research and he will come with all the
+40:19 citations okay then there will be
+40:21 another role probably like uh after the
+40:24 researcher there is some type of intern
+40:26 who is working with the researcher and
+40:28 he will finally publish a paper okay
+40:31 with respect to all the citations so
+40:33 right now in today also when I'll be
+40:35 creating the agent I'll be giving very
+40:37 specific roles to the agent then comes
+40:39 tools tools I have already told you
+40:41 tools can be external or internal the
+40:44 internal like llm based tools are there
+40:47 and external tools when I'm talking
+40:49 about then we'll be talking about server
+40:52 okay so let me just show you quickly
+40:54 serer and I think everybody knows about
+40:56 that okay so
+40:58 so this is basically the dashboard of
+41:00 serer okay uh and uh today just you can
+41:05 create an API okay so if you want
+41:07 something like this okay so ser. D is
+41:10 the name one of the cheapest one okay
+41:13 and completely for free that you can
+41:16 do okay the fastest and the cheapest
+41:19 Google search API because today I need
+41:22 because for content if I give one topic
+41:25 name for example generative then
+41:27 probably on top of that I need some type
+41:29 of web pages okay from where I will get
+41:31 the content once I get the content then
+41:34 I'll be doing the analysis through
+41:36 another agent that is the idea behind
+41:39 Okay so serper today we'll be working
+41:42 with okay so that is a third party tool
+41:45 and goals okay we'll be talking about
+41:47 goals and Back stories in detail okay to
+41:49 accomp uh accomplish complex type of
+41:52 task now uh the idea is that thei help
+41:57 in or orchestration of this agents okay
+41:59 it means that you can create many many
+42:01 agents and then how you want the
+42:03 behavior of the agents to be done it can
+42:05 be interconnected okay or without any
+42:08 connections it can be completely
+42:09 isolated agents also sometimes okay so
+42:12 it depends upon the business use case
+42:15 what you will be
+42:16 doing now uh just let me show you the
+42:20 most important part okay because today
+42:22 also we'll be talking about these things
+42:24 the first things the component of the
+42:26 high level architecture in
+42:28 the first thing comes is basically the
+42:30 crew okay very very important the top
+42:33 level organization it means that all the
+42:35 decision making that will be done is
+42:37 basically by the cre you can see manages
+42:39 all the AI agents okay it will look into
+42:42 all the workflows and then finally
+42:45 ensures the collaboration collaboration
+42:46 is basically the connection or basically
+42:49 the flow of information between two
+42:52 agents then comes deliver the outcomes
+42:55 the final outcome that you will get okay
+42:57 so that will be uh shown to you then the
+42:60 next thing that comes after crew okay so
+43:02 this is the top level then the second
+43:04 top if I'm talking about which is
+43:06 basically AI agents now they will have
+43:08 some type of specific roles like
+43:10 researchers and writers in today's case
+43:12 also we'll be taking some type of like
+43:14 research analyst job okay and then I
+43:16 will give a prompt okay so we will
+43:18 Define some roles today also then
+43:21 designated tools like this particular U
+43:24 AI agent can use which tool it is it's
+43:27 not like that like any agent can access
+43:30 any tool you have to actually tell your
+43:32 agent you can only access this tool so
+43:35 probably like in one of the agents I
+43:37 will be calling a llm tool and probably
+43:40 in another uh agent I'll be calling a
+43:43 Google Search tool okay or probably some
+43:45 type of web search tool that I can do
+43:47 okay in this way we'll be uh giving the
+43:50 access of the tools to the agents very
+43:53 very specific then can delegate task
+43:56 okay now can delegate task it simply
+43:58 means that okay it means the flow of
+43:60 information it means that if you want
+44:02 the uh if you want one agent
+44:05 to pass out the information okay to the
+44:09 other agent okay so that can also be
+44:11 done it means that agent one can control
+44:14 agent two or agent two can control agent
+44:16 three but similarly a single agent can
+44:18 control multiple agents and making
+44:21 autonomous decisions then comes process
+44:24 so uh this is the workflow management so
+44:27 uh today we'll be just looking into in
+44:30 in very very high level and then come
+44:32 task which is very very important
+44:34 because every agent will have some type
+44:36 of task if I'm telling my agent as a
+44:39 researcher you know that the task is
+44:41 basically to do research on any type of
+44:44 topic it can be with respect to like
+44:47 gener TBI okay or with respect to agent
+44:50 it can be anything but a researcher will
+44:52 do research on some type of topics okay
+44:55 or on the domain I can say so so now
+44:58 these are the four important things and
+44:59 you have to remember even I will be
+45:01 showing you later when I'll will be
+45:03 doing the coding okay but yes so this is
+45:06 the high level structure and this is how
+45:09 it works together okay the cre organizes
+45:12 the overall operation so this is the
+45:15 level one Department if I'm talking
+45:17 about the level two okay just like
+45:19 departments in an organization if I'm
+45:20 talking okay so AI agents work on their
+45:23 specialized task the process ensures
+45:25 smooth collaboration and the task get
+45:27 completed to achieve the work this is
+45:29 very very simple process now things can
+45:32 be complicated and I'll be showing you
+45:35 just to give you an high level
+45:37 idea so for today so let me talk little
+45:40 bit about the architecture I think it is
+45:42 important to understand how the workflow
+45:45 will work okay so just wait let me first
+45:48 get here okay
+45:54 so I will just
+45:57 open my vs code okay so I will just make
+45:60 the font little bit
+46:03 bigger
+46:10 and all right now let's talk about
+46:14 today's
+46:15 architecture okay so
+46:19 your
+46:22 content generation
+46:28 so here I'll be talking about the
+46:32 architecture so right now the first
+46:36 thing is total number of agents that I
+46:39 have okay so total
+46:46 agents that I have is two okay so the
+46:50 first agent
+46:53 is a
+46:55 researcher okay so you can think about
+46:57 it can be any type of researcher okay so
+47:01 content
+47:07 research okay and then comes your
+47:09 content
+47:16 writer okay so total number of agents
+47:18 are two so one of them is basically uh
+47:21 researcher and the content writer then I
+47:24 have total two tools for this
+47:28 task total tools again
+47:34 two the first one will be our serer API
+47:37 which will do the web search for us okay
+47:40 so serer
+47:49 API and the second tool that I'll be
+47:52 using which is basically the llm okay
+47:56 which is open AI
+48:01 okay so one is an internal tool so if
+48:03 I'm talking about this is an internal
+48:05 tool okay and this is an external server
+48:08 which is basically a third party
+48:10 integrated tool with
+48:12 dware okay so two agents two tools very
+48:16 very important one now let's talk about
+48:19 the workflow of the application
+48:31 okay so the first thing that I'll be
+48:33 writing okay so it will be so let me
+48:36 just take it
+48:37 here so I will start with the tool
+48:42 part okay
+48:53 so the first tool that comes around is
+48:55 web search okay now web search will be
+48:59 performed by an agent okay so I will
+49:03 just write it here as an
+49:17 agent so this is our agent one okay and
+49:21 agent one is basically a
+49:23 research analyst
+49:31 okay so the flow of information will be
+49:35 from the
+49:37 tool okay in both the directions the
+49:40 information will flow okay it means that
+49:44 web search is a tool okay now the agent
+49:47 can access the tool so the flow of
+49:50 information will be in both of the
+49:52 directions then the next thing that
+49:54 comes around is with respect to our
+49:56 agent two
+49:60 our agent two okay so here what I will
+50:02 do again so this is a Content writer our
+50:05 agent
+50:12 to who is a Content writer okay he will
+50:15 take the output of the web search and
+50:18 then he will do the analysis okay so
+50:22 from here this particular information
+50:25 from agent one will be passed to agent 2
+50:28 now agent two will take that information
+50:31 which is basically the output of agent
+50:34 one okay and he will try to work on top
+50:37 of that content okay so the content
+50:40 writer and the next thing is so the job
+50:43 of this agent is like I will say like
+50:46 writing and editing for now
+50:60 okay so
+51:02 writing and
+51:06 editing now the question comes who will
+51:08 do the writing and editing for sure like
+51:11 I won't be doing it manually okay now
+51:13 this will be taken care by the llm okay
+51:16 so that's why here I'll be just writing
+51:18 it
+51:21 llm I will give
+51:24 prompt uh to the our llm for better
+51:27 understanding and here we'll be working
+51:29 with
+51:33 openion
+51:35 okay now this is the high level overflow
+51:38 if I'm talking about okay and finally
+51:40 from here you will be getting your
+51:42 output so probably like whatever is the
+51:45 content that you
+51:47 have this agent to will through your
+51:51 output
+52:03 okay
+52:07 so something like an output article I
+52:10 can say because it will be creating some
+52:12 type of content with respect to blogs or
+52:15 anything that we'll be
+52:16 writing so for now so this is the high
+52:20 level architecture if I'm talking about
+52:22 okay and this entire thing the entire
+52:25 orchestration that will be done by thei
+52:28 this entire
+52:35 orchestration okay so all this processes
+52:38 creating of the agents creating of the
+52:41 task creation of the roles everything
+52:43 will be done through uh Pui and all the
+52:47 orchestration that it will take part
+52:49 okay and finally the idea is that we
+52:51 will be building a streamlet application
+52:54 also first we will try to develop the
+52:56 core component
+52:57 okay and then we will check it and then
+52:60 finally we will try to integrate with a
+53:02 stream L okay because the idea was to
+53:05 build it and to finally show you so the
+53:07 final things will be like uh
+53:14 build stream L
+53:22 app okay so that will be the final step
+53:25 I think think every is now familiar okay
+53:29 uh with respect to the architecture and
+53:32 what we are going to do today please let
+53:35 me know in the chat
+53:37 guys yes about the workflow because the
+53:40 next thing is basically we will start
+53:42 with the coding part and we'll be using
+53:44 visual studio only okay and python will
+53:47 be our
+53:48 language
+53:50 yes and high level understanding
+53:58 all
+54:00 right so now the next
+54:04 thing okay so let's get started with the
+54:08 code so this is one I have one question
+54:13 yes just ask your question in the chat
+54:14 okay and I can take it so the see today
+54:18 the idea is not to build very complex
+54:20 architectures the idea was to build a
+54:22 multi-agent system and finally integrate
+54:24 it with stream L the integration is easy
+54:27 okay if you guys are familiar with
+54:29 streamlet okay just few simple lines of
+54:32 code so new okay so let me just open a
+54:37 new
+54:39 file I will just write
+54:42 app.py okay uh so this will be our main
+54:46 file and the other will be a streamly
+54:48 t Okay so is the second agent open or an
+54:53 e agent that writes using open okay so
+54:57 PR the question that you have so we will
+54:59 be using open to do that editing and
+55:01 writing okay so for example if agent one
+55:05 has given some type of content okay now
+55:07 the content needs to be verified like
+55:10 what is the source of the content so all
+55:12 those things okay it will be taken care
+55:15 by agent one then agent two will come it
+55:17 will go to those sources and citations
+55:20 and then it will actually verify and
+55:22 whatever the thing it is required okay
+55:24 then using chat GPT we will try to do
+55:26 some type of I will say like a very
+55:30 specific instruction type of task where
+55:32 we will try to summarize different type
+55:33 of content and finally we will try to
+55:36 publish an article with all those Source
+55:39 links that is the idea okay it means
+55:42 that when I'm telling that I'll be doing
+55:43 a web search it means that I'll be
+55:45 taking all those Source links and
+55:47 citations also for verification okay so
+55:50 one will be a generic app and the other
+55:52 one will be a streamlit app okay
+55:55 streamlit app. so two files I have
+55:59 created uh uh now if I'm talking about
+56:03 uh the first one
+56:05 so the first thing is okay we can create
+56:08 a simple environment so let me just
+56:10 create for
+56:12 now okay so right now you can see as uh
+56:15 this is my base environment I will just
+56:17 quickly create one Hond
+56:21 create I won't be keeping the
+56:23 environment directory right now in my
+56:24 current project directory
+56:27 okay
+56:28 so
+56:30 demo python equal to equal to and you
+56:33 can see the python version that I'm
+56:35 using is
+56:36 3.12 we can integrate it with springbot
+56:39 uh so you have to look into because I
+56:41 have not work with respect to Java but
+56:44 it feels like yes there are Integrations
+56:46 with other programming languages also so
+56:49 yes you need to look into that because I
+56:51 know like with respect to autogen in
+56:53 Microsoft it does has a support with
+56:55 respect to she has net language okay so
+56:58 you need to look into that F data is
+57:01 also a very similar framework if I'm
+57:02 talking about see crei F data langra
+57:07 okay all these Frameworks can be used to
+57:09 build agents so if you remember in the
+57:12 last last live session which Sunny took
+57:14 he was using langra Okay that was a
+57:16 different framework and you know that
+57:18 the langen community okay has grown a
+57:20 lot okay and many people are working
+57:22 with respect to
+57:23 langra okay so similarly in today's
+57:26 session we are taking crei so cre AI is
+57:28 also used a
+57:31 lot okay so as you can see here python
+57:34 3.12 is basically the version okay I
+57:36 will just zoom it much
+57:39 3.12 okay and then hyphen Y
+57:43 and let me just create the environment
+57:50 quickly okay so yes so this is the
+57:53 environment that I'll be using and the
+57:55 python version that I'm using guys is
+57:58 3.12 okay so cre demo so everything is
+58:16 clear all
+58:18 right all right guys now I will just
+58:20 create a requirement. txt file as you
+58:22 know that few requirements that we need
+58:25 for this particular class okay for this
+58:28 project to be up and running okay so one
+58:31 of them is cre
+58:33 AI okay then comes crew AI
+58:37 tools okay the second pattern so uh see
+58:40 crew AI gives access to all the core
+58:42 packages all the internal things that
+58:44 you can access to but cre AI tools give
+58:48 you access to third party tools also
+58:51 like serer API that I'll be using so for
+58:53 that I'm using crei tools then uh I need
+58:57 to read the EnV file for that I need the
+59:00 python EnV okay so the other
+59:06 package EnV and finally I need streamlit
+59:11 okay so only these four packages are
+59:14 required for today session nothing more
+59:16 than this all right so these two are the
+59:22 ones now I can start working with
+59:25 respect to the app
+59:30 all right let me just change the
+59:31 compiler if it has created so cre
+59:44 demo cre demo I'm just
+59:51 looking all right fine so let's start
+59:54 with the first part of the application
+59:56 with the basic inputs all right so right
+59:59 now the first thing is from crei I need
+60:01 to import few of the major
+60:03 modules from
+60:07 PRI uh import agent okay now I'll be
+60:11 talking with respect to agents in detail
+60:13 much more okay so when I'll be writing
+60:15 about agents okay an agent will do some
+60:20 type of task so that is the one and all
+60:22 these things will be taken by the first
+60:24 level of hierarchy if you remember in
+60:26 the documentation that I showed okay so
+60:28 what is cre AI okay so all these things
+60:31 the crew came AI agents came and task
+60:33 came okay this things that I'm
+60:37 importing now cre is the main one and
+60:40 finally I need the internal LM
+60:42 integration okay so this is basically an
+60:45 internal tool from
+60:47 q.com okay so these four are the first
+60:50 import that I have and then I'll be
+60:52 working with the Ser dep tool okay so
+60:55 from crew
+60:57 AI tools okay now with cre AI as I told
+61:01 you I will be working with some third
+61:03 party tools also okay so for that I'm
+61:06 just importing okay the serer dev
+61:09 API serer okay and then comes your Dev
+61:14 tool so this is basically a third party
+61:17 tool that I'll be using for now okay and
+61:20 uh right now with respect to llm and
+61:23 serer for both of these things I need to
+61:26 API Keys okay so API keys are required
+61:29 guys very very important so first of all
+61:31 let me just create a EnV file
+61:35 EnV okay and our first variable if I'm
+61:39 talking about okay so the first one is
+61:42 the open ke that I'll be working with
+61:46 open AI API
+61:50 key okay so open API will be used by
+61:54 which agent basically aent number two
+61:57 who will be basically doing the editing
+62:00 and the writing of the uh final content
+62:03 okay for the blog or the article if I'm
+62:06 talking okay so the open key comes and
+62:10 then the next uh API key that I require
+62:13 is basically from serer API key so serer
+62:16 uncore API
+62:21 key okay so now I think with respect to
+62:24 the apis Okay so ly from here I can just
+62:27 copy okay this key and uh I can paste it
+62:32 here in Ser okay and then comes the open
+62:36 I one okay so for me I think the key is
+62:38 already there I will just take my key
+62:41 and past it
+62:47 here okay so both the keys I have just
+62:50 pasted okay now I will just show you how
+62:51 to get so one is directly from ser. d/
+62:54 API ke okay so directly from this
+62:57 website that you can go into okay and
+62:60 directly you can do a sign up once you
+63:02 do the sign up so it's completely free
+63:04 nothing that you need you have to just
+63:06 do a sign up just uh give your first
+63:09 name okay last name your email and then
+63:12 your password and then you will get a
+63:14 verification mail in your account okay
+63:16 you have to just do the verification and
+63:18 you are good to go so directly you can
+63:20 start accessing the API so once you get
+63:23 the dashboard from this dashboard you
+63:25 have to just click on API key okay and
+63:29 directly you just need to copy this key
+63:30 and paste it here in the EnV file
+63:34 similarly with respect to open key also
+63:37 I think everybody should be familiar
+63:38 working with respect to open key yes I
+63:41 think I don't need to uh repeat that
+63:44 guys yes or
+63:46 no yes or no please let me know in the
+63:49 chat this session will be around 90
+63:51 minutes guys
+63:54 okay yes I think every body knows about
+63:56 how to create a chat GPT open okay chat
+63:59 GPT open
+64:01 key all right if you don't know I will
+64:03 just quickly show you okay so chat
+64:10 GPT okay so platform do from here you
+64:14 can directly go okay I think this
+64:17 account is not signed up
+64:23 but okay so you simple steps direct
+64:27 Google login
+64:39 and I'm just giving any random
+64:41 information just to show you okay so
+64:54 like okay as you can see directly an API
+64:57 key can be generated but I will just do
+64:59 this later for now okay I will Bri
+65:02 credits
+65:03 letter so from here you need to just go
+65:05 to the dashboard section where you can
+65:08 see here directly the dashboard section
+65:10 okay so once you have open this
+65:12 particular page you just need to click
+65:14 on
+65:15 dashboard okay from here you have need
+65:17 to go to this section of API Keys okay
+65:20 so the usage and API Keys you just need
+65:22 to click on this one okay and you will
+65:25 get the option of creating new Secrets
+65:28 okay so just click on this okay and you
+65:30 can simply write okay so my test key
+65:35 something like this okay default project
+65:37 is fine and just click on
+65:39 create okay and directly you can just
+65:41 copy this okay and uh you can paste it
+65:46 in the EnV file and you are good to go
+65:49 okay so there won't be any type of
+65:51 problems yes it's free but it's limited
+65:53 you have to understand that uh for this
+65:56 I have selected chat jpt probably I can
+65:58 go with Kar also like anthropic models
+66:01 so those are also very good okay so
+66:04 easily the llm Integrations can be
+66:06 changed okay and right now whatever
+66:08 thing that I'm showing in this session
+66:09 is completely free you guys can directly
+66:12 open ser and uh openi API Keys okay for
+66:17 free and for this demo it will be more
+66:19 than enough
+66:22 okay all right uh it's a for gini yes I
+66:27 know it's like not so much useful okay
+66:31 but yes it does the job at least for
+66:34 today's session okay because I will be
+66:35 just showing you using a small change
+66:37 you can change the llm
+66:38 company okay so I think these two files
+66:41 are ready and I'm good to go to start
+66:44 working with my app yes guys I think
+66:46 everybody is fine
+66:56 yes like uh I can use some type of other
+66:59 tools but for now like no Auto
+67:01 completion that I'm using okay all right
+67:04 guys so let's pick up the first part
+67:08 okay so I will just start uh now
+67:10 building the agents okay and once the
+67:12 agents are built okay then directly I
+67:14 will just pick up the next part so the
+67:18 first thing that comes around is from
+67:20 EnV okay because I need to load that EnV
+67:22 file so directly I will just write EnV
+67:26 okay and then
+67:30 import uh
+67:32 load.
+67:43 EnV just wait once I update this
+67:47 particular environment it will be
+67:49 better because the auto suggestions are
+67:52 not coming for me directly yet
+67:56 all right now uh EnV okay so the next
+68:01 package that I have okay is basically uh
+68:05 the first one okay so
+68:07 load
+68:10 EnV all right now I will start uh
+68:13 basically writing about the first uh
+68:16 type of task and the agent that I'll be
+68:18 working with Okay so this part is
+68:21 important so just focus on so right now
+68:26 when I'm doing the research okay so like
+68:28 agent one and agent two is there okay
+68:30 according to the system that I have
+68:32 drawn okay so the web search tool is
+68:33 there now you have to do web search on
+68:36 some type of topic okay so it can be any
+68:39 type of topic or any type of do okay so
+68:42 I will be just writing here probably
+68:44 like the topic of the content this will
+68:46 be the main thing at any point of time
+68:48 we will make it Dynamic later on but I
+68:50 will just hard code it for now okay so
+68:52 probably like
+68:54 uh Medical
+68:56 okay
+69:07 uh something like this that I have
+69:09 written here okay medical industry using
+69:12 generative VI so this is just a simple
+69:14 topic that I've given okay and now the
+69:17 next part is I'll be defining a tool so
+69:20 what are the tools that I have defined
+69:21 the llm one so this is the one that I'll
+69:23 be using in the next step I will just
+69:25 write here
+69:26 llm okay and equal to I'll I'll be
+69:29 calling this llm class right now okay so
+69:33 this is basically the llm class that I
+69:36 have and inside this I just need to
+69:38 specify the model that I'll be using
+69:40 okay so model is equal to let's take
+69:43 something like chat GPT 4 okay like uh
+69:46 it works good okay so GPT hyphen
+69:50 4 okay so I need to provide the double
+69:54 code let me just add it
+69:57 here okay so this is the llm definition
+70:01 that I have given other than that okay
+70:02 if I show you the uh little bit with
+70:05 respect to the
+70:08 uh uh introduction like uh with respect
+70:11 to agents when I'm talking about
+70:18 okay llm so right now you can see like
+70:22 uh the integration of llms has been
+70:24 given a lot of focus in C so different
+70:26 type of models are available you can see
+70:28 like Gemini is also available guys okay
+70:31 Nvidia Nim is there okay so any type of
+70:34 Integrations that can be done so right
+70:35 now I have just picked up uh one simple
+70:38 one from open but you can do integration
+70:41 with others also there is no problem at
+70:43 all okay so so many options are there
+70:46 now the question comes how will be
+70:48 integrating the llm in your code okay or
+70:51 when you will be building the
+70:52 application one is basically using the
+70:54 environment variable okay or there is an
+70:58 EML configuration so this particular
+71:00 configurations files are also widely
+71:02 used okay so like many developers are
+71:05 using so this is a better format I will
+71:07 say but for python developers I will say
+71:09 direct code okay now in the code part
+71:12 when I'm showing you you can directly
+71:13 see that one is basically the basic
+71:16 configuration that I have written okay
+71:19 and then comes your Advanced
+71:21 configuration with all the different
+71:22 arguments that you can test it okay so
+71:25 probably like temperature is one of the
+71:26 most common one the idea is more higher
+71:29 more creative okay then timeout is also
+71:31 their Max tokens so all possible
+71:34 configuration but for now I'm not adding
+71:36 all those Advanced configuration I'm
+71:38 just keeping it as a basic simple one
+71:41 okay all
+71:43 right uh I've shown you the llm class
+71:46 also okay the next thing that comes is
+71:48 basically the next tool so this is if I
+71:51 talk about this is
+71:53 our tool one
+71:56 okay and then I'll be talking about our
+71:59 tool
+72:02 to okay and the tool to is
+72:05 basically uh the web search tool if I'm
+72:07 talking about okay now so
+72:11 search underscore tool equal to okay so
+72:14 this is basically the Search tool and I
+72:16 will be using the serer dep tool
+72:18 directly
+72:20 okayer Dev tool okay now as I'm calling
+72:24 this third party tool okay now here I
+72:26 need to give like how many search
+72:28 results that I want so probably like if
+72:30 I give the number okay 10 on now okay I
+72:34 can give it to any number of search
+72:36 result like I can make it 50 60 okay but
+72:40 don't give a lot in one shot okay rather
+72:42 than try to run it in a loop and then
+72:45 try to add it it's a better approach uh
+72:48 there should not be any type of timeout
+72:49 issues so that's why always try to go
+72:51 with lower
+72:52 numbers okay but right now to do a
+72:55 research I need multiple type of sources
+72:58 so that's why at least for now I've
+72:59 given 10 sources okay you can change
+73:01 this
+73:02 number all right so my two tools have
+73:05 been defined now my tools have been
+73:08 defined now the next thing that comes
+73:10 around is Agent I have to write my first
+73:13 agent okay so I'll will be just writing
+73:15 about our agent one so the first agent
+73:18 is basically it will be doing the
+73:20 research if I talk about okay so
+73:23 something like a uh if I give the name a
+73:26 senior
+73:28 research okay
+73:40 analyst okay so this is just a name that
+73:43 I'm giving okay and then simply I can
+73:46 call the agent class agent class very
+73:48 very important this class I'll be
+73:50 showing you the documentation also
+73:52 because we'll be using few parameters
+73:53 from Okay so this is a senior research
+73:57 analyst that I have given so this is
+73:58 basically the name of the agent that you
+74:00 can think about now I'll be coming to
+74:03 the actual rule okay so just I will pass
+74:05 here
+74:07 rule okay and in the rule I'll be giving
+74:10 the role of this agent so when I'm
+74:12 talking about so what will be the role
+74:13 so senior research analyst okay so this
+74:16 is the one that I've have
+74:23 given okay
+74:26 so I've defined the role for this agent
+74:28 then comes goal what will be the goal
+74:30 for this agent it means that finally
+74:32 what will be the output okay like what
+74:35 type of task it will be doing so that we
+74:37 have to Define okay so next thing that
+74:40 comes is basically the
+74:41 go now inside the goal so it's a
+74:45 researcher so for sure it has to do like
+74:47 research analysis okay I can write
+74:50 something like this okay The Prompt is
+74:52 Big right now I'm just manually writing
+74:54 it okay later on when it becomes bigger
+74:57 I will directly copy paste because it's
+74:59 a small one so it works good so
+75:01 synthesize okay like synthesize and
+75:04 comprehensive information on different
+75:05 types of topics if I talk about okay now
+75:08 these things are basically done so uh
+75:11 let me just take this one okay I will
+75:16 just uh take the complete sources
+75:26 just wait okay so I'm doing some changes
+75:37 here okay
+75:40 so if I make the font smaller it will be
+75:43 better yeah so right now see for the
+75:45 goal what I have added here okay so
+75:48 research analyze and synthesize
+75:50 comprehensive information on topic so
+75:52 what is our topic so like medical
+75:54 industry using generative AI okay now
+75:57 this is basically the topic that it will
+75:58 try to search so it so right now I have
+76:01 defined the task and it simply
+76:03 understand so this is the I can say the
+76:06 job description for this particular
+76:08 agent for now now the next thing once I
+76:11 have defined the goal then comes
+76:13 backstory okay so backstory okay now all
+76:18 the things that I'll be showing you okay
+76:20 uh just
+76:22 wa so let me just go to this part okay D
+76:26 I will go to the agent section okay and
+76:28 now just look into the agent attributes
+76:31 the first thing that comes around is the
+76:32 rule okay Define the agent function and
+76:34 expertise within the group okay so this
+76:37 is the rule of the definition then comes
+76:39 goal or basically the purpose if I'm
+76:41 talking about the individual's objective
+76:43 that guides the agent's decision making
+76:46 so this is the goal for that particular
+76:48 agent then comes
+76:50 backstory okay now backstory when I'm
+76:52 talking about provides context and
+76:54 person it to the agent and enriching the
+76:57 interactions okay so backstory it means
+77:00 that you have to give a lot more in
+77:02 detail so let me just add the back story
+77:04 so that you can actually understand what
+77:06 is going on okay so with respect to the
+77:08 backstory let me just add all the
+77:10 strings okay so this part will be a bit
+77:20 long okay so right now see this is a big
+77:22 prompt so I didn't write it manually
+77:25 rather than
+77:25 I simply uh copied it okay so right now
+77:28 just look into the backstory and just
+77:30 try to understand so here we are telling
+77:31 that you are an expert research analyst
+77:34 with Advanced web research skills you
+77:37 excel at finding analyzing and
+77:38 synthesizing information okay from
+77:41 across the internet using Search tool
+77:44 you was skilled at distinguishing
+77:46 reliable resources from unre reliable
+77:49 ones then comes fact checking cross
+77:52 referencing information and identifying
+77:54 key p patterns and insights and you
+77:57 provide well organized resarch so
+77:59 basically I'm just telling the entire
+78:01 backstory for this senior research
+78:04 analyst agent okay so that when I'm
+78:07 talking about if I try to do the search
+78:10 okay then it will try to understand okay
+78:12 now this is basically the job with all
+78:14 the descriptions okay so giving a proper
+78:18 backstory is very very important when
+78:20 you are working with respect to agents
+78:23 okay so sometimes the backstory can be
+78:25 more than 100 lines also okay when you
+78:27 are trying to give a lot of details but
+78:29 right now we have just kept it small
+78:32 okay but yes it can be very very big
+78:35 because here you give all the
+78:37 details uh because the backstory should
+78:40 be detailed if it is not detailed then
+78:42 your answers okay or the result which
+78:44 will be given by the agent it won't be
+78:47 very good okay so that's why very very
+78:49 important with respect to the back story
+78:50 okay so right now three things that we
+78:52 have discussed the first one is the rule
+78:54 okay then comes the goal and then
+78:56 finally comes the backstory okay so the
+78:59 next thing okay so if I talk
+79:06 about okay so I have talked about okay
+79:09 now let's look into some other
+79:10 parameters
+79:12 okay that I can use here right this one
+79:16 can be false allow delegation okay so I
+79:19 tool that one agent can work with
+79:21 another agent okay so that is this
+79:23 particular parameter allow the agent to
+79:25 delegate task to other agents okay by
+79:27 default it is false so like I can add it
+79:30 here in the code
+79:32 also so like
+79:34 allow
+79:36 underscore uh
+79:41 delegation this is
+79:45 false okay so this particular parameter
+79:49 and then BOS is equal to true because
+79:51 this one I need because all the results
+79:54 will be print out in my terminal okay
+79:56 for that I have kept it and now the most
+79:59 important part that comes okay so here I
+80:02 need to add a
+80:03 comma okay now
+80:08 the tools okay now this is where I'll be
+80:11 telling this particular agent one will
+80:14 be using which tool okay because every
+80:17 agent will have access to a certain tool
+80:20 okay so right now I'm giving agent one
+80:23 access to the web search tool that I
+80:24 have created
+80:25 okay so let me just add it inside an
+80:28 array search Okay unders uh sorry not
+80:33 this
+80:34 one so this is the one the tool dat I'm
+80:38 adding
+80:39 okay and then the next thing okay if I
+80:43 want to give access to some other so
+80:45 let's take okay probably to the uh llm
+80:48 also so that is also possible so for
+80:50 this like which llm that I can pick up
+80:53 is equal to llm
+80:56 okay so directly I can pass these
+80:58 parameters and these parameters are only
+80:60 required for now okay and we have
+81:02 defined our agent one I think this part
+81:05 is clear okay because as you can see
+81:07 this is just a small thing that I'm
+81:08 telling so this is the job of agent one
+81:12 okay it will try to research analyze and
+81:14 then try to bring out the information
+81:16 okay from reliable web sources okay and
+81:20 we will try to look into the sources
+81:21 also it's not like that we cannot see we
+81:24 will be seeing that information what are
+81:26 the sources where it has actually looked
+81:28 for the information okay now uh my first
+81:32 agent is done okay now I will try to
+81:35 work with the agent two and then finally
+81:37 I will try to connect with them so hash
+81:39 agent two which is basically the content
+81:44 writer okay so here also in the same way
+81:47 that I'm talking okay so let's create a
+81:50 variable where I'll be calling the agent
+81:51 class so content writer is equal to to
+81:55 the
+81:56 agent okay and then the same things that
+81:59 I have to do for this particular agent
+82:01 also first I have to define a goal okay
+82:03 just like our last time so rule goal
+82:06 backstory here also I have to provide
+82:08 all those information okay so let me
+82:11 just quickly give the rule okay the rule
+82:14 is basically uh I will say a Content
+82:16 writer for
+82:18 now
+82:20 content
+82:22 writer the next thing that comes is
+82:24 basically the goal okay so for goal when
+82:28 I'm talking about okay what will be the
+82:30 goal of a Content writer I will say like
+82:32 uh once it has received all the research
+82:35 okay then it will try to transform that
+82:37 information into better one okay
+82:39 something like that okay I will just
+82:42 write here uh
+82:46 transform research okay
+82:48 findings okay because this is the result
+82:51 of agent one okay research findings that
+82:53 it will be doing so I will just write
+82:56 this transform the research
+82:59 findings for uh
+83:02 into engaging okay like articles it can
+83:06 be it can be blog post okay it can be
+83:08 anything okay so if I just write here
+83:11 blog post that is also possible okay
+83:15 while maintaining accuracy the result or
+83:19 basically the source of the information
+83:21 okay that it will try to uh uh like uh
+83:26 add it in the block it should be very
+83:28 very accurate so that's why we are also
+83:29 giving the term like maintaining
+83:32 accuracy
+83:33 okay uh so this is the goal for this
+83:38 particular agent you can write it much
+83:40 more okay but for now I think this goal
+83:42 is sufficient now the next thing after
+83:44 the goal we need to define the back
+83:46 story and the back story is a long
+83:48 information basically as you can see
+83:51 here similarly like you are an expert in
+83:53 content writing okay we be adding that
+83:57 backstory okay so back story equal to
+83:60 okay then a long piece of string that
+84:03 I'll be just adding
+84:10 it okay so right now if you look into
+84:12 the backstory that I have given for this
+84:14 particular agent content writer you are
+84:16 a skilled content writer specialized in
+84:18 creating engaging accessible content
+84:21 from technical research you work closely
+84:23 with the senior research analyst and
+84:25 Exel at maintaining the perfect balance
+84:28 between the informative and entertaining
+84:30 writing okay while ensuring all the
+84:32 facts and citations from the research as
+84:34 you can see this we have mentioned this
+84:36 was the part that even like I try to
+84:38 focus on because whenever you are
+84:40 getting a result from the Internet it's
+84:42 always good to at least validate that
+84:45 information so that's why I have asked
+84:47 that okay please add the citations okay
+84:49 and everything now you have a talent for
+84:52 making complex topics approachable
+84:54 without
+84:56 oversimplifying okay now this is a
+84:57 simple backstory that I have defined
+84:60 okay now let me just
+85:03 look uh yeah yes agents can be uh uh yes
+85:08 it can be more than a tool sometimes we
+85:10 do create custom tools also okay as you
+85:13 can see here like uh multiple type of
+85:16 things like response Le so a lot of
+85:18 things that can be configured with
+85:20 respect to agent okay so that's why I
+85:23 showed you the examples is directly okay
+85:25 so that it becomes easier and directly
+85:27 you can jump into the documentation to
+85:29 do any type of changes okay so once
+85:32 agent is done then comes task okay so
+85:35 that will be the next part basically
+85:37 that will be talking about the task once
+85:39 we have done with respect to the agents
+85:41 and finally we will come to the crew
+85:43 okay the idea is to uh start the crew
+85:46 the crew will give the order to all the
+85:48 agents okay so now we'll be working on
+85:50 that particular
+85:52 part okay so this this is the one and uh
+85:56 all the other parameters that I had last
+85:59 time so these are the same ones okay
+86:03 that I'll be working with so the first
+86:06 one if I talk about okay so the allow
+86:09 delegation here also I will just copy
+86:11 paste this particular parameter veros is
+86:14 equal to true I will keep it again the
+86:15 same one okay and here I don't need that
+86:18 web search okay only that llm part
+86:21 that so let me just uh give this
+86:27 back so these two tools and then llm
+86:30 equal to llm okay for agent two I'm not
+86:33 giving access to web search guys as you
+86:35 can see for agent one I have given the
+86:37 access to search tool but this time new
+86:40 tools that I have added just the
+86:41 internal tool so that is default the llm
+86:44 one if I talk okay so two things are
+86:46 done and now both of my agent the mean
+86:50 part okay is done so agent definitions
+86:52 has been defined now I will come to the
+86:54 task very very important okay the first
+86:57 task I told you I have two task the
+86:59 research task and then the content
+87:01 writing task okay so the research task
+87:05 if I
+87:08 talk okay why I make a
+87:12 mistake okay the research task so let me
+87:15 just write the task guys quickly so what
+87:18 will be the tasks can anyone tell me
+87:20 okay like you have to give all the
+87:22 prompts in detail with respect to the
+87:24 task so I'll be just showing you okay so
+87:27 research _ tasks equal
+87:35 to okay so research uncore task okay and
+87:38 here directly I'll be defining my task
+87:42 okay and then I have to give all the
+87:44 details about the task the first thing
+87:46 that comes is basically the description
+87:48 of the task okay so the
+87:53 description okay like what is the
+87:55 description simply okay so that we have
+87:57 to
+87:60 give now inside this particular
+88:02 description okay we'll be giving all the
+88:04 details okay so when I'm talking about
+88:06 all the details it means really all the
+88:08 details with respect to the research
+88:11 stock step by step that I'll be adding
+88:13 so let me just uh get all those okay
+88:18 so back to this one yeah
+88:31 okay so I will just picking this up here
+88:34 right now as you can see here so I have
+88:37 uh given some type of task and right now
+88:39 you can see the name of the task that so
+88:41 conduct comprehensive research on the
+88:43 topic so topic is basically the variable
+88:45 that we have defined above in the top so
+88:48 this is basically the topic okay and
+88:50 this particular topic that I'm using so
+88:52 recent developments and news key
+88:54 industry Trends and Innovations expert
+88:56 opinions and Analysis statistical data
+88:59 and Market insights evaluate for
+89:02 credibility and fact check all
+89:04 information organize findings into a
+89:07 structured uh research beef include all
+89:10 relevant citations and resources as you
+89:12 can see like this is a high level
+89:14 description that I have given here okay
+89:16 so I can directly close this task here
+89:20 okay so now this description is
+89:22 basically done then comes like after the
+89:25 description what will be the expected
+89:27 output okay so this is the next one so
+89:31 you need some type of sample okay uh to
+89:33 provide it expected output is the next
+89:37 one so as you can see here it's pretty
+89:40 much about prompting you need to write
+89:42 very good prompt I hope everyone can
+89:45 understand this it means that you have
+89:46 to actually analyze with respect to
+89:48 simple English language you are writing
+89:50 the prompt okay and then the agents are
+89:53 working so this is is one of the cool
+89:55 things about agents like agent TK okay
+89:59 it means that manually like everything
+90:01 you don't need to code but yes I will
+90:02 say that it's not like you can handle
+90:05 them to a certain constraint but not
+90:07 like with respect to programming
+90:09 language because with respect to
+90:11 programming languages if I'm talking
+90:12 about so just think about okay if you
+90:14 are creating a website and when I'm
+90:16 telling that please do a login then you
+90:18 have to write your username okay and
+90:20 password so there I know in the username
+90:23 I cannot give any type of like special
+90:24 strength now there are constant but here
+90:27 when like your Agent K or basically your
+90:30 agents will try to do the search it can
+90:32 get any type of information it's not
+90:35 necessary it can be only text it can be
+90:37 tables it can be markdown it can be Json
+90:40 data it can be CSV tsv any type of data
+90:44 so where if I try to compare like
+90:46 traditional programming with respect to
+90:48 like agent AI so there where it differs
+90:52 it's completely Dynamic with respect to
+90:54 agents when we are working with it can
+90:56 take any type of data okay all we need
+90:58 to is make the agent prepared beforehand
+91:01 that yes this is the incoming type of
+91:03 data that you will be getting so this is
+91:06 one of the best things that I feel that
+91:08 okay with respect to agents now let me
+91:10 get an expected output okay
+91:13 so I will just add this particular
+91:17 output okay so this is one of the
+91:18 expected one so as you can see here a
+91:21 detailed research report containing
+91:23 executed summary of key findings okay so
+91:26 I'm just telling like in the output what
+91:28 I want okay so a detailed output then
+91:32 comes comprehensive analysis of current
+91:34 trends and developments then comes list
+91:36 of verified facts and statistics okay
+91:39 all citations and links to original
+91:41 sources this is one of the most
+91:43 important Point like at any point of
+91:45 time if you want to do research just
+91:47 pass out this information okay and you
+91:50 can directly all the links and the
+91:52 citations to the research papers and
+91:53 other things will be given to clear
+91:56 categorization of main themes and
+91:58 patterns okay and please format with
+92:01 clear sections and bullet point for easy
+92:03 reference and even later on we will tell
+92:05 you that even if you want the file okay
+92:08 it will make like uh heading also H1 H3
+92:12 just like in markdown that can also be
+92:14 done okay so a lot of flexibilities are
+92:18 available here and finally that comes is
+92:20 basically the agent part okay now this
+92:23 particular task will be attached to
+92:25 which agent yes guys now this particular
+92:29 task of comprehensive research including
+92:32 this will be attached to our first agent
+92:35 if you remember so this is the senior
+92:37 research analyst I will just copy this
+92:40 particular object okay or basically
+92:42 because this is the object of the class
+92:44 agent and I'll be directly attaching it
+92:49 here so pretty much easy stuff okay so
+92:52 nothing fancy here okay so right now I
+92:55 have defined the task but this task will
+92:57 be done by which agent you have to just
+92:59 attach that okay so this is basically
+93:01 the agent okay that you need to work
+93:04 okay so similarly for Content writing
+93:06 also if I'm talking about the next task
+93:08 that I'll be talking about is our
+93:10 content writing the task
+93:16 to the content
+93:22 writing now for this again the same
+93:24 thing okay I have to call the task class
+93:27 okay and for this so let me just start
+93:30 with a variable so something like
+93:32 uh writing
+93:37 okay task equal to okay now the next
+93:40 thing that I can simply again I have to
+93:42 call my task and all those things that I
+93:44 have added last time even I have to add
+93:46 it for this particular task also okay so
+93:48 one of them was description if you
+93:50 remember
+93:54 now in the description what I have to
+93:55 give okay all the details so directly if
+93:59 I say I will just add those details so
+94:01 that you get a quick understanding
+94:04 because again a big problem that comes
+94:06 into the
+94:07 picture Okay
+94:11 so writing okay Z
+94:16 okay task with respect to description
+94:19 okay all right description equal to
+94:35 all right I will just attach two
+94:38 blocks
+94:40 just all right so this is just the
+94:42 description okay so for now okay this is
+94:45 the
+94:47 part
+94:52 yes all right so if you just look into
+94:55 the text that I have added okay I will
+94:56 change the indentation don't worry but
+94:58 just look into this particular
+95:00 description so transform the technical
+95:03 information into an accessible content
+95:05 okay now this is basically the idea if I
+95:07 talk about okay with respect to the
+95:09 writing task okay just wait let me just
+95:12 take this entire thing okay I just
+95:16 delete it okay paste it here yeah so
+95:18 this is better okay so right now as you
+95:21 can see here directly so transform
+95:23 technical information into accessible
+95:25 content maintain all the factual current
+95:27 accuracy and the citations from the
+95:29 research okay attention grabbing
+95:31 introduction as you can see like
+95:33 introduction of that article it should
+95:34 be attention grabbing okay it means that
+95:37 okay it will try to write in that way
+95:39 then comes well structured body sections
+95:41 with clear headings okay now for Content
+95:44 writing all the rules for the content
+95:46 writing you can add so for example if
+95:48 you want like the first ER to be H1 then
+95:51 probably after that you want the main
+95:53 content to be in H2 to all those
+95:55 definitions that can be done okay
+95:57 preserves all the citation in Source URL
+95:59 format okay you can see even the format
+96:01 for the sign like citations okay like in
+96:04 some other use cases with respect to
+96:06 like technical research probably
+96:08 somebody might create an appendix okay
+96:10 and inside that appendix all the links
+96:13 okay that can be added so that is also
+96:15 possible okay so in this way you need to
+96:18 add it then the next thing that comes is
+96:20 basically your expected output
+96:24 again expected output again uh huge
+96:27 amount of text is there okay so I will
+96:30 just try to get
+96:36 it okay so now the expected output for
+96:40 this particular task because yes I have
+96:41 given all the instruction to this uh
+96:44 like all the instruction for this
+96:46 particular task to be done but again
+96:48 like what is the output that I want okay
+96:50 so that is important so right now as if
+96:53 you look here
+96:54 so the first thing is a polished block
+96:56 flows okay markdown format engages the
+96:59 readers while maintaining the accuracy
+97:01 contents properly structured sections
+97:04 okay includes the inline citations
+97:05 hyperlink to original Source URL then
+97:08 comes presents information in an
+97:10 accessible yet informative way and you
+97:13 can see like follow markdown very very
+97:15 important because finally I will be
+97:17 showing you the markdown file okay so
+97:20 the result is completely markdown which
+97:22 is supported by many like uh blog
+97:25 platforms if I'm talking about use H1
+97:28 for title and H3 for subsections so the
+97:30 rules have been added okay now the next
+97:33 thing is you need to add the agent this
+97:35 particular task will be used by which
+97:37 agent which is basically our content
+97:40 writer agent okay so my content writer
+97:43 agent is this one so I will just copy
+97:45 this content writer okay and I will add
+97:48 it
+97:49 here okay so I have added it okay and
+97:52 finally if I talk about about okay so I
+97:54 need to close this
+98:00 one all right now it is closed so this
+98:03 particular task is also done so if I
+98:06 talk about okay so I will just uh
+98:09 decrease the font okay little bit just
+98:11 to show you everything in high level
+98:13 what we have done till first we have
+98:15 done the basic Imports with respect to
+98:17 agent task cre okay and as you can see
+98:20 till now we have not worked with crew
+98:22 but soon we'll be working with
+98:24 then comes I have just given a random
+98:26 topic for now okay so which I'll be
+98:28 doing the testing with then comes your
+98:30 llm so right now I picked up from the
+98:32 open family but you are like you can use
+98:36 any other families like the anthropic
+98:38 ones okay AMA and others then comes this
+98:41 is our agent the first agent that I have
+98:44 created the senior research analyst okay
+98:46 and I have given what is the role of
+98:48 this particular agent what is the goal
+98:50 of this agent and then comes the
+98:51 backstory okay and this particular
+98:54 agent won't be manipulating any other
+98:57 agent so that's why the delegation task
+98:60 is right now false okay I want my
+99:02 results to be printed in terminal that's
+99:04 why veros is equal to true and tools is
+99:06 equal to search tool because for this
+99:08 particular agent I want to perform a web
+99:11 search okay so because of that
+99:12 particular information I have attached
+99:14 it okay and then finally comes our
+99:16 content writer agent so this is
+99:18 basically the role the goal and the
+99:20 backstory okay so these things are
+99:22 pretty much simple and I think everybody
+99:24 should be clear because this is pretty
+99:26 much simple English language
+99:29 instructions that we are providing to
+99:31 the agent okay so that is one of the
+99:34 cool things here okay now the task is
+99:37 done guys okay now I need to get my the
+99:41 crew if I'm talking about so if you
+99:44 understand okay so when I talk about the
+99:46 first level of hierarchy that comes okay
+99:49 so this entire thing the top level
+99:51 organization I'll be getting the crew
+99:53 now
+99:54 okay so let's define the crew
+99:57 first okay so let me take so I can
+100:01 directly write cre equal to This Crew
+100:04 class that I have okay now inside this
+100:06 particular class okay like I'll be
+100:09 adding few things first of all
+100:11 agents so first of all what are the
+100:14 agents that I have I have two agents
+100:16 with
+100:17 me the first agent is the senior
+100:21 research analyst agent okay so I'll be
+100:23 just adding adding that inside the
+100:27 crew okay and then comes our second one
+100:31 which is basically the content writer
+100:33 okay so this is the second agent that I
+100:35 have I will just copy the name of this
+100:38 one okay or basically I'm calling the
+100:40 object directly as you can see for that
+100:42 particular class with respect to Python
+100:44 Programming if I talk about okay so
+100:47 agents I have defined now come the tasks
+100:49 part because those things needs to be
+100:51 executed also so tasks
+100:59 okay so I have two tasks with me one is
+101:01 basically uh the first task is the
+101:04 research
+101:05 tasks okay let me just copy this one and
+101:10 add it
+101:11 here okay and the second one that I have
+101:14 is the content writing task or basically
+101:17 the complete writing editing and other
+101:19 stuff that it will try
+101:22 to Okay so so I have added in the crew
+101:25 okay so I'm telling that okay so I have
+101:27 added the agents I have added the task
+101:29 what is the next thing okay so finally
+101:32 like I want all the results to be shown
+101:34 in my terminal so that's why veros is
+101:36 equal to true that I am adding okay and
+101:40 I am good to go okay because this is
+101:42 ready and I just need to just call this
+101:45 object okay so that everything starts
+101:48 off okay the idea is to kick off this
+101:50 entire orchestration generally threeway
+101:53 I use is the term kick off okay it means
+101:55 that kick off the project or somehow
+101:58 start the project this entire execution
+102:00 I will just write like result equal to
+102:02 I'm just saving this just like a
+102:04 variable for now okay so cre dot okay so
+102:09 kick off as you can see as I told we can
+102:12 directly write it and then we have to
+102:14 pass the inputs so what are basically
+102:16 the input to
+102:21 this okay so my input is can anybody
+102:25 tell me what is the input guys the input
+102:28 is basically the topic if you remember
+102:30 that was the first thing that we
+102:33 had okay and uh actually I need to keep
+102:36 this within a dictionary format okay so
+102:39 that's why it's coming input with
+102:42 respect
+102:43 to uh
+102:46 just input came around okay and equal
+102:52 to with respect to the topic yeah I
+102:56 think now I'm good to go yes so
+102:58 everything is ready okay and finally
+103:00 like I can simply say a print result
+103:02 will help me to
+103:04 understand okay all
+103:07 right all right so majorly with respect
+103:10 to the task is done guys okay so no more
+103:12 coding into this particular file this
+103:14 file has been like completely done okay
+103:18 like any type of questions that you want
+103:21 me to ask okay I can uh yes I can create
+103:24 a custom tool also okay because right
+103:26 now I'm looking into the chat okay so
+103:28 yes custom tools can be done okay so can
+103:33 we get the get repo okay see right now
+103:35 this is just a single file Ive not
+103:37 created any repo for this particular
+103:39 demo if I'm talking about okay uh but
+103:41 yes I can do that okay but later on ADD
+103:44 it uh like in the comments okay so that
+103:47 I'll be doing it later but for now as
+103:50 you can see like this is not tough if I
+103:52 talk about like if I talk about the
+103:54 fundamentals of deep learning the
+103:55 mathematics and the other stuff those
+103:57 things were tough with respect to
+103:58 reinforcement learning pure mathematics
+104:01 that comes but here it's not so much
+104:03 stuff like you really don't need to deal
+104:05 with you just just need to write very
+104:07 good prompts okay so that's why prompt
+104:10 Engineers right now pretty much trending
+104:13 okay uh I can say okay but again uh you
+104:17 have to understand with respect to the
+104:19 development perspect also okay so not to
+104:22 a certain level prompt Engineers can do
+104:24 it but again at the end of the day you
+104:26 need AI Engineers for complete
+104:29 customization all right guys so this
+104:31 part I have added now I will just try to
+104:33 execute and let see that everything
+104:36 works or not probably that I can get
+104:39 some error
+104:40 also
+104:43 so uh so the first thing that I'll be
+104:46 picking up is Fon okay and then it's
+104:49 app.py okay let me see what happens here
+104:54 okay uh it looks like I not done the
+104:56 installation of those tools okay so
+104:58 quickly let me just do the installation
+105:01 okay P install one was crei if you
+105:03 remember
+105:05 okay uh then comes 3ii tools okay and
+105:09 finally
+105:11 streamlet okay I know the name of all
+105:13 the packages so I'm just writing
+105:15 otherwise I can just do p install hyphen
+105:18 requirement. txt also so that is also
+105:21 fine with me no issue
+105:23 okay
+105:25 so now this installation will take some
+105:28 time okay so I forgot to do the
+105:30 installation in the first step but
+105:32 yes for me already this packages are
+105:35 installed so it will be just picking up
+105:36 from the catcher
+105:38 directly okay you can create an agent
+105:40 that convert text into yes SQL queries
+105:42 again that is possible with a rag also
+105:44 it is possible Dusty one okay so the
+105:47 kick off TT of the running the agents
+105:50 and then agent to yes rendra that's the
+105:52 exact thing
+105:54 okay uh so where is the report going uh
+105:57 to be stored the output right now it
+105:59 will be just downloaded in my local
+106:00 machine see when I'll be building that
+106:03 web application with respect to
+106:05 streamlit then I'll be adding that
+106:06 downloading functional but right now in
+106:09 this script I have not added anything
+106:11 okay it's pure just the core crei part
+106:14 later on this particular application
+106:16 I'll be putting it on top of the stream
+106:18 L okay so that will be the next part of
+106:20 the demo but at least let's see
+106:22 everything is working fine
+106:24 can you create this in a way that the
+106:25 topic can be inputed by us sir yes yes
+106:28 we are that's the exact thing that we
+106:30 are going to do okay because in the
+106:32 streamlet app I will be giving you a
+106:35 text area where you can actually write
+106:37 those things this is enough for any
+106:40 agent so this is the most basic agent
+106:42 guys okay now this is the most simple
+106:44 thing that we are discussing it can be
+106:47 more complex an agent can do a lot of
+106:49 things okay like inside agent like there
+106:52 can be multiple type of task you have to
+106:54 think in that way right now here I have
+106:56 given an agent a single task but you can
+106:59 give like an Insight an agent there are
+107:01 multiple tasks okay so multiple tools
+107:04 it's using it can be much more complex
+107:06 architecture but for now we have kept it
+107:09 okay so guys I have done the
+107:10 installation okay and it looks good so
+107:13 let me just execute this python app.py
+107:16 let me see there I can get error also no
+107:20 uh restrictions are
+107:22 there where is this available in Udi no
+107:25 no so tell now like uh I think agent
+107:29 course is coming up in live classes only
+107:32 okay and probably like within the next
+107:35 like one month or two month it will be
+107:36 coming in Udi also okay but for not for
+107:39 now shantonu are you going to share the
+107:42 code files after the session yes it will
+107:44 be shared like in the comments or
+107:45 somewhere like I will
+107:47 ask
+107:49 okay okay our start start mapping with
+107:52 respect to a cre okay okay so uh let me
+107:55 just look into this particular format
+107:57 once
+107:59 okay okay kick off course equal to okay
+108:04 so this was the dictionary format
+108:06 probably I might have done some
+108:10 mistake okay so this is the error let me
+108:14 just look into the format once okay I
+108:17 forgot the core topic actually okay so
+108:19 inputs is equal to first I have to
+108:22 provide a key
+108:26 topic okay
+108:28 and uh this is the one okay so I think
+108:31 now I'm good to
+108:34 go the error should be solved input is
+108:37 equal to
+108:47 okay all right okay so right now as you
+108:51 can see I have given verbos is equal to
+108:52 two so basically you can look into the
+108:54 task the agent the senior research
+108:56 analyst and for that particular agent
+108:59 you can see this is the task conduct
+109:01 comprehensive research on medical
+109:02 industry using generative AI recent
+109:04 developments and new ski industry trains
+109:06 okay and based on that if I talk about
+109:09 okay thought okay now the agent is
+109:11 basically like the thought of the agent
+109:13 I need to start my research by searching
+109:16 for recent developments okay you can see
+109:18 that okay now cre gives that scenario
+109:20 like what the agent is thinking so that
+109:23 particular thought then comes this agent
+109:26 is using which tool search the internet
+109:28 then comes tool input okay so gener TBI
+109:31 in the medical industry recent
+109:33 developments and news Okay so little bit
+109:36 paraphrasing with respect to the topic
+109:38 that I have provided and finally you can
+109:40 see some answer here if I talk like
+109:42 search parameters Q okay and here you
+109:44 can see some sources are also there like
+109:47 go.go products okay so medical devices
+109:51 okay so yes deo.com
+109:53 see okay then comes v.net okay so
+109:57 multiple sources are so this is
+109:59 basically the tool output and I will say
+110:01 that t yes the research is done okay and
+110:04 with all the important things okay so
+110:06 this output looks good to me now the
+110:09 next thing after fetching this okay then
+110:11 again this particular agent uh the
+110:13 senior research analyst agent okay with
+110:15 the thought is coming based on the
+110:17 search result I have collected a
+110:19 significant amount of information about
+110:21 recent developments and news about about
+110:23 gen in medical industry this include
+110:27 industry Trends such as gen okay and you
+110:29 can see like lot of descriptions the
+110:31 sources have been given us go mckeny f
+110:35 aard medical school okay so it has
+110:37 picked up from good places I can say
+110:39 like the top 2030 results okay from the
+110:42 serer de
+110:44 API and finally like based on this the
+110:47 complete parameters have been shown okay
+110:49 like see guys all these things are being
+110:52 shown right here okay now uh the next
+110:55 thing because so many information I'm
+110:57 not going to read for you but I'll be
+110:58 showing you when I'll be showing with
+111:00 respect to uh basically uh the stream L
+111:05 okay but for now you can see a lot of
+111:07 things that have been uh finally and you
+111:09 can see like content length exceeded
+111:11 summarizing content to fit the model
+111:13 context okay it's fine for me okay so I
+111:15 can simply understand it's working okay
+111:19 all right now the next thing so let's
+111:20 start working with the streamlet Okay so
+111:23 right now 9:51 so probably it will take
+111:25 just 15 to 20 minutes much more okay
+111:28 because I have the boiler plate with me
+111:30 and the app is working fine okay quickly
+111:33 what I will do I will just try to start
+111:35 working with the streamlet
+111:37 app okay so when I'm working with uh
+111:40 respect to stream late okay so let me
+111:43 just copy paste all the major ones so
+111:46 from my
+111:47 app.py okay so I'll be just copy pasting
+111:51 everything
+111:56 to my stream L app okay because this is
+111:58 the same file that I'm using but with
+112:00 some type of changes just because of
+112:02 streamlit guys okay now in streamlit
+112:04 there are certain things that I need to
+112:07 take care of okay uh so I'm just quickly
+112:11 taking those things and discussing with
+112:13 you okay so the first thing is I need to
+112:16 work with import stream
+112:21 lit uh as as St okay yes so this is the
+112:25 input that I have given okay and right
+112:28 now you can see till now the research is
+112:30 going okay you can see some type of
+112:31 result okay and finally see this is just
+112:34 a simple like task of the final answer
+112:37 of the research analyst till now it will
+112:39 be going so I don't want to show you
+112:41 everything here but let's start working
+112:43 it will be better to show you inside the
+112:45 app directly so the first thing is like
+112:48 stimulate configuration page okay so
+112:50 here just these are the most basic with
+112:53 respect to stream L okay the page
+112:55 configuration settings where I am
+112:56 passing the title of the page and then
+112:59 comes the uh what will be that header
+113:02 okay then comes the title and the
+113:04 markdown so simple title and description
+113:06 for a web page just you do in HTML and
+113:09 CSS now the next thing quickly I will
+113:11 just uh
+113:13 get uh with respect to the other
+113:16 handlers okay so like I need the sidebar
+113:20 okay I'll be creating a sidebar guys
+113:23 this time so I'll be just showing you
+113:24 how the sidebar will look like okay in
+113:26 high level okay but uh yes it will take
+113:29 some time so let me just minimize this
+113:31 because see right now in the terminal
+113:33 the execution that I have done so this
+113:35 is the final answer that I got okay
+113:37 first generative node personal research
+113:40 okay this is the final blog that is
+113:43 ready actually for us okay so the blog
+113:46 is read in the terminal but again to
+113:48 decode everything from here it will be
+113:50 tough so right now as you can see I'm
+113:52 just cre creting a sidebar inside stream
+113:55 lit okay and I'm telling that content
+113:56 settings so I'm here I'm telling enter
+113:59 the topic okay so this is the place the
+114:01 text area where you can directly pass
+114:03 the thing then height is 100 is more
+114:06 than enough okay so height is pretty
+114:08 long placeholder enter the topic okay
+114:10 this I'm adding it then comes mark down
+114:12 the llm settings so here I'm just adding
+114:15 one thing because last time if you
+114:16 remember when I have defined my llm okay
+114:19 I have not given any type of advanced
+114:21 settings you can play with the temporary
+114:23 higher the better okay for more
+114:25 creativity so that can be added and now
+114:28 the next thing that comes okay so here I
+114:31 have added the temperature part also
+114:32 guys so simply you can understand this
+114:34 okay now finally with this expander okay
+114:38 so there are some more information about
+114:40 the web app okay that we have entered
+114:42 here so entering the desired content
+114:45 topic then comes like play with the
+114:46 temperature so free instructions have
+114:49 been given in your app which will be
+114:51 shown to you directly okay and now in
+114:53 the next thing is directly see that
+114:55 particular content that I have okay I
+114:57 will just pick it up uh okay and I will
+115:02 just paste it
+115:05 here okay because this is the same piece
+115:08 of code that I have so I'm not going to
+115:10 rewrite the entire code but yes so this
+115:13 is the main function the generate
+115:16 function so right now what I have done
+115:18 see I have just created a function Dev
+115:20 generate content okay okay and this is
+115:23 an argument the topic argument okay now
+115:26 from here it will get the argument if
+115:28 you remember from here topic this topic
+115:30 that I'll be keeping it in text area
+115:32 okay so you can actually enter your own
+115:34 topic also and you can do your research
+115:37 directly okay so uh and uh here in the
+115:40 temperature the range is between 0 to
+115:42 one but the default value that we are
+115:45 using is 0.1 so you can change the
+115:47 default value settings from the slider
+115:49 because the slider will be given to you
+115:51 in stream so if I talk about so most of
+115:54 the things are done okay and uh with
+115:57 respect to the code okay so in this
+115:59 particular function it's the same thing
+116:00 llm that has been added Search tool okay
+116:03 so exact same piece of code that I have
+116:05 attached it but kept it inside a
+116:07 function and you can just see the return
+116:10 type of this function the return type is
+116:12 directly that I'm not keeping the result
+116:15 inside a variable just like last time I
+116:17 have done it if you remember in the last
+116:19 time I kept it in the result variable
+116:22 this time I have just changed it okay
+116:24 and I'm directly returning the result to
+116:26 me rather saving and now you can see uh
+116:29 this is there is a download button that
+116:31 I am telling that the content of the
+116:34 content writer which has been generated
+116:36 even you can download that okay so that
+116:39 will be a markdown file so this
+116:41 particular option also that we are
+116:42 giving directly okay now this particular
+116:45 application will take some time for
+116:46 execution so let me just uh uh open the
+116:51 terminal once
+116:53 okay I think here the executions were
+116:55 going
+116:57 okay now I will run the stream lit app
+117:00 guys okay so to run a streamlit app okay
+117:03 you know that first you have to write
+117:05 streamlit then run okay and then the
+117:07 Stream litore app that I have okay now
+117:11 this is basically the format okay so let
+117:12 me just run
+117:16 it hope the app works perfect okay it
+117:20 might take some time
+117:35 okay so this is the local
+117:45 hor that should open sometimes it create
+117:49 problems
+117:54 because the app in up and
+118:13 working all right let me check because
+118:16 here there is no error but there is a
+118:19 problem with respect to the app it looks
+118:21 like just wait let me have a
+118:35 check okay I've just stopped the
+118:37 application it looks like any other
+118:40 executions are going
+118:42 on I will just kill all the applications
+118:45 which are running here
+118:59 okay all right let me now try Okay
+119:01 because probably that Port was getting
+119:03 used so the application was not working
+119:06 stream
+119:23 the app is taking some time to
+119:44 load it's taking too much time actually
+120:05 sorry guys so looks like because here
+120:08 the Cod is up and working okay and I can
+120:12 see the results also
+120:14 here okay okay this is the streamlit
+120:18 okay it looks like I have executed
+120:20 different one okay just wait
+120:24 uh streamate run app okay it's the wrong
+120:28 one okay
+120:30 yes now I hope that it should
+120:39 work all right so if I just show you
+120:42 this one okay so right now this is the
+120:46 ey of this particular app that we have
+120:48 built guys okay so and I think this is
+120:51 visible to everyone so content research
+120:53 and writer powered by right now okay is
+120:57 a network Ur no so actually my port was
+120:60 already used by another application okay
+121:02 that's I sto that application now it's
+121:05 working fine enter the topic so
+121:07 something like uh if I talk about the uh
+121:12 uses of uh
+121:15 generative AI in medical industry okay
+121:19 so this was the last time you you
+121:21 remember the prompt okay Now the default
+121:23 one is the temperature okay now it will
+121:25 take some time for sure but guys okay we
+121:27 can see time some type of res okay
+121:31 because the uh response time of the API
+121:34 and then again your llm will actually
+121:37 look into that and it will finally do
+121:40 complete the research so that takes time
+121:43 so here it's not like within 3
+121:45 milliseconds you will get the respon
+121:47 okay so internally the LM is doing the
+121:50 processing and we have selected the uh
+121:53 gp4 for now okay so let's see and just
+121:57 uh I will show you how finally things
+121:58 looks
+122:01 like okay and behind the scenes you can
+122:03 directly look into the terminal just for
+122:05 better understanding see in the terminal
+122:07 okay so once I have started the
+122:09 execution okay so if you look into so
+122:12 see I have run this TriMet
+122:14 app.py after that you can see the
+122:16 research analyst task that came okay now
+122:18 it's actually doing the research and it
+122:21 will finally come up
+122:23 long time it takes so but uh let's look
+122:30 into and finally like uh once the
+122:33 content is generated then only we can
+122:35 try to download it in markdown file
+122:40 format save the file yes we'll be saving
+122:42 the file don't worry like whatever the
+122:44 research is there we will try to save it
+122:46 okay shba my boss is the network works
+122:49 on internet yes you can try that uh okay
+122:52 yes sir can we create online courses
+122:54 like this please yes we are actually see
+122:56 first like recording actually takes time
+122:59 much more uh as compared to like
+123:01 providing live classes guys okay live I
+123:03 know that I can directly go and deliver
+123:05 but for recording a complete setup
+123:08 complete like an isolated area okay and
+123:10 it takes little bit of time then comes
+123:12 that video editing Journey a lot of
+123:14 things that comes into pictures so
+123:16 delivering a recorded content takes more
+123:18 time as compared to a live so here this
+123:21 agent tki course okay which M has told
+123:23 you about okay for sure it will be
+123:26 coming in UD in the next few months okay
+123:28 but we are starting with the live coures
+123:30 first and this topic is right now very
+123:32 very hot you can say in 2025 and the
+123:36 like the third and the fourth quarter of
+123:38 2024 okay but yes like langra very very
+123:43 important like I thought about
+123:44 discussing about kui but I love langra
+123:47 much more if I
+123:49 talk with respect to production work if
+123:52 you you can ask okay so yes it's really
+123:55 like when you are working with the land
+123:56 chain ecosystem okay with respect to
+123:58 production works it's tough but it's
+124:01 possible it's not like that it cannot be
+124:04 done okay so let's hope the content gets
+124:08 generated now it should be done okay let
+124:10 me look into the terminal because from
+124:12 the terminal I will get to know okay you
+124:15 can see like so many type of like
+124:16 generative applications in medical
+124:18 industry again the search query okay it
+124:21 will try to like see Genera and disease
+124:23 diagnosis see you can see the query is
+124:25 getting modified it's not like that the
+124:28 one that I have given it's hard coded
+124:30 the agent is
+124:32 smart okay so like it will try to
+124:36 rephrase that into multiple ways but the
+124:39 semantics will be the same okay the
+124:42 meaning is same and based on that it's
+124:44 trying to find see generative drug
+124:47 Discovery I haven't told anything about
+124:48 that but it understood and it then
+124:51 changed it so it's cool like with when
+124:54 you are working with respect to agents
+124:56 it's very very good because few things
+124:59 are there where I feel that traditional
+125:01 programming there's a constant with
+125:03 respect to like working with agents it's
+125:05 much more
+125:07 flexible okay so so many see that's why
+125:10 if the researcher is taking so much time
+125:12 to do the research okay then again the
+125:14 content writer will also take
+125:17 something okay you can see like llm
+125:19 light called okay and the input of the
+125:22 tokens must be generated okay now lot of
+125:25 research is going on inside this we have
+125:27 not given any fixed length right now but
+125:30 uh let's
+125:33 see okay uh so it looks like search the
+125:36 internet search query and based on the
+125:38 following formats is done okay now the
+125:41 content writer work will start
+125:45 soon the first part task is done guys
+125:48 okay now the next part will start for
+125:49 the execution
+125:58 okay it's trying to uh look for more
+126:01 sources great that's a good thing okay
+126:05 so here we have not restricted and right
+126:07 now even if I talk about the number of
+126:10 searches okay that I have restricted it
+126:12 to 10 okay you can see based on those 10
+126:15 so probably I can decrease this number
+126:18 okay so that you get your output in a
+126:20 faster way that is also possible later
+126:22 on you can play with this okay and this
+126:25 thing because the source code will be
+126:26 available for sure
+126:28 okay all right now let's get back
+126:32 because because of
+126:34 this generating the content is time
+126:37 taking
+126:59 and every time you can see there is a
+127:01 credits one okay so whenever you was
+127:03 spending the credits in Surfer a you
+127:06 have to understand okay so this thing
+127:07 also I'm just telling you about you have
+127:09 to understand that whenever you are
+127:11 working with okay so you have credits
+127:14 okay so that's why credits left so
+127:16 whenever you are doing a single search
+127:18 for a single post so you will be
+127:20 exhausting that particular credit
+127:23 application in health care is anywhere
+127:25 it can be done okay now see if I am
+127:27 doing for like medical industry or
+127:29 research you have to change the uh
+127:32 instructions here with respect to the
+127:36 task okay like uh the first of all with
+127:39 respect to agents okay then you will
+127:41 write like a technical okay so something
+127:44 like a biotechnology content writer in
+127:46 that way you will be mentioning okay so
+127:48 you'll be doing all the changes with
+127:50 respect to the goals and the back to
+127:52 very very important and then comes
+127:55 detail instruction about your task okay
+127:58 which is very very
+128:00 important these so any type of Industry
+128:03 guys you can do just think about your
+128:05 llm has the power okay to uh just like
+128:08 explore a certain thing okay for example
+128:11 like if I'm talking about medical okay
+128:13 any other like business finance
+128:15 Insurance anything if chat GPT knows
+128:18 that okay then it can easily process if
+128:20 CH chat GP he doesn't know then he will
+128:23 perform a web search simply or probably
+128:26 you can provide some type of documents
+128:27 also you can create a agent which will
+128:30 only look into your documents like your
+128:32 rag application within an agent as very
+128:35 specific agent so in that way you can
+128:37 actually customize
+128:39 things in generative in AI interviews we
+128:43 will be asked a lot about slms and llms
+128:46 okay with respect to fine tunings with
+128:47 respect to rag different type of rag
+128:49 architecture C rag V rag Okay so
+128:55 uh reduce the search output to one evil
+128:58 quickly yeah so that is the thing but I
+129:00 was hoping that I will quickly get the
+129:11 result it's fine because I think this is
+129:14 the last one I hope that it won't ask
+129:17 for more otherwise I will just stop the
+129:19 execution and I will change this uh
+129:22 number of search result because looks
+129:25 like uh 10 is more but yes the idea is
+129:28 to do more thorough research data I give
+129:30 10 at least okay but I can change this
+129:33 to one just to show you results faster
+129:36 but let's see whether is doing more
+129:38 search or
+129:41 not okay so you can see the rate limit
+129:44 token that has been applied on top of
+129:46 the API
+129:50 direct because till now it's an
+129:52 execution so we haven't received any
+129:55 type of error but I think that uh it's
+129:58 good just wait for one or two minutes
+130:01 and
+130:01 finally I can show you that part
+130:23 okay just leave it okay it's taking a
+130:25 lot of time just to do this okay
+130:27 probably I can just stop this execution
+130:30 and let me change the number of search
+130:32 results to one
+130:35 only it doesn't matter what type of
+130:37 research it does okay but the idea is
+130:40 that everything should be
+130:42 executable okay so n is one see guys I
+130:46 have just changed the number here I'm
+130:48 just updating
+130:49 it okay
+130:52 I will just start the stream lit app
+130:54 once
+131:04 more okay
+131:16 so okay let me just click on generate
+131:19 content quickly hope that everything
+131:22 starts
+131:26 quickly because one complete page also
+131:28 takes
+131:30 time let's
+131:36 see pick install C it's giving me error
+131:40 how it can give you error if I show you
+131:42 here okay so
+131:45 like uh cre AI
+131:49 k okay
+131:56 if I talk about the quick uh tutorial
+131:58 and the analysis okay and even the pyp
+132:02 project is there pypy 3 AI I don't think
+132:06 you should get an error here
+132:08 D this is the official okay so P install
+132:11 so yes the project is live
+132:16 okay so I don't think it will be a
+132:19 problem regarding installation okay
+132:21 Amita you can just have a look okay and
+132:23 just try to use a python version more
+132:25 than 3.11 so at least the basic
+132:27 requirement for
+132:29 this why so many professional developers
+132:31 prefer not to use crii uh I feel that
+132:34 even as a developer with respect to the
+132:36 AI Community okay free and the question
+132:38 that you have asked I feel that even
+132:40 like I will stick to Lang much more
+132:42 because I feel that developers are there
+132:45 who are scking to like langra with the
+132:48 langin like entire ecosystem okay
+132:51 because all the different type of tools
+132:53 are there so more developers are
+132:55 sticking towards that but again there
+132:58 are like developers who are working with
+132:60 Ki also it's just like Lang chain with
+133:03 respect to Lama index you think about
+133:05 the market dominances towards Lang graph
+133:08 if I talk about as compared to like
+133:10 lesser part with respect to
+133:12 C but yes both the things like I can say
+133:16 both the Frameworks can perform equally
+133:18 it's not like that cannot do something
+133:21 which uh like there are some cons if I
+133:24 talk about but majorly it can perform
+133:27 all of your major tasks so that's why
+133:28 all te joints are
+133:33 using Okay so this project is there okay
+133:36 now let me just
+133:41 see okay last research I hope that this
+133:44 gets executed quickly and I can close
+133:46 this session guys okay just waiting for
+133:48 the final execution to be completed
+134:08 okay so fine not an issue so right now
+134:13 the uh research one is throwing you can
+134:15 see the content writer task has started
+134:18 right now I talk about okay so the
+134:20 content writer has started doing the
+134:24 task okay and finally like uh soon it
+134:29 will be
+134:32 here okay so you can see right now the
+134:35 generated content okay so the
+134:36 Revolutionary impact of generative AI
+134:39 decoding its application across
+134:40 Industries okay so because here I given
+134:43 just generative a applications okay
+134:46 Genera VI Healthcare okay marketing
+134:48 sphere with respect to this and here you
+134:50 can see this Dot
+134:52 okay so like uh you can directly click
+134:54 on this download content okay and you
+134:56 can see that the file will be downloaded
+134:58 into your systems okay so something like
+135:01 an generative AI okay and you can open
+135:03 it with uh vs code directly so let me
+135:06 just show you with respect to vsod here
+135:08 so here I can just show you yes so you
+135:11 can see the markdown file which has been
+135:14 generated okay so yes it works good I
+135:17 will say okay now uh like uh I
+135:22 few things are missing till now but I
+135:24 know that yes Improvement can be done on
+135:26 top of this particular
+135:27 application okay so that's why I feel
+135:31 that uh it's great okay and with respect
+135:33 to the source code guys it will be
+135:35 provided somewhere in the comments so
+135:36 don't worry about that I hope that
+135:38 everyone enjoyed this session okay
+135:40 because now these things only we will be
+135:42 discussing in our upcoming agent Ki
+135:45 course which is going to launch on like
+135:47 the last week of January okay where
+135:49 we'll be highly focusing on other framew
+135:51 also like langra P Auto Jan okay five
+135:55 data one of the most recent ones I hope
+135:58 guys everyone enjoyed this session okay
+136:01 all right bye-bye
+136:07 everyone we'll just stop sharing

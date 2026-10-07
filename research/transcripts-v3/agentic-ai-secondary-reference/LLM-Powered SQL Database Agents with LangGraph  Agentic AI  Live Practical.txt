@@ -1,0 +1,3211 @@
+00:45 hello everyone
+00:46 so let just wait for some
+00:50 time hi CH hi titanium hi
+00:58 blogger please perform with no SQL
+01:00 database
+01:01 mongodb that should be easy to connect
+01:03 though but we will see so hi everyone uh
+01:06 we have twist with us as well uh let us
+01:09 wait a couple of more minutes for others
+01:11 to join and yeah we will then
+01:20 begin uh it's fine now sir I think no
+01:24 I'm audible
+01:25 now yeah
+01:38 okay guys we'll wait for some time and
+01:40 then we will talk about the agenda of
+01:42 this particular session but I hope
+01:43 everybody's doing good and I hope
+01:46 everybody is able to hear us very much
+01:51 clearly perfect hello
+01:56 hello so here we'll use fine tuning or
+01:58 any other at the end fine tuning is not
+02:00 required for this but here our Focus
+02:02 will be developing agents you
+02:07 know so I think they the projects sorry
+02:11 to you they are asking for the projects
+02:12 major like we are doing a project today
+02:14 to make a SQL agent so
+02:18 yeah that I'm
+02:24 saying I'm going through your gen course
+02:27 in it is awesome yeah thank you so our m
+02:30 name over there was again to create a
+02:32 detailed course itself you know but
+02:35 anyhow so many people you know also like
+02:39 saying why we are launching so many
+02:41 courses see guys these all are like
+02:42 dedicated courses that we are launching
+02:44 but apart from that we are also very
+02:46 much active in YouTube uh we are
+02:49 probably giving you free sessions
+02:50 completely end to endend everything as
+02:52 such okay here in our live courses you
+02:54 get more handholding more advice more
+02:58 opportunities uh that is the main reason
+03:01 and uh my main aim is basically to form
+03:03 a very good team who can help you at any
+03:05 stage so mayank is also part of my team
+03:08 now uh you'll also be seeing some people
+03:10 joining our team very soon you know and
+03:13 their faces because alone one person
+03:16 cannot do each and everything it is
+03:17 always good to have multiple people with
+03:20 different backgrounds different
+03:21 experience you know um the kind of work
+03:24 that they do actually it looks really
+03:26 good so thank to you thanks to your
+03:28 videos I got a 23 lakhs per anom data
+03:31 scientist offer as fresher so this is
+03:33 nice right M yeah as a fresher 23 LPS I
+03:37 think the highest anyone can get
+03:39 honestly so
+03:42 congrats which company that is
+03:45 APK name is also APK we cannot even
+03:48 search him in Google or somewh yeah what
+03:51 is this that is nice
+03:53 right yeah some effects in
+03:56 Mac so for 23 Mac only you'll get that
+04:01 in the Mac in the top basically you get
+04:03 this thing so few effects just to
+04:07 celebrate
+04:08 yeah
+04:11 nice your MLF Udi is also Boon yeah so a
+04:15 lot of things are coming guys so we are
+04:17 trying our level best to
+04:19 probably uh sir what's the criteria to
+04:22 join your team very keen to Know M do
+04:25 you want to talk about this what is the
+04:26 criteria to join your team honestly uh I
+04:30 think you should be very good in what
+04:32 you do so that's the thing first like a
+04:34 for related to Ai and things and I think
+04:38 more than knowledge you will be it's
+04:40 it's not actually a work it's like if
+04:42 you are if you don't really want to do
+04:43 this if you have knowledge then you can
+04:45 reach out yeah I think that is the thing
+04:47 M are you are you learning are you
+04:49 working 80 plus hours 70 plus hours 90
+04:52 Plus hours again I think for me it is a
+04:56 different way so me and Chris we are
+04:57 collaborating and it's like we don't
+04:59 even count the ODS I think
+05:00 for us it is never about that I happily
+05:03 work on Saturday Sunday maybe take a
+05:05 break in between do some other work if I
+05:08 had to do do Consulting so yeah
+05:09 everything goes with that I think it's
+05:12 about the work if you like it then it's
+05:14 not a matter of what M can you tell do I
+05:17 do micromanagement many people say that
+05:19 Chris it is not possible to probably do
+05:21 micromanagement and all so do I do
+05:23 micromanagement or like how how do we
+05:26 work again I think everyone so I will
+05:28 just like to clear it like it is not
+05:31 some company which me CH like we are
+05:33 kind of like yes it is Technologies is
+05:36 there but we are just doing what we like
+05:38 for real right uh it is not in a way
+05:41 that okay it is a typical job uh we are
+05:44 working I will be honest here so I have
+05:45 worked with startups and big companies
+05:47 alike and right now also along with this
+05:49 I am doing consulting and other parts
+05:51 other works as well which I do so I
+05:54 don't count the Arts and I might be
+05:56 working more than what I was working in
+05:58 any of the companies like right now at
+05:59 the this part of my life with all the
+06:01 things I'm doing but honestly it doesn't
+06:03 matter and uh I don't think any
+06:05 micromanagement or anything is there as
+06:07 I said me and CHR we are collaborating
+06:09 and we are working in a way that we both
+06:10 learn a lot from each other and try to
+06:12 make sure that we can give the best
+06:14 value out for the students uh that is
+06:16 what our aim is our aim is not that uh
+06:19 we will work in a way in a company and
+06:21 then have some uh Sprint board or
+06:24 something nothing like that so
+06:27 yeah ledin
+06:32 yes so I started that those things are
+06:35 really true man so whatever I'm pointing
+06:37 that out I try to search photos I don't
+06:40 have many of them unfortunately but how
+06:43 many I have do get
+06:44 motivated okay perfect M let's start uh
+06:49 then uh we can start this particular
+06:51 agenda we can talk about the agenda and
+06:53 then um you know probably take up sure
+06:56 sure so everyone uh we will be first
+06:58 discussing a little bit major on your
+07:00 Q&amp;A about the course so many of you
+07:02 might be aware we are bringing a course
+07:04 let me share my screen so that you can
+07:06 see the
+07:09 same I think uh I myself has walked
+07:12 through it uh three four times in the
+07:13 last couple of Life lives so let me add
+07:15 the screen hopefully you can see it now
+07:18 yeah so as you all have seen like after
+07:21 this we will be like sun will be joining
+07:23 us shortly as well okay so we will be
+07:25 doing a project using land graph right
+07:28 in that we will be making a sequence
+07:30 query maker so that is going to be an
+07:31 awesome project again in the past couple
+07:34 of videos we have used Qi then langra
+07:36 also Sunny did another project Chris
+07:39 also had has a video on F data so we are
+07:42 just making sure that you are able to
+07:44 understand what exactly is aent K so in
+07:46 each of these videos I first come and
+07:49 give you a very good introduction help
+07:50 you to answer your doubts based on my
+07:52 experience then walk you through that
+07:54 what all will be in the course always we
+07:56 maintain that we are telling you this
+07:58 with all the mindset that if if you
+07:60 think it will be helpful for your career
+08:01 then buy it and you will be for sure
+08:04 learning a lot of things apart from that
+08:08 uh majorly we are trying that you see
+08:09 that okay exactly how we are teaching
+08:11 what is the approach what level of
+08:13 projects we are doing so hopefully all
+08:15 of us uh will be learning a lot with
+08:17 that in free and yes uh that is why we
+08:19 are doing the sessions so let me just
+08:21 come back to the course uh one second
+08:23 everyone and we'll take your doubts uh
+08:25 in just a bit
+08:32 so yeah I'm a to share the
+08:37 screen okay uh just a second everyone I
+08:40 think my screen uh just give me a second
+08:43 okay so just sharing the screen so it is
+08:46 giving an
+08:55 issue so if if you just have the
+08:58 knowledge of generative AI it will be
+08:60 sufficient to know before learning AI
+09:02 agents
+09:05 okay continue M please yeah yeah sure so
+09:09 uh as you can see everyone uh this is
+09:10 the course which we are talking about
+09:11 live agentic AI which in AI applications
+09:14 with Cloud boot camp so just like our
+09:16 data engineering batch which uh we are
+09:18 like right now also doing uh we have
+09:20 majorly made sure to focus on cloud
+09:22 pretty easy reason that it is something
+09:24 which companies do use so we want that
+09:26 if anyone is learning from us he has a
+09:28 full experience and learning
+09:30 so that if he is giving interview he can
+09:32 showcase that how to deploy those
+09:34 projects and all these Frameworks they
+09:36 work pretty well with like all the
+09:38 deployments in Cloud right so that is
+09:39 our major Focus here as you can see uh
+09:42 this is majorly about the course start
+09:43 date is 25th January I think so we have
+09:46 10 days left and if I remember right I
+09:49 think we have around UH 60 or 70 seats
+09:52 left so I don't I think I checked that
+09:54 yesterday so if you are interested as we
+09:56 said we are making sure that all of
+09:58 these batches they are in a limited uh
+10:01 capacity so we can help each and every
+10:03 student properly mentors uh this course
+10:05 will be divided between mentors so me
+10:07 and Chris will be there along with us uh
+10:09 sunny and Paul will be there we will be
+10:11 dividing it based on the expertise of
+10:14 each and everything uh that said uh
+10:16 please at any time feel free to reach
+10:18 out to any of the mentors and we will be
+10:20 more than happy to help you so duration
+10:23 is 4 to 5 months and timings will be 3:
+10:26 to 6:00 p.m. IST some people had a doubt
+10:29 here uh if it's not 9 it's IST like
+10:32 Indian Standard Time and 3 to 6 right
+10:35 duration will be 4 to 5 months then uh
+10:38 this is from where you can download the
+10:39 V cabus everyone so this is the cabus uh
+10:43 in the full PDF format we have the cabus
+10:46 Chris sir mentioned in the last to last
+10:48 batch that the dashboard access will be
+10:51 for one and a half
+10:53 years when we talk about dashboard
+10:55 access what we mean there is that uh you
+10:58 will be given the full like on this
+11:00 learn Krishna Academy you will be having
+11:02 the full access where you can log in
+11:04 then you will have a community uh Forum
+11:07 basically you will have a chat section
+11:09 where you can chat with your peers and
+11:11 you will see all the videos which we are
+11:12 taking so all the recorded videos they
+11:14 will be available to you along with this
+11:17 full dashboard for one and a half years
+11:20 after that uh we have the community chat
+11:21 Forum as I said live doubt clearing
+11:23 after session many students normally ask
+11:25 me that sir how will you be clearing the
+11:27 doubts so just like I clear your doubts
+11:29 here right taking it one by one and
+11:32 everything and making sure that the
+11:34 doubt is clear I will be real honest
+11:36 there uh you can reach out to us on
+11:38 email and everything as well but my
+11:40 philosophy always is that when we are
+11:41 teaching uh we are making sure that the
+11:44 doubts get clear then there only then we
+11:47 will for sure have hackathons as well in
+11:49 this course majorly uh I had many new
+11:51 use cases in mind which of course will
+11:53 be very very fun to implement and maybe
+11:57 we can automate a lot of things in our
+11:59 day-to-day life using those things then
+12:01 job referrals if any so we do have a
+12:03 good uh connections and overall network
+12:07 if and we are trying like if we can
+12:09 collaborate with the companies so our
+12:10 aim will be that students who are
+12:12 studying from us provided they have done
+12:14 it properly they have a good knowledge
+12:16 if we can refer them to the relevant
+12:18 openings and then in the end resume
+12:20 discussion and mock interviews for the
+12:22 course you can very well reach out to
+12:24 this number and if you have any other
+12:26 query uh you can reach out to any of the
+12:28 mentors or normally just feel free to
+12:31 ask your q&amp;s here now if you will click
+12:33 this link let me share I have just you
+12:37 can just reload the page now it is 1.5
+12:39 years okay okay yeah yeah sir
+12:41 sure so everyone I have given the link
+12:44 and yeah let me reload again yes so it
+12:48 has been updated everyone it's now one
+12:50 and a half years as we have promised
+12:51 because many students were Point like
+12:53 normally asking that it should be one
+12:56 one year normally is less though I will
+12:57 be really honest here please make sure
+12:59 that you complete this within a year
+13:01 there will be new Frameworks which will
+13:02 be coming so we don't want that just
+13:04 keeping the resource you are slacking
+13:06 behind bad like the worst strategy to
+13:08 happen Okay uh now if you will just
+13:11 click on this link providing that as
+13:14 well uh yes Pedro you can take this
+13:16 outside India as well okay so before I
+13:18 jump to the cabus again I have covered
+13:20 this in multiple previous videos as well
+13:22 let me quickly take the
+13:24 q&amp;as uh Pedro you can take the course
+13:27 from abroad as well so reach out while
+13:29 WhatsApp to this number or you can just
+13:31 directly go to the website the amount
+13:33 will show in the currency right USD or
+13:35 Euros so I hope that should be fine so
+13:38 doing freelance cout as an experience uh
+13:41 in the industry not really so if you ask
+13:43 me in the industry it is not the case
+13:45 okay everything available for free rider
+13:47 um again I think the first thing why I'm
+13:51 not sure why you are posting that but it
+13:52 should be fine so one minute yes
+13:56 everything might be but then student
+13:58 also don't do that plus the way we have
+13:60 structured this course I don't think you
+14:02 will find that anywhere on
+14:04 free one
+14:07 minute yeah don't spam why not not sure
+14:10 why people spam anyways it's okay the
+14:12 spam part is taken care
+14:15 of uh so yeah Vishnu uh freelance
+14:18 experience majorly companies don't
+14:19 consider that as an experience though
+14:21 depends a lot on type of work you have
+14:24 done right if you can get an experience
+14:25 letter from the let's say any F like for
+14:28 room client or anything
+14:30 but majorly no you it is not taken as an
+14:32 experience but if you have done a very
+14:33 great work and you are able to Showcase
+14:36 that let's say you have actually created
+14:37 some good products that would be
+14:45 good yes sain you will be getting all
+14:47 the recordings so as I said everyone
+14:49 when I talk about this one and a half
+14:51 years of dashboard access it means that
+14:53 you will be having each and everything
+14:54 so let me just uh just a second I will
+14:57 show you the same thing from one of the
+14:59 batch we are taking so that you get an
+15:01 idea that how exactly that's going to be
+15:03 okay so just give me a second
+15:11 everyone so if so this is uh what we
+15:16 mean when we say dashboard access
+15:17 everyone so hopefully my screen is
+15:20 visible yes so you will see that this is
+15:22 one of the batch which we are taking
+15:23 again uh Big Data engineering here we
+15:26 have the videos right so I took this
+15:28 class on 22nd this December 28th
+15:30 December then we are doing Hadoop map
+15:32 Ruan this batch is also going pretty
+15:34 great we have all these things we have
+15:36 some recordings as well so it's from the
+15:38 basics only so Linux command and
+15:40 everything you will see these videos
+15:42 like they are recorded right this is the
+15:44 class which I took this is available to
+15:45 you all the resources you can download
+15:47 these resources you have this Q&amp;A right
+15:51 so this is what you will get for 1 and a
+15:53 half years right all the recordings of
+15:55 the class we take anything which we want
+15:57 to give you as a recorded to maybe as a
+15:59 PR requested for the lecture all the
+16:01 resources along with the notes the codes
+16:03 each and everything you will be getting
+16:05 then your chat Forum so that I cannot
+16:07 open because I'm logged in as an
+16:08 instructor but you can open the chat and
+16:11 you can ask so they all the members of
+16:13 your group uh basically of your course
+16:15 will be there so you can ask anything
+16:17 you can keep in touch with them all
+16:19 these things along with that of course
+16:21 we will have a proper post kind of a
+16:23 thing just like you can post anything
+16:25 post your learnings and student others
+16:26 can help you with that so yeah I hope
+16:30 this is clear everyone uh
+16:32 the dashboard
+16:35 part okay so recordings available yes uh
+16:40 whatever purchaser codes in between
+16:41 should I be able to get previous
+16:42 lectures Amat as I said we have limited
+16:45 seats though if you are purchasing in
+16:47 between you should be able to get them
+16:50 so yeah take make up your mind uh as I
+16:52 said like limited seeds are there few we
+16:55 might increase based on the request but
+16:56 yeah that would be helpful okay
+17:00 and yeah one thing I mentioned forget to
+17:03 mention so for students who are
+17:05 enrolling Chris 10 you can use and that
+17:07 is going to give you a 10% discount okay
+17:10 so Chris 10 will just ping it as well
+17:13 again with the link so that you are able
+17:16 to use
+17:18 that
+17:20 great is it in Java or python Rohit uh
+17:23 it will be in Python proper in Python uh
+17:26 python is the go-to language honestly
+17:27 for major use Cas in
+17:29 that said doesn't mean that you cannot
+17:31 use other language but it's the easiest
+17:34 most usable right so let's do it in
+17:37 Python only and I think if you know one
+17:39 language properly you can code in other
+17:41 language as well now with AI as well so
+17:43 yeah it is going to be
+17:45 that uh dinosaur data engineer and AI
+17:48 engineer um will be a little bit big so
+17:50 I will take it up towards the end okay
+17:52 no
+17:53 worries uh prerequisite for the course
+17:56 so sure s let me just cover the
+17:58 prerequisits so everyone if you will
+17:59 download this particular PDF which we
+18:01 are referring to if you will go here and
+18:04 click on this detailed labus here you
+18:06 will see the first page like after sorry
+18:09 third page right as the prerequisite
+18:11 only so these are the prerequisits again
+18:13 uh we will not be teaching you python
+18:15 from scratch here that you can see from
+18:17 Chris Channel or my channel as well
+18:19 right I also have a YouTube channel
+18:20 which share that uh so those are the
+18:22 updated videos you can go through them
+18:23 to Learn Python then NLP and some basics
+18:26 of gen so python deep learning
+18:27 Frameworks right majorly the de learning
+18:29 part the Transformers architecture Gans
+18:31 and everything we expect that you will
+18:33 be knowing these things and so that we
+18:35 can quickly start with agentic AI and
+18:37 gen use cases and then teach you
+18:40 everything related to Cloud so that you
+18:41 can make the projects and directly use
+18:44 them and list them in your CV and be
+18:46 able to comfortable with that if uh you
+18:49 have still a lot of time so I would
+18:51 suggest that if you done this some time
+18:52 ago please revise that but please make
+18:54 sure that you are having these things
+18:56 clear right because it is going to be
+18:58 very much helpful I don't want that for
+18:60 students they have don't have
+19:01 prerequisits here and everything is
+19:04 going their mind okay so this thing
+19:06 please make sure that you hear it if I
+19:08 just scroll down you will see the
+19:09 instructors here as well okay so all the
+19:11 instructors the four which I talked
+19:13 about as I said this will be divided
+19:15 between uh the mentors based on their
+19:16 expertise okay so keeping it very clear
+19:19 then we have the modules by module this
+19:22 I believe I have done a lot of time so
+19:24 just I will scroll it down okay any
+19:26 specific doubt in any particular topic
+19:28 you can ask me else I will be more into
+19:31 Q&amp;A today because in the last video as
+19:33 well I have gone through it and one
+19:36 prior to that I have covered that okay
+19:38 what exactly this is so this is the
+19:40 structure everyone the module the topic
+19:43 we have just written what we will be
+19:44 exploring and basically a table to
+19:46 better help you navigate the S so
+19:48 introdu introduction to gentic agentic
+19:51 AI then F data atic framework very good
+19:54 we have the video in ch Channel as well
+19:56 for that uh Lang chain something which
+19:58 is used a lot in your AI applications as
+20:00 well so yeah one thing more please make
+20:03 sure as I said on the prequest part if
+20:05 you are completely new let's say a
+20:06 fresher in college or something uh
+20:08 please first do the prerequisite part or
+20:10 maybe check out some other course from
+20:12 Udi because then a lot of things will
+20:14 not be clear to you and we don't want
+20:16 that right then next one is your LC Lang
+20:19 chain expression language L Surf Lang
+20:23 graph okay we are going to use that as
+20:24 well today ux and human in the loop
+20:27 framework so human in the loop workflows
+20:29 are basically very helpful in langra
+20:31 then we have agentic
+20:33 rag designing multi-agent system with
+20:35 Lang graphs uh the reason I'm going
+20:37 again pretty quickly is that have
+20:39 already covered that and so it takes a
+20:41 lot of time we'll be more focusing on
+20:43 Q&amp;A with chrisa today Q AI platform uh
+20:46 we use that in the last video okay so we
+20:49 use this to make a project in the last
+20:50 video please see that it will be in the
+20:52 live section
+20:53 only Lang flow overview and
+20:56 setup Lang flow uh PR long topic then we
+21:00 have the integration with third party
+21:01 tools again very important I feel that
+21:03 these are the things which will help you
+21:04 to make your projects right you can go
+21:06 to the website learn about the framework
+21:08 but when it comes to making the project
+21:10 connecting the bits and pieces that is
+21:12 where this integration especially on
+21:15 cloud and everything which we will be
+21:16 teaching com into picture so l fuse for
+21:19 your llm observability so once you have
+21:21 made your llms how are you going to
+21:23 observe them then metrics and monitoring
+21:25 via Lang watch then we have the Lang
+21:28 Smith okay for enhancing and testing
+21:30 Lang spit is majorly used then autogen
+21:33 very important technology of course we
+21:35 have to automate our like the system for
+21:37 generating our AI models then uh if you
+21:40 move forward end to end agent AI
+21:41 projects so again many people ask this
+21:44 yes we will be doing projects in this
+21:46 particular uh course like our every
+21:49 course and we make sure that those
+21:51 projects are something which you enjoy
+21:52 doing and you can list down on your CB
+21:54 as well so that you can tell them about
+21:57 uh tell about the project in an
+21:58 interview
+21:60 18 AWS cloud and services this you will
+22:02 see the color theme changing the reason
+22:04 is we are now moving towards the cloud
+22:06 part right so AWS cloud services we'll
+22:08 be telling you each and everything about
+22:09 Cloud then as we move forward AWS
+22:12 Bedrock then Sage maker again very
+22:14 important uh thing for anyone who wants
+22:17 to get into data science machine
+22:18 learning AI then we have the Lambda for
+22:21 serverless computing then AWS API
+22:24 Gateway so as to make sure that you can
+22:26 make those end points through which you
+22:27 can connect and serve your uh Services
+22:31 text summarization with AWS services so
+22:33 we'll see that how you can connect
+22:34 multiple services and do this particular
+22:36 uh project then F tuning Foundation
+22:39 models on custom data F tuning again is
+22:42 a very important part of any uh ml deep
+22:44 learning or AI model so we will be
+22:46 seeing that how we can fine tune the
+22:48 model right and especially doing that on
+22:50 the cloud as well so we will be using
+22:51 AWS sagemaker here now project on the
+22:55 AWS uh we will try that we are doing at
+22:57 least two project so and even more than
+22:59 that so that we have the full
+23:02 understanding and comfortability that
+23:04 all what we have learned we are able to
+23:06 apply them on real cloud-based platform
+23:09 uh one thing more we will be using trial
+23:11 of these clouds okay so to make sure
+23:13 that you don't incur any extra cost that
+23:15 said if in some case it changes or some
+23:18 issue is there it will be very minor we
+23:20 will be uh guiding you that how you can
+23:22 have the how you can kill the resources
+23:24 when the time is there so you will not
+23:26 be getting any major Cloud cost as well
+23:28 right same We are following on the data
+23:29 engineering as well then uh gcp and
+23:32 vertex AI I introduced that in last to
+23:34 last session as well and gin models with
+23:38 vertex Ai and Google AI Studio it's
+23:40 pretty good like if you will see Vex AI
+23:42 the way you are able to create your llm
+23:44 models and basically a gentic a is there
+23:46 that is really very uh easy and
+23:49 something which I like a lot so you we
+23:51 will be exploring that as well and then
+23:54 we will be doing a project on gcp as
+23:56 well right and yeah I think this was all
+23:59 everyone again as I said have covered
+24:01 this in complete depth in the last video
+24:03 as well so you can go through
+24:05 that and let me now go back so this is
+24:08 the course everyone uh as I said please
+24:10 use Krish 10 for 10%
+24:12 discount right uh chish 10 yeah this is
+24:17 all about the course and for in-depth
+24:19 cabus please uh download this yeah so
+24:23 you can download this here I have shown
+24:25 you the dashboard each and everything I
+24:26 think we have already seen
+24:36 yeah said I think this was the major
+24:38 thing let us see the some q&amp;as I think
+24:41 uh you're already replying a lot of them
+24:51 yeah L I don't guess Emi option is there
+24:55 uh just try to reach out once okay
+25:07 right minute
+25:12 everyone yeah so okay and as I said
+25:16 everyone feel free to reach out to me or
+25:18 any of the mentors if you have any
+25:19 doubts we will be making sure that we
+25:21 clear a lot of them yeah mik can you
+25:24 hear me I'm saying that I have to
+25:26 probably uh go out because Sunny will
+25:28 not be able to take the session then
+25:30 okay so uh I will I will just drop off
+25:33 and uh I'll make sunny join okay sure
+25:36 sure okay okay
+25:41 yeah one minute
+25:45 yeah just a second everyone uh some like
+25:47 stream we have many people so just
+25:49 trying to give the
+25:52 OTP okay so let me just uh have the
+25:55 doubts uh let me see it
+25:59 Ashish uh with respect to De devops
+26:02 engineer like if you have the knowledge
+26:03 again if you have the prerequisites on
+26:05 cloud I hope you will be very good so
+26:07 yes with there it will be a lot helpful
+26:08 to you if you are planning to switch
+26:11 again as a devops engineer hentt K can
+26:15 be used by you but if you're planning to
+26:18 switch into AI part or automate a lot of
+26:20 like let's say some of your work then it
+26:22 can be
+26:23 useful
+26:26 okay is it possible to create a agents
+26:29 in Spring boot or other Java framework
+26:30 uh Tech Titans uh with from my
+26:33 experience I think language is just a
+26:34 tool so you can use any language
+26:36 honestly but as I said python is the one
+26:38 which is used majorly all the Frameworks
+26:40 you will find that how they are most
+26:42 supported and best in Python okay so one
+26:47 minute hello M will all the projects
+26:49 will be shown as modular coding
+26:50 structure him we will be following that
+26:52 so we will be make sure that we are
+26:54 following the industry practices as have
+26:57 been also suggested by the uh these
+26:59 Frameworks right so the Frameworks which
+27:01 we will be following they will be in a
+27:02 proper code structure which is deploy
+27:05 Deployable on cloud right we are using
+27:06 the cloud
+27:08 okay uh one minute
+27:13 everyone so just a
+27:16 second
+27:18 cool physics will not go for it strange
+27:21 no worries when I asked for q&amp;as don't
+27:23 know why this comes into picture but
+27:25 anyways
+27:37 okay I'm just trying to go through the
+27:38 things like spam a lot for
+27:41 sure a you can see the recording uh will
+27:43 be a lot of
+27:46 recap uh in this course we will be using
+27:49 uh AWS and gcp as I have mentioned
+27:52 already right so again any cloud is good
+27:55 for heavy lifting as such it's totally
+27:57 on you it in gcp and a like these are
+28:00 three major clouds which are getting
+28:02 used and I think they are good more than
+28:04 good like anything should not be a
+28:06 problem there right so great everyone uh
+28:11 you will also be finding that the course
+28:12 link and form there you can fill that as
+28:15 well let me just see the questions data
+28:17 scientist versus AI engineer first data
+28:19 scientist then AI engineer like that is
+28:22 how you learn okay not in terms of any
+28:26 level great
+28:32 okay uh Vishnu see 3mon gaps is going to
+28:36 be a problem plus you have to also
+28:39 understand that with this course you
+28:40 have to get your Basics also a lot right
+28:42 okay so I will be really honest here 3
+28:45 months Gap if you have you have to of
+28:46 course come up with a reason for that
+28:48 upskilling is a good reason and if you
+28:50 enter into this field there will be a
+28:52 little less competition because again
+28:54 not many people are inside this
+28:55 particular uh Technologies and
+28:58 everything
+29:01 but really good so I will expect that
+29:04 you will be putting in the effort if you
+29:05 being like okay I will join the course
+29:06 and I will get the job no put in the
+29:07 effort make sure that you are able to
+29:09 specify why you were on a break for
+29:11 three months and along with let's say
+29:13 the course if you are not able to get a
+29:15 job then for all that time and do the
+29:17 projects properly and yes then you
+29:19 should be able to get get a
+29:22 job okay so I think Sunny has also
+29:24 joined everyone sir I don't have a GPU
+29:26 system configuration should to joined
+29:27 the course uh from I don't guess any
+29:29 issue will be there okay a basic laptop
+29:32 should be there like I really hope you
+29:34 don't have a Windows 7 or 98 laptop or
+29:37 some 2GB laptop so that might be a
+29:40 little slow for anything which we do but
+29:42 a basic laptop if it is there then it
+29:44 should be fine
+29:48 okay okay M so I'm audible yes sir you
+29:52 are audible not visible so I'm just
+29:54 taking out some doubts maybe just just
+29:57 second uh yeah
+29:60 I think now you can see me right yes yes
+30:02 now you with one second okay yeah hello
+30:05 guys so yeah I think we can start the
+30:08 session and mayang has given you the
+30:11 enough amount of introduction Rel to the
+30:13 course and all uh so today actually I
+30:15 schedule one more session for all of you
+30:17 uh related to the agent so at least you
+30:19 can look into the agent that how agent
+30:21 flows how agent works with respect to
+30:24 the different different use cases okay
+30:26 in my previous video in my previous
+30:28 session I shown you the working of the
+30:30 agent with the langra even in the second
+30:33 session I explain you one of the project
+30:35 using the langra right and then in the
+30:38 third session actually we took we like
+30:40 came up with a variety okay there
+30:42 actually we have shown you the two AI so
+30:45 uh may I know how many of you you
+30:47 attended all the three sessions so far
+30:49 uh whatever session we took on the in
+30:52 the live committee session please do let
+30:55 me know yeah hi hello everyone so if you
+30:59 are able to hear me you can mention
+31:00 inside the chat and just a second let me
+31:03 share my screen as well so that I can
+31:04 show you my previous work whatever we
+31:07 have done on this channel okay
+31:10 so give me a second I'm sharing my
+31:15 screen okay
+31:40 yeah guys can you see can you see my
+31:42 screen is it visible to all of you yes
+31:44 or no
+31:59 okay so let's begin let's begin with
+32:04 the session so guys please do confirm
+32:08 please do let me know if you can see my
+32:10 screen if you can hear me uh and uh if
+32:13 you are if you are aligned with my
+32:16 agenda uh because uh in the previous
+32:19 sessions I already discussed about the
+32:21 Lang graph the basics of the Lang graph
+32:23 and all now in today's video we're going
+32:25 to build one more project on top of it
+32:27 so uh in this video guys we'll see how
+32:30 we can create a CLE based agent means we
+32:32 are going to connect our L graph means
+32:34 we are going to design our workflow
+32:35 agented workflow using the L graph with
+32:38 respect to the SQL base database okay so
+32:42 uh I hope so uh you have seen my
+32:44 previous video and you are able to build
+32:46 those project so in my previous video
+32:48 guys I have implemented this agentic rag
+32:51 project okay so let me open this
+32:53 particular project and uh let me show
+32:55 you just a
+32:57 second um
+32:60 okay wait I'm going to open this
+33:05 file
+33:07 okay wait guys let me restart it uh I
+33:10 think now it is fine so here you can see
+33:14 this is what this is my a previous
+33:18 project uh which I implemented on this
+33:20 channel itself uh you can go and check
+33:22 inside the live section okay so yeah the
+33:26 complete architecture and all everything
+33:28 so I thought why should not I create one
+33:31 more project here using this langra so
+33:34 that your concrete will also be strong
+33:37 and you will be get a more confidence
+33:39 with respect to the agentic framework
+33:40 and all uh already we have started with
+33:43 the crei and we have one more framework
+33:45 from the hugging phase okay so we are
+33:47 going to discuss that as well in the
+33:49 upcoming session I I have created one
+33:52 more project on top of that particular
+33:54 framework and definitely I will
+33:56 introduce to all of you in the upcoming
+33:57 session right so this is a last project
+34:01 which I which I'm going to take care on
+34:03 top of the L graph and after that I'll
+34:04 will be moving to the other I will
+34:06 moving to the other framework and apart
+34:08 from this one guys I'll be showing you
+34:10 the complete end to end deployment also
+34:12 because I seen many people are asking
+34:14 about it and they are not pretty sure
+34:16 about the deployment part when they are
+34:18 going to implement any sort of
+34:20 application using the llm right whether
+34:23 it's a rack based application or agent
+34:25 based application so probably I will be
+34:27 showing you that in my upcoming session
+34:29 that how you can deploy the application
+34:32 okay agent based application so uh if
+34:35 you haven't seen my previous session you
+34:37 can go and check you can look into it
+34:39 and uh then uh guys you can implement it
+34:43 from your end right now forget about
+34:45 everything and try to focus on my like
+34:49 this project okay if you want to learn
+34:51 agents and all and uh definitely will
+34:53 get up like a pretty good idea that how
+34:56 we can build a c based agent using this
+34:58 Lang graph and even you can use this
+35:00 learning with respect to your other
+35:02 project as well got it so the idea and
+35:05 agenda is clear to all of you tell me
+35:06 yes or
+35:07 no if it is clear you can uh you can let
+35:12 me know
+35:18 guys what is the name of this framework
+35:20 the name of this the name of framework
+35:22 is langr dis got it you can mention
+35:25 inside the chat if everything is fine
+35:27 everything is
+35:40 clear
+35:44 okay great so let me create a file here
+35:47 my file name is going to be uh SQL agent
+35:53 SQL agent
+35:55 with length graph do i y NB
+36:03 okay my file is getting created just a
+36:05 second or else let me do one thing guys
+36:08 uh let me restart it okay let me restart
+36:12 this
+36:14 uh vs
+36:16 code because I'm facing some issue with
+36:20 it okay
+36:31 give me a second guys I'm going to
+36:32 restart it
+36:42 okay so this project is not on my
+36:45 YouTube uh this is a fresh project
+36:49 okay and guys don't spam in the chat if
+36:52 you have any doubt U if really you want
+36:54 to be learn then only you have to be
+36:56 right inside the chat otherwise uh just
+36:59 look on the project okay and I would
+37:02 suggest you if you're watching to me
+37:03 please implement it from your end as
+37:06 well and at the end I will give you the
+37:07 entire code also and I cre created one
+37:10 GitHub okay I will be sharing that
+37:11 particular
+37:12 GitHub uh okay so where is my project
+37:16 you live
+37:48 yes you can use Java as well means this
+37:50 framework actually this support multiple
+37:52 languages so don't worry about it
+37:56 okay just a second guys just a second
+38:36 okay great perfect so let me select my
+38:38 Kel and the system setup and all I think
+38:44 I I
+38:48 already shown
+38:56 you my previous session so you should
+39:01 not be worry about this system setup
+39:05 okay means how to set up this vs
+39:09 code okay uh means uh image means what
+39:13 the architecture image right so which a
+39:16 project basically we are going to
+39:18 implement so first of all let me do one
+39:20 thing uh let me import couple of library
+39:23 and here let me create one database
+39:25 because on top of that database we are
+39:27 going to create our project okay as I
+39:29 told you it's a SQL Bas agent means
+39:31 whatever query we are going to ask to
+39:33 the llm right so it's going to refer
+39:35 those particular query so like for the
+39:37 query actually it's going to refer the
+39:39 database and from that database itself
+39:41 it's going to fetch the information and
+39:43 it is giving you back right so this will
+39:45 be a whole sort of agenda so let me do
+39:47 one thing let me create a database let
+39:49 me put some sort of a data over there
+39:51 and then what I will do then basically
+39:55 I'll be explaining the problem statement
+39:56 using the AR
+39:58 diagram now uh here what I'm doing here
+40:01 first I'm going to import the SQL light
+40:04 SQL light three uh I can use any
+40:07 database any SQL based database but uh
+40:10 just for the sake of Simplicity right
+40:12 what I'm doing I'm using this SQL like
+40:15 three it's an inmemory database and here
+40:18 itself I can store my data right I can
+40:21 store in memory or I can keep it on my
+40:22 Dix as well so here see already I
+40:24 created couple of database employed. EV
+40:27 employ 2. DB while I was practicing
+40:30 right with the code and all I was trying
+40:31 to run before the session itself so the
+40:33 same process I'm going to follow here as
+40:36 well again okay now on Bo basis we uh
+40:40 select the prompt package prompt I'll be
+40:42 talking about right how to select the
+40:44 prompt package and all we have multiple
+40:47 libraries for selecting the prompts for
+40:49 taking up the prompts right uh you can
+40:52 take it from there directly or you can
+40:54 you can Define your own prom prompt
+40:56 enging is not a very big deal right it's
+40:58 just an instruction which we need to
+40:59 pass to the nlm and it will be based on
+41:02 your understanding as well like how is
+41:05 your understanding about the problem
+41:06 statement got it now let's do one thing
+41:09 let's have import the cqi 3 and then
+41:12 let's create our new database so for
+41:14 creating a new database I'll be taking
+41:16 the seite 3 and this cite 3 actually
+41:18 it's having one method a method name is
+41:21 what method name is connect and to this
+41:24 connect actually I can give any sort of
+41:26 a database okay so here what I'm doing
+41:29 I'm giving my name name of my database
+41:32 so my database name is going to be my
+41:35 employ DB okay do DB or let me write
+41:40 some other name let's say
+41:42 my DB okay so this is my database name
+41:46 and here what I'll be doing I'll be
+41:47 writing this DB and guys don't forget to
+41:50 keep it inside double code otherwise it
+41:52 will give you the issue so here what I
+41:54 did I C this particular name inside the
+41:57 the double code so let me keep it over
+41:59 here I think now it is perfect now what
+42:02 I'll be doing guys here after uh writing
+42:06 this database name I will execute it
+42:08 okay or let me make a connection let me
+42:11 put let me keep this particular database
+42:13 inside the variable got it so this is
+42:15 what this is my database my D now inside
+42:18 this database itself I'm going to store
+42:20 my all the table and all everything
+42:22 right so first uh let me show you the
+42:23 connection here you can see the
+42:25 connection this is my connection okay
+42:28 now what I'm doing uh I kept a couple of
+42:31 queries okay so for the table creation
+42:34 for restoring the data so first I'm
+42:36 going to write a query for the table
+42:38 creation because inside the database we
+42:40 have to keep the tables my data will be
+42:42 available in the form of table okay if
+42:47 you have any doubt guys you can ask me
+42:48 inside the comment section you can U
+42:51 like Ping inside the comments okay
+42:53 inside the live chat section and once I
+42:55 will look into the question definitely
+42:56 I'll be answering those question so we
+42:59 have this connection and what I'm doing
+43:01 here I'm going to write a query okay
+43:03 which I already written let me give it
+43:05 to you these of query so the first query
+43:08 is what the first query is the related
+43:11 to the table creation okay uh which
+43:13 table I'm going to create I'm going to
+43:14 create this employee table and here you
+43:17 can see we have a different different
+43:18 column employee ID first name last name
+43:22 email High date salary and all so uh
+43:25 likewise guys I'm going to create a
+43:27 second table table because I'll be
+43:28 keeping multiple table where inside my
+43:31 database so my next table name is going
+43:33 to be customer okay just a basic table
+43:36 employee customer we used to learn this
+43:38 particular uh like we used to practice
+43:40 our SQL with this uh table only right so
+43:44 I'm going to write I'm going to create a
+43:45 same table over here but uh you could be
+43:48 a specific with respect to your problem
+43:50 statement right you can create any type
+43:52 of table and on top of it you can
+43:54 practice right or else you can create
+43:56 this project as Real Time Project and on
+43:58 top of that you can make your agent
+44:02 understood so now the third table is
+44:05 going to be what the third table is
+44:06 going to be ordered so here is what here
+44:08 is my third table let me write it down
+44:10 over here so Table Three which is
+44:12 nothing which is order so uh guys just
+44:14 look into the column name the First
+44:16 Column name is ID employee ID the second
+44:19 is first name the third is last name
+44:21 email higher dat salary this is the
+44:23 column for the this is the column for
+44:25 the employee table now you can see of
+44:27 the customer table customer ID first
+44:29 name last name email phone and all right
+44:32 and for the third table okay so here you
+44:35 can see the name name of what name of
+44:37 the uh name of what guys name of the
+44:40 column order ID customer ID order date
+44:42 amount for and like these are the
+44:44 constraint okay which I written so
+44:47 easily you can create this type of table
+44:49 now what I'll be doing so on top of my
+44:52 connection so here what I have I have my
+44:54 connection on top of this connection I'm
+44:56 going to create a
+44:58 cursor so here I'm going to create a
+45:00 cursor and that guys using this
+45:02 particular cursor I'm going to insert a
+45:04 data okay where I'm going to insert the
+45:06 data let me uh show you that as well so
+45:09 here what I have I have a cursor let me
+45:11 check whether this name is correct or
+45:13 not so let me pick the same name over
+45:16 here and here is the connection now this
+45:19 is what guys this is my cursor okay now
+45:21 using this particular cursor I'm going
+45:23 to execute all the query so that I'll be
+45:26 able to create a table and then further
+45:28 I'll be storing the data inside this
+45:30 table okay so this cursor actually it's
+45:33 having one method the method name is
+45:34 what the method name is execute so let
+45:37 me write this method execute and to this
+45:40 method guys I'll be passing all my table
+45:43 creation query so this is my first query
+45:45 for the table creation likewise we have
+45:47 other one let me copy and paste directly
+45:50 so this is the second and here is my
+45:52 third so let me write the second over
+45:55 here and this is what this is my third
+45:57 now I hope everything is clear okay till
+45:60 here everything is fine and if you have
+46:02 any doubt and if you want to take a same
+46:04 code guys what you can do you can go and
+46:07 check with my GitHub which I will bring
+46:09 you uh right after this code okay so you
+46:12 can take the code and all everything
+46:13 from there itself so don't worry about
+46:15 the code whatever code I'm writing over
+46:17 here okay now see what I have I have
+46:20 this table creation query so let me
+46:23 execute it and see we have created a
+46:25 table now after this one what I'll be
+46:27 doing guys I'll be storing the data okay
+46:30 so I written a query for the data sorry
+46:32 for the data storage as well and this is
+46:34 the uh simple command for what for the
+46:37 like table creation for the for
+46:39 inserting a data and all so here I'm not
+46:41 putting too much effort I'll be like
+46:43 starting explaining you the langra
+46:45 workflow okay the agented workflow that
+46:48 is a main part of this project
+46:50 understood so uh here I'm going to write
+46:53 my insert query so here is my insert
+46:55 query for what for the employee okay
+46:57 here is my insert query for what for the
+47:01 basically uh customer and then we have
+47:04 one more insert query for what for the
+47:05 order okay so let me keep it over here
+47:08 this three insert query and let me
+47:10 execute it understood guys so I hope so
+47:13 this is also clear now what I'll be
+47:15 doing now I'll be inserting a data and
+47:18 on top of that database I'm going to
+47:20 create my SQL base agent okay so here is
+47:24 my employe data so this is my employee
+47:27 data okay now here is my customer data
+47:30 guys uh let me keep the customer data
+47:32 also this one and then we have my order
+47:35 data okay so let me keep my order data
+47:39 also understood guys so employee
+47:42 customer and the order data okay now
+47:46 what I have to do I have to insert all
+47:48 this record okay now I'm going to be
+47:51 insert all this record so how to insert
+47:54 it for inserting the record guys again I
+47:56 have one more method the method name is
+47:58 going to be execute many okay so here
+48:01 let me write this method execute many
+48:05 and I'm going to call this method with
+48:06 what with the insert query okay I'll be
+48:09 like inserting a data insert query okay
+48:12 and there I'll be passing my data so for
+48:15 the for the uh like uh for the employee
+48:18 this is my data I'm going to pass it
+48:20 over here so here what I got I got the
+48:23 like I'll be able to store the employ
+48:25 data where inside the Loy table okay
+48:28 likewise I can store the data for the uh
+48:32 other like table as well so here is my
+48:36 customer data okay and then what we have
+48:39 we have a order data so let me take this
+48:42 query again and let me pass the order
+48:46 data okay so just a second let me pass
+48:50 it over here this order data and see
+48:54 this is my order data right so once I
+48:57 will execute it guys I'll be able to
+48:59 store the data but before that we have
+49:01 will have to change the name okay so
+49:04 here is my insert query for the customer
+49:06 and this is the insert query for what
+49:08 for the order right so let me keep the
+49:11 query for the order as well now see once
+49:14 I will execute it I'll be able to store
+49:16 the data as well okay now finally what
+49:19 you have to do you have to do the commit
+49:23 so connection. commit once you will run
+49:25 this command once you will execute this
+49:27 command you'll be able to save all your
+49:29 changes inside the database okay so here
+49:34 I saved the changes inside the database
+49:36 now if I want to check right if I want
+49:38 to check my entire data so what I have
+49:40 to do here so here I will simply call
+49:43 the cursor cursor do what cursor do
+49:48 execute okay so cursor do execute and
+49:52 then here I'll be passing my query let's
+49:54 say I want to check the data I want to
+49:55 select the data from the employ table so
+49:58 select a star from order or employ any
+50:01 any table right it's just a testing
+50:03 query so now once I will executed guys
+50:06 here I'll be able to get what I'll be
+50:08 able to get my data but not like this
+50:11 one uh like not like this actually you
+50:13 can see over the console for that you
+50:16 will have to call the fetchall method
+50:18 okay so let me call the fetch all method
+50:20 over here of fetch all okay and here I
+50:24 can iterate on top of this dat for Row
+50:28 in and here let me print the row each
+50:32 and every row guys I'm going to print
+50:34 just to showcase the data so see guys
+50:36 I'm able to access all the data over
+50:39 here understood so what I did uh I just
+50:43 created my database and inside that
+50:45 database I kept my table and inside the
+50:48 table actually I inserted a data right
+50:51 so now my database is ready and on top
+50:53 of this database I'm going to create a
+50:55 agent okay I'm going to create data
+50:57 agentic flow so you can assume that
+50:60 inside your company you have a database
+51:03 and you want to interact with that
+51:04 particular database but not directly
+51:07 using the rack pipeline you want to
+51:09 interact with the database with the
+51:10 agent flow so how you going to create
+51:13 that agented flow where you are going to
+51:15 be directly connect with your database
+51:18 with your tables and the data basically
+51:20 whatever inserted inside those table
+51:22 right so that is what actually we are
+51:24 going to build over here and like so far
+51:26 guys I'm assuming that the each and
+51:29 every idea and the each and every
+51:31 problem statement is clear but don't
+51:33 worry again I will show you the project
+51:34 uh like the project architecture so most
+51:37 of the like most of the doubt will be
+51:41 clarified so what I'm doing here I'm
+51:43 going to uh commit my all the changes to
+51:46 the database here I'm going to write
+51:49 database created okay now first of all
+51:53 let me edit and here after writing a
+51:55 message I'm going to commit it and then
+51:57 guys I am providing you my GitHub
+52:01 repository so that you can take the
+52:03 entire code from my GitHub repository
+52:06 okay so give me a second uh providing
+52:09 you my GitHub
+52:10 repository I hope so till here
+52:13 everything is fine
+52:18 and okay so here is my repository
+52:23 bels and please give me a quick
+52:25 confirmation once you got this
+52:30 reposit
+52:33 by yeah I will teach in Hindi also but
+52:37 this channel actually is specifically
+52:38 for the English content so that's why
+52:40 I'm teaching in English right don't
+52:43 worry in langin usually python is used
+52:46 can we use Java there yes JavaScript you
+52:48 can use I'm not sure about Java you can
+52:50 check whether the integration is avable
+52:54 okay I'm Canada what should be the
+52:60 refence okay why did we use execute many
+53:04 while we uh execute single query uh okay
+53:09 let me check it out with that particular
+53:11 method where I have used it just a
+53:16 second now first of all tell me uh did
+53:18 you get a code or not you can like you
+53:21 can confirm inside the chat
+53:25 itself because we have inserted many
+53:28 more than one rows now that's why I
+53:30 executed this execute many
+53:33 method got it VI stre is it clear to you
+53:38 so any doubt anything you can ask me
+53:40 guys otherwise I will proceed ahead with
+53:42 the further
+53:48 code there any doubt if you have any
+53:51 sort of a doubt you can let me know
+54:12 great is this diagram is
+54:16 visible can you see this diagram
+54:23 guys you can confirm inside the chat as
+54:26 well
+54:37 would you please add evaluation metrix
+54:39 part evaluation metrix part see this ra
+54:43 agentic agent agentic like this one the
+54:48 what I can say architecture okay itself
+54:50 is a evaluation right itself it is doing
+54:54 evaluation if you will look into my
+54:56 previous uh
+54:57 project also we'll find out right so
+55:00 inside the workflow actually we have
+55:02 added the evaluation part the
+55:03 interpretation part but if you are
+55:04 asking the specific evaluation matrixes
+55:08 yes we can add on those matrixes as well
+55:11 okay don't have any
+55:14 issue okay so I think this chart chart
+55:17 is visible to everyone now let's do one
+55:19 thing let's try to under this and have
+55:21 flow okay how this thing is going
+55:23 through uh like step by step and how how
+55:27 it is working so uh now see what we are
+55:30 doing guys we are starting uh start
+55:32 means what start is nothing start means
+55:35 we are giving an input so here at this
+55:38 uh place we are passing input now after
+55:41 passing input what we are doing we are
+55:44 calling a tool okay now what is a tool
+55:48 call so tool call is nothing tool call
+55:50 Simply you can uh think it's just a
+55:53 table selection okay so using the tool
+55:57 call what we are doing we are doing a
+55:58 table selection means from which data
+56:01 sorry from which table actually we need
+56:03 to patch out the data for making our
+56:05 final query okay so this list table tool
+56:09 means here we are going to list all the
+56:11 tables okay we are going to select the
+56:13 table on which sort of a table right
+56:16 let's say we have a multiple tables like
+56:19 I created okay but there could be a
+56:21 scenario you you could have multiple
+56:23 databases also right so likewise
+56:26 actually we can scale we can scale this
+56:29 diagram so list table tool be we are
+56:31 going to select the table from which
+56:33 table actually we are going to fetch the
+56:36 data for our query right then we have a
+56:39 schema so once we'll select the table
+56:42 we'll fetch all the detail all the
+56:44 details of the
+56:46 table
+56:48 understood so we are passing up input
+56:51 then First Tool call the tool call is
+56:53 nothing the tool call is basically here
+56:55 we have coded some sort of of a
+56:57 functionality and then based on that we
+56:59 are going to select a table and then
+57:01 based on the table name based on the
+57:03 table detail the table matter data we
+57:05 are going to select the all the like
+57:08 rows and all everything okay then
+57:11 further so we have a get schema tool I
+57:14 think you got uh you got to know about
+57:17 it right so till here actually we are
+57:19 going to press the entire detail of the
+57:21 data okay still here and how it will be
+57:24 possible based on the query the query
+57:26 which we are passing so we'll code some
+57:28 sort of a functionality and we'll code
+57:31 the functionality in such a way that we
+57:33 are going to fetch a detail of the
+57:35 papers okay till here then here we'll be
+57:39 having the query generation once uh
+57:41 basically all the uh like information
+57:44 will go to this particular point right
+57:47 so what we'll be doing we'll be uh
+57:49 generating a query right and after that
+57:52 what we are going to do if everything is
+57:54 fine right everything is fine everything
+57:56 uh like we'll be adding the self
+57:59 evaluation step okay the interpretation
+58:01 step so after getting after giving all
+58:04 the details about the table schema and
+58:06 all we are going to do a query
+58:08 generation and based on that we are
+58:09 going to fure data so we'll end the
+58:12 process over here itself okay then we
+58:14 have a next process so inside the next
+58:17 one let's say our quer is not up to the
+58:18 mark okay our query is not up to the
+58:22 mark based on the table the data which
+58:23 we are getting then what we'll do we
+58:25 have a cell inter interpretation we have
+58:27 our self evaluation over there then we
+58:29 are going to rectify this particular
+58:30 query and then again we are going to
+58:32 execute it and then again we are going
+58:34 to check whether it is correct or not if
+58:36 the interpretation check is going to be
+58:38 complete in that case again will
+58:41 generate the output means we'll give the
+58:43 final out okay so this is a simple
+58:45 workflow which we are going to follow
+58:47 the agentic workflow with respect to our
+58:49 SQL database on top of the SQL database
+58:51 we can create a rag pipeline as well but
+58:54 this is not a rag pipeline this is a
+58:56 pure agent pipeline okay so if you are
+58:59 willing to fetch your data from where
+59:01 from the database and on top of it you
+59:04 want to build not a classical R rack
+59:07 pipeline something agent based right so
+59:10 you can follow this architecture and
+59:12 again uh this architecture is a very
+59:14 much scalable it's all about coding
+59:16 logic and all so if you are able to
+59:19 understand this entire flow in a like a
+59:23 in a very good way right so definitely
+59:25 you can make a changes also after that
+59:28 understanding okay so once you will get
+59:30 understand understanding of this entire
+59:32 flow entire like method and all so on
+59:35 top of it you can also make a changes as
+59:37 I told you it is all about your logic
+59:38 coding and it is a flexible architecture
+59:41 it's a scalable architecture so uh till
+59:44 here everything is fine uh tell me can
+59:46 we move ahead yes or
+59:49 no if you'll give me the permission guys
+59:51 I'll go ahead
+60:04 tell me guys I think many of you you are
+60:05 watching to me if you are good to go
+60:08 till here please do confirm I'll be like
+60:11 writing the further C any doubt anything
+60:15 so this is a pure agentic workflow yes
+60:17 Krishna this is a pure agentic workl
+60:32 this will return return the query no it
+60:34 will return the uh like answer okay
+60:37 we'll pass the query uh yes uh it is not
+60:41 going to return the CLE query it's going
+60:43 to be written the
+60:44 answer the final answer
+60:48 okay how do you make the architecture
+60:51 this architecture actually we can make
+60:52 using the Lang graph itself we can
+60:55 create our flow and then we can
+60:57 visualize it's very easy to create this
+60:60 kind of architecture
+61:03 a query result yes we are going to
+61:05 showcase the query result in some cases
+61:08 actually I have tested this workflow so
+61:10 it was giving the query as well but that
+61:12 was not that that is not my main goal my
+61:14 main goal is to generate a result okay
+61:17 so the query is being generated in a
+61:19 back end and then based on that
+61:20 particular we are going to generate a
+61:21 result understood
+61:28 okay now let do one thing let's try to
+61:31 start so first of all guys here we
+61:33 required the L CH L CH intervention
+61:36 because this database which I created
+61:38 okay it is fine now what I want to do I
+61:40 want to read this particular database
+61:42 using the length CH okay because this
+61:44 entire workflow this entire project
+61:46 we're going to create using the L graph
+61:48 right so L CH L graph actually uh both
+61:51 will be required over here so first let
+61:53 me do one thing let me import the langen
+61:57 so from the langen I'm going to import
+61:59 something let me import that
+62:02 Lenore Community
+62:05 dot utilities and I'm going to import
+62:10 SQL database okay so this class actually
+62:14 will help us to load this database so
+62:16 let me uh give the location of this
+62:18 database okay so the location is going
+62:21 to be in my current directory itself so
+62:23 here I can write the name of it my B do
+62:27 DB okay so this is my database guys
+62:30 which I'm going to load now where I'll
+62:31 be keeping this database I'll be keeping
+62:33 inside one variable variable name is
+62:37 going to be DB okay now here I need to
+62:39 call one method the method name is going
+62:41 to be from Ur I so this is what this is
+62:46 my uh like uh line of code which is
+62:49 required to loading the database using
+62:51 the length chain so let me load it guys
+62:54 and inside this DB I'll be getting my
+62:56 database okay this uh this SQL database
+63:00 class is nothing it's just a wrapper
+63:02 from the Lin side so the same thing we
+63:04 can do which we doing over there okay so
+63:07 we can uh like insert the data we can
+63:10 fetch the data everything is possible
+63:12 over here as well because someone has
+63:14 already written all the instruction in
+63:15 backend so let me show you how it is
+63:18 possible so I'm going to show you
+63:19 something first first uh let me show you
+63:21 the dialect okay can anyone tell me
+63:24 what's the meaning of dialect uh we are
+63:25 talking about with respect to the we
+63:28 talking about with respect to the
+63:30 databases tell me guys what is the
+63:32 meaning of
+63:33 dialect dialect means see uh this SQL
+63:37 actually uh it's having a different
+63:38 different interpretation SQL is a
+63:41 language which was invented in 1970 198
+63:45 between 1970 to 1980 then according to
+63:47 the database all right different
+63:49 different dialect came like M SQL SQL
+63:51 light Oracle DB so there are minute
+63:54 changes according to the data datase
+63:56 itself okay so here we are going to use
+63:58 the SQL light dialect of the SQL right
+64:01 that's the meaning of dialect very
+64:03 simple now here if you want to check
+64:05 something let's say if I want to collect
+64:07 the table name so this DB actually it's
+64:09 having a lots of function so you can
+64:11 call one more method on top of it let's
+64:13 say G underscore usable table names so
+64:18 let me run it and see this is all my
+64:20 tables which I created okay just now I
+64:23 created and here you will find out all
+64:25 the tables right right and I sold the
+64:27 data also inside these particular tables
+64:30 got it uh now what we can do we can uh
+64:33 see we can run any sort of a function on
+64:36 top of this DB and in a same way
+64:39 actually we can utilize it like I was
+64:42 using this cursor understood so here my
+64:45 main goal to use this DB and to create
+64:48 something out of it like the tool and
+64:50 all so that my llm can take take a
+64:52 decision based on the configure
+64:55 configured information
+64:56 okay so the first thing what I'm doing
+64:58 here first of all I'm going to be load
+64:60 the model so I'm going to use the lench
+65:02 and grog because my model uh is the open
+65:06 source model okay I want to use the open
+65:08 source model so that everyone can
+65:09 implement it uh here the name is what
+65:12 Gro g r o q and here the spelling is
+65:15 wrong Lang chain okay then uh from the
+65:19 Lang chain Gro I'm going to import what
+65:22 I'm going to import this chat Gro okay
+65:25 so chat Gro is going to be what it's
+65:28 going to be my class now let me import
+65:30 the model and which model guys I'm going
+65:32 to use so I'm going to use the Llama 3.1
+65:36 okay or Lama 3 guys this is the model
+65:38 which I'll be using throughout this
+65:40 implementation now if you want to check
+65:42 the model so simply you can call the
+65:44 invoke method on top of it so let me
+65:46 call this invoke method and here I can
+65:49 check hello how are you okay so I'm
+65:53 checking my model whether it is working
+65:54 fine or not so see see guys this is
+65:57 working fine now tell me guys uh this is
+66:00 clear to all of you how to load the
+66:02 model it's very simple very easy now one
+66:06 more thing I would like to show you over
+66:07 here the thing is uh basically we are
+66:10 going to use one more method from the
+66:12 Lenin the method name going to be SQL
+66:14 database toolkit so here I'm going to
+66:17 use this uh Lin community and then I'm
+66:21 going to use this agent toolkit and then
+66:24 I'm going to import a which class the
+66:27 class name is going to be SQL database
+66:29 toolkit okay I'll tell you the use of
+66:32 this class what is the use of this class
+66:34 so first of all let me create a object
+66:37 of it and this object actually it's
+66:39 required two things so if you will look
+66:40 into the detail of this SQL light class
+66:43 SQL light sorry SQL database toolkit
+66:46 class so it is required two parameter
+66:48 the first parameter is going to be DV
+66:50 and the second parameter is going to be
+66:52 llm okay so DV and llm this two
+66:54 parameters is required so let me pass
+66:56 this two parameter so here I'm going to
+66:58 write this TB okay and then I'm going to
+67:01 write the next parameter which is going
+67:03 to be a llm so I created what I created
+67:06 my database tool git now let me assign
+67:09 this thing inside the variable and in
+67:13 some time everything is going to be
+67:14 clarified guys if you are uh like
+67:17 getting confused right so toolkit guys
+67:19 this will give me a tools let me check
+67:22 what all tools basically is providing to
+67:23 me so here the tool name is going to be
+67:27 I can simply check it out with this
+67:28 particular method now once I've learn it
+67:30 guys here I'll be getting my all the
+67:32 tools okay so see this is what this is
+67:35 all the tools uh the tool for what tool
+67:37 for query SQL database tool for what to
+67:40 tool for query SQL Checker tool for what
+67:44 tool for the SQL database okay list all
+67:46 the tables and then getting all the
+67:48 information maybe you are not getting
+67:50 this thing like this let me do one thing
+67:52 let me check out the name okay what is
+67:54 the name of these particular tools so
+67:57 for getting a names what I can do here I
+67:59 can simply call out the I can simply
+68:03 create the for Loop and then here I can
+68:06 write or I can call one attribute tool
+68:09 dot name okay so what I'm getting guys
+68:12 see here is my name name of these
+68:14 particular tool whatever tools basically
+68:16 we have seen over here right so let me
+68:18 show you the name sorry let me show you
+68:21 this tools okay this one these are the
+68:23 tools and here you can see the name of
+68:25 these tools SQL DB query SQL DB schema
+68:28 SQL DB list table SQL DB query Checker
+68:33 this is what this is my tools basically
+68:35 which I got from where from this SQL
+68:37 database toolkit now this particular
+68:39 tools actually we are going to use for
+68:41 what for retrieving the information from
+68:43 the database okay let me show you the
+68:45 demo how this thing is going to work
+68:48 right so first of all guys I require the
+68:51 uh like this let's say I'm going to take
+68:53 this tool the SQL DB list table
+68:56 right so for that what I did guys see
+68:58 here I'm going to iterate on top of it
+69:01 I'm going to iterate on top of this
+69:02 tools okay tools uh what I did see here
+69:05 is what here is my iterator right this
+69:07 this is my iterator object on top of it
+69:09 I'm going to iterate using this next and
+69:11 what I'm getting I'm getting this list
+69:13 tool wherever this position is going to
+69:15 be match uh then what I'm taking I'm
+69:17 taking this name and I'm keeping it over
+69:19 here inside this particular variable so
+69:20 let me show you what will be the output
+69:22 of this variable so here this is the
+69:24 output okay I got this tool this
+69:26 particular tool okay it's a simple
+69:28 python code basically which I written so
+69:30 what I did let me show you so this is my
+69:33 Tuple okay on top of this triple
+69:35 actually I'm going to iterate okay and
+69:38 here whenever like see this is what this
+69:40 is my uh list comprehension now whenever
+69:43 like I'll be matching with this name
+69:45 okay whenever like my tool name is equal
+69:47 to this one I'm going to fetch that
+69:49 particular tool so this is what this is
+69:50 my tool now let me show you how to fetch
+69:53 the table okay how to fetch the table
+69:55 from this particular tool and what is a
+69:58 tool name guys the tool name is list
+69:60 table name likewise I can fetch any sort
+70:02 of a tool okay uh let me do one thing
+70:04 let me show you the other uh tool as
+70:06 well so my other tool name is going to
+70:08 be what SQL DB schema okay I'm taking a
+70:11 second number of tool so let me pass it
+70:14 over here and see uh let me do one thing
+70:17 let me keep inside one variable my
+70:20 variable name is going to be get schema
+70:22 tool okay this tool actually it will
+70:24 provide me a schema of the table so here
+70:28 if you will look into this particular
+70:29 variable you'll be getting it see and
+70:32 what is a use of this tool maybe you
+70:35 might be thinking sir why you are like
+70:37 taking this tool why you loading this
+70:39 tool let me show you so once I will call
+70:41 this invoke method now here you will see
+70:43 see so this is giving me all the table
+70:45 name okay list table tools it is giving
+70:48 me all the table name over here now
+70:50 let's say if I'm going to invoke
+70:51 something so what I'm going to do I want
+70:53 to get a schema okay uh let's say I want
+70:56 to get a schema of what let's say I want
+70:57 to get a schema of this uh customer so
+71:02 let me pass the customer over here
+71:04 directly I'll be passing the customer
+71:06 and here what I'll be doing so I'll be
+71:09 taking all the details so let me keep it
+71:11 inside the print uh method and see what
+71:14 I'll be getting here I'll be getting
+71:16 this particular schema so the tool the
+71:20 uses of this tool kit is very very
+71:22 simple we are passing this database in
+71:24 this llm and it's providing me the
+71:26 different different tool now what is the
+71:28 name of this tool SQL DV query SQL DV
+71:30 schema list table query Checker and all
+71:32 everything so here let's say I uh took
+71:35 this tool list table tool so it is
+71:38 providing me what table name okay I can
+71:41 like write any sort of a query and all
+71:42 and based on that will give me the
+71:44 answer okay now here you can see get
+71:46 schema tool what it is doing it is
+71:47 giving me a detail of the table so this
+71:50 particular information I'm going to use
+71:52 for building my agent for my agentic
+71:54 flow this is going going to be my this
+71:57 is going to be my intention what is my
+71:59 intention guys so this Lon actually it
+72:01 has provided me a different different
+72:02 tools so using those different different
+72:04 tools actually I'm going to f the
+72:05 information and this particular
+72:07 information I'm going to use for what
+72:08 for creating a tell me for creating an
+72:11 agentic flow understood now here you
+72:14 will understand the importance of the
+72:15 Lang CH what is the importance of the
+72:17 Lang CH over here so that we can be
+72:19 align okay we could be aligned with our
+72:21 workflow the workflow which we are going
+72:23 to create using the leg graph right so
+72:25 this particular information whatever I
+72:26 have fetched as of now you can feed it
+72:29 directly to that particular workflow
+72:31 okay because it was not possible to
+72:33 directly to directly connect this
+72:34 database to the Lenin workflow so what I
+72:37 have used I have used the lenen rapper
+72:39 right so here is what here is my Lenin
+72:41 rapper and this lch rapper is providing
+72:44 me each and every information tell me
+72:47 this thing is clear let me give you the
+72:49 code uh just a second so here I'm going
+72:52 to commit
+72:54 it and let me do one thing let me write
+72:57 the
+72:59 message
+73:01 lch rapper added 4
+73:08 SQL
+73:10 information okay for SQL base
+73:14 to uh now let me commit it and then I'm
+73:17 going to sync the changes so guys uh
+73:20 here I'm going to sync it now just a
+73:23 second let me give you the link again
+73:25 maybe some of you you joined first time
+73:29 just uh and don't worry guys I'll be
+73:31 taking your doubt uh you can mention
+73:33 your doubt inside the chat section I'll
+73:35 be taking
+73:36 that oh let me pin this comment okay so
+73:41 just a second
+74:08 just a second guys let me check how I
+74:10 can pin this
+74:12 thing
+74:21 okay okay I think here it is not giving
+74:23 me option to Ping uh no worry no worry
+74:26 no
+74:29 worries great now what is the use of
+74:31 this Lenin rapper the use is very very
+74:34 simple to access the database okay so
+74:36 through this lench and rapper actually
+74:38 we are going to access this database so
+74:40 that this particular information see
+74:41 whenever we are going to create a l
+74:43 graph workflow what we required we
+74:44 requireed tools
+74:46 right we require the tools we require
+74:48 the nodes which we can create out of the
+74:50 tool so what we did we use the Lang
+74:53 chain rapper okay we we have used the
+74:56 langen we have read this database
+74:58 whatever database was there and now we
+74:60 are going to EXT the information using
+75:03 the different different method and the
+75:05 function which was provided by the lenen
+75:07 itself means what I wanted to show you
+75:10 so see whatever we are whatever we are
+75:12 able to do using this SQL light package
+75:14 that is fine that is well and good
+75:17 right but guys lenen is also providing
+75:19 us that this functionality means lenen
+75:21 is providing one repper to us okay this
+75:24 this class I can say simply load the
+75:25 database then again this particular
+75:28 class SQL database toolkit I can pass my
+75:31 database and all everything and then
+75:33 this will give me a tools I can directly
+75:35 use this particular tool for catching
+75:36 the information as simple as that got it
+75:39 the next thing is it getting clear all
+75:41 of you yes or
+75:46 no I hope so this is clear guys uh
+75:49 please do confirm as well if you got
+75:51 this code and once you will give me the
+75:54 confirmation I will move further
+76:23 all clear everything is clear or not
+76:26 tell me guys
+76:41 fast yeah at least do let me know guys
+76:43 if you got this
+76:47 code if we have a two column uh sorry
+76:51 what is your question let me check it
+76:53 out
+76:55 okay then is saying
+76:60 yes yeah please let me know guys if you
+77:02 got it then um so that I can move
+77:09 further okay I'm assuming that
+77:11 everything is going well now let me do
+77:13 one thing so I hope so till here
+77:15 everything is uh going well now what is
+77:18 going to be a next step so the next step
+77:21 is let me create one more tool over here
+77:25 okay
+77:26 so here the tool name is going to be
+77:28 what so this is a tool
+77:29 decorator and this tool decorator
+77:32 actually convert any sort of a function
+77:34 normal function to the tool so let me
+77:38 take this L chain underscore tool and
+77:41 from this linore code I'm going to take
+77:45 I'm going to import this tool and from
+77:47 here the final tool class in import tool
+77:53 okay now what I will be doing here I'll
+77:54 be creating one more function the
+77:56 function name is going to be DV query
+77:59 uncore to okay this particular function
+78:03 what it will do it will take a query and
+78:06 then this query type is going to be as
+78:09 Str and then it's going to be written
+78:11 something the written type again it's
+78:13 going to be Sr okay now what I'm doing
+78:17 here see DB dot I'm going to call one
+78:21 method on top of the DB okay DB is what
+78:24 DB is my database which I have collected
+78:27 over here okay which I have initialized
+78:30 over here this one so on top of this DB
+78:33 I can call one method My Method name is
+78:37 going to be what let me show you the
+78:38 method name so method name is going to
+78:42 be this run no throw okay I'll show you
+78:46 the like the working of this particular
+78:48 method what is the working if you want
+78:49 to check the details here you can check
+78:52 the details okay then uh I'll getting
+78:55 what I'll be getting the result let me
+78:58 take the result inside one variable and
+79:01 let me put the condition on top of it
+79:03 right so my condition is going to be if
+79:06 not result means if we don't have
+79:08 anything inside the result uh what I
+79:10 will do I'm going to be return one
+79:14 message so this is going to be my
+79:16 message otherwise I'm going to return
+79:18 the result itself so simple tool nothing
+79:22 else but maybe you might be confused
+79:24 okay you're getting confused about this
+79:27 function this run nothow now whenever
+79:30 you are going to create guys see
+79:31 whenever you are going to create any
+79:33 sort of a tool so for to that tool
+79:35 actually we need to pass
+79:38 the uh we need to pass the let me what
+79:41 we need to pass we need to pass the doc
+79:43 string as well so this dock string
+79:45 actually it will keep the details of
+79:47 this tool it is nothing just a
+79:49 description of this tool so what it is
+79:51 saying it is saying uh execute a SQL
+79:53 query against a database and return
+79:55 return the result if the if the query is
+79:58 invalid or return return the invalid
+79:60 result then it will generate an error
+80:02 message it will give you the error
+80:03 message in case of an error the user
+80:06 advis to rewrite the query and try again
+80:08 okay so this is the simple dock string
+80:11 which I return now whatever query I'll
+80:13 be getting I'll be passing it to this
+80:15 run no throw method okay so this is what
+80:19 this is my tool the Custom Tool which I
+80:21 created so let me summarize the thing
+80:23 first uh I call this I I invoked this uh
+80:28 what I did I invoked this uh tool okay
+80:31 the tool actually which was given to me
+80:33 which was given by this uh which was
+80:36 given by this SQL database toolkit so
+80:39 from this SQL database toolkit I'm using
+80:41 this uh list database list table tool
+80:44 which is giving me a table name the
+80:47 second tool which I'm using that is get
+80:49 is schema tool which is giving me a
+80:51 schema okay which will give me a schema
+80:53 of any sort of a table right so we have
+80:56 initialized this two two tool and this
+80:58 was the by default from the lenon itself
+81:00 and this is my Custom Tool which I
+81:02 created from my okay now what I'll be
+81:05 doing here so let me invoke this tool
+81:06 and let me check what I'll be getting so
+81:08 if I'm going to run this DB query tool
+81:11 do
+81:12 invoke okay so inside this invoke method
+81:15 I'm passing one query my query is going
+81:18 to be a very very simple uh my query is
+81:21 this one select a star from employee
+81:23 limit 10 okay
+81:25 so this is going to be my query or I can
+81:27 remove this limit I just have five rows
+81:30 so see guys what I'll be getting I'll be
+81:32 getting my all the rows understood tell
+81:34 me yes or no so this run no throw method
+81:39 okay this DB actually it is having one
+81:40 more method let me show you this db. run
+81:44 so this DB actually it is having one
+81:46 more method that is run so if we are
+81:49 passing our query to this method as well
+81:51 I'll be getting a same
+81:53 output okay see this one but guys this
+81:57 run no through what's the meaning of it
+81:59 the meaning is very very simple if the
+82:02 input squ is fine it will give me answer
+82:05 otherwise it will give me an exception
+82:07 message so you can think uh something
+82:10 like this okay let me show you the
+82:12 detail of this run no throw you can
+82:15 think the code some what Whoever has
+82:17 written the code of this particular
+82:18 method this run no through the person WR
+82:21 a code in this way let me show you the
+82:24 code okay this one this could be the
+82:26 internal process means whenever the
+82:29 whenever the query is coming so first
+82:32 going to make a connection right DB dot
+82:35 or run no throw then it's going to be
+82:37 execute the query and then it's going to
+82:38 fetch the
+82:40 information else okay else if if if we
+82:43 have an error right if if it is not
+82:45 going to work with respect to the
+82:46 squarey and all then simply it's going
+82:48 to return the exception understood so
+82:51 this is the internal working of what
+82:52 this is the internal working of this run
+82:55 know through method understood tell me
+82:58 till here everything is going fine so we
+83:00 have created this uh so so far guys we
+83:03 have created this three tool okay and
+83:05 this all the tools guys we are going to
+83:07 use inside our workflow so first tool
+83:09 actually it is giving me a table name
+83:11 the second tool is giving me aema detail
+83:14 and third tool basically it is
+83:15 responsible to give me a detail okay
+83:18 based on my given queries so if you are
+83:22 good to go till here you can confirm
+83:24 inside the chat guys tell me fast yes or
+83:29 no then I'll be creating few more
+83:32 functionality and then finally I'll be
+83:34 designing my workflow so I'm waiting for
+83:36 1 minute and I'm giving you this uh code
+83:39 as well uh if you are okay then please
+83:43 mention inside the
+83:50 chat I'm explaining you very very
+83:53 slowly and
+83:55 q e r y
+84:08 very function calling by Google is also
+84:11 same thing right like building your own
+84:13 function to run respective query yes it
+84:15 is right P your understanding is correct
+84:18 means you are asking uh like whatever
+84:21 function calling means whatever tool
+84:24 calling we are doing related to the
+84:25 rapper means the Google server API or
+84:28 any other API like the T API okay so in
+84:31 the same manner actually you can create
+84:33 your own custom tool as well this is my
+84:35 Custom
+84:37 Tool not only this one you can convert
+84:39 any function into the Custom Tool
+84:50 okay did you get a
+84:52 code if you will confirm to me sir yes I
+84:55 got it then I will proceed
+84:58 further R is saying sir can you
+85:00 summarize summarization
+85:03 see what I did I created a data I just
+85:06 imported my
+85:08 database okay and uh after that what I
+85:12 did I like initialized one more method
+85:15 from the Langell SQL database toolkit it
+85:18 has given me some predefined tool which
+85:21 is giving me a detail of the table and
+85:23 the database then here is is my one more
+85:25 Tool uh which is my Custom Tool and it
+85:27 is giving me a uh this is giving me what
+85:31 this is giving me a like query result
+85:34 okay whatever query you are going to ask
+85:35 to this particular
+85:42 tool now let's do one thing let's try to
+85:45 do the further uh coding so here guys
+85:49 I'm going to create my uh CH I'm going
+85:53 to create my prompt template right
+85:55 so here I'm going to create two
+85:57 functionality the first functionality is
+85:59 going to be a query
+86:01 check okay let me mention the first
+86:04 functionality is going to be a query
+86:06 check and the second functionality
+86:07 actually is going to be query
+86:10 generation okay query generation so this
+86:14 two functionality I'm going to create
+86:16 query check and query generation this
+86:19 query check actually it's going to be
+86:20 check what query I'll be passing and
+86:23 this query generation it will give a
+86:25 final result right so let me explain you
+86:28 this two thing it's going to be a very
+86:31 easy see this is the
+86:33 one this is the first
+86:36 one okay and here let me give you the
+86:39 second one as well just to save the time
+86:41 I kepted with me right so don't worry
+86:43 about it guys from where I got it and
+86:46 yes I took a help from the L
+86:48 documentation as well because they have
+86:50 explained everything in a well manner
+86:52 right so here is what what here is my
+86:55 next uh functionality so this one is
+86:60 what this one is a query check and this
+87:02 is what this is my query gen
+87:05 understood okay now let me explain you
+87:08 what it is all about this entire
+87:10 functionality this entire coding okay
+87:12 guys give me a second uh just a second
+87:48 okay so just look over here look into
+87:52 this prompt what I'm saying what I
+87:54 written over here and return you are an
+87:56 XEL expert and with a strong attention
+87:59 into detail so you need to double check
+88:02 the SQL light query for the common
+88:04 mistake included the common mistake what
+88:07 all mistake actually we can make we can
+88:09 make a mistake with respect to the
+88:10 joints okay with respect to the casting
+88:13 whatever query we are casting okay
+88:15 whatever quotes we are going to be write
+88:17 there mismatching predict predicates and
+88:20 all right uh we are going to mention the
+88:22 different different constraint now you
+88:24 are like open for open to write any sort
+88:27 of a details okay uh regarding the SQL
+88:30 query so whatever came in my mind just
+88:33 to check with the general check Jour
+88:36 whatever Jour checks actually came in my
+88:37 mind I return return those okay then
+88:40 here what I have mentioned if there is
+88:42 any mistake then rewrite the query again
+88:45 if there is no mistake just repr
+88:47 reproduce the original query you will
+88:49 call the appropriate tool to execute the
+88:51 query after running the check okay so
+88:55 here is what here is my check prom
+88:56 template this one then here I'm binding
+88:59 the tool to the llm and which tool so
+89:01 here I'm what I'm passing here I'm
+89:03 passing this DB query tool so DB query
+89:05 tool where I Define it DB query tool let
+89:08 me show you that as well so here is my
+89:12 DB
+89:13 query toolkit is here and here is my get
+89:19 schema this is my DB query tool I return
+89:22 it now just now this one so I bind I
+89:26 bind this particular tool right so what
+89:28 I'm going to do here based on the query
+89:30 uh this will call my tool means if there
+89:33 is a normal me normal hi hello something
+89:36 it will not call this tool if there is a
+89:39 SQL related query okay means any
+89:41 specific query related to the SQL and
+89:43 all in that case it's going to be
+89:45 identify that thing and it's going to
+89:47 call the DB query tool okay which will
+89:50 fetch the detail from the database as
+89:51 simple as that now so here if you want
+89:55 to check it out you can simply check it
+89:57 out let me write it over here so I'm
+90:00 going to execute it and now here I'm
+90:02 going to invoke it so invoke query
+90:06 check. invoke now this is my message
+90:10 okay and guys always see whenever you
+90:12 are going to pass the message to this uh
+90:14 query check you need to pass in this
+90:16 particular format only right we need to
+90:19 pass in this particular format only I
+90:21 will tell you why because we are going
+90:22 to Define our agent state in this way
+90:25 now if I will run it then here you will
+90:27 be able to get the details right so see
+90:30 based on this particular query what it
+90:32 is doing it is doing it is it is calling
+90:34 the tool which tool it is calling so you
+90:36 will get a detail over here the tool
+90:38 name is dbquery tool okay I hope so this
+90:42 thing is clear to all of you what I'm
+90:44 trying to do so here I have created my
+90:47 query check okay and what this query
+90:50 check is doing this is going to be check
+90:52 the query if it is wrong it's to be
+90:54 rewrite it again otherwise uh it's going
+90:56 to be called The Tool and this tool
+90:59 actually what it will do this tool we
+91:01 are going to use further okay whatever
+91:03 tool we have defined so my tool name is
+91:05 what my tool name is this one query
+91:08 check okay this is my tool name DB query
+91:12 tool I hope so this thing is clear now
+91:14 let me explain you the next one as well
+91:17 so my next uh chain is going to be query
+91:19 Generation generation system okay this
+91:22 query generation so what it is doing
+91:23 this Ty to read The Prompt The Prompt is
+91:26 very simple you are an XL expert okay
+91:29 give an input question output a
+91:31 synthetical correct sqlite query to run
+91:34 then look at the result of query and
+91:36 return the answer okay do not call any
+91:39 tool beside uh submit final answer to
+91:42 submit the final answer okay now when
+91:45 you are generating a query then you need
+91:47 to be focused on this part so what is
+91:49 this part output the SQL query that
+91:51 answer the input question without a tool
+91:53 call and here unless the SQL un unless
+91:58 the unless the user specific specific
+92:00 number of the example they wish to
+92:02 obtain always limit okay so this entire
+92:04 detail guys you can read it out I will
+92:06 give it to you so what we are going to
+92:08 do over here tell me so here simply we
+92:10 are going to generate what we are going
+92:12 to generate tell me we are going to
+92:14 generate our final query which we need
+92:16 to pass to where which we need to pass
+92:18 to this tool okay here also I have
+92:20 appended the tool this one okay so this
+92:23 two method it's very much sorry this two
+92:25 CH actually it is very much important in
+92:27 our workflow right so let me run it and
+92:31 I hope so this is fine so let me do one
+92:33 thing let me import this base model as
+92:36 well so I'm going to import this base
+92:38 model guys just give me a
+92:40 second uh base model or let me import
+92:43 everything in a single shot guys when
+92:45 once I will run the entire workflow so
+92:47 most of the thing is going to be clear
+92:49 okay if it is not going to be clear as
+92:50 of now uh just wait for 5 more it so let
+92:55 me take all the import statement which I
+92:58 C somewhere okay this is my import
+93:00 statement and here I'm going to Define
+93:03 all this import State this one now uh
+93:07 guys see what is there so we have
+93:09 created this particular chain let me
+93:12 execute it first this one and then I
+93:16 have both chain now okay now what I'll
+93:19 be doing I going to be defin the state
+93:23 okay now in which format actually I'm
+93:24 going to flow the information inside my
+93:26 workflow so this is my state class and
+93:30 to this state class uh I'll be passing
+93:33 this type dict okay why I'm doing it so
+93:37 that I can keep each and every
+93:39 information in the key and value format
+93:41 so here is what here is my key my key
+93:43 name is going to be messages okay m s e
+93:47 DS and then what I will be doing here
+93:50 I'm going to define the type of this
+93:52 messages so this is the type of this
+93:54 messages okay this is what this is my
+93:57 state now I'm going to define the
+93:58 different different uh I'm going to
+94:00 Define what different different uh
+94:02 basically method so uh the first method
+94:05 is going to be what the first method is
+94:07 going to be tab uh First Tool called
+94:10 This is my first method now to this
+94:14 method actually I'm passing what I'm
+94:15 passing this state okay and what is a
+94:18 type of this state state is nothing it's
+94:20 a state itself or you can like keep the
+94:22 agent State any sort of a name any any
+94:24 custom name right so here is what here
+94:28 is my first tool call then let me write
+94:31 the pass then here is my here is what
+94:34 here is my second method the second
+94:36 method is going to be error wise so
+94:39 handle tool error so whatever errors
+94:43 will be coming so we are going to be
+94:44 handle those particular error so let me
+94:46 write over here this state okay but for
+94:49 the first tool called the state is not
+94:51 required I'll let you know why because
+94:53 I'll between the hardcoded thing so here
+94:56 is what here is again pass now we
+94:58 require the third method okay so here is
+95:02 what here I will be having third method
+95:04 what's the name of it the name is create
+95:08 underscore tool uncore node with fall
+95:13 back okay fall back this is what this is
+95:18 my next method and here this will take a
+95:22 tool and the type of the tool is going
+95:24 to be a list okay so tool type is going
+95:27 to be a list and it's going to be
+95:29 written something so it's going to be a
+95:32 return this running result right I'll
+95:34 let you know what is the meaning of this
+95:35 fallback and why it is required so this
+95:38 is again pass this is my next method so
+95:41 handle tool error this is the one method
+95:43 and create tool node this is the next
+95:45 method okay now what I have to do here
+95:48 so the next thing is going to be
+95:53 uh we are going to be create and more
+95:56 method the method name is what query
+95:59 generation node so here is one of the
+96:01 method query generation node okay now
+96:05 what it will do it will take a state and
+96:07 the type of the state is a state only
+96:09 and then here is what here is my pass
+96:11 got it then uh guys we have one more
+96:14 method the method name is what should
+96:15 continue so let me write over here
+96:19 should continue and here is what here is
+96:23 I State and then State okay then this
+96:27 again is going to be pass I'll be
+96:28 writing all the functionality don't
+96:30 worry I'll be coming to that part okay
+96:32 now this name let me change it out this
+96:34 is going to be a okay this is same state
+96:37 okay this is fine so again this is all
+96:41 perfect now one more method would be
+96:43 there the method name is what model
+96:45 check okay so model check query so it's
+96:49 going to be check the query and here let
+96:51 me write the state and here is what here
+96:53 is my St okay now I hope so this is
+96:57 perfectly fine so these many methods
+96:59 guys we have which we are going to be
+97:01 include inside our workflow okay now how
+97:06 to design the workflow so for Designing
+97:09 the workflow let me do one thing let me
+97:11 initialize the workflow so here we are
+97:13 going to create a state graph so let me
+97:16 Define the
+97:18 state graph
+97:21 okay so State graph graph and to this
+97:24 state graph guys I'm going to pass the
+97:26 state and here the type of the state is
+97:29 going to be State oh let me mention the
+97:32 state okay is stage now after this one
+97:37 what I'll be doing see this is my
+97:38 workflow now to this workflow I'm going
+97:40 to add the nodes okay so workflow do add
+97:45 nodes so add nodes so I'll be adding the
+97:48 multiple notes over here so as many as
+97:51 function we have 1 2 3 4 5 6 7 so seven
+97:54 notes we are going to add over here okay
+97:58 so seven notes Here let me copy and
+98:01 paste this one and this one then guys
+98:05 after the note what we're going to add
+98:07 so after the note guys we're going to
+98:08 add the ages okay so let me add the ages
+98:14 just a second this is going to be my
+98:16 node and then I'll be having my ages
+98:19 okay so how many ages 1 2 3 4 5 6 7 8 9
+98:23 nine ages I will let you know how to
+98:24 like Define this ages and nodes okay
+98:26 everything uh guys we going to discuss
+98:28 don't worry so let me remove it this
+98:31 particular part and here is what here is
+98:34 my ages okay using this particular node
+98:37 and ages what we are going to do we are
+98:38 going to decide a workflow okay so here
+98:42 is my ages this is going to be nine so I
+98:46 think so it is all clear okay and then
+98:50 guys what I doing here I'm going to be
+98:52 compile my work workflow so whatever
+98:55 workflow basically we have so we are
+98:57 going to compile that workflow and once
+99:00 I will be compiling the workflow what I
+99:03 will be getting I'll be getting this
+99:05 application okay now this app actually
+99:08 will be using for what for invoking the
+99:11 query understood so this is my final
+99:16 process and then if you want to stream
+99:18 you can stream also okay stream means
+99:21 what see uh even not this one even if
+99:24 you want to display the application
+99:26 right so I can write one code I think
+99:28 someone was asking to me about a display
+99:30 how you can display the entire workflow
+99:32 right you can invoke it invoke basically
+99:34 it's a batch process means at a single
+99:37 time you can pass only a single query
+99:39 right but you can run the streaming also
+99:41 on top of this application so here uh
+99:44 what I can do I can run the streaming so
+99:47 for running the streaming guys I need to
+99:49 call this stream and through this stream
+99:53 for I will have to pass something that
+99:56 I'm going to pass so this is my entire
+99:58 workflow see after creating all the
+100:02 chains tools and all and here simply you
+100:05 will find out my workflo now what I have
+100:07 to do uh like I'm going to commit it to
+100:10 my uh GitHub so that you can copy and
+100:13 paste and uh workflow structure add it
+100:20 this is my SD c r now let me commit it
+100:25 guys and here I can do one
+100:31 thing workflow
+100:33 added let me sync it
+100:40 okay please check out with the GitHub
+100:42 repository you will get all the details
+100:44 and all everything over there itself so
+100:47 let me show you where you will find out
+100:49 this entire
+100:51 code this is the
+100:55 reposit and here SQL agent with leg ip5
+101:01 let me scroll
+101:03 down and
+101:05 uh
+101:09 yeah here is the one guys see the entire
+101:13 code of basically which I committed you
+101:15 can take it you can copy and paste I'm
+101:17 giving one minute of time or let's do
+101:19 one thing let's take two minute of break
+101:21 okay and then I will code this entire
+101:23 fun functionality whatever functionality
+101:25 is there and finally we'll add the nodes
+101:29 and edes and everything and we'll try to
+101:32 invoke the qu so tell me how the session
+101:35 is going on are you enjoying it are you
+101:37 able to understand not completely but
+101:39 tell me uh because once we'll run the
+101:42 entire workflow uh most of the thing or
+101:45 99.99% out is going to be clear so
+101:49 mention inside the chat guys if you
+101:51 understood so far and if you got this
+101:54 for I'm asking to everyone Whoever has
+101:56 joined this
+101:59 session okay B is saying yes sir got it
+102:02 what about others what if table name are
+102:06 so bad LM not able to recognize which
+102:09 table is required we'll have to add a
+102:11 condition according to that okay we'll
+102:13 have to like Define The Prompt and all
+102:16 everything according to that if we have
+102:19 an exceptional
+102:20 case got it so let me give you this link
+102:23 again and uh let me give you 2 minute
+102:26 break as well so that you could be
+102:28 aligned with the code and let's take a
+102:32 break okay 2 minute water break and then
+102:34 again we'll start so just a
+102:39 second you're going great and good grabs
+102:42 all the details great so far shared
+102:44 without my previous hands
+102:47 on yeah so the previous uh thing
+102:50 previous code and all everything you can
+102:51 get it from the GitHub on GitHub also
+102:54 okay great so let me put a timer for the
+102:57 2 minute guys and until copy the code
+102:60 keep it with you and then we'll try to
+103:01 code this entire F thank
+103:22 you
+104:52 e e
+105:51 okay so everyone is back
+105:58 can we again
+106:09 start yeah so let's uh start off with
+106:12 the
+106:16 functions what if we have a different
+106:18 data sources like tabular data in DB
+106:22 then a PDF
+106:24 so you will have to collect the data at
+106:26 the single place okay means using the
+106:29 Lang chain itself Lang chain gives you
+106:31 the different different data connectors
+106:32 right so you can collect the data in a
+106:35 different different variable from the
+106:37 different different sources okay and
+106:39 then after collecting the data as a
+106:41 single document object you can create a
+106:43 agents or anything on top of it got
+106:48 it first make sure the data connector is
+106:51 available or not that a specific data
+106:53 current inside the
+106:54 L but I think PDF and all you can you
+106:58 can collect even I also created one
+107:00 video on my yoube channel okay if you
+107:02 will go and check with my YouTube
+107:03 channel you will find out that I have
+107:05 collected data from various resources
+107:07 and on top of that I have created a rag
+107:10 I build up a rag so you can report that
+107:13 a specific
+107:17 video okay now the first thing is going
+107:19 to be first tool called so what I'm
+107:23 doing here guys see uh here I'm going to
+107:25 call my first tool so what would be my
+107:28 first tool my first tool basically
+107:30 always it would be a it would be what
+107:34 uh uh this first to actually it's going
+107:37 to be a table name okay so let me do one
+107:40 thing let me give you the written
+107:44 statement which I written over here see
+107:47 this is going to be my first tool okay
+107:51 so here I written return message inside
+107:55 this message I'm not going to return
+107:56 return any AI message okay this is my
+107:59 hardcoded message basically which I
+108:00 return return just for this particular
+108:02 function and here is my tool what is my
+108:04 tool name SQL DB list table so I'm
+108:08 listing all the table I'm getting all
+108:09 the tables okay then handle tool error
+108:14 so this is going to be a little like
+108:17 amazing to all of you right uh here
+108:20 before uh coding this function let me
+108:23 code this uh let me code the next
+108:25 function so the next function is what
+108:27 next function is this uh create tool
+108:31 node with fall back okay so guys
+108:34 everyone knows about the uh everyone
+108:36 knows about one function I think I have
+108:38 used this function in my previous
+108:40 session as well uh so what we can do we
+108:43 can create our tool into the node using
+108:46 this
+108:47 method okay tool node method why it is
+108:50 required because everything we are going
+108:52 to up
+108:53 whatever we are going to append inside
+108:55 the Lang graph workflow we are going to
+108:57 append in the form of node okay so we'll
+108:59 have to convert our tool into the notes
+109:02 so whatever tools I have I'm going to be
+109:03 converted to the notes now I'm calling
+109:06 one method on top of it the method name
+109:08 is going to be with fallback okay so I
+109:11 think guys you know what is the meaning
+109:12 of fallback means if it is going to be
+109:14 generate any sort of error so I will
+109:16 call the functionality whatever
+109:18 functionality I'm going to be mention
+109:20 inside this fall B okay now inside this
+109:22 fall back guys I'm going to mention this
+109:25 handle tool error understood this this
+109:28 particular method now I have to mention
+109:31 it in the form of this runable Lambda
+109:33 let me take it from here uh let me paste
+109:36 it this one see guys this is going to be
+109:39 a complete expression so what we are
+109:41 saying we are saying okay convert this
+109:43 tool into the not with fall back if
+109:46 there is any sort of error or issue if
+109:48 you're able to find with respect to the
+109:50 tool then simply what you have to do you
+109:52 have have to generate an error okay you
+109:55 have to handle that particular error now
+109:56 how you going to handle that error okay
+109:59 so that error guys will be handling over
+110:01 here inside the above function so this
+110:04 above function is going to be a very
+110:06 very simple see here is what here we
+110:08 have this state. get error I'll be
+110:11 getting the error okay then we are
+110:14 getting a tool detail tool call and we
+110:16 are going to return the complete detail
+110:18 means we are saying here if we have any
+110:20 sort of a issue with respect to this
+110:23 functionality what I'll be doing I I'll
+110:25 I'll fall back to this
+110:27 functionality okay maybe the tool is not
+110:30 available in that case what I will do
+110:32 I'll be I'll fall back to this
+110:33 functionality okay so this is just
+110:35 additional functionality which I
+110:36 mentioned I could skip this part as well
+110:39 but again I return it so that uh like uh
+110:43 you could be implement this thing inside
+110:44 your projects so uh here is what create
+110:47 a tool node with a fallback this is also
+110:50 done now my next one so next one is is
+110:53 query generation node should continue
+110:55 node and this modu check query node okay
+110:59 so let me give you the code of this uh
+111:02 other functions as well and this other
+111:04 functions is going to be like just a
+111:08 second let me mention it over here see
+111:12 so what we have here we have see first
+111:15 of all we are going to call this query
+111:16 gen. invo whatever state whatever
+111:19 message we are passing okay based on
+111:20 that then here we are fetching the
+111:23 tool detail
+111:26 okay just a second let me take it from
+111:29 here this entire
+111:31 function because I pasted it wrong sorry
+111:35 guys this is not
+111:37 a this would be a different
+111:39 functionality sorry so inside this query
+111:42 generation node okay what I have see
+111:45 here I'm going to call this query
+111:46 generation. invo whatever messages I'll
+111:49 be getting through my state right then
+111:51 from here what I'm doing I'm going going
+111:53 to be petch the tool detail okay let's
+111:56 say to I I call this message. tool call
+111:59 if it is there then what I'm doing I'm
+112:00 just going to be taking a tool detail
+112:03 Okay then if it is not equal to the
+112:05 submit final answer then what I have to
+112:07 return I have to return let see we have
+112:09 a error inside the like tool okay means
+112:13 we have to make like a Improvement
+112:15 whatever query basically it's there and
+112:17 the tool I okay this two thing basically
+112:19 we are going to be mention otherwise we
+112:21 are going to be return this and empty
+112:23 list right this is going to be a
+112:27 functionality simple functionality uh
+112:30 this you will get once we are going to
+112:31 be execute okay once we are going to be
+112:34 execute the work then we have the next
+112:36 one that this is what should continue
+112:39 whether we should continue or not right
+112:41 so here we have the should continue
+112:44 functionality as well means we'll be
+112:46 getting the message here is what here is
+112:49 my last message okay mean the like last
+112:52 message whatever message that the state
+112:54 will take that okay now here we are
+112:56 checking if it is a last message and
+112:58 Tool call okay then we are going to end
+113:00 the process otherwise see last message.
+113:03 content start with error then again we
+113:05 are going to generate a query okay
+113:07 otherwise if this is not going to be a
+113:10 if it is not going to be a correct what
+113:12 we are going to return we are going to
+113:13 return this correct query okay this
+113:15 three conditions we have over here
+113:18 understood so inside this should
+113:20 continue okay now we have the last last
+113:23 one this is what this is my model check
+113:26 query okay now inside this model check
+113:28 query what I'm going to return see here
+113:30 we are going to be called this model
+113:33 check which I already uh the Chan which
+113:36 I already created right so here is what
+113:39 here I'm doing a query check okay and uh
+113:42 whatever like response it is provided to
+113:44 me based on my prompt and all I'm
+113:45 keeping it over here that's okay so what
+113:48 I can do guys I can take this particular
+113:50 method uh the starting of it so first
+113:53 tool handle tool error and just a second
+113:57 let me keep it over here this one so
+113:59 model check query because as soon as the
+114:01 query will come we have to check that
+114:04 particular query so this is going to be
+114:06 what this is going to be my entire
+114:07 functionality okay again I will come to
+114:09 this one first of all let me complete
+114:11 the workflow now we have to add the node
+114:15 so the first node is going to be what
+114:18 it's going to be a first tool called so
+114:20 let me write the name first okay it's
+114:22 going to we have custom name first
+114:25 underscore tool underscore node okay so
+114:30 just a second yeah so first tool call
+114:34 now here what I'll be giving what I'll
+114:36 be passing I'll be passing this first
+114:38 first _ toolor call okay this is going
+114:41 to be what this is going to be my
+114:43 function now here I'll be passing the
+114:46 second like function okay my second
+114:49 function is going to be what second
+114:50 function is going to be this list table
+114:53 tool okay so here I'll be listing all
+114:55 the tables uh this tool actually I
+114:57 already captured I'll be showing you
+114:59 that one now here I'm going to be call
+115:02 this uh method this method what is the
+115:05 method name create tool nde with a fall
+115:07 Bank okay so here I'm going to create a
+115:09 node of this particular tool itself
+115:11 because I cannot parly I cannot pass
+115:14 directly this tool to the workflow first
+115:16 I need to convert into the note okay so
+115:18 create tool note with fallback and here
+115:21 I'll be passing what I'll be passing my
+115:23 list of table okay list of table so let
+115:26 me pass my list table tool I hope so
+115:29 this is perfect right so this is a name
+115:32 guys don't be confused this is a name
+115:33 and this is the actual functionality
+115:35 here you can write any sort of a name
+115:37 okay I don't have any issue you can give
+115:38 any name even your name as well right
+115:41 now so likewise I'm going to be Define
+115:44 one more on node so my next node is
+115:47 going to be what my next node is going
+115:49 to be this get schema okay get schema
+115:52 tool and here what we have we have this
+115:54 create tool node with fallback so here
+115:57 my tool name is what get schema tool so
+115:60 first first tool call what is my first
+116:02 tool call see here is my first tool is
+116:04 SQL DB list table okay so once I will
+116:08 call this particular tool I will WR this
+116:09 name so I'll be going through with this
+116:11 tool list table tool okay means I'm
+116:14 going to be list all the table then get
+116:16 schema means like I'm getting all the
+116:18 detail of that particular schema then
+116:20 after this one we have one more one more
+116:24 thing now we have to pass this model
+116:26 schema so that I can check okay so here
+116:29 what I'm going to do I'm going to be
+116:31 Define my uh one more tool just a second
+116:37 guys but before that let me add uh one
+116:40 llm call this is going to be my llm call
+116:44 guys so just a second let me add on this
+116:47 LM call I think I add on one more
+116:50 functionality yeah this is going to be
+116:52 my LM call so what is my LM call inside
+116:55 the LM lm. bind tool I'm passing this
+116:58 get is schema tool okay and then this is
+117:01 going to be what this is going to be a
+117:02 model get schema now why I'm doing it
+117:05 I'll be talking about it okay first let
+117:07 me design it then uh the next is going
+117:09 to be what the next is going to be this
+117:12 uh model schema which I written over
+117:14 there just a second let me pass it over
+117:16 here see model model get schema and here
+117:19 I'll be passing my message whatever like
+117:21 message I'm passing based that I'm
+117:23 checking okay so the name is very very
+117:26 simple the name of it the name of this
+117:28 particular node is model get schema then
+117:30 what we have we have this query
+117:32 generator okay then after that we are
+117:34 going to be correct the query if there
+117:35 is something okay with this model check
+117:38 query and then finally we have this
+117:40 execute query okay we are going to be
+117:42 execute the final query using this DB
+117:44 query tool so this is going to be my all
+117:47 the nodes okay now we have to create
+117:49 what we have to create a ages now ages
+117:52 age creation is also very very easy see
+117:54 first I'm going to be start okay means
+117:56 we are passing input then it is coming
+117:57 to this first tool call okay it's going
+117:60 to be check means like which tool
+118:03 actually we are going to be return so
+118:05 our tool name is very very easy see here
+118:07 I written this particular tool so we are
+118:09 going to be return this SQL DB list
+118:12 table okay this particular tool then
+118:15 after this one we are going to we are
+118:16 going to make a connection okay we are
+118:18 going to make a connection to this list
+118:20 table tool okay so first tool to list
+118:23 table tool it is giving me all the
+118:24 details of the table and all then here
+118:26 what we are getting we are getting a
+118:28 like schema detail okay the entire
+118:31 schema detail and all then guys after
+118:33 getting the schema detail all the things
+118:35 whatever tables and all we have inside
+118:37 the inside the inside that particular
+118:39 table right we are able to fetch all the
+118:41 detail all the metadata the rows and all
+118:43 then we are passing to this query
+118:45 generation so we are going to generate a
+118:46 query okay after this query generation
+118:49 we are asking should I should continue
+118:51 where should where should we continue
+118:52 new so if everything is fine means tool
+118:55 call and all then we'll end the process
+118:57 okay if this is going to be end with the
+118:60 error then I will generate again
+119:02 regenerate the query okay or else I'll
+119:04 will be correcting the query so this
+119:06 thing this three keyword actually I'm
+119:08 going to be WR based on that this
+119:09 functionality will be called okay
+119:12 whatever functionality are there then
+119:15 finally what we have so we'll execute
+119:17 the query and after the execution again
+119:20 we'll generate a query if there is any
+119:22 mistake over there right now so let me
+119:25 run it and here is what here is my
+119:28 workflow guys and then if I'm going to
+119:30 be execute it so finally what you will
+119:32 get you will get the entire architecture
+119:34 okay now what is the meaning of it the
+119:37 first architecture which I shown you and
+119:39 this particular architecture this
+119:40 architecture both architecture are same
+119:43 okay uh I think we have made some
+119:45 mistake over here let me check where we
+119:47 have placed this should continue inside
+119:50 this one
+119:53 okay this is the
+119:57 one model table C query
+120:01 generation from the query generation we
+120:03 are going to implement the conditional
+120:05 Edge okay fine guys I think I missed
+120:07 something over here just a
+120:17 second query generation query generation
+120:19 query generation okay guys please give
+120:22 me a second let me check it out
+120:25 here what is the or let me invoke it
+120:29 with one of
+120:31 the
+120:33 column so here is going to be my user
+120:37 query this is going to be my user query
+120:41 and this particular message I'll be
+120:42 passing it over here just a second guys
+120:44 I'm just checking okay then I'll be
+120:46 explaining you this SP here is what here
+120:48 is my user query and tell me the
+120:56 yes just a second I think I made some
+120:58 mistake while I'm defining a
+121:07 functionality oh should
+121:13 continue okay let me recheck it with the
+121:17 tools itself
+121:25 guys just a second I'm
+121:32 checking okay this is my DB query Tool
+121:35 uh this is perfectly
+121:37 fine now I checked
+121:39 it okay this is
+121:49 working okay then we have one more this
+121:53 chat prom template okay this is also
+121:56 fine we are able to create this query
+122:00 check and here what we have query
+122:03 generation
+122:04 also so this is my query
+122:06 generation then what we have we have
+122:09 this warnings you can import it just a
+122:13 second here itself I can
+122:20 import okay then
+122:23 last St now here is what here is my
+122:28 first
+122:29 tool so this first tool what it is doing
+122:33 guys just a second let me check it
+122:37 out okay this is perfectly
+122:42 fine to eror this is also
+122:48 fine model
+122:50 check okay this is also
+122:53 perfect should continue this is also
+122:56 perfect okay let me check out the notes
+122:59 as well and here is the complete guys I
+123:04 think I missed out one note maybe
+123:06 because of that we having the
+123:09 is okay yeah now it is
+123:20 perfect and it should be
+123:25 yeah ites workflow is fine node is
+123:37 fine should the query
+123:40 chain should continue
+123:53 okay what is
+123:56 happening I'm reassigning recreating the
+123:59 object
+124:00 but okay now it is
+124:03 perfect app
+124:07 okay let me create it guys just a
+124:11 second it is running yes it is giving me
+124:14 a answer guys just me check whether this
+124:16 answer correct or
+124:18 not here I'll be checking it with the
+124:20 response
+124:23 just a second let me execute it then
+124:24 I'll be showing you
+124:26 okay so okay fine now here is what here
+124:29 is my message fin answer yeah guys so
+124:34 see it is giving me a details okay tell
+124:36 me the name of play who salary is more
+124:39 than 30,000 likewise you can ask your
+124:42 question uh perfect perfect perfect but
+124:45 from this squer generation why it is
+124:47 going back again to every
+124:50 tool should not go like
+124:60 this correct query execute query should
+125:14 continue query
+125:20 generation see it is giving me answer
+125:23 but here my concern is about this
+125:25 conditional age why it is going back to
+125:27 every other
+125:29 age just a second guys let me check it
+125:32 out why it is
+125:34 so oh let me restart this okay
+125:38 this maybe we have override something
+125:41 because of that
+125:50 only okay this is perfect this is
+125:52 perfect now let me see this is a main
+125:56 diagram here is
+125:59 my database is fine database DB d t name
+126:04 model is perfectly
+126:08 fine okay invoke is working fine then L
+126:13 is fine toolkit is fine is giving me a
+126:16 tools great so this is my all the tools
+126:20 okay and SQL DP list table so this is
+126:24 the
+126:26 tool list table
+126:33 tool here is what get to get scha okay
+126:38 this is also perfect oh this is working
+126:41 fine this is also results is fine this
+126:46 is f find query check warnings okay
+126:51 perfecty check is there check invoke is
+126:54 working submit final answer this is also
+126:58 First Tool handle tool error okay fall B
+127:01 is also perfect model check very
+127:06 note okay
+127:08 workflow now this one
+127:11 compile and this
+127:14 one again guys we are getting see we are
+127:18 getting answer but this conditional Edge
+127:21 actually it is going to to every other
+127:23 node could
+127:26 continue should I mention it manually
+127:36 here just a second let me mention it
+127:38 manually
+127:41 okay so manually first is going to be
+127:45 end so and basically it will be ending
+127:48 the
+127:50 process uh the second is going to be
+127:53 what the second is going to be query gen
+127:56 okay so let me take the query gen over
+127:59 here and what value should be associated
+128:02 with this query
+128:03 gen to the query generation
+128:07 node or the S gen only so let me take
+128:11 this s gen and now the third one is
+128:14 going to be correct qu
+128:17 okay so here is what here is my next one
+128:21 which is
+128:27 qu and third one is going to
+128:30 be
+128:32 correct
+128:42 Co okay perfect now just a
+128:46 second let me keep it over here this one
+128:49 and correct query okay now let's see
+128:52 whether it's working fine or not so
+128:53 workflow again
+128:56 object ites workflow compile and yes now
+129:01 it is perfect guys okay so I added it
+129:04 manually from my end uh maybe this is
+129:07 this was not able to capture it I think
+129:09 so it was redirecting everything to the
+129:11 every other like node which was not
+129:15 required okay so this dotted means what
+129:18 dotted dotted means conditional edges
+129:21 Okay so if query generator is there then
+129:23 it will correct the query it will
+129:24 execute the query and then again it will
+129:26 go to the like query generator and
+129:28 finally it will end the process okay
+129:30 likewise there will be one Lo understood
+129:33 okay so let's do one thing guys uh first
+129:36 of all tell me uh just a second let me
+129:38 give you this entire code and then we'll
+129:39 test it on a different different queries
+129:41 okay and I will give you a quick recap
+129:42 and then finally we'll conclude the
+129:44 session if you will be having any sort
+129:46 of a doubt okay after taking that so let
+129:49 me give you the entire code this is the
+129:50 entire codee I just need to check it out
+129:52 with the different different queries
+129:53 okay so the code is going to be code is
+129:57 completed code
+130:00 is
+130:02 completed then let me edit let me commit
+130:05 it okay and here is syc
+130:09 changes please take the code from the
+130:11 GitHub only
+130:17 okay great so just a second I cap the
+130:21 different different example exle also so
+130:23 that we can test it
+130:33 out see this is all the questions okay
+130:36 which I created on top of this table uh
+130:39 which you can directly ask to
+130:42 your agents okay this is all the
+130:46 questions uh basic questions all
+130:49 advanced question and and uh like this
+130:53 kind of question only you need to ask
+130:55 right in a real time as well I just keep
+130:58 that thing in my mind and I like
+131:01 generated all this question okay so here
+131:04 you can see basic question
+131:06 wise let's try to ask this question how
+131:09 many customer are in the customer table
+131:11 list all the customer with their email
+131:13 address and all so let's do one thing
+131:15 let's try to take this particular
+131:18 question list all the customer with
+131:20 their email address
+131:24 my question is going to be change
+131:26 okay and let's see whether it's is going
+131:29 to work or not so query
+131:32 response and this is my response guys
+131:36 the customer with their email address
+131:38 these are the email
+131:39 address okay so whatever question you
+131:42 are asking see the question is the list
+131:43 all the customer with their email
+131:45 addresses okay so inside the customer
+131:47 table we already have a customer you can
+131:49 see you can check right and that
+131:52 particular detail we are able to FL okay
+131:55 now let's try to ask some other question
+131:58 I'm going to pick the question show the
+131:60 phone number of the customer whose name
+132:02 start with
+132:04 Smith just a second so what I'm doing
+132:07 I'm going giving this question over here
+132:09 and let's ask this
+132:15 question
+132:16 okay very simple very easy and invoke
+132:20 query and and here see once I will check
+132:23 with the
+132:24 response see this is the
+132:27 response show the phone number of the
+132:29 customer whose last name is I SP and
+132:31 this is a complete agentic workflow it's
+132:33 not a r based workflow I haven't used
+132:35 the database and all any anything over
+132:38 here believe me guys right in front of
+132:40 you only I have buil this is the
+132:41 database which I created just to take
+132:43 the data okay so from here actually I
+132:46 imported a data this one from this my
+132:48 db. DV right now let me show you with
+132:51 the question let's try to take some
+132:53 intermediate question so what is the
+132:55 average order
+132:57 amount what is the average order amount
+132:60 and let's see the capability of the LM
+133:01 whether it is able to solve it or not
+133:03 this question okay just a second so here
+133:06 what I'm doing I'm just going to waste
+133:09 it and see query invoke and see this is
+133:13 the answer the average amount is 2
+133:16 33.75 and from where this average amount
+133:19 is coming see somewhere actually we have
+133:21 a data
+133:22 inside the table which I kept right this
+133:25 one this is my data and if you will
+133:29 check this order amount average order
+133:33 see I haven't mentioned from the order
+133:34 table or from where automatically it is
+133:36 able to fetch see the like intelligence
+133:38 of the model so here 250 150 300 and 450
+133:44 let's try to calculate it whether it is
+133:46 correct or not so here I'm going to
+133:49 write
+133:50 250 Plus
+133:52 150 + 300 + 450 okay divided by what uh
+134:00 equal to divide by 4 amount is
+134:05 287.4 and it is giving me 2 303 3 37.5
+134:10 okay so see this is like a little
+134:11 halogenations okay we which we are
+134:13 getting maybe we will have to be more
+134:15 specific with respect to the query okay
+134:18 that basically you can check it out now
+134:20 let's do one thing let's try to ask some
+134:22 another question so let's try to take it
+134:24 from The Medium only intermediate
+134:26 question uh here what I can
+134:29 do see so customer which have not placed
+134:33 any order okay so customer customer
+134:37 customer employ I
+134:40 think okay the data is not matching so
+134:42 we cannot execute this particular query
+134:45 order table where order C Place
+134:48 generated okay let's ask this particular
+134:51 okay
+134:54 this one and let's see whether it is
+134:56 able to answer or not so guys you can
+134:59 draw the query okay you can keep as much
+135:01 as like data inside the database and you
+135:04 can ask the query so which customer
+135:06 place order greater than 300 so this one
+135:09 this one and customer three so it is
+135:12 giving it is giving me customer 3 as
+135:14 place order more than3 $300 you can
+135:17 check it out you can check it out again
+135:19 inside the table itself so 300
+135:22 OPC it is saying
+135:24 order it is like uh talking about this
+135:28 particular
+135:29 customer
+135:32 okay
+135:33 now let me see here I mention the dollar
+135:37 symbol maybe it is not able to interpret
+135:39 this particular information but it is
+135:41 generating answer okay from the customer
+135:44 data it is
+135:46 taking so did you understand or not tell
+135:49 me yes or no the complete idea that what
+135:51 I'm trying to do over here so this
+135:54 actually this see it is not going to
+135:56 generate a query it is directly
+135:57 generating an answer okay based on their
+135:59 intelligence the query is going to form
+136:01 in Middle okay and it's trying to F the
+136:04 information from where from the database
+136:06 directly understood now let's try to
+136:10 take a recap of this entire thing and
+136:13 then finally we are going to conclude
+136:15 this session so the first thing guys
+136:18 first thing we should have a database
+136:20 okay which I already shown you the
+136:22 second thing basically you need to be
+136:23 import the database through the L then
+136:26 you can create a toolkit of this will uh
+136:30 give you one method you sorry this will
+136:32 give you one class this SQL database
+136:34 toolkit you can check out you can check
+136:36 out this class inside the Lang
+136:37 documentation also
+136:39 okay sorry inside the langra
+136:42 documentation and even they have given
+136:44 the lowlevel code as well of this
+136:45 particular class inside the langra
+136:47 GitHub then here we are doing we are
+136:49 passing this DB and llm okay and based
+136:52 on that it is providing me some tool
+136:54 this tool basically using this
+136:55 particular tool we can fetch the
+136:56 information so SQL DB query SQ DB schema
+137:01 SQ DB list table SQ DB query Checker
+137:04 right these are the name
+137:06 now so what we'll do see here uh we have
+137:10 what we have this like list table tool
+137:12 which we are able to petch okay using
+137:14 this name we have this get schema tool
+137:17 right then what we are doing we are
+137:18 going to be check it whether it is
+137:20 working fine or not now till here
+137:21 everything is cor then we have created
+137:24 one more tool this is our like this is
+137:27 our basically Custom Tool and it is
+137:30 responsible for giving me a final query
+137:32 okay then here is what here is my like
+137:36 this query Checker I going to check the
+137:38 query whether it's correct or not then
+137:39 here is what here is my query generation
+137:41 okay this will generate a query so query
+137:44 will be generated then query will be
+137:45 checked right good then what we have we
+137:48 have the different different method so
+137:50 here we have defined the state so in the
+137:52 message of uh list okay list of messages
+137:56 the information is going to flow through
+137:58 the different different notes okay then
+138:00 we have the first tool called uh this I
+138:03 return from my end but you can like
+138:05 remove it also okay it is not required
+138:07 because here I was calling the manual
+138:09 here I was passing this manual name okay
+138:12 but rather I means letter I thought okay
+138:15 it should not given like this I can
+138:17 basically directly start from the second
+138:19 node itself right so then we have this
+138:21 handle tool alert means whenever I'm
+138:24 going to create a node if this node this
+138:25 tool actually this tool node okay see we
+138:28 have a tool whatever tool basically we
+138:29 are passing okay the uh schema Tool uh
+138:33 that or the table tool okay that I'm
+138:35 going to convert to into the Noe if it
+138:37 is giving any sort of error then we are
+138:38 going to be fall back over here right
+138:40 then here is model check query so we are
+138:42 going to be check same thing uh like
+138:45 query check I already explained you then
+138:46 query generation is there okay query
+138:48 generation means what query generation
+138:50 again like it
+138:52 call the appropriate tool right then
+138:55 should continue where I should go uh if
+138:57 everything is perfect I will end the
+138:59 process if everything is not fine okay
+139:01 means start error and all it's going to
+139:03 start with the error then query
+139:04 generation again then correct query okay
+139:06 will the correct query means the query
+139:08 is correct and finally will generate the
+139:09 out then here is what here is my
+139:11 complete node okay and then this is what
+139:14 this is my edes the connectivity the
+139:16 complete orchestration so this is my
+139:18 functionality which I'm going to be
+139:19 converted to the node and this is the
+139:21 ages means my complete orchestration
+139:23 after that you will get this particular
+139:24 architecture so with this architecture
+139:26 you can understand everything in a like
+139:28 one single short and then here I have
+139:31 given you some questions you can check
+139:32 it out on the question some question
+139:34 actually it's not relevant because we
+139:35 don't have much connectivity inside the
+139:37 data so first of all you will have to
+139:39 make a connectivity right inside the
+139:40 data itself and then you can put the
+139:42 question Rel to the joints and all right
+139:45 but whatever question I have given over
+139:46 here based on that it is able to fetch
+139:48 the answer now uh you can check uh let
+139:51 me ask the question can you give me a
+139:54 phone number of Sunny okay or can you
+139:57 give me an email ID of sun can you give
+140:00 me
+140:02 a can you give me a email ID of Sunny
+140:08 okay very simple question so let's see
+140:10 whether I'm able to get or not this
+140:11 particular response so see this is the
+140:13 email ID of sunny and I hope so it is
+140:16 correct see understood now let's try to
+140:20 ask one more question from here so give
+140:23 me the like order how many order are
+140:26 there more than 300 rupees okay so this
+140:29 is going to be my question how many
+140:34 order are there which is more than
+140:40 300
+140:43 rupees okay then let me execute it and
+140:46 see what I'll be getting there is one
+140:48 order which is more than 300 rupees okay
+140:51 so likewise you can test with any sort
+140:54 of a question so tell me did you
+140:56 understand this entire project did you
+140:59 understand this entire flow see this
+141:01 type of project this type of like like
+141:04 agentic system and all you can mention
+141:05 inside your resume as well directly up
+141:07 front right you just need to change the
+141:09 database to the realtime database and
+141:11 yes you can do that so did you like it
+141:14 did you like this entire project will
+141:16 you go through with it will you run it
+141:17 from your end as well if you can give a
+141:21 shity in the chat so that then only I
+141:23 can conclude the session so code updated
+141:27 with
+141:29 question
+141:31 finally let me commit it and then here
+141:34 is syn
+141:36 changes tell me guys I'm waiting for a
+141:39 reply uh if you will give me a
+141:41 confirmation then I will end the session
+141:43 and how you will get this entire code so
+141:46 let me show you that as well
+141:51 this is the entire code I'm going to
+141:53 refresh it and then you can
+141:58 get yeah you can ask this question I I
+142:01 given you this entire code just just
+142:02 like take it and try to ask the question
+142:05 okay to your application see I given you
+142:07 the like the sample portion and all
+142:10 everything okay you can make the table
+142:12 changes according to it and then you can
+142:14 ask those portion you can test it on
+142:16 those particular portion as well okay so
+142:20 tell me is it is it uh fine to all of
+142:22 you yes or
+142:25 no when there is a multiple table
+142:29 similar column when there is a multiple
+142:32 table similar column how it query how it
+142:35 will directly fetch correct table
+142:36 without using llm token how to f up
+142:40 correct because see table actually we
+142:42 are going to identify with the table
+142:44 name okay so table name also we have
+142:46 included now inside this workflow if we
+142:47 will look carefully right so just a
+142:51 second let me show you
+142:55 that first actually we are going to
+142:57 start from the table name itself so
+142:58 table name would be a
+143:00 different okay similar column wise
+143:03 actually there should be a connection
+143:04 between the column you have to make some
+143:06 connection between those column and
+143:07 based on that only you are going to ask
+143:08 the question if two column is having a
+143:11 same name okay inside a different
+143:13 different two table then based on the
+143:14 table name you are going to be
+143:16 identifyed okay yes the session
+143:19 recording will be available over the
+143:21 YouTube itself got it what about the
+143:23 complex database it work for orle
+143:25 database as well yes for any database
+143:27 Kumar you can check it
+143:31 out okay fine guys I think you love the
+143:34 session now uh what we can do so we can
+143:38 uh can you show it satis it will take
+143:41 another one and two hour I will have to
+143:42 create that type of data okay uh that
+143:46 type of data table column we have to
+143:47 insert and we'll have to run it from a
+143:49 scratch so what you can do you can
+143:52 do it as assignment if you have any sort
+143:55 of a doubt after this one you can ping
+143:58 on my mail
+144:00 ID okay or you can ping me the solution
+144:03 for sure I will create one video on top
+144:05 of it and maybe I will publish it on my
+144:08 channel okay so
+144:14 this great so this is the mail
+144:17 ID perfectly fine uh can we conclude the
+144:20 session tell me guys if you will give me
+144:22 a confirmation I will conclude
+144:37 it okay fine so we'll meet in the next
+144:41 session we'll try to create some other
+144:43 project new project I will I will
+144:44 introduce something new to all of you
+144:47 and please do one thing uh please create
+144:50 one end project out of this project okay
+144:54 and uh create a UI and all everything
+144:57 create a more complex agentic patter
+144:59 with more complex database data set as
+145:01 well and try to ask each and every kind
+145:03 of question and please uh like send it
+145:06 to me okay here is my mail ID you can
+145:09 send it to me I will validate if I will
+145:11 find out okay it is good I can make a
+145:13 recording okay I can create a recording
+145:15 of that project I will create a
+145:17 recording I will upload on chrisan
+145:18 YouTube channel I will upload on my
+145:20 YouTube channel on both YouTube channel
+145:21 it will be available okay so that you
+145:25 can at least go through with that
+145:26 particular code you can because see code
+145:27 and all everything is available inside
+145:29 the description so I see most of the
+145:30 people what they are doing they're just
+145:31 taking the code from the description and
+145:34 like they they don't watch the complete
+145:36 videos on all okay that is also fine so
+145:38 anyhow like the project should be to you
+145:40 only right so you should get a project
+145:43 that's it okay fine so let's uh conclude
+145:46 the session again we'll connect with
+145:48 some new thing uh with some new
+145:50 framework and all with some new project
+145:53 with the end to end project until thank
+145:55 you bye-bye guys good night take care
+145:56 any doubt anything mail to mail it to my
+145:60 mail ID otherwise you can Ping On Me
+146:03 ping to me on my LinkedIn as well okay
+146:06 so yeah thank you bye-bye take care I'll
+146:08 meet you in the next session

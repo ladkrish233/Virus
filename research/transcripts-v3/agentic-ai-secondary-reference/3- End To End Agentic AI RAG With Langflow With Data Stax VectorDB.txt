@@ -1,0 +1,668 @@
+00:00 hello all my name is krishn and welcome
+00:03 to my YouTube channel so guys a very
+00:06 happy New Year 2025 for all of you and
+00:09 probably this is the first video of 2025
+00:12 we will be continuing building agentic
+00:15 AI application Series um this tutorial
+00:18 that I am going to probably do is based
+00:20 on a new framework which is called as
+00:22 langlow and with the help of langlow uh
+00:25 we will definitely be able to build some
+00:27 amazing agentic AI application I was
+00:30 impressed about this particular tool
+00:32 when I started using it and now uh I'm
+00:35 building more complex workflows as we go
+00:37 ahead so let's quickly go ahead and
+00:40 share the screen and again um I will be
+00:43 covering more Frameworks as we go ahead
+00:46 okay uh there are Frameworks that are
+00:48 going to come up like crew AI there are
+00:50 Frameworks that are come up uh that are
+00:52 going to come up like langra but again
+00:55 uh I will try to cover as much as videos
+00:57 as I can but definitely you need to
+00:59 practice more more and more because it
+01:01 is not possible to cover each and
+01:02 everything in depth yes I will be coming
+01:05 up with live boot camps related to
+01:08 agentic Ai and uh generative AI on cloud
+01:11 uh soon and you should be also able to
+01:13 probably enroll in that in that we will
+01:15 try to completely discuss in depth along
+01:17 with end to endend projects so uh as
+01:20 usual we'll keep a target for this
+01:22 particular video at least 1,000 likes
+01:24 150 comments so please make sure that
+01:26 you try to do this it will actually help
+01:29 me to it basically motivate me to upload
+01:31 more videos as as soon as possible okay
+01:34 so quickly uh let's go ahead and talk
+01:36 about Lang flow Lang flow is a low code
+01:39 tool for developers that makes it easier
+01:41 to build powerful AI agents and workflow
+01:43 that you can use any API models or
+01:46 database now this probably this this
+01:48 framework is quite amazing because here
+01:51 you will be able to use any kind of
+01:53 models any kind of vector database any
+01:56 kind of tools you'll be able to create
+01:58 agents you'll be able to create multi-
+02:00 agents in this video I will be taking
+02:03 you to that entire step step by step you
+02:06 know complete projects we'll be
+02:07 developing in front of you and I will be
+02:10 discussing as we go ahead right how to
+02:12 probably create a multi- aai agents how
+02:15 how you you can probably create a agent
+02:17 so that they will also have conversation
+02:19 with different different tools so this
+02:21 is just going to be a big project and at
+02:22 the end of the day how you can integrate
+02:24 that with the python code so everything
+02:26 will be discussed in this particular
+02:28 video you can still discuss you can
+02:29 probably look more about this particular
+02:31 thing but uh it is more like a drag and
+02:33 drop so it will be very beneficial for
+02:35 all those people who feel that coding
+02:37 they they have some problems with
+02:39 respect to coding okay so first of all
+02:41 what we'll do you'll click on get
+02:42 started for free so first of all you
+02:44 need to go ahead and sign up okay I have
+02:46 already signed up so what I'm actually
+02:48 going to do is that I will go ahead and
+02:50 sign in now once I sign in probably I
+02:53 will be using my Google account so let's
+02:56 go ahead and do that so here uh you can
+02:58 see that I already logged in I've played
+02:59 with so so many different different
+03:01 projects but it's quite amazing so I'll
+03:03 C click on new flow and right now uh
+03:06 there's something like basic prompting
+03:09 with an open AI model uh if you probably
+03:11 go ahead and see all templates there are
+03:14 various other templates that you can
+03:15 probably see over here one by one you
+03:17 can go ahead and just explore you know
+03:20 but what I'm actually going to do is
+03:22 that I'll just go ahead and click on
+03:23 blank flow okay now this is the blank
+03:25 flow uh let me talk more about this
+03:27 particular framework on the left hand
+03:30 side you'll be able to see but again if
+03:32 you really want to understand this well
+03:34 you definitely need to at least have
+03:36 knowledge with respect to some of the
+03:37 Frameworks like Lang chain or Lang graph
+03:39 you know you should have done some
+03:41 amount of coding right so then then only
+03:43 you'll be able to understand this
+03:45 component see now this input is there
+03:46 there is chat input text input then you
+03:49 have this output then you have this
+03:50 prompts you have this data data like API
+03:53 request directory file uploads URL web
+03:56 hook then you have processing like
+03:58 combined text filter data and all are
+04:00 there right you have models and it
+04:02 supports various models like you can see
+04:05 over here it supports Amazon Bedrock
+04:07 anthropic aure openi cair Google
+04:10 generative AI Gro hugging face LM Studio
+04:13 it probably supports each and everything
+04:15 you have Nvidia olama you can also
+04:17 connect to llm models that are locally
+04:18 installed then you have open Ai and all
+04:21 right along with that you also have
+04:22 Vector stores like astrab astrab graph
+04:25 cassendra cassendra graph chroma DB FS
+04:28 elastic search and this they also
+04:30 provide you free access to probably all
+04:32 these kind of databases right then you
+04:34 have embeddings you have options of
+04:36 creating agents and all as usual as I
+04:38 said that I will be showing you
+04:40 completely one endtoend project how you
+04:42 can easily create with this and how you
+04:44 can integrate in your python code okay
+04:47 so everything we'll be discussing as we
+04:49 go ahead okay so first of all what I'm
+04:51 actually going to do is that uh let's
+04:53 talk about what kind of problem
+04:54 statement I'm going to solve okay so one
+04:57 problem statement that I feel uh you
+04:59 know I I will just try to create a
+05:01 recipe generator right now let's say
+05:04 that in that recipe generator I also
+05:05 want to include rag that basically means
+05:08 if I ask a chat about hey how to
+05:10 probably prepare chicken biryani right
+05:12 if I have that data in my rag database
+05:15 it will probably pick up all those
+05:16 information from there otherwise it will
+05:18 just go and do a Google Search right and
+05:20 then it'll try to uh pick up the
+05:22 information from the web itself so
+05:24 something like this so that basically
+05:26 means I'll try to create a agent manager
+05:28 which will be parallely communicating
+05:31 with multiple tools so that is the
+05:33 reason we say it as multiple AI agent so
+05:35 I'll not say AI agent but agentic AI
+05:37 flow we'll try to follow okay so let's
+05:40 quickly uh hide my face so that we can
+05:43 probably start now to start with uh what
+05:45 I am actually going to do right I will
+05:48 go step by step to show you each and
+05:50 everything okay like how we are
+05:52 basically going to start and uh how
+05:54 things are going to go ahead right so
+05:56 first of all I will just drag and drop
+05:57 the chat input see chat input is
+05:59 basically there okay this is the input
+06:01 that we are going to give right we are
+06:03 going to probably give the chat input
+06:04 over here with respect to any text and
+06:07 we should probably be able to pass it to
+06:10 our open models or agent or something
+06:12 else right then you have this chat input
+06:14 along with this chat input what we are
+06:16 basically going to do is that I'm also
+06:18 going to go ahead and see with respect
+06:20 to chat output okay so let's see whether
+06:23 there is a chat output so inside this
+06:25 output there is a chat output now see
+06:27 this is what happens this is my input
+06:30 and this is my output right so input to
+06:32 Output in between lot of different
+06:34 processing may happen but I'm not
+06:36 interested right now in all this things
+06:38 we'll see to it in the later stages like
+06:40 what all things we are basically going
+06:41 to do okay see my aim is basically to
+06:44 create a chatbot a recipe generator and
+06:48 in that recipe AI generator what it does
+06:50 is that if it has data in our Vector
+06:53 database then it'll try to pick up those
+06:55 information from there otherwise it will
+06:57 just go ahead and uh you you know
+06:60 probably do the web search and it'll
+07:01 take out all the information okay now uh
+07:05 The Next Step what we are basically
+07:07 going to do over here so I have my chat
+07:09 input I have my chat output we will try
+07:11 to create an agent right because that
+07:14 agent is just going to do all this task
+07:16 right so I will click on agent I will go
+07:19 ahead and drag and drop over here now
+07:21 with respect to this particular agent
+07:22 you can see that I can I'll just rename
+07:25 if you want I can rename this agent also
+07:27 let's say uh this particular agent agent
+07:30 uh is my uh
+07:33 recipe recipe rag agent okay so that
+07:37 basically means this agent is going to
+07:39 hit the uh you can just consider that it
+07:42 is just going to hit my Vector database
+07:45 and it is just going to pick up all the
+07:46 information and get it okay so this is
+07:49 what my agent does okay now here uh
+07:52 obviously for any agent I need to also
+07:54 provide some kind of llm Provider right
+07:57 so here I will just go ahead with Gro
+07:59 because it has open source models and
+08:01 then here you'll be able to see that uh
+08:04 here is my agent instruction so agent
+08:06 instruction I will just go ahead and
+08:07 write you are helpful agen that can use
+08:09 tools to answer questions and perform
+08:12 tasks so this is just my agent which
+08:14 will specifically use tool so uh let me
+08:17 do one thing this I will just go ahead
+08:19 and tell this is my recipe manager okay
+08:23 so this person work is or this Manager
+08:25 work is basically to retrieve all the
+08:27 information it can be from different
+08:28 different places okay so this is done
+08:31 and this is good enough okay now here
+08:34 I'm writing my prompt you are a helpful
+08:36 assistant that can use tools to answer
+08:38 questions uh and perform tasks so this
+08:41 is fine right so here uh this uh agent
+08:45 is basically going to communicate with
+08:46 some of the tools now which tools we
+08:48 will have a look onto that I can also
+08:50 say uh recipe manager I can also say
+08:53 recipe Chef okay chef chef will be a
+08:56 good name okay now this is perfect now
+08:59 here you'll be able to see that we also
+09:01 have to provide grock API key right and
+09:03 I have already spoken in my previous
+09:05 video how you can go ahead and create
+09:07 your grock API key so for creating uh
+09:10 you can just go ahead and directly paste
+09:12 the grock API key or you can just go to
+09:14 gro.com so I will just go to gro.com and
+09:17 from here you'll be able to get your API
+09:19 key to access all the models right so
+09:21 you can just go to Dev console and here
+09:24 you have an option of creating the API
+09:26 Keys you can create any number of API
+09:27 keys and you can use it okay so I have
+09:29 already created it so what I will do I
+09:31 will go over here I will click on this
+09:33 okay and here you can see that I have
+09:36 already added a variable right grock API
+09:39 key now this variable is basically
+09:41 assigned with my key which is over here
+09:43 because I don't want to show you that if
+09:45 you want to add something new you can
+09:46 just go ahead and add a new variable
+09:49 like this and here you can give the
+09:50 variable name and you can give the value
+09:52 right value will be nothing but whatever
+09:54 value you are getting it from here okay
+09:56 so that is what we are basically going
+09:58 to do right now I have selected it okay
+09:60 this is my grock API key now this input
+10:03 that is probably going to come from
+10:05 where it will be coming it will be
+10:06 coming from this right it'll be coming
+10:09 from this right whatever chat input I'm
+10:11 basically giving it is just going to
+10:13 take that particular input and then it
+10:15 is going to communicate with the gro
+10:17 right still we have not decided whether
+10:20 this needs to communicate with any kind
+10:22 of tool right so that we will decide in
+10:24 the later
+10:26 stages but I hope uh till here everybody
+10:29 is very much clear about it like what we
+10:31 are doing right we have created a recipe
+10:34 Chef now what this recipe Chef is
+10:36 basically doing it is taking this
+10:37 particular input and it is just going to
+10:39 give you some response so this response
+10:41 will be displayed over here okay so this
+10:44 is the task that we have done till now
+10:46 okay for right now what I will do I will
+10:48 just remove this because I don't want it
+10:50 right now okay now let me do one more
+10:52 thing let me create one more agent now
+10:56 this time now let's go ahead and see
+10:58 what will be the work for this
+10:59 particular agent so here also I will
+11:00 take a model provider that is Gro okay
+11:03 and let's say that it has selected this
+11:04 it is selected this okay and uh with
+11:07 respect to grock again uh what I am
+11:10 basically going to do over here is that
+11:12 uh this agent instruction that we are
+11:15 specifically going to get okay we will
+11:18 try to get from a prompt okay I'll just
+11:21 tell you why it is really important you
+11:23 know so let's say that this is my chat
+11:25 input okay and I will just go ahead and
+11:28 design one of the prompt so let's go
+11:30 ahead and design The Prompt okay and
+11:33 this is my prompt okay now what this
+11:35 prompt will do let's discuss about this
+11:37 okay and this is really really important
+11:39 I will just go ahead and create a prompt
+11:41 over here so let's go ahead and create
+11:43 I'll copy and paste it your goal is to
+11:46 answer the question asked from the
+11:47 company database okay company database
+11:49 basically means whatever database we
+11:51 have okay use rag to fetch the details
+11:55 and provide the most relevant output
+11:57 okay so question and whenever understand
+11:60 we have to provide a placeholder right
+12:02 this question will be coming as an input
+12:04 over here and then in your response
+12:07 incorporate the points incorporate the
+12:11 recipe points I'll write like this okay
+12:14 and this will basically be my results
+12:16 okay so this is just like a prompt
+12:17 template we have specifically used okay
+12:20 your goal is to answer the question from
+12:21 the company datab okay so I will go
+12:24 ahead and check and save it okay now see
+12:27 as soon as I created two variables as a
+12:29 prompt right one is question over here
+12:31 one is result over here my question is
+12:33 definitely going to come from where it
+12:36 is going to come from
+12:37 my chat input right yes or no yeah
+12:42 because this is the question whatever
+12:43 question I'm writing it over here it
+12:45 will come over here right and then you
+12:47 will also be able to see right over here
+12:51 uh you'll be able to see that I will be
+12:53 getting some kind of results over here
+12:56 right and with respect to this
+12:57 particular results also right because
+12:60 from this message there will be two
+13:01 information one is my question and one
+13:03 is the result so we have combined both
+13:06 of them over here right so now once we
+13:09 have got the receiving input with
+13:11 respect to question and results okay
+13:13 right now I have just created this agent
+13:15 let me do one thing let me just delete
+13:16 it for time being okay now from this
+13:19 prompt message you can probably see from
+13:21 this prompt message I can go ahead and
+13:24 connect it right I can go ahead and
+13:26 connect it as an input over here right
+13:28 so this recipe Chef what it is basically
+13:31 doing is that it is getting a chat input
+13:33 we have WR written a prompt and here
+13:36 this prompt is all about your goal is to
+13:39 answer the question from the company
+13:40 database use rag to fetch the details so
+13:43 it is saying hey use rag to fetch the
+13:45 details okay and here I've connected to
+13:48 to my recipe Chef agents okay so this is
+13:50 still here clearly very much Clear okay
+13:53 but now my question Rises we have still
+13:55 not connected to any database yet right
+13:59 like no no rag databases over here so
+14:02 for that let's go ahead and create our
+14:04 Astra DV so now if you see over here
+14:08 with respect to databases okay with
+14:10 respect to database so if I probably go
+14:13 ahead and just see there lot of options
+14:16 over here so please make sure that you
+14:18 probably go ahead and check it okay so
+14:21 now uh if I just close the models if I
+14:24 go ahead and see my Vector store okay
+14:27 Vector store so here Vector store is
+14:29 there so here you can see memories is
+14:31 there I will also minimize this so many
+14:34 things I've opened it but no worries we
+14:36 will go step by step so that you should
+14:38 also be able to understand okay so I've
+14:40 closed the agents and everything is
+14:42 closed okay now in the vector store you
+14:44 have first of all astrab so Astra DB is
+14:47 one kind of database okay now first of
+14:49 all for the astrab token by default it
+14:52 is selected let's choose a database okay
+14:54 now over here to choose a database you
+14:56 can just go ahead and create a new
+14:59 database so if I just go ahead and click
+15:01 add a new database I can give the
+15:03 database name I can select the provider
+15:05 like AWS and I can also go ahead and
+15:08 select a region okay so let's say that
+15:09 if I give some name and here and if I go
+15:12 ahead and select us E2 and if I click
+15:15 the create database then my database
+15:16 will get created it'll take some time
+15:19 now here when I choose an option let's
+15:21 say my cushin database is already
+15:22 created okay and this is the collection
+15:25 that I have created because you'll also
+15:27 get an option to create a collection
+15:28 like you can go ahead and create a new
+15:30 collection after the database is created
+15:32 but here I have already created it just
+15:34 to make sure that we save time okay now
+15:38 here it is saying search input like what
+15:40 input needs to be given over here that
+15:42 is also very much important now how do I
+15:44 probably give the input so my input will
+15:47 definitely go from the chat right so
+15:49 here I will just go ahead and select it
+15:51 right so this input is basically
+15:53 selected or gone from here okay now with
+15:56 respect to this particular input this
+15:58 should hit this particular database and
+16:00 give me the response right and that is
+16:03 the reason we have connected it like
+16:04 this okay now the next step over here it
+16:07 is saying me to go ahead with some
+16:09 embedding model so by default there is
+16:11 also something called as Astra
+16:13 vectorizer Astra vectorizer is uh is a
+16:17 uh you can just consider that it is a
+16:19 vectorization or it is an embedding
+16:21 technique wherein it takes the text and
+16:22 converts into a vector okay here we can
+16:25 also go ahead and select uh one
+16:26 embedding provider let's say that I will
+16:28 be selecting an Nvidia it is up to you
+16:30 but again it'll be available completely
+16:32 for free okay you don't need to probably
+16:34 select a model uh by default whatever it
+16:36 will be there you it will work okay now
+16:39 after you get a specific result okay so
+16:42 from this uh you get you will definitely
+16:44 get a result okay now from this
+16:47 particular result see whenever you hit a
+16:49 vector database right you get some kind
+16:51 of information and that information
+16:53 basically needs to be passed okay so now
+16:56 I will just go ahead and search for
+16:58 processing so so in processing you have
+16:60 something called as parse data now for
+17:03 this parse data what I am actually going
+17:05 to do is that I will just go ahead and
+17:07 select something right now what I will
+17:09 select this search results will go to my
+17:12 data and it will start getting passed
+17:15 right so this paring basically means
+17:17 what by default when we are searching
+17:19 from this Vector database we are going
+17:20 to get into the form of Json but this
+17:22 parse data what it is going to do is
+17:24 that it is just going to uh convert that
+17:26 into a specific text okay now once we
+17:29 get that specific text now you should
+17:32 know that how we are basically going to
+17:35 get the input right so here after we
+17:38 pass it right so this right now we
+17:41 created this receiving input from here
+17:43 right if you remember yes uh so what we
+17:47 will do is that I will just delete
+17:49 this I will just delete this and one
+17:53 thing I will connect that is from here
+17:55 to here right because whatever output
+17:57 that I'm actually getting from the AST
+17:59 DB that input we are going to get it
+18:01 over here in the form of results okay
+18:03 and then it will probably connect it to
+18:05 the rip shf and then we are going to get
+18:08 the output right so these all things has
+18:11 been taken care and here you can
+18:13 probably see the complete flow the main
+18:15 flow over here is that you have a chat
+18:17 input you have a prompt you have this
+18:21 Astra DB we considering in this Astra DB
+18:24 there will be some kind of information
+18:26 now we need to design that entire rag
+18:28 this is my rag database but how do we
+18:31 make sure that we create this particular
+18:33 rag database in the initial stages and
+18:34 we upload some data so now let's go
+18:37 ahead and probably create our rag rag
+18:40 pipeline for the database okay so first
+18:42 of all I will go ahead and select file
+18:44 so in the file uh we will just upload a
+18:47 PDF file okay and this PDF file what it
+18:50 needs to be done is that it needs to
+18:52 probably do some kind of splitting okay
+18:54 so first of all what is the step in
+18:56 creating generative AI application
+18:58 whenever we work with rag you know
+18:60 whenever we upload a file we try to take
+19:01 out the information so for that we split
+19:04 the text now there are multiple ways to
+19:06 split like character text splitter
+19:08 semantic this this I will just use a
+19:10 normal split text okay and uh we will
+19:13 take this data okay and we'll give this
+19:16 two as a data input and then here you
+19:19 can see we can use any separator you
+19:20 want or by default whatever separator
+19:22 will be used then there is a chunk
+19:24 overlap then there is a chunk size and
+19:26 separator okay so this will basically
+19:28 happen now the next step after this is
+19:30 that after we do the slip uh split we
+19:33 basically have to use Astra DB so again
+19:36 uh we will be using our database which
+19:39 is called as astrab okay over
+19:42 here so for this I have already selected
+19:46 or created my database so I will just go
+19:48 ahead and create it if not uh select it
+19:50 if not you can just go ahead and create
+19:52 it again from starting okay so once we
+19:55 get this Chunk we are just going to
+19:57 ingest the data and automatically it is
+19:59 just going to save it in the same Vector
+20:00 database okay here uh just for my sake
+20:04 what I'm actually going to do is that uh
+20:07 I will also put some information with
+20:10 respect to my embedding model so here
+20:12 I'm going to use Astra vectorizer then
+20:14 let's provide your
+20:16 Nvidia then we are going to use a select
+20:19 a model Nvidia embed QA okay so this is
+20:21 the same thing that we are going to keep
+20:23 okay and other details you don't need to
+20:25 provide now what we are going to do is
+20:27 that we are just going to upload one
+20:28 file let's see okay I will just use one
+20:31 file I will I have some recipes so th
+20:34 recipe. PDF okay now if you want to
+20:37 probably see this recipe what exactly is
+20:39 available over here I can also show you
+20:42 so that you can see to it like what all
+20:46 information we have specifically is over
+20:48 here okay so this is my thigh recipe so
+20:50 I'm just going to read all this content
+20:52 and save it know I Vector database so if
+20:54 I ask any content with respect to this
+20:57 particular items I should be able to get
+20:58 the the response okay so now what I'm
+21:01 actually going to do I will just upload
+21:03 a file
+21:05 quickly th
+21:07 recipe okay and I will just go ahead and
+21:11 execute it okay so once I execute it now
+21:13 what will happen this PDF the split to
+21:15 text happened and automatically you'll
+21:17 be able to see that this has also got
+21:19 executed right and here also you can
+21:21 probably see what kind of response you
+21:23 have right see all this chunks has been
+21:26 created right here also you can see the
+21:28 data right data like what all things are
+21:31 there with respect to the data and
+21:33 finally here you'll be able to see that
+21:34 you have a retriever okay now that
+21:37 basically means all my information has
+21:38 gone to the uh astrab now it's time that
+21:42 we go ahead and run this workflow right
+21:45 I have my Astra DB connected this is my
+21:47 chat input first of all uh whenever I
+21:50 probably hit a query right from here if
+21:52 I hit a query so first step is that it
+21:55 is just going to go ahead and hit astrab
+21:57 it is going to get the response and then
+21:59 we going to set up the questions and the
+22:01 input and then my recipe Chef is going
+22:03 to get the output over here so guys now
+22:06 let's go ahead and execute this entire
+22:07 flow so for this I will open my
+22:09 playground okay and I'll ask a question
+22:13 what is the direction to make sot
+22:16 okay Som Tom so I'll go ahead and click
+22:19 on send now my entire flow should be
+22:22 running I think for the first time it'll
+22:24 it is a little bit slow but after that
+22:27 once your flow starts running and uh if
+22:29 you have also the paid version it'll be
+22:31 much more faster as we go ahead okay so
+22:35 let's see the output with respect to
+22:37 this can see the entire output is over
+22:39 here somtum also known as papaya salad
+22:42 is a popular thigh dish here is a simple
+22:44 recipe to make S to and this particular
+22:46 instruction is also coming from the
+22:50 entire uh database Vector database okay
+22:54 and if you don't have a proper internet
+22:55 connection this will happen I think
+22:57 today I'm having a bad internet
+22:58 connection okay uh so that is the reason
+23:00 it is also taking some amount of time
+23:02 but here you can see the entire response
+23:04 is basically coming up now one important
+23:06 thing over here that I really want to
+23:08 showcase is that guys what happens if
+23:10 you don't have that particular
+23:11 information in your rag database so for
+23:14 that also you should have a backup so
+23:16 what I will do I will just go ahead and
+23:18 search for some tool which is called as
+23:19 dugdug go search this will basically do
+23:22 the web search okay now first of all I
+23:24 need to get the query right so I will
+23:26 just go ahead and connect to this
+23:27 particular query now what my chef should
+23:31 do is that if he's not able to get the
+23:34 information from this particular tool
+23:36 which is the agent over here which is
+23:38 interacting with the rag database then
+23:40 it should probably go ahead and do a web
+23:43 search from dog uh Doug Dugo right so it
+23:46 should be able to do it from here so
+23:47 what we will do it will connect to this
+23:49 particular tool to this tool okay now my
+23:52 scenario is very simple if I do not get
+23:55 a search item you know from the my rag
+23:58 database it it should basically do the
+23:59 Doug duug go search so now if I go ahead
+24:02 and ask uh how to
+24:05 prepare chicken
+24:07 biryani and here is what you'll be able
+24:10 to see so guys now here you can probably
+24:12 see that uh once I have searched for the
+24:16 recipe how to prepare a chicken biryani
+24:19 so obviously my entire application has
+24:23 hit the astrab it was not able to get
+24:25 the information from the rag and now it
+24:28 is doing the we search and it is trying
+24:29 to take out all the information and this
+24:31 is the most amazing thing of agentic AI
+24:33 application automatically which is the
+24:36 best thing they will try to do it you
+24:38 know so from the rack database they try
+24:40 to hit it and they could not get any
+24:42 answer over there and now it is doing a
+24:45 web search to get all the information
+24:46 related to chicken biryani right and
+24:49 here you could probably see that how we
+24:51 created this amazing rag application
+24:53 along with that how we created this
+24:56 agentic AI application and just drag and
+24:59 drop not much of coding and I thoroughly
+25:01 enjoyed it so this is the most amazing
+25:03 thing over here and the best part of
+25:05 Lang flow is that you can again go ahead
+25:08 and try out even with crew AI you have
+25:10 options like Lang chain so whatever
+25:12 things you really want to do you can
+25:14 specifically do you need to have some
+25:16 idea with respect to coding to get
+25:18 started with langlow but again if you
+25:21 are not interested that much into the
+25:22 coding part you can definitely use this
+25:26 so I hope you were able to understand
+25:28 this this particular video I hope you
+25:30 enjoyed this entire tutorial this was it
+25:32 from my side I will see you in the next
+25:33 video thank you take care

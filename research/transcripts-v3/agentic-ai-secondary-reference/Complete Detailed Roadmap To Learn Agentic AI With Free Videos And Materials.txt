@@ -1,0 +1,269 @@
+00:00 hello all my name is Krish naak and
+00:02 welcome to my YouTube channel so guys
+00:05 from this past 1.5 years you know there
+00:08 are so many updates that are
+00:10 specifically coming in the field of
+00:11 generative AI from Frameworks to
+00:15 creating some amazing generative AI
+00:17 application to uh creating different
+00:21 kinds of rag applications to creating AI
+00:23 agents and now the Talk of the Town is
+00:26 all about agentic AI right so in this
+00:29 particular video I will be talking about
+00:32 the exact road map to learn agentic Ai
+00:36 and here I will be also giving you
+00:39 prerequisite materials videos completely
+00:42 for free which you can completely access
+00:44 you can also create some amazing end
+00:46 projects with deployment so let me
+00:49 quickly go ahead and share my screen and
+00:52 talk more about this uh now this entire
+00:56 uh road map is quite amazing I was
+00:59 working on this particular road map from
+01:01 4 to 5 days and finally this was
+01:04 completed and today I'm making this
+01:05 specific video uh we'll keep a like
+01:08 Target to 2,000 so please make sure that
+01:11 you hit like and also we'll keep a
+01:13 comments Target of 200 so that uh this
+01:16 video reaches many people as possible
+01:18 okay so uh we'll start with this and uh
+01:22 what are the prerequisites how you
+01:24 should probably go step by step which
+01:26 all videos you should follow and not
+01:28 only this as you all know I've already
+01:29 started my agentic AI playlist in my
+01:32 YouTube channel with the help of various
+01:34 Frameworks and we also taking live
+01:36 sessions that also you can actually
+01:37 follow okay so here uh the first thing
+01:41 that you really need to know is
+01:43 programming language okay and obviously
+01:45 the best favorite programming language
+01:47 is python I have created an amazing
+01:51 detailed playlist on python so here you
+01:53 can watch it in both English and Hindi
+01:56 so here is the link you just need to
+01:58 probably go ahead and click it so if you
+01:59 go ahead and click it make sure to click
+02:01 it in the new tab so that you'll be able
+02:03 to see this right so here is the entire
+02:06 playlist uh they are more than 50 to 60
+02:09 videos and I think based on the recent
+02:11 updates everything is probably covered
+02:14 because here we have focused on modular
+02:16 coding we have focused on creating
+02:18 classes how to write how to create a
+02:20 projects with respect to Python and all
+02:22 everything is basically implemented okay
+02:24 you can also watch Hindi in Hindi if you
+02:26 are interested you can also watch this
+02:29 uh now they many many concerns where
+02:31 people say that hey Krish do we need to
+02:33 probably start completely from Basics
+02:35 like my machine learning and LP and deep
+02:37 learning now there are two different
+02:39 parts guys if you are a very hardcore
+02:41 developer if you're focusing only in
+02:43 developing some amazing end to end
+02:45 application okay uh this all things is
+02:49 not necessary okay if if your main
+02:52 target is directly to develop amazing
+02:53 generative AI applications um so you
+02:56 don't have to probably go onto learning
+02:59 machine learning NLP or or deep learning
+03:00 NLP uh you can directly start with
+03:03 generative AI tutorials right but as I
+03:06 said uh if a person is probably starting
+03:08 from completely Basics it is always
+03:10 necessary that you need to get started
+03:13 over there right completely from Basics
+03:15 so for from Basics what we have done is
+03:17 that we have also uploaded all the
+03:18 videos okay many people will be also
+03:21 there chrish hey I'm not interested in
+03:23 Basics I don't like maths I want to
+03:24 directly jump and develop applications
+03:26 my work in the companies because there
+03:29 before yesterday in couple of days back
+03:30 I got this specific question from a
+03:32 person saying that chrish in my
+03:34 companies they focus only on building
+03:35 products and uh you know in my
+03:38 interviews also they are specifically
+03:39 asking this so what should be the road
+03:41 map that you should follow right and in
+03:43 most of the interviews I've also seen
+03:45 that they ask you completely from Basics
+03:47 they try to grill you down they try to
+03:49 understand how good is your fundamental
+03:52 so you just try to find out what is your
+03:54 specific interest and go along with that
+03:56 so for this after completing python the
+03:58 next thing is that I have also created
+04:00 videos on complete machine learning
+04:02 natural language processing so here you
+04:05 will be able to see NLP with machine
+04:07 learning a dedicated oneshot video so
+04:09 that you don't waste time if you
+04:11 probably watch this 2 to three hours
+04:13 videos that will be more than sufficient
+04:14 so if I click this video so here you'll
+04:17 be able to see that uh this video also
+04:20 uh okay there are some ads let me remove
+04:22 this ads okay so this video is somewhere
+04:24 around 3 hour 53 minutes okay which is
+04:27 quite amazing uh one short video where
+04:30 you'll be able to learn everything so
+04:32 different types of coding if you want to
+04:33 also go ahead and see the materials
+04:35 everything is probably given over here
+04:37 and this will be more than sufficient to
+04:38 get you started with respect to machine
+04:40 learning NLP okay then you have this
+04:42 Complete deep learning NLP here we have
+04:44 two videos Deep learning NLP and one is
+04:46 in-depth Transformer explanation the
+04:48 Transformer video is somewhere around 5
+04:50 hours go ahead and do this because
+04:53 Transformer is the most fundamental
+04:54 thing for the entire generative AI
+04:56 applications that are probably coming up
+04:58 uh when we talk about Foundation models
+05:00 when we talk about llm models you need
+05:02 to know the architecture of Transformers
+05:05 if you know this that is more than
+05:07 sufficient to understand the further
+05:09 things because many people also Grill
+05:11 down in the interview to discuss about
+05:13 Transformers and all okay so this is
+05:15 very much necessary then uh complete G
+05:18 tutorials here I have given some of the
+05:20 amazing llm models that we specifically
+05:22 use both paid and open source openi
+05:24 Gemini metal Lama Google Gemini
+05:27 anthropic cloud and with respect to this
+05:30 particular tutorials and end to endend
+05:31 projects I have created this entire
+05:34 generative AI tutorials with projects
+05:36 which you can specifically go ahead and
+05:38 have a look okay so here if you probably
+05:40 go ahead and just watch the Youtube
+05:42 video right with respect to gender AI
+05:44 tutorials I have created an indepth
+05:46 playlist considering different different
+05:48 Frameworks like Lang chain Lang graph
+05:51 crei different different Frameworks I've
+05:53 also covered Nvidia Cuda libraries over
+05:55 here right so with respect to this you
+05:58 know you can just do it it it it not it
+06:01 not require even paid Source apis right
+06:04 llm models you will be able to use open
+06:06 source llm models which is completely
+06:07 for free which you can specifically try
+06:09 it out and these all projects are like
+06:11 very good end to endend projects like
+06:13 till deployment I've actually shown it
+06:15 how you can specifically do okay so my
+06:17 suggestion would be please go ahead with
+06:19 generative AI tutorials with Pro uh with
+06:21 this particular project then you have
+06:23 this agentic AI playlist with different
+06:25 Frameworks which I recently started and
+06:27 this playlist is going on amazingly well
+06:30 many people are loving it they are
+06:33 suggesting more new things because here
+06:34 we are just not teaching you here we are
+06:36 also showing you how to build aent
+06:39 application with multiple Frameworks so
+06:40 this is one of the most important
+06:43 playlist that you should specifically
+06:45 learn to get started with respect to
+06:46 agentic AI okay and the best part is
+06:50 that we are trying to cover with Gemini
+06:51 metal Lama open AI cloudy also I have
+06:54 also created some of the projects with
+06:56 okay then uh there is also a playlist
+06:59 from Sun Savita which is called as
+07:00 multimodel Rags which you can probably
+07:02 check out this particular link and you
+07:03 can probably go ahead with this you need
+07:06 to know what are the different types of
+07:08 rag platforms that you should
+07:09 specifically use and all okay then you
+07:12 have this best agentic AI Frameworks
+07:14 which is important to learn one I've
+07:17 have selected four Frameworks which uh
+07:19 you can easily start uh writing the code
+07:21 and you can see that how that agentic AI
+07:23 framework works one is Lang graph and
+07:25 Lang chain so here is the documentation
+07:27 link then you have fi data then you have
+07:29 cre AI then then you have autogen five
+07:31 data is also very good out of all this
+07:34 Frameworks that I've actually explored
+07:36 five data is super super fast langin and
+07:38 langra have more amazing techniques that
+07:41 are there but if I probably see on this
+07:44 five data I feel that it is definitely
+07:46 going to improve a lot better uh because
+07:48 it is very very fast and the fundamental
+07:51 of creating the agents inside this and
+07:53 the how the agent specifically interact
+07:55 is quite phenomenal in this right then
+07:57 we also have one more framework which is
+07:59 called as a gen from Microsoft uh this
+08:02 also you can probably go ahead and
+08:03 explore then uh and all remember all
+08:07 this playlist that I have actually
+08:08 created we are covering all these
+08:10 Frameworks so you you can specifically
+08:11 refer okay then you have generative AI
+08:14 with Cloud AWS and gcp at the end of the
+08:16 day if you're trying to create
+08:17 generative a application it is necessary
+08:19 that you know how to deploy it in
+08:21 different clouds platforms AWS and gcp
+08:23 so there is a two different playlists
+08:25 that I've actually created which you can
+08:26 refer to it okay so see my work is
+08:30 definitely to make sure to give you the
+08:32 best thing I know uh I I try to provide
+08:36 many many resources materials videos
+08:39 completely for free and I also run live
+08:41 courses you know I cannot just provide
+08:43 everything for free it is always not
+08:45 good for the entire economy we always
+08:47 need to look at that because we will
+08:50 also be I I'm specifically running a
+08:52 company we are developing products we
+08:54 are def definitely hiring more people to
+08:56 do specific things and that is how a
+08:58 specific company goes on so considering
+09:00 this if you want to learn more about it
+09:02 uh we are also coming up with this
+09:04 amazing batch which is livek and geni
+09:06 with Cloud boot camp here we are
+09:08 different covering two different clouds
+09:09 one is gcp and AWS here is the admission
+09:12 link which you can probably refer then
+09:14 you have this timing 3 p.m. to 6 PPM
+09:16 then you have duration four to 5 months
+09:18 mentors will be Paul mayang Kish and S
+09:21 Savita and for this uh if you want to
+09:23 probably reach our counseling team if
+09:25 you have any queries see my counseling
+09:28 team is like uh they don't directly come
+09:30 and sell it to you they try to
+09:31 understand your requirements and they
+09:33 provide you free resources if it is
+09:36 necessary and required then only they'll
+09:37 provide you this particular course so I
+09:39 hope you like this particular video go
+09:41 ahead and refer this make sure to uh
+09:43 keep a star mark on this particular road
+09:45 map I will be sharing more details about
+09:47 this in the description of this
+09:49 particular video so yes this was it from
+09:50 my side I will see you in the next video
+09:52 thank you take care

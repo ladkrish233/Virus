@@ -1,0 +1,2517 @@
+00:37 hello everyone so welcome back can I
+00:40 please just get a yes or no in the chat
+00:43 if you're able to hear
+00:46 me so today as well we have a very good
+00:49 project for you we will be using AI
+00:52 agent again so we have been doing this
+00:54 since the past few days in our Workshop
+00:58 related to these things we are running
+01:00 live and free for all of us you to
+01:02 attend so today we will be using small
+01:04 agent a very good framework from hugging
+01:08 face can I get a yes if I'm audible so
+01:12 please help me in
+01:21 that hi mik hi sir not
+01:26 great hello everyone uh yeah seems like
+01:29 I you're able to hear me
+01:31 so cool everyone before I jump forward
+01:33 today uh I will be first answering some
+01:35 Q&amp;A and then we will quickly see few
+01:37 things and then directly start with the
+01:39 coding part of making our agent using
+01:42 the hugging face small agent okay so
+01:45 please have your questions everyone in
+01:46 the chat and we'll be more than happy to
+01:48 answer that with
+01:57 chrisa right so so we have just started
+01:59 like no questions or anything as of
+02:02 now yeah let let let some more people
+02:15 join uh small agents brief intro and
+02:18 what are the applications yeah we'll be
+02:21 talking about that hello CR sir hello
+02:25 sandes we'll just wait for some more
+02:27 people to join uh before we proceed how
+02:31 is the series of session going on can
+02:33 you let me know in the comment section
+02:36 either in the chat in the comment how is
+02:38 this series probably going on and all
+02:43 um so what do you think will be the
+02:45 prerequisite for learning agentic AI
+02:47 like a complete road map so it's more
+02:49 like if you want to probably learn
+02:52 agentic AI you need to have knowledge
+02:54 about python NLP knowledge is required
+02:57 you should know how to build gender
+02:58 application I think if you know that
+02:60 that much it'll be more than sufficient
+03:05 okay
+03:09 okay perfect uh I think we are good to
+03:12 start M I think we can announce about
+03:14 the course first and then uh we can
+03:17 start the session in small yeah sure sir
+03:20 so yeah great I am uh sharing my screen
+03:23 everyone uh just let me know hopefully
+03:26 should be properly
+03:28 visible let me add that stage yeah cool
+03:32 so just shared my screen everyone let me
+03:34 know and we will get back to your
+03:35 questions
+03:37 quickly so this is the course uh which
+03:40 we are coming up with it's a boot camp
+03:42 it's live agentic Ai and generative AI
+03:44 application with Cloud so let me just
+03:48 quickly run through it because we have
+03:49 seen that in past few classes as well
+03:52 the price is going to be
+03:54 450 and you can use the Kish 10 okay so
+03:57 you can apply a coupon it's Kish
+04:01 10 for 10% discounts uh we have limited
+04:04 seats left because uh after attending
+04:07 these classes many people are coming
+04:09 with very great reviews and they are
+04:10 joining the course so if you're thinking
+04:12 of doing uh just joining please make
+04:14 sure that you do that at the earliest
+04:16 the start date of the course is January
+04:19 January 25th so I think it's around 9
+04:21 days now the next Saturday that's going
+04:23 to be the mentors will be so there we we
+04:27 have multiple mentors in this course uh
+04:29 s B mayal that is me Krish that is
+04:33 chrish Sir and sunny so you can see that
+04:36 I have also taught in some previous live
+04:39 session then Paul sir also have taken a
+04:42 session then Sunny have taken a session
+04:44 the last two sessions and Chris sir I
+04:46 think all of you know that we are on his
+04:47 channel only and many videos are there
+04:49 so as I said start dat is January 25th
+04:52 timings are going to be 3 to 6: p.m. IST
+04:56 Saturday and Sunday so the classes are
+04:58 going to be on weekends duration is from
+05:00 four to 5 months uh you can just learn
+05:03 and read about this and here you can
+05:04 download the full syllabus so I'm
+05:07 sharing this everyone with you uh let me
+05:10 just yeah so I'm sharing the link of the
+05:13 boot camp and here you can just go and
+05:16 see the syllabus as well now I have
+05:18 covered this in depth in the previous
+05:20 live sessions which we have taken what
+05:23 you can do is you can go to the live uh
+05:26 tab of Chris her Channel and there you
+05:28 will find the sessions so where we have
+05:31 done these projects where we have shown
+05:32 that okay what kind of work we will be
+05:34 doing or agents we will be making in
+05:37 this boot camp so feel free to just uh
+05:39 basically do that as well and for the
+05:43 in-depth knowledge of the W course uh W
+05:45 stabus right and along with that there
+05:48 are few more features so you will be
+05:50 provided dashboard access for 1 and a
+05:52 half years now when I say dashboard
+05:54 access you will be a getting all the
+05:56 recordings so all the class which are
+05:59 happening in any case if you're not able
+06:01 to attend you will be having the
+06:04 recordings for 1 and a half years right
+06:06 then Community chat Forum will be there
+06:08 so we have a community tab where you can
+06:12 post about what all you are learning and
+06:14 doing and people can interact with you
+06:16 they can like your post and comment just
+06:18 for the Learners and everything which
+06:20 are basically related to this course
+06:22 then we have a chat group as well and
+06:25 all of that will be on a proper website
+06:27 so that it doesn't come on your everyday
+06:29 day-to-day AC ities you can log in
+06:31 connect with your peers we will be
+06:33 sharing opportunities there as well you
+06:35 can have your doubts cleared then we
+06:37 will be having live doubt clearing
+06:39 sessions so after each and every class
+06:41 we will make sure that all of your
+06:43 doubts get addressed and they are
+06:45 cleared then for sure we are going to
+06:47 have some hackathons and rewards agentic
+06:50 AI we have so many good use cases so we
+06:52 will have hackathons where we will see
+06:54 that okay after learning how you are now
+06:57 using the same thing how good solution
+06:60 you are making and then there will be
+07:01 rewards for the same job referrals so we
+07:04 are in connect with many companies uh
+07:07 many uh people who are working if they
+07:09 would have a need we will shortly be
+07:11 happy to refer the Learners who are
+07:13 doing pretty great and then resume
+07:15 discussion and mock interviews okay so
+07:18 if anyone has any doubt you can feel
+07:20 free to reach out to this number or you
+07:23 can reach out to any of the mentors so
+07:25 you have the mentors listed here which
+07:27 is me Kisha Paul and sunny uh you have
+07:31 hopefully my LinkedIn YouTube everything
+07:33 so you can do the same thing
+07:35 right great so I hope uh that is clear
+07:38 everyone just to quickly tell you this
+07:41 is the course you can use the Christian
+07:43 coupon so please use that for the 10%
+07:46 discount and you should be able to
+07:48 enroll in the course this coupon will
+07:50 work for other currencies as well so if
+07:52 you're outside India and trying to
+07:54 enroll you can just use this coupon and
+07:56 you will get the 10% discount in your
+07:58 currency right
+08:01 great so on the cabus uh this is the
+08:04 cabus you can just click on this link I
+08:07 think it will be taking you to this
+08:09 particular thing so just continue to
+08:11 destination here okay it is going to
+08:12 redirect you anyways but
+08:17 yeah great so uh I think yeah that was
+08:20 all on the course now you can have your
+08:21 doubts related to cour and in general
+08:23 let me see
+08:25 that uh anything else sir which uh we
+08:27 want to cover or I be going to take the
+08:29 outs
+08:30 no no we can we can continue the doubts
+08:32 I think yeah and we'll talk about the
+08:35 agenda like what is going on going to
+08:37 happen in this session yeah so computer
+08:40 vision course is already happening right
+08:42 you can see that now more have access
+08:45 yes Hamza so you will have the access uh
+08:47 you can just go to the website it will
+08:49 be just showing in I think USD or some
+08:51 other currency and you can reach out to
+08:53 this number on WhatsApp let me just have
+08:55 it as a banner as well so that yeah cool
+09:00 everyone so you will see a number now in
+09:02 the banner please feel free to call on
+09:04 that number or WhatsApp on that number
+09:06 and our counseling team will be more
+09:08 than happy to help
+09:10 you uh coupon seems to be valid not sure
+09:14 why you are getting that Kish 10 apply
+09:17 don't have any spaces or anything it's
+09:20 getting applied okay so I'm just copy
+09:21 pasting the coupon you can just see that
+09:25 okay great which framework will be used
+09:29 so we have a lots of Frameworks right we
+09:32 will be using for agent Ki F data then
+09:34 Lang chain all of these are written in
+09:36 your stabus right so it will be better
+09:38 if you just try to go through it once we
+09:40 have we have made sure that we are
+09:42 including the framew which are getting
+09:44 used which are getting noticed in the
+09:46 industry and with time they are
+09:48 basically moving forward right what
+09:50 about this question M how can we deal
+09:53 with cloudform yeah sure sir I will take
+09:55 that how can we deal with Cloud platform
+09:56 charges when we do any stuff in AWS and
+09:59 gcp course so yeah rishab that's a good
+10:02 question and it's a concern of many
+10:04 students uh see what you have to majorly
+10:07 do is multiple things first when we will
+10:10 be starting the course we will first be
+10:12 teaching you and then telling you that
+10:14 okay why you have when you have to
+10:16 create the account why is that because
+10:18 the trial part of these accounts they
+10:21 have some overall limit with respect to
+10:24 the uh let's say the months so for
+10:26 example Google provides you for 3 months
+10:28 aure is for 1 month mon normally and
+10:30 then you get the credit as well right
+10:33 now you have to make sure that when we
+10:35 are teaching you okay you are following
+10:37 each and everything you are closing the
+10:39 cluster or the resource which you are
+10:40 using you are following the exact steps
+10:43 okay and along with that not
+10:45 unnecessarily starting any service which
+10:47 you are not aware of so as to run off
+10:49 your credits because this is always
+10:52 going to be a challenge we are making
+10:54 sure that we provide you with the best
+10:56 experience the industry ready experience
+10:59 where clouds are used so you have to
+11:02 just follow the instructions and make
+11:04 sure that you are using the resources as
+11:06 we suggest you and we will try that we
+11:08 are completing each and everything
+11:10 within the required time as well as the
+11:14 credits so you don't have to majorly
+11:16 spend anything on that part okay I hope
+11:19 the same is clear uh okay I see the name
+11:23 but yeah I hope the same is
+11:28 clear yes all the sessions will be
+11:30 recorded uh and it will be available for
+11:33 1.5
+11:37 years I'm a beginner in AIML so can I
+11:40 join this course see some of the
+11:42 prerequisite videos have already put in
+11:44 the dashboard so you can probably follow
+11:46 that but uh this is more of a you know
+11:49 coding kind of stuff you know you'll be
+11:51 building projects you'll be building end
+11:52 to end Solutions so that knowledge is
+11:55 something important beforehand like
+11:57 python at least you should know
+12:02 mik you want to take this yes yes sir I
+12:04 will take this just one more question
+12:06 before this so Anish we will be taking
+12:08 the live classes right so you can see
+12:10 that the classes are going to be live
+12:13 and recordings for those you will be
+12:15 getting like when we will take the live
+12:16 classes for sure in the first go it will
+12:18 not be clear to many it may happen that
+12:21 you are not able to attend so that is
+12:23 where we will be uh having the classes
+12:26 okay uh one minute so let me go to the
+12:29 question
+12:30 and I think this was the question right
+12:32 so if a person know ML and DS and new to
+12:34 gen what are the pris that we need to
+12:36 learn if you can suggest uh okay so wami
+12:39 see what happen is that if you are good
+12:41 with data science and machine learning
+12:43 what I will suggest that is you start
+12:46 with the NLP part of uh basically in
+12:48 your deep learning and machine learning
+12:50 because natural language processing the
+12:52 Transformers and everything this is very
+12:54 much helpful in understanding your
+12:56 generative AI right and agentic AI of
+12:59 course is a sub part of your that so we
+13:01 have to make sure that if your ml is
+13:03 done then go a lot deep into NLP try to
+13:06 understand okay how gen AI things work
+13:08 the Transformer architecture and
+13:10 everything and then you should be good
+13:12 to take up this course these are the
+13:13 prerequisites majorly and we have
+13:16 mentioned the same here as well and as
+13:18 chrish just told the same thing is uh
+13:22 basically updated in the link so if you
+13:23 will join in the dashboard we have given
+13:25 the links from where you can study about
+13:27 them so python assuming you know this
+13:30 then NLP for sure you will have to do
+13:32 and these Transformers Gans and basic
+13:34 idea about these will be very good to
+13:36 help you started so that you can take
+13:39 and be active in this particular
+13:44 course okay so let me know M I hope that
+13:48 is
+13:55 clear Hamza the doubt classes majorly
+13:58 will be just after we teach because I
+14:00 think that's the best time of taking the
+14:02 doubts if there are lots of Doubt then
+14:04 we can shortly meet somewhere within the
+14:06 week as well but our aim will be that we
+14:09 are reachable always and we are taking
+14:10 other batches as well so our aim will be
+14:12 to clear your doubts shortly that can be
+14:15 after the class in between and normally
+14:18 uh anytime you are like binging us so
+14:20 that should be good
+14:27 okay okay so let me just see
+14:34 yes aij so in the live session we are
+14:36 going to teach each and everything right
+14:38 uh as I said live sessions will be there
+14:40 and the recording you will be getting
+14:41 for that uh live sessions I feel are not
+14:44 replaceable the kind of energy the
+14:47 communication that you get in a live
+14:49 session that is totally uh something
+14:52 okay which normally I feel that recorded
+14:54 session don't have okay are there any
+14:57 charges apart from 4500 no hsh so so
+14:59 this is the thing and please apply the
+15:01 Christian coupon that is going to help
+15:04 uh last time to register danush is we
+15:07 have some limited seats and I have not
+15:09 checked how many seats are left so as
+15:11 soon as they will get filled uh that I
+15:13 think will be the last time but yes uh
+15:15 we have that and from request of many
+15:18 people we have just increased a little
+15:19 bit of that quota so you can still join
+15:21 the same
+15:24 thing okay so let me see sir is this
+15:28 course available fore summer we are
+15:30 doing lots of these classes right uh but
+15:34 again in the course we will have many
+15:36 other things so not for free but yes you
+15:39 can see these classes and learn about
+15:40 that the course shortly we are going to
+15:42 start from scratch and explain you many
+15:47 things uh sir you are on mute hello uh
+15:49 sir we not able to hear you okay Krishna
+15:53 can you clarify regarding the AWS part
+15:55 it looks similar to what you taught in
+15:56 your Demi course no no it is completely
+15:58 different we'll be doing fine-tuning
+16:00 deployment entirely in YouTube uh in in
+16:04 these clouds so it'll be amazing to see
+16:06 all those things and there are lot of
+16:08 changes that are coming up you know so
+16:10 just wait for that part also as you go
+16:14 ahead
+16:22 perfect so this was one of the question
+16:24 sir are we doing the course exactly in
+16:26 same real world project like GitHub
+16:27 Docker Jenkins uh uh in this Docker will
+16:30 not be required since we are just going
+16:32 to use a wrapper on top of all these
+16:35 apis but GitHub uh GitHub actions
+16:38 deployment everything will happen
+16:44 Okay okay so this is one interesting
+16:46 comment mitun takar let's not forget
+16:48 that chat jpt replaces most of online
+16:52 tutorial I'm here m is here we are
+16:54 teaching we are still teaching many
+16:56 peopleon
+17:00 I think so many students just forget
+17:02 that says coupon code please coupon code
+17:06 is chrisan guys you can just use chrisan
+17:08 okay uh okay so this is the coupon code
+17:12 yeah so will it be available in Udi
+17:14 after the course is over no idea right
+17:16 now we are very much busy with respect
+17:19 to udmi courses other courses are going
+17:21 on right now I don't think so there is
+17:23 any plan okay
+17:27 yeah okay
+17:30 uh one last question sir what is the
+17:32 future of gen in 2027 to get job as a
+17:36 2027 I think he's in he's in college I
+17:39 guess because that is the reason he's
+17:41 asking 20 yeah it'll be there guys it
+17:44 will be there okay it will definitely be
+17:46 there it is not going anywhere Agent K
+17:49 start from
+17:50 scratch not build anything from scratch
+17:52 they are good good Frameworks that uh
+17:54 companies have already built we are
+17:55 trying to use that okay
+17:60 okay I think M uh we can probably give
+18:03 the screen to Sunny now I think and
+18:07 sunny can
+18:08 continue sun is
+18:11 there Sunny you're
+18:16 mute uh now I'm audible sir can you hear
+18:20 me yeah yeah yeah so start with the
+18:21 agenda Sun uh what all things are there
+18:24 and then probably continue about this
+18:26 you know or like what we going to teach
+18:28 today and step by step we will start
+18:31 discussing okay yeah
+18:33 sure
+18:36 yeah perfect so uh I will be in the
+18:39 background
+18:42 okay okay guys so let's start let's
+18:45 begin with the session so first of all
+18:46 let me share my screen and let me give
+18:48 you the agenda that what all thing we
+18:49 are going to discuss in today's session
+18:52 and then one by one we'll try to discuss
+18:54 all those things okay so just a second
+18:56 let me share my screen first uh okay I
+18:60 think
+19:01 so should
+19:15 visible can you confirm guys can you U
+19:18 if my scen is
+19:26 visible please do let me know in the
+19:28 chat if you can you can see my screen
+19:32 then yes or
+19:37 no okay great so just a second let me do
+19:41 the
+19:42 alignment yeah it is perfect now great
+19:46 uh perfect so first of all uh let me
+19:48 give you the complete agenda that what
+19:50 all thing we are going to discuss in
+19:51 today's session and then step by step we
+19:54 try to implement that particular project
+19:56 okay uh what I'm doing here I'm going to
+19:59 open something or let me open my
+20:01 Blackboard as well just a
+20:11 second okay so uh let's begin and one
+20:14 more thing guys see uh in my previous
+20:16 sessions if you will go and check with
+20:17 my previous session so I already
+20:19 discussed one agentic framework that is
+20:23 langra if you will go and Che with the
+20:25 live section of the CH YouTube channel
+20:28 then uh definitely you will find out
+20:30 apart from that we took one more session
+20:33 with respect to the CL AI now in today's
+20:36 video in today's uh this live stream we
+20:39 are going to discuss one more agent Tech
+20:41 framework okay so our main aim to
+20:44 discuss the different different agentic
+20:45 framework and let me show you which
+20:48 agentic framework actually we are going
+20:49 to discuss so here we are going to
+20:52 discuss
+20:53 guys this small framework from the
+20:56 hugging phas okay so I was exploring
+20:59 this framework and I uh like coded
+21:01 couple of project using this framework
+21:04 and I found it is really really useful
+21:07 means if you want to start your agentic
+21:09 journey then definitely you can start
+21:11 with this framework okay and I think
+21:14 last week itself they have like uh they
+21:18 have published the latest version of
+21:20 this framework and now you can see the
+21:22 number of FK and the Stars okay and this
+21:25 framework is getting like very very
+21:27 popularity and I will show you why it is
+21:29 getting popularity and like whatever
+21:32 framework we have the other framework
+21:34 right how this framework is different
+21:36 from all those framework so we'll try to
+21:38 discuss each and everything and we'll
+21:40 try to understand the differences
+21:42 between this small agent right if I'm
+21:44 saying small agent it is not s m a right
+21:48 it is SM SM o l okay so here like just a
+21:51 quick so if you're going to search over
+21:53 the Google then please write it down to
+21:55 the spelling s m o l agents understood
+21:58 right
+21:59 okay now what I will do guys so first of
+22:01 all uh I will give you the quick uh
+22:04 recap of uh like from the previous
+22:06 session that what all the thing we have
+22:08 learned and why we move to the like now
+22:11 this U ready to uh ready made framework
+22:15 I I could say like it's a rade framework
+22:17 where most of the thing will be in a
+22:18 back end and you are just going to call
+22:20 the functionality whereas in the
+22:22 previous of framework in the previous
+22:24 classes we were creating each and
+22:25 everything from scratch right so this is
+22:27 the biggest difference and now uh one
+22:30 more thing uh and one more good news for
+22:32 all of you see uh we covered L graph we
+22:35 covered uh crei we discuss about this
+22:37 small agent and next week I'm planning
+22:39 about the land flow right it's a noport
+22:43 platform and after that I'll be
+22:45 discussing the autogen as well so we'll
+22:47 try to discuss all the major framework
+22:49 whatever major framework are there right
+22:51 in the market right now and then
+22:53 automatically you can make a difference
+22:55 that okay why we should use this
+22:56 framework why should not this why we
+22:58 should use like langra or pii or Auto
+23:01 genen because because this difference
+23:03 actually it is very much important until
+23:05 unless you're are not going to
+23:06 understand the difference see our main
+23:08 name is what main name just to create
+23:09 agents but which framework we need to
+23:12 decide which framework we need to choose
+23:14 so easily you can decide after going
+23:16 through at least with the documentation
+23:19 right so go through with the session go
+23:21 through with the documentation and
+23:23 whatever I'm saying whatever I'm
+23:24 explaining just go with that and easily
+23:26 you can make a decision that okay which
+23:29 framework would be a more suitable
+23:30 framework for all of you for creating a
+23:32 agents understood tell me guys yes or no
+23:35 so let me look into the question as well
+23:37 just give me a second uh so if uh like
+23:40 you have something in your mind you can
+23:42 ask me inside the you can ask me inside
+23:45 the chat section guys okay so just a
+23:49 second let me do one thing I'm going to
+23:52 open my chat
+24:03 great now your comments are also visible
+24:07 to me here just a
+24:12 second okay so uh guys any comments
+24:15 anything whatever you have in your mind
+24:17 you can uh simply write inside your
+24:20 inside the chat okay inside the live
+24:22 chat and uh first of all tell me that
+24:25 agenda is clear to all of you yes or no
+24:27 please tell me guys please mention
+24:29 inside the chat if the agenda is clear
+24:31 or not if it is clear then definitely I
+24:33 can proceed ahead I can like go ahead
+24:37 with the coding and all everything
+24:40 yes yeah thank you thank you H um yeah I
+24:44 created a
+24:46 playlist are this framework using in
+24:49 Industry yes this framework is being
+24:51 used in the industry
+24:54 okay great clear what about others I
+24:58 think any of you you are watching to me
+25:00 so if you can mention inside the chat
+25:02 the agenda is clear so that I can
+25:04 proceed further and don't worry I will
+25:07 provide you all the necessary L and
+25:09 necessary links and all everything uh
+25:12 inside my like GitHub so I already
+25:15 shared my GitHub in my previous video
+25:17 and that same GitHub I will share in
+25:19 today's class as well okay so inside the
+25:22 read me file you can find out all the
+25:24 links all the necessary blogs and all
+25:26 everything
+25:31 geni and agent which is the best so so
+25:35 you should start with Gen means uh like
+25:39 agent is a part of the Gen
+25:41 itself
+25:43 okay so we create agents using those llm
+25:47 which are capable to generate
+25:50 something what API do we need to use for
+25:53 today's session we are going to use the
+25:55 Hing face API for today's
+25:57 session I think it's the lightweight
+25:59 framework correct correct your
+26:01 understanding is pretty much Clear it's
+26:02 a lightweight framework and we can code
+26:05 anything or we can code any agent within
+26:08 a minute
+26:11 itself fine so uh let me do one thing uh
+26:14 let me give you the quick uh recap from
+26:16 my previous session and let me give you
+26:18 the differences as well between this L
+26:21 graph and this small agent and then we
+26:24 are going to start our code so first of
+26:26 all what you have to do guys you have to
+26:28 configure your Google collab because
+26:30 today's code we are going to write
+26:32 inside the Google collab okay so here
+26:35 I'm going to search Google collab Google
+26:39 collab okay now uh here is my Google
+26:42 collab guys and what I will do I'll be
+26:44 creating one notebook inside the Google
+26:46 collab and then each and every line of
+26:48 code I'll be writing over there itself I
+26:51 hope so you know about the Google collab
+26:54 be anyone don't know about the Google
+26:55 collab anyone is not familiar with the
+26:57 Google collab you can let let me know
+26:59 I'll help you to set up it now what you
+27:01 have to do so first of all guys see if
+27:03 you want to select the GPU you can
+27:06 select it from here okay so I don't have
+27:09 the pro version of the Google collapse
+27:10 so that I'm not able to access the like
+27:13 some highend GPU but yes I can access
+27:16 this basic GPU that is T4 but for
+27:18 today's session I think the GPU will not
+27:20 be required because we are not going to
+27:22 perform any sort of a training right is
+27:24 simply calling the apis so I can keep it
+27:27 on CPU or else I can convert it to the
+27:29 GPU that is up to me okay now you have
+27:32 to connect it and then uh like I can
+27:35 write the code and all so uh tell me
+27:38 have you open your Google collab and let
+27:40 me write uh the idea or let me rename
+27:43 the file as well so small small
+27:48 agent from hugging pH hugging pH okay
+27:54 and let me do one more thing here I can
+27:57 give the underscore just a second and
+27:60 this is done and what I can do one more
+28:03 thing I can do I can share this link
+28:06 inside the chat so that if you are
+28:08 following to me you can directly take
+28:10 the code from
+28:13 my from my Google collab itself just a
+28:16 second
+28:18 so I pasted the link inside the chat
+28:37 is there any industry standard like most
+28:39 commonly used agentic framework yes F
+28:42 data this is small agent cre AI okay
+28:45 these all are the industry grade
+28:46 framework in Industry actually first we
+28:48 test and then we
+28:50 Implement so if you are asking to me I
+28:53 would suggest you four framework the
+28:55 first one langra the second is CI third
+28:58 is data and the fourth one is this small
+29:00 agent or autogen is also there we'll
+29:02 look into that as well so this four to
+29:04 five framework actually you can test it
+29:06 out and then you can make a conclusion
+29:08 okay which is a best suitable for
+29:11 according to your
+29:12 requirment did you get a
+29:15 notebook tell me yes or no I shared this
+29:25 notebook okay now let me do one more
+29:27 thing uh if you are not familiar with
+29:30 the agents and all so I can show you
+29:32 couple of session as
+29:34 well which I already took
+29:40 okay this one
+29:43 guys if we will go inside the live
+29:45 section now uh so you will find out
+29:48 these
+29:50 sessions so the last one uh about the
+29:53 SQL agent which I created using the L
+29:55 graph then before that we discuss about
+29:57 the cre AI okay so please follow this
+30:00 session uh like to have a better
+30:03 understanding of the agent Tech
+30:06 AI okay great now let's do one thing so
+30:11 uh let me uh discuss couple of thing
+30:14 with respect to this
+30:17 uh this one small agent and this Lang so
+30:21 guys in the previous session I discuss
+30:23 about the Lang now first of all Let Me
+30:26 Clear the definition of the agents okay
+30:30 so what is the agents agents are nothing
+30:33 if we are talking about
+30:35 agents so agents means agents means it's
+30:39 a smart assistant okay it's a smart AI
+30:46 assistant Now what's the meaning of
+30:48 smart AI assistant so smart AI assistant
+30:51 means which which can take a decision
+30:54 automatically okay so here I can write
+30:58 what is a smart assistant which
+30:60 can take which can take
+31:04 decision which can take what
+31:07 telling
+31:11 decision
+31:12 automatically
+31:15 okay Auto just a
+31:19 second a
+31:23 magnitude so this is what if we are
+31:25 talking about this uh we talking about
+31:28 what guys tell me this agents right so
+31:30 it's a autonomous system second what
+31:35 happened wait guys it got closed let me
+31:38 open
+31:39 it yeah so whatever I WR it removed no
+31:44 worries no worries again I can write it
+31:46 was giving me a problem while I was
+31:48 writing them don't know what okay so I
+31:51 was talking about the agents and these
+31:53 agents are nothing it's smart
+31:58 smart AI
+32:01 assistant and uh which can automate
+32:06 everything right automate each and every
+32:09 task okay autonomous agent automate or
+32:12 what I can write which can work on a
+32:14 co-pilot mode right so you can give any
+32:17 sort of a query to the agent and that
+32:19 query will be resolved automatically and
+32:21 apart from that like it will be able to
+32:23 give you more many more information okay
+32:25 with the single line of query so that's
+32:27 the work of the agent now whenever we
+32:30 talk about the agents so we have many
+32:32 more framework so let me write the first
+32:34 framework which I discussed even uh
+32:37 without any framework you can create
+32:39 agents uh in a like code python as well
+32:42 so here you can create a agents in a
+32:45 python as well or else see for the
+32:48 orchestration uh okay for the
+32:50 orchestration for creating a different
+32:52 different pattern right or if you want
+32:55 to keep your each and every
+32:56 functionality in a embl way emble mode
+32:59 right at the single place so for that
+33:01 basically I will suggest you this Lang
+33:02 graph so using this L graph actually
+33:05 what you are going to do you are going
+33:06 to write your Agents from scratch using
+33:08 what using python itself okay here you
+33:12 have more control you have more control
+33:16 okay and you can write a code in Python
+33:19 from scratch you have a more control on
+33:21 top of the pattern patterns and all from
+33:23 a stretch from where you stretch
+33:24 actually you can create a pattern right
+33:26 the agentic pattern inside the Lang
+33:28 graph
+33:29 so this Lang graph basically it give you
+33:32 the authority so that you can
+33:33 orchestrate your pipeline in any sort of
+33:35 a way right so I already discussed this
+33:38 thing in my previous videos you can look
+33:40 into the agent Rag and all automatically
+33:42 you will get that part now coming to the
+33:44 other framework so let's say we are
+33:46 talking about this copile sorry this
+33:48 small agent framework right so this is
+33:52 small uh what is the name of
+33:55 it let me check
+33:58 small agents okay so here I'm going to
+34:01 write the name small agents so here what
+34:05 they are doing see the huging pH
+34:07 actually they have already coded many
+34:09 more thing right so they have already
+34:11 coded many more thing and what they are
+34:14 giving to you they are see this all the
+34:16 functionality basically they are keeping
+34:18 in back end okay and they are telling to
+34:22 you okay what you can do you can use
+34:24 some high level functionality means they
+34:26 have coded each and everything for you
+34:27 and you can use the ab classes on top of
+34:30 it let's say they have coded one class
+34:32 for you agentic
+34:33 class right agentic class they have
+34:36 coded right now what they are saying
+34:37 okay just do one thing create a object
+34:39 of this class and use it so this is a
+34:42 readymade framework readymade framework
+34:45 ready made framework ready made
+34:47 framework means what so someone already
+34:49 did the coding behalf on you okay and
+34:52 they have given some functionality some
+34:55 functionality okay you can use that
+34:57 particular function fun and you can
+34:59 create agents right you you can like
+35:02 simply pass the model means they are
+35:04 just giving you very small functional
+35:06 like flexibility flexibility in the
+35:08 sense of what flexibility means you can
+35:10 just change the model okay you can pass
+35:13 whatever message you want to pass maybe
+35:16 some other library is required you can
+35:19 connect with that particular Library
+35:21 maybe you can connect with your Custom
+35:22 Tool okay so these functionality they
+35:25 are providing to you but here guys you
+35:26 are not going to write a code from
+35:28 scratch okay you are not going to write
+35:31 a code s c a r scratch s c a r p c okay
+35:37 so you're not going to write a code
+35:38 fromr but if you're going to create your
+35:40 own agents so definitely you can do do
+35:44 that you can do it inside python or or
+35:46 else you can use this Lang graph kind of
+35:49 framework where actually this will give
+35:51 you the more low level Authority you can
+35:53 design your framework you can write a
+35:54 Cod from scratch and you can orchestrate
+35:57 your pipeline or ation means what you
+35:59 can shed means step by step basically
+36:01 you can create your pipeline okay you
+36:03 can schedule your pipeline that's a
+36:04 meaning of what that's a meaning of the
+36:05 Opti a small agent I already told you
+36:08 right what is a small agent me someone
+36:10 already have written a code behalf on
+36:12 you and you are just going to use the
+36:13 high level functionality of it and you
+36:16 have some like customization option like
+36:19 you can change the model you can pass
+36:21 your messages right on the r time you
+36:23 can add on some different different
+36:24 Library you can add on some different
+36:26 different tools and all that's it
+36:27 nothing nothing apart from this part
+36:29 right so that's a simple meaning now if
+36:32 someone is going to ask you that what is
+36:33 the agent right as I told you agents are
+36:36 nothing it's a smart AI assistant but
+36:38 how you going to explain to someone
+36:40 right let's say if you're going in in
+36:41 the interview and the person person will
+36:44 ask you okay tell me the definition of
+36:46 the agent so simply you can say agents
+36:48 are nothing what is the agent agents are
+36:52 nothing which see agents are the smart
+36:55 AI assistant means which can think
+36:59 okay based on the thinking actually it
+37:01 can take a action it can take a action
+37:03 appropriate action and then based on
+37:06 that action whatever output they are
+37:07 getting they are they can make an
+37:10 observation okay they can make a
+37:12 observation so here what you doing you
+37:14 are doing a reasoning right your llm is
+37:16 having a reasoning capability then you
+37:18 are taking appropriate action right tool
+37:20 calling and out then based on that what
+37:22 you are doing so here you are going to
+37:24 make an observation means here you are
+37:26 going to add the interpretation right
+37:28 interpretation of your output and all so
+37:30 these three stages are very much
+37:32 important right with respect to any sort
+37:34 of agent whatever you are going to
+37:36 create whether you are going to create
+37:37 from scratch or you are going to create
+37:39 using the L graph or using the small
+37:42 legend or from any sort of a framework
+37:45 right there three main thing you are
+37:48 going to perform right so if someone is
+37:50 going to ask you in an interview you can
+37:51 answer in this particular way now coming
+37:54 to the next part so uh here guys see if
+37:58 I will show you the GitHub of this
+38:01 GitHub of this small agent right so
+38:03 there also they have mentioned the same
+38:05 thing what they have mentioned they have
+38:07 mentioned a small agent is a library
+38:09 that enables you to run powerful agent
+38:12 in a few lines of cod me what they are
+38:14 telling to you see they are telling to
+38:16 you a same thing which I was trying to
+38:18 explain here they have given you some
+38:20 classes which they have already coded
+38:22 right where you will find out this code
+38:24 and all you'll find out this code inside
+38:26 this folder so once you will go inside
+38:28 this assass small agents and just look
+38:31 into this folder and what you'll get
+38:33 you'll get the entire code right this is
+38:36 the code maybe some functionality might
+38:38 be there some functionality might not be
+38:40 there so why you will use it if it is
+38:43 going to fulfill your requirement then
+38:44 only you will use it otherwise you will
+38:46 discard it getting my point so here what
+38:49 you have to do first of all you have to
+38:50 identify your requirement if you're
+38:52 requirement is just to simple just to
+38:54 create a simple agent right so in that
+38:55 case like you this might help help you
+38:58 but let's say if your requirement is
+38:60 very low level right where you need to
+39:02 do a many uh like low level coding and
+39:05 all and you have to code very very very
+39:07 uh like a lowlevel functionality with
+39:09 respect to your business use case in
+39:11 that case it might not help you right so
+39:13 in that case you can discard it you can
+39:14 choose some other framework or you can
+39:16 write a code from a stretch like someone
+39:18 has written okay you can take a
+39:19 reference of this code as well and you
+39:21 can code your own agent as well okay now
+39:24 coming to the next part so here if you
+39:26 will look into this read me file so
+39:28 inside the read file actually they have
+39:29 defined each and everything getting my
+39:31 point so what you have to do you just
+39:34 have to go through with this
+39:35 documentation so they have given you the
+39:37 documentation link as well now just just
+39:39 just go through with this particular
+39:40 documentation and apart from this one
+39:42 actually they have given you one very
+39:44 good blog as so this blog and this
+39:46 documentation will help you a lot okay
+39:49 for understanding this small agent so
+39:52 let me provide you this tool link inside
+39:54 the chat itself so that you can go
+39:56 through with it okay I'm providing this
+39:57 both link even I given you this I'm
+39:60 giving you this GitHub link as well okay
+40:02 so here is my GitHub link which I am
+40:06 providing to you now here what you will
+40:08 find out guys see here inside this
+40:10 particular blog uh let me scroll down
+40:12 and let me show you so they have
+40:14 mentioned many more thing and uh I'm not
+40:18 going to read each and every part of
+40:19 this blog but yeah it's a pretty awesome
+40:22 blog but I would like to show you one
+40:24 image okay which is a very important one
+40:26 so this image image guys just a second I
+40:29 think they have mentioned or they have
+40:30 given over here as well uh where it is
+40:34 where it is that image actually it's a
+40:36 very important image there they have
+40:39 they are telling to you uh what you can
+40:43 uh do just a
+40:45 second so I think so yeah this one guys
+40:48 this this particular image now let me
+40:50 take a screenshot of it let me take a
+40:52 screenshot of it I think which I already
+40:54 took and let me paste it on my
+40:56 Blackboard so what they are saying they
+40:59 are saying we have created an agent
+41:02 based on the different different
+41:03 requirement now you will ask to any
+41:06 requirement what kind of requirement
+41:08 you're talking about here so requirement
+41:10 by C if you don't have any sort of a
+41:13 requirement okay means sometime you
+41:16 don't require the agent you just require
+41:18 a simple a assistant for answering your
+41:20 query in that case they have given you
+41:22 the simple processor okay simple
+41:24 processor means they have given you one
+41:26 simple class uh you can create object of
+41:28 it and you can call that and uh based on
+41:31 that you will get a response then let's
+41:32 say if you have some basically
+41:36 deterministic flow where you have to
+41:38 create some router and all means you
+41:40 have to decide the like different
+41:42 different routes based on the given
+41:44 questions so simply you can use this LM
+41:47 decision okay mean this is the second
+41:50 level of uh this is a second level of of
+41:53 like functionality right first
+41:56 functionality it is not a agent based
+41:58 because it's not necessary that always
+41:60 we are going to use agents for any kind
+42:02 of work means simply we can use our llm
+42:05 and we can get an answer from there
+42:07 right it is not necessary that always we
+42:08 have to use the complex pattern for
+42:10 generating a simple answer right so the
+42:12 second level of functionality here you
+42:14 will find out that is what that's R okay
+42:17 for the
+42:18 basic like a decision and all right you
+42:20 can add it over here then the third one
+42:22 is a tool calling let's say if you want
+42:24 to include the tool okay while you are
+42:26 creating your agentic pattern tool is
+42:28 what tool is it's like any any
+42:30 functionality okay any functionality is
+42:31 called the tool so here this for that
+42:34 actually they have given you one more
+42:36 function right then let's say if your
+42:40 requirement is like a multi-step agent
+42:42 okay multiple time you have to iterate
+42:44 on something then they have given you
+42:46 one more functionality should continue
+42:48 or not whatever then they have given you
+42:50 this multi- agentic functionality as
+42:52 well so what they are trying to explain
+42:54 you here they're trying to explain you
+42:56 right so what they are trying to explain
+42:57 trying to explain you based on your
+42:59 requirement actually we have provided
+43:01 you the functionality based on your
+43:03 requirement we have provided you a
+43:05 functionality so you can uh think in
+43:07 this particular way in this particular
+43:09 manner from up to down so here there is
+43:12 no use of agent then here the basic
+43:16 condition okay the basic deterministic
+43:18 flow then the next one basically you can
+43:21 add on your tool as well okay tool I
+43:23 think you all know then here in this one
+43:26 in this fourth and 5 fth we have a
+43:28 multi- agentic flow that my point so
+43:31 this image actually it's a very
+43:33 important image and where you will find
+43:34 out each and everything you will get it
+43:36 where over the small agent website okay
+43:40 so just go and check just go and check
+43:41 with all the details whatever details
+43:43 actually they have mentioned right and
+43:45 first of all you need to go through with
+43:47 the GitHub and just look into the GitHub
+43:49 material they will uh like you will
+43:51 understand everything they have written
+43:52 it in very simple English then just go
+43:55 through with the documentation and try
+43:56 to navigate to the documentation because
+43:58 here I'm not going to uh navigate to the
+44:01 entire documentation it will be very
+44:02 very time consuming and you will also
+44:04 find it out it's a like a boring and
+44:06 then what you can do you can uh look
+44:08 into this particular blog where actually
+44:10 they are uh they have given you the very
+44:12 give very good quick start okay so from
+44:15 here actually you can kickart your
+44:16 journey of this small agent and you can
+44:18 run your basic code and all inside your
+44:20 jupyter non or ins start your cab
+44:22 notebook so tell me guys this
+44:25 introduction is clear or not if it's
+44:28 clear I can go ahead with the uh I can
+44:31 go ahead with what I can go ahead with
+44:32 the coding and I can show you some sort
+44:35 of like agent creation and all that
+44:38 whatever type of function it is having
+44:40 and how we can start our coding Journey
+44:42 using this small agent tell me tell me
+44:44 tell me fast I'm waiting for your reply
+44:47 if you will say sir yes everything is
+44:50 clear I will proceed forur
+45:12 clear guys yes or
+45:21 no yes H I will give you the demo
+45:31 okay practical use skills see in AI we
+45:35 don't have any restriction practical use
+45:38 case could be anything okay you can take
+45:41 a data from anywhere you can build any
+45:44 sort of a thing right but yeah I will
+45:47 give you some demonstration so if you
+45:50 have any specific use case you can uh
+45:53 utilize it understood now uh what I'm
+45:56 doing here so first of all we required
+46:00 some Library so let me take those
+46:04 Library guys and here those Library
+46:06 actually it's nothing it's a small agent
+46:08 itself so let me write here pip
+46:12 install hon Q okay and uh the liability
+46:17 name is going to
+46:20 be small
+46:26 EGS so this is my first library now let
+46:29 me take a next Library here so F install
+46:33 and then here my next library is going
+46:35 to be light
+46:37 llm so if any llm I have to be like uh I
+46:42 want to read right or I I required in my
+46:45 pipeline I can like import it okay using
+46:49 this particular Library like L then uh
+46:53 what I can do I can install this both
+46:54 library and then what I can do here I
+46:58 can set up some API key so API key wise
+47:03 uh here see I kept all the API Keys over
+47:07 here okay now let me do one thing let me
+47:10 give the access to the necessary one
+47:12 first uh basically it's token the second
+47:15 is what the second is this open API key
+47:17 I will show you with the open API key as
+47:19 well okay and uh here I can use this T
+47:23 also okay so this API key will be
+47:26 required and and rest of the key won't
+47:28 be required so I'm not giving a excess
+47:31 okay then here what I have to do I have
+47:33 to set this API key as an environment
+47:35 variable so let me do it uh let me set
+47:38 this API key as a environment variable
+47:42 so for that the code is very simple I
+47:44 think I can do it so this is the code
+47:47 okay now one more thing uh you must be
+47:49 thinking about this HF token from where
+47:51 you will get this HF token okay so this
+47:54 HF token actually you will get it over
+47:56 the hugging pH itself
+47:57 uh if someone don't know about the
+47:59 hugging phase so hugging phase actually
+48:01 what is the hugging phase tell me
+48:03 hugging phase is
+48:05 a AI Community right it's a AI company
+48:08 computer application Corporation so this
+48:11 uh Community basically provide you so
+48:13 many thing uh so many thing means so
+48:15 many thing it will provide you the model
+48:17 provide the data set space where you can
+48:20 deploy your project okay here you will
+48:22 find out many Community post document
+48:24 Enterprise pricing means it is having
+48:27 one uh like one subscription plan as
+48:30 well so if you want to access some
+48:32 highend model you can access those model
+48:34 using the after subscribing the like
+48:38 this hugging place okay so you will have
+48:40 to take this Pro account okay Enterprise
+48:42 Hub is also there but free in free
+48:45 actually you can access many more things
+48:46 so I'm not going with the pro account or
+48:49 Enterprise level of account but yes for
+48:51 sure I will show you how you can create
+48:52 a tokens so for creating a tokens okay
+48:55 so see this is my actually yeah this is
+48:58 my profile in hugging face so once you
+48:60 will log to the hugging face okay so it
+49:02 will create your profile so what is this
+49:05 profile actually this profile is nothing
+49:06 it is similar to the GitHub only so
+49:09 there you can do one you can do you can
+49:12 like upload your own train model right
+49:14 and anyone can take this particular
+49:16 model let's say if I'm going to share
+49:17 this model with you so if I'm going to
+49:20 open this GitHub now so this GitHub what
+49:23 it is doing tell me so let's say if I'm
+49:25 going to open my reposit now inside this
+49:27 repository I have my code okay this Lang
+49:30 and now let's see if I'm giving you this
+49:32 particular repository so what you can do
+49:34 guys you can um like upload you can
+49:37 download the code right and let's say if
+49:40 you want to upload something over here
+49:42 you can make a full request and I can
+49:44 check it and if uh everything is perfect
+49:47 according to my U according to my
+49:50 requirement that I can merge that
+49:51 request okay so same thing you can do
+49:54 over here as well so this hugging face
+49:55 actually provide you want it Prov the
+49:57 repository when you are going to sign in
+49:59 so here is my repository if you will see
+50:02 so I retrain couple of model and after
+50:06 retraining those model I kept it over
+50:08 here got it now what I can do so my main
+50:11 concern is the token so how I can get it
+50:13 so for that actually you need to go
+50:15 through with the uh setting okay so once
+50:18 you will go through with the setting
+50:19 here and inste the setting actually you
+50:22 will find out one option this access
+50:24 token okay just click on this access
+50:26 token and here first of all I will have
+50:28 to confirm my password so let me do it
+50:30 let me check with which ID I have login
+50:34 so it is my ID and see this is my all
+50:36 the tokens okay I created all all like
+50:40 already different different token so
+50:42 either you can create with a read
+50:44 permission or write permission or you
+50:46 can create with this fine grid okay now
+50:48 what is the meaning of fine grid fine
+50:50 grid means basically you can deploy your
+50:52 code as mean you can deploy your model
+50:54 as well okay read and write both so uh
+50:57 here as of now I just want to read the
+50:58 model I'll be creating my new token with
+51:00 the read permission so you can give your
+51:02 token name you can give the permission
+51:05 okay which permission you would like to
+51:06 give if you're not giving any sort of a
+51:08 permission so by default actually it
+51:09 will create with a read permission okay
+51:11 and now they have added many more thing
+51:13 over here with respect to this uh see
+51:15 fine grid means uh basically you can
+51:18 select the option okay means uh for for
+51:21 which task actually you require your
+51:23 model otherwise read is here write is
+51:25 here okay simply you can create for the
+51:27 read and write write means what if you
+51:29 want to write the model over the GitHub
+51:31 mean if you want to push the model over
+51:33 the sorry not GitHub hugging p and if
+51:35 you want to read any sort of a model
+51:37 then in that case you will have to
+51:38 create a token from here so I already
+51:40 created a token but I would like to uh
+51:43 give you this link inside the chat
+51:46 itself so guys you can do it from your
+51:49 end as well now I pasted a link inside
+51:52 the chat and now what I'm doing here I'm
+51:54 going to write the further code okay and
+51:57 uh so what I have to do here so first of
+51:59 all guys I have to import something now
+52:01 my first uh my first import statement is
+52:04 going to be small agents okay then from
+52:08 here actually I'm going to import this
+52:10 code agent now let me import what let me
+52:13 import this code agent okay then here
+52:17 I'm going to import one more thing the
+52:19 next thing is going to be HF API model
+52:22 so using this HF API model actually I'm
+52:24 going to read the model OKAY by by
+52:27 default actually it read the coin
+52:29 modelit coin I will show you that
+52:30 particular model q q q w n right but you
+52:35 can configure any other model as well it
+52:36 is up to you so I will show you the both
+52:39 way so see I'm able to load this input
+52:41 uh I I'm able to like import this
+52:43 classes code agent and this HF API model
+52:46 now after this one what I'll be doing
+52:48 here so here I'm going to create my
+52:51 model okay this object and let me create
+52:55 a object of this particular class h API
+52:57 model so using this HF API model I can
+52:60 do one thing I can like load any sort of
+53:02 a model whatever model is there over the
+53:05 some model you cannot load because it
+53:07 required a special so it required the
+53:12 like the Enterprise account means you
+53:14 will have to pay for that so for example
+53:17 here is a model so let's say if you want
+53:19 to access this model which model this
+53:22 Lama 3 llama 3.3 7B install okay so in
+53:26 that case what you will have to do you
+53:27 will have to go with the Lama repository
+53:30 and there actually you will have to ask
+53:32 the permission for that smaller model
+53:33 but let's say if you want to access this
+53:35 bigger model in that case maybe you will
+53:37 have to take the pro subscription right
+53:40 so many of the models is the free freely
+53:43 available but some of the model it is
+53:45 not available for that actually you will
+53:46 have to take a pro subscription right so
+53:49 by default which model it is going to
+53:50 use so we are talking about the by
+53:52 default model guys so by default uh let
+53:54 me uh give you the name of that
+53:56 particular model the model name is this
+53:59 Quin 2.5 model okay so here I'm going to
+54:03 search this model in front of you the
+54:05 model name is going to be what uh let me
+54:07 search so Quin
+54:10 2.5 okay code this one this coin 2.5
+54:15 code X 32b so this is having a different
+54:18 different variant let me check out with
+54:21 the code X let me write the complete
+54:24 name code X
+54:27 okay so coder coder coder coder Cod is
+54:32 the python by python
+54:35 coder let me check the name whether it
+54:38 is correct or
+54:39 not it's uh okay coder 325 yeah the name
+54:43 is not Cod it's a coder only 32b
+54:45 instruct this uh yeah this one guys so
+54:49 by default it's going to use this 7B
+54:51 instructor and 32b instructor okay so
+54:54 this model is being loaded in a backend
+54:56 whenever I'm just going to be create a
+54:58 object of this particular class let me
+55:01 show you which class this HF API model
+55:04 right so let me do it and here you can
+55:06 see we are able to load the model now if
+55:07 you will hover your mouse on top of this
+55:10 uh class so in that case also you will
+55:12 get the complete detail okay let me hold
+55:15 the mouse and let me check the details
+55:17 so see uh it is giving you the detail
+55:19 that which model it is coin 2.5 coder
+55:22 32b instruct but you can change the
+55:25 model it is up to you I will show you
+55:27 I'll be using the openi model okay I'll
+55:29 be using gbd4 model right in some time
+55:31 so tell me till here everything is
+55:33 perfect everything is uh everything is
+55:36 uh fine tell
+55:38 me so this gu is watching his left hand
+55:41 side and doing things they are just
+55:43 copying and pasting the thing yes is so
+55:45 what is the like problem with this thing
+55:47 tell me so for the reference for taking
+55:50 a refine session should I not keep all
+55:52 the things ready H or like I'm a robot
+55:56 I'm a chat GP which can recall
+55:58 everything of in the inside the session
+56:00 itself to what you want to mean I'm also
+56:04 a human I want to take this session in a
+56:07 very step by- step manner so that's why
+56:09 I kept all the thing ready made with me
+56:12 okay which I prepared in my entire day
+56:15 okay I Was preparing the material since
+56:17 morning and then only I'm taking this
+56:19 session all the material and all has
+56:21 been created by me only okay so what is
+56:24 a like issue with this thing
+56:29 okay great now so I think so this is
+56:32 perfect and model is ready now what I
+56:35 can do right so here I can create a
+56:40 agent my agent the agent name is going
+56:42 to be a code agent and definitely I will
+56:45 uh tell you the use of this code agent
+56:48 and all so what is this code agent and
+56:51 why actually we are using it so here let
+56:53 me create object of this particular
+56:56 class so uh let me do one thing let me
+56:59 uh Define something over here uh first
+57:02 of all I can uh take one variable the
+57:04 variable name is what tools okay and
+57:07 then here what I can do I can take this
+57:10 model variable is equal to what is equal
+57:12 to model now uh this two parameter I'm
+57:15 passing and in starting you can see I
+57:18 haven't passed any sort of a tool okay
+57:20 everything is working based on the model
+57:21 only now uh this is going to be my agent
+57:24 now to this particular agent uh if I'm
+57:26 going to ask something right and see how
+57:30 simple this thing is right so here let's
+57:32 say if I'm going to call this agent okay
+57:34 agent. run and here let's say if I'm
+57:37 going to ask any one question my
+57:39 question is going to be what is 20 let's
+57:43 say 24 ultip by 7 right so just a simple
+57:48 question what is this 24 into 7 and if
+57:51 I'm going to execute so see you will
+57:53 find out uh the every type of process
+57:56 okay which is happening in back end now
+57:58 simply it is giving me answer the answer
+58:00 is 168 right so how simple this thing is
+58:04 I means within a like minute itself I
+58:06 created my agent and we are able to
+58:09 execute it and here if you will find out
+58:11 in back end how this thing is working so
+58:13 the thing is working in a code right so
+58:16 first it is going to be create a code a
+58:18 pythonic code and then actually it is
+58:20 giving me answer so what is the use of
+58:23 this code code agent so the code agent
+58:25 actually is going to be con invert
+58:26 everything in a pythonic code in
+58:28 backhead okay and then only basically
+58:30 it's going to be generate answer so as
+58:32 of now I haven't passed any tool so it's
+58:33 is not going to call any tool but yes it
+58:36 is giving me answer based on the
+58:38 pythonic code so tell me guys are you
+58:41 able to run your first of agent or
+58:49 not yeah correct AES I'm well prepared
+58:52 you are right so this thing actually it
+58:55 is a required something F uh like we
+58:58 need to create a flow we need to create
+58:59 a code Okay and like before coming to
+59:03 the session actually uh every Mentor
+59:05 does it okay every Mentor cannot teach
+59:08 on the fly if you are writing a code uh
+59:10 for anything uh let's say you got a task
+59:13 you are coding uh in your Real Time
+59:15 Project you also required assistant
+59:17 means you looking a code from the maybe
+59:20 Google Chat GPD right and then basically
+59:23 are building your logic so as a human
+59:25 guys we required assistant right and
+59:27 then with that like experience only we
+59:29 learn getting my point so if someone is
+59:32 coming in the session like with the all
+59:35 the thing with the like the rade code
+59:38 and all so it's not a harm right many
+59:39 people have seen what they are doing you
+59:41 know inside the live session itself they
+59:43 are just executing the like cell this
+59:45 ipb cell okay they already written a
+59:48 code but here I'm trying to explain you
+59:50 each and everything in a step by step
+59:52 Manner and this is my material the my
+59:54 entire material only I have checked the
+59:56 uh like
+59:57 this document okay I gone through with
+59:60 each and everything and I make a
+60:02 assumption okay which could be the best
+60:05 starting point for you okay from where
+60:07 actually I can start and here this
+60:09 Mentor skills comes right so here I
+60:12 identify each and everything I read
+60:14 every part of this blog okay and from
+60:16 there itself I make a conclusion okay so
+60:18 I should start with a code agent and I
+60:20 need to show you the different different
+60:22 uh like I different different questions
+60:24 okay how it is working on those
+60:25 different different questions questions
+60:26 and all understanding my point great uh
+60:31 okay so tell me guys still here
+60:33 everything is perfect I can give you
+60:34 this link if you join first time uh I
+60:37 can uh provide you this link inside
+60:40 where inside my chat so just give me a
+60:44 second and here here here here
+60:48 is Sir can you explain how this open
+60:51 source model and fine tune it's like
+60:53 llama or D if you will can more clarity
+60:57 regarding this yeah so
+60:60 finetuning open source model actually we
+61:04 discuss in some other session uh because
+61:06 this session actually is more towards to
+61:08 this small small agent I'll be
+61:10 conducting a session with respect to
+61:12 fine tuning and this uh like open source
+61:14 model and all okay but as of now
+61:16 whatever model I'm reading you know no
+61:18 need to like uh give any uh kind of
+61:21 payment for this model it is a
+61:24 completely open source model which I to
+61:27 from the hugging phe itself now let's uh
+61:30 do one
+61:31 thing so now see first of all we need to
+61:36 understand the mechanism of it that how
+61:37 this thing is working so if you will
+61:39 look into this Cod code agent where you
+61:42 will find out the lowlevel coding of
+61:44 this code agent as I told you uh just go
+61:47 and check with the GitHub so here just
+61:51 open this small agent and here inside
+61:54 this small agent itself just a second
+61:56 let me open
+61:58 it inside this is small agents uh where
+62:02 you can check just open this agents. py
+62:06 now inside this agents. py actually they
+62:09 have created this class okay so let me
+62:12 show you this class uh planning step
+62:15 take a step system get tool
+62:17 description uh format format format log
+62:20 label agent
+62:23 multistep code agent should be there so
+62:27 someone has already written the quote
+62:28 for you and we are just going to create
+62:30 object of it and what is what you know
+62:33 what have what is happening so whenever
+62:35 you are going to call this code agent
+62:37 class so everything is going to be
+62:40 convert into the python code okay
+62:42 whatever thing you are going to write
+62:44 let's say you ask what is our 24 into 7
+62:47 so first it will analysis that statement
+62:49 right and after analysis analyzing that
+62:51 statement it will think about it means
+62:55 the like what what needs to be done so
+62:59 it has seen okay now it is 24 into 7
+63:01 means some multiplication is required so
+63:04 automatically actually it is going to
+63:05 generate a pythonic code in backend
+63:07 itself getting my point so just go
+63:10 through with this particular file and
+63:11 you will find out this codex class let
+63:13 me do the control app and code agent
+63:17 yeah so this class is there this code
+63:19 agent guys here you can see now inside
+63:22 this code agent they have already uh
+63:24 written all the the entire code so if
+63:27 you want to go through the lowlevel code
+63:29 so definitely you can visit to this
+63:31 class okay from line number 880 and uh
+63:35 see just look into all the parameter
+63:37 that what of parameter are there uh
+63:39 tools is there models is there system
+63:41 prompt is there grammar is there
+63:43 additional authorized input is there and
+63:46 planning interval is there us use e2b
+63:49 executor is there and they have given
+63:51 you the detail as well that which like
+63:54 parameter is doing what kind of thing
+63:56 and inside this particular class you
+63:58 will find out what you'll find out the
+64:00 different different function okay which
+64:02 is being executed automatically so if
+64:05 someone is interested to code their own
+64:07 agent in that case guys what you can do
+64:09 tell me in that case you can go through
+64:11 with this uh you can go through with
+64:13 this class you can look into the code
+64:15 and you can create your own agent from
+64:17 scratch but here if we will check with
+64:19 the ipb file this collab file so I'm
+64:22 just going to create a object of it and
+64:25 then we have passing this required
+64:27 variable okay and these framework are
+64:30 nothing it's a ready to go framework
+64:32 it's a ready to make framework means
+64:34 someone has already written the code and
+64:37 we are just going to be consume it okay
+64:39 so we have less flexibility over here
+64:42 means instantly we cannot change
+64:44 something definitely we can do it but
+64:47 for that actually we'll have to
+64:49 understand this entire code with someone
+64:50 return and then we'll have to make a
+64:52 changes inside that code and then only
+64:54 it will be reflected where it will be
+64:56 reflected to my code okay so instantly
+64:59 actually we don't have any sort of a
+65:00 functionality so that we can make any
+65:02 changes here no it's not like this one
+65:05 uh directly we'll have to use this
+65:07 particular classes now let's look into
+65:09 the different different other thing so
+65:11 what I'm doing uh so here guys just a
+65:13 second uh I am going to uh call few more
+65:17 things so uh let me do one thing let me
+65:19 call let me take one tool okay the tool
+65:22 name is what the tool name is dug duck
+65:24 go search tool Okay so so this is just
+65:27 for your understanding uh that how this
+65:29 tool calling is working now let me copy
+65:33 and paste the name of it so this dou
+65:35 duck coar tool what it will do it will
+65:37 call to the internet okay and from there
+65:40 itself it's going to fet the information
+65:42 so let's do one thing let's try to
+65:44 create a class again object again of
+65:46 this code agent and after creating a
+65:49 like uh after creating a object so I
+65:53 required some parameter so first is the
+65:55 tool so here inside the tool actually
+65:57 I'm going to pass what I'm to pass this
+65:59 go search so this is my tool name okay
+66:02 and then here I'm going to pass my model
+66:05 as well so my model name is going to be
+66:07 model only so model is equal to what
+66:09 model equal to model now uh see what it
+66:13 will do so let me create a object again
+66:15 so this is my agent okay and now I can
+66:18 ask anything to my agent so let's try to
+66:21 ask some realistic question which I
+66:24 happened recently okay so here guys I'm
+66:27 going to ask the question related to the
+66:29 cricket and this is my question guys if
+66:31 you agree that this is a real time of
+66:33 like a question means it just happened
+66:36 few days ago and please hit the like
+66:39 okay uh see the question is very very
+66:41 simple what is the result for recently
+66:43 concluded Cricket okay uh test series
+66:46 between India and Australia so let's
+66:48 check whether it is able to answer or
+66:49 not so if I will execute it here you can
+66:52 see every processing is going on in back
+66:55 end and then you will get a final output
+66:58 so here the output is Australia B the
+67:00 series with three one right so see this
+67:04 is the output which I'm able to get not
+67:07 this one this one let me copy it and let
+67:10 me paste it over here and see this is
+67:13 the output which we are getting so tell
+67:16 me guys uh did you understand how to do
+67:18 the tool call and it's a very easy
+67:22 compared to the L graph no need to do
+67:24 anything uh
+67:26 just call the tool and mention inside
+67:30 the code
+67:31 agent sir help me with this sir when you
+67:34 will make the find playlist in your
+67:36 channel sir it will I I'll do that okay
+67:39 isumi I will do that don't
+67:41 worry sir mine is not working tell me
+67:44 what's your issue you can mention in
+67:46 chat open ke is pro bro no it's not free
+67:49 bro you will have to pay for that uh
+67:53 first actually they were uh they were
+67:56 actually providing some cred credits but
+67:59 now I think they are not providing maybe
+68:01 $5 they providing but I think so you
+68:03 cannot make a heavy request with that $5
+68:05 okay so you will have to take a plan
+68:08 version sorry
+68:11 plan this one paid version of this open
+68:13 a you will have to add the credit card
+68:15 and then you will have to add the credit
+68:16 limit also over there and then only you
+68:18 can use it so in some other session I
+68:20 will show you how you can configure the
+68:22 open and all that is very much easy
+68:24 right don't worry so in open source mod
+68:27 in the actually industry yes open source
+68:29 model is being used inside the actual
+68:30 industry it depends on the like
+68:32 requirements I seen companies having a
+68:35 like requirement there they cannot use
+68:37 any model from any apis but uh uh I
+68:41 created so many project okay I'm working
+68:44 on the genetic gu since like one year
+68:46 almost uh mean I work in some good
+68:49 project also in the Real Time Project
+68:51 also I productionize those project and
+68:53 most of the time we were reading the
+68:55 model from Azor okay from the Azor we
+68:59 read the model from the wro itself okay
+69:01 so guys uh in the real time actually uh
+69:05 see on whatever Cloud platform your
+69:08 company is relying like say your company
+69:10 is relying on the a so they will give
+69:12 you the configuration they will give you
+69:14 the credential of the Zer itself okay so
+69:16 from there itself you're going to read
+69:17 the model but for some PS and all
+69:20 definitely you can use the open source
+69:22 model but let's say when it comes to the
+69:24 production in that case
+69:26 like you're going to use the you're
+69:27 going to read the model from some Cloud
+69:30 platform itself and most of the time
+69:33 like I use the open a model and it gives
+69:35 you the pretty good result I will show
+69:36 you here as well got it now let's come
+69:39 to the next part so what I can do I can
+69:42 ask some other question or let me show
+69:44 you some variable so we have seen one
+69:46 variable here if we will go and check
+69:48 system Pro so let's see what we have
+69:50 inside this system
+69:52 Pro here I can do one thing I can can
+69:56 show you this system problem so let me
+70:00 write the agent agent here agent do
+70:04 system system PR PR p r m PT now see
+70:08 guys this is my system
+70:11 PR okay so they have mentioned something
+70:14 inside the system prompt and based on
+70:15 that only your llm is going to take a
+70:18 decis it's a very heavy prompt you can
+70:20 check it out and the real time uh you're
+70:23 going to write a prompt like this you
+70:26 canot write a prompt like this uh you
+70:28 will have to do like several back and
+70:30 forth of inside your prompt if your
+70:33 model is not generating a answer good
+70:35 answer now the next thing is what so
+70:38 here I can do one more thing now the
+70:40 next thing is going to be uh I can show
+70:43 you some import statement uh actually
+70:45 which is uh like on which it is re
+70:49 relying right now so my import statement
+70:52 is authorized import so see these are
+70:55 the import a statement which is by
+70:57 default there date time Q Statics unode
+71:01 data random math State collection okay
+71:04 now let's try to ask one question to my
+71:05 agent so my question is going to be very
+71:08 very
+71:09 simple here I can ask agent do run now
+71:15 uh the question is uh my question is
+71:18 fetch
+71:19 the fetch f c fetch the share price
+71:25 share
+71:26 price of
+71:29 Google
+71:31 from
+71:34 20202
+71:37 24 and create c e a create a line
+71:45 graph from it now tell me guys uh will I
+71:49 able to create it using this
+71:53 agent I'm asking to all of you tell
+72:03 me what is your thought will be able to
+72:06 create a line
+72:17 chart okay let me execute it and let me
+72:19 see whether it is like a possible or not
+72:24 so here let me execute it and I'm
+72:27 checking whether I can create a line
+72:29 chart or not so just look into this
+72:32 import this authorized import statement
+72:35 okay the by default import statement so
+72:38 I think so inside this import statement
+72:39 we don't have met lo li or C so in that
+72:43 case guys it won't be able to create a
+72:46 chart see it is throwing error it is
+72:48 able to F the detail okay automatically
+72:51 is patching a detail from where from the
+72:53 different different website but at the
+72:55 end guys it won't be able to create a
+72:56 chart what is the issue here the issue
+72:59 is very very simple that we don't have
+73:01 those libraries over here so what next
+73:05 what I have to do here so here guys I
+73:07 can see it is generating a very good
+73:09 code as well oh let's see whether it
+73:11 will be able to do it or not in back end
+73:14 it is doing everything this code agent I
+73:17 told you now it is using the python code
+73:20 the instruction and all has been written
+73:21 in such a way automatically it is
+73:23 creating a python code see guys
+73:26 if I was lying to you here is a proof of
+73:28 it this one now uh it haven't given to
+73:34 me it haven't given to me a line chart
+73:37 but it has given to me this stock price
+73:41 detail so let's do one thing let me
+73:43 write couple of import statement here
+73:45 okay and let me show you whether it's
+73:46 going to work or not so for that guys I
+73:50 have to make some changes so this is a
+73:52 changes basically I need to make so see
+73:55 this is the one uh the changes is code
+73:58 agent would be there this tool would be
+73:60 there now here you can see we have the
+74:03 model then this is the changes inside
+74:06 this uh changes uh like inside this
+74:09 import import statement okay inside this
+74:12 module I mention couple of other module
+74:14 like this m plot bu finance and all okay
+74:17 bs4 so that it can efficiently search to
+74:19 the internet sequest is there pandas is
+74:22 there math is there okay math was also
+74:24 there so math is not required I can
+74:26 remove this as well but guys you can see
+74:28 the other import statement so manually
+74:30 also you can Define the import statement
+74:33 okay now if I'm going to execute this uh
+74:36 if I'm going to create an agent now and
+74:37 now if I will ask the same question to
+74:39 my agent so what is going to be my
+74:42 question so here is my question this one
+74:45 let me copy and let me paste it over
+74:48 here so this is my C right and now you
+74:53 will find out magic right you will see
+74:54 the magic that uh my chart is being
+74:57 created so how intelligent it
+74:60 is with a single line of code we are
+75:03 able to create a chart guide
+75:05 see now just think about the job job
+75:08 like who is writing a code and all who
+75:10 is doing a manual
+75:12 analysis so this agent actually is able
+75:14 to do everything for
+75:16 you right many people are asking sir
+75:19 should we learn this Panda should we
+75:21 learn this metl Li seon and here you
+75:24 will find out
+75:26 that this AI is doing everything for you
+75:29 right now you just need to like uh you
+75:33 just need to interpret the thing right
+75:36 evaluate the thing and AI agents is
+75:39 doing everything for
+75:41 you okay so be good in the full St guys
+75:45 uh try to learn everything where you can
+75:47 make a good solid architecture of your
+75:48 project okay and try to learn a good
+75:50 coding which this llm is not able to do
+75:54 okay so far
+75:57 so here here here everything is being
+75:59 generated in back end let's see whether
+76:01 it will be able to give me a final
+76:02 output or not that is a main
+76:05 thing so are you liking the session do
+76:09 you like the session tell me yes or
+76:13 no did you understand everything
+76:16 whatever I'm teaching and is it uh
+76:18 helpful to all of you if it is helpful
+76:22 if you're liking it you can let me know
+76:24 guys this still it is processing the
+76:26 entire thing and let's see whether I'll
+76:28 be getting the graph or
+76:31 not then I have couple of other uh
+76:34 example
+76:53 also great people are liking
+77:05 mhm input token is 26,000 and output
+77:08 token is 3
+77:11 3,417 this to token actually this is
+77:14 also very much
+77:15 important so whenever you are going
+77:17 through with any model now whether it is
+77:19 good or not so always look into the size
+77:21 of this toen okay how much token
+77:24 actually it can bear
+77:28 still it is loading guys see still it is
+77:30 loading but I think so it should give
+77:33 the
+77:34 graph if it won won't give it to us
+77:37 again we'll run it no
+77:41 issue okay so it has generated something
+77:45 okay what is this where is a
+77:50 graph oh it has generated this base 64
+77:55 Cod string means image image image guys
+77:57 just a second I think I removed
+77:59 something from here let me do one thing
+78:01 let me add on again this is going to be
+78:05 meth okay just a second again I'm
+78:07 executing maybe see it is able to give
+78:09 me this PS4 string but I'm not sure
+78:13 about why it has not generated the image
+78:15 from there okay that particular I think
+78:18 I will have to keep that math over there
+78:21 while I'm rning it
+78:28 yeah yeah yeah correct Rin I got it I
+78:30 got it thank
+78:32 you I thought like by default it is
+78:34 there so I forgot sorry I need to
+78:36 mention it while I'm creating AG yeah
+78:39 yeah now I got okay I got a graph you
+78:44 remember guys we used to write a code
+78:45 for creating this type of graph yes or
+78:48 no we used to like write a code for
+78:51 creating this type of graph and we used
+78:54 to learn the Met plot C born and the
+78:56 different different other library but
+78:57 now see how easy it is just to give a
+78:60 single line of a statement to the agent
+79:02 and agent is doing everything for
+79:06 you okay great now what would be the
+79:09 next thing so the next thing is and see
+79:12 multiple times it has given to me now
+79:15 what I can show you see if you want to
+79:17 mention the Custom Tool okay so here
+79:21 guys what I did I created one Custom
+79:23 Tool for all of you but for that
+79:26 actually I will have to import it from
+79:27 the small agent so it's small agent
+79:31 import tools so this is my tool guys now
+79:34 let me import it and then here I'm going
+79:37 to create a class my class name is going
+79:38 to what class name is going to be this
+79:43 HF model downloads tool now what is the
+79:46 use of this tool okay what is the
+79:47 requirement of this tool I will let you
+79:50 so first of all guys here I have to
+79:52 Define one method okay inside the two
+79:55 itself I'm going to Define that so
+79:57 forward and here I am going to beite S
+80:01 and here is Task and here is Str Str now
+80:04 inside this method I'll be writing some
+80:06 sort of a code so first of all let me
+80:08 write some description of this tool so
+80:11 description will come over here okay so
+80:15 this is going to be my description I'm
+80:17 just going to copy and paste just to
+80:19 save the time and look into the
+80:21 description what this is doing this is
+80:23 taking a model download counter so if I
+80:26 will ask to my model okay tell me uh
+80:28 which is the best model on over the
+80:32 hugging phas for text to image okay so
+80:35 best model over the hugging pH hugging
+80:39 pH for what for text to image text to
+80:45 image then what it will do guys tell me
+80:47 so it will count it will check uh it
+80:52 will check the highest download and to
+80:55 that automatically it will give you the
+80:57 name if you don't believe to me let me
+80:59 show you so this is the complete
+81:01 description name of description and
+81:03 input and here the output is going to be
+81:06 a string on coming to the next part so
+81:10 here the next part is for just a second
+81:13 I think I made something and the next
+81:15 thing is going to be this uh Dev okay so
+81:18 I have to write the code inside the dev
+81:20 as well so let me write the code over
+81:23 here so this is the code inside the dev
+81:25 inside my function function is what
+81:27 forward uh let me check whether we have
+81:30 some issues because I'm getting this red
+81:32 line I think indentation is not correct
+81:34 maybe so let me make the correct
+81:37 indentation now everything is perfect
+81:40 see guys this is my uh own tool now what
+81:42 I'll be doing so I'll be using this
+81:44 particular tool for what so I'll be
+81:46 using this particular tool for what tell
+81:49 me for
+81:51 checking right which is the highest
+81:53 downloaded model and this is my Custom
+81:55 Tool so what is the main idea to
+81:57 Showcase you this thing this class the
+81:59 main idea to Showcase you this
+82:00 particular class uh how to
+82:09 create
+82:13 custom tool okay now what I can do here
+82:17 I can mention
+82:20 something this is my predefined tool
+82:22 okay just a second
+82:33 predefined tool du du
+82:36 go duck du
+82:41 go okay great now let's do one thing
+82:44 let's try
+82:45 to run it so here I will have to create
+82:51 object let me create object of this tool
+82:55 this is the object now what I'll be
+82:57 doing here I'll be mentioning inside the
+82:59 same class okay so this uh
+83:03 class I already created an object of it
+83:06 let me copy and paste from here and let
+83:08 me paste it inside a new cell and this
+83:12 is my tool name now here I can remove
+83:14 this one and let me mention it so I hope
+83:19 so this is fine now what I will ask to
+83:21 my agent okay so to the agent I'm going
+83:24 to ask a very simple question okay it is
+83:27 telling to me task is
+83:30 required task task task should I mention
+83:33 something I forgot something self.
+83:39 task tool is fine let me run it again
+83:42 just a second this is
+83:45 perfect and model
+83:49 download uh okay sorry sorry guys here
+83:52 what I did now uh I need to mention the
+83:54 the object name only or else I can
+83:56 mention directly this class or else I
+83:58 can mention the object sorry it was my
+84:00 mistake sorry so now it is fine and this
+84:04 is what this is my agent then what I can
+84:06 do I can simply call the run and here I
+84:10 can ask the question so my question is
+84:12 what is a okay what is a most downloaded
+84:19 model
+84:20 downloaded
+84:22 model C
+84:25 to
+84:27 image
+84:28 generation any guess which is the best
+84:31 which is the best do which is the most
+84:33 downloadable model from the hugging
+84:41 B any guess guys anyone is able to guess
+84:46 you can mention inside the chat and then
+84:48 I'll be checking from my agent itself
+84:50 okay this is my own agent which I
+84:52 created see here I what I'm getting here
+84:55 I'm getting my task means this complete
+84:58 detail and then Short download Direction
+85:00 so this is a predefined function
+85:01 actually which I capped over here I got
+85:04 it from the documentation only now tell
+85:06 me what is the most downloaded model for
+85:09 text to image
+85:12 generation or text to image task
+85:14 anything you can
+85:16 say Delhi Delhi is available over the
+85:18 hugging face okay let me check it out so
+85:22 here you will find out the most
+85:24 downloaded model will
+85:34 be
+85:36 uh stable
+85:38 diffusion stable diffusion is a most
+85:41 downloadable model for text to image
+85:44 generation and how we got this name we
+85:46 got this name using my
+85:49 agent and here I coded my Custom Tool
+85:52 which is able to give which is able to
+85:55 do this task okay which is able to fetch
+85:57 the information in a real time and this
+85:59 is the entire code which is working in a
+86:01 packet so stable diffusion actually it's
+86:03 a more downloadable model okay not this
+86:09 Delhi Delhi actually it's open model so
+86:12 it's a chargeable you will have to
+86:15 charge sorry you will have to pay for
+86:17 that API Del API and for the stable
+86:20 diffusion actually you you don't need to
+86:21 pay it is already there over the B now
+86:24 let's ask some other question what I can
+86:26 do I can ask one more
+86:29 question image to image task let's look
+86:32 into the model which model is the most
+86:34 downloaded model you can uh check out
+86:37 what you can do you can check out from
+86:39 your end as
+86:40 well means you can thr check over the
+86:44 like hugging face and all whether it is
+86:46 correct or not but I think so it is 100%
+86:51 correct this is a model is stable
+86:54 diffusion XL refiner for what for image
+86:57 to image generation so if you want to
+86:59 generate image to image this is the most
+87:01 suitable model guys or the most
+87:03 downloadable model from the hugging face
+87:06 let me copy it and let me take the name
+87:08 over
+87:09 here so tell me is it fine till here
+87:13 everything is going well did you
+87:16 understand or
+87:17 not any question anything let me look at
+87:20 the chat box if you have any question
+87:22 you can I can answer
+87:26 so the question is I to build the LM
+87:30 from SC can be utilized for speci class
+87:34 hope yes surec I will create a video I
+87:37 will show you the pre-training how you
+87:38 can do the pre-training from scratch
+87:41 okay uh let's do one thing let's uh look
+87:45 into some other things some other task
+87:48 so uh tell me guys everything is going
+87:52 well so far means are you able to run it
+87:54 inside your system did you understand
+87:56 the use of this small agent from hugging
+87:60 pH if it is useful uh I think so like
+88:04 you can utilize it okay for creating
+88:07 your poses and all now let's do one
+88:09 thing let's try to uh check with the
+88:11 other functionality that what could be
+88:13 the other functionality over here now uh
+88:16 tool calling agent I already told
+88:20 you uh now one more thing if you want to
+88:23 load any other model like let's say
+88:24 apart from the hugging face if you want
+88:26 to load any other model then what you
+88:27 will do so for that guys we have this
+88:30 light llm okay this this class using
+88:32 this class we can load the model from
+88:34 anywhere mean we can load the other
+88:37 model as well not anywhere the other
+88:39 model as well okay now I will tell you
+88:40 what model actually you can load using
+88:42 this light NL so uh here I'm going to do
+88:45 one more thing uh I'm going to see this
+88:47 is what this is my agent okay which I
+88:49 created guys you know this one so here
+88:52 actually I was scrolling the internet
+88:54 now this is what actually I'm going to
+88:56 be create a tool calling agent I think
+88:59 you know what is a tool calling agent
+89:01 tool calling actually uh this this agent
+89:04 has been introduced by the open a we
+89:05 used to do the function calling right in
+89:07 a Json format so that functionality is
+89:10 also available over here means we can
+89:11 Define this tool calling agent okay uh
+89:14 before this tool calling what we are
+89:16 learning we are learning the code agent
+89:18 code agent was a separate class this one
+89:21 let me show you we have created object
+89:23 this one but here we have this tool
+89:24 calling agent as well tool call calling
+89:27 agent means what so it is working in the
+89:29 same way the open a function calling was
+89:31 working means we are extracting the
+89:33 information in a Json format in the key
+89:35 and value format and then based on the
+89:37 patching information we are calling to
+89:39 the specific tool okay I'm not going
+89:41 into the internal working but yeah this
+89:43 class is also available so let me do one
+89:45 thing let me import this class from the
+89:47 small agent so here I'm going to be
+89:49 write this t uh then tool calling agent
+89:52 and here is what here is my agent now
+89:54 what what I will do guys here see uh we
+89:56 have a tool what is my tool my tool is
+89:58 the dug du go right the same tool for
+90:01 cloring the internet uh I'm asking one
+90:03 question to my agent my question is
+90:06 going to be what my question is going to
+90:08 be let me run it uh let me ask the
+90:10 question the question is very very
+90:13 simple so this is my question I already
+90:15 framed some question so that I can show
+90:17 you on the go right uh this is my
+90:20 question here so could you get the few
+90:21 topics From the Block uh here this is
+90:24 the medium website and let me check
+90:26 whether it will be able to generate the
+90:28 answer or not like will it be able to
+90:30 give me a blocks or not right so here
+90:32 I'm executing this uh question and uh
+90:35 let's
+90:36 see and you can explore the different
+90:38 different agent classes inside the small
+90:40 agent okay I shown you two classes today
+90:43 so guys if you will go and check with
+90:44 this
+90:45 medium.com then you will find out the
+90:47 different different like options okay so
+90:50 you can go into the quity you can check
+90:52 the society sement business and all
+90:55 different different kind of block it
+90:56 would be available so let me show you
+90:59 over here see this is the answer which I
+91:00 generated using this F model but let's
+91:03 say guys if you want to load any other
+91:05 model let's say if you want to load the
+91:06 GPD 4 GPD 40 okay or GP for Mei this is
+91:12 Al also a model so how I can do it so
+91:15 this small agent actually it is giving
+91:17 you one more class the class name is
+91:21 what the class name is this little l LM
+91:24 model okay so let me take this class
+91:27 little LM model and let me create an
+91:29 object of this little LM model now to
+91:32 this little LM model actually we can
+91:33 pass the GPT 40 mini but for that guys
+91:37 you should have the open a key then only
+91:39 it's going to work I already have I
+91:40 already configur it then only I'll be
+91:42 able to uh like I will be able to load
+91:45 it so here I'm going to write this model
+91:47 underscore ID equal to what equal to gbd
+91:51 40
+91:52 mini okay then what I can do I can keep
+91:55 it inside the model this one and now
+91:57 I'll be passing this model to where this
+91:60 model to my agents okay so here here
+92:04 here here we have this one so let me
+92:07 again create a object of this agent and
+92:10 here I'm going to create object of this
+92:13 particular agent so see guys this is my
+92:15 object and now let me use this model now
+92:18 this time I'm using this gbd4 mining but
+92:21 the thing is the thing is very simple
+92:23 you should have opening a key which I
+92:25 already have and I configure as a
+92:27 environment variable this
+92:30 one got it I already configured this
+92:33 open a key into the environment variable
+92:35 and then see uh here is my agent uh
+92:39 means I created it using the gp4 mini
+92:41 and this little LM model actually it is
+92:43 giving me access to the different
+92:45 different other model as well if I'm
+92:47 executing it I'll be getting my agent
+92:49 now if I'm going to ask the same
+92:50 question to my uh if I'm going to ask
+92:54 same question to my agent so you will
+92:57 find out the difference between the
+92:59 answer see and here you will realize you
+93:03 should have a good model open source
+93:05 model is fine but uh if you have some
+93:07 well trained model uh model with a good
+93:10 reasoning capability then really it's
+93:12 going to impact on your output so this
+93:14 is output from where this is the output
+93:17 from the let me do one thing let me show
+93:20 you over here just a second so let me
+93:23 keep it just
+93:24 see guys this is going to be a output or
+93:27 I can do one thing I can show you inside
+93:29 the mark
+93:30 out and it is in a more structure way
+93:34 structure format if I'm going to print
+93:36 it line by line actually you will be
+93:37 getting that okay so this is what
+93:40 basically I was trying to explain you or
+93:42 let me do one thing let me take it
+93:44 inside the
+93:45 response and here I can take what I can
+93:49 take an answer out of this response
+93:52 answer and now what I can do I can print
+93:56 this answer so print this answer okay
+94:00 and then here you will find out the
+94:02 complete answer and see the output of
+94:05 the open source model which I have
+94:07 generated see this is the output of the
+94:09 open source model so here actually you
+94:12 are going to make a
+94:14 difference understanding my point what
+94:16 I'm trying to explain you so today what
+94:18 I have shown you let me summarize the
+94:20 session so the idea was very simple the
+94:23 idea was to explain you the small agent
+94:26 it is a library from the hugging pH then
+94:29 for that actually I installed it simply
+94:31 using the PIP install okay and I use
+94:33 this light llm also so that I can use
+94:36 any other llm apart from this open
+94:38 source then I have configure my key and
+94:41 then I shown you how this code agent is
+94:43 working and there was the lowlevel
+94:45 coding okay it is a open source code
+94:48 then what I shown I shown this like tool
+94:51 calling how you can call the tool
+94:53 predefined tool
+94:54 uh then I show you how you can configure
+94:56 the like Imports okay if you required
+94:59 anything from the agent uh this chart
+95:01 and all I hope it is visible then I
+95:04 shown you how you can create a custom
+95:06 tool see this is a custom tool okay and
+95:08 using this one basically uh we were uh
+95:11 doing uh we were able to get the model
+95:14 the highest accountable highest
+95:17 downloadable model okay and all the
+95:19 functionality I have written in my
+95:20 Custom Tool this one then I have shown
+95:22 you apart from this code agent actually
+95:24 we have one more class tool calling
+95:26 agent and it is working in a jsonic
+95:28 format right tool this function calling
+95:30 format everything is working in a back
+95:32 in a function calling format okay that
+95:34 is a Json Json pattern and if you if you
+95:37 want to get a more detail out of of the
+95:39 Json pattern and all so what you can do
+95:41 you can go through with this particular
+95:42 blog so they actually they have
+95:44 explained you what is the difference
+95:45 between this jsonic uh like uh what is
+95:48 the difference between the Json approach
+95:51 okay Json call and this code agent call
+95:53 okay okay uh this is very much important
+95:56 that's why I kept this blog for all of
+95:58 you okay so text station this is the old
+96:01 approach tool calling agent and all
+96:02 which we used to do okay which we are
+96:04 doing and this code agent okay which
+96:06 they have coded for you the new latest
+96:09 class right this one this exclusive
+96:11 class so they are comparing this uh code
+96:14 agent class with their old with the old
+96:17 functionality like the function calling
+96:18 and all okay uh this one so I hope guys
+96:22 you will go through with this particular
+96:23 blog and you will learn each and
+96:24 everything with respect to this a small
+96:27 agent and you will utilize this
+96:29 functionality now one more thing is
+96:31 there I would like to give you one
+96:32 assignment okay so without assignment
+96:35 how it could be possible that I'm
+96:36 leaving the session so the assignment is
+96:38 going to be very very simple uh
+96:41 using using small Agent Small agent you
+96:47 have to you have to create you have to
+96:51 create a agentic a
+96:54 gentic R okay so this is going to be a
+96:58 task you can refer my previous session
+97:00 and there actually I have explained the
+97:02 meaning of this agentic agentic Rag and
+97:04 all now the same thing you have to do
+97:06 using the small agent getting my point
+97:09 tell me yes or no what is the advantage
+97:11 of light llm model light llm model means
+97:14 you can load the small model okay with
+97:17 quantize model model with a low
+97:20 parameter okay so see there actually you
+97:22 will here you will find out the class
+97:24 this inside this small agent light llm
+97:27 would be there so light llm light llm or
+97:31 where it is just a second let me check
+97:32 it
+97:39 out small
+97:44 agents to
+97:47 mod agents just
+97:50 a light
+97:58 yeah light llm is here but
+98:02 uh I think it has imported from
+98:04 somewhere else let me check with the
+98:06 import
+98:07 statement where is a import
+98:14 State light light light
+98:19 LM guys you can check it from your end
+98:21 okay uh
+98:24 where it actually it is and then you
+98:26 will get the complete detail of
+98:28 that I think it should be here just a
+98:31 second let me check the
+98:34 controller
+98:36 right no it is not okay guys you can
+98:39 check it out you can check it out the
+98:40 repository uh maybe inside some file you
+98:43 will find out that uh great so tell me
+98:47 how is a session do you like it if you
+98:49 have any question I can ask you guys I
+98:51 can ask you sorry you can ask me I will
+98:54 be answer for your question okay so you
+98:56 can mention inside the chat if you have
+98:58 any sort of a doubt with respect to this
+99:00 agent with respect to the generative AI
+99:03 with respect to this entire solution
+99:05 which I made uh definitely I'll be
+99:07 clarified and again I'm giving you the
+99:09 link if you are the new joining uh you
+99:12 can go through with this link I'm
+99:15 providing you inside the chat okay just
+99:20 second U wait
+99:24 so let me look into the question
+99:26 now uh the session is very much helpful
+99:29 and good thank you am so I'm currently
+99:32 uh new to gen AI so just a
+99:37 second so I'm currently new to gen AI
+99:39 can you guide me like what topic should
+99:41 I formalize myself before getting into
+99:44 the
+99:45 agent so in that case first of all you
+99:48 should start with the basics of NLP okay
+99:51 uh means uh what you can do you can
+99:54 understand the Transformer working you
+99:56 can compare the Transformer with the
+99:58 other model you can understand about the
+99:60 edings and all and then you can come to
+100:02 the fine tuning you can understand the r
+100:04 process okay and then you can start
+100:06 learning this agents understood so
+100:09 before this agent AI at least your basic
+100:12 should be clear uh if you are going to
+100:14 code anything using the agent AI
+100:16 framework or if you're going to create
+100:18 any agents so could we have graph rag
+100:21 graph rag I think s has already created
+100:24 a video you can check it out otherwise
+100:27 you can look into my YouTube channel as
+100:28 well I already created a video on the
+100:30 graph right using what using
+100:32 this Neo 4
+100:36 okay what is the advantage of light
+100:38 model I think I already answered can you
+100:40 update agent to create a different
+100:42 agentic dependent on various scenario uh
+100:45 yes you can capture any scenario any any
+100:47 type of
+100:50 scenar any more question tell me guys uh
+100:53 let me move it and if you have any
+100:57 question to me yeah feel free to ask me
+101:02 whatever like questions and whatever
+101:04 doubts you
+101:12 have so about the generative AI about
+101:15 your project architecture how the
+101:17 architecture needs to be built okay how
+101:19 to deploy the project
+101:30 okay fine so no more question thank you
+101:32 thank you bye-bye guys uh what I will do
+101:34 I'll be coming up with one more newe
+101:36 session uh with more one more new thing
+101:40 and uh we'll create a rag system using
+101:42 the autogen okay so it is a similar
+101:44 Library like this agent only but with
+101:47 some some extensive functionality right
+101:51 and if you want to understand the agents
+101:53 the agent creat and all then you should
+101:54 go with the Lang graph try to check with
+101:57 the L graph okay uh there actually you
+101:60 will have to code something from a
+102:01 scratch you might have a better
+102:04 understanding of the agents over there
+102:06 multi- agen system and all but don't
+102:08 worry I coming up with the autogen as
+102:10 well one video I will create okay like
+102:13 this
+102:14 small then uh one more is there crei I
+102:18 think already covered data s has already
+102:20 created a video okay so I know python
+102:23 can I be able to cop up with the course
+102:25 yes uh you will be able to do that if
+102:27 you know the python because every line
+102:30 of code we are going to write in the
+102:32 python so could we use bir and B model
+102:36 here B actually it's a old model right
+102:38 they have a train on a specific task is
+102:41 they did the uh unsupervised pre trining
+102:44 of the bird model but uh it was not on
+102:47 the very huge amount of data and later
+102:49 on they have findu that model on the
+102:51 classification task right so if you are
+102:53 going to use the pre uh this pre-rain
+102:56 board maybe you won't be able to capture
+102:58 many more thing right it won't be able
+102:60 to generate something because initially
+103:02 it was for the classification if you're
+103:03 going to use the trained word
+103:05 classification for the like the bir Bic
+103:07 which trained for the classification
+103:09 that yeah it won't it won't be able to
+103:11 generate the good answer okay it will
+103:12 just it will be just giving you the
+103:15 classified answer right the single word
+103:17 answer most of the time so but is not a
+103:19 good choice for this task GPD could be
+103:21 the good choice GPD after G 3.5 you can
+103:24 choose any model okay if you want to
+103:27 select the transform thisas
+103:34 model Google T5 for the translation only
+103:37 it was using both encoder and decoder
+103:39 and was for the translation so for the
+103:41 translation and stuff you can use but
+103:43 make sure like you are going to find the
+103:45 model
+103:51 okay so could we have I answer this
+103:55 question
+103:58 now Rising competition is in see h no
+104:02 need to like stand out okay anywhere
+104:06 again I'm saying don't make a comparison
+104:09 with me and you right or with me or like
+104:13 you and someone else just example I'm
+104:15 giving understand the concept understand
+104:19 the roots okay whatever new thing is
+104:22 coming in Agent K whatever framework
+104:24 whatever new research paper easily you
+104:25 can understand if you will understand
+104:27 the definition of the agent right so
+104:30 focus on that
+104:31 Roots I can give you the example let's
+104:34 say if I'm telling to you okay learn the
+104:36 addition learn how we can add two
+104:39 numbers so you would not be able to add
+104:41 five numbers you would not be able to
+104:43 add 10 numbers or 15 numbers tell me you
+104:45 can do that so the root is you should be
+104:49 aware about the addition okay you need
+104:51 to learn the concept similar to
+104:54 this one agent gen learn the concept let
+104:57 it let come anything and just learn
+104:60 according to your requirement means uh
+105:03 let's say you have to create a project
+105:06 using any framework then explore that
+105:08 end to end okay if you are a learner if
+105:11 you are a student then you can start
+105:12 from anywhere means you can follow to
+105:14 the mentor right in that case at least
+105:16 you will be on that position where you
+105:18 can create something using the
+105:20 agents getting my point so don't try to
+105:24 do the competition with anyone and like
+105:27 focus on your learning right on your
+105:30 progress what the job opportunity after
+105:32 learning a
+105:34 a see it's a time of the AI right I'm
+105:38 not saying that maybe I'm not that much
+105:41 expert so uh everyone is saying if you
+105:44 will like listen to the podcast if you
+105:47 will look into the different different
+105:48 teis interview like J and all like they
+105:51 all are say of the time of the AI and
+105:54 how we can use AI in a best way in a so
+105:58 agent AI could be the way okay agit
+106:02 means what we can use the capability of
+106:04 the L and we can create some autonomous
+106:06 system which can take a decision on
+106:08 their own way okay requ we don't require
+106:12 too much human intervention over there
+106:14 it can work on a co-pilot way getting my
+106:16 point so just just look into the
+106:18 timeline thing is evolving right thing
+106:21 is evolving step by step so in
+106:24 20178 there was a time of the lsdm then
+106:27 recently Transformer came then B GPT
+106:30 came then check GPT kind of application
+106:32 came okay then after that uh what
+106:35 happened so after that the Gen become
+106:37 too much popular everyone was learning
+106:39 about the Gen a how this model and
+106:41 knowledge working then people thought
+106:43 okay now what we should do okay how
+106:45 efficiently we can use this model llm
+106:47 based model so they come came up with
+106:49 this agentic pattern right so okay let's
+106:52 do one thing let's give some some
+106:53 instruction to the model let's do one
+106:56 thing let's try to generate something
+106:57 and let's try to use the capability of
+106:59 the llm only and this is what this is a
+107:02 pattern right this is a cycle so
+107:05 everything you know is is in a sequence
+107:07 only getting my point so the job
+107:10 opportunity is good with respect to the
+107:12 AI and every company uh everyone's
+107:14 trying to automate the each and every
+107:17 kind of application right in every
+107:19 domain so definitely you should learn
+107:21 this G aent at least you should keep
+107:24 this skill with you uh whether you are
+107:26 going to make a transition or not
+107:29 doesn't matter but do the learn this
+107:32 skill okay so if you learn after two
+107:34 year one year until it's going to fade
+107:36 right so start it from today and keep it
+107:39 with you at least so if any opportunity
+107:41 is coming to you you can grab it so
+107:44 which model would be the best model for
+107:46 Real Time spee to speech language
+107:48 translation spech to speech language
+107:50 translation we have to check rash you
+107:53 can check with the huging face itself
+107:55 and just uh like do some research on
+107:58 your own basis okay you will get that
+108:00 just look to the parameters and always
+108:03 the best way to look into the parameter
+108:05 is research paper go with the research
+108:07 paper try to check on which uh like
+108:09 parameter uh they have created a
+108:12 benchmark of result okay and then the
+108:15 other model is able to make the same
+108:17 result or not whether it is like good or
+108:20 bad okay so likewise you can compare the
+108:23 and you can make your decision so I'm
+108:25 trying to B tools for a open getting a
+108:28 open not having tool
+108:30 pleas in updated version it is having B
+108:33 Kumar so just look into the updated
+108:36 version I was also saying the same issue
+108:38 I remember so I just updated a version
+108:40 use python 3.10 or more than that and
+108:43 use the updated version of the a okay
+108:47 you will be able to B the two it is
+108:50 already available over the stack
+108:51 Overflow and all you will get the Sol
+108:53 over there itself so fine guys I think I
+108:56 answered each and every question now
+108:58 let's connect next week my aim to take
+109:02 two session every week okay so two
+109:05 session I took last week two session
+109:06 this week now Friday no session Saturday
+109:08 Sunday no session and I will take next
+109:12 session on Tuesday okay so thank you
+109:14 bye-bye take care guys have a great day
+109:16 thank you I'll will meet you in the next
+109:17 session

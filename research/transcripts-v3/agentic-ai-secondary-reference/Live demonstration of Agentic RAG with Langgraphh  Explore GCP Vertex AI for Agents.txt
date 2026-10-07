@@ -1,0 +1,3528 @@
+00:37 hello everyone uh one minute yeah I
+00:40 think it's all good me just a little bit
+00:44 just adjust the camera a little uh hello
+00:47 everyone so I hope you all are able to
+00:49 hear me can I just get a quick
+00:51 confirmation if everything is
+00:56 fine in the chat if someone can help me
+00:58 confirm if I'm Audible
+01:13 properly so are you able to hear me
+01:16 everyone can I get a quick yes I hope
+01:19 I'm Audible and visible
+01:27 properly great uh thanks a lot Michael
+01:30 and
+01:31 like sh drop for the
+01:33 confirmation so just give me a minute
+01:35 let us start in a minute okay I see the
+01:39 people are still joining and yeah now is
+01:41 coming where is Chris so dinosaur Chris
+01:44 was outside with some work so hopefully
+01:47 he will be able to join uh there was
+01:50 some uh like work which he had to cater
+01:52 to so
+01:54 yes but uh hopefully you are in pretty
+01:58 good hands so don't have to worry on
+01:59 anything
+02:08 great so cool everyone so today we are
+02:13 going to cover couple of things right
+02:17 this is all in line with the batch which
+02:19 we are going to bring the batch is going
+02:21 to start on 25th of January right uh
+02:25 just give me a minute let me get the
+02:26 link for the batch so that we are able
+02:29 to
+02:31 quickly I can just uh run you through
+02:33 everything so just give me a
+02:37 minute yeah I'm sharing my screen
+02:40 everyone so let me know if you're able
+02:42 to see
+02:55 it so it should pop up now
+03:00 share screen
+03:02 window SC and Screen one yeah cool uh so
+03:07 meanwhile I will also help you with that
+03:10 with all the doubts I think okay Chris
+03:12 is also there so hello Chris sir hello
+03:16 everyone I hope everybody is doing
+03:19 fine everybody is
+03:21 joined uh yes sir I think people are
+03:23 still joining the count is still
+03:24 increasing but yes we are able to see
+03:26 the
+03:28 audience okay
+03:35 yeah please do let me know if you able
+03:37 to see us he us
+03:46 everyone uh do we have any course
+03:48 available to learn gen for data
+03:50 Engineers see gen is completely
+03:52 different when compared to data
+03:53 engineering work okay so I think uh you
+03:58 know there is no such exact
+04:05 correlation yeah so as a quick
+04:07 announcement I think mik uh you can do
+04:10 that announcement I'll just wait for all
+04:12 the people to
+04:13 join oh yes sir I was just through
+04:25 them I think the internet is not that
+04:27 good
+04:28 now uh sir your end I think you're
+04:31 asking your video is coming out to be a
+04:34 little yeah let me stop I think voice is
+04:38 clear right yeah yeah voice is clear
+04:40 voice is fine so
+04:45 okay is sunny
+04:47 joining uh yes he will be joining in a
+04:49 couple of minutes uh connected with him
+05:01 so I think sir I can start or is there
+05:03 anything which you would like to no no
+05:05 you can you can start yeah so great
+05:09 everyone uh I think the audience has now
+05:11 joined so today's session we are going
+05:13 to cover multiple things the first I'm
+05:16 going to walk you through the Google
+05:18 cloud cloud platform and we are going to
+05:21 talk and see about the vertex AI how the
+05:23 same is very much helpful in doing poc's
+05:26 and making your gen models and then also
+05:29 we will see about uh agentic a that how
+05:31 Google Cloud on the cloud we can
+05:33 basically have different options through
+05:36 which we can create our agentic AI
+05:38 models after that we will be having a
+05:41 proper walk through and a projects in
+05:43 which we will create a agent AI with the
+05:45 Lang graph so these are the two things
+05:47 which we are going to discuss now before
+05:49 that uh we want to just quickly announce
+05:52 we are building like coming up with a
+05:53 very great uh boot camp so it's live
+05:56 agentic AI with Gen AI application with
+05:59 cloud okay so all the details are here I
+06:03 have actually shared the link as well
+06:06 each and every one of you can get the
+06:07 link in the chat and also you will see
+06:10 that in the bottom there will be a
+06:12 number on which you can call so uh let
+06:15 me just quickly give you an overview of
+06:17 this batch so this batch is starting
+06:19 from Jan
+06:20 25th that is I think around uh now 15
+06:23 days we have right classes are going to
+06:26 be live so they are going to be from 3:
+06:28 to 6:00 p.m. and duration is going to be
+06:31 4 to 5 months so this batch is complete
+06:34 end to endend and is very good for
+06:36 anyone who is trying to get into the
+06:39 genetic AI so we are going to start with
+06:42 Gen okay then we are going to learn
+06:45 about it on the cloud we are going to
+06:47 make sure that each and everything we
+06:48 are able to tell you teach you all the
+06:50 different different Frameworks which are
+06:52 used and as the very hot topic that is
+06:56 Agent AI which is now taking over
+06:58 everything on the internet
+07:00 how all the companies are talking about
+07:02 agent AI how you can create one how
+07:05 different different new Frameworks like
+07:07 f data and everything which is coming
+07:09 how we can use that those all things are
+07:11 also the part of this particular boot
+07:13 camp so you can see all the information
+07:15 in this comprehensive boot camp we are
+07:16 going to create agentic AI application
+07:19 with new Frameworks like Lang flow P
+07:21 data crew AI Lang graph and autogen then
+07:25 we are going to guide you through
+07:26 multiple endtoend projects to build
+07:28 robust AI applications right
+07:30 additionally of course gen which is a
+07:32 very very important part which is
+07:34 something which now I believe everyone
+07:36 should know those all things we are also
+07:37 going to cover especially on the cloud
+07:40 right because I personally believe that
+07:42 it is very important to learn on the
+07:44 production environment right not making
+07:45 on your local because now even the
+07:48 smallest of the startup they are moving
+07:50 towards these cloud and they have lots
+07:52 of offerings right so the detail cabus
+07:55 is here I can share this link with all
+07:57 of you as well you can go through that
+07:59 right
+08:02 then uh if we talk about some other
+08:04 points so dashboard access will be for
+08:05 one year uh now again if I be really
+08:08 honest one year is more than enough okay
+08:10 uh the way these things are changing and
+08:13 normally as well I believe that the
+08:15 lower this time is the better is your
+08:17 probability of doing this I think all of
+08:19 you would have U more than batches like
+08:22 more than classes or some uh course
+08:25 which you have to do which will be with
+08:26 some excess and you will never be able
+08:28 to do it right so with that this is the
+08:30 feature then Community chat Forum so of
+08:32 course when you learn I think Community
+08:35 is very important uh I'm taking another
+08:37 batch on Big Data where we are having
+08:39 those doubts answered everyone is able
+08:41 to get to know each other they are able
+08:43 to face or discuss that okay what issues
+08:46 they are facing so for that we have a
+08:48 very simple interface in place then live
+08:50 doubt clearing after the session so
+08:52 again uh anytime we will be teaching you
+08:54 anything this batch will be uh taught by
+08:56 multiple mentors based on their
+08:58 expertise so Chris sir me me sunny and
+09:00 Paul we all will be taking this batch
+09:03 then of course in between we will have
+09:04 hackathons with rewards then job
+09:07 referals if you are able to find any
+09:08 like and today I think many companies
+09:10 are looking for this resume discussion
+09:12 and mock interviews right so all these
+09:14 things we will be discussing right and
+09:16 now let me go through the uh all the
+09:20 cabus basically before that let me just
+09:22 see that 4.5 is too high sir uh dinosaur
+09:25 believe me it is very very uh reasonable
+09:29 price coning that how we will be
+09:31 teaching it for four five uh four five
+09:33 months okay and each and everything okay
+09:37 I believe uh it's like 1,000 per month
+09:40 it's coming out to be believe it's very
+09:42 cheap and very affordable if you ask me
+09:46 right so yeah let me just see Kel issues
+09:49 not really sure uh of on the price if
+09:52 people are saying that believe me like
+09:54 I'm being real honest here okay you must
+09:56 all of you must be spending more than a
+09:58 thousand easily on things which are not
+09:59 adding anything to your future okay like
+10:02 even honestly if you ask me this is way
+10:04 more affordable like any batch which you
+10:05 can find and considering the quality
+10:08 which you are going to get and once we
+10:09 go to the slavers you will understand
+10:11 that okay why this makes sense so
+10:13 honestly uh I don't think that price
+10:15 wise it should be a problem then I think
+10:18 all of you have lifetime validity pral
+10:20 again uh see there's a problem with the
+10:23 lifetime validity and I will be real
+10:24 honest here uh someone who have learned
+10:26 all these things myself and also have
+10:29 worked in the industry
+10:30 okay it's not going to be that much
+10:32 helpful if you even get the
+10:34 lifetime lifetime validity if the way
+10:38 things are changing in today's AI World
+10:41 it will be a lot better if you quickly
+10:43 learn these things get into the job
+10:45 market and learn on the job get on the
+10:47 professional experience you can have
+10:49 these videos for the lifetime and you
+10:50 are never going to see that I can be
+10:52 assure I can assure you of that
+10:55 okay uh I have enrolled for the B
+10:57 starting 25th and I have completed the
+10:59 prerequisite okay I have seen somewhere
+11:00 that we will have access to other 1K
+11:02 videos of you where are these uh
+11:04 Prashant what 1K videos you are
+11:06 expecting that can be tell uh validity
+11:09 gr is saying that it has been extended
+11:11 to one and a half years so I think that
+11:12 should make many people happy price wise
+11:15 I am pretty sure so I'm not going to go
+11:17 on that
+11:19 okay uh shadra it is not a subscription
+11:23 type it is like we are just saying that
+11:25 it is one and one like it is coming out
+11:28 to be 1,000 per year okay so not like it
+11:31 is going to be like that right it's
+11:34 actually like you will have to purchase
+11:36 the full course and for five four five
+11:38 months whatever it is it is average
+11:40 coming out to it is not like it is a
+11:41 subscription Bas that pay for a month
+11:43 and take no it is not like that and that
+11:45 will be even very bad okay so yeah for
+11:49 professionals working professional
+11:50 should be lifetime exess like ion again
+11:53 gandra uh as I'm being honest here if it
+11:55 even if it is a lifetime exess you will
+11:57 not be able to do that okay we are going
+11:59 to provide you all the recordings and
+12:00 everything and I personally believe that
+12:02 it's better to learn quickly and move
+12:04 forward than to have the resources with
+12:06 you safe and you can create your notes
+12:08 and everything right who who is topping
+12:09 you to learn those things and keep those
+12:10 notes for life like even I I have my
+12:13 notes and everything for things which I
+12:15 learned 10 years
+12:17 back cool uh I think we have already
+12:19 intro uh like increased this to one and
+12:22 a half years okay so if I can write it
+12:24 down here
+12:26 everyone one and a half years that I
+12:29 believe is more than enough right so
+12:31 that should be fine okay uh great
+12:34 everyone so let us go and see on that uh
+12:37 before I begin uh I'm going to also show
+12:40 you today about the vertex
+12:42 AI okay so vertex AI if I go here I have
+12:47 logged into this uh basically so if I go
+12:50 on Console you will see my gcp account
+12:52 here uh just going to walk you through
+12:55 verx AI makes sense of many things which
+12:57 we will see there right and
+13:00 for that actually you can see a video as
+13:02 well so let me share the link of the
+13:04 video which all of you can see actually
+13:07 let me quickly share my channel so just
+13:08 go to my channel there you will see the
+13:10 video it's the latest video where you
+13:12 can see how to create a trial account on
+13:15 gcp again not required for today but
+13:17 again I believe it is very important to
+13:19 understand and know the same now let's
+13:21 come to the cabus everyone before uh
+13:24 yeah so it's I think on time let me
+13:26 quickly see the doubts again uh Yi uh
+13:29 what you you can do is you can reach out
+13:30 to this number which is on the bottom uh
+13:32 just reach out to this number on uh like
+13:35 via WhatsApp as well and we will be able
+13:38 to help you with what all is there for
+13:40 the students who are outside India as
+13:41 well okay uh it will be very
+13:44 straightforward we I don't think like it
+13:46 will be mostly direct only right should
+13:48 be
+13:49 fine uh this out I would like to take uh
+13:52 sir I'm planning to register but don't
+13:53 have a GPU based laptop will I face any
+13:55 issues Aditya no so from the learning
+13:57 side we will make sure that most of the
+13:59 things uh which is heavy we are doing on
+14:02 some cloud-based platform which can
+14:04 easily which like through which Hardware
+14:06 is not an issue
+14:08 okay so cool uh let us begin then
+14:11 everyone this is the basic about the
+14:13 course I am again sharing this
+14:14 particular link with all of you so you
+14:18 can go through the
+14:20 cabus now first learning objectives very
+14:23 important build a solid understanding of
+14:25 NLP techniques and their application in
+14:27 AI systems implement optim NLP models
+14:30 like class text classification sentiment
+14:32 and name entity recognization ner using
+14:35 Library like Spacey and hugging phas
+14:36 these are I think the very Basics thing
+14:39 uh explore gen techniques including
+14:40 Transformers and language models again
+14:42 these are the prerequisites in a way for
+14:44 getting into the generative AI uh
+14:47 develop agentic system by learning
+14:49 multi-agent collaboration this I think
+14:50 is the major highlight we will see that
+14:54 how we can create these agentic systems
+14:57 okay how make we can make sure that we
+14:59 have multi-agents collaboration how they
+15:01 can make decisions based on the
+15:02 framework which are available to us then
+15:05 uh Master rag again very very important
+15:07 if we are making any AI system it should
+15:10 have a good source which it can refer to
+15:12 through which we are making sure that it
+15:14 has all the information as needed
+15:16 state-of-the-art framework like Lang
+15:18 chain L flow uh getting used in the
+15:20 companies I personally have also used
+15:22 the same thing uh in a proper startup
+15:25 okay a unicorn startup they we were
+15:27 using Lang chain there so all all these
+15:29 things become very important if you are
+15:31 planning to now enter into the industry
+15:33 right build and deploy controvers sorry
+15:36 conversational agents and chatbot using
+15:38 these langra Lang flow this deploy is
+15:40 again very important there so we will
+15:42 make sure that along again with blinking
+15:46 okay we are making sure that each and
+15:49 everything is getting deployed via the
+15:51 internet via the all the cloud things
+15:54 and everything understand and apply
+15:56 observability techniques for monitoring
+15:58 llms and agenting system leveraging
+15:60 tools like Lang fuse and Lang watch so
+16:02 major tools we are going to cover here
+16:04 okay uh this is the prerequisits
+16:06 everyone so python again very important
+16:09 we will be doing each and everything in
+16:10 Python right NLP and J okay so knowledge
+16:14 of python deep learning framework like
+16:15 tlow pytorch and J models like transform
+16:18 transformers scan V along with data
+16:21 manipulation skills using numai and
+16:22 pandas these I think are very much
+16:24 prerequisite so anyone who is planning
+16:26 to start a career in J you must have
+16:29 done done all these things in Python
+16:30 then using pandas for data manipulation
+16:33 NLP of course nltk Spacey I think these
+16:35 are all the things which were in the
+16:37 high five years back so if you have not
+16:39 done that please make sure that you
+16:42 are taking your time and doing all these
+16:45 things before the course starts
+16:48 okay so let me quickly see the doubts
+16:51 before we move forward uh this is the
+16:53 estimated time and
+16:54 everything arpit cloud services uh we
+16:57 will start with the free trial okay but
+16:59 uh again if you have already done that I
+17:02 would expect that you will be taking
+17:04 your you will either be creating this
+17:07 account again and some cost might be
+17:09 incurred but we will try to keep that uh
+17:11 minimum
+17:13 okay so I hope you won't be talking too
+17:16 fast Shad I think people are able to
+17:19 understand so that should be fine okay
+17:20 there is no right speed will you teach
+17:22 how to create in application during
+17:24 learning should we have to pay for cloud
+17:26 Vishnu again uh we will try we will be
+17:28 teaching you that via the projects and
+17:31 for the cloud majority of us will try
+17:33 that again if you see to today as well
+17:35 I'm using a free trial only so I have a
+17:37 pay account as well but we are trying
+17:39 that each and everything all the
+17:41 projects we are able to do on the free
+17:43 trial so that you don't have to incur
+17:45 any extra cost
+17:50 right then cloud services I have already
+17:52 told would we get all study materials
+17:54 PDF and more yes of course ad so you
+17:57 will be getting those things uh all the
+17:59 notes which we will create so normally
+18:01 we I teach by creating the notes okay so
+18:04 something like this I will be creating
+18:06 handr notes and along with that all the
+18:08 PDFs and everything you will be getting
+18:09 all the things right so one minute let
+18:12 me just okay I think this will work cool
+18:15 don't fall for trap guys Krishna gemi
+18:17 courses are the best resource uh abishek
+18:19 again uh we are the people who create
+18:21 those resources and courses right so how
+18:24 is this a trap uh I'm not sure what you
+18:27 mean by this uh but like I a course with
+18:29 Chris sir on DSA we are bringing in more
+18:32 courses uh and everything so again the
+18:36 energy the level of Doubt resolve the
+18:40 level of comfortability I personally
+18:43 have and students have in life class the
+18:45 learning overall exposure I think that
+18:47 is unmatched and of course never be on
+18:49 udmi or any platform so again not a trap
+18:53 we are the one who are creating it with
+18:54 Chris sir so not really sure what you
+18:56 mean by that okay
+19:00 why are you not providing any
+19:01 certification what is the notification
+19:03 that we have completed the course tumil
+19:04 your knowledge is the biggest uh thing I
+19:07 will ask once I think uh certification
+19:10 honestly I never uh run behind any
+19:11 certification you will not even see that
+19:14 on uh any of my LinkedIn or anywhere the
+19:17 basic idea is that you will have
+19:18 knowledge I will just discuss on the
+19:20 certification uh we can create and
+19:21 provide you one so that you are sure
+19:23 that okay we have that but yes majorly I
+19:25 think in the platform we are uh keeping
+19:29 that yes certification more than
+19:30 certification RM is to make sure that
+19:32 you have the skills required
+19:35 okay cool cool cool
+19:39 uh again everyone see uh one thing you
+19:41 all have to understand okay like I'm not
+19:43 really sure uh what is the major
+19:46 expectation of the people here in case
+19:48 some cloud service is not there then of
+19:50 course you will have to pay a little bit
+19:52 for that but we are making sure that
+19:54 that is not uh very much we will be
+19:56 taking in the best practices now
+19:59 if we are teaching you and if you want
+20:02 that you have the best production level
+20:04 exposure you are actually using and
+20:06 learning things the way they are done in
+20:08 the company then for sure somewhere you
+20:11 might have to spend if you have your
+20:12 trial over it's it cannot be like that
+20:15 if you want to use cloud as well and you
+20:16 don't want to pay for it of course as I
+20:18 said we will be using the cloud trial
+20:20 and everything but not I'm not really
+20:23 understanding that why there is a
+20:24 reservation about this okay we have
+20:27 already kept the price which is very
+20:28 Comm competitive we are making sure that
+20:30 everything is on the cloud we are making
+20:33 sure that you get the best experience so
+20:35 for that like again no one can provide
+20:38 you Google Amazon or Microsoft cloud for
+20:41 free right I hope you understand that uh
+20:43 as I said please have the free trial and
+20:45 we will try that each and everything
+20:47 happens during that only okay so
+20:51 yeah uh these are all the instructors so
+20:54 mayang Agarwal Krish Nayak s Savita
+20:57 sangu Paul you can see the link Linkin
+20:59 as well okay so I will share my LinkedIn
+21:01 so for people who are interested to go
+21:04 that one
+21:07 minute and just give you a basic idea so
+21:09 I have previously worked at Goldman
+21:11 Sachs I am a graduate of nsit Delhi I
+21:13 have worked at companies like Goldman
+21:15 saxs uh oo rooms M tickle okay uh my I
+21:19 have research experience in your machine
+21:21 learning deep learning and a very good
+21:23 software and uh machine learning
+21:25 experience okay so you can just see my
+21:26 uh LinkedIn for all of these things
+21:29 now well uh I think the doubts are there
+21:32 and let me quickly see I would rather
+21:34 pay for recorded in Focus videos than
+21:35 live batches uh should be fine again
+21:37 coding Chronicles that is your uh things
+21:40 okay uh one thing more everyone so you
+21:42 will be getting the recorded videos so
+21:45 for all the classes which we are going
+21:46 to take you are going to get the
+21:48 recorded videos in the dashboard uh the
+21:50 one and a half years of dashboard access
+21:52 that will have each and everything uh
+21:54 the resources which we are using while
+21:56 teaching all the recorded content that
+21:58 will be again accessible for 1 and a
+22:00 half years
+22:03 okay cool uh let me quickly now go
+22:06 through the cabus uh the very first
+22:08 thing introduction to Agent K explore
+22:10 the fundamentals of Agent K that okay
+22:12 exactly what it is what exactly is an
+22:14 agent why is it on on I would say all
+22:17 the hype today right you can see the
+22:19 topics here agent and all its Frameworks
+22:22 then next F data very important very
+22:25 great framework I would say for using
+22:27 the same you can just check it out as
+22:28 well well so if you go on Google F data
+22:31 again we have make sure oh my
+22:34 bad agent
+22:37 AI okay so we have made sure that we are
+22:40 using the Frameworks which are used a
+22:43 lot in the industries so we have also
+22:45 talk to many people in the industry that
+22:46 okay what are the things which are they
+22:48 are getting used or which are getting
+22:50 all the hype or they are getting uh I
+22:53 would say something which are getting ex
+22:55 uh in a way taken in the industry right
+22:58 which industry is adopting so here you
+23:01 can see this F data right let me go
+23:05 forward then uh Lang chair of course uh
+23:07 Lang chain I think many of you will be
+23:09 knowing Lang chain framework that
+23:10 simplifies the creation of your AI
+23:12 applications okay so that you can
+23:14 connect to multiple AI operation based
+23:16 on your uh need you don't have to write
+23:18 or basically make your code a lot
+23:20 complex then LC Lang chain expression
+23:23 language then so I'm just going to the
+23:25 headings you can of course download it
+23:27 and go through that Langer for efficient
+23:29 AI deployment then langra okay
+23:33 so then you have the ux and human in the
+23:35 loop with langra after that we can go
+23:37 forward agentic rag okay because I'm
+23:40 just going through that so that we can
+23:41 start with the project which we have for
+23:43 today okay instead of just uh spending
+23:45 time on this uh if you have any doubts
+23:48 specifically just let me know and I will
+23:49 ask that once I go through it then
+23:51 designing multi-agent system with langra
+23:53 again very very important topic okay how
+23:55 multi- agents will interact with each
+23:57 other how they will doing the work how
+23:59 you can make sure that they are able to
+24:01 give you the output which makes
+24:03 sense uh Q AI platform again very very
+24:07 important it's a solution for creating
+24:09 and managing your AI teams or agent okay
+24:11 then langlow overview and setup uh so
+24:14 again we will be helping to make sure
+24:16 that each and everything you're able to
+24:17 set up starting from the scratch and
+24:20 making sure that you are able to make
+24:23 all those projects which we are doing
+24:25 okay so all we need from you is your
+24:27 proper dedication and making sure that
+24:29 you are able to uh learn everything from
+24:31 us right then Lang flow uh overview and
+24:34 setup so let us move forward integration
+24:36 with thirdparty tools so data
+24:37 integration API integration and workflow
+24:40 automation so once you have made your
+24:42 agents of course it makes sense that
+24:44 they will be interacting with multiple
+24:46 uh thirdparty tools so how you can do
+24:48 that how you can make sure that uh they
+24:50 are able to interact with the data
+24:51 sources in the DBS in the company how
+24:54 they can uh interact with the rest apis
+24:56 how they can connect with the systems
+24:58 which are out side so this again is
+25:00 somewhere of a software development work
+25:02 but yes we will be making sure that we
+25:04 are able to teach you all this uh in a
+25:07 way it is directly you are directly
+25:09 industry ready you can go and learn
+25:11 about these things and then Implement
+25:14 them whenever you join any job okay so
+25:17 Lang fuse again for llm observability
+25:19 let us move forward Matrix and
+25:21 monitoring Lang watch again very
+25:22 important so once you have created all
+25:24 these things what exactly is going to
+25:28 happen after that right so how will you
+25:30 be monitoring each and everything so all
+25:32 these things we are going to do then
+25:34 lsmith okay enhancing your testing AI
+25:37 models so all this thing then uh autogen
+25:40 so automated system for generating AI
+25:42 modules you can see all these topics
+25:44 here then I think this is repeated yeah
+25:48 so this is the fourth one deployment and
+25:49 monitoring autogen then end to end agent
+25:52 project so Project based learning we
+25:54 will update the projects so we are right
+25:56 now discussing with the industry expert
+25:59 and also we are trying to create very
+26:01 awesome projects which are
+26:02 state-ofthe-art and able to help you in
+26:05 making sure that when you add those
+26:08 projects to your CV you are able to
+26:10 properly explain their use cases okay so
+26:12 we are not uh taking just the project so
+26:15 you quickly apply and you are all happy
+26:17 that okay I learned and I applied it no
+26:19 we are trying to build projects on the
+26:21 cloud with proper understanding so that
+26:24 they enhance your CVS overall okay
+26:29 uh then AWS cloud and services for Gen
+26:31 so we will be covering each and
+26:32 everything as you can see introduction
+26:34 to AWS Cloud compute and container
+26:36 Resource Services uh Bedrock okay so
+26:39 Foundation models how you can make your
+26:41 models there then we have the sage maker
+26:44 so Sage maker again is a very good
+26:45 Technologies it can be used for your
+26:47 machine learning to your AI use cases
+26:49 now you can learn about these
+26:50 Technologies you can see what all topics
+26:52 are there uh AWS Lambda for your uh
+26:55 serverless Computing of course okay very
+26:57 important technique in the world of
+26:59 software development very important to
+27:01 know as well
+27:03 right okay A little tired just let me
+27:05 take a second of
+27:07 break cool AWS API Gateway okay so again
+27:11 uh how you will be then finally uh
+27:13 creating those restful apis the web
+27:15 sockets apis efficient deployment of API
+27:18 all these things we will be doing uh
+27:20 text summarization with AWS Services AWS
+27:23 Lambda bedrock and API Gateway okay fine
+27:26 tuning Foundation models on custom data
+27:28 so yes uh there are many Foundation
+27:30 models which we can use but uh the
+27:33 problem which happens which have been
+27:35 there since the ml days is how to fine
+27:38 tune the same for your own uh use case
+27:41 right so of course uh for that only we
+27:44 have uh the fine tuning of these models
+27:47 earlier we used to do that for ML models
+27:49 or deep learning models now again gen
+27:51 models we need the same
+27:53 thing then we will be doing a project in
+27:55 AWS uh then your GCB Basics and
+27:58 introduction to vertex a so little bit
+27:59 I'm going to cover today as well okay
+28:01 just 10 15 minutes so you get an idea
+28:03 gin models with vertex Ai and Google AI
+28:06 Studio then we will be doing some
+28:08 projects on gcp as well okay so yeah I
+28:11 think this is uh all the things which
+28:15 this is a lot comprehensive again as I
+28:17 said we sat down for fs and make sure
+28:20 that we are covering each and everything
+28:22 here right so this is all the code
+28:25 structure everyone
+28:28 then I'm adding
+28:33 it great so till now pretty sure that
+28:37 you must have gotten an idea if I went a
+28:39 little fast uh then again this is just
+28:41 something which you can access and I
+28:43 just wanted to make sure I give you an
+28:44 idea that what all is there if I went
+28:46 down into each and everything in depth
+28:48 it will be a session of four hours
+28:50 onwards right and we want to build thing
+28:52 here as we have G cool so yes of course
+28:55 ultimate we will be deploying in real
+28:57 time for sure yeah
+29:01 okay to all it is very tough to find job
+29:04 in data science domain as a fresher any
+29:05 tips for that uh L let me know if
+29:08 everyone else is able to answer then I
+29:09 will share My Views Okay cool so yeah
+29:12 everyone uh let us now begin uh I'm
+29:14 going to just show you a little bit
+29:16 about uh vertex AI uh this is the Google
+29:19 Cloud uh overall platform uh you can see
+29:22 I'm on trial as well I'm just trying out
+29:24 few things uh some of the credits I'm
+29:26 able to use we get uh 3
+29:29 USD credits okay for people who have
+29:32 never who don't have any idea about gcp
+29:35 uh I have created a video on my channel
+29:36 so feel free to go there it is the
+29:39 latest video which is uploaded which
+29:40 tells you how to create an account uh
+29:43 for Indian folks it is very awesome you
+29:45 can just create the same using a UPI
+29:48 right so again we have three four upis
+29:51 account or at least two UPI account we
+29:52 have so I think you are covered for six
+29:54 months right then uh this is all the
+29:58 things so it will be used for a lot of
+30:00 uh it can of course it's a cloud service
+30:02 it can be used for many things I am also
+30:05 teaching another course on Big Data
+30:06 where we are using the same and we are
+30:09 creating the server on the data proc
+30:10 Lister but for today we are going to use
+30:14 vexi
+30:16 okay so let Vex AI load and this is the
+30:21 overall homepage of vertex
+30:24 AI now uh I actually took a stock at
+30:28 Google Mumbai Office where I showed that
+30:31 how we can create a generative AI
+30:33 application using vertex Ai and how we
+30:35 can have a rag in that as well now uh
+30:39 fex AI basically gives you a very good
+30:42 uh I would say platform on which you can
+30:44 test out multiple things okay so Arjun
+30:48 UPI I meant that you can create a Google
+30:51 gcp account now again if you are just uh
+30:53 waiting for this cast wait as of now
+30:55 don't create it you can see in the video
+30:57 I have shown the how using UPI only no
+30:60 credit card no debit card you can do the
+31:01 same and you are going to get 300
+31:03 credits
+31:05 Okay cool so yeah you see this everyone
+31:08 uh we have the modalities we have
+31:10 different different models
+31:12 here so for language again a lot of them
+31:14 Vision tabular document speech video
+31:19 multimodel audio so it gives you a
+31:22 platform through which you can test out
+31:24 the things work them out so let's say if
+31:26 I just see all these models and you're
+31:29 going to see many models here right so
+31:31 anthropic meta hugging face okay malli
+31:35 uh Gemini of course you will see
+31:37 everywhere because it's at the end of
+31:38 the day your uh this only Google only
+31:41 let me make it dark
+31:43 mode uh I think it works I hope dark
+31:46 mode is better
+31:48 everyone
+31:50 cool so in this again we can create
+31:53 different different pipelines as well uh
+31:55 I'm just giving you a basic idea here
+31:57 okay again I don't believe that you can
+31:59 learn all these things in a 30 minute
+32:01 session so I'm just giving you that okay
+32:03 how what all we will be covering what
+32:06 all we will be using so that you have an
+32:08 idea that okay yeah this is what you can
+32:10 expect from the course uh then my
+32:12 favorite thing somehow I love jupyter
+32:13 notebooks so you can create your uh
+32:16 different different jupyter notebook
+32:17 here in this only okay so in the cloud
+32:20 only uh this is just my workbench okay
+32:22 sry I clicked on
+32:23 workbench cab on the
+32:27 prise let load meanwhile uh let the
+32:30 doubts coming so you can create the
+32:31 notebook uh again this will give you
+32:34 each and everything we have different
+32:35 run times template executions import
+32:37 notebook from cloud storage from URLs
+32:40 you can create all each and everything
+32:42 which you want in the notebooks only let
+32:43 us create
+32:51 one okay so many people will be familiar
+32:55 hopefully with this it's a normal uh
+32:59 python notebook jupyter notebook
+33:03 right cool so yeah I think this is your
+33:07 then vertex Studio over one minute let
+33:10 me go here yeah so just some unsaved
+33:13 work which I'm taking and leaving so
+33:16 here uh you can also open free form so
+33:18 just like any day you create your Google
+33:20 account please go and try it out okay uh
+33:23 I will be changing this sub white it's
+33:25 not very easy to read cool uh okay I
+33:29 think something has messed up my bad Let
+33:33 me
+33:37 refresh cool everyone so now it's all
+33:39 white so you can see uh how we can have
+33:42 multiple models here so let's say if you
+33:43 have come up with some use case where
+33:45 you want to use gen how you can make
+33:48 sure that you can test out multiple
+33:49 models the third party models like
+33:51 Claude meta Lama right then your palm
+33:55 all these things see how easy is it in
+33:57 the playground
+33:58 you can uh like have the temperature
+34:01 controlled then output token limit all
+34:04 these things how the output format you
+34:05 can control okay so you can have
+34:07 different format here as well in the
+34:08 Json this gives you a very good uh
+34:11 overall exposure that how uh generative
+34:14 AI in the back end is working so that
+34:16 you can first test out all the things
+34:18 and then you are integrating that into
+34:20 your use cases right uh then again these
+34:22 are specific models for chat uh these
+34:24 will be for vision right here you can
+34:26 submit a text one to generate an image
+34:28 so an
+34:30 awesome gen
+34:32 Ai and agentic AI course image let us
+34:36 see
+34:37 this so
+34:40 see it will take a time I guess but I
+34:42 hope you able to get the idea that what
+34:44 vertex AI is enabling to you to do as a
+34:46 platform a very good graphical user
+34:49 interface on which you can try out
+34:50 multiple things right so see it has
+34:52 generated an image hopefully I can use
+34:55 this image as a thuman or something
+34:57 right
+34:59 a smart engineer
+35:02 teaching
+35:04 jna
+35:06 awesomely if awesomely is a word and
+35:09 agentic AI let's see let's play with
+35:16 it and uh one thing which I would like
+35:18 all of you to show in many places there
+35:20 are many times uh some restrictions on
+35:23 Google because it's a free test so yes U
+35:26 may I we will try that you don't have to
+35:28 that okay that all should be fine but
+35:30 yes uh that is something which you
+35:31 should always remember we are free trial
+35:33 so we will be limited in few things
+35:36 right uh okay I think it is not able to
+35:39 your
+35:40 current uh take should be fine like I
+35:42 have to just change some things that
+35:43 should be fine uh then yes uh
+35:45 translation you can just translate it
+35:47 okay so again different different models
+35:50 you can check that okay how they are
+35:52 performing speech uh prompt tuning then
+35:56 build with Gen extensions okay data
+35:58 model development and deployment as well
+36:01 so this again it is not just a
+36:03 playground where you test out things you
+36:05 can deploy and train your model as well
+36:08 I personally have used vertex AI for
+36:10 generative a use cases and also for uh
+36:13 machine learning models as well right in
+36:15 the industry only so I hope all of you
+36:18 are able to make a little bit sense that
+36:20 what exactly happened here again I don't
+36:22 want to bombard you with a lot of
+36:24 knowledge we already have a project for
+36:25 that but I wanted to show you that yes
+36:27 because for many people this might be
+36:29 the something which they seeing for the
+36:30 first time as well right so completely
+36:33 different uh Chad GP is not just the AI
+36:35 Chad GP or Cloud we have different
+36:37 different model Gardens and everything
+36:39 where we can test out things as well
+36:41 okay so cool everyone I think that was a
+36:44 little bit from my side uh now I think
+36:46 we can start with your project as well
+36:48 again uh I will meanwhile try to add
+36:50 your doubts uh in the chat okay uh you
+36:53 have my LinkedIn and YouTube so do
+36:55 follow me there also I will be like I
+36:58 think Sunny has also joined so we will
+36:59 have Sunny sir as well here so for uh
+37:03 account creation on Google I'm sharing
+37:05 the channel again you can just go there
+37:06 the latest video is it uh one thing more
+37:09 uh if you have any doubts anything
+37:12 related to the course or anything please
+37:14 the number is on the screen it is it
+37:16 must be like going like that in front of
+37:19 you you can either reach out to that
+37:21 number where the counseling team will
+37:23 understand your requirement and help you
+37:25 with that or else of course uh check out
+37:27 the
+37:28 course
+37:29 here so this has each and everything uh
+37:32 dashboard access has also been been
+37:34 increased to one and a half years uh for
+37:36 student who need it for Lifetime uh just
+37:38 let me know your real usage and reach
+37:40 out to me but I'm really being honest
+37:42 here when at half is half years is more
+37:44 than what you will need it okay and uh
+37:47 for the price side as well uh I think it
+37:50 is very reasonable so yeah should be
+37:52 good cool uh I think Sunny uh you are
+37:56 here can we
+37:58 hello
+38:00 Sunny Okay one minute let me
+38:06 see meanwhile ask your doubts everyone I
+38:08 hope you are able to make sense of what
+38:10 all I
+38:12 covered uh as a first year student data
+38:14 science J DSA data engineering data
+38:16 analyst please suggest any two please
+38:17 sir ultimate see as a first year student
+38:20 just first start with coding okay then
+38:23 get into this data science and machine
+38:25 learning okay first have your Basics
+38:27 clear it will take you months uh don't
+38:29 do DSA as of now then start generative
+38:32 AI okay and with par start with DSA okay
+38:36 I have a course on DSA as well on Udi
+38:38 you can check that out it's in Python
+38:39 only so I think that is more than enough
+38:41 don't uh data engineering please don't
+38:43 pick up as a first year student no one
+38:45 will be taking you as a first year
+38:47 student and ask you that hey please make
+38:50 the pipelines for us you will not be
+38:51 getting that on Azor it's missing Sanjay
+38:54 yes so we have I think covered two
+38:55 clouds uh again like there's a line
+39:02 in but yeah I will try that we can give
+39:05 you some recorded things on a but as of
+39:07 now we are focusing on AWS and gcp which
+39:10 is used a lot in the industry okay uh if
+39:14 I have to give an idea you should be
+39:16 aware that if you learn One Cloud very
+39:18 nicely it handles all the other
+39:20 requirements right that is what the way
+39:22 you should learn okay uh Sun we are not
+39:26 able to hear you if uh
+39:28 yeah now can you hear me man yes yes
+39:31 you're audible now hi okay so guys uh
+39:35 just give me a
+39:38 second and uh pquest uh I think you are
+39:41 asking active so it is there in here see
+39:44 this is the prerequisite okay see
+39:48 here okay sorry my screene is not
+39:50 getting shared so these are the
+39:52 prerequisite uh you can download this
+39:54 whole uh document and go through each
+39:56 and everything
+39:58 and Sanjay on your part uh I will try if
+40:01 we can add a recorded project or
+40:03 something but I think for the Tim being
+40:04 let us Focus majorly on these things and
+40:06 then we will move forward to Azor as
+40:08 well uh maybe towards the end we can
+40:10 take a extra class not committing it as
+40:12 of now we will see first explore if it
+40:14 is actually worth it and then we will do
+40:19 that is DSA necessary for J and data
+40:22 science Aman DSA is majorly necessary
+40:24 for cracking companies and DSA makes you
+40:26 a good coder that is what I feel but if
+40:28 I totally be honest uh for data science
+40:31 it will be helpful for jni just using
+40:34 the Frameworks uh not really you if you
+40:37 are good coder you should be
+40:39 fine how is this course different by gen
+40:43 course taught by sunny sunny is not
+40:45 teaching agentic Ai and things there
+40:47 plus not a lot of things on cloud I
+40:49 think Sunny only can answer
+40:52 that so s yes if you can answer this CL
+40:56 okay so yeah
+40:58 uh yeah good evening guys good evening
+40:60 to everyone now U let's start with one
+41:03 more project I think myang has already
+41:05 taught you one project and there are
+41:07 couple of questions so definitely I will
+41:10 try to answer I just got threee uh with
+41:13 my work so I thought like now I should
+41:15 have a session uh I should Fe something
+41:18 to all of you and uh let's try to create
+41:20 a project okay yeah M so I'm going to
+41:24 take care it now yeah yeah sure so yeah
+41:27 everyone
+41:28 will that actually is going to be cover
+41:30 some basic stuff and
+41:33 this this one agent basically it will uh
+41:37 cover up the basically this agent care
+41:40 related stuff okay so now without
+41:42 wasting a time let's uh build a project
+41:44 I think in the previous session we have
+41:46 built something if you have seen my
+41:47 previous session which which I took on
+41:49 Friday last Friday in this video what we
+41:52 are going to do in this particular live
+41:55 session we are going to build something
+41:56 uh new okay we'll try to create a agent
+41:59 based rack we give you some idea that
+42:01 how you can do that how you can build it
+42:04 okay so I'm sharing my screen and please
+42:06 do confirm if you can see
+42:08 then you can confirm inside
+42:11 the uh chat okay
+42:27 so is it visible to all of you guys tell
+42:32 me please do confirm in the chat if you
+42:36 can see my
+42:38 screen yes or
+42:45 no how many of you you attended my
+42:47 previous session which I took on this
+42:49 channel only uh please do confirm in the
+42:52 chat uh if you have attended my previous
+42:55 session there I have given you the
+42:56 introduction of the agents
+42:58 and uh you can see the complete PDF and
+43:00 the IP VV and all everything and I think
+43:02 I shared all this stuff all this uh
+43:06 material uh uh like in the GitHub okay
+43:09 so you can download this material from
+43:12 the GitHub of the previous session
+43:13 please check out with the channel you
+43:15 will get that session the first live
+43:17 session okay now it's time to learn
+43:19 something new so as I told you we are
+43:21 going to build uh something uh we are
+43:23 going to build a agent pi r okay and
+43:26 we'll see how it's going to work
+43:28 so uh guys have you attended that
+43:31 session tell me yes or no please give me
+43:32 a quick confirmation in the chat so that
+43:34 I can
+43:42 proceed if it will be required Amit uh
+43:45 the instructor will let you know okay
+43:47 don't
+43:50 worry please do let me know guys uh
+43:53 please uh mention inside the chat if you
+43:55 have seen my previous session uh then it
+43:57 would be great so what I'm going to do
+43:59 I'm going to create a new file inside
+44:01 the same folder okay so saying no sanj
+44:05 saying no uh G saying no okay so if you
+44:08 haven't seen that session please go and
+44:10 check that session first and then you
+44:12 will be able to understand in a better
+44:14 manner right so what I'm doing here I'm
+44:16 going to create a new file new IP file
+44:19 and my file name is going to be agentic
+44:22 rag okay now how many of you you know
+44:24 about the rag and how many of you you
+44:26 know about the agent tell me and this
+44:29 entire setup and all I think I explained
+44:31 you in my previous session that how you
+44:33 can do this entire code setup inside of
+44:35 vs code itself okay now it's time to uh
+44:40 like Implement something something new
+44:42 because I already discuss the basics uh
+44:45 like how this Lang graph is working
+44:47 because this implementation we are going
+44:49 to do using the Lang graph itself and I
+44:51 have given you the introduction of the
+44:53 Lang graph in my previous video only
+44:55 okay so let's do one thing let's try
+44:60 to is a complete course on YouTube it's
+45:02 a part of the paid course no it's a like
+45:04 just a freeze stuff okay just a free
+45:07 Deon demonstration of the projects and
+45:09 all how the thing is going to be work
+45:12 okay so so that you will get some sort
+45:13 of a familiarity right because over the
+45:16 YouTube like there are lots of video you
+45:18 will find out related to gen and all but
+45:21 very few people are uploading a video
+45:23 with respect to the code with respect to
+45:25 the like the project and FL
+45:28 right or the complete end to end code so
+45:31 my Moto just to give you this complete
+45:34 this this like some specific material uh
+45:37 over the YouTube itself so that at least
+45:39 you uh can get a familiarity right so
+45:42 familiar familiar with the agents
+45:44 Familiar of the V of how it is working
+45:47 the rag and all right so this is a like
+45:51 idea which I have in my mind so let's do
+45:54 one thing let's uh try to create
+45:56 something okay the uh the project name
+45:58 is going to be agentic rag I think you
+46:00 all know about the rag and I think you
+46:02 all know about the agents if you have
+46:03 attended my previous session so let's do
+46:06 one thing let's uh try to import some
+46:10 libraries over here okay and this is
+46:12 going to be a full flag solution it's
+46:15 not like this I'm going to be create a
+46:17 like basic and The Simple Solution okay
+46:19 like uh this Chris Channel sorry Chris
+46:22 sir actually used to create over the
+46:24 channel itself in a same way in a same
+46:26 manner actually I'm I'm going to do it
+46:28 over here so guys here what I'm going to
+46:30 do I'm going to import couple of
+46:32 statement and don't worry I will be like
+46:34 uh okay don't worry what I will be doing
+46:36 I'll be like explaining about this each
+46:38 and every import statement right so this
+46:41 is what is my import statement which I
+46:43 imported over here now what I can do I
+46:45 can run it and I can check whether it is
+46:47 working or not so yes it is working fine
+46:49 because I already created this
+46:51 environment this virtual environment and
+46:53 I install this re re. pxt let's say if
+46:57 this is first class in that case what
+46:58 you will do so you will go inside the
+46:60 live section okay of this Channel and
+47:02 just check out with the first session of
+47:04 it right this in the first session I
+47:06 already discussed about this require.
+47:08 dxt Lang graph and uh I already discuss
+47:11 about the setup and all everything now
+47:14 what we are going to do here so here
+47:16 guys we are going to import some library
+47:18 and then after importing this Library we
+47:21 require two things so the first is
+47:23 embeding model and the second is llm
+47:25 okay so here I'm going to load the open
+47:28 source embedding model and then I'm
+47:31 going to load the model from The Grog
+47:33 itself so how to load a model from the
+47:35 hugging pH how to load the model from
+47:37 The Grog okay so this thing I think I
+47:39 already discussed in my previous session
+47:42 see Grog wise I already shown you
+47:44 hugging face that particular key I
+47:46 haven't added over here so don't worry
+47:47 I'll be adding that key uh so that we
+47:50 can load the model okay so here what I'm
+47:53 writing I'm going to be write prom Lang
+47:55 chain okay prom Lang chain and uh from
+48:00 Lang chain a hugging
+48:02 phase okay from Lang chain hugging phas
+48:06 I'm going to be import what I'm going to
+48:08 be import guys I'm going to be import
+48:10 hugging phas embedding so this is my
+48:12 class name the specific class name or
+48:15 let me write it down over here and let
+48:16 me see whether I'm able to import it or
+48:19 not if it it will give me error
+48:21 definitely I'll be installing the
+48:23 particular package so here you can see
+48:25 it is telling to be langen h page is not
+48:28 there so what you have to do you have to
+48:29 be mentioned inside this require. txt
+48:32 this is specific requirement and as of
+48:35 now you can install it inside your
+48:37 current virtual environment okay so here
+48:40 I'm going to open my git bash and then
+48:42 I'm going to activate my environment so
+48:44 my environment name is what my
+48:46 environment name is V EnV okay here left
+48:49 hand side you can see now uh here what
+48:52 I'm doing I'm going to be write this V
+48:54 EnV which is available inside the
+48:55 current directory dot is represent to
+48:57 the current directory so my command is
+48:60 going to be Source activate Source
+49:02 activate and VMV so see guys this is my
+49:06 environment and now inside this
+49:07 particular environment I'm going to be
+49:09 install my library that is going to be
+49:11 Lin hugging face okay so I install this
+49:14 library and then I'll be able to load it
+49:16 and then I'm going to be like load my
+49:19 model so which model I'm going to be
+49:21 load guys so here you can see this is
+49:23 the model name model name is what all
+49:25 mini LM L6 V V2 okay so this is the open
+49:29 source model it's a part of the research
+49:31 okay I will show you the repository of
+49:32 this specific model okay you will find
+49:35 out a different different variant so
+49:36 here I'm going to be load this mid level
+49:38 variant okay and I'm going to be load
+49:41 inside this iding variable so I think it
+49:44 is done it is able to install this Lin
+49:46 hugging phas now after loading it sorry
+49:49 after installing it uh I will be able
+49:52 to uh import it okay so let's wait for a
+49:55 minute and then what I can do I can
+49:59 import it over here because previously
+50:01 it was giving me error and after
+50:03 installing in the current virtual
+50:05 environment simply I can import it so
+50:08 tell me guys are you following to me
+50:10 have you seen this tutorial based of
+50:13 langra tutorial previously if not don't
+50:15 worry I'll provide you this each and
+50:17 every line of code so that you can run
+50:19 inside your system as well okay I'll be
+50:22 updating this particular code um after
+50:24 loading the model and all and you can
+50:26 take it directly from the GitHub and you
+50:28 can write inside your file as well just
+50:31 give me a minute let me run it and then
+50:34 I will give it to you how to get open
+50:36 API key can you just show how to get it
+50:38 I'm not going to use openi API I'm going
+50:40 to use a dra API gr API is free okay if
+50:44 you will search over the Google gr API
+50:46 you will get that understood
+50:49 ju yeah I will be sharing the code SH
+50:53 okay so just just allow me a minute I
+50:54 will be sharing the codes okay sorry
+50:56 code so have one down build solution the
+50:59 semantic
+51:01 kernel okay is there any large language
+51:03 model which is level and it is
+51:05 lightweight there are so many model B
+51:08 okay we can discuss about it first of
+51:11 all let me load this model let me check
+51:13 whether everything is working fine or
+51:15 not so this is the embedding model now
+51:17 let me take one more model over here so
+51:20 this is going to be my main llm model
+51:23 which I'm going to use inside this
+51:25 application so from the left L chain L
+51:28 chain Grog okay I'm going to be import
+51:31 this chat Grog chat Grog okay now uh
+51:36 this is my chat Gro see it is saying
+51:38 Lang CH is not there I think spelling is
+51:40 not correct so let me write a correct
+51:42 spelling so I hope so guys this is
+51:44 working fine now let me run this as well
+51:47 and yes we are able to import this and
+51:50 here I'm going to R the embeding model
+51:52 after loading the embeding model I can
+51:53 load my uh llm also so I'm going to
+51:58 create a object of this chat Gro and
+52:00 here I'm passing the model so we have
+52:02 several model inside the grock API I
+52:04 think in the previous session itself I
+52:06 have shown you if you're not familiar
+52:07 with the Grog you can check out with my
+52:09 previous session and this thing I'm
+52:11 going to be keep inside the llm inside
+52:13 this particular variable and then if I
+52:15 want to check it that whether this is
+52:16 working fine or not so simply I can call
+52:19 this invoke method on top of this llm
+52:22 okay and here I can write any sort of a
+52:24 message just to check it out whether it
+52:25 is working fine or not so so here I'm
+52:27 writing hello hi
+52:30 hello how are you how are you so this is
+52:35 my simple message just to check whether
+52:37 my model is working fine or not so yes
+52:39 it is working fine and it is giving me
+52:41 answer okay so guys what we did uh we
+52:45 just loaded couple of pro couple of
+52:47 libraries and then we loaded the
+52:49 embedding model and here what I did I
+52:51 loaded this LL so till here everything
+52:55 is working uh till here everything is
+52:57 fine or not please do confirm in the
+52:59 chat and meanwhile I can give you this
+53:01 code so just a second what I'm doing
+53:03 here I'm going to add it hit add dot
+53:07 then let me commit it h commit CM i
+53:12 hyphone m code updated okay and then I
+53:17 can push it to the GitHub so get push
+53:19 origin M now what I'm doing guys I'm
+53:22 giving you the GitHub uh link so just
+53:25 give me a second I'm going to
+53:28 paste it inside the chat only so that
+53:31 you can take this particular code you
+53:33 can take this project and you can run
+53:35 inside your system as
+53:38 well um here here here is a
+53:42 repository okay I got a repository and I
+53:45 got updated code as well and now I'm
+53:48 giving you inside the chat so please do
+53:50 confirm if you got it then please do let
+53:53 me know inside the chat if you got it
+53:55 then uh I will proceed forther okay and
+53:59 by the time I'm going to update all the
+54:02 all the like code and all comments and
+54:05 all everything inside this repository
+54:07 okay so just keep it with you and you
+54:09 will get every code over here itself so
+54:12 tell
+54:14 me guys did you get it or
+54:18 not
+54:19 yes if you're going to confirm to me
+54:22 inside the chat then only I will proceed
+54:24 further okay
+54:27 please do confirm in the chat if you got
+54:29 it then I think 103 people are watching
+54:32 to me currently and uh I think three
+54:36 only three people have confirmed to me
+54:38 so guys please do let me know then only
+54:40 I will proceed great so we got LM we got
+54:44 an embedding now we have to build some
+54:46 architecture and let me do one thing let
+54:48 me show you the complete architecture
+54:50 that we are going to build over here
+54:52 okay so just a second
+54:57 this is the architecture let me take a
+54:59 snapshot of
+55:01 it wait guys so I'm going to take a
+55:04 snapshot and let me paste it over the
+55:07 Blackboard itself so here is my
+55:10 Blackboard and I think so it is visible
+55:13 to all of you please do confirm if it is
+55:16 visible receiv received okay great and
+55:19 this is also visible so see what we are
+55:22 going to do here so we are going to
+55:24 build an agent gra okay and and everyone
+55:27 knows about the
+55:29 rag rag is pretty simple thing right now
+55:34 what is the rag rag is nothing it's a
+55:35 retrievable argument generation how does
+55:37 it work tell me guys how this rag is
+55:39 work so ins the rag actually we have
+55:42 some data okay so inside the rag
+55:45 pipeline actually we always take some
+55:46 data so let's say this is my data now
+55:51 after taking this data what we do we
+55:53 always convert into the chunks okay
+55:57 chunks then what we do we convert this
+56:00 data into the edings so here I
+56:05 can write the
+56:08 embedding okay then we store this
+56:11 particular embedding inside the vector
+56:13 database okay so let's say we have a
+56:16 vector database and we are going to
+56:17 store all sort of embedding inside the
+56:19 vector
+56:20 database so uh we keep the edding then
+56:24 let's say any user is coming and user is
+56:27 asking any question okay to my llm so it
+56:31 don't go directly to the llm first is go
+56:33 go to this Vector database okay and here
+56:36 we perform the
+56:39 similarity
+56:41 search Okay similarity search based on
+56:45 this similarity search actually we uh
+56:47 take some relevant data relevant
+56:50 document okay and this relevant document
+56:53 actually we pass to where we pass to the
+56:55 LL okay so let's say this is my err line
+56:59 so here what we do we pass the query our
+57:02 initial query this user
+57:05 query okay then we pass what we pass the
+57:09 uh this relevant
+57:11 dot okay relevant doll and any sort of a
+57:15 prompt right so whatever prompt actually
+57:17 you want to be include over here you
+57:18 include that now we pass this entire
+57:21 thing to the llm and then based on that
+57:23 we are going to generate a response so
+57:25 this is what this is my CL classical rag
+57:28 pipeline okay if someone is going to ask
+57:30 you what is a classical rag pipeline so
+57:33 this is my classical rag pipel now what
+57:36 we do here see inside the agent graag
+57:39 actually we are going to use the
+57:41 capability of the
+57:42 llm okay we going to use the capability
+57:46 of the llm and we are going to decide
+57:48 some sort of a flow okay we are going to
+57:51 decide some sort of a flow now again I'm
+57:54 saying here see we are going to
+57:56 implement the same thing here as well
+57:59 okay we are going to implement the same
+58:01 thing here as well but we have some
+58:04 interpretation interpretation of the
+58:06 output okay and based on that basically
+58:08 we are going to decide the flow right
+58:11 and in the previous session itself I
+58:13 explain you what is the llm so llm are
+58:15 nothing it's a powerful AI assistant
+58:18 right so if we are saying what is the
+58:20 agents okay what is the agents agents
+58:23 are nothing it's a powerful AI assistant
+58:25 okay powerful
+58:27 llm why it is going to be a powerful
+58:29 because here we are going to do some
+58:31 sort of a reasoning based on the
+58:32 instruction okay so based on the given
+58:35 instruction our llm is able to think and
+58:37 then it become powerful okay it is able
+58:39 to make some decision uh on a co-pilot
+58:42 mode okay it's going to be a uh like
+58:45 it's going to be a co-pilot llm okay
+58:48 it's going to be an autonomous system
+58:50 now here if you will see so what we are
+58:52 going to implement inside this
+58:53 architecture so first we are going to be
+58:56 pass the input okay so once I will pass
+58:59 the input after passing the input guys
+59:01 here see we'll pass it to the AI
+59:03 assistant okay this AI assistant is
+59:06 nothing it's my llm model llm model this
+59:09 llm model along with what along with a
+59:12 tool okay now here what I will do so I
+59:15 will be passing this question to the AI
+59:17 assistant and then this AI assistant is
+59:19 going to be make a decision okay so
+59:22 inside the C assistant what I'm going to
+59:24 do I'm going to use one tool okay to
+59:27 this tool actually it's not going to
+59:28 this tool actually it's nothing it's a
+59:30 retrieval tool okay I'm going to use my
+59:32 retrieval as a tool getting my point so
+59:35 llm model along with what along with a
+59:37 tool and this tool actually it's nothing
+59:39 it's my retrieval tool so first I'm
+59:41 going to be create my Retriever and that
+59:43 I'm going to be appended as appended to
+59:44 the llm and based on the given input
+59:47 based on the given message this llm is
+59:48 going to make a decision where I have to
+59:50 go okay whether I have to like generate
+59:53 a final output means with a simple
+59:55 message or if any messages coming to
+59:57 with respect to that rack query okay I
+59:59 need to go through with that so here
+60:01 let's say I appended this tool to this
+60:03 llm and I'm passing any sort of a
+60:05 question now llm will take a decision
+60:07 okay so this is a r specific question so
+60:10 what it will do it will go to this
+60:11 retriever it will try to find out the
+60:13 relevant document okay over here and
+60:16 then what it is going to be do if this
+60:18 document actually it's a relevant
+60:20 document okay relevant document in that
+60:22 case it's going to be generated okay and
+60:25 then it will end the process but let's
+60:27 say this query okay and the generated
+60:29 document is not a relevant one not a
+60:31 relevant document in that case what it
+60:33 will do it will rewrite the query means
+60:35 it will analysis the given query okay it
+60:38 is regarding what and then it will give
+60:40 it to the AI assistant and AI assistant
+60:42 will generate a final output okay final
+60:45 output so this is going to be a complete
+60:47 flow I hope so guys this is clear to all
+60:49 of you tell me are you able to
+60:51 understand it or not this particular
+60:53 flow once we build it maybe you will get
+60:55 a clearcut idea
+60:57 okay so let's try to focus more on the
+60:59 building side and let's try to go ahead
+61:00 with this particular architecture so if
+61:02 you will look into this architecture I
+61:04 think most of the thing is clear but
+61:06 again uh what I will do I'll be like
+61:09 implementing step by step so uh let's
+61:12 take a reference of this architecture
+61:14 and let's try to create some functions
+61:16 over here so my first function is going
+61:19 to be a assistant okay so here let me
+61:23 create one function my function is going
+61:26 going to be what my function is going to
+61:27 be AI assistant AI
+61:32 assist okay now this AI assistant
+61:34 actually it will take an input and we'll
+61:36 pass the input in the form of what in
+61:38 the form of State okay so here is going
+61:41 to be my state and I will give the name
+61:43 I will give the type of this state what
+61:45 type of State actually I'm going to be
+61:46 pass okay each and everything I will try
+61:48 to explain you then we have one more
+61:50 function over here so node actually it's
+61:52 nothing node actually it's trying to
+61:54 represent this node actually it's trying
+61:56 to represent to the function okay so
+61:58 retriever rewriter generator these all
+61:60 are nothing these all are my function
+62:02 this is my node and ages ACC time to
+62:04 represent a relation okay so here I'm
+62:06 going to create one more function this
+62:08 function is going to be a retriever
+62:11 right so to this retriever also I'll be
+62:13 passing to the input and I will be
+62:15 passing the input in the form of State
+62:17 okay then I have one more function so if
+62:20 you will look into the function that the
+62:21 function is going to be a rewriter so
+62:24 here what I'll be doing I'll be writing
+62:26 WR in rewriter over here rewriter okay
+62:30 so rewriter and again I'll be passing
+62:32 the input in the form of state only
+62:35 understood and here we have let's one
+62:39 more node so the is what the node is
+62:42 generate so let me write one more
+62:44 function over here the function name is
+62:45 what generate okay R A and here I'll be
+62:49 passing the state state is here and then
+62:52 let me write the pass so I hope so guys
+62:55 this all the function is created to all
+62:56 of you we have four functions and now
+62:59 let's try to see whether we have another
+63:01 function or not no we don't have any
+63:02 another function now this function are
+63:05 nothing this function actually this
+63:06 function itself is called the nodes okay
+63:09 so first of all what we have to do we
+63:10 have to Define this function as a node
+63:13 okay then only we can make a
+63:14 connectivity in between so for defining
+63:17 this function as a node uh first of all
+63:19 we'll have to be create our workflow
+63:21 okay so let me create my workflow and if
+63:24 you don't know about this workflow and
+63:26 all you can look into my previous
+63:27 session there I already explained you
+63:28 from starting so here I'm going to be
+63:30 use my state ground this particular
+63:32 class okay and here I'll be passing this
+63:35 agent State what is this agent State why
+63:37 we are going to use it everything I will
+63:38 try to explain you so I'll be having my
+63:41 agent state so let me do one thing let
+63:43 me create one class and the class name
+63:46 is going to be a agent State okay I'm
+63:48 just going to be create a skeleton
+63:50 complete skeleton and then I'll be
+63:51 putting the code over there so my class
+63:54 name is going to be what my class name
+63:55 is going to be agent State and as of now
+63:57 I'm just keeping pass over here okay so
+63:59 this is just for the skeleton the
+64:01 complete skeleton which I'm trying to
+64:02 build over here okay then after creating
+64:06 a workflow right what I'll be doing I
+64:08 I'll be adding this function as a node
+64:11 Okay because I'm going to I'm going to
+64:12 implement the same architecture which I
+64:14 shown you over here this one so the my
+64:17 first node is going to be a AI assistant
+64:19 so here I'm going to write the function
+64:22 name add node and here I'm going to
+64:25 write okay my function name this is my
+64:28 function name so add node actually it's
+64:31 a method inside this workflow class and
+64:33 here I'm passing my function now I can
+64:35 give any customized name to this
+64:36 function okay so what I can do in the
+64:38 double code actually I can give any sort
+64:40 of a name so here I'm writing this is
+64:42 nothing this is my AI assistant okay
+64:45 assist understood guys now I will be
+64:48 adding the other node as well so let me
+64:50 do one thing let me add the other node
+64:54 over here okay so this is to be my note
+64:57 here you can see we have retriever we
+64:59 have
+64:60 rewriter okay and we have a generator
+65:02 generate so let me uh do one thing let
+65:06 me write the name over here this is
+65:09 going to be my retrieve function and
+65:11 this is going to be my rewrite function
+65:13 which is going to be rewrite the entire
+65:15 query okay and here is what here is my
+65:17 generator and all so each and everything
+65:19 guys I'll be explaining you first of all
+65:21 let me create a scet then after creating
+65:23 a nodes okay what I be having I'll be
+65:26 having the ages right ages me means what
+65:30 ages means connectivity so here inside
+65:33 of workflow I'm going to add the ages so
+65:36 workflow. add ages okay so this is going
+65:39 to be a like method which I'm going to
+65:41 use for what for adding the ages okay
+65:44 now we have one more concept the concept
+65:45 name is what the concept name is the
+65:47 conditional edes okay so I'll be talking
+65:49 about that conditional edes also that
+65:51 what is the meaning of this conditional
+65:53 edes right so we have this edes we have
+65:56 this conditional ages right and this is
+65:58 the pretty much important now after
+66:00 adding the ages and the conditional ages
+66:03 now what I have to do here I have to
+66:05 compile this workflow so once I will
+66:06 compile this workflow okay so it will
+66:08 become my application so I'm going to be
+66:11 assigned uh this compile after the
+66:13 compile inside one variable my variable
+66:15 name is what application okay now I can
+66:18 visualize it and I can invoke it so
+66:20 whenever I'm going to be invoke it based
+66:22 on this part based on the question okay
+66:25 based on the invoke but based on the
+66:27 particular question basically I'll be
+66:28 getting my answer so this is going to be
+66:31 a complete flow guys flow of what flow
+66:34 for creating a agentic rag right but you
+66:37 must be like you must be having some
+66:39 confusion sir how it is a rag okay
+66:42 because here you just have have added
+66:44 this method this of like notes you have
+66:46 just have added this stes right you
+66:49 you're just going to be compile it and
+66:50 then you're are going to be involved but
+66:52 rag means is something different rag
+66:54 means what rag means you have a data you
+66:56 have a chunk ambing you are going to be
+66:58 store the data and then based on the
+67:00 similarity search you are going to be
+67:02 fetch the input sorry you are going to
+67:04 be fetch the relevant queries okay
+67:06 relevant data relevant document so guys
+67:09 let me do one thing first of all let me
+67:10 give you this complete escalet and then
+67:13 what I'll be doing so after giving you
+67:14 this complete skeleton I'll be writing
+67:17 the code in front of you only the
+67:19 further code okay and then we'll try to
+67:21 understand how this is representing to
+67:23 the r all right so here I'm to commit
+67:26 the code inside the same GitHub
+67:28 repository if you don't have it please
+67:30 try to take it from the chat itself so
+67:32 here I'm going to write my commit get
+67:34 commit hyph M and code skeleton added so
+67:38 code skeleton added now what I doing I'm
+67:41 just going to post the changes get push
+67:43 origin M and I post the changes to my
+67:46 GitHub guys you can check it out with my
+67:48 GitHub I already given you inside I
+67:51 already given you inside where inside
+67:54 the live SE uh live chat itself again
+67:57 I'm going to past paste it so that you
+67:59 can get it okay so here is a link guys
+68:02 I'm going to paste it inside the chat so
+68:04 that you can take the updated home if
+68:07 you're not getting as of now wait in
+68:10 some time actually entire flow will be
+68:20 clarified
+68:23 okay great data
+68:26 yes it is correct so tell me guys still
+68:29 here everything is perfect did you get a
+68:30 code or not if you got it then you can
+68:33 let me know inside the
+68:37 chat yes
+68:57 please do confirm you can uh mention
+68:59 inside the chat guys if you got this
+69:01 code I given you the link I given you
+69:04 the GitHub link
+69:10 okay yeah I'm looking into the messages
+69:13 uh if you have any doubt any query you
+69:14 can ask to me there itself okay mention
+69:17 about your doubt and query I'll be
+69:19 getting that here is a
+69:23 questions okay got it got it got it
+69:26 perfect
+69:28 wa got it okay
+69:39 perfect can I proceed with the further
+69:42 code tell me guys yes or
+69:44 no can we proceed or not if you'll give
+69:47 me the permission I'll be writing the
+69:48 further code and then I will try to
+69:51 understand the agentic flow over here
+69:56 what is a additional ages it's not a
+69:58 additional ages it's a conditional ages
+70:00 okay how it's going to work I'll be
+70:03 explaining you that part just a
+70:10 wait ages should be same as node
+70:15 one
+70:18 no ages actually could be between the
+70:20 nodes
+70:22 okay between the different different
+70:24 nodes actually we can uh actually we can
+70:27 make a connectivity and that
+70:28 connectivity itself is called the
+70:31 ages got it great so this is what this
+70:35 is a rank so first of all guys what we
+70:37 required we required some data so that
+70:39 we can take a reference okay of that
+70:41 data as I explain you what is the rank
+70:43 here if you will look into this if you
+70:46 will look into this architecture so see
+70:48 data chunks aming and whenever user is
+70:51 asking any question it is coming to the
+70:53 database and then based on that we are
+70:55 going to to find out a relevant document
+70:57 okay so guys what we required for
+70:59 building a rack we required this data
+71:02 okay so first of all let me take a data
+71:05 and here I'm going to take a data from
+71:07 where from the uh internet itself okay
+71:10 so I have couple of link and I'm going
+71:12 to fetch that particular data from the
+71:14 internet so Guys these are the URL which
+71:17 I kept with me okay and if you will look
+71:19 into this URL so this URL actually uh
+71:23 just a second let me show you this URL
+71:25 I'm going to paste it over the browser
+71:28 itself okay so you will get the idea
+71:32 this URL is nothing it is having some
+71:35 blog so this URL having a Blog with
+71:38 respect to the agent only so see this is
+71:40 the like URL okay if I'm going to paste
+71:43 the new URL over here the second URL so
+71:46 let me paste the second URL also and
+71:49 that also is related to The Prompt
+71:51 engineering okay so here I'm going to
+71:54 paste it and see guys this is a complete
+71:56 data complete detail so this data this
+71:58 detail I'm going to use for what for
+72:00 creating my rag system okay so the one
+72:02 is belonging to the prompt engineering
+72:04 the second is belonging you the agent
+72:06 right and here you'll find out the each
+72:08 and every information with respect to
+72:09 agent this is the block simple block I
+72:11 can take any sort of a data but I
+72:13 choosing the data I'm taking a data from
+72:14 this particular web page now after doing
+72:18 after showing the data okay what I have
+72:20 to do I have to load the data okay how I
+72:23 can load the data from the web from the
+72:26 web URL so this is very easy using the
+72:28 langen actually I can simply perform it
+72:31 so inside the langen actually we have
+72:33 one class the class name is called Web
+72:35 loader okay so let me WR take this class
+72:38 web based loader and here let me pass
+72:40 this URL okay this URL actually one by
+72:44 one I will be passing so I can simply
+72:45 use the list comprehension over here so
+72:49 here what I can do I can use the list
+72:51 comprehension and I'm going to iterate
+72:53 on top of this URL and I'll be getting
+72:56 my data like this I hope so guys this is
+72:59 clear to all of you this one this list
+73:01 comprehension now this uh think what I
+73:04 can do I can keep it inside one variable
+73:06 my variable name is going to be dogs
+73:08 okay now here is equal to and now let me
+73:11 execute it I'll be getting my docs okay
+73:14 so it is saying vs4 is not there it is
+73:17 saying no module name vs4 so what I
+73:19 would like to do guys I will have to
+73:20 install this bs4 first of all inside the
+73:22 current virtual environment if you're
+73:24 getting any such error that that this
+73:25 module is not U available that module is
+73:28 not available so simply you need to
+73:30 install it to the PIP command okay just
+73:32 write this pip command pip install PS4
+73:35 and install this bs4 and mention inser
+73:37 the require. txt also so later on if you
+73:40 are going to be uh install the re. txt
+73:43 directly so you will get this package as
+73:47 well okay so I uh downloaded this
+73:50 package inside the current virtual
+73:52 environment and let me see whether it is
+73:54 working or not so guys if you will look
+73:56 into this dog okay so here you can see
+74:00 we are able to load it okay we are able
+74:02 to load the data from this URL so docs
+74:06 and here see this is my document now if
+74:08 you want to see like what all data we
+74:10 have okay so simply what you can do you
+74:13 can uh call this metadata okay so
+74:17 metadata is nothing it's a uh dictionary
+74:20 and inside this dictionary actually is
+74:22 going to be capture each and everything
+74:24 so you need to be write this docs and
+74:26 here write zero just to take a first
+74:29 list now from the first list you are
+74:31 going to be access the document and on
+74:33 top of it you are going to be call this
+74:35 metadata okay so once you call this
+74:37 metadata you will be getting the
+74:39 complete detail so here you can see we
+74:42 have a complete detail okay detail of
+74:44 this particular document now if you want
+74:46 to check with the second document so
+74:47 simply you can check with the second
+74:48 document also here you can write one so
+74:51 what you are getting now you are getting
+74:53 the metadata sorry you are getting the
+74:55 data
+74:56 you are getting the complete detail of
+74:57 the second document also so inside the
+74:59 source we have a URL from where actually
+75:01 we are going to pick the data title
+75:04 title means the title of the blog here
+75:06 description inside the description
+75:07 actually you have a complete data this
+75:09 particular data okay data from the blog
+75:11 and it is only capturing the text as of
+75:14 now and then what we have guys tell me
+75:16 so we have this language okay this is
+75:18 again one of the variable inside this
+75:20 you can see the language is English so
+75:22 we are able to fetch both we are able to
+75:24 fetch the from both URL okay so this is
+75:28 My URL since this URL actually I kepted
+75:31 inside one list and iate the for Loop
+75:34 and here I uh capture the detail in the
+75:36 form of document and from the document
+75:38 actually I'm able to uh see each and
+75:41 everything okay so source title
+75:43 description and language where my main
+75:45 data is reciting my main data is reing
+75:47 inside this description key so I hope so
+75:50 guys this data part is clear how we are
+75:52 going to be load this data yes or no
+75:55 please give me a quick confirmation if
+75:57 you got it then how we are going to load
+75:59 this data you can mention inside the
+76:01 chat if you have any doubt you can ask
+76:03 me so what I will be doing if this part
+76:05 is clear I'll be proceeding ahead if it
+76:08 is not clear again I will give you the
+76:10 quick revision of
+76:13 it tell me guys I'm waiting for your
+76:16 replies if you are here then please do
+76:19 let me know if you're folling to
+76:23 me yes it is clear and where you will
+76:26 find out the code you will find out the
+76:28 code inside the GitHub repository
+76:36 okay okay one person is saying yes it is
+76:39 clear what about other person tell me is
+76:42 it clear or not if it is clear please do
+76:45 let me know
+76:59 how this approach is a cost optimized
+77:01 that is a different part okay cost
+77:03 optimization and all it will comes to
+77:06 the resource management which model
+77:08 you're going to use what is your
+77:10 requirement how many times you are going
+77:11 to hit the API which plan you took right
+77:14 it comes under the infrastructure
+77:15 management or the resource management
+77:17 you no need to take care of this uh like
+77:20 the the management will take care of it
+77:22 okay
+77:27 okay clear clear
+77:30 great right now what I have to do here
+77:33 so after uh taking this data okay now
+77:37 I'll be performing the chunking because
+77:38 the data could be too much use and I
+77:40 don't want to provide a complete data to
+77:42 my L okay so if you will see the data
+77:45 the blog is a little huge okay the
+77:47 complete data which is going to be uh
+77:50 which it is going to be petch so
+77:51 actually you will get the data see here
+77:54 actually we have complete data it's very
+77:56 very huge right so I don't want to be
+77:59 provide the complete data to where to my
+78:01 llm so first what I'm going to do I'm
+78:03 going to perform the chunk okay and my
+78:05 chunking logic is pretty straightforward
+78:07 so for the chunking guys what I'm going
+78:09 to do what I'm going to do I'm going to
+78:10 use the recursive text Rec recursive
+78:13 character text splitter okay it's a text
+78:16 Splitter from the lenion itself and this
+78:18 text splitter actually it's a class
+78:20 right which has been implemented by the
+78:22 Len guys so uh this Len this recursive
+78:26 character text splitter it is having one
+78:27 method the method name is what from tick
+78:31 token encoder okay this tick toer
+78:33 encoder it is responsible for converting
+78:35 the data into the uh like into the
+78:37 different different terms okay it's
+78:39 having some mechanism in backend it is
+78:41 working on that particular mechanism it
+78:43 is trying to identify the best possible
+78:45 Chunk from the data okay and it's giving
+78:47 you the chunk based on the uh based on
+78:50 the proper analysis okay they have
+78:52 written the proper code for that if you
+78:54 want to check you you can check with the
+78:55 GitHub Lang chain GitHub you will get
+78:57 that now I'm going to be defin the chunk
+78:60 size what would be the chunk size it is
+79:01 up to you again it is a like it is
+79:05 subjective to it is subject to the
+79:07 experiment only right it is a hyper
+79:09 parameter you need to be check with the
+79:11 different different chunks and in a
+79:13 single shot you cannot decide which
+79:14 chunk size is going to be a final one
+79:16 right so this is what this is my text
+79:18 splitter so let me create one variable
+79:21 my variable name is going to be text
+79:23 splitter so here is what Vortex is
+79:26 spitter l i t e so I hope so this is
+79:30 clear to all of you now I required one
+79:32 more thing so here you can see guys I
+79:34 have a data list inside the list okay we
+79:37 have a nested list over here I don't
+79:39 want my data like this what I have to do
+79:41 I have to keep the document only I will
+79:42 directly give pass this document to the
+79:44 text splitter and it will be converting
+79:47 the data based on that okay based on
+79:49 this given document object so let me uh
+79:52 keep out this uh let me like remove this
+79:54 nested nested list okay so if I want to
+79:57 remove this nested list what I will have
+79:59 to do over here so for removing it here
+80:02 I will be itating on top of it okay
+80:05 iterating on top of the list so this is
+80:08 the complete logic guys which I have
+80:10 written to get a like a document object
+80:13 from the list okay so what I have I have
+80:15 this doc from the doc actually I have a
+80:17 su list from the sub list I'm going to
+80:19 cetch item and this item actually I'm
+80:21 going to be stored inside the list okay
+80:23 so if you will look into the doc list
+80:24 now so we have a proper document object
+80:26 over here and here you can see this is
+80:28 my document object right and this
+80:30 document object where I'll be passing
+80:32 I'll be passing to the text splitter so
+80:35 let me create an object for the text
+80:36 splitter here you can see it is giving
+80:38 me error so max token for prom please
+80:40 install it bip install Tik token so see
+80:43 now it is giving me one more issue it's
+80:45 telling to me please install the Tik
+80:47 token and Tik token is a library
+80:49 actually which is responsible for
+80:50 converting data into the chunks after
+80:53 converting into the tokens okay token to
+80:55 actually it's a more Atomic level unit
+80:57 it is a word right so now let me take
+81:00 this tick token and here I'm going to be
+81:03 install inside the current virtual
+81:05 environment and let me mention this
+81:07 thing inside the rec. txt also so here
+81:10 here here the spelling is wrong pick
+81:12 token is fine now let me mention inside
+81:14 the requirement. pxt so here here here
+81:18 guys I have this. txt and now let me
+81:21 mention this name inside this txt okay
+81:25 so later on if if we going to be execute
+81:27 in a single shot I'll be getting all my
+81:30 libraries now it is done and if I'm
+81:32 going to be run it now I hope so it will
+81:34 be working fine see guys we are able to
+81:37 load this text splitter now to this text
+81:39 splitter I'll be passing what I'll be
+81:41 passing my data okay so this text
+81:44 splitter actually this particular object
+81:47 is having the method what is the method
+81:49 name the method name is nothing it's a
+81:51 split document okay so we are going to
+81:53 split the document and here we are going
+81:55 to pass our document this is a doc list
+81:57 right so I'll be getting my dog I'll be
+82:01 getting my splitted document okay so let
+82:03 me write this thing let me give this
+82:05 thing inside one more variable so my
+82:07 variable name is what doc splits now if
+82:09 you will look into this doc split you'll
+82:11 be finding out your chunks so here is
+82:13 your chunks guys so let me show you the
+82:16 chunks and I hope so it is visible to
+82:19 all of you see this is my entire chunks
+82:22 okay the chunks basically which I was
+82:24 figuring out from on the data so first
+82:26 we have loaded the data from the web
+82:28 okay then I have initialized the
+82:30 recursive character text splitter and
+82:32 then I have splited a data into the
+82:34 chunks and see guys this is what this is
+82:36 my entire chunks okay so chunks it is
+82:39 coming from where each and every
+82:40 information basically they have given
+82:42 you over here okay inside this
+82:44 particular document object and
+82:47 definitely you can look into it so now
+82:49 what I have to do guys on top of this
+82:51 particular data I have to create a
+82:53 retriever okay to create a retriever
+82:55 means I have to store this entire data
+82:57 into the vector database and then on top
+82:60 of that Vector stored on that on top of
+83:03 that Vector database we are going to
+83:05 initialize what we are going to
+83:06 initialize the retriever so here guys
+83:08 I'm going to use the chroma Vector DB
+83:10 okay so if I'm going to write over here
+83:12 chroma chroma and here I'm going to call
+83:16 one method the method name is what from
+83:20 document and what I'll be passing over
+83:22 here inside this from document I'll be
+83:25 passing my data so here my data name is
+83:27 what what is my variable name my
+83:29 variable name is do split okay and here
+83:32 I'm going to keep it inside the variable
+83:34 so my variable name is going to be
+83:36 document
+83:38 document okay m e NTS so to this
+83:42 particular document I'll be passing my
+83:44 data okay this Doc is sprit then what
+83:47 I'm going to do here I'm going to write
+83:48 my name okay where I'm going to where
+83:50 I'm going to be store the data what will
+83:52 be my name name of my index okay name
+83:54 name of my collection so here is one
+83:57 more variable collection and I can write
+83:58 any sort of a name any custom name my
+84:01 name is going to be rag Chrome okay so
+84:04 this is the custom name which I given
+84:05 now here I will be I need to pass what I
+84:08 need to pass what I need to pass the
+84:10 ambing model also so here I'm going to
+84:12 write embeding is equal to what is equal
+84:14 to my model name that is what that is a
+84:16 embeddings right so this is what this is
+84:19 my complete code for what for storing
+84:21 the data inside the vector database so
+84:24 here now what I do I have to keep this
+84:26 particular thing inside the vector store
+84:28 okay Vector is store and let me keep it
+84:31 inside this particular variable and let
+84:33 me execute this particular thing so if
+84:36 I'm going to be executed guys I'll be
+84:38 able to run it sorry I'll be able to
+84:39 load it inside where inside the vector
+84:42 store now this method is wrong so I need
+84:44 to keep the correct method over here the
+84:46 method name is going to be a from
+84:48 document now everything is perfect and
+84:50 let's see whether it's going to be run
+84:52 it or not so again it is giving me error
+84:54 this is collection so my variable name
+84:56 is what it's a collection name and I
+84:59 hope so guys this thing is perfectly
+85:01 clear and again it is giving me a issue
+85:04 so the issue is what we haven't
+85:06 installed this chroma DB because I'm
+85:08 going to implement this entire project
+85:10 in front of you in the live session only
+85:13 okay so that's why I haven't installed
+85:15 all the requirements like before end I'm
+85:18 going to install in front of you so let
+85:20 me install this chroma DB as well
+85:22 install chroma DB and here here I going
+85:25 to be keep it so pip install chroma DB
+85:28 and pip
+85:29 install chroma DB now this is perfect
+85:33 and I can mention this name this Library
+85:37 name okay inside the requirement do dxt
+85:41 as well so this is perfectly fine so
+85:44 later on if you're going to be execute
+85:45 this re. txt you will get all the thing
+85:47 in a single shot so yes this is done now
+85:50 I can open this agentra iyb and let me
+85:54 execute it one more time whether it is
+85:56 done or not so it's saying chroman D is
+85:60 not there it's still not there
+86:02 okay maybe it is installing or what so
+86:05 let me check it
+86:06 out H yeah so is installing guys it will
+86:09 take some time it might take some time
+86:11 let it install tell me guys did you did
+86:13 you understand the entire flow don't
+86:15 worry again I will give you the quick
+86:16 recap but first of all let me create
+86:18 this retriever because this is our main
+86:20 thing main issue so once we'll create a
+86:23 retriever our most the work is going to
+86:25 be done okay so this is what guys see we
+86:28 are going to be stored the data inside
+86:29 the vector DB and now on top of this
+86:31 Vector DB on top of this Vector store
+86:33 I'll be creating my
+86:35 retriever so here I'm going to be use
+86:38 this Vector store as a retriever so if
+86:40 you're familiar a little bit familiar
+86:42 with the rack you will be able to
+86:44 understand this particular approach okay
+86:46 so retriever is going to be my retri see
+86:49 here I'm going to be assigned the to
+86:51 this particular variable now let me run
+86:54 it okay so I got my Ral now what I have
+86:56 to do guys see now my actual process is
+86:59 going to be start for creating this
+87:01 agentic rag so here what I did guys here
+87:04 I created my simple retriever one of the
+87:06 part okay one of the part of the rag
+87:08 pipeline the classical rag pipeline now
+87:10 on top of it we are going to create a
+87:13 agentic rag okay whatever output we are
+87:16 going to be generate from the Retriever
+87:17 and all all thing we are going to be
+87:19 interpret all thing we are all thing we
+87:21 are going to be check whether it is
+87:22 correct or not 11 or not and based on
+87:24 that we are to take a further decision
+87:26 so let me give you this entire code
+87:28 through the GitHub and please check it
+87:30 out uh this code from your end I'm
+87:33 giving you 2 minute of time you can take
+87:35 it from there itself so get commit hyon
+87:38 M and here code updated with retri work
+87:44 and yes I post the changes guys you can
+87:46 take it from the chat only now let me
+87:48 give you this link again and I'll be
+87:50 clarifying your doubt as well so
+87:52 whatever doubts you have you can ask ask
+87:54 me inside the chat
+87:58 section guys I given you the link please
+87:60 do confirm if you got it then and if
+88:02 this part is clear to all of you once I
+88:05 will revise it again you'll be getting
+88:06 most of the them from me don't
+88:09 worry how the session is going are you
+88:12 enjoying the session are you learning
+88:14 something first play important corporate
+88:17 when you are designation application if
+88:19 your application is costly it might not
+88:20 get approved correct it is like pretty
+88:23 much correct okay I agree with your
+88:25 point so as of now I'm just going to be
+88:27 use the free API if you want to like
+88:31 calate the cost there are so many co
+88:33 cost calculator okay with respect to LM
+88:35 you can simply check out the Google
+88:37 we'll get that so there you can put your
+88:39 data like your requirements okay uh your
+88:42 requirements which uh your data actually
+88:45 which you are passing to the LM based on
+88:46 the token size it will give you the
+88:48 final cost right so it is pretty easy to
+88:51 calculate the cost nowadays at least
+88:53 estimated cost can calculate
+88:56 right what is a chunk chunk actually
+88:59 it's a uh like from the document itself
+89:03 we are going to make a chunks connection
+89:04 of tokens okay collection of words it's
+89:07 a sentence from the entire Corpus okay
+89:11 how will be integrated this into the
+89:12 website for that actually you will have
+89:14 to create a API right so this is the
+89:17 back end code which you going to write
+89:18 now you will convert it to the API you
+89:20 will connect it with the API and then
+89:22 like you can create a web application
+89:24 out of that AP okay push to the GitHub
+89:28 yes Michael I given you over the GitHub
+89:30 you miss the push okay let me check it
+89:31 out I think I missed it get push origin
+89:34 main yes guys you are
+89:37 right get push origin main now I give to
+89:40 you please check it
+89:42 out chunk size again it's a hyper
+89:44 parameter you cannot decide chunk size
+89:46 directly uh you will have to do a
+89:48 certain experiment okay I just kept one
+89:52 random chunk size you can like keep keep
+89:54 any sort of a chunk size and it's
+89:58 experimental so did you get a code or
+90:01 tell me guys can we take five minute of
+90:03 break so that you can go through with
+90:04 the entire code and then I can Implement
+90:07 rest of the functionality the rest of
+90:09 the function basically which I created
+90:10 over here and then finally we going to
+90:13 check
+90:20 it please give me a quick confirmation
+90:22 so that uh I can give you 5 minute at
+90:25 least so that you can go through with
+90:26 the code I'm looking into the messages
+90:28 guys if you are ready to give me a 5
+90:32 minute then definitely I will put the
+90:36 timer why we say it was optimized model
+90:39 optimized model basically depends where
+90:41 you are going to be deploy that okay uh
+90:44 how much memory it is
+90:46 taking how did you optimize it it or not
+90:49 according to the resources
+91:02 great guys so let's do one thing I'm
+91:03 giving you five minute of break until uh
+91:06 or 2 minute of break okay just a quick
+91:07 break so that you can take this entire
+91:09 code and then we'll restart the session
+91:12 so putting the timer give me a second uh
+91:14 I'm going to open the
+91:16 timer and let's take a two minute of
+91:19 break quick water break okay
+92:53 e e
+93:34 Okay good guys so have you look into the
+93:36 code you g through with the code tell me
+93:38 yes or
+93:46 no I believe you have seen the code you
+93:49 look into the code now let's do one
+93:52 thing so in the architecture you have
+93:54 shown if the query is not relevant then
+93:56 again it give the LM call to reite the
+93:57 query can you explain that part again
+93:59 yes coming to that I'll show you I will
+94:01 Implement that okay you will get a
+94:02 clearcut idea now what I'm doing here I
+94:04 am going to
+94:06 be uh I'm going to be convert this tool
+94:09 okay convert this retriever into the
+94:11 tool okay uh now see whenever we are
+94:14 talking about agents so inside the
+94:17 agents actually you will find out one
+94:19 very common term the term is called tool
+94:22 so don't be confused with this tool okay
+94:25 this tool actually it's nothing it's a
+94:26 function
+94:27 only okay it could be any sort of a
+94:30 functionality this tool so let's say I
+94:33 created my
+94:35 retriever this
+94:37 retriever I can convert into the
+94:42 tool okay let's say I have a function
+94:45 any custom function whatever
+94:47 functionality I'm going to be right
+94:48 let's say any custom function I can
+94:51 convert this custom function into the
+94:53 tool okay this is possible now let's say
+94:56 I have any custom class any custom class
+94:60 now this particular class I can convert
+95:01 into the tool okay so tool actually it's
+95:04 a common word which is representing to
+95:06 some sort of a
+95:07 functionality I hope so you got it right
+95:11 so this tool actually are nothing it's
+95:13 representing to some sort of a
+95:14 functionality it could be anything which
+95:16 I need to call okay which I need to call
+95:19 alternatively if my llm is not able to
+95:21 answer if it want to redirect the call
+95:24 to the tool okay if I it want to
+95:26 redirect the call to the tool so
+95:28 definitely I can do it and as a tool I
+95:31 can use anything even I can use the
+95:33 database database connection and all as
+95:35 a tool okay I can make any API call okay
+95:39 I can use any API call as a tool so tool
+95:42 actually it's a generic word generic
+95:44 term okay behind the tool actually you
+95:46 will find out some sort of a
+95:47 functionality understood now let's do
+95:50 one thing let's try to convert this uh
+95:52 retriever into the tool okay and for
+95:54 that actually we have one method sorry
+95:56 we have one class the class name is what
+95:58 create retriever tool now inside this
+96:01 class what I need to do I need to pass
+96:03 my tool name right so this is my tool
+96:05 name my tool name is retrial if I want
+96:07 to give any sort of a description
+96:09 related to this tool okay I can give
+96:11 that so uh what I can do I can write the
+96:15 uh I can write what I can write the
+96:18 description so this is what this my
+96:19 retrieval blog post okay this this tool
+96:22 actually is related to this retrieval
+96:23 block post okay now if I want to write
+96:27 some longer description with respect to
+96:28 toool kind of prom okay I can give that
+96:31 as well so here what I did I written
+96:34 this longer description as also it's a
+96:36 behaving as a prompt okay this is the
+96:38 one just look into it just try to read
+96:40 it you will get the clearcut idea that
+96:42 what it's trying to say okay I already
+96:45 written some sort of a thing so that I
+96:46 can save my time so this is the text
+96:50 search and written information about the
+96:52 blog okay which is written which is like
+96:55 all about who this prompt engineering
+96:56 agents and all everything so here guys
+96:59 what I created I created one tool okay
+97:01 now uh here I given that this Retriever
+97:05 and this retriever is being converted as
+97:07 a tool so I did it I created it now what
+97:10 I'm going to do here I'm going to use
+97:13 along with the llm okay I will be
+97:15 binding this tool to the llm okay so for
+97:18 that we'll have to keep it in a specific
+97:20 format means I will have to keep it
+97:22 inside the list because all the tools
+97:25 actually we need to keep it in in the
+97:27 form of uh list okay inside the list
+97:29 itself so what I'm doing here I'm just
+97:32 going to be keep inside the list okay
+97:36 you can keep one single tool or you can
+97:38 keep more than one tool that is up to
+97:40 you it is fine so here I'm going to be
+97:43 assign this list into the variable the
+97:45 variable name is going to be a tool so
+97:47 this was the complete process okay I
+97:50 created a retriever and I kept it I as a
+97:53 tool tool okay I converted into the tool
+97:56 now if you will look into the guys if
+97:58 you will go through and if you will look
+97:59 into the architecture now so this was
+98:01 the architecture so inside the
+98:03 architecture you can see we have we have
+98:05 covered this part so data chunk
+98:09 embedding keep the database keep inside
+98:12 the database and on top of this database
+98:14 we have created a retriever and we have
+98:16 converted a retriever into a tools okay
+98:18 now we have to see how we can create
+98:20 this type of architecture how we can
+98:22 create this agentic flow okay this
+98:24 agentic flow is going to be very simple
+98:25 now so first thing we are going to be
+98:28 code that
+98:29 is this AI assistant okay so what this
+98:33 AI assistant is doing let's try to
+98:36 understand so here I have written some
+98:38 code related to this AI assistant see
+98:40 this is the code for the aist it's
+98:42 pretty much simple so it is taking a
+98:46 message it is taking a message from the
+98:48 state okay I will let you know what is
+98:50 this state and that what this state is
+98:52 doing this estate actually is it is
+98:54 Flowing the input to the entire workflow
+98:57 okay my input is Flowing throughout the
+98:60 different different function using what
+99:02 using this state separately I'm not
+99:04 passing input to this particular methods
+99:06 okay how basically I'm passing an input
+99:09 to this particular method through this
+99:11 state right so here this state actually
+99:14 it's nothing it's my fentic object I'll
+99:16 be defining the fentic object in
+99:18 sometime just a
+99:19 second like first of all Let Me Explain
+99:21 you the further part so here from the
+99:23 particular St I'm going to take a
+99:25 message and here I'm binding this tool
+99:27 to this llm okay which I already loaded
+99:29 from The Grog so if you will look into
+99:32 my code if you will scroll down I
+99:33 already loaded the llm this one now to
+99:36 this llm actually I'm going to bind the
+99:38 tool okay so whenever we are going to be
+99:40 pass a message automatically it can
+99:42 identify okay now I need to call the
+99:44 tool and based on that it's going to be
+99:46 call the tool so this is what this is
+99:48 going to be my llm with tool okay llm
+99:51 with tool now this particular variable
+99:53 I'm going to use over here with respect
+99:56 to the message and it will take a
+99:58 decision okay it will take a decision
+99:60 based on the message whether I need to
+100:01 call the tool or not understanding my
+100:04 point so based on this particular
+100:06 message it it is going to be invoked the
+100:08 response and this response actually I'm
+100:10 going to append inside the list okay
+100:12 here and I'm going to return it to the
+100:14 next to the next method okay because
+100:17 here using the Lang graph actually what
+100:18 we are going to do we are going to
+100:19 perform the orchestration okay we going
+100:22 to create one sequential flow so
+100:24 everything is working from the single
+100:25 call itself so here is what here is my
+100:28 AI assistant now we have a next method
+100:31 the next method is going to be a
+100:33 retrieve okay what this retrieve is
+100:35 going to do let me explain you that as
+100:36 well so here this retrieve actually it's
+100:40 going to retrieve the information from
+100:43 the just a second let me take that
+100:45 particular code and uh I'm giving to you
+100:50 I kept it with
+100:52 me m
+100:58 mhm okay so guys what I can do I can use
+101:03 this retrieve as a tooless one so I
+101:05 already created this
+101:08 retriever just a
+101:11 second I can show you in a different
+101:15 way because retriever is already there
+101:18 okay so here is what retrieval tool now
+101:21 what I can do just a second this is my
+101:23 retrieval tool and I need to use it as a
+101:26 node so here I can add on this node and
+101:30 for that we required one method so just
+101:34 a second guys let me come to that okay
+101:37 so tool node directly actually I can
+101:39 convert this retrial into the tool I
+101:41 know need to create a separate
+101:42 functionality sorry I forgot about it I
+101:44 just going to be pass this tool node
+101:46 over here retrial tool okay so here is
+101:49 what here's my retrial tool I'm passing
+101:51 to the tool node means this this is my
+101:54 tool and I'm converting this tool into
+101:56 the node okay and here this this thing
+101:59 actually what I can do uh this this
+102:02 particular node I can assign into this
+102:04 particular variable see I'm not going to
+102:06 write see if we are talking about this
+102:08 nodes so what is this node this nodes
+102:10 are nothing it's a function only okay
+102:12 this particular nodes are nothing it's a
+102:14 functions only okay but here you can see
+102:18 so we have we have already we already
+102:20 have a retriev functionality okay which
+102:22 we are going to be cons using this
+102:24 particular tool now we have to convert
+102:26 into the node so that we can add on this
+102:28 thing inside our flow okay so what we
+102:31 did we are going to be use this method
+102:33 this tool node method and there actually
+102:36 we are passing this tool retrieval tool
+102:38 and here my node is ready okay so see we
+102:41 are able to add this inside the node
+102:44 getting my point okay so simply you can
+102:46 say we are going to convert our tool
+102:48 into the node and then we are going to
+102:50 consume it inside our flow that's the
+102:52 simple meaning of it nothing
+102:54 okay now what we are going to do we are
+102:57 going to write a further function so we
+102:59 have some other function like the
+103:00 rewrite and all so let me give you each
+103:02 and every function one by one so first
+103:05 of all guys we have a generate okay so
+103:07 this generate actually is going to be
+103:08 generate a final output how it is going
+103:11 to be generate I'll be coming to that
+103:12 first of all let me keep the code okay
+103:15 the code actually has been written by me
+103:16 only so definitely I'll be explaining
+103:18 you this part just to save the time I'm
+103:20 going to be copy and paste okay in into
+103:23 the complete flow then we have one more
+103:25 code one more function the function name
+103:27 is what the function name is rewrite
+103:30 okay so here you can see we have this
+103:32 function the function name is going to
+103:35 be rewrite and I hope so guys this is
+103:38 also clear I will be explaining you this
+103:40 each and every function don't worry I
+103:42 will come to that so e assistant is
+103:44 there rewrite is there now here we have
+103:46 a generated and our retriever it is
+103:49 already there okay now we have to write
+103:51 couple of more function and this
+103:53 function actually is going to play a
+103:55 very important role right now before
+103:58 that before coming to the function let
+103:59 me Define the agent State s okay so this
+104:03 is my agent State now inside this agent
+104:05 State actually what we have we have this
+104:07 message okay and this is nothing this is
+104:09 the type of the message so what is the
+104:11 type of the message the type of the
+104:13 message is nothing it's a list okay
+104:16 sequence of list means inside the one
+104:18 list we can have multiple message this
+104:20 is nothing this is just defining a typ
+104:22 okay just to validate
+104:24 just to make sure the uh just just to
+104:26 make sure the type of this particular
+104:28 message we write now message scrol then
+104:30 Str Str then list okay so this notation
+104:33 is nothing it is defining a type of this
+104:36 message it is nothing it's a sequence of
+104:37 list okay sequence of what sequence of
+104:40 messages which we are going to capture
+104:41 inside the list and this add message
+104:43 actually it is defining to the multiple
+104:45 message we can keep the multiple message
+104:47 inside the single list okay that's a
+104:49 simple meaning of it now we are going to
+104:51 keep we I'm going to be create one more
+104:53 class the class name is going to be a
+104:56 grade okay so here the class name is
+104:59 going to be a grade and here I'm going
+105:01 to be import this base model over here
+105:04 so base model we have a base model and
+105:06 now what I can do I can keep the I can
+105:09 create one more variable over here the
+105:11 variable name is going to be a binary
+105:12 score so this binary score actually it
+105:15 will help us to uh check the relevancy
+105:17 whether the whether the generated
+105:19 document is relevant or not okay the
+105:22 retrieve document is relevant or not so
+105:24 if I want to create a validation out of
+105:26 this particular variable okay with
+105:28 respect to this particular variable I
+105:29 can do this thing and I can mention up
+105:31 the description as well so see this is
+105:32 the description okay so I'm going to be
+105:35 mention description whether the document
+105:37 will be relevant or not so this all the
+105:39 thing are nothing this is just like
+105:41 validation okay because validation is
+105:44 very much important and uh this thing I
+105:46 think I already explained in my previous
+105:48 video or even I also created one Lang
+105:50 graph playlist on my YouTube channel you
+105:52 can check out over there as well okay
+105:53 for the better understanding so we have
+105:56 one class the class name is grade and
+105:58 the second class name is the agent okay
+106:00 now we have method this generate method
+106:04 we have this rewrite method and we have
+106:07 this AI assistant also this particular
+106:09 method now we require couple of more
+106:11 method and then after I'll be explaining
+106:13 you the final flow okay how this entire
+106:15 thing is working and maybe you will get
+106:17 a clear-cut idea right I know this thing
+106:20 is going to be a little heavy if you're
+106:21 looking into first time but believe me
+106:23 once you will run it uh you will be able
+106:26 to understand that now uh here we have
+106:29 one more function the function name is
+106:31 going to be a grade grade document okay
+106:34 so I'm going to be grade the document uh
+106:37 whether it is correct or not whether
+106:39 it's is relevant or not and then we have
+106:41 one more function okay and this is going
+106:43 to be a last function guys don't worry
+106:45 about it so my function name is what the
+106:48 generate I already written right I
+106:50 already defined the generate generate
+106:52 yes this is there grade okay now I think
+106:55 I kept all the functions over here maybe
+106:58 let me check one more time rewrite is
+106:60 there grade document is there aist yeah
+107:03 guys so I have all the function I think
+107:04 nothing is there nothing needs to be
+107:06 right now so what I can do I can explain
+107:09 with the complete flow that how this
+107:11 entire thing is working okay step by
+107:13 step let's try to understand so uh first
+107:16 what we are going to do all else what I
+107:18 can do I can give you the code first so
+107:19 that uh you can look into the GitHub and
+107:22 you can take it from there so here I'm
+107:24 going to add this entire changes
+107:25 whatever changes are there now let me
+107:28 write the commit G commit i1 M and here
+107:33 Cod addit
+107:36 for all the functions okay code added
+107:41 for all the functions and here let me
+107:44 push it get push iphon app origin get
+107:48 push origin main I think it will work
+107:51 origin Main okay so I'm pushing this
+107:54 thing to the GitHub guys you can take it
+107:56 from there and please give me a quick
+107:59 confirmation inside the chat I haven't
+108:00 look into the doubt I will take the
+108:01 doubts at the end of the session because
+108:04 I need to complete it otherwise this
+108:06 session is going to be pretty long okay
+108:09 if I'm going to take a doubt in bit only
+108:11 so now I have the entire code with me I
+108:13 will give you the quick recap of it and
+108:16 then finally we'll try to run it whether
+108:18 it is giving me a correct output or not
+108:20 so tell me
+108:22 guys did you get it or not did you get
+108:25 the entire code let me give you the link
+108:26 one more time if you are watching to me
+108:29 uh first time uh meanwhile this time so
+108:33 you can take the code from here itself
+108:35 from this particular
+108:39 link what the timing of the class the
+108:41 timing of the class is uh 8:00 p.m. okay
+108:45 so whenever we have a session of any
+108:47 session any project session will inform
+108:49 to you okay got it rind
+108:54 uh so guys any doubt anything I can take
+108:56 a pause for 5 minute or 2 minute um I
+108:59 think that that would be fine so if you
+109:01 have any sort of a doubt you can ask me
+109:03 then I will give you the quick recap of
+109:04 this entire code okay from starting and
+109:07 maybe you will be able to understand
+109:12 okay please ask your doubt what is your
+109:15 doubt you can mention inside the chat
+109:16 guys whoever is watching to me please do
+109:18 let me know should I keep the code
+109:20 understanding just and copy paste you
+109:22 can copy and P P from there okay and let
+109:24 on after the session you can go through
+109:26 with
+109:27 it understood
+109:35 emth did you get updated code you can
+109:38 let me know guys I'm looking you the
+109:39 messages please do
+109:41 confirm learning should I give lot of
+109:44 coding or can I get coding from the
+109:46 GitHub you should you have to do the
+109:48 coding okay in the real time like you
+109:51 have to do the coding from your end only
+109:52 this to take a different different
+109:54 references from the gab from the
+109:55 internet from anywhere and then at the
+109:58 end you only have to write a
+110:04 code guys please give me a quick
+110:05 confirmation so that I can give you the
+110:07 final uh explanation of this entire
+110:11 flow I just want it from your end inside
+110:13 the chat waiting for a reply
+110:40 yes from here only we have to invoke our
+110:42 application we have to invoke our
+110:43 workflow okay so it's going through the
+110:46 different different uh noes means
+110:48 different different function and in
+110:49 between we are going to make a
+110:51 connection I need to make a connection
+110:53 uh but before that I need to explain the
+110:56 functionality have Scan the last updated
+110:59 get up things okay great Michael you got
+111:01 that anyone else uh having any doubt
+111:04 anything please do let me know did you
+111:06 get a code or not did you understand the
+111:08 flow if not which part you're not
+111:11 getting please do let me know I will uh
+111:13 explain you
+111:21 okay yes as a junior data scientist also
+111:23 you can find tun the
+111:26 models who is stopping you to find tun
+111:28 the model
+111:49 amm great I think I've given you the
+111:51 enough amount of time just to go through
+111:53 the code now let's try to conclude it
+111:56 okay so here I have like written the
+112:00 different different statement okay
+112:02 import a statement so couple of
+112:05 statement are very much important which
+112:07 I will explain you throughout this
+112:08 explanation so the first thing is what
+112:11 first I'm going to be load the Ming
+112:12 second is what second is the model okay
+112:14 till this uh point I think everything is
+112:17 fine then for creating a rag guys we
+112:20 required a data okay so here we are
+112:22 going to be load the data from where
+112:24 from the web itself after loading a data
+112:26 we are going to make a chunk out of that
+112:28 data okay so here is what here is my
+112:30 chunk this is what this is my chunk then
+112:32 I'm going to be store this data entire
+112:34 data into the vector store that is what
+112:36 that's my chroma DB I'm going to use
+112:38 this Vector store as a retriever okay
+112:40 and then here I'm going to convert this
+112:42 Vector this retriever into the tool so
+112:45 that later on I can utilize it okay
+112:48 inside my workflow because inside my
+112:49 workflow what I required I required the
+112:51 function okay I require the node node is
+112:54 what node is nothing it's a function so
+112:56 I'll be converting this particular tool
+112:58 into the node okay I'll be converting
+113:01 this particular tool into the node that
+113:03 I already did okay I will show you that
+113:04 part as well so here is what here is my
+113:06 retriable tool I hope so till here
+113:08 everything is fine right this is
+113:11 perfectly clear now let's try to
+113:13 understand the flow how the thing is
+113:15 working if you will look into this
+113:17 architecture so this architecture
+113:20 actually is trying to explain you each
+113:22 and everything
+113:24 so let me again give you the quick
+113:27 recap so what is happening guys see
+113:30 whenever any query is coming whenever
+113:32 any input is coming so this input will
+113:35 go to the AI assistant now from this a
+113:38 assistant actually you will find out two
+113:39 branches first is this one and the
+113:42 second is this one okay which is
+113:44 directly meeting to the end if we
+113:46 talking about the start so this is start
+113:48 point is nothing it's an input Point
+113:51 okay and this end point is nothing it's
+113:54 output so in at a start actually you you
+113:59 are passing the input and at this
+114:02 particular point you are getting out now
+114:04 whenever you pass the input so it will
+114:06 directly go to the AI assistant now this
+114:08 AI assist actually it's making a
+114:10 decision okay the decision is what
+114:12 should I call the tool okay should I
+114:15 call the tool or should I directly
+114:17 generate output from the model itself so
+114:20 this dot actually dotted line is nothing
+114:22 it's my conditional
+114:24 statement conditional statement so here
+114:27 simply I'm asking to my model OKAY model
+114:30 do one tell me where I need to go should
+114:33 I call the tool should I call the tool
+114:37 or should I directly generate a response
+114:39 okay so this is a responsibility of what
+114:42 this is the responsibility of the llm
+114:44 now this is not a simple LM okay so here
+114:46 we are going to be add here we are going
+114:49 to be add tools to this llm using this
+114:51 particular method what is the method
+114:53 name bind tool okay so to this
+114:55 particular method I given the tool okay
+114:58 and that we are going to be connect with
+114:59 the llm that we are going to be
+115:01 associated with the llm so now it become
+115:04 llm with tool llm with tool so inside
+115:08 this AI assistant you will find out what
+115:10 we have we have llm with tool okay now
+115:13 we are giving an input to this llm with
+115:15 tool and here is going to make a
+115:16 decision whether I need to call the tool
+115:19 or whether I need to Simply generate a
+115:22 message okay simply I need to stop the
+115:24 process so let's say my query is related
+115:27 to the uh so my query is related to the
+115:33 data what what which data guys so here I
+115:36 already created a retriever from this
+115:38 particular data
+115:41 retriever okay so from the data we have
+115:43 created a retriever and this retriever
+115:45 actually it is working as a tool so
+115:47 let's say my query is related to this
+115:48 particular data so automatically llm
+115:51 will take a decision okay what I have to
+115:53 do I have to call the tool and what is
+115:56 my tool tool is nothing tool is my
+115:58 retriever only this retriever is nothing
+116:00 it is my tool okay so it will come to
+116:03 the Retriever and it will try to fetch
+116:05 the relevant document relevant
+116:08 document okay now it will F the relevant
+116:11 document and it will come over here
+116:13 after the retrieval and then it will
+116:15 check it will grade okay it will check
+116:18 the relevancy it will give me a
+116:21 grade okay what the meaning of grade
+116:23 what is the check meaning of the
+116:24 relevancy so it will check okay so
+116:27 whatever document it is being captur
+116:30 whatever document is being captured okay
+116:32 so this document actually it is relevant
+116:35 or not according to the query whatever
+116:38 document actually we are going to be
+116:39 fetch it is relevant or not according to
+116:41 the query if it is relevant then only it
+116:43 will generate a final output okay over
+116:45 here you can see this particular dot
+116:46 doted line if it is not a relevant
+116:49 document what it will do again it will
+116:50 rewrite the query okay it will try to
+116:54 find out the detail from the query and
+116:56 it will give to the AI assistant and AI
+116:59 assistant will give you the final answer
+117:01 understood yes or no how this flow is
+117:03 going to be work again let me repeat it
+117:05 maybe you will get the clearcut idea
+117:06 give me a second I can repeat it in a
+117:08 second and then finally I'll be showing
+117:10 you how it's going to work okay so let
+117:13 me remove it and I hope so this is
+117:16 perfectly fine tell me guys are you able
+117:18 to understand or not this is making
+117:20 sense how this agentic r is going to
+117:23 work so we are going to be add some
+117:25 condition inside the simple rag itself
+117:27 and we are going to be create the
+117:29 agentic graag okay so let's do one thing
+117:31 let's try to understand one more time we
+117:33 are giving an
+117:34 input and here we are getting an
+117:37 output now this input actually will come
+117:40 to the AI assistant and here what we
+117:42 have we have a llm with tool llm with
+117:45 tool this tool is nothing this tool
+117:48 actually it's my
+117:50 retriever okay retriever now whatever
+117:53 query is there based on this particular
+117:54 query is going to be decided whether I
+117:56 need to call the tool means whether I
+117:58 need to call the
+117:60 retriever okay and after calling it to
+118:03 the retriever we have to retrieve the
+118:04 document so we are going to be fatch the
+118:07 relevant document relevant document okay
+118:11 and if this relevant
+118:13 document okay so this if this document
+118:16 is relevant okay with respect to the
+118:18 query so I will grade I will grade it as
+118:21 a yes
+118:23 if it is fine then I will be generating
+118:25 the final answer so this is very simple
+118:27 flow this one right then I'll be
+118:29 generating a final answer but let's say
+118:31 if this document is not a relevant
+118:33 document in that case what I'll be doing
+118:35 I'll be rewriting the query I'll be
+118:37 transforming my query and again I'm
+118:39 giving back to the assistant and it will
+118:41 decide what I have to do now okay so
+118:43 based on the rewriting based on the
+118:45 final uh So based on this particular
+118:48 conclusion uh like how we are going to
+118:50 be transform the query this AI assistant
+118:53 will take a decision okay then it will
+118:55 generate a output and then finally I'll
+118:57 be getting my output so this is the
+118:59 complete flow the agented flow basically
+119:01 which we have created now let's do one
+119:03 thing let's try to understand the code
+119:05 okay so guys here is what here is my
+119:08 message which I'm going to be extract
+119:09 from the state okay now if you will look
+119:12 into the state guys so state is nothing
+119:14 this is my state so we have defined one
+119:16 state and inside the state we don't have
+119:20 like many special thing we just have one
+119:22 variable
+119:23 that is message okay so this message
+119:26 actually this particular variable this
+119:27 message variable we are flowing
+119:29 throughout the different different notes
+119:31 okay throughout the different different
+119:32 function and inside this message what
+119:34 what I'm going to keep I'm going to keep
+119:36 the sequence okay sequence of messages
+119:38 means original messages it will be
+119:40 available in the form of list okay over
+119:42 here so let me Define this agent State
+119:44 and here I can Define the type of this
+119:46 state which is nothing which is a agent
+119:48 State okay now here what I have I have
+119:50 my aist
+119:52 this AI assistant is doing the same
+119:54 thing means it is going to be bind the
+119:55 tool to the LM okay then here what we
+119:58 are going to do we are going to rewrite
+119:60 the query so if it is going to be wrong
+120:02 I'll be rewriting it coming to that part
+120:04 the rewriting part and this is a
+120:06 generate guys okay uh basically we are
+120:09 going to be generate what we are going
+120:10 to generate uh if the query is not
+120:12 correct okay means if the query is sorry
+120:17 if the like U what I can do just a
+120:21 second just rewrite actually I can write
+120:23 it after the generate so that you will
+120:25 get a better understanding just a second
+120:29 yeah so here what we have we have a
+120:30 generate okay if everything is fine
+120:32 means we are able to retrieve the
+120:34 document from the retriever the relevant
+120:36 document we'll give it to the generate
+120:37 okay we'll give it to this particular
+120:39 method and then finally we'll be
+120:40 generating the final output this is what
+120:42 this is my rewriter guys so if the query
+120:45 is not relevant I'll be rewriting it and
+120:47 here is what here is my grader okay so
+120:50 let me keep this grader over here and I
+120:52 think so you will be getting a clear
+120:55 idea so I hope so this thing is fine now
+120:58 I'll will be explaining you this code
+120:59 this generator code and this rewriter
+121:02 code okay so just a second I'm going to
+121:05 explain you this
+121:06 part but before that let me compile the
+121:10 entire thing okay so here is what here
+121:13 is my grd document also which is going
+121:15 to be GD okay so let me keep this gr
+121:18 document over here so that everything
+121:20 will be in a sequence only so what we
+121:23 have we have a rewriter gr document and
+121:25 all everything okay now it is perfect so
+121:28 let me run it and then I'm going to be
+121:30 explain you the other method so first is
+121:32 AI system which is taking an input then
+121:35 what we have we have this generate okay
+121:37 after passing into the retrieve node
+121:40 then we have this great document okay so
+121:43 here is my rewriter this is my rewriter
+121:46 and finally this is what this is my
+121:48 workflow so inside the workflow actually
+121:50 you can see we have a note okay first
+121:52 node is a a assistant then this is my
+121:54 second node this is a then rewrite node
+121:57 and this is the generate node okay so
+121:59 node are nothing node are the function
+122:01 only so here you can see we have what we
+122:03 have a functions right so let me execute
+122:06 it let me execute this workflow and here
+122:09 you can see each and every functionality
+122:11 we are going to add inside the workow
+122:13 okay each and every note we are going to
+122:14 add on over here now what we have to do
+122:16 we have to add the ages ages is nothing
+122:19 just a functionality okay so let me show
+122:21 you how this ages is going to work right
+122:24 it's very uh simple once I will write it
+122:27 down you will get the clearcut idea
+122:29 right so here guys uh what is required
+122:33 just a second let me put the ages also
+122:37 so first age actually is going to be
+122:39 start from this start node okay that's
+122:42 going through the AI assistant this is
+122:44 my AI assistant and here we need to keep
+122:46 the name the name basically which we are
+122:48 providing over here so we have to uh
+122:52 like connect this start and this AI
+122:55 system now here you will find out if you
+122:57 will look at the architecture we have a
+122:59 conditional statement now conditional
+123:01 statement means what whether we have to
+123:03 call the tool or we have to end the
+123:04 process okay so here what I'll be doing
+123:07 I going to
+123:08 be Define the conditional statement so
+123:11 let me take this AI assistant so from
+123:13 this AI assistant actually we are going
+123:15 to be connect either to end or to the
+123:17 tool okay so how we are going to do that
+123:20 so here actually we'll be having method
+123:23 this is a predefined method actually
+123:25 already has been defined inside the Lang
+123:27 graph classes so the method name is what
+123:29 tool condition this one tool condition
+123:32 now this tool condition actually is
+123:33 going to be decided so we have two ways
+123:35 so the first way is what first way is
+123:37 nothing it's a retrieve okay and the
+123:40 second way is what second way is a end
+123:42 so this is a conditional Edge guys see I
+123:44 think so now you will be able to get so
+123:46 from the AI assistant either I need to
+123:48 connect to this retriever okay that is
+123:51 nothing that's my tool or I need to end
+123:53 the process okay from this a system
+123:56 either I need to connect with the
+123:57 retriever or I need to end the process
+123:59 how it's going to be decided it's going
+124:01 to be deigned using this tool condition
+124:03 this is my function right so let me add
+124:06 this conditional ages I think so it is
+124:07 fine now let me add the other ages as
+124:09 well now we have to proceed further from
+124:12 this tools if I'm coming to the toool
+124:14 part this toool part so how we are going
+124:16 to be processed from here okay so this
+124:18 is going to be very simple again so
+124:20 let's say if we are coming to the
+124:22 retriever so let me add on one more
+124:24 conditional as over here so let's say we
+124:26 are coming to the Retriever and let's
+124:28 say this is my Retriever and from this
+124:31 this retriever okay what I have to do I
+124:33 have to check whether my retrieve
+124:35 document is correct or not okay so here
+124:37 what I'll be passing I'll be passing my
+124:39 function name what is my function name
+124:41 grade document okay so here is my
+124:43 function name grade document and then
+124:45 either I need to go to the rewriter or I
+124:47 need to go to the generator so here let
+124:49 me do one thing let me mention about it
+124:52 so here is what here is my either is a
+124:54 rewriter or either is a generator so you
+124:56 can see the dotted line over here so
+124:58 where we are going so if you will look
+124:60 over here inside this particular diagram
+125:02 so you will get so either from the
+125:04 retriever okay just a second so from the
+125:07 retriever we are going to the riter or
+125:09 else we are going to the generator again
+125:11 we have given the conditional statement
+125:13 and how we are going to decide that we
+125:14 are going to decide using this gr
+125:16 document okay this is the functionality
+125:18 we have now we are what we are going to
+125:19 do here we are going to be add one more
+125:23 Edge okay so we are going to be add one
+125:25 more Edge so let's say if we are if we
+125:27 came to this generator so from this
+125:29 generator actually we have to end the
+125:30 process so this is my Edge this is the
+125:33 simple Edge okay so see what we have
+125:35 added we have added one more Edge this
+125:37 is my last Edge this one from the
+125:38 generate we have to end the process or
+125:40 else we have to again connect to the AI
+125:43 system from the reite so we'll have to
+125:45 add one more ed over here okay so here
+125:48 we are going to be add one more Edge and
+125:50 this is going to be a pretty simple this
+125:52 one guys so likewise we are going to be
+125:55 orchestrate our entire workflow so let
+125:57 me run it this one let me run it this
+125:59 one let me compile it this my
+126:01 application and I hope so this is fine
+126:04 found add edge ending at the unknown e
+126:07 assistant okay let me write the correct
+126:09 name I think so my name was something
+126:11 else it was the AI assistant okay sorry
+126:15 I did a mistake over here uh great great
+126:18 great everything is perfect let me
+126:20 reassign it okay great this is fine this
+126:22 is fine this is fine this is fine and
+126:24 now we are able to compile now if you
+126:26 want to visualize this application okay
+126:29 if you want to visualize this
+126:30 application it is pretty straightforward
+126:31 code so here is what here I'm going to
+126:34 be call this app okay so app. G gra so
+126:38 once I will call this particular method
+126:40 on top of this application you will be
+126:41 getting the complete flow okay so see
+126:44 guys the same workflow actually we have
+126:46 implemented over here and I hope so it
+126:48 is pretty much clear to all of you so I
+126:51 hope so guys I'm assuming this is clear
+126:54 now once I will give the input input to
+126:56 this application it's going to work
+126:58 accordingly but first of all tell me how
+127:00 much you got it in percentage I would
+127:02 like to know iside the chat tell
+127:05 me I will be explaining you one more
+127:08 time I will give you a quick recap this
+127:09 thing is not easy uh I would say it's a
+127:12 pretty comp not that much complicated
+127:14 but yeah again again and again you will
+127:16 have to look into it then only you can
+127:18 understand in a better
+127:19 way so let's do one thing let me give
+127:22 you the code and let's take a pause for
+127:24 the 2 minute just a
+127:27 second so get add do get commit ion
+127:32 M code updated with complete Ed FL okay
+127:39 and here I'm going to push it push
+127:47 origin okay so guys I given you the code
+127:49 you can check out with the GitHub link
+127:51 again I'm p if you are new to this chat
+127:53 then definitely you can get
+127:58 it and please give me a quick
+128:00 confirmation how much you got it from
+128:02 this session so far and based on that I
+128:04 can
+128:07 proceed and now our final work is
+128:09 nothing we just need to add this
+128:11 workflow and we'll be done okay so tell
+128:15 me guys how much you got it uh did you
+128:17 understand the entire thing or
+128:19 not did you understand the entire flow
+128:23 the time out condition somewhere in the
+128:25 code so that you don't have end up with
+128:26 a finite L with a greater always think
+128:28 talks are relevant correct your
+128:30 understanding is correct
+128:32 Michael tell me tell me tell me guys did
+128:35 you understand and then I will explain
+128:37 the rest of the function and maybe with
+128:39 that you will be able to get it okay
+128:41 according to this edges only I'm going
+128:43 to assign each and everything okay
+128:45 according to this edges only I'm going
+128:46 to assign each and everything but first
+128:48 of all tell me if it is clear you can
+128:50 let me know and and then I can proceed
+129:01 further I didn't understand the specific
+129:04 word time out with respect to what you
+129:06 are asking
+129:08 Michael it's a tool condition not a time
+129:11 out condition tool condition I'll show
+129:14 you that particular method as well don't
+129:17 worry diagram seems clear okay great so
+129:22 tell me guys come again please uh you
+129:24 can let me know inside the chat if this
+129:26 diagram and this code is getting clear
+129:28 so that I can proceed
+129:37 for give me a moment within a like
+129:40 within 5 minute only I'll try to
+129:41 conclude it
+130:06 okay no response means many people
+130:08 didn't get it so that what you have to
+130:10 do guys tell me you have to be practice
+130:12 with it okay what uh prevents you from
+130:16 just going around forever between the
+130:17 rewrite and the the case the yes coming
+130:20 to that Michael with that that I think
+130:22 with the final explanation your all the
+130:24 talks will be clarified okay so let's
+130:26 trace the entire workflow so here is my
+130:29 all the functional my first function is
+130:31 a assistant my second function or my
+130:33 second no is a retriever node okay which
+130:36 I created using the vector database this
+130:39 is my rewriter and this is my generator
+130:43 right now first is what we are going to
+130:45 be start from the AI assistant so the
+130:47 first place we should have a assistant
+130:49 okay so we already have this AI
+130:52 assistant here you can see this
+130:54 one understood guys and what this AI
+130:57 assistant is doing it's just taking a
+130:59 tool and it's going to be convert our
+131:01 simple llm to the llm with tool okay
+131:05 then what is the next thing here so here
+131:07 guys we are going to make a decision so
+131:09 where I need to go should I go to the
+131:12 retriever right should I go to the
+131:15 retriever node or I need to end the
+131:17 process based on the query getting my
+131:20 point so what will come over here see
+131:22 this retriever tool node which I written
+131:24 over here what I can do I can keep it
+131:27 after the AI assistant okay so you will
+131:30 get a clearcut understanding that what
+131:32 I'm trying to do see here we have a a
+131:34 assistant now either I need to go to
+131:37 this retrieve tool retrieve node or I
+131:39 need to end the process okay that I'll
+131:41 be deciding based on the given query
+131:43 means llm is going to be decided so till
+131:46 here everything is fine everything is
+131:47 clear now coming to the next part after
+131:51 retriever we have again two pro two
+131:53 choices either I have to rewrite the
+131:55 query or I have to generate it but how
+131:57 we going to decide it using this great
+131:59 document so let me explain you what we
+132:01 have inside the grade document okay so
+132:04 this is my grade document this will come
+132:06 after what this will come after this
+132:08 rewrite retrieve note okay so here what
+132:11 we are getting see let's say we are
+132:13 getting a query okay so we are getting a
+132:17 query this is my query this is my
+132:18 message this a message actually I'm
+132:20 going to be collect from here
+132:22 I defined one prompt and inside the
+132:24 prompt actually I'm asking tell me uh
+132:27 what is the response okay what do you
+132:28 think the actually the answer we are
+132:31 getting from the retriever it is
+132:32 relevant or not okay and here I'm
+132:35 getting that particular answer if it is
+132:38 if it is saying yes it is relevant I'm
+132:40 giving this generator if it is saying it
+132:42 is not relevant I'm just going to be
+132:43 written this reite that's it nothing
+132:46 okay so first is generate and the second
+132:50 is what second is a rewrite here is what
+132:52 here we have a rewriter so everything I
+132:54 have added in a sequence only so this is
+132:56 my gr document this is my generate this
+132:57 my rewriter this is my all the noes and
+133:00 here is my first conditional statement
+133:02 this my second conditional statement now
+133:04 if it is going to generate the output
+133:05 then finally I will end the process so
+133:07 here is my end process if it is going to
+133:09 be rewrite then again I have to go to
+133:11 the aist okay now you can look into the
+133:13 rewrite also what we have inside the
+133:15 rewrite so if you will look into the
+133:17 rewrite you will find out we are going
+133:19 to be fetch the message after the
+133:22 message this is what this is my prompt
+133:23 okay I'm saying okay this is my question
+133:25 then do one thing try to reformulate the
+133:28 question okay try to understand the
+133:30 context of the question and again pass
+133:31 it to the llm so that llm can understand
+133:34 the question in a better way that's my
+133:36 simple transformation you can use your
+133:39 own transformation over here got it now
+133:41 I'm able to run it and now see this is
+133:44 the entire flow which I'm able to do
+133:46 here I'm going to compile and finally
+133:49 this is what this is my diagram if I'm
+133:51 to ask any sort of a question so let's
+133:53 try to ask a question from this data
+133:54 itself okay I think I already shown you
+133:57 the data this is the block so let's try
+133:59 to take a question based on the
+134:01 autonomous agent so here I'm going to be
+134:03 asked the question what is a
+134:07 auto nous
+134:10 agent okay I think that spelling is
+134:12 correct or what I believe it is correct
+134:15 let me take the spelling and here I'm
+134:18 going to paste it inside my question so
+134:21 this is the question guys and I believe
+134:23 uh it's going to it's it will be working
+134:25 fine if everything is perfect now this
+134:28 is my question and let's see what is
+134:30 happening so it is saying expector got a
+134:33 autonomous agent expected dict okay
+134:36 sorry sorry sorry guys here what I need
+134:38 to do I need to pass that data in a see
+134:41 here also again there's a learning I
+134:44 told you how we are going to invoke this
+134:46 method how we are going to pass the
+134:48 input to this method we are going to
+134:49 pass in this particular format
+134:52 in the uh in this particular format okay
+134:54 this this this this agent State we have
+134:56 defined so it should be message okay
+134:58 there should be a message and the type
+135:00 of the message is nothing it's a list
+135:02 list of messages so here this is going
+135:05 to be a key and this is my list of
+135:08 messages I can add on as many as
+135:10 messages okay so this is my message now
+135:13 this thing actually I need to keep it
+135:15 inside where inside the dictionary so I
+135:18 hope everything is perfect here let me
+135:21 keep
+135:21 as a message and this is perfect if I'm
+135:25 going to be invoke it now it is saying
+135:27 agent
+135:28 State takes no argument okay let me
+135:32 check what is the issue
+135:33 now so agent State don't take any sort
+135:38 of argument maybe I make some mistake
+135:46 somewhere
+135:48 State okay this is fine
+135:53 this is capital S correct okay this is
+135:56 fine this is also perfect let me check
+135:58 it
+135:59 out state is going to be a agent State
+136:03 okay
+136:05 perfect this is going to be agent
+136:08 State
+136:10 perfect here this is going to be agent
+136:16 estate this is also
+136:18 perfect and finally we have a ag State
+136:22 here
+136:25 also okay so this is also going to be a
+136:28 perfect everything seems fine let's see
+136:31 whether we are able to call it or
+136:35 not it Tak no argument guys let me check
+136:38 out one more
+136:41 time what is
+136:47 iue s a g s
+136:59 app is perfect
+137:08 okay okay agent State don't take any
+137:15 argument just a second guys let me check
+137:17 out the code
+137:22 maybe I made a mistake in between uh
+137:25 which I'm not able to
+137:38 redict okay great so this is the issue
+137:41 here I need to import one class the
+137:44 class name is type detect okay I need to
+137:47 import this parent class sorry sorry
+137:48 it's my bad now everything seems fine
+137:52 perfect perfect perfect great adding
+137:54 adding adding now let's see yes guys so
+137:58 see what is happening it is calling to
+138:01 the agent it is saying document is
+138:03 relevant whatever document is being
+138:05 generated with respect to this question
+138:07 then finally it is generating answer and
+138:09 here you can see this is answer okay if
+138:11 I want to petch the answer I'll be
+138:12 patching it from here so whatever
+138:14 question you are going to be asked let's
+138:16 say you are going to be asked the
+138:17 question with respect to the pr okay
+138:21 what is a promt engineering now guys
+138:24 tell me this particular question was
+138:26 there inside the data okay on means like
+138:30 I have created a rag on top of this data
+138:32 now okay if you will look into the data
+138:34 the data actually is related to the
+138:36 agent and prompting so if I'm going to
+138:37 be ask a question with respect to the
+138:39 prompting agenting and all definitely
+138:41 it's going to be relevant with respect
+138:43 to this particular data okay so let's
+138:45 see what I'm going to do here now I'm
+138:46 going to be R it so here I'm going to be
+138:49 ask the question what is a prompt
+138:50 engineering so if I'm going to be invoke
+138:52 it see it is calling to the agent it is
+138:54 saying document are relevant it is going
+138:56 to be generate answer and here you can
+138:57 see this is my final answer so did you
+138:60 understand the complete flow guys with
+139:02 respect to the question which is
+139:03 directly related to the data and here it
+139:05 is directly and here it is coming to me
+139:08 see document seems relevant whatever
+139:11 document is being retrieved using this
+139:13 particular question it it is relevant
+139:15 question it is relevant document and
+139:18 then it is finally generating answer so
+139:20 tell me guys did you understand uh with
+139:22 the right question the entire flow yes
+139:26 or no I'm just waiting for your replies
+139:30 if you will give it to me uh if you'll
+139:31 write into the chat I think that would
+139:33 be great and this type of like project
+139:37 okay you can take any real time use case
+139:38 and real time data and you can mention
+139:40 inside your resume also okay you can
+139:43 mention the same projects and all
+139:44 everything inside your resume as
+139:48 well yes sir why last is a human message
+139:52 see this is a final message now this one
+139:55 which I'm getting from the generate this
+139:58 one okay if you will look into the
+140:01 generate
+140:02 so here here here
+140:05 here great document then see generate so
+140:09 fin how we are getting a final message
+140:11 tell me it's generated from the llm only
+140:14 and we are passing question and all
+140:17 everything to this particular message
+140:19 means what we are getting see we are we
+140:22 are passing it to where we we are
+140:24 passing this particular response again
+140:26 to the like we are passing this
+140:29 particular response again as a agent
+140:30 sorry again as a state okay so this is
+140:33 the final State final State here you can
+140:36 see this
+140:38 one this
+140:40 one getting my point yes or no final
+140:44 generated answer this one so first it is
+140:48 this is my final this is my question
+140:49 then it is being asked pass to the AI
+140:51 agent then it is calling to the tool if
+140:53 it is finding out it is relevant and all
+140:55 then it is passing it to the generated
+140:57 content and then we are getting this
+140:60 answer okay now if if you're going to
+141:02 ask any sort of a question which is a
+141:04 irrelevant question so let's try to ask
+141:05 a question which is irrelevant so which
+141:08 is IR relevant to that particular data
+141:09 so I can ask any question let's say who
+141:12 is a current prime
+141:17 minister minister of India okay so this
+141:21 is my question which I'm asking now
+141:23 let's see see it is calling the agent
+141:25 now it is telling to me see what is
+141:26 telling to me he is telling to me call
+141:28 agent document seems It's not a relevant
+141:31 one it's transforming a query then again
+141:33 calling to the agent okay so this is my
+141:35 human message then it's a AI message
+141:37 then it's a tool message okay which is
+141:40 not a relevant one then it's a AI
+141:42 message means it's going to be transform
+141:43 the query but here you can see it's
+141:45 going to be stop this one okay so maybe
+141:48 we'll have to be uh use the good prompt
+141:50 over here inside the AI agent okay we'll
+141:53 have to give the specific specific
+141:55 content okay for generating a final data
+141:57 see everything is working in the flow
+141:59 calling agent document not not relevant
+142:03 then transforming the query then again
+142:04 calling to the agent see even though we
+142:06 are not getting a final answer from the
+142:09 AI from the AI this one from the AI
+142:13 model why because we are calling the
+142:15 tool so maybe it is moving into that
+142:17 direction but yes I can make a logic
+142:19 over here for generating a final answer
+142:20 that is not a for me but here you can
+142:22 see everything is working in the
+142:23 sequence only so if the question is
+142:26 relevant to the document it is giving
+142:28 the final answer if the document so and
+142:31 here why we are getting as a human
+142:33 message one more thing I would like to
+142:34 highlight sorry I forgot if you will
+142:36 look into the class uh this one is State
+142:39 okay so agent is state which I have
+142:40 defined so see this is what sequence of
+142:44 what sequence of the base messages okay
+142:45 which we are going to annotate and here
+142:47 we have a like we can add on like lots
+142:50 of messages so U as many as messages
+142:53 actually we can add on over here so this
+142:54 is the final State basically we are
+142:55 getting with respect to my answer
+142:58 getting my point yes or no and this we
+142:60 are getting from where from this
+143:02 generation itself okay from this
+143:05 particular method see agent it is taking
+143:07 message it's taking a question last
+143:09 message document and all everything here
+143:11 we have a prompt and if you will look
+143:13 through the prompt guys this we are
+143:15 getting from where from the L and hub
+143:17 okay so let me show you this particular
+143:19 promt as well how it looks like so on
+143:23 top of this prompt actually I'm passing
+143:24 this pretty print so pretty print p r e
+143:28 pretty print now here you will see this
+143:31 is a prompt actually we are passing okay
+143:34 so question context and here according
+143:37 to the prompt actually I'm getting my
+143:38 final answer okay this one but this
+143:41 prompt basically is being mentioned
+143:43 inside this generate method and this is
+143:45 the reaction basically we are going to
+143:47 be defined document question everything
+143:49 is there and Final resp response I hope
+143:51 so guys this entire thing is clear to
+143:53 all of you do you like it do you like
+143:55 the session did you understand this
+143:57 agent grag tell me yes or no you can
+144:01 test it out with a different different
+144:02 question and you can check whether it's
+144:04 going to be generate or not whether it's
+144:06 going to be working a same flow or not
+144:09 tell me let me give you the final code
+144:11 let me push into the GitHub so get add
+144:16 Dot and here get commit hph M uh code
+144:21 update okay then here I can push it get
+144:24 push
+144:25 origin
+144:27 M understood I hope so everything is
+144:29 going well and you will get the code
+144:32 from the GitHub itself okay again let me
+144:35 give you the link of this GitHub so that
+144:38 you
+144:41 can download it
+144:46 okay yeah so perfectly fine now what you
+144:50 can do what will be your task your task
+144:52 will be pretty simple you can take any
+144:54 sort of a data from any domain from any
+144:56 problem statement and try to replicate a
+144:58 same flow okay and check whether it's
+145:00 going to working or not right and one
+145:03 more thing I would like to tell you here
+145:05 inside the AI assistant actually you
+145:07 need to Improvement the flow means
+145:09 whenever anything is coming after
+145:11 transforming when let's say whenever
+145:12 query is coming after the transformation
+145:15 so here this e assistant need to make a
+145:17 decision what what it it it needs to be
+145:20 done okay what it has to be like what
+145:23 it's going to be do so you can take a
+145:25 message and then you can like PR that
+145:27 particular message from the state and
+145:30 finally you can pass it to the model mod
+145:33 model itself okay here you can put very
+145:35 basic if else condition whether this
+145:38 like data related word is there or not
+145:40 okay according to that actually is going
+145:42 to take a decision so you can take one
+145:44 this LM LM with tool and one simple llm
+145:47 and based on that you can generate a
+145:48 final response and you can end this
+145:50 process okay after transforming the
+145:52 query this is up to you I'm leaving it
+145:53 up to you how you are going to make a
+145:55 logic over here but rest of the thing is
+145:57 working fine and our code is also
+145:59 working fine so I hope guys you like
+146:02 this session now we are going to
+146:03 conclude it I think I took more than 2
+146:05 hour it's 2 and half hour actually okay
+146:08 we have started the session at 8:00 and
+146:11 but yeah I finished it within one hour
+146:13 itself I think I started 8:30 right so
+146:16 oh it's a 2 hour basically and I believe
+146:19 you like the session you can create a
+146:21 like very good project on top of this
+146:23 particular flow and you can mention
+146:24 inside your resume as well and I think
+146:27 most of the doubt has been clarified by
+146:28 the myang itself and if you have any
+146:31 sort of a doubt you can ask to me
+146:33 directly you can ping it to my Linkin
+146:34 you can ping over my LinkedIn and yes in
+146:37 the next video and any upcoming video
+146:39 we'll try to create something new okay
+146:41 we'll try to create something end to
+146:43 end so fine uh thank you bye-bye take
+146:46 care now I'm going to end the stream
+146:48 thank you bye-bye thanks

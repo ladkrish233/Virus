@@ -1,0 +1,341 @@
+00:01 hello all my name is kushak and welcome
+00:03 to my YouTube channel so guys in this
+00:04 specific video we are going to create an
+00:06 endtoend rag application with the help
+00:09 of deep seek and this entire deep seek
+00:11 will be specifically installed in our
+00:13 local with the help of AMA I'm also
+00:15 going to use AMA embedding and uh try to
+00:17 show you completely end to end like how
+00:19 the vectors is basically created how you
+00:21 can store that Vector even in your local
+00:23 um and the best part is that the
+00:26 accuracy right when I specifically chat
+00:28 with that rag application it's quite
+00:30 amazing okay so let's go ahead and
+00:33 implement it completely end to end uh
+00:35 step by step I will be showing you with
+00:37 respect to the coding and all uh
+00:39 performance- wise accuracy wise this is
+00:41 really really good uh we are able to get
+00:43 a good result out of it okay so let me
+00:46 quickly share my screen now already if
+00:47 you remember in my previous video I've
+00:49 discussed about how you can run this
+00:51 particular application with the help of
+00:53 uh chatama and all um if you have not
+00:56 seen my previous video I would suggest
+00:57 go ahead and see it uh but now I'm just
+00:59 going to goad and create my rag D so let
+01:02 me first of all hide my face so that
+01:03 your focus is completely on this
+01:06 particular page itself Now quickly what
+01:09 I will do in requirement. txt these are
+01:11 the libraries that I'm actually going to
+01:13 use there is something called as PDF
+01:14 plumber because uh I need to read from a
+01:18 PDF uh and I will try to make that a
+01:20 specific data source okay so quickly
+01:23 let's go ahead and start writing the
+01:25 code so first of all I'm just going to
+01:27 import streamlit as St okay um then
+01:32 since I'm going to use streamlet um
+01:35 since I have already imported or
+01:37 installed PDF plumber so we definitely
+01:40 requireed PDF plumber uh loader right so
+01:44 this will specifically load all the
+01:45 content from a specific PDF okay then um
+01:50 as soon as we probably load this then I
+01:52 have to perform a recursive character
+01:54 text splitter then uh once I perform or
+01:58 take this chunk of data and convert that
+02:00 into an embedding I will store it in a
+02:03 vector store which is called as inmemory
+02:04 Vector store I don't have to be
+02:06 dependent on any third party Vector
+02:08 stores or in any Cloud yes you can also
+02:11 store that in specific Cloud but here
+02:13 I'm just trying to show you an example
+02:15 so here I'm going to use the inmemory
+02:17 vector store now uh along with this what
+02:20 I will actually do is that I will go
+02:22 ahead and write from Lang chenore AMA
+02:24 because before we store inside the
+02:26 inmemory vector store I need to also
+02:29 perform Ama embeddings right so AMA
+02:33 embedding what it will do is that it'll
+02:34 convert that text into vectors so this
+02:36 is just like a embedding which is stored
+02:37 in my local uh I've probably installed
+02:40 AMA in my local itself and we are going
+02:42 to specifically use that okay then I
+02:44 will go ahead and write from olama sorry
+02:47 from Lang chain core do
+02:51 prompts I'm just going to import one
+02:53 more thing which is called as chat promt
+02:55 template okay so chat message uh promt
+02:59 template I will not use but I'll use
+03:00 chart prompt template so that I can
+03:02 actually uh fix up my uh you know some
+03:05 prompts uh one recent thing that I've
+03:08 actually expor in ama which is called as
+03:10 AMA llm okay so before we also used to
+03:12 use chatama so here you'll be able to
+03:15 see that uh we have imported something
+03:18 called as chat AMA this is the new thing
+03:20 that I've actually explored recently so
+03:22 I'll go ahead and write from Lang chain
+03:24 uncore olama do llms import olama l m
+03:30 okay so we going to specifically use
+03:32 this you'll be able to understand and
+03:34 all now uh the next thing that I'm
+03:36 actually going to copy is that again
+03:38 I've used deep seek and I've also
+03:40 created some kind of styling okay so for
+03:43 the styling purpose I've used this
+03:45 entire styling so that uh you know the
+03:47 background actually looks good with
+03:50 respect to the things that we are
+03:51 basically doing like when we creating
+03:53 this entire end to end application then
+03:55 the next part is that I will just go
+03:57 ahead and create my prompt template now
+03:59 inside this promt template
+04:00 this is what I'm actually saying hey you
+04:02 are an expert research assistant use the
+04:04 provided context to answer the query if
+04:06 unsure state that you don't know be
+04:08 concise and factual maximum two three
+04:10 sentences okay so here you'll be having
+04:12 the user query and here you will be
+04:14 basically having the document context
+04:16 since in any rag application that you
+04:18 specifically create you will be having
+04:21 some kind of document context okay now
+04:25 the next thing is that I will go ahead
+04:26 and create this particular folder
+04:28 document store because whenever I
+04:29 specifically upload any PDF it should be
+04:32 available over here right the next thing
+04:34 is that you can also upload this in any
+04:35 kind of cloud platforms or S3 bucket it
+04:38 is up to you but just to make sure that
+04:40 everything works fine I will just go
+04:42 ahead and write this okay so now my PDF
+04:45 storage path so here I'm going to Define
+04:47 some constants this is nothing but
+04:49 document store PDFs okay so this is the
+04:51 path that I'm actually going to do that
+04:53 basically means whenever we try to
+04:54 upload any PDF it should be uploaded
+04:56 over here then you have this embedding
+04:59 model where where we are going to
+05:01 specifically use AMA iddings and the
+05:02 model will be deep seek R1 1.5 billion
+05:05 and if you remember in ama we can
+05:08 directly go ahead and install this right
+05:10 so I have already installed it all you
+05:12 have to do is that go ahead in the
+05:13 command prompt and write AMA run this
+05:16 specific model automatically this will
+05:18 get downloaded okay then uh as I said
+05:21 document uh Vector store DB I'm going to
+05:23 specifically use in memory so I'm going
+05:25 to initialize in memory Vector store and
+05:27 inside this the embedding model will be
+05:28 used nothing but AMA embedding
+05:30 then language model will be AMA llm and
+05:33 I have to just specify my model name
+05:35 that is this specific model okay now
+05:37 let's go ahead and discuss the first
+05:39 path the first path will be that I have
+05:42 to upload the file whenever the file is
+05:44 specifically uploaded we should be able
+05:46 to return that particular file path okay
+05:49 so I will be creating a function which
+05:51 is called as save uploaded file so as
+05:54 soon as I upload the file this will
+05:56 basically be the file path I can open
+05:59 that file path and I we can basically
+06:01 write it okay then I'm returning the
+06:04 file path over here so this is the first
+06:06 thing then we will try to load the PDF
+06:08 documents as soon as we upload a file
+06:10 The Next Step will be that I will try to
+06:12 load a PDF documents if you are
+06:14 following my generative AI playlist guys
+06:16 I think you should be very much familiar
+06:18 with this so here we have this PDF Plum
+06:20 loader and then here you have document
+06:22 loader and we are just writing document
+06:23 loader. load after that what we are
+06:26 basically going to do is that I'm going
+06:28 to basically also add chunk documents so
+06:31 here you have definition chunk documents
+06:33 your raw documents recursive character
+06:35 text plator Chunk size is this and Ive
+06:37 also said that hey go ahead and add the
+06:39 started index is equal to true then we
+06:41 are returning the text processor. split
+06:43 documents on Raw documents whatever raw
+06:45 documents is basically given so this
+06:46 function is basically for our chunking
+06:49 process okay now once we do the chunking
+06:52 the next thing is that we need to
+06:53 convert that into embedding and store it
+06:55 in our inmemory Vector right inmemory
+06:57 Vector document Vector DB Okay so so for
+06:60 that I will just go ahead and create
+07:01 another function where I will write
+07:03 definition index documents I'm going to
+07:06 give the document chunks which is coming
+07:08 from here and it will get added in your
+07:10 document Vector store um DB right this
+07:14 is perfect okay now whenever I hit my
+07:18 document Vector DB it should be able to
+07:21 do the similarity search and it should
+07:22 be able to get the context right so for
+07:25 that I will create another function
+07:27 because we need to just link this
+07:28 specific function see guys if you're
+07:30 following my generative AI playlist
+07:32 already I have been explaining all these
+07:34 things right so that is the reason I'm
+07:36 writing copying and pasting the function
+07:37 over here so here I have created a
+07:39 function which is called as function
+07:41 find related documents then it is just
+07:43 going to return the document Vector DB
+07:46 do similar similarity search which is
+07:48 nothing but it is using a cosine
+07:49 similarity okay and finally we basically
+07:54 also once I probably get this particular
+07:56 context the next thing is that I will
+07:58 just go ahead and make sure to do the
+07:60 chaining and all and get this now see
+08:02 here I have aun create function which is
+08:04 called as definition uh generate answer
+08:08 okay so here we give a user query
+08:11 context documents right so we are
+08:13 joining all the context documents and
+08:14 this context documents will probably
+08:16 come from this particular function right
+08:18 then we have created a chat prompt
+08:19 template with the prompt template then
+08:21 this is chaining where we have used
+08:22 conversational prompt and Lang chain
+08:25 model okay and then we are doing
+08:27 response chain. invoke with the user
+08:30 query and the context text right that's
+08:32 it so this is the beautiful thing about
+08:34 this now let me quickly go ahead and add
+08:37 some UI configuration okay so this is my
+08:39 generate answer now you see how it'll be
+08:41 basically getting linked okay so here I
+08:43 have my uploaded PDF HTF file loader
+08:47 select a PDF document for analysis you
+08:49 can also um make it true if you want to
+08:52 give multiple PDFs but here just for an
+08:54 example I have made it false okay and
+08:57 finally let's do one thing let's ask as
+08:60 soon as we upload any PDF these all
+09:02 functions whatever we have created right
+09:05 that should get executed okay so here
+09:09 first of all if uploaded PDF then first
+09:11 of all we will go ahead and save the
+09:13 uploaded PDF file right save uploaded
+09:15 PDF file basically means this that
+09:17 basically means inside this particular
+09:18 folder it will get saved then the next
+09:21 step will be load PDF documents right
+09:24 then chunk documents then index
+09:26 documents so this is done till the
+09:27 vector database okay now user when it
+09:30 puts an user message so if the user
+09:32 input is there it'll just go ahead and
+09:34 write this then it'll analyze the
+09:35 document it'll find the related
+09:37 documents to get the context and then it
+09:39 will generate the answer which is
+09:40 interacting with the llm and finally
+09:42 that will get probably displayed in
+09:44 front of it right so this is the entire
+09:47 thing here we are specifically using uh
+09:49 this particular llm model that is the ol
+09:52 llm model with the deeps R1 1.5 billion
+09:55 right now the next thing is that I will
+09:57 just go ahead and try to execute it okay
+09:60 now this will be interesting you see the
+10:02 thing it is completely open source open
+10:04 source basically means in my local no
+10:05 data is basically being shared you know
+10:08 and we'll try to do this so first of all
+10:10 I will just go ahead and write cond
+10:11 activate
+10:12 VNV okay then uh I will just go ahead
+10:16 and write
+10:16 streamlit
+10:18 Run ragor
+10:21 deep. py Okay so let's this gets
+10:25 executed okay and uh till then
+10:30 I will also show my
+10:32 face and this is what it is basically
+10:34 getting
+10:35 loaded the best part is that guys I do
+10:38 not have to probably do anything in this
+10:41 right so now let's uh go over here and
+10:43 click on the browse file let's see okay
+10:46 here I have uploaded one PDF so this is
+10:48 the recent batch that we are coming up
+10:50 with the ultimate data science and gen
+10:52 boot cam. PDF um and uh for this
+10:56 particular batch here we are teaching
+10:57 data science and all and this is the
+10:59 course syllabus now see as soon as it
+11:01 uploaded uh the AMA embedding started
+11:03 working and now I can probably go ahead
+11:05 and ask any question so I will go ahead
+11:07 and write what is the
+11:11 prerequisites prerequisites I'll just
+11:13 ask this particular question so in that
+11:15 particular syllabus we have written some
+11:17 kind of prerequisits I think we should
+11:18 be able to get the answer okay and if uh
+11:22 see what are the prerequisits analyzing
+11:25 documents see that analyzing documents
+11:27 things is basically running over here
+11:29 and then then it should be able to give
+11:31 me the answer
+11:32 see okay so I need to figure out this
+11:34 this this this this okay or I'll ask
+11:37 still more question provide me the
+11:40 detailed
+11:43 syllabus provide me the detailed
+11:45 syllabus so this has actually become my
+11:47 data source and it is being able to
+11:49 provide me any kind of answers that I
+11:50 require right so here you have this
+11:53 entire thing you can also add chat
+11:55 history it is up to you okay so here I
+11:58 need to figure out this this
+11:59 objectoriented overview all these
+12:02 things okay so I'll write can you
+12:06 summarize the entire curriculum this is
+12:11 really good the performance wise I I
+12:13 don't mean performance but the accuracy
+12:15 wise the kind of content as soon as we
+12:18 I'm writing any answers it is being able
+12:20 to probably provide you the entire
+12:21 details that is the best thing right so
+12:24 I've given this name as document docum
+12:26 mind uh AI okay so here model8 is the
+12:29 foundation of this the ultimate data
+12:31 science includes projects on deep
+12:32 learning with neural network gen Vector
+12:34 database everything is there so I hope
+12:37 you like this particular video uh this
+12:38 was it for my side I will see you all in
+12:40 the next video all the content all the
+12:42 code will be given in the description of
+12:44 this particular video thank you have a
+12:45 great day bye-bye take care

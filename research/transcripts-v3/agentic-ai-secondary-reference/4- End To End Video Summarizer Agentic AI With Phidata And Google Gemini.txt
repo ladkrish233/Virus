@@ -1,0 +1,410 @@
+00:01 hello all my name is krishak and welcome
+00:03 to my YouTube channel so guys yet
+00:05 another amazing video for agentic AI in
+00:09 this specific video we will try to
+00:11 create a video summarization application
+00:14 agentic AI application and here we are
+00:16 going to specifically use a new model
+00:18 that is called as Google Gemini right
+00:20 and I hope everybody knows about Google
+00:22 gemin model so we will try to build it
+00:25 completely end to end uh step by step
+00:27 we'll be going ahead as usual I'll keep
+00:30 the there's some targets for all this
+00:32 agent Ki videos that are coming in this
+00:34 specific Channel at least minimum th000
+00:37 likes along with that we will also
+00:38 Target it for 200 comments so please
+00:40 make sure that you leave your lovely
+00:42 comments and make sure that you like
+00:43 this particular video and definitely
+00:45 share with many of your friends now
+00:47 before I go ahead I really want to go
+00:49 ahead and share my screen we were
+00:51 discussing about F data uh I will take
+00:53 up one more project and we'll start
+00:55 working on this and here uh we will be
+00:57 talking about a video summar some as I
+00:60 told F data already provides you some
+01:02 amazing models so one of the model that
+01:04 we are going to use is uh Gemini AI
+01:07 Studio okay so we will be using this
+01:08 Google aior key uh we will create it and
+01:12 then we will use it now before I go
+01:14 ahead guys quickly I would like to make
+01:17 a quick announcement we are coming up
+01:19 with this amazing life building agentic
+01:22 Ai and gen generative AI application
+01:24 with Cloud platform boot camp and if you
+01:27 have not seen it please make sure that
+01:29 you go ahead in the descript description
+01:30 you can go ahead and check out the
+01:31 particular course so here you'll be able
+01:33 to see the course info I will be
+01:35 providing this link um the class is
+01:37 going to start from January 25th the
+01:39 timing will be 3:00 p.m. to 600 p.m. IST
+01:41 Saturday and Sunday and the price of the
+01:43 course is somewhere around 4500 rupees
+01:45 INR and here we are going to cover both
+01:48 agentic Ai and generative AI application
+01:50 with Cloud boot camp right like with
+01:52 Cloud platform we'll be covering how to
+01:54 build generative application in AWS gcp
+01:56 how to perform fine tuning and many more
+01:58 things the mentors of this particular
+01:60 course will be Paul M Kish and sunny
+02:03 okay so all these people will be there
+02:04 and we'll be there to help you out now
+02:06 let's quickly go ahead and start working
+02:08 on this particular application as I said
+02:10 the first thing that we are going to do
+02:11 is that first of all we need to get the
+02:13 Google API key right now in order to get
+02:15 the Google API key you have to go to
+02:17 Google AI studio and once you probably
+02:20 go over here you can click on get API
+02:21 key okay and you can create your own API
+02:25 key over here right you can just go
+02:26 ahead and click click on this and you
+02:28 can create it I've already uploaded many
+02:30 many projects related to Google gin
+02:32 already in my YouTube channel I have
+02:33 shown it right so I have taken already
+02:35 the API key now let's start coding on
+02:38 our like use case uh that we really want
+02:41 to work on so here I have created a
+02:43 folder which is called as video
+02:44 summarizer now let me quickly go ahead
+02:46 and create my file that is called as
+02:48 app.py as I said the application that we
+02:52 are going to specifically develop is
+02:54 something called as video summarizer
+02:56 that basically means we will upload a
+02:57 video and with the help of that
+02:59 particular video we'll just go ahead and
+03:00 analyze and ask any kind of questions
+03:03 that we want from that agentic AI
+03:06 application so quickly let me first of
+03:08 all hide my face so that you focus on
+03:10 the coding so uh over here we going to
+03:12 probably use streamlet so for import
+03:14 streamlet as St and I have already
+03:18 imported
+03:19 streamlet and this is my requirement.
+03:21 txt if you want to probably go ahead and
+03:23 see it so this is my requirement. txt
+03:26 here I'm going to use stream late F data
+03:28 Google generative AI open Ai and dougd
+03:31 go search so here I have also removed
+03:33 open AI because since we are working
+03:34 with Google generative AI but uh if you
+03:36 just have this four libraries it will be
+03:38 more than sufficient okay so let's go
+03:40 ahead and start coding so here first of
+03:43 all we are going to import our streamlet
+03:46 and along with streamlet we are also
+03:48 going to use our f. agent so here you'll
+03:50 be getting a clear idea right how you
+03:52 can specifically work with agents and
+03:54 all and since we working with a use kiss
+03:56 that is related to video summarizer
+03:58 right so here I'm going to write from f.
+04:01 agent import import agent itself and uh
+04:07 this should be capital A I don't know
+04:09 why it is basically coming as all the
+04:11 time when I go ahead and write it it
+04:13 comes as uh capital a uh small a then
+04:17 from f.
+04:20 model. Google I'm going to go ahead and
+04:22 import Gemini okay so we will be using
+04:27 Gemini okay uh uh so after importing
+04:31 Gemini uh I uh I'm also going to provide
+04:34 some features that are related to dougd
+04:36 go search so quickly I will go ahead and
+04:38 write from f.
+04:41 tools
+04:43 dot
+04:45 D.O I will go ahead and
+04:48 import Doug du go right so this is the
+04:51 another library that we are going to
+04:52 specifically use I'm just saying that
+04:54 hey uh when I'm talking about agentic AI
+04:57 I should probably integrate them with
+04:59 some kind of tools right so dougd go
+05:01 will be doing some kind of web search so
+05:03 if I write any question related to um a
+05:06 specific video to probably analyze and
+05:08 do also web search it will be able to do
+05:10 it okay um then I will go ahead and go
+05:13 ahead and import from google. Genera a
+05:16 uh we going to import two files uh one
+05:19 is upload file and uh the reason we are
+05:23 going to upload this file and uh there
+05:25 is also something called as get file I
+05:26 will talk about it as we go ahead okay
+05:29 then I'm going to go ahead and import
+05:31 time then from path
+05:35 lib from path lib I'm going to
+05:39 import path okay so this is also done
+05:44 okay uh the next thing what I'm actually
+05:46 going to do is that I'm also going to
+05:48 create a temporary file so that once I
+05:50 upload a video I should be able to load
+05:52 it over there right uh along with this
+05:54 from EnV I'm going to import load. EnV I
+05:59 will go ahead and initial s load. EnV
+06:01 and I'll also go ahead and do this the
+06:03 reason why I'm doing this is that I
+06:05 should be able to get my API Cas right
+06:08 um so I will go ahead and first of all
+06:10 create my API key itself so quickly I
+06:13 will open my EnV
+06:17 file uh Google API key I think I've
+06:21 saved the API key in my notebook let me
+06:24 quickly go ahead and paste it over here
+06:27 okay don't use my API at least okay
+06:30 anyhow I usually delete all the API Keys
+06:34 once I probably upload a video right
+06:37 then uh now what we are basically going
+06:39 to do is
+06:41 that I will have my API key so let's get
+06:44 the API key so AP key is equal to os.
+06:48 getv okay and here I'm going to go ahead
+06:51 and use
+06:54 my uh Google uncore API uncore key okay
+06:59 so we trying to get the API key from
+07:01 here by using this os. getv right then
+07:06 uh if I get the API key I'll put a
+07:09 condition saying that hey let's go ahead
+07:10 and set it to gen dot oh I've not
+07:14 imported gen
+07:16 so I will just say import Google
+07:21 do generative AI as gen okay so I will
+07:27 just go ahead and configure this
+07:30 uh API key so here I will go ahead and
+07:32 write API uncore key is equal to API key
+07:36 right so I'm just going to set up this
+07:38 particular API key now uh the remaining
+07:41 things that we are done doing is
+07:43 basically we need to set up a streamlet
+07:46 app right so first of all let's go ahead
+07:48 and set up some basic page configuration
+07:51 and all so here I will just go ahead and
+07:53 write and here I'm going to use a model
+07:55 which is called as gini 2.0 flash right
+07:58 so I'm going to set up a page config
+07:60 where I'll say multimodel AI agent I'll
+08:03 write I'm your video summarizer okay uh
+08:08 page icon this I've taken it from Google
+08:10 layout wide sty uh sd. tial will be
+08:15 multimodel
+08:16 video AI summarizer agent okay so I'm
+08:21 just going to go ahead and write this
+08:22 powered by gin 2.0 flash uh experience
+08:26 right now it's time that we start go uh
+08:29 go ahead and create our uh agent right
+08:32 so I will go ahead and write St do
+08:35 catore resource and here I will be going
+08:39 and creating a function which will be
+08:40 nothing
+08:42 but I'll go ahead and write initialize
+08:44 uncore agent okay uh this will be a
+08:48 function and here I'm going to just go
+08:49 ahead and initialize it so I'm going to
+08:51 return
+08:53 agent which we have already imported
+08:56 first of all we'll go ahead and give the
+08:57 name I will write video AI
+09:01 summarizer
+09:03 sum
+09:05 summarizer okay and then I have my
+09:09 model so model will be nothing but I
+09:12 will go ahead and use Gemini Gemini here
+09:15 I'm going to use the ID is equal
+09:17 to
+09:19 Gemini
+09:20 2.0 flash exp okay so this is one of the
+09:24 model that we have in Gemini and how do
+09:27 I get it you can probably go ahead and
+09:29 explore it from
+09:30 here so quickly so here you'll be able
+09:33 to see like flash 8B experimental all
+09:36 different different models are there
+09:38 whichever you want to use it you can
+09:39 specifically use it okay but uh for my
+09:42 instance I'm just going to go ahead and
+09:43 use this one which I have actually
+09:45 written okay then uh my initialization
+09:49 of the agent is basically done uh the
+09:51 markdown is equal to true I have to
+09:53 probably also integrate some AI tool
+09:55 sorry some dougd go search tool also
+09:57 right over here so quickly let me write
+10:00 comma and here I'm going to specifically
+10:02 use tools and this will be a list of
+10:05 tool let's say my dug duug go tool which
+10:08 we are going to initialize it over here
+10:10 and then I'm going to go ahead and set
+10:13 markdown is equal to True okay
+10:17 perfect done now let's go ahead and
+10:23 initialize the agent
+10:26 okay I'll go ahead and create my
+10:28 multimodel agent
+10:32 or let me
+10:34 call my
+10:36 multi model underscore agent is equal to
+10:40 I will just call my function which is
+10:41 called as initialize agent so once I
+10:43 initialize this uh my agent will be
+10:46 there now I'm just going to go ahead and
+10:48 make sure to create a file uploader so
+10:50 quickly let's go ahead and copy and
+10:52 paste it so it'll be nothing but vcore
+10:55 file file uploader st. file uploader we
+10:57 can upload an mp4 file mov V and uh help
+11:01 upload a video for AI analysis okay and
+11:04 then I will also show you some code
+11:06 wherein I will be giving some user query
+11:09 along with that we will also create an
+11:11 analyze button so this will be really
+11:14 simple I probably don't have to explain
+11:17 the markdown and all because it'll be of
+11:20 no use the main aim is basically to
+11:23 create the agent okay so here uh if you
+11:26 see over here uh multimodel agent okay
+11:29 now worries I will copy and paste it so
+11:31 I've copied and pasted some code over
+11:33 here which you can probably see it so
+11:35 what we are doing is that uh if there is
+11:37 a video file if you're uploading a video
+11:39 file we will go ahead and write that
+11:41 particular video file then this sd.
+11:43 video file will get displayed below we
+11:45 have our user query uh it's just like a
+11:48 prompt right or or something we need to
+11:50 probably display over there ask anything
+11:52 about the video the AI agend analyze and
+11:54 gather additional information and once
+11:57 soon as I click on analyze video it
+11:59 should be spinning it should be
+12:01 processing but here you'll be able to
+12:03 see first of all we'll get the file here
+12:06 is my prompt analyze the uploaded video
+12:08 for content and context respond to the
+12:10 following queries using video inspires
+12:12 and supplementary web search okay so
+12:15 this is just like a video summarizer
+12:17 along with video chat right so we here
+12:20 we are specifically chatting also with
+12:22 the video content okay if you want okay
+12:25 and then uh you'll be able to get it so
+12:27 here uh I'm using this multimodel agent
+12:30 run and we are creating this analysis
+12:32 prompt and along with that whatever
+12:33 video we are specifically getting over
+12:35 here in the form of the processed video
+12:37 okay uh there is one disadvantage of
+12:40 writing this specific code the maximum
+12:42 video size that you can upload is uh 200
+12:44 MB but if you have video more than 200
+12:47 MB then we have to use an external cloud
+12:50 and that is what we are specifically
+12:52 teaching in the course right how to
+12:53 probably scale it in the cloud and all
+12:55 right so just to see the code how it
+12:57 looks with respect to the cloud so here
+12:59 is the entire code you can see right
+13:02 gini AI agent here we have written
+13:04 condition like if the file is greater
+13:06 than 200 MB then what we do is that we
+13:09 upload it in the S3 bucket then we
+13:11 probably take the video and all but
+13:13 anyhow uh I will be giving you this
+13:15 specific code which you can actually
+13:17 explore further okay so here uh is it
+13:20 now let's quickly go ahead and see
+13:21 whether our requirement. txt has all the
+13:23 libraries so first of all I need to have
+13:25 stream late F data Google Genera and
+13:27 dougd go search um if you see over here
+13:30 uh this agent once we getting this
+13:32 multimodel agent we are running it over
+13:34 here right so multimodel agent. run with
+13:37 the prompt analyze the uploaded video
+13:39 for context and down then we also giving
+13:41 the pro videos and here you can give any
+13:44 number of videos uh in the form of list
+13:46 okay so quickly let's go ahead and open
+13:49 by
+13:50 terminal so first thing first what you
+13:52 really need to do is that I will clear
+13:55 the screen okay uh you just go ahead and
+13:58 install all the
+14:00 requirements because that is necessary
+14:02 you have to have all the requirements
+14:04 over here okay so once you have all the
+14:07 requirements done then you can go CD I
+14:11 will just go to my video summarizer I
+14:14 will clear the screen and then I will go
+14:16 ahead and write streamlit run you need
+14:19 to need be in your specific environment
+14:21 right then I will go ahead and write
+14:23 app.py now let's see whether this will
+14:25 run or not so here everything is opening
+14:28 right five data video AI summarizer this
+14:30 this this I will just go ahead and
+14:32 select see here maximum video size that
+14:35 you can probably take is you know hardly
+14:38 200 MB if it is more than 200 MB you
+14:41 have to take this particular you have to
+14:42 stream this video to the uh Cloud okay
+14:45 AWS Cloud so now let's ask summarize the
+14:51 video and list the key points and also
+14:58 search the web
+15:00 about the topic that is
+15:04 mentioned in the video
+15:08 right now I will just go ahead and
+15:11 analyze
+15:16 it okay so it'll take some time again
+15:18 this is a 29 seconds video I think it
+15:21 was 16.4 MB but anyhow we will be I've
+15:24 also written also sear the word about
+15:26 the topic that is mentioned in the video
+15:28 so that would be amazing to see like
+15:30 what we are going to get over here okay
+15:33 uh let's wait for some time and then you
+15:37 have to you will be able to see it uh
+15:40 couple of things over here that you have
+15:43 to check so here uh you have this
+15:46 announcement video Kish is announcing
+15:47 the first gender boot camp uh specific
+15:51 example from search results Google
+15:53 offers a geni boot cam Pega this Amazon
+15:56 also also in summary gen boot cam
+15:59 intensive program designed to equip this
+16:01 and this so this just was an announcing
+16:03 video the syllabus everything uh now you
+16:06 can see that quickly we are able to see
+16:08 all these information isn't it amazing
+16:10 right so definitely go ahead and check
+16:12 out my gentic AI boot camp because if
+16:15 you want to probably develop this kind
+16:16 of application I'll definitely help you
+16:18 out and we looking for more amazing
+16:20 projects that is going to come up in
+16:22 this you know so we will also probably
+16:24 do all these things as we go ahead right
+16:27 so this looks good you know nice yeah so
+16:31 all the information is there but only
+16:33 the disadvantage you need to have only
+16:35 files that is less than 200 MB if it is
+16:37 greater than 200 MB I already showed you
+16:39 the code that probably I will be
+16:41 covering in my course also how to
+16:43 probably upload it in the S3 bucket and
+16:45 then stream it and do multiple things
+16:47 okay so I hope uh you like this
+16:50 particular video and uh yeah this was it
+16:53 for my side I will see you in the next
+16:55 video thank you take care bye-bye
