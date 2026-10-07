@@ -8,7 +8,7 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)
 ![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-black.svg)
-![Version](https://img.shields.io/badge/version-2.0.0-black.svg)
+![Version](https://img.shields.io/badge/version-3.0.0-black.svg)
 ![Hinglish by default](https://img.shields.io/badge/Hinglish-by%20default-black.svg)
 
 A Claude Code plugin that teaches any topic in a friendly, why-before-how style. Hinglish by default, English on request.
@@ -171,6 +171,35 @@ See a real one below — not a mockup, an actual generated file from this repo.
   <sub>Lecture 1 of the real FastAPI example — <a href="plugins/virus/skills/virus/references/examples/course-demo/fastapi/lecture-01.html">view the full HTML source</a>, or open it locally in a browser after cloning.</sub>
 </div>
 
+**Prompt:** `/project url-shortener` — learn by rebuilding a real GitHub project from scratch
+
+<table>
+<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
+<tr valign="top"><td>
+
+Sure! Here's a basic Flask URL shortener. Create a file called `app.py`:
+
+```python
+from flask import Flask, request, redirect
+import sqlite3, hashlib
+
+app = Flask(__name__)
+# ... (full working app follows) ...
+```
+
+Run it with `python app.py` and you're done!
+
+</td><td>
+
+Searches GitHub live, shortlists 3 real repos by README scope (not stars), and has you pick one — [`xemeds/tiny0`](https://github.com/xemeds/tiny0) in the real worked example. Writes a `PROJECT_PLAN.md` modeled on CampusX's own CLAUDE.md pattern, then mentors you through rebuilding it **from scratch, one runnable step at a time** — you write the code, Virus reviews it. When your first attempt at handling a form submission throws a real `405 Method Not Allowed`, Virus shows the actual error, names it, root-causes it, and **describes the fix in words rather than handing you corrected code** — even for a one-line change, you make the edit.
+
+See the real worked example: [shortlist](plugins/virus/skills/virus/references/examples/project-demo/url-shortener/shortlist.md) · [plan](plugins/virus/skills/virus/references/examples/project-demo/url-shortener/PROJECT_PLAN.md) · [session](plugins/virus/skills/virus/references/examples/project-demo/url-shortener/session-transcript.md).
+
+</td></tr>
+</table>
+
+The no-plugin answer hands you a finished app to run — you'd learn nothing building it. Virus never writes your project for you; it reads a real repo for structural understanding only (never quoting its code) and mentors you to rebuild the same idea independently, bug-fixing included.
+
 ## Install
 
 Claude Code, as two separate commands:
@@ -203,6 +232,7 @@ If your path contains spaces, wrap it in quotes.
 | `/doubt` | Restates your doubt, finds the root misconception, re-explains with a fresh analogy, then checks understanding. |
 | `/course <topic>` | Builds a roadmap first, then one HTML lecture page at a time, as you reach each lecture. |
 | `/lecture <topic>` | One dense HTML lecture page for a single topic. No roadmap needed. |
+| `/project <topic>` | Learn by building: pick a difficulty, rebuild a real GitHub project from scratch, mentor-guided. |
 
 You don't need the slash. Plain sentences trigger the same modes: "teach me X", "X kya hota hai", "samjhao", "I'm stuck on Y".
 
@@ -216,6 +246,8 @@ explain gradient descent in English
 build me a course on FastAPI
 give me a roadmap for Docker, then teach it lecture by lecture
 make a lecture page on how Git branching works
+/project url-shortener
+I want to learn LangChain by building something
 ```
 
 ## How he teaches
@@ -245,6 +277,36 @@ Course and lecture pages try to check things that change quickly (library APIs, 
 
 This check is best effort. If no browser tool is available or a check fails, the page is still built, with an honest caveat in its text rather than unverified content presented as certain.
 
+## Learn by building (`/project`)
+
+Everyone learns by building something. `/project <topic>` finds you a real project to
+rebuild — not an invented exercise — and mentors you through it instead of building it
+for you.
+
+1. **Pick a difficulty.** Six levels, by scope and concept-count (not time or stars):
+   Beginner (single file, one concept) → Easy → Intermediate → Advanced → Expert → Capstone
+   (multi-component, tested, deployed).
+2. **Virus searches GitHub** (via its optional bundled Playwright MCP server) and
+   shortlists 2-3 real repos matching your topic and level — picked by README scope and
+   file/folder count, not star count. You choose which one to rebuild.
+3. **It writes a `PROJECT_PLAN.md`** for your approval before any code — an iteration
+   roadmap with a done/pending status per step, modeled on the same CLAUDE.md pattern
+   CampusX's own "Learn AI Coding the Right Way" playlist recommends.
+4. **You build it, together, one runnable step at a time** — starting from a minimal
+   working version and growing it. Virus teaches the concept each step needs; **you
+   write the actual code**; Virus reviews it — shows an error, names it, root-causes it
+   before describing a fix in words (never handing you finished code, even for a
+   one-line change). It writes real code itself only when you're genuinely stuck, and
+   says so explicitly when it does.
+
+**It never shows you the original repo's actual source.** It reads the repo's README and
+browses its file structure (never cloning it) purely to understand what to teach — you
+rebuild from that understanding and Virus's own explanations, never from copied code.
+
+See a real worked example — a live GitHub search, a `PROJECT_PLAN.md`, and a scripted
+build session including a genuine bug fix — under
+`plugins/virus/skills/virus/references/examples/project-demo/url-shortener/`.
+
 ## Language
 
 Hinglish is the default: Hindi sentence structure with English technical terms, written in Roman script. Say "english mein" or just ask in English to switch. The teaching method stays the same.
@@ -270,6 +332,8 @@ Hinglish is the default: Hindi sentence structure with English technical terms, 
 - Lectures are generated lazily and stored locally. There is no database-backed progress tracker, only the files already on disk.
 - There is no standalone quiz, revision or compare mode yet.
 - It teaches from Claude's own knowledge plus optional live documentation checks. It does not read your books yet.
+- `/project`'s "write code only when you're stuck" rule is Virus's own design choice — it isn't something CampusX is on record saying; it's a reasonable inference from a related "you lead the AI" framing, reported honestly as such rather than attributed.
+- `/project` doesn't run your code for you or check test results automatically — it reviews what you share and reasons about it; you still run and paste back output/errors yourself.
 
 ## Roadmap
 
@@ -278,7 +342,6 @@ These are ideas, not promises.
 - Interactive slide-deck output (step reveal, predict-first questions, mini quiz)
 - Teaching from your own books, with a source tag on every slide
 - Revision and quiz mode
-- Project walkthroughs
 - Compare-two-concepts mode
 
 ## Updating the teaching style with more material
@@ -289,7 +352,7 @@ These are ideas, not promises.
 
 ## How this was built
 
-Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/virus/issues/1) (v1) and [issue #10](https://github.com/ladkrish233/virus/issues/10) (v2, `/course`/`/lecture`).
+Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/virus/issues/1) (v1), [issue #10](https://github.com/ladkrish233/virus/issues/10) (v2, `/course`/`/lecture`), and [issue #19](https://github.com/ladkrish233/virus/issues/19) (v3, `/project`).
 
 ## Contributing
 
