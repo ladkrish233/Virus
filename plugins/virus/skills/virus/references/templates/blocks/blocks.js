@@ -100,15 +100,41 @@
     var cap = h('p', {class: 'vb-say', 'aria-live': 'polite'});
     var counter = h('span', {class: 'vb-dim'});
     var pos = -1;
+    // Gap: a dashed red line with a "?" between two boxes. Shown only during its own step.
+    var byNode = {};
+    p.nodes.forEach(function (n) { byNode[n.id] = n; });
+    function gapLine(pair) {
+      var a = byNode[pair[0]], b = byNode[pair[1]];
+      if (!a || !b) return null;
+      var horiz = Math.abs((a.y + a.h / 2) - (b.y + b.h / 2)) < 20;
+      var x1 = horiz ? a.x + a.w + 4 : a.x + a.w / 2, y1 = a.y + a.h / 2;
+      var x2 = horiz ? b.x - 4 : b.x + b.w / 2, y2 = b.y + b.h / 2;
+      var g = svgEl('g', {class: 'vb-gap'});
+      var l = svgEl('line', {x1: x1, y1: y1, x2: x2, y2: y2, stroke: '#ff8a80', 'stroke-width': 2.4, 'stroke-dasharray': '8 8'});
+      var q = svgEl('text', {x: (x1 + x2) / 2 - 6, y: y1 - 12, fill: '#ff8a80', 'font-size': 22, 'font-weight': 700});
+      q.textContent = '?';
+      g.appendChild(l); g.appendChild(q);
+      svg.appendChild(g);
+      return g;
+    }
+    var gapGroups = [];
+    p.steps.forEach(function (st, k) { gapGroups[k] = st.gap ? gapLine(st.gap) : null; });
     function apply(i) {
       pos = Math.max(-1, Math.min(p.steps.length - 1, i));
       hideAll(svg);
       for (var k = 0; k <= pos; k++) setIds(svg, p.steps[k].show || [], true);
       var cur = p.steps[pos];
       ringOn(svg, cur && cur.ring);
+      gapGroups.forEach(function (g, k) { if (g) g.style.display = (k === pos) ? '' : 'none'; });
       cap.textContent = cur ? cur.caption : (p.intro || 'Shuru karte hain.');
       counter.textContent = (pos + 1) + ' / ' + p.steps.length;
     }
+    // Keyboard: when focus is inside the board, the arrow keys step through it.
+    root.setAttribute('tabindex', '0');
+    root.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); apply(pos + 1); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); apply(pos - 1); }
+    });
     var penOn = true;
     var pen = btn('✎ Pen', function () {
       penOn = !penOn;
