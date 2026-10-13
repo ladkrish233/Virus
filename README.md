@@ -83,7 +83,7 @@ Now tell me — if you wanted to *update* a user's data, which method would you 
 
 Same facts, same four HTTP methods, same teaching method in both languages — but the no-plugin answer assumes you already think like an engineer, while Virus builds the idea from a problem you'd actually recognize, then checks you got it before moving on. Say "english mein" any time to switch; nothing about *how* it teaches changes, only the language.
 
-**Prompt:** `/code` — explain this snippet:
+**Prompt:** `/teach` — explain this snippet:
 ```js
 function getTotal(items) {
   let total;
@@ -138,7 +138,7 @@ Ab verify karte hain — agar ek model training pe 98%, test pe sirf 60% de raha
 
 Both are factually correct. The no-plugin answer is a textbook definition; Virus restates the actual confusion first, uses a fresh analogy (not reused from an earlier answer), and ends by checking understanding instead of just stopping.
 
-**Prompt:** `build me a course on FastAPI` / `make a lecture page on how Git branching works`
+**Prompt:** `build me a course on FastAPI` / `make a lesson page on how Git branching works`
 
 <table>
 <tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
@@ -223,18 +223,37 @@ claude plugin install virus@virus-marketplace
 
 If your path contains spaces, wrap it in quotes.
 
+## What's new in v4
+
+- **One teaching command.** `/teach` replaces `/code` and `/lecture` from v3. Lessons are classroom-style, not a document page.
+- **Side-chat doubts.** `/doubt` answers quickly and leaves your lesson where it is.
+- **Boards that grow.** A lesson's board carries into the next lesson, as in the RAG example below.
+- **`/ai-engineer`.** Walks the AI Engineering roadmap stage by stage, with your progress kept in a local `PLAN.md`.
+- **Learner memory.** Your progress is kept in `./virus-progress/learner.json`, on your machine only. Mastery is never shown as a score.
+- **Style findings are indexed.** See `references/style-dna-v4.md`.
+
+**Migrating from v3.** `/code` and `/lecture` are removed, and so is `/learn` from the v4 drafts. Use `/teach` instead. In course folders, `lecture-NN.html` is now `lesson-NN.html`. Existing v3 files are not changed.
+
+The RAG lesson 3 board, after the last step:
+
+<img src="assets/v4-lesson-board.png" width="100%" alt="The RAG board at its last step: PDF, chunks, numbers, store, question, retriever, prompt and LLM." />
+
+The same board, carried into lesson 2, with the lesson 1 nodes already shown:
+
+<img src="assets/v4-lesson-board-grows.png" width="100%" alt="The RAG board in lesson 2, with the indexing nodes carried over and the retrieval nodes added." />
+
+
 ## Commands
 
 | Command | What it does |
 |---|---|
-| `/teach <topic>` | Teaches a concept: the problem first, the idea built step by step, then code. |
-| `/code` | Explains code line by line, after the concept. Errors are shown before they are fixed. |
-| `/doubt` | Restates your doubt, finds the root misconception, re-explains with a fresh analogy, then checks understanding. |
-| `/course <topic>` | Builds a roadmap first, then one HTML lecture page at a time, as you reach each lecture. |
-| `/lecture <topic>` | One dense HTML lecture page for a single topic. No roadmap needed. |
+| `/teach <topic or code>` | The one teaching command. Concepts, code, and full lesson pages. It picks the mode from your request. Lessons are classroom-style: a teacher, a board that builds step by step, and a notebook of key points. |
+| `/doubt <question>` | A quick side question, like a "btw". A few lines, then back to your lesson. Nothing is saved. |
+| `/course <topic>` | Builds a roadmap first, then one lesson at a time, as you reach each one. Each lesson saves its board, and the next lesson extends it. |
+| `/ai-engineer` | Walks CampusX's AI Engineering roadmap: part, then level, then module, then teach. Keeps your place in a local plan file. |
 | `/project <topic>` | Learn by building: pick a difficulty, rebuild a real GitHub project from scratch, mentor-guided. |
 
-You don't need the slash. Plain sentences trigger the same modes: "teach me X", "X kya hota hai", "samjhao", "I'm stuck on Y".
+You don't need the slash. Plain sentences trigger the same modes: "teach me X", "X kya hota hai", "samjhao". For a quick aside, use `/doubt`.
 
 ## Sample prompts
 
@@ -244,8 +263,8 @@ explain this code: <paste a snippet>
 mujhe overfitting aur underfitting confuse karte hain
 explain gradient descent in English
 build me a course on FastAPI
-give me a roadmap for Docker, then teach it lecture by lecture
-make a lecture page on how Git branching works
+give me a roadmap for Docker, then teach it lesson by lesson
+make a lesson page on how Git branching works
 /project url-shortener
 I want to learn LangChain by building something
 ```
@@ -260,16 +279,18 @@ I want to learn LangChain by building something
 6. **Show the error, then fix it.** Debugging is part of the lesson.
 7. **Check understanding.** A short question, then the next step.
 
-## Courses and lectures
+## Courses and lessons
 
-`/course` and `/lecture` produce single-file HTML pages you open in your browser.
+`/course` and `/teach` produce single-file HTML lesson pages you open in your browser. Each page
+works offline, with no network needed.
 
-- **`/course <topic>`** writes a `roadmap.md` first (beginner to advanced, planned backward from the skill you want at the end). Then it builds `lecture-01.html`, `lecture-02.html` and so on, **one at a time as you reach each one**, never the whole course upfront.
-- **`/lecture <topic>`** builds one standalone page.
+- **`/course <topic>`** writes a `roadmap.md` first (beginner to advanced, planned backward from the skill you want at the end). Then it builds `lesson-01.html`, `lesson-02.html` and so on, **one at a time as you reach each one**, never the whole course upfront.
+- **Boards carry over.** When a lesson closes, its final board is saved under `scenes/`. The next lesson opens with that board and extends it.
+- **`/teach <topic>`** can also build one standalone lesson page, with no roadmap.
 - Files are saved locally in your current folder under `./virus-courses/<topic>/`.
 - Re-running `/course` on the same topic reads the existing `roadmap.md` instead of starting over.
 
-An 8-lecture FastAPI example is included under `plugins/virus/skills/virus/references/examples/course-demo/fastapi/`.
+An 8-lecture FastAPI example (v3 format) is included under `plugins/virus/skills/virus/references/examples/course-demo/fastapi/`.
 
 ### Fast-changing facts
 
@@ -329,7 +350,9 @@ Hinglish is the default: Hindi sentence structure with English technical terms, 
 
 - The teaching style comes from a limited set of lecture transcripts. Edge cases may feel less accurate than the common patterns.
 - It approximates a teaching method. It has no opinions or facts about any real person beyond what is evidenced.
-- Lectures are generated lazily and stored locally. There is no database-backed progress tracker, only the files already on disk.
+- Lessons are generated lazily and stored locally. There is no database-backed progress tracker, only the files already on disk.
+- The worked RAG lessons use illustrative data: toy 8-topic vectors and sample text, labelled on the board. They are not a real embedding model.
+- Lesson pages were tested in Chromium only, so other browsers may differ.
 - There is no standalone quiz, revision or compare mode yet.
 - It teaches from Claude's own knowledge plus optional live documentation checks. It does not read your books yet.
 - `/project`'s "write code only when you're stuck" rule is Virus's own design choice — it isn't something CampusX is on record saying; it's a reasonable inference from a related "you lead the AI" framing, reported honestly as such rather than attributed.
@@ -339,7 +362,6 @@ Hinglish is the default: Hindi sentence structure with English technical terms, 
 
 These are ideas, not promises.
 
-- Interactive slide-deck output (step reveal, predict-first questions, mini quiz)
 - Teaching from your own books, with a source tag on every slide
 - Revision and quiz mode
 - Compare-two-concepts mode
@@ -351,6 +373,8 @@ These are ideas, not promises.
 3. Update `references/style-guide.md` and `references/teaching-framework.md` with confirmed patterns only. Do not promote a one-off pattern into a hard rule.
 
 ## How this was built
+
+v4 was planned and built through the wayfinder map at [issue #28](https://github.com/ladkrish233/Virus/issues/28), one decision and one ticket at a time.
 
 Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/virus/issues/1) (v1), [issue #10](https://github.com/ladkrish233/virus/issues/10) (v2, `/course`/`/lecture`), and [issue #19](https://github.com/ladkrish233/virus/issues/19) (v3, `/project`).
 
