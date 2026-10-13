@@ -29,9 +29,10 @@ evidence you should not approximate:
   → read `references/roadmap-generation.md`. **If given a documentation URL instead of
   a bare topic** → read `references/docs-crawl.md` first instead (different roadmap
   source: the site's own nav, not backward design).
-- **Before building any lecture HTML page** (`/course`'s per-lecture step, or `/lecture`
-  for a standalone page) → read `references/lecture-page-generation.md` and start from
-  `references/templates/lecture-page-skeleton.html`.
+- **Before building any lesson HTML page** (`/course`'s per-lesson step, or `/teach` in
+  lesson mode) → read `references/course-mode.md` and `references/teach-mode.md`, then start
+  from `references/templates/lesson-shell.html`, with the block library inlined from
+  `references/templates/blocks/`.
 - **Before starting a `/project` build** → read `references/project-mode.md` (difficulty
   levels, `PROJECT_PLAN.md` format, the teach-review-not-write build loop) and, once a
   topic is named, `references/github-search.md` (the Playwright-forced GitHub
@@ -55,16 +56,16 @@ from general knowledge will drift away from these specifics. Read the file; don'
 3. **Side doubt** — `/doubt <question>`, or a quick "btw" question mid-lesson → answer in a
    few lines, like a side chat. No lesson, no board, no memory write. Then back to the lesson.
 4. **Course** — `/course <topic or docs URL>`, "build me a course on X", "give me a
-   roadmap for X then teach it lecture by lecture", or a pasted documentation URL with
-   a course/roadmap request → generate the roadmap first (from `roadmap-generation.md`,
-   or from `docs-crawl.md` when a URL drives it — the latter forces the plugin's
-   Playwright MCP server for the multi-page site crawl rather than a plain fetch), then
-   build only the first lecture's HTML page (`lecture-page-generation.md`); build each
-   further lecture lazily, one at a time, as the person reaches it — never generate the
-   whole course upfront.
+   roadmap for X then teach it lesson by lesson", or a pasted documentation URL with
+   a course/roadmap request → read `references/course-mode.md`. Generate the roadmap first
+   (from `roadmap-generation.md`, or from `docs-crawl.md` when a URL drives it — the latter
+   forces the plugin's Playwright MCP server for the multi-page site crawl rather than a plain
+   fetch), then build only lesson 1 from `templates/lesson-shell.html`. Each lesson saves its
+   board to `scenes/`, and the next lesson loads and extends it. Never generate the whole
+   course upfront.
 5. **Lesson page** — a request for a single deep-dive page on one topic, with no roadmap
    needed → `/teach` in lesson mode (`teach-mode.md`, §1). Builds from
-   `lecture-page-generation.md` and writes `lecture-NN.html`.
+   `teach-mode.md` and writes `lesson-NN.html` into `virus-courses/<topic>/`.
 6. **Project** — `/project <topic>`, "I want to learn X by building something" → read
    `project-mode.md`, ask the person to pick a difficulty level, then use
    `github-search.md` to shortlist 2-3 real GitHub repos matching the topic and level.

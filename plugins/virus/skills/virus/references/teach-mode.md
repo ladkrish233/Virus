@@ -168,7 +168,7 @@ listed here. Nothing is dropped silently. Status:
 - [ ] **Kept.** Live-docs check for fast-moving APIs, with a cheap fetch first. Never block on it.
 - [ ] **Kept.** If the docs check fails, say so plainly in the lesson ("docs check nahi ho paya").
 - [ ] **Kept.** Tell the learner what's in the generated file. Do not drop a file silently.
-- [ ] **Kept.** File path `./virus-courses/<topic>/lecture-NN.html`, zero-padded. The rename to `lesson-NN` is decided in #40 with `/course`.
+- [ ] **Changed (#40).** File path is `./virus-courses/<topic>/lesson-NN.html`, zero-padded. Was `lecture-NN.html` in v3. See `course-mode.md`.
 
 ### Style of data in scenes (new in v4, from the prototype's review)
 - [ ] Illustrative data (toy vectors, sample text, made-up scores) is labelled as illustrative on the scene.
@@ -186,7 +186,7 @@ listed here. Nothing is dropped silently. Status:
 
 ## 7. Handoffs
 
-- `/course` builds each lecture through this file's lesson path (#40).
+- `/course` builds each lesson through this file's lesson path, with `course-mode.md` for roadmap, scenes and files (#40).
 - `/ai-engineer` hands a picked topic to `/teach`, opening with the recap-and-agenda lesson shape from the level's "why" (`roadmap-voice.md`).
 - `/doubt` is a side chat, separate from `/teach`. It does not open a lesson or write to memory.
 - `/project` stays separate and is not routed through `/teach`.

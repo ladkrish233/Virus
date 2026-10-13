@@ -1,13 +1,11 @@
 ---
-description: Build a full lecture-wise course for a topic or docs URL, Virus-style — roadmap first, then lectures one at a time.
+description: Build a full lesson-wise course for a topic or docs URL, Virus-style — roadmap first, then lessons one at a time, each saving its board.
 argument-hint: <topic or docs URL>
 ---
-Build a course on `$ARGUMENTS` using the virus skill (`skills/virus/SKILL.md`). If
-`$ARGUMENTS` is a documentation URL, read `references/docs-crawl.md` first and build the
-roadmap from that site's own navigation structure, using the plugin's Playwright MCP
-server for the crawl. Otherwise read `references/roadmap-generation.md` and build the
-roadmap via backward design. Either way, generate a roadmap
-(`./virus-courses/$ARGUMENTS/roadmap.md`), then read `references/lecture-page-generation.md`
-and build only the first lecture's HTML page — do not generate every lecture upfront.
-Same behavior as the user saying "teach me `$ARGUMENTS` properly," "build me a course on
-`$ARGUMENTS`," or pasting a docs URL and asking for a course built from it.
+Build a course on `$ARGUMENTS` using the virus skill (`skills/virus/SKILL.md`). Read
+`references/course-mode.md` first. If `$ARGUMENTS` is a documentation URL, build the roadmap from
+that site's navigation (`references/docs-crawl.md`, Playwright MCP). Otherwise build it by backward
+design (`references/roadmap-generation.md`). Write `./virus-courses/$ARGUMENTS/roadmap.md`, then
+build only lesson 1 from `templates/lesson-shell.html`, following `references/teach-mode.md`. Save
+each lesson's board to `scenes/` when it closes, and load it for the next lesson. Do not generate
+every lesson upfront.
