@@ -80,6 +80,36 @@ make a lesson page on how Git branching works
 I want to learn LangChain by building something
 ```
 
+## Claude alone vs Claude with Virus, command by command
+
+Each command, described twice: what plain Claude does, and what Virus does on top. The descriptions
+are about behaviour, not recorded outputs. The Hinglish and English versions say the same thing.
+
+### `/teach <topic>`
+
+- **English.** Without Virus: Claude gives one complete answer in a single block: the definition, the list of methods, then the code. With Virus: it starts from a problem you would actually meet, builds the idea step by step on a board, explains code line by line after the concept, and ends with a question for you to answer.
+- **Hinglish.** Virus ke bina: Claude ek lamba, sahi jawab deta hai, pehle definition, phir list, phir code. Virus ke saath: pehle ek aisi problem se shuru karta hai jo aapko actually aayegi, board pe idea ek-ek step mein banata hai, code concept ke baad line by line samjhata hai, aur end mein ek sawaal poochta hai jo aapko khud jawab dena hai.
+
+### `/doubt <question>`
+
+- **English.** Without Virus: Claude answers, sometimes at length, and moves on. With Virus: a few lines and a direct answer, then it asks whether to go back to the lesson. Nothing is saved, and no new lesson opens.
+- **Hinglish.** Virus ke bina: Claude jawab deta hai, kabhi lamba, aur aage badh jaata hai. Virus ke saath: chand lines mein seedha jawab, phir poochta hai ki lesson pe wapas chalein. Kuch save nahi hota, koi naya lesson nahi khulta.
+
+### `/course <topic>`
+
+- **English.** Without Virus: Claude writes a long list of topics, or one big document. With Virus: a roadmap first, planned backward from your goal. Then one lesson at a time. Each lesson saves its board, and the next lesson opens with that board and extends it.
+- **Hinglish.** Virus ke bina: Claude topics ki lambi list ya ek bada document deta hai. Virus ke saath: pehle roadmap, lakshya se peeche ki taraf planned. Phir ek-ek lesson. Har lesson ka board save hota hai, aur agla lesson wahi board kholta hai aur aage badhata hai.
+
+### `/ai-engineer`
+
+- **English.** Without Virus: Claude lists the AI engineering topics in one go, and you choose what to study. With Virus: it walks CampusX's roadmap in order: part, then level, then module. A prerequisite you haven't done is flagged with a quick check, and your place is kept in `PLAN.md`.
+- **Hinglish.** Virus ke bina: Claude ek saath AI engineering ke topics ki list deta hai, aur kya padhna hai ye aap chunte ho. Virus ke saath: CampusX ka roadmap order mein chalata hai: part, phir level, phir module. Jo prerequisite aapne nahi kiya, uspe quick check hota hai, aur aapki jagah `PLAN.md` mein save hoti hai.
+
+### `/project <topic>`
+
+- **English.** Without Virus: Claude builds the whole project for you, and you learn very little. With Virus: it finds a real GitHub project, writes a plan for your approval, and mentors you while you write the code. It reviews your code and shows the errors, and writes code only when you are genuinely stuck.
+- **Hinglish.** Virus ke bina: Claude poora project bana deta hai, aur aap bahut kam seekhte ho. Virus ke saath: ek real GitHub project dhoondhta hai, aapki approval ke liye plan likhta hai, aur code aap likhte ho. Virus mentor ki tarah review karta hai aur error dikhata hai. Code sirf tab likhta hai jab aap atak jaate ho, aur bolta hai ki likh raha hai.
+
 ## A lesson, step by step
 
 A lesson is built like a class:
@@ -120,6 +150,28 @@ When a lesson closes, its board is saved under `scenes/`. The next lesson opens 
 
 The roadmap is read live from its public repo, and never copied into Virus. Virus does not reproduce roadmap text.
 
+## FastAPI, explained
+
+FastAPI is a Python framework for building web APIs. You write a Python function, put a decorator on it with a URL and a method, and FastAPI turns it into an endpoint that returns JSON.
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/items/{item_id}")
+def read_item(item_id: int):
+    return {"item_id": item_id}
+```
+
+Three ideas carry most of FastAPI:
+
+- **Route.** The URL and method pair, here `GET /items/{item_id}`.
+- **Path parameter.** The `{item_id}` part of the URL. It becomes the function's input.
+- **Type hints.** `item_id: int` is checked for you. A request for `/items/abc` gets a 422 error before your function runs.
+
+A FastAPI lesson in Virus walks through one request: browser, route, function, JSON. It is a worked example of the classroom format. See `plugins/virus/skills/virus/references/examples/fastapi-lesson-01.html`.
+
 ## Learn by building (`/project`)
 
 `/project <topic>` finds you a real project to rebuild, and mentors you through it instead of building it for you.
@@ -159,13 +211,15 @@ Hinglish is the default: Hindi sentence structure with English technical terms, 
 
 ## Screenshots
 
-The RAG example lesson, on one board, after its last step:
+Lessons use the classroom layout: a teacher on the left, the board in the middle, and the notebook on the right.
 
-<img src="assets/v4-lesson-board.png" width="100%" alt="The RAG board at its last step: PDF, chunks, numbers, store, question, retriever, prompt and LLM." />
+A RAG lesson, on the board at the step where the whole flow is shown:
 
-The same board, carried into lesson 2:
+<img src="assets/classroom-rag.png" width="100%" alt="RAG lesson on the classroom layout: teacher on the left, the RAG board in the middle, the notebook with key terms on the right." />
 
-<img src="assets/v4-lesson-board-grows.png" width="100%" alt="The RAG board in lesson 2, with the indexing nodes carried over and the retrieval nodes added." />
+A FastAPI lesson, at the board step where one request travels from the browser to a function and back:
+
+<img src="assets/classroom-fastapi.png" width="100%" alt="FastAPI lesson on the classroom layout, showing a request going from the browser through a route and a function to JSON." />
 
 ## Style sources
 
