@@ -80,18 +80,61 @@ make a lesson page on how Git branching works
 I want to learn LangChain by building something
 ```
 
-## Claude alone vs Claude with Virus, command by command
+## Claude alone vs Virus, command by command
 
-Each row is one command. The three columns show plain Claude, then Virus in Hinglish, then Virus in English.
-These describe behaviour, not recorded outputs.
+Each command, with a sample of what plain Claude says and what Virus says in Hinglish and in English.
+These are written samples that show the behaviour. The "Claude alone" rows are plain answers without the
+plugin, not recorded runs.
 
-| Command | Claude alone | Claude with Virus (Hinglish) | Claude with Virus (English) |
-|---|---|---|---|
-| `/teach <topic>` | Ek lamba, sahi jawab: definition, methods ki list, phir code. | Pehle ek aisi problem se shuru karta hai jo aapko actually aayegi. Board pe idea ek-ek step mein banata hai. Code concept ke baad line by line samjhata hai. End mein ek sawaal poochta hai jo aapko khud jawab dena hai. | Starts from a problem you would actually meet. Builds the idea step by step on a board. Explains code line by line after the concept. Ends with a question for you to answer. |
-| `/doubt <question>` | Jawab deta hai, kabhi lamba, aur aage badh jaata hai. | Chand lines mein seedha jawab, phir poochta hai lesson pe wapas chalein. Kuch save nahi hota. | A few lines and a direct answer, then asks whether to go back to the lesson. Nothing is saved. |
-| `/course <topic>` | Topics ki lambi list ya ek bada document. | Pehle roadmap, lakshya se peeche ki taraf planned. Phir ek-ek lesson. Har lesson ka board save hota hai, aur agla lesson wahi board aage badhata hai. | A roadmap first, planned backward from your goal. Then one lesson at a time. Each lesson saves its board, and the next extends it. |
-| `/ai-engineer` | AI engineering ke topics ki list ek saath, aur aap chunte ho kya padhna hai. | CampusX roadmap order mein: part, phir level, phir module. Jo prerequisite nahi kiya, uspe quick check. Jagah `PLAN.md` mein save hoti hai. | Walks CampusX's roadmap in order: part, level, module. Unmet prerequisites get a quick check. Your place is kept in `PLAN.md`. |
-| `/project <topic>` | Poora project khud bana deta hai, aur aap bahut kam seekhte ho. | Ek real GitHub project dhoondhta hai, aapki approval ke liye plan likhta hai. Aap code likhte ho, Virus review karta hai aur error dikhata hai. Code sirf atakne par likhta hai, aur bolta hai. | Finds a real GitHub project and writes a plan for your approval. You write the code, Virus reviews it and shows errors. It writes code only when you are stuck, and says so. |
+### `/teach`
+
+| | |
+|---|---|
+| **Prompt** | `teach me how REST APIs work` |
+| **Claude alone** | "REST is an architectural style. A REST API exposes resources via URLs and uses GET, POST, PUT and DELETE. It is stateless, and responses are usually JSON." |
+| **Virus, Hinglish** | "Chalo, REST API samajhte hain. Pehle problem: mobile app aur website dono ko same user data chahiye. Agar dono seedha database se baat karein, to database badalte hi dono jagah code todna padega. Fix: ek beech ka layer, API. Restaurant se socho: tum customer ho, waiter API hai, kitchen backend hai. Ab bolo, user ka data update karna ho to GET ya PUT?" |
+| **Virus, English** | "Let's get into REST APIs. First the problem: a mobile app and a website both need the same user data. If each talks straight to the database, a change to the database breaks code in two places. The fix is a middle layer, the API. Think of a restaurant: you are the customer, the API is the waiter, the kitchen is the backend. Now tell me: to update a user's data, GET or PUT?" |
+| **What differs** | Virus starts from the problem, uses an analogy, and ends with a question for you. |
+
+### `/doubt`
+
+| | |
+|---|---|
+| **Prompt** | `/doubt mujhe overfitting aur underfitting confuse karte hain` |
+| **Claude alone** | "Overfitting: the model memorises the training data and fails on new data. Underfitting: the model is too simple and does badly on both. You want a balance." |
+| **Virus, Hinglish** | "Overfitting matlab model rat leta hai: training pe score high, naye data pe low. Underfitting matlab model samajhta hi nahi: dono pe score low. Quick check: train score aur test score ka gap dekho. Lesson pe wapas chalein?" |
+| **Virus, English** | "Overfitting is memorising: a high training score and a low test score. Underfitting is too simple: both scores are low. Quick check: compare the training and test scores. Back to the lesson?" |
+| **What differs** | Virus answers in a few lines, gives one check, and returns you to the lesson. Nothing is saved. |
+
+### `/course`
+
+| | |
+|---|---|
+| **Prompt** | `/course build me a course on FastAPI` |
+| **Claude alone** | "Here is a learning path: 1) Python basics 2) HTTP 3) FastAPI routes 4) request validation 5) authentication 6) deployment. Start with step 1." |
+| **Virus, Hinglish** | "Pehle roadmap, lakshya se peeche ki taraf: 'auth ke saath ek API deploy karna'. Plan: deploy ← auth ← validation ← routes ← HTTP basics. `roadmap.md` ban gaya. Ab lesson 1: request se response tak. Agla lesson tab banega jab aap yahan pahunchenge." |
+| **Virus, English** | "First a roadmap, planned backward from the goal: deploy an API with authentication. Then lesson 1: from request to response. The next lesson is built when you reach it." |
+| **What differs** | Virus builds the course one lesson at a time, and saves the roadmap in your folder. |
+
+### `/ai-engineer`
+
+| | |
+|---|---|
+| **Prompt** | `/ai-engineer` |
+| **Claude alone** | "The AI engineering roadmap covers foundations, RAG, agents, evaluation and production. Which area do you want to start with?" |
+| **Virus, Hinglish** | "AI engineer wo hai jo foundation models ke upar apps banata hai. Ye roadmap final nahi hai, aur master karne mein saal bhar lag sakta hai. Roadmap 4 parts mein hai: Foundations, Building with LLMs, Production, Frontier. Kis part se shuru karein? (Recommended: Part 1.)" |
+| **Virus, English** | "An AI engineer builds apps on top of foundation models. The roadmap is not final, and mastering it can take about a year. It has four parts: Foundations, Building with LLMs, Production, and Frontier. Which part do you want to start with? (Recommended: Part 1.)" |
+| **What differs** | Virus walks you through the roadmap in order and asks the next question. It does not list everything at once. |
+
+### `/project`
+
+| | |
+|---|---|
+| **Prompt** | `/project url-shortener` |
+| **Claude alone** | Gives a finished URL shortener app and its code to run. |
+| **Virus, Hinglish** | "Pehle difficulty chuno: Beginner, Easy, Intermediate, Advanced, Expert, ya Capstone. Phir GitHub pe 2–3 real repos dhoondhta hoon, README ke scope se. Ek chunne ke baad main plan likhta hoon, aur approval ke baad code aap likhoge." |
+| **Virus, English** | "First pick a difficulty: Beginner, Easy, Intermediate, Advanced, Expert, or Capstone. Then I search GitHub for 2–3 real repos, judged by their README scope. After you pick one, I write a plan for your approval, and you write the code." |
+| **What differs** | Claude hands you the finished app. Virus gives you a real project to build yourself, with a mentor. |
 
 ## A lesson, step by step
 
