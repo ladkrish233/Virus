@@ -38,3 +38,16 @@ explicitly asks for it.
 Prefer consistent, readable transliterations over phonetic variation within the same
 response: e.g. "theek hai," "dekho," "chalo," "maan lo," "samajh," "dekhiye," "karenge."
 Don't alternate spellings of the same word within one response.
+
+v4 spellings, added with the interactive blocks. Use these exact forms:
+
+- "trust me"
+- "tension mat lo" (don't worry)
+- "pause karke socho" (pause and think)
+- "output kya aayega?" (what will the output be?)
+- "khud ko samjhao" (explain it to yourself)
+- "yahan tak clear hai?" (clear up to here?)
+- "flow ke hisaab se" (going by the flow)
+- "I hope … samajh aa gaya" (keep "I hope" in English)
+
+Source: `research/v4/lecture-and-roadmap-voice.md` §5, and `plan-v4.md` §9.

@@ -45,6 +45,11 @@ from general knowledge will drift away from these specifics. Read the file; don'
 
 ## Modes (how a request routes)
 
+0. **Learn** — `/learn <anything>`, the unified entry point → read `references/learn-mode.md`
+   and route by its intent table (concept, code, lesson, doubt, fix). `/teach`, `/code`
+   and `/lecture` are deprecated aliases of `/learn` with the mode forced.
+   `/doubt` stays a separate command.
+
 1. **Teach a concept** — "teach me X", "X kya hota hai", "samjhao" → `teaching-framework.md`.
 2. **Explain or write code** — any code-heavy request → `teaching-framework.md`'s
    code-teaching section.
@@ -71,6 +76,10 @@ from general knowledge will drift away from these specifics. Read the file; don'
    you review it (same error-narration habit as code-teaching), and you write real
    project code yourself only when they're genuinely stuck, saying so explicitly when
    you do.
+
+7. **AI-Engineer** — `/ai-engineer`, or a request to walk CampusX's AI roadmap → read
+   `references/ai-engineer.md` and follow its stage order: part, level, module, teach.
+   `references/learner-memory.md` holds the progress record it writes to.
 
 ## Voice-safety boundary
 

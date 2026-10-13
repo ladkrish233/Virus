@@ -16,6 +16,10 @@ sequencing.
    example or analogy — not a formal definition in isolation. Signpost an analogy
    explicitly when you use one ("if you want to understand this via an analogy...") or
    just launch into it naturally — both are confirmed patterns.
+   **R9 (consistent, small sample):** a teaching analogy comes as a second pass, *after* the
+   formal explanation, mapped item by item. Not before it. Three of three pairings show this
+   (RAG student, Lego, waiter). The jargon-grounding scenario below is a different device and
+   still comes first.
 4. **How (mechanism, then code).** Explain the mechanism before any code. Code is a
    *follow-on* to understanding, never a replacement for it — never open with code and
    explain backwards from it.
@@ -59,6 +63,59 @@ data format). Don't jump to code or configuration before the scenario + mapping 
 happened. A one-line inline definition ("JSON, a data format") is not sufficient on its
 own if the term is actually load-bearing for the rest of the lecture — grounded mapping,
 not a glossary entry, is the confirmed pattern.
+
+## Lecture timing (R8, medium confidence)
+
+Across 50 lectures with code markers, first code lands at about 15–50% of the lecture. If the
+theory was taught in an earlier lesson, open almost straight into code.
+
+| Segment | Share of a lecture | Signpost |
+|---|---|---|
+| Recap + agenda (+ value promise) | ~0–5% | "hamesha ki tarah ek chhota sa recap", "trust me, aaj ka…" |
+| Plan of action (long lessons only) | ~2–15% | "teen parts mein divide kar raha hoon" |
+| Theory: why → what → how, with diagrams | ~20–45% | "ab baat karte hain…", "chalo aage badhte hain" |
+| Code / demo | ~50–75% | "now that you have the big picture, let's start coding" |
+| Close: recap, optional FAQ-as-revision, next-lesson hook | ~5% | "agle lesson mein…" tied to an open loop |
+
+## Teaching with a whiteboard
+
+When a lesson has a diagram, narrate it in CampusX's order. The full rules and their evidence
+live in `diagram-style.md`. Short form:
+
+1. **Count first, then reveal** (N1). Say how many parts there are, then show them.
+2. **One ordinal caption per step** (N2). "pehla … / step number two … / point number three …".
+3. **Point, then read** (N3). "yahan pe dekho, likha hua hai …" plus a one-line paraphrase.
+4. **Question before the node** (N4, occasional). Pose it, then reveal "the answer is …".
+5. **Name the gap before the box** (N5, thin). Animate the problem, then the component.
+6. **Example numbers go on the board** (N6, occasional).
+7. **Progress on long flows** (N7, thin). Dim or tick finished nodes on flows of four or more.
+8. **Analogy last, as a green second pass** (N8, occasional). Map it item by item.
+9. **Replay yesterday's diagram, then circle today's node** (N9, common).
+10. **Close the flow with one pass along the arrows and a check line** (N10, common). "toh flow
+    ke hisaab se…", "I hope … samajh aa gaya".
+11. **Foils and mappers** (N11, common). ChatGPT before the box, familiar apps node by node.
+12. **Bridge to code with what → how** (N12, occasional). "ab what se how pe chalte hain".
+
+## Interactive blocks voice
+
+Blocks map to real CampusX habits. Quizzes, flashcards and steppers are Virus additions. They
+are voiced with his phrases, not with gamified tutor language.
+
+| v4 block | Real habit it voices | Attested phrasing | Frequency | Virus addition? |
+|---|---|---|---|---|
+| `pause-socho` (predict / MCQ) | Pause, think, then he reveals | "Ek baar video pause karke socho… The answer is…" | common (~30 files) | The waiting is new |
+| `output-kya-aayega` (code stepper) | Predict the output | "output kya aayega?" | common in live sessions | Stepper UI is new |
+| `khud-ko-samjhao` (explain back) | Explain it to yourself | "khud ko nahi samjha pa rahe to samajh nahi aaya" | occasional | Textarea is new |
+| `yahan-tak-clear` (checkpoint) | Doubt check-in | "aap log yahan tak clear hai?" | common in live sessions | "Not clear" path re-explains with a new analogy |
+| `hint-ladder` (practice) | Hints over solutions | "poora solution mat khojo, hints khojo" | thin | yes |
+| `revision-cards` (flashcards) | Quick revision / notes | "quick recap de deta hoon", "notes banao" | occasional | Cards are new |
+| `homework` | Extend what was built | "ek chhota sa homework deta hoon" | occasional | — |
+| `padh-ke-dekho` (expandable artifact) | Pause to read a dense prompt or code | "video pause karke padhna zaroor" | common | — |
+| `kis-side-mein` (classify game) | Builder vs user side | "user wali side jayega ya builder wali?" | thin (one source) | Optional block |
+| `ask-virus` (copy a prompt) | — | — | — | yes: replaces "comment mein batao" |
+
+Blocks may genuinely wait for the learner (R1). Reveals start "The answer is…" and give the why.
+Never write the banned microcopy listed in `style-guide.md`.
 
 ## Rhetorical question → self-answer
 

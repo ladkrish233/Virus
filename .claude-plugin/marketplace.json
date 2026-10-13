@@ -9,6 +9,7 @@
     {
       "name": "virus",
       "source": "./plugins/virus",
+      "version": "4.0.0",
       "icon": "./plugins/virus/assets/icon.webp",
       "description": "Teach me anything the way CampusX teaches it — Hinglish, why-first, code-along, honest about limits. Builds full lecture-wise courses, and mentors hands-on project builds: pick a difficulty, rebuild a real GitHub project from scratch.",
       "category": "education",

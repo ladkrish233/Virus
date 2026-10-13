@@ -39,10 +39,108 @@ body{
   font-family:var(--font-body);
   line-height:1.6;
 }
+/* Three-column shell: left rail (course map), main, right rail (margin).
+   Columns: 3 at 1280px+, 2 at 768-1279px (right rail drops below main), 1 below 768px
+   (left rail becomes a top strip). No page-level horizontal scroll. */
+:root{ --gutter:16px; }
+.shell{
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  min-height:100vh;
+}
+.rail-left, .rail-right{
+  padding:24px var(--gutter);
+  min-width:0;
+}
+.rail-left{ border-bottom:1px solid var(--border); overflow-x:auto; }
+.rail-right{ border-top:1px solid var(--border); }
+.rail-right h3{ margin-top:0; }
+.course-map{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  gap:12px;
+  white-space:nowrap;
+  font-family:var(--font-mono);
+  font-size:.78rem;
+}
+.course-map li{ margin:0; color:var(--text-dim); }
+.course-map li.done::before{ content:"✓ "; color:var(--good); }
+.course-map li.today{ color:var(--accent-strong); }
+.course-map li.today::before{ content:"◉ "; color:var(--accent); }
+.course-map li.pending::before{ content:"○ "; }
 .wrap{
-  max-width:920px;
-  margin:0 auto;
-  padding:40px 24px 120px;
+  min-width:0;
+  padding:40px var(--gutter) 120px;
+}
+/* The prose column stays readable (p is capped at 70ch below); boards break out to the column edge. */
+.board{
+  margin:20px calc(-1 * var(--gutter));
+  background:#f7f3ea;
+  color:#1a1a1a;
+  border:1px solid #d9d2c3;
+  border-radius:10px;
+  padding:16px 18px;
+}
+.board .board-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  font-family:var(--font-mono);
+  font-size:.78rem;
+  color:#5a5346;
+}
+.board .controls{ display:flex; gap:6px; }
+.board .controls button{
+  font:inherit;
+  color:#1a1a1a;
+  background:#fff;
+  border:1px solid #d9d2c3;
+  border-radius:5px;
+  padding:3px 9px;
+  cursor:pointer;
+}
+.board .caption{ margin:10px 0 0; color:#1a1a1a; font-weight:600; }
+.pen-underline{
+  text-decoration:underline;
+  text-decoration-color:#e0412e;
+  text-decoration-thickness:3px;
+  text-underline-offset:6px;
+}
+.margin-note{
+  font-size:.9rem;
+  color:var(--text-dim);
+  border-left:2px solid var(--accent);
+  padding:4px 0 4px 12px;
+  margin:12px 0;
+}
+@media (max-width:767px){ .course-map{ padding-bottom:4px; } }
+@media (min-width:768px){
+  :root{ --gutter:24px; }
+  .shell{ grid-template-columns:200px minmax(0,1fr); }
+  .rail-left{
+    position:sticky;
+    top:0;
+    height:100vh;
+    overflow-y:auto;
+    border-bottom:none;
+    border-right:1px solid var(--border);
+  }
+  .course-map{ flex-direction:column; gap:6px; white-space:normal; }
+  .rail-right{ grid-column:2; border-top:none; }
+}
+@media (min-width:1280px){
+  .shell{ grid-template-columns:220px minmax(0,1fr) 260px; }
+  .rail-right{
+    grid-column:auto;
+    position:sticky;
+    top:0;
+    height:100vh;
+    overflow-y:auto;
+    border-left:1px solid var(--border);
+  }
 }
 header.hero{
   display:flex;
@@ -251,6 +349,17 @@ a{ color:var(--accent-strong); }
 ::selection{ background:var(--accent-soft); }
 </style>
 
+<div class="shell">
+
+<aside class="rail-left" aria-label="Course map">
+  <!-- Growing tree: done = ✓, today = ◉ (ringed red), pending = ○. One <li> per lecture in the roadmap. -->
+  <ol class="course-map">
+    <!-- <li class="done">L1 FILL: lecture title</li> -->
+    <!-- <li class="today">L2 FILL: this lecture's title</li> -->
+    <!-- <li class="pending">L3 FILL: lecture title</li> -->
+  </ol>
+</aside>
+
 <div class="wrap">
 
 <header class="hero">
@@ -259,7 +368,7 @@ a{ color:var(--accent-strong); }
     <!-- FILL: a short kicker line, e.g. "<topic> — lecture 3 of 9" -->
     <div class="eyebrow"><!-- FILL: eyebrow text --></div>
     <!-- FILL: lecture title, same as <title> above -->
-    <h1><!-- FILL: lecture title --></h1>
+    <h1><span class="pen-underline"><!-- FILL: lecture title --></span></h1>
     <!-- FILL: one-line "what we'll cover and why" — the recap+agenda beat from
          teaching-framework.md, written not spoken (no greeting/channel-intro language) -->
     <p class="dek"><!-- FILL: one-line dek --></p>
@@ -289,6 +398,21 @@ a{ color:var(--accent-strong); }
     <span><!-- FILL: stage 1 --></span><span class="arrow">→</span><span><!-- FILL: stage 2 --></span>
   </div>
 
+  <!-- Optional: a full-bleed board for a step-by-step diagram. Light card inside the dark page.
+       ◀ ▶ step, ✎ pen layer, ↺ reset. The caption is the ordinal line for the current step. -->
+  <div class="board" role="region" aria-label="Diagram: FILL board title">
+    <div class="board-head">
+      <span><!-- FILL: board title · date --></span>
+      <span class="controls">
+        <button type="button" aria-label="Previous step">◀</button>
+        <button type="button" aria-label="Next step">▶</button>
+        <button type="button" aria-label="Toggle pen layer">✎</button>
+        <button type="button" aria-label="Reset board">↺</button>
+      </span>
+    </div>
+    <p class="caption"><!-- FILL: ordinal caption, e.g. "pehla step: …" --></p>
+  </div>
+
   <h3><!-- FILL: subsection heading, optional --></h3>
   <p><!-- FILL: explanatory prose, in voice --></p>
   <pre><code><!-- FILL: real, runnable code --></code></pre>
@@ -312,6 +436,16 @@ a{ color:var(--accent-strong); }
   <span class="mascot-badge" role="img" aria-label="Virus"></span>
   <!-- FILL: a short close naming what's next in the roadmap (not a generic sign-off) -->
 </footer>
+
+</div>
+
+<aside class="rail-right" aria-label="Margin">
+  <div class="mascot" role="img" aria-label="Virus, at the board"></div>
+  <h3>Key terms</h3>
+  <!-- FILL: 2–5 key terms, one line each (glossary entries from CONTEXT.md) -->
+  <div class="margin-note"><!-- FILL: deferral note, e.g. "don't worry, Lesson 3 mein aayega" --></div>
+  <div class="margin-note"><!-- FILL: honesty label or pen note, e.g. "dhyaan se" --></div>
+</aside>
 
 </div>
 
