@@ -82,33 +82,16 @@ I want to learn LangChain by building something
 
 ## Claude alone vs Claude with Virus, command by command
 
-Each command, described twice: what plain Claude does, and what Virus does on top. The descriptions
-are about behaviour, not recorded outputs. The Hinglish and English versions say the same thing.
+Each row is one command. The three columns show plain Claude, then Virus in Hinglish, then Virus in English.
+These describe behaviour, not recorded outputs.
 
-### `/teach <topic>`
-
-- **English.** Without Virus: Claude gives one complete answer in a single block: the definition, the list of methods, then the code. With Virus: it starts from a problem you would actually meet, builds the idea step by step on a board, explains code line by line after the concept, and ends with a question for you to answer.
-- **Hinglish.** Virus ke bina: Claude ek lamba, sahi jawab deta hai, pehle definition, phir list, phir code. Virus ke saath: pehle ek aisi problem se shuru karta hai jo aapko actually aayegi, board pe idea ek-ek step mein banata hai, code concept ke baad line by line samjhata hai, aur end mein ek sawaal poochta hai jo aapko khud jawab dena hai.
-
-### `/doubt <question>`
-
-- **English.** Without Virus: Claude answers, sometimes at length, and moves on. With Virus: a few lines and a direct answer, then it asks whether to go back to the lesson. Nothing is saved, and no new lesson opens.
-- **Hinglish.** Virus ke bina: Claude jawab deta hai, kabhi lamba, aur aage badh jaata hai. Virus ke saath: chand lines mein seedha jawab, phir poochta hai ki lesson pe wapas chalein. Kuch save nahi hota, koi naya lesson nahi khulta.
-
-### `/course <topic>`
-
-- **English.** Without Virus: Claude writes a long list of topics, or one big document. With Virus: a roadmap first, planned backward from your goal. Then one lesson at a time. Each lesson saves its board, and the next lesson opens with that board and extends it.
-- **Hinglish.** Virus ke bina: Claude topics ki lambi list ya ek bada document deta hai. Virus ke saath: pehle roadmap, lakshya se peeche ki taraf planned. Phir ek-ek lesson. Har lesson ka board save hota hai, aur agla lesson wahi board kholta hai aur aage badhata hai.
-
-### `/ai-engineer`
-
-- **English.** Without Virus: Claude lists the AI engineering topics in one go, and you choose what to study. With Virus: it walks CampusX's roadmap in order: part, then level, then module. A prerequisite you haven't done is flagged with a quick check, and your place is kept in `PLAN.md`.
-- **Hinglish.** Virus ke bina: Claude ek saath AI engineering ke topics ki list deta hai, aur kya padhna hai ye aap chunte ho. Virus ke saath: CampusX ka roadmap order mein chalata hai: part, phir level, phir module. Jo prerequisite aapne nahi kiya, uspe quick check hota hai, aur aapki jagah `PLAN.md` mein save hoti hai.
-
-### `/project <topic>`
-
-- **English.** Without Virus: Claude builds the whole project for you, and you learn very little. With Virus: it finds a real GitHub project, writes a plan for your approval, and mentors you while you write the code. It reviews your code and shows the errors, and writes code only when you are genuinely stuck.
-- **Hinglish.** Virus ke bina: Claude poora project bana deta hai, aur aap bahut kam seekhte ho. Virus ke saath: ek real GitHub project dhoondhta hai, aapki approval ke liye plan likhta hai, aur code aap likhte ho. Virus mentor ki tarah review karta hai aur error dikhata hai. Code sirf tab likhta hai jab aap atak jaate ho, aur bolta hai ki likh raha hai.
+| Command | Claude alone | Claude with Virus (Hinglish) | Claude with Virus (English) |
+|---|---|---|---|
+| `/teach <topic>` | Ek lamba, sahi jawab: definition, methods ki list, phir code. | Pehle ek aisi problem se shuru karta hai jo aapko actually aayegi. Board pe idea ek-ek step mein banata hai. Code concept ke baad line by line samjhata hai. End mein ek sawaal poochta hai jo aapko khud jawab dena hai. | Starts from a problem you would actually meet. Builds the idea step by step on a board. Explains code line by line after the concept. Ends with a question for you to answer. |
+| `/doubt <question>` | Jawab deta hai, kabhi lamba, aur aage badh jaata hai. | Chand lines mein seedha jawab, phir poochta hai lesson pe wapas chalein. Kuch save nahi hota. | A few lines and a direct answer, then asks whether to go back to the lesson. Nothing is saved. |
+| `/course <topic>` | Topics ki lambi list ya ek bada document. | Pehle roadmap, lakshya se peeche ki taraf planned. Phir ek-ek lesson. Har lesson ka board save hota hai, aur agla lesson wahi board aage badhata hai. | A roadmap first, planned backward from your goal. Then one lesson at a time. Each lesson saves its board, and the next extends it. |
+| `/ai-engineer` | AI engineering ke topics ki list ek saath, aur aap chunte ho kya padhna hai. | CampusX roadmap order mein: part, phir level, phir module. Jo prerequisite nahi kiya, uspe quick check. Jagah `PLAN.md` mein save hoti hai. | Walks CampusX's roadmap in order: part, level, module. Unmet prerequisites get a quick check. Your place is kept in `PLAN.md`. |
+| `/project <topic>` | Poora project khud bana deta hai, aur aap bahut kam seekhte ho. | Ek real GitHub project dhoondhta hai, aapki approval ke liye plan likhta hai. Aap code likhte ho, Virus review karta hai aur error dikhata hai. Code sirf atakne par likhta hai, aur bolta hai. | Finds a real GitHub project and writes a plan for your approval. You write the code, Virus reviews it and shows errors. It writes code only when you are stuck, and says so. |
 
 ## A lesson, step by step
 
