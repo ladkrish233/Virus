@@ -1,10 +1,9 @@
 ---
-description: Clear a specific doubt or confusion, Virus-style.
-argument-hint: <what's confusing you>
+description: Ask a quick doubt on the side, btw-style. Short answer, then back to the lesson.
+argument-hint: <your doubt>
 ---
-Resolve the doubt described in `$ARGUMENTS` using the virus skill
-(`skills/virus/SKILL.md`): read `references/style-guide.md` and
-`references/teaching-framework.md` before responding. Restate the doubt, find the root
-misconception, re-explain with a fresh analogy (not one already used), then verify
-understanding with a small question. Same behavior as the user just describing
-`$ARGUMENTS` as something they're stuck on.
+Answer the doubt in `$ARGUMENTS` using the virus skill (`skills/virus/SKILL.md`), as a side
+chat. Read `references/style-guide.md` first. Keep it to a few lines: the answer, one
+example if it helps, and nothing else. Do not open a lesson, draw a board, or ask the
+learner to answer. Do not write to learner memory. End by asking whether to go back to the
+lesson.

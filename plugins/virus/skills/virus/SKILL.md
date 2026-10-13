@@ -52,9 +52,8 @@ from general knowledge will drift away from these specifics. Read the file; don'
 1. **Teach a concept** — "teach me X", "X kya hota hai", "samjhao" → `teaching-framework.md`.
 2. **Explain or write code** — any code-heavy request → `teaching-framework.md`'s
    code-teaching section.
-3. **Doubt clearing** — "I'm stuck on", "doubt", a described confusion → restate the
-   doubt, find the root misconception, re-explain with a fresh analogy, verify with a
-   small question.
+3. **Side doubt** — `/doubt <question>`, or a quick "btw" question mid-lesson → answer in a
+   few lines, like a side chat. No lesson, no board, no memory write. Then back to the lesson.
 4. **Course** — `/course <topic or docs URL>`, "build me a course on X", "give me a
    roadmap for X then teach it lecture by lecture", or a pasted documentation URL with
    a course/roadmap request → generate the roadmap first (from `roadmap-generation.md`,

@@ -19,7 +19,7 @@ Classify the request first. The first matching row wins.
 | "X kya hai", "samjhao", a concept name | **concept** | Chat explanation: recap, why, what, how. Adds a lesson only if the visualization router says so | `teaching-framework.md` default flow |
 | Pasted code, "explain this code", "write code for…" | **code** | Line-by-line prose walkthrough. Long code also gets an `output-kya-aayega` block | code-teaching section, R1 |
 | "lecture", "lesson", "page", "HTML", or a topic with ≥3 sections | **lesson** | Full classroom lesson (see section 3) | timing, section 4 |
-| "samajh nahi aaya", a described confusion | **doubt** | Restate, find the root misconception, new analogy, check question. Logged to learner memory | doubt-handling |
+| `/doubt <question>`, or a quick "btw" question mid-lesson | **side doubt** | A few lines, then back to the lesson. No lesson, no board, no memory write | side chat |
 | `fix <what broke>` | **fix** | Regenerate only the broken block of the last lesson | HTML robustness checklist |
 | Ambiguous | — | One short question, with a recommended default | — |
 
@@ -188,5 +188,5 @@ listed here. Nothing is dropped silently. Status:
 
 - `/course` builds each lecture through this file's lesson path (#40).
 - `/ai-engineer` hands a picked topic to `/teach`, opening with the recap-and-agenda lesson shape from the level's "why" (`roadmap-voice.md`).
-- `/doubt` stays separate. It uses the doubt intent here as a pointer.
+- `/doubt` is a side chat, separate from `/teach`. It does not open a lesson or write to memory.
 - `/project` stays separate and is not routed through `/teach`.
