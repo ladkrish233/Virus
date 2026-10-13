@@ -1,0 +1,39 @@
+/* Virus block library. Every class is prefixed vb- so blocks never clash with the host page. */
+.vb{font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;color:#f4f4f1;background:#1f1f26;border:2px solid #2d2d38;border-radius:14px;padding:14px 16px;margin:16px 0;max-width:100%}
+.vb-title{font-weight:700;margin:0 0 8px;color:#9ED4E2}
+.vb-note{color:#a3a3ad;font-size:14px;margin:6px 0}
+.vb-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.vb-btn{font:600 14px inherit;color:#141414;background:#9ED4E2;border:0;border-radius:999px;padding:7px 14px;cursor:pointer}
+.vb-btn.alt{background:#2c2c38;color:#f4f4f1}
+.vb-btn[disabled]{opacity:.45;cursor:not-allowed}
+.vb-btn:focus-visible,.vb-card:focus-visible,.vb input:focus-visible,.vb textarea:focus-visible{outline:3px solid #FFB1D7;outline-offset:2px}
+.vb-say{background:#fff;color:#1d1d1d;border-radius:12px;padding:10px 12px;margin:8px 0}
+.vb-say b{color:#7D3DDC}
+.vb-takeaway{background:#FF5A99;color:#141414;border-radius:10px;padding:8px 12px;font-weight:600;margin-top:10px}
+.vb-hidden{display:none!important}
+.vb-fade{animation:vb-fade .5s ease both}
+@keyframes vb-fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.vb-svg{width:100%;height:auto;background:#27332d;border-radius:10px}
+.vb-svg .vb-n{transition:opacity .5s}
+.vb-svg .vb-n.off{opacity:0}
+.vb-svg .vb-ring{fill:none;stroke:#FF5A99;stroke-width:3;transition:opacity .4s}
+.vb-svg .vb-ring.off{opacity:0}
+.vb-svg text{font-family:system-ui,sans-serif;font-size:15px;fill:#f4f4f1}
+.vb-list{display:grid;gap:8px;margin:8px 0;padding:0;list-style:none}
+.vb-li{border:1px solid #33333f;border-radius:10px;padding:8px 10px;background:#25252f}
+.vb-li.right{border-color:#B5CF1C}
+.vb-li.wrong{border-color:#FF5A99}
+.vb-dim{color:#a3a3ad}
+.vb-code{font:13px/1.55 ui-monospace,Consolas,monospace;background:#0b0b0f;color:#e8ffe0;border-radius:10px;padding:10px 12px;white-space:pre;overflow:auto;margin:8px 0}
+.vb-code .hl{background:#2d4a3a;display:block;border-radius:4px}
+.vb-def{border-left:3px solid #FF5A99;padding:4px 0 4px 12px;margin:8px 0}
+.vb-def u{text-decoration-color:#FF5A99;text-decoration-thickness:2px}
+.vb-flip{perspective:800px}
+.vb-card{background:#25252f;border:1px solid #33333f;border-radius:12px;padding:14px;min-height:110px;cursor:pointer}
+.vb-card .vb-face{font-size:16px}
+.vb-card .vb-back{display:none;color:#f4f4f1}
+.vb-card.flipped .vb-front{display:none}
+.vb-card.flipped .vb-back{display:block}
+.vb-ta{width:100%;min-height:90px;font:inherit;color:#f4f4f1;background:#15151c;border:1px solid #33333f;border-radius:10px;padding:8px}
+.vb-range{width:100%}
+@media (prefers-reduced-motion: reduce){ .vb *{animation:none!important;transition:none!important} }
