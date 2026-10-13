@@ -2,11 +2,9 @@
   "mcpServers": {
     "playwright": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest"]
-    },
-    "excalimate": {
-      "command": "npx",
-      "args": ["@excalimate/mcp-server@0.5.0", "--stdio"]
+      "args": [
+        "@playwright/mcp@latest"
+      ]
     }
   }
 }
