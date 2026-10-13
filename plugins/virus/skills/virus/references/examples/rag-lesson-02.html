@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Virus example — RAG lesson 2: Retrieval</title>
+<link rel="stylesheet" href="../templates/blocks/blocks.css">
+<style>
+  body{margin:0;background:#141414;color:#f4f4f1;font:16px/1.6 system-ui,sans-serif;padding:20px 16px}
+  main{max-width:900px;margin:0 auto}
+  .kicker{font:600 12px ui-monospace,Consolas,monospace;letter-spacing:.1em;text-transform:uppercase;color:#FFB1D7;margin:0}
+  h1{font-size:26px;color:#F1950D;margin:.2em 0}
+  .lead{color:#a3a3ad}
+  .nav{display:flex;justify-content:space-between;margin-top:24px;font-size:14px}
+  .nav a{color:#9ED4E2}
+  .note{color:#a3a3ad;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<section class="lesson-head">
+<p class="kicker">Lesson 2</p>
+<h1>Retrieval: question ko sahi chunks kaise milte hain</h1>
+<p class="lead">Pichli baar humne indexing dekha tha. Aaj question aata hai, aur retriever us question ke liye sabse milte chunks laata hai.</p>
+</section>
+<div class="vb" data-block="recap-board"><script type="application/json">
+{
+ "title": "Pichle lesson ka board",
+ "viewBox": "0 0 960 240",
+ "nodes": [
+  {
+   "id": "pdf",
+   "x": 20,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "PDF",
+   "role": "input"
+  },
+  {
+   "id": "chunk",
+   "x": 250,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Chunks",
+   "role": "component"
+  },
+  {
+   "id": "emb",
+   "x": 480,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Numbers",
+   "role": "component"
+  },
+  {
+   "id": "vdb",
+   "x": 710,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Store",
+   "role": "source"
+  }
+ ],
+ "arrows": [
+  {
+   "id": "a1",
+   "from": "pdf",
+   "to": "chunk"
+  },
+  {
+   "id": "a2",
+   "from": "chunk",
+   "to": "emb"
+  },
+  {
+   "id": "a3",
+   "from": "emb",
+   "to": "vdb"
+  }
+ ],
+ "previousLabel": "Pichli baar: PDF se store tak.",
+ "today": "ret",
+ "say": "Aaj hum yahan se aage badhenge: question aur retriever."
+}
+</script></div>
+<div class="vb" data-block="whiteboard"><script type="application/json">
+{
+ "title": "Retrieval ka board",
+ "viewBox": "0 0 960 240",
+ "nodes": [
+  {
+   "id": "pdf",
+   "x": 20,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "PDF",
+   "role": "input"
+  },
+  {
+   "id": "chunk",
+   "x": 250,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Chunks",
+   "role": "component"
+  },
+  {
+   "id": "emb",
+   "x": 480,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Numbers",
+   "role": "component"
+  },
+  {
+   "id": "vdb",
+   "x": 710,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Store",
+   "role": "source"
+  },
+  {
+   "id": "q",
+   "x": 20,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Question",
+   "role": "input"
+  },
+  {
+   "id": "ret",
+   "x": 250,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Retriever",
+   "role": "component"
+  }
+ ],
+ "arrows": [
+  {
+   "id": "a1",
+   "from": "pdf",
+   "to": "chunk"
+  },
+  {
+   "id": "a2",
+   "from": "chunk",
+   "to": "emb"
+  },
+  {
+   "id": "a3",
+   "from": "emb",
+   "to": "vdb"
+  },
+  {
+   "id": "a4",
+   "from": "q",
+   "to": "ret"
+  },
+  {
+   "id": "a5",
+   "from": "vdb",
+   "to": "ret",
+   "points": [
+    [
+     795,
+     130
+    ],
+    [
+     795,
+     150
+    ],
+    [
+     335,
+     150
+    ],
+    [
+     335,
+     170
+    ]
+   ]
+  }
+ ],
+ "steps": [
+  {
+   "caption": "Pichla board yahin hai. Ab question aata hai.",
+   "show": [
+    "pdf",
+    "chunk",
+    "emb",
+    "vdb",
+    "a1",
+    "a2",
+    "a3"
+   ]
+  },
+  {
+   "caption": "Question bhi numbers mein badalta hai, same model se.",
+   "show": [
+    "q",
+    "a4"
+   ],
+   "ring": "q"
+  },
+  {
+   "caption": "Retriever store se sabse milte chunks laata hai.",
+   "show": [
+    "ret",
+    "a5"
+   ],
+   "ring": "ret"
+  },
+  {
+   "caption": "Ye chunks retrieval ka jawab hain. Baaki chunks chhod diye.",
+   "show": []
+  }
+ ],
+ "takeaway": "Retrieval har question pe chalta hai."
+}
+</script></div>
+<div class="vb" data-block="compare-pair"><script type="application/json">
+{
+ "title": "Context ke saath, aur bina context ke",
+ "changed": 1,
+ "left": {
+  "label": "Bina context",
+  "items": [
+   "Question: office kab khulta hai?",
+   "LLM ka andaza: 10 baje",
+   "Galat ho sakta hai"
+  ]
+ },
+ "right": {
+  "label": "Context ke saath",
+  "items": [
+   "Question: office kab khulta hai?",
+   "Context: 9:30 se 6:30",
+   "Jawab: 9:30 baje"
+  ]
+ },
+ "why": "Sirf context wali line badli. Question same hai.",
+ "takeaway": "Retrieval ka kaam sahi context lana hai."
+}
+</script></div>
+<div class="vb" data-block="definition"><script type="application/json">
+{
+ "title": "Naya shabd: cosine similarity",
+ "text": "Cosine similarity do vectors ki disha ka fark napti hai. 1 ka matlab bilkul same disha, 0 ka matlab koi relation nahi.",
+ "keywords": [
+  "cosine similarity",
+  "disha"
+ ],
+ "why": "Retriever isi se top chunks chunta hai."
+}
+</script></div>
+<div class="vb" data-block="pause-socho"><script type="application/json">
+{
+ "title": "Ek aur sawaal",
+ "question": "Question aaya, aur store mein sirf teen chunks hain jinka score 0 hai. Kya retriever kuch laaye?",
+ "options": [
+  {
+   "text": "Haan, top 3 zaroor laayega",
+   "correct": false,
+   "why": "Score 0 ka matlab koi relation nahi. Zero chunks ko top nahi maante."
+  },
+  {
+   "text": "Nahi, relevant chunks hi laayega",
+   "correct": true,
+   "why": "Score zero wale chunks ka koi matlab nahi, isliye chhod dete hain."
+  },
+  {
+   "text": "Pehla chunk laayega",
+   "correct": false,
+   "why": "Order ka koi matlab nahi hai."
+  }
+ ],
+ "answer": "Relevant chunks hi. Score zero hai to koi relation nahi.",
+ "takeaway": "Zero score = koi relation nahi."
+}
+</script></div>
+<div class="vb" data-block="sandbox"><script type="application/json">
+{
+ "title": "Top kitne chunks?",
+ "label": "Top k",
+ "min": 1,
+ "max": 10,
+ "value": 3,
+ "rows": [
+  {
+   "upto": 1,
+   "text": "ek hi chunk, jawab adhoora ho sakta hai"
+  },
+  {
+   "upto": 4,
+   "text": "sahi range: context chhota, noise kam"
+  },
+  {
+   "upto": 10,
+   "text": "bahut chunks, noise badh sakta hai"
+  }
+ ],
+ "try": "Slider chalao aur dekho.",
+ "takeaway": "Koi magic number nahi. Trade-off hai."
+}
+</script></div>
+<div class="vb" data-block="hint-ladder"><script type="application/json">
+{
+ "title": "Practice",
+ "task": "Ek question ke liye 3 chunks mein se 2 relevant hain. Retriever top 3 laaye. Kitne relevant hain?",
+ "hints": [
+  "Top 3 mein se kitne chunks ka score zero nahi hai?",
+  "Relevant ka matlab score zero se bada."
+ ],
+ "solution": "Do relevant, ek baaki. Ye top 3 ka sirf ek hissa hai, ye normal hai."
+}
+</script></div>
+<div class="vb" data-block="khud-ko-samjhao"><script type="application/json">
+{
+ "title": "Apne shabdon mein",
+ "prompt": "Retriever kya karta hai? 3–4 lines mein samjhao."
+}
+</script></div>
+<div class="vb" data-block="homework"><script type="application/json">
+{
+ "task": "Apne 3 questions likho, aur har ek ke liye socho ki kaun se chunk milna chahiye.",
+ "hint": "Sirf wahi chunk socho jo jawab mein kaam aaye."
+}
+</script></div>
+<p class="note">Agla lesson: augmentation aur generation. Chunks prompt mein jaate hain, aur LLM jawab likhta hai.</p>
+
+<nav class="nav"><a href="rag-lesson-01.html">&larr; Pichla lesson</a> <a href="rag-lesson-03.html">Agla lesson &rarr;</a></nav>
+</main>
+<script src="../templates/blocks/blocks.js"></script>
+</body>
+</html>

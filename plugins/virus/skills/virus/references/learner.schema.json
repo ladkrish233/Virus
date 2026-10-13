@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "virus/learner.schema.json",
+  "title": "Virus learner progress (./virus-progress/learner.json)",
+  "description": "Local learner memory. Never committed to the plugin repo. See learner-memory.md.",
+  "type": "object",
+  "required": ["schemaVersion", "profile", "concepts", "sessions"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "profile": {
+      "type": "object",
+      "required": ["language", "pref"],
+      "additionalProperties": false,
+      "properties": {
+        "language": { "type": "string", "enum": ["hinglish", "english"] },
+        "pref": { "type": "string", "enum": ["teach-first", "build-first"] },
+        "level": { "type": "string", "pattern": "^L([0-9]|1[0-6])$" },
+        "hoursPerDay": { "type": "number", "minimum": 0, "maximum": 24 }
+      }
+    },
+    "concepts": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)*$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["mastery", "attempts", "type", "status", "reviewStep", "misconceptions"],
+        "additionalProperties": false,
+        "properties": {
+          "mastery": { "type": "number", "minimum": 0, "maximum": 1 },
+          "attempts": { "type": "integer", "minimum": 0 },
+          "lastSeen": { "type": "string", "format": "date" },
+          "nextReview": { "type": "string", "format": "date" },
+          "reviewStep": { "type": "integer", "minimum": 0, "maximum": 4 },
+          "type": { "type": "string", "enum": ["concept", "procedure"] },
+          "status": { "type": "string", "enum": ["new", "practicing", "stable"] },
+          "misconceptions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text", "open"],
+              "additionalProperties": false,
+              "properties": {
+                "text": { "type": "string", "minLength": 1 },
+                "open": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "topic"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "topic": { "type": "string", "minLength": 1 },
+          "recap": { "type": "string" },
+          "openLoop": { "type": "string" },
+          "homework": { "type": "string" }
+        }
+      }
+    }
+  }
+}

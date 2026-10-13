@@ -14,14 +14,14 @@ hoti hai. Chalo isko clear karte hain.
 
 **Pehle doubt ko apne alfaazon mein restate karta hoon taaki confirm ho jaaye:** tumhe
 ye clear nahi hai ki jab model "overfit" hai vs jab model "underfit" hai, dono mein farak
-kya hai, aur konsa kab hota hai — sahi pakड़ा?
+kya hai, aur konsa kab hota hai — sahi pakda?
 
 **Ab root cause pe aate hain** — maine dekha hai ki ye confusion usually isliye hoti hai
 kyunki dono hi "model accha perform nahi kar raha" wali category mein lagte hain, toh
 dimaag mein ek hi "problem" lagti hai, jab ki actually ye do **opposite** problems hain —
 ek "bahut kam seekha" hai, doosra "bahut zyada ratta maar liya" hai.
 
-**Fresh analogy se samajhte hain** (pichhli baar jo bhi analogy use ki ho uससे alag) —
+**Fresh analogy se samajhte hain** (pichhli baar jo bhi analogy use ki ho usse alag) —
 socho ek student exam ki taiyari kar raha hai:
 
 - **Underfitting** — wo student jisne sirf 2 din padha, basic concepts bhi theek se

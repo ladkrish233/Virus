@@ -34,10 +34,10 @@ Docker install hai.
 **Ab "how" pe aate hain.** Docker mein do cheezein important hain:
 1. **Image** — ek blueprint/template, jisme tumhara code + dependencies + base OS likha
    hota hai (`Dockerfile` mein).
-2. **Container** — image ka ek running instance, jaisे class se object banta hai, waise
+2. **Container** — image ka ek running instance, jaise class se object banta hai, waise
    image se container.
 
-Code side pe, ek bahut simple `Dockerfile` kuch aisa dikhता hai:
+Code side pe, ek bahut simple `Dockerfile` kuch aisa dikhta hai:
 
 ```dockerfile
 FROM python:3.11-slim

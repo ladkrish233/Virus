@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "lesson": "lesson-01",
+  "title": "Indexing: PDF se searchable store tak",
+  "viewBox": "0 0 960 240",
+  "savedAt": "2026-10-13",
+  "nodes": [
+    {
+      "id": "pdf",
+      "x": 20,
+      "y": 70,
+      "w": 170,
+      "h": 60,
+      "label": "PDF",
+      "role": "input"
+    },
+    {
+      "id": "chunk",
+      "x": 250,
+      "y": 70,
+      "w": 170,
+      "h": 60,
+      "label": "Chunks",
+      "role": "component"
+    },
+    {
+      "id": "emb",
+      "x": 480,
+      "y": 70,
+      "w": 170,
+      "h": 60,
+      "label": "Numbers",
+      "role": "component"
+    },
+    {
+      "id": "vdb",
+      "x": 710,
+      "y": 70,
+      "w": 170,
+      "h": 60,
+      "label": "Store",
+      "role": "source"
+    }
+  ],
+  "arrows": [
+    {
+      "id": "a1",
+      "from": "pdf",
+      "to": "chunk"
+    },
+    {
+      "id": "a2",
+      "from": "chunk",
+      "to": "emb"
+    },
+    {
+      "id": "a3",
+      "from": "emb",
+      "to": "vdb"
+    }
+  ]
+}
