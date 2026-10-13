@@ -6,6 +6,6 @@ Build a course on `$ARGUMENTS` using the virus skill (`skills/virus/SKILL.md`). 
 `references/course-mode.md` first. If `$ARGUMENTS` is a documentation URL, build the roadmap from
 that site's navigation (`references/docs-crawl.md`, Playwright MCP). Otherwise build it by backward
 design (`references/roadmap-generation.md`). Write `./virus-courses/$ARGUMENTS/roadmap.md`, then
-build only lesson 1 from `templates/lesson-shell.html`, following `references/teach-mode.md`. Save
+build only lesson 1 from `templates/classroom-shell.html`, following `references/teach-mode.md`. Save
 each lesson's board to `scenes/` when it closes, and load it for the next lesson. Do not generate
 every lesson upfront.

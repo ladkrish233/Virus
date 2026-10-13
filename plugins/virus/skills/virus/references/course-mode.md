@@ -37,19 +37,39 @@ learner reaches it.
 
 ## 3. Build a lesson page
 
-Start from `references/templates/lesson-shell.html`. Fill its placeholders. Do not restructure it.
+Start from `references/templates/classroom-shell.html`. It is the classroom layout: a teacher on
+the left, the board in the middle, a notebook on the right, and a step bar at the bottom. Fill
+its placeholders. Do not restructure it.
 
-1. Read `templates/blocks/blocks.css` and `templates/blocks/blocks.js`. Paste them into the
-   shell's `__BLOCKS_CSS__` and `__BLOCKS_JS__` slots. Inline only. Never link to them, and never
-   fetch them from the network. The page must work from `file://`.
-2. Follow the nine-beat lesson anatomy (`teach-mode.md`, §3). Write the prose in the Hinglish voice.
-3. Use block props that match `templates/blocks/blocks-demo.html`. Each block is a `data-block`
-   div with a JSON script.
-4. Lessons 2 and up open with a `recap-board`, loaded from the previous scene (section 4).
+Placeholders: `__TITLE__`, `__HEADING__`, `__TAG__`, `__BLOCKS_CSS__`, `__BLOCKS_JS__`, `__BEATS__`.
+
+1. Paste `templates/blocks/blocks.css` into `__BLOCKS_CSS__` and `templates/blocks/blocks.js` into
+   `__BLOCKS_JS__`. Inline only. Never link to them, and never fetch them. The page must work from
+   `file://`.
+2. Build the beats. A **beat** is one screen of the lesson: one teacher line, one or two blocks on
+   the board, and the notebook notes. Each beat is one section:
+
+   ```html
+   <section class="beat" data-title="Indexing board" data-speech="Ab board pe chalte hain."
+            data-notes="Indexing ek baar hota hai.|Question har baar aata hai."
+            data-term="Chunk|Ek idea ka chhota tukda." data-takeaway="Indexing ek baar hota hai.">
+     <!-- one or two data-block divs from templates/blocks/ -->
+   </section>
+   ```
+
+   - `data-speech`: the teacher line, typed out. Hinglish, short.
+   - `data-notes`: key points, separated by `|`. They show in the notebook while the beat is open.
+   - `data-term`: optional, `Name|definition`. Terms collect in the notebook as the lesson goes on.
+   - `data-takeaway`: optional "Yaad rakho" line, shown under the board. Leave it out if empty.
+3. Follow the nine-beat lesson anatomy (`teach-mode.md`, §3). Write the prose in the Hinglish voice.
+4. Lessons 2 and up open with a `recap-board` beat, loaded from the previous scene (section 4).
 5. Close with `yahan-tak-clear`, `khud-ko-samjhao`, a `homework` that extends the lesson, and a
    next-lesson hook.
 
 Lesson 1 has no previous scene, so it skips the recap-board. Do not invent one.
+
+The navigation (step bar, ◀ ▶, ↺, arrow keys) is already in the shell. Arrow keys do not move
+the beat while a block (such as a whiteboard) has focus. That block uses them for its own steps.
 
 ## 4. Scenes: save, then load
 
