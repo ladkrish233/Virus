@@ -1,3 +1,5 @@
+> **Superseded in part (#45):** `/learn`, `/code` and `/lecture` are removed. `/teach` is the one teaching command. `/doubt` is a side chat. See map #28 and ticket #45.
+
 # Virus v4 — Plan (rev 2, not yet implemented)
 
 > **Status: plan only.** Nothing under `plugins/` has changed for v4. Once the open decisions

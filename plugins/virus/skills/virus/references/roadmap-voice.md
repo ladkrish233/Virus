@@ -136,5 +136,5 @@ The intro shows only on the first run. After that, `PLAN.md` exists, and re-entr
 
 ## Hand-off
 
-After the learner picks a topic, hand off to `/learn`. Open with the recap and agenda, starting
-from that level's "why". See `learn-mode.md` for the lesson shape.
+After the learner picks a topic, hand off to `/teach`. Open with the recap and agenda, starting
+from that level's "why". See `teach-mode.md` for the lesson shape.

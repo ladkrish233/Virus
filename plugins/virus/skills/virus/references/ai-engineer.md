@@ -1,10 +1,10 @@
 # /ai-engineer
 
 Walks the learner through CampusX's AI Engineering roadmap, stage by stage: part, then level,
-then module, then teach. The teaching itself goes to `/learn` (see `learn-mode.md`).
+then module, then teach. The teaching itself goes to `/teach` (see `teach-mode.md`).
 
 Read this file, then `roadmap-voice.md` (the launch-video beats and the sample intro),
-`learner-memory.md` (the progress record) and `learn-mode.md` before any response.
+`learner-memory.md` (the progress record) and `teach-mode.md` before any response.
 
 ---
 
@@ -131,7 +131,7 @@ learner has chosen.
 When the learner says they know a module:
 - If the later modules in the level build on it, say so and do not skip it: "skip mat karo,
   agle module isi pe build hote hain. 2 minute ka quick check kar lete hain." Run one
-  `pause-socho` (a `/learn` block).
+  `pause-socho` (a `/teach` block).
 - Otherwise mark it **skipped** in `PLAN.md`, with the learner's reason.
 
 Never mark a module done on the learner's word alone. Done means taught and checked.
@@ -167,7 +167,7 @@ Source: CampusX roadmap, fetched 2026-10-12 (link: <repo>, levels.json)
 | M4.3 | Embeddings | core | pending | |
 
 ## Hand-offs
-- seekho → `/learn` (topic and level above)
+- seekho → `/teach` (topic and level above)
 - banao → `/project` at the matching difficulty
 - deep jao → `/course`
 
@@ -180,16 +180,16 @@ Statuses: `pending`, `practising`, `done`, `skipped`. Mirror the mastery facts i
 
 ---
 
-## 10. Teaching a module: hand-off to `/learn`
+## 10. Teaching a module: hand-off to `/teach`
 
-After the module is chosen, call `/learn` with a short brief, never the roadmap text:
+After the module is chosen, call `/teach` with a short brief, never the roadmap text:
 
 - the module's `name` and id (`M4.2 Chunking`)
 - three objectives, paraphrased in Virus's words
 - the `tryIt` idea, paraphrased
 - the `outcome`, paraphrased
 
-`/learn` then opens with its recap and agenda (`learn-mode.md`, beat 1). At the close, the
+`/teach` then opens with its recap and agenda (`teach-mode.md`, beat 1). At the close, the
 lesson names the next module: "Agla topic: M4.3 Embeddings — chalein?"
 
 ---

@@ -45,10 +45,9 @@ from general knowledge will drift away from these specifics. Read the file; don'
 
 ## Modes (how a request routes)
 
-0. **Learn** — `/learn <anything>`, the unified entry point → read `references/learn-mode.md`
-   and route by its intent table (concept, code, lesson, doubt, fix). `/teach`, `/code`
-   and `/lecture` are deprecated aliases of `/learn` with the mode forced.
-   `/doubt` stays a separate command.
+0. **Teach** — `/teach <anything>`, the one teaching command in v4 → read
+   `references/teach-mode.md` and route by its intent table (concept, code, lesson,
+   doubt, fix). `/learn`, `/code` and `/lecture` are removed. `/doubt` stays a side chat.
 
 1. **Teach a concept** — "teach me X", "X kya hota hai", "samjhao" → `teaching-framework.md`.
 2. **Explain or write code** — any code-heavy request → `teaching-framework.md`'s
@@ -64,9 +63,9 @@ from general knowledge will drift away from these specifics. Read the file; don'
    build only the first lecture's HTML page (`lecture-page-generation.md`); build each
    further lecture lazily, one at a time, as the person reaches it — never generate the
    whole course upfront.
-5. **Lecture** — `/lecture <topic>`, or a request for a single deep-dive reference page
-   on one topic with no roadmap needed → `lecture-page-generation.md` directly, skipping
-   the roadmap step.
+5. **Lesson page** — a request for a single deep-dive page on one topic, with no roadmap
+   needed → `/teach` in lesson mode (`teach-mode.md`, §1). Builds from
+   `lecture-page-generation.md` and writes `lecture-NN.html`.
 6. **Project** — `/project <topic>`, "I want to learn X by building something" → read
    `project-mode.md`, ask the person to pick a difficulty level, then use
    `github-search.md` to shortlist 2-3 real GitHub repos matching the topic and level.

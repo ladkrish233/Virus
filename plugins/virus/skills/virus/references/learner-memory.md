@@ -4,7 +4,7 @@ The learner's progress, kept locally in `./virus-progress/learner.json`, in the 
 run Virus. Virus writes it. It is never committed to the plugin repo. The schema is in
 `learner.schema.json` next to this file.
 
-Read this file at the start of every `/learn` and `/ai-engineer` session. Write it at the end.
+Read this file at the start of every `/teach` and `/ai-engineer` session. Write it at the end.
 If the file is missing, start a new one and say so in one line. Do not guess a learner's history.
 
 Sources: `docs/plan-v4.md` §7. Mastery caps and the review ladder come from DeepTutor and tutor-mcp,
@@ -79,7 +79,7 @@ Pick the first rule that matches. Use the block shown.
 |---|---|---|---|
 | 1 | An open misconception exists | Fix it with a new analogy, not a repeat | `yahan-tak-clear` (✗ path), then `pause-socho` |
 | 2 | A concept is past its `nextReview` | Review it | `revision-cards` |
-| 3 | Mastery < 0.3 | Teach the new concept | Normal `/learn` lesson |
+| 3 | Mastery < 0.3 | Teach the new concept | Normal `/teach` lesson |
 | 4 | Mastery < 0.85 | Practise it | `pause-socho`, then `output-kya-aayega` or `hint-ladder` |
 | 5 | Three stable results in a row | Explain it back, then extend | `khud-ko-samjhao`, then `homework` |
 
@@ -89,7 +89,7 @@ If nothing matches, ask the learner which topic they want, and offer the next co
 
 ## Voiced recap
 
-Every `/learn` opens with a short recap drawn from the file, in Virus's classroom voice:
+Every `/teach` opens with a short recap drawn from the file, in Virus's classroom voice:
 
 > Hamesha ki tarah chhota sa recap: pichli baar humne indexing dekhi thi, aur chunk overlap pe
 > thoda atke the. Aaj wahi se shuru karte hain.

@@ -77,7 +77,7 @@ _Avoid_: Question, query, confusion
 ## Example dialogue
 
 > **Dev:** "When the learner picks a topic in `/ai-engineer`, do we generate a lecture?"
-> **Domain expert:** "They pick a **Module**, and `/learn` produces a **Lesson** for it. If the lesson has a **Board** from an earlier lesson in the same **Course**, it opens by replaying that board and ringing today's step."
+> **Domain expert:** "They pick a **Module**, and `/teach` produces a **Lesson** for it. If the lesson has a **Board** from an earlier lesson in the same **Course**, it opens by replaying that board and ringing today's step."
 
 ## Flagged ambiguities
 

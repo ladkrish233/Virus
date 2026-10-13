@@ -1,9 +1,8 @@
 # Learn mode
 
-`/learn <anything>` is the one entry point for teaching in v4. It routes the request, then
-runs the matching mode. `/teach`, `/code` and `/lecture` are deprecated aliases with the mode
-forced. `/doubt` stays a separate command. `/course` and `/project` stay separate because they
-span sessions.
+`/teach <anything>` is the one teaching command in v4. It routes the request, then runs the
+matching mode. `/learn`, `/code` and `/lecture` are removed; their modes live inside `/teach`.
+`/doubt` stays a side chat. `/course` and `/project` stay separate because they span sessions.
 
 Read this file, then `style-guide.md`, `teaching-framework.md` and `hinglish-guide.md` before
 any response. Source of the design: `docs/plan-v4.md` §4.1–4.3, with the lesson medium changed
@@ -25,7 +24,7 @@ Classify the request first. The first matching row wins.
 | Ambiguous | — | One short question, with a recommended default | — |
 
 **Build or project requests** ("banao", "build", "app", "project", "make me…") are not lessons.
-`/learn` never switches to `/project` on its own. It asks first:
+`/teach` never switches to `/project` on its own. It asks first:
 
 > "Ye banane ka kaam hai ya seekhne ka? Banane ke liye `/project` run karo."
 
@@ -33,11 +32,9 @@ Classify the request first. The first matching row wins.
 - If the learner picks the build option, reply with that one line and nothing else. Give no brief, no lesson, and no build steps.
 - If the learner picks "seekhna", continue as a lesson.
 
-Alias rules:
-- `/teach <topic>` → concept mode, forced. One line: "`/teach` v4 mein deprecated hai. `/learn` use karo."
-- `/code <x>` → code mode, forced. Same note.
-- `/lecture <topic>` → lesson mode, forced, with no roadmap step. Same note.
-- All three are removed in v5.
+Removed in v4, with no alias:
+- `/learn`, `/code`, `/lecture`. Their requests go to `/teach`, which picks the mode from the request.
+- A request that says "code", "lecture" or "page" is routed by the intent table, not by the command used.
 
 ## 2. Visualization router
 
@@ -190,6 +187,6 @@ listed here. Nothing is dropped silently. Status:
 ## 7. Handoffs
 
 - `/course` builds each lecture through this file's lesson path (#40).
-- `/ai-engineer` hands a picked topic to `/learn`, opening with the recap-and-agenda lesson shape from the level's "why" (`roadmap-voice.md`).
+- `/ai-engineer` hands a picked topic to `/teach`, opening with the recap-and-agenda lesson shape from the level's "why" (`roadmap-voice.md`).
 - `/doubt` stays separate. It uses the doubt intent here as a pointer.
-- `/project` stays separate and is not routed through `/learn`.
+- `/project` stays separate and is not routed through `/teach`.
