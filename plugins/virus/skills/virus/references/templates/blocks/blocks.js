@@ -1,5 +1,6 @@
 /* Virus block library runtime. No dependencies, no CDN, works from file://.
-   Usage: <div class="vb" data-block="pause-socho"><script type="application/json">{...}</script></div>
+   Usage: a div with class "vb" and data-block="pause-socho", holding a JSON script tag with the props.
+   Inlined into a page, this file must not contain the closing script tag text, or the page breaks.
    Mounts on DOMContentLoaded. Call VirusBlocks.mount(root) for blocks added later. */
 (function () {
   'use strict';
