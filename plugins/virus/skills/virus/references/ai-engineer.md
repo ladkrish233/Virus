@@ -1,233 +1,131 @@
 # /ai-engineer
 
-Walks the learner through CampusX's AI Engineering roadmap, stage by stage: part, then level,
-then module, then teach. The teaching itself goes to `/teach` (see `teach-mode.md`).
+Walks the learner through CampusX's AI Engineering roadmap: part, then level, then a course on
+that level. A course is built from the level's modules, one lesson per module. A single module can
+also go straight to `/teach`.
 
-Read this file, then `roadmap-voice.md` (the launch-video beats and the sample intro),
-`learner-memory.md` (the progress record) and `teach-mode.md` before any response.
-
----
-
-## 1. Sources and licence
-
-**Live roadmap data.** Fetch the one static file with plain WebFetch:
-
-```
-https://raw.githubusercontent.com/campusx-official/ai-engineering-roadmap-2016/main/src/data/levels.json
-```
-
-Repo: `campusx-official/ai-engineering-roadmap-2016`. It has **no licence**, so:
-- Use the fetched data for this session and for the learner's own `PLAN.md` only.
-- **Never commit roadmap text to the Virus repo, and never copy it into a reference file.**
-- Paraphrase module objectives in Virus's own words. Quote at most a short phrase.
-- Link to the repo and to CampusX's course pages. Do not reproduce them.
-
-**Fallback.** If the fetch fails or the JSON does not parse, use the static grouping in section 2
-and say so in one line: "roadmap live nahi aaya, purani list dikha raha hoon."
-
-**Verified fields** (checked against the live file): `levels[]` with `number`, `title`, `phase`,
-`prerequisites` (level numbers), `modules[]`, `completionOutcomes[]`, `project`, `totalSessions`.
-`modules[]` with `id` (e.g. `M4.1`), `name`, `sessionCount`, `objectives[]`, `tryIt`, `outcome`,
-`isCapstone`. `phases[]` with `id`, `name`, `levels[]`.
+Read this file, then `roadmap-voice.md` (intro only), `course-mode.md` and `learner-memory.md`.
 
 ---
 
-## 2. Grouping into four parts
+## 1. Source: local files
 
-The learner sees 16 levels in 4 parts of 4. CampusX presents curricula as 3 parts or 6–10
-modules, never 16 flat items. The picker also allows 4 options per question. The grouping is
-Virus's own, labelled as such.
+The roadmap is 16 plain-text files in `references/ai-engineer-roadmap/`, copied from CampusX's
+roadmap. They are the only source. Never fetch the roadmap live.
 
-**Recompute from the `phase` field:**
-
-| Repo `phase` | Part |
+| Level | File |
 |---|---|
-| `foundations` (L0–L3) | Part 1 |
-| `retrieval` (L4), `agentic` (L5–L6) | Part 2 |
-| `trust` (L7) | Part 2 |
-| `trust` (L8), `production` (L9–L11) | Part 3 |
-| `frontier` (L12–L14), `interview` (L15) | Part 4 |
+| L0 | `level0-software-fundamentals.txt` |
+| L1 | `level1-llm-101.txt` |
+| L2 | `level2-llm-orchestration.txt` |
+| L3 | `level3-prompt-engineering.txt` |
+| L4 | `level4-rag.txt` |
+| L5 | `level5-agents.txt` |
+| L6 | `level6-context-engineering.txt` |
+| L7 | `level7-llm-evals.txt` |
+| L8 | `level8-ai-security.txt` |
+| L9 | `level9-ai-system-design.txt` |
+| L10 | `level10-llmops.txt` |
+| L11 | `level11-managed-platforms.txt` |
+| L12 | `level12-multimodal-101.txt` |
+| L13 | `level13-fine-tuning.txt` |
+| L14 | `level14-projects.txt` |
+| L15 | `level15-interview-prep.txt` |
 
-The only per-level rule is L8, which goes to Part 3 (AI Security belongs with production).
-**Check:** each part must hold exactly four levels. If the live data breaks that (a level added,
-removed or moved), use the static table below and say so.
+Read only the file for the level the learner picked. Never load all 16.
 
-**Static fallback:**
+**Parsing a file:**
+- Line 1: `Level N · Title`.
+- Module line: `M<N>.<k> · Name — (sessions: X)` or `M<N>.<k> · Name — sessions: X`.
+  L14 uses `P14.<k> ·` instead of `M`.
+- Module body: the lines after the module line, up to the next module line.
+  `Session k · …` lines are sub-headings inside the module. `Try:` and `Outcome:` lines are kept.
+  A line ending in `:` opens a list.
+- A capstone line (`Capstone` or `Final result`) is not a module. Some levels have none.
+- `Prerequisites:` is present on some levels only (L1, L7, L10, L11, L12, L13, L14). Show it when it is there.
+- If a file has no module lines, say so in one line and stop that level. Do not guess.
 
-| Part | Levels | One-line purpose (Virus wording) |
+## 2. Parts (four, of four levels)
+
+| Part | Levels | Purpose (Virus words) |
 |---|---|---|
-| **1 — Foundations** | L0 Software Engineering Fundamentals · L1 LLM 101 · L2 Working with LLM APIs · L3 Prompt Engineering | Code you'll need, how LLMs work, calling them well |
-| **2 — Building with LLMs** | L4 RAG · L5 AI Agents · L6 Context Engineering · L7 LLM Evaluations | The core AI-engineer toolkit |
-| **3 — Production** | L8 AI Security · L9 AI System Design · L10 LLMOps · L11 Managed AI Platforms | Making it safe, scalable and operable |
-| **4 — Frontier & Career** | L12 Multimodal 101 · L13 Fine-Tuning · L14 Projects · L15 Interview Prep | Builder-side depth, portfolio, getting hired |
+| **1 — Foundations** | L0 · L1 · L2 · L3 | Code you need, how LLMs work, calling them well |
+| **2 — Building with LLMs** | L4 · L5 · L6 · L7 | The core AI-engineer toolkit |
+| **3 — Production** | L8 · L9 · L10 · L11 | Safe, scalable, operable |
+| **4 — Frontier & Career** | L12 · L13 · L14 · L15 | Builder depth, portfolio, interviews |
 
-Use the level's live `title` in the picker. Use the purpose lines above, which are Virus's words.
+Show each level's title from its file, not from this table.
 
----
+## 3. Flow
 
-## 3. Core and optional
+**Intro (first run only).** Three to four short lines, in the voice of `roadmap-voice.md`. Say the
+roadmap is CampusX's and is not final. Then go to the part picker. Skip the intro when
+`learner.json` has an `ai-engineer` entry or a course folder `virus-courses/ai-engineer-l*` exists.
 
-The live data has **no core or optional flag.** `isCapstone` marks 14 project modules. Rules:
+**Part picker.** `AskUserQuestion`, one choice, four parts. Recommended: the part holding the first
+level with no course folder yet. If none, Part 1.
 
-- Every module is **core** by default.
-- Capstone modules are core too, and get a "project" tag.
-- Virus may mark a module **optional** only with a reason written into `PLAN.md`
-  (for example "same idea as M4.2, skip if you're short on time"). Never guess an optional flag silently.
+**Level picker.** Four levels from the chosen part. Each option: `L4 · RAG`, with a description of
+`N modules · M sessions`. Count the sessions from the file.
 
----
+**Level view.** Read the level's file. Show one compact list: module number, name, sessions. Show
+`Prerequisites:` if the file has one. Then the action picker:
 
-## 4. First run: the intro
+1. *Course banao (Recommended)* → section 4.
+2. *Ek module abhi* → section 5.
+3. *Level badlo* → back to the level picker.
 
-Run once, when `./virus-ai-engineer/PLAN.md` does not exist. Chat, not a wall of text. Follow
-the launch-video beats in `roadmap-voice.md` (why the role, disclaimer, mental model, the four
-parts with the order reason, the 80% line). Then ask for the first picker.
+Typing a level number (`level 4`) or a module id (`M4.2`) skips the pickers.
 
-The intro is short. Each beat is one or two lines in the classroom voice. Attested phrases only.
+**Prerequisites** are information, not a gate. If the learner's level has prerequisites that are not
+in their course folders, say so once in one line. Then go on. The learner decides.
 
-After the intro, show the whole map once as one compact list, so the journey is visible:
+## 4. Course for a level
 
-```
-Part 1 — Foundations: L0 · L1 · L2 · L3
-Part 2 — Building with LLMs: L4 · L5 · L6 · L7
-Part 3 — Production: L8 · L9 · L10 · L11
-Part 4 — Frontier & Career: L12 · L13 · L14 · L15
-```
+Build with `course-mode.md`. The roadmap comes from the level file, not from backward design.
 
----
+Folder: `./virus-courses/ai-engineer-l<N>-<slug>/`, for example `ai-engineer-l4-rag/`.
 
-## 5. Pickers
+1. **`roadmap.md`** — written once, before lesson 1:
+   - the level's title, scope and outcome, in Virus's own words
+   - the prerequisites, if any
+   - the lesson list: one lesson per module, in file order, each with its session count
+   - a one-line goal per lesson, paraphrased from the module's outcome
+   - the capstone as the last lesson, if the file has one
+2. **Lesson = module.** Build only lesson 1 now. For each later lesson, build it when the learner
+   reaches it.
+3. **Brief to `/teach`** for each lesson (never paste roadmap text):
+   - module id and name (`M4.2 · Chunking`)
+   - three to five objectives, paraphrased
+   - the `Try:` idea, paraphrased, if the module has one
+   - the `Outcome:`, paraphrased
+   - the session count, so the lesson fits it
+4. **Session sub-headings.** If a module has `Session k ·` headings, cover them in order as the
+   lesson's beats. Do not make a separate lesson per session.
+5. **Close.** The lesson names the next module: "Agla lesson: M4.3 · Embeddings — chalein?"
+   The board is saved to `scenes/` as `course-mode.md` §4 says.
 
-Each picker is one question with at most four options.
+**Re-entry.** If the course folder exists, do not repeat the intro. Open with a short recap of the
+last lesson from `learner.json`, then ask:
+- *Next lesson (Recommended)*
+- *Ek aur module, ise level mein*
+- *Level badlo*
 
-1. **Part.** `AskUserQuestion`, single choice, four options: the four parts. Recommended: the
-   part holding the first level not yet done.
-2. **Level.** A second call, with the four levels of the chosen part. Each option has its
-   one-line purpose.
-3. **Module.** Modules are 7 to 16 per level, so show them in pages. Each call offers four
-   options: the next core module not yet done (Recommended), plus up to three more. To reach
-   any other module, the learner types its number (`M4.7`) or says "aur dikhao".
+## 5. One module, no course
 
-Shortcut: typing a level number ("level 4") skips the part step. Typing a module id skips to it.
+Call `/teach` with the brief from section 4, step 3. No course folder. The lesson ends with the next
+module's name, as in section 4, step 5.
 
-**Without `AskUserQuestion`:** the same steps as numbered lists. "Level ka number bhejo."
+## 6. Learner memory
 
----
+After each lesson, write the session to `./virus-progress/learner.json`, per `learner-memory.md`:
+the module id as the concept, the open loop, and the homework. Keep the `profile.level` field at the
+last level the learner worked on.
 
-## 6. Prerequisite gate, with a fix
+## 7. Honesty and voice
 
-If the chosen level's `prerequisites` are not marked done in `PLAN.md`:
-
-> "Is level ke liye L2 (LLM APIs) aana chahiye, warna thoda bhaari lagega. Phir bhi jaana hai?
-> Theek hai — main beech mein zaruri cheezein yaad dila dunga."
-
-Offer four options: *Go ahead (Recommended if you know it)*, *Do L2 first*, *Quick 2-minute check*,
-*Show me the gap*. The learner decides. Virus never blocks, and never repeats the gate after the
-learner has chosen.
-
----
-
-## 7. "I already know this"
-
-When the learner says they know a module:
-- If the later modules in the level build on it, say so and do not skip it: "skip mat karo,
-  agle module isi pe build hote hain. 2 minute ka quick check kar lete hain." Run one
-  `pause-socho` (a `/teach` block).
-- Otherwise mark it **skipped** in `PLAN.md`, with the learner's reason.
-
-Never mark a module done on the learner's word alone. Done means taught and checked.
-
----
-
-## 8. "Not sure which level?" helper
-
-Only when the learner asks. One `multiSelect` round, built from each level's `completionOutcomes`
-("By the end of this level…"). The learner ticks the outcomes they can already do. Virus picks
-the first level with an unticked outcome, explains why in one sentence, and returns to the
-level picker. The learner can overrule it.
-
----
-
-## 9. PLAN.md
-
-Path: `./virus-ai-engineer/PLAN.md`. Written after the first level is chosen. Updated after every
-session. Kept in the learner's folder, never in the Virus repo.
-
-```markdown
-# AI Engineer plan
-
-Last session: 2026-10-12 · Level: L4 RAG · Part 2
-
-## Level L4 — RAG
-Source: CampusX roadmap, fetched 2026-10-12 (link: <repo>, levels.json)
-
-| Module | Name | Core/optional | Status | Notes |
-|---|---|---|---|---|
-| M4.1 | Data ingestion & document processing | core | done | |
-| M4.2 | Chunking | core | practising | overlap pe revise karna hai |
-| M4.3 | Embeddings | core | pending | |
-
-## Hand-offs
-- seekho → `/teach` (topic and level above)
-- banao → `/project` at the matching difficulty
-- deep jao → `/course`
-
-## Links
-- CampusX course pages (from the live data)
-```
-
-Statuses: `pending`, `practising`, `done`, `skipped`. Mirror the mastery facts into
-`learner.json` (see `learner-memory.md`). Do not copy mastery numbers into `PLAN.md`.
-
----
-
-## 10. Teaching a module: hand-off to `/teach`
-
-After the module is chosen, call `/teach` with a short brief, never the roadmap text:
-
-- the module's `name` and id (`M4.2 Chunking`)
-- three objectives, paraphrased in Virus's words
-- the `tryIt` idea, paraphrased
-- the `outcome`, paraphrased
-
-`/teach` then opens with its recap and agenda (`teach-mode.md`, beat 1). At the close, the
-lesson names the next module: "Agla topic: M4.3 Embeddings — chalein?"
-
----
-
-## 11. Re-entry
-
-When `PLAN.md` exists, `/ai-engineer` does not repeat the intro. It opens with the recap ritual
-from `learner-memory.md`, drawn from the last session: "pichli baar M4.2 Chunking khatam kiya,
-overlap pe homework tha." Then one question:
-
-- *Continue with the next module (Recommended)*
-- *Another module in this level*
-- *Switch level*
-
----
-
-## 12. FAQ close (first run only)
-
-Three to five questions after the first picker: "kitna time lagega?", "fresher ho to kahan se?",
-"builder side chahiye?", "job ke liye kaafi hai?". Answer each in one or two lines, with
-the honesty rules from `roadmap-voice.md`. Then: "feedback ho to batao."
-
----
-
-## 13. Books
-
-Not in this file. Book recommendations come only from a curated list (`books.md`, from the
-research ticket on `research/books-v4`), and only when that list is merged. The live roadmap
-names one book (Huyen, *AI Engineering*, at L9). If no curated list is available, say so.
-Never invent a book, a chapter, or a link.
-
-Bring-your-own books: out of scope for v4 (plan §15).
-
----
-
-## 14. Honesty and voice
-
-- The roadmap is not final. Say so at the intro, and again if the live data changes.
-- Hedged time estimates only, and say they depend on pace.
-- No hype. No fear-selling. One line against FOMO is enough.
+- The roadmap is not final. Say so once, at the intro.
+- Time estimates are hedged and depend on pace. The session counts are the file's own.
+- No hype. One line against FOMO is enough.
+- Paraphrase every objective. Quote at most a short phrase. The roadmap text is CampusX's, not Virus's.
 - Stay in the style-clone boundary (`SKILL.md`). Never claim to be CampusX.

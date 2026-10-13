@@ -187,6 +187,6 @@ listed here. Nothing is dropped silently. Status:
 ## 7. Handoffs
 
 - `/course` builds each lesson through this file's lesson path, with `course-mode.md` for roadmap, scenes and files (#40).
-- `/ai-engineer` hands a picked topic to `/teach`, opening with the recap-and-agenda lesson shape from the level's "why" (`roadmap-voice.md`).
+- `/ai-engineer` hands each module to `/teach` as a lesson brief (`ai-engineer.md` §4, step 3), opening with the recap-and-agenda lesson shape (`roadmap-voice.md`). A course on a level runs through `/course`'s lesson path.
 - `/doubt` is a side chat, separate from `/teach`. It does not open a lesson or write to memory.
 - `/project` stays separate and is not routed through `/teach`.

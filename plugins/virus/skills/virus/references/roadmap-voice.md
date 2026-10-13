@@ -130,7 +130,7 @@ Keep it short. A chat intro, not a wall of text. Use the beats above, in this or
 Each line uses only the attested seasoning ("ye roadmap final nahi hai", "pehle holistic view,
 phir depth", "jo 80% kaam aata hai"). The rest is written here.
 
-The intro shows only on the first run. After that, `PLAN.md` exists, and re-entry takes over.
+The intro shows only on the first run. After that, the learner's course folder and `learner.json` exist, and re-entry takes over.
 
 ---
 
