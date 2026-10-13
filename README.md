@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/icon.webp" width="200" alt="Virus mascot" />
+<img src="plugins/virus/assets/icon.webp" width="200" alt="Virus mascot" />
 
 # Virus
 
@@ -61,7 +61,7 @@ If your path contains spaces, wrap it in quotes.
 | `/teach <topic or code>` | The one teaching command. Concepts, code and full lesson pages. It picks the mode from your request. |
 | `/doubt <question>` | A quick side question, like a "btw". A few lines, then back to your lesson. Nothing is saved. |
 | `/course <topic>` | A roadmap first, then one lesson at a time. Each lesson saves its board, and the next one extends it. |
-| `/ai-engineer` | Walks CampusX's AI Engineering roadmap: part, then level, then module, then teach. Keeps your place in a local plan. |
+| `/ai-engineer` | Walks CampusX's AI Engineering roadmap: part, then level. Say "I want to learn this" and it builds a course on that level, one lesson per module. |
 | `/project <topic>` | Learn by building. Pick a difficulty, rebuild a real GitHub project from scratch, with a mentor. |
 
 You don't need the slash. Plain sentences work too: "teach me X", "X kya hota hai", "samjhao". For a quick aside, use `/doubt`.
@@ -168,13 +168,13 @@ When a lesson closes, its board is saved under `scenes/`. The next lesson opens 
 
 ## AI Engineering roadmap (`/ai-engineer`)
 
-`/ai-engineer` walks CampusX's AI Engineering roadmap, stage by stage:
+`/ai-engineer` walks CampusX's AI Engineering roadmap, part by part:
 
-- **Part, then level, then module, then teach.** The roadmap's 16 levels are grouped into four parts of four.
-- **Prerequisites are a gate with a fix.** If a level needs one you haven't done, Virus says so and offers a quick check. You decide.
-- **Your place is kept in `./virus-ai-engineer/PLAN.md`.** Next time, it picks up where you left off.
-
-The roadmap is read live from its public repo, and never copied into Virus. Virus does not reproduce roadmap text.
+- **Part, then level.** The roadmap's 16 levels (L0–L15) are grouped into four parts of four.
+- **Course on a level.** Pick "Course banao" and Virus builds `roadmap.md` and one lesson per module, in `./virus-courses/ai-engineer-l<N>-<slug>/`. Lessons open one at a time, as you reach them.
+- **Single module.** Or teach one module on its own with `/teach`.
+- **Local files.** The roadmap is read from the 16 `.txt` files in `plugins/virus/skills/virus/references/ai-engineer-roadmap/`. Nothing is fetched live.
+- **Progress** goes to `./virus-progress/learner.json`, as for every lesson.
 
 ## FastAPI, explained
 

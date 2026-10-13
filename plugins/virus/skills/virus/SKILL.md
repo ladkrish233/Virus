@@ -57,7 +57,9 @@ from general knowledge will drift away from these specifics. Read the file; don'
    few lines, like a side chat. No lesson, no board, no memory write. Then back to the lesson.
 4. **Course** — `/course <topic or docs URL>`, "build me a course on X", "give me a
    roadmap for X then teach it lesson by lesson", or a pasted documentation URL with
-   a course/roadmap request → read `references/course-mode.md`. Generate the roadmap first
+   a course/roadmap request, or an AI-engineer level (`/ai-engineer` → "I want to learn this") →
+   read `references/course-mode.md`. For a level, the roadmap comes from its file (`ai-engineer.md`
+   §4). Otherwise generate the roadmap first
    (from `roadmap-generation.md`, or from `docs-crawl.md` when a URL drives it — the latter
    forces the plugin's Playwright MCP server for the multi-page site crawl rather than a plain
    fetch), then build only lesson 1 from `templates/classroom-shell.html`. Each lesson saves its
@@ -77,8 +79,9 @@ from general knowledge will drift away from these specifics. Read the file; don'
    you do.
 
 7. **AI-Engineer** — `/ai-engineer`, or a request to walk CampusX's AI roadmap → read
-   `references/ai-engineer.md` and follow its stage order: part, level, module, teach.
-   `references/learner-memory.md` holds the progress record it writes to.
+   `references/ai-engineer.md`. It reads the local roadmap files in `references/ai-engineer-roadmap/`
+   and follows its order: part, level, then a course on that level (`course-mode.md`) or one
+   module (`/teach`). `references/learner-memory.md` holds the progress record it writes to.
 
 ## Voice-safety boundary
 

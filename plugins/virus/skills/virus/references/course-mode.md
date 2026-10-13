@@ -31,6 +31,8 @@ virus-courses/<topic>/
 Build `roadmap.md` before any lesson, as in v3:
 - From a topic: backward design (`roadmap-generation.md`).
 - From a docs URL: the site's own navigation, crawled with the Playwright MCP server (`docs-crawl.md`).
+- From an AI-engineer level: the level's own file, one lesson per module (`ai-engineer.md` §4). No
+  backward design.
 
 Do not generate every lesson up front. Build lesson 1 only. Build each later lesson when the
 learner reaches it.
@@ -110,6 +112,6 @@ When lesson N starts:
 
 - `/teach` lesson pages use the same lesson shell. A `/teach` lesson saves no scene unless it is
   part of a course in `virus-courses/<topic>/`.
-- `/ai-engineer` hands a module to `/teach`, not to `/course`. `/course` is for a topic the learner
-  wants a whole course on.
+- `/ai-engineer` builds a course on a level when the learner says they want to learn it. The course
+  folder is `virus-courses/ai-engineer-l<N>-<slug>/`. A single module goes to `/teach` with no course.
 - `/project` stays separate.
