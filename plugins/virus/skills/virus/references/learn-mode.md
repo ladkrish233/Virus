@@ -24,6 +24,15 @@ Classify the request first. The first matching row wins.
 | `fix <what broke>` | **fix** | Regenerate only the broken block of the last lesson | HTML robustness checklist |
 | Ambiguous | — | One short question, with a recommended default | — |
 
+**Build or project requests** ("banao", "build", "app", "project", "make me…") are not lessons.
+`/learn` never switches to `/project` on its own. It asks first:
+
+> "Ye banane ka kaam hai ya seekhne ka? Banane ke liye `/project` run karo."
+
+- Clear build words trigger the ask. Borderline requests get it too.
+- If the learner picks the build option, reply with that one line and nothing else. Give no brief, no lesson, and no build steps.
+- If the learner picks "seekhna", continue as a lesson.
+
 Alias rules:
 - `/teach <topic>` → concept mode, forced. One line: "`/teach` v4 mein deprecated hai. `/learn` use karo."
 - `/code <x>` → code mode, forced. Same note.
