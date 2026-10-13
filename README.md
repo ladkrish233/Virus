@@ -8,10 +8,10 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-black.svg)
 ![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-black.svg)
-![Version](https://img.shields.io/badge/version-3.0.0-black.svg)
+![Version](https://img.shields.io/badge/version-4.0.0-black.svg)
 ![Hinglish by default](https://img.shields.io/badge/Hinglish-by%20default-black.svg)
 
-A Claude Code plugin that teaches any topic in a friendly, why-before-how style. Hinglish by default, English on request.
+A Claude Code plugin that teaches any topic the way a good class does: the problem first, the idea built step by step on a board, then code. Hinglish by default, English on request.
 
 </div>
 
@@ -23,182 +23,13 @@ A Claude Code plugin that teaches any topic in a friendly, why-before-how style.
 
 > **Unofficial and fan-made.** Virus is not affiliated with or endorsed by CampusX or Nitish Singh. It is a teaching-style plugin inspired by the style of their YouTube lectures. It is not the real person, it never claims to be, it never invents anyone's opinions or personal details, and it never pastes long verbatim transcript passages.
 
-## What it is
-
-You know him. Last bench was never safe. He doesn't rush, he doesn't skip the basics, and he never says "it's obvious."
-
-Virus puts him inside Claude Code.
+## What it does
 
 - **Why before how.** The problem comes first, then the idea.
 - **Code only after the concept is clear.** Never before.
-- **Errors are shown and explained before they are fixed.** Nothing is silently patched.
+- **Errors are shown, named and explained before they are fixed.** Nothing is silently patched.
+- **Classroom lessons.** A teacher line, a board that builds one step at a time, and a notebook of key points.
 - **Honest about limits.** If something is hard or uncertain, it says so.
-- **Hinglish by default.** Say "english mein" and it switches. Same teacher, different language.
-
-## See the difference
-
-Same prompt, asked two ways — and Virus answers in both languages it supports. No fabricated stats here, just read all three and judge for yourself.
-
-**Prompt:** `teach me how REST APIs work`
-
-<table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus (Hinglish, default)</th><th>Claude, with Virus ("English")</th></tr>
-<tr valign="top"><td>
-
-REST (Representational State Transfer) is an architectural style for designing networked applications. A REST API exposes resources via URLs and uses standard HTTP methods to operate on them:
-
-- **GET** – retrieve a resource
-- **POST** – create a resource
-- **PUT/PATCH** – update a resource
-- **DELETE** – remove a resource
-
-REST APIs are stateless, meaning each request contains all the information needed to process it, and responses are typically returned in JSON format. This design is widely used because it is simple, scalable, and works well with the HTTP protocol that already powers the web.
-
-</td><td>
-
-Chalo, REST API samajhte hain — pehle dekhte hain problem kya hai. Maan lo tumhare paas ek mobile app aur ek website hai, dono ko same user data chahiye. Agar dono apna alag logic likhein seedha database se baat karne ke liye, toh database ka structure badalte hi dono jagah code todna padega.
-
-Ab sawaal ye aata hai: iska fix kya hai? Theek hai, answer hai — ek beech ka layer banao jise **API** bolte hain, jo request leta hai aur database se khud baat karta hai.
-
-Isko restaurant se samjho: tum customer ho, waiter API hai, kitchen backend hai. Tum order (request) dete ho, waiter kitchen tak le jaata hai, khana (response) wapas le aata hai. Tumhe pata hi nahi chalta kitchen ke andar kya ho raha hai.
-
-REST ek fixed tarika hai order dene ka — GET, POST, PUT, DELETE. Basically ek protocol, jaise menu card.
-
-Ab bolo, agar tumhe ek user ka data *update* karna ho, konsa method use karoge — GET ya PUT?
-
-</td><td>
-
-Alright, let's get into REST APIs — first, what's the actual problem? Say you have a mobile app and a website, and both need the same user data. If each one talks straight to the database on its own, the moment the database's structure changes, you're fixing code in two places.
-
-So the question becomes: what's the fix? You build a middle layer — an **API** — that takes requests and talks to the database on your behalf.
-
-Here's the analogy that makes it click: you're the customer, the API is the waiter, the kitchen is the backend. You place an order (a request), the waiter carries it to the kitchen, and brings the food (the response) back. You never see what's happening in the kitchen.
-
-REST is just a fixed way of placing that order — GET, POST, PUT, DELETE. Think of it like a menu card: a protocol everyone's agreed to follow.
-
-Now tell me — if you wanted to *update* a user's data, which method would you reach for, GET or PUT?
-
-</td></tr>
-</table>
-
-Same facts, same four HTTP methods, same teaching method in both languages — but the no-plugin answer assumes you already think like an engineer, while Virus builds the idea from a problem you'd actually recognize, then checks you got it before moving on. Say "english mein" any time to switch; nothing about *how* it teaches changes, only the language.
-
-**Prompt:** `/teach` — explain this snippet:
-```js
-function getTotal(items) {
-  let total;
-  for (let item of items) {
-    total += item.price;
-  }
-  return total;
-}
-```
-
-<table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
-<tr valign="top"><td>
-
-This function takes an array of `items`, loops over each one, and adds up the `price` property into `total`, which it then returns. It's a straightforward summation using a `for...of` loop.
-
-</td><td>
-
-Theek hai, isme ek chhota sa bug hai jo turant pakad na aaye toh confusing lag sakta hai. Pehle samajhte hain code kya karna chahta hai — har item ka `price` add karke total nikalna.
-
-Chalo run karke dekhte hain — expected output `30` hona chahiye agar prices `10` aur `20` hon, lekin actual output aayega: `NaN`.
-
-Dekho kya ho raha hai — `total` declare toh hua but koi value nahi di, matlab `undefined`. Jab `undefined + 10` compute hota hai, result `NaN` aata hai — aur ek baar `NaN` ban jaaye, uske baad kuch bhi add karo, hamesha `NaN` hi rahega.
-
-**Root cause:** `total` ko `0` se initialize nahi kiya gaya. Fix: `let total = 0;`
-
-</td></tr>
-</table>
-
-The no-plugin answer is accurate about *what the code intends* — but doesn't run it mentally, so it never catches that this actually throws `NaN`, not the sum it describes. Virus predicts the output, shows the real bug, and root-causes it before fixing — matching the plugin's own rule that errors are never silently patched.
-
-**Prompt:** `mujhe overfitting aur underfitting confuse karte hain`
-
-<table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
-<tr valign="top"><td>
-
-**Underfitting** occurs when a model is too simple to capture the underlying pattern in the data, resulting in poor performance on both training and test data. **Overfitting** occurs when a model learns the training data too well, including its noise, resulting in excellent training performance but poor generalization to new data. The goal is to find a balance between the two, often through techniques like regularization, cross-validation, and choosing appropriate model complexity.
-
-</td><td>
-
-Theek hai, bilkul common doubt hai ye — restate kar leta hoon pehle: tumhe clear nahi hai konsa kab hota hai, sahi pakda?
-
-Root cause usually ye hoti hai ki dono hi "model accha nahi hai" wali category mein lagte hain — par ye do **opposite** problems hain.
-
-Socho ek student exam ki taiyari kar raha hai: **underfitting** — wo jisne sirf 2 din padha, kuch seekha hi nahi, training aur naye dono questions mein kharab karega. **Overfitting** — wo jisne saare practice papers ratta maar liye, training pe 100/100 par thoda alag question aaye toh fail.
-
-Ab verify karte hain — agar ek model training pe 98%, test pe sirf 60% de raha hai, overfitting hai ya underfitting? Bolo.
-
-</td></tr>
-</table>
-
-Both are factually correct. The no-plugin answer is a textbook definition; Virus restates the actual confusion first, uses a fresh analogy (not reused from an earlier answer), and ends by checking understanding instead of just stopping.
-
-**Prompt:** `build me a course on FastAPI` / `make a lesson page on how Git branching works`
-
-<table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
-<tr valign="top"><td>
-
-Sure! Here's a learning path for FastAPI:
-
-1. Installation and setup
-2. Routing and path operations
-3. Request bodies with Pydantic
-4. Dependency injection
-5. Authentication
-6. Testing
-7. Deployment
-
-Start with the official FastAPI docs and work through each topic in order.
-
-</td><td>
-
-Builds a real `roadmap.md` — an 8-lecture sequence planned *backward* from a stated end-state ("build and deploy a production API with auth, validation, and tests") — then generates an actual, dense, self-contained HTML lecture page for lecture 1, with the mascot presenting it, a worked restaurant analogy grounding "API/request/response" before any code, real runnable code, and a tip/warn card. Further lectures build lazily as you reach them, never all at once.
-
-See a real one below — not a mockup, an actual generated file from this repo.
-
-</td></tr>
-</table>
-
-<div align="center">
-  <img src="assets/sample-lecture.jpg" width="100%" alt="A real /course lecture page, generated by Virus, for FastAPI lecture 1" />
-  <br/>
-  <sub>Lecture 1 of the real FastAPI example — <a href="plugins/virus/skills/virus/references/examples/course-demo/fastapi/lecture-01.html">view the full HTML source</a>, or open it locally in a browser after cloning.</sub>
-</div>
-
-**Prompt:** `/project url-shortener` — learn by rebuilding a real GitHub project from scratch
-
-<table>
-<tr><th>Claude, no plugin</th><th>Claude, with Virus</th></tr>
-<tr valign="top"><td>
-
-Sure! Here's a basic Flask URL shortener. Create a file called `app.py`:
-
-```python
-from flask import Flask, request, redirect
-import sqlite3, hashlib
-
-app = Flask(__name__)
-# ... (full working app follows) ...
-```
-
-Run it with `python app.py` and you're done!
-
-</td><td>
-
-Searches GitHub live, shortlists 3 real repos by README scope (not stars), and has you pick one — [`xemeds/tiny0`](https://github.com/xemeds/tiny0) in the real worked example. Writes a `PROJECT_PLAN.md` modeled on CampusX's own CLAUDE.md pattern, then mentors you through rebuilding it **from scratch, one runnable step at a time** — you write the code, Virus reviews it. When your first attempt at handling a form submission throws a real `405 Method Not Allowed`, Virus shows the actual error, names it, root-causes it, and **describes the fix in words rather than handing you corrected code** — even for a one-line change, you make the edit.
-
-See the real worked example: [shortlist](plugins/virus/skills/virus/references/examples/project-demo/url-shortener/shortlist.md) · [plan](plugins/virus/skills/virus/references/examples/project-demo/url-shortener/PROJECT_PLAN.md) · [session](plugins/virus/skills/virus/references/examples/project-demo/url-shortener/session-transcript.md).
-
-</td></tr>
-</table>
-
-The no-plugin answer hands you a finished app to run — you'd learn nothing building it. Virus never writes your project for you; it reads a real repo for structural understanding only (never quoting its code) and mentors you to rebuild the same idea independently, bug-fixing included.
 
 ## Install
 
@@ -223,39 +54,19 @@ claude plugin install virus@virus-marketplace
 
 If your path contains spaces, wrap it in quotes.
 
-## What's new in v4
-
-- **One teaching command.** `/teach` replaces `/code` and `/lecture` from v3. Lessons are classroom-style, not a document page.
-- **Side-chat doubts.** `/doubt` answers quickly and leaves your lesson where it is.
-- **Boards that grow.** A lesson's board carries into the next lesson, as in the RAG example below.
-- **`/ai-engineer`.** Walks the AI Engineering roadmap stage by stage, with your progress kept in a local `PLAN.md`.
-- **Learner memory.** Your progress is kept in `./virus-progress/learner.json`, on your machine only. Mastery is never shown as a score.
-- **Style findings are indexed.** See `references/style-dna-v4.md`.
-
-**Migrating from v3.** `/code` and `/lecture` are removed, and so is `/learn` from the v4 drafts. Use `/teach` instead. In course folders, `lecture-NN.html` is now `lesson-NN.html`. Existing v3 files are not changed.
-
-The RAG lesson 3 board, after the last step:
-
-<img src="assets/v4-lesson-board.png" width="100%" alt="The RAG board at its last step: PDF, chunks, numbers, store, question, retriever, prompt and LLM." />
-
-The same board, carried into lesson 2, with the lesson 1 nodes already shown:
-
-<img src="assets/v4-lesson-board-grows.png" width="100%" alt="The RAG board in lesson 2, with the indexing nodes carried over and the retrieval nodes added." />
-
-
 ## Commands
 
 | Command | What it does |
 |---|---|
-| `/teach <topic or code>` | The one teaching command. Concepts, code, and full lesson pages. It picks the mode from your request. Lessons are classroom-style: a teacher, a board that builds step by step, and a notebook of key points. |
+| `/teach <topic or code>` | The one teaching command. Concepts, code and full lesson pages. It picks the mode from your request. |
 | `/doubt <question>` | A quick side question, like a "btw". A few lines, then back to your lesson. Nothing is saved. |
-| `/course <topic>` | Builds a roadmap first, then one lesson at a time, as you reach each one. Each lesson saves its board, and the next lesson extends it. |
-| `/ai-engineer` | Walks CampusX's AI Engineering roadmap: part, then level, then module, then teach. Keeps your place in a local plan file. |
-| `/project <topic>` | Learn by building: pick a difficulty, rebuild a real GitHub project from scratch, mentor-guided. |
+| `/course <topic>` | A roadmap first, then one lesson at a time. Each lesson saves its board, and the next one extends it. |
+| `/ai-engineer` | Walks CampusX's AI Engineering roadmap: part, then level, then module, then teach. Keeps your place in a local plan. |
+| `/project <topic>` | Learn by building. Pick a difficulty, rebuild a real GitHub project from scratch, with a mentor. |
 
-You don't need the slash. Plain sentences trigger the same modes: "teach me X", "X kya hota hai", "samjhao". For a quick aside, use `/doubt`.
+You don't need the slash. Plain sentences work too: "teach me X", "X kya hota hai", "samjhao". For a quick aside, use `/doubt`.
 
-## Sample prompts
+### Sample prompts
 
 ```
 teach me how REST APIs work
@@ -263,125 +74,139 @@ explain this code: <paste a snippet>
 mujhe overfitting aur underfitting confuse karte hain
 explain gradient descent in English
 build me a course on FastAPI
-give me a roadmap for Docker, then teach it lesson by lesson
 make a lesson page on how Git branching works
+/ai-engineer
 /project url-shortener
 I want to learn LangChain by building something
 ```
 
-## How he teaches
+## A lesson, step by step
 
-1. **Start from a real situation.** A concrete problem a learner would actually hit.
-2. **Name the idea after the problem is felt.** The term comes second.
-3. **Build step by step, small to big.** Like a whiteboard, not a textbook.
-4. **Ground unfamiliar jargon.** Words like "API" or "JSON" are tied to an everyday scenario before they are used.
-5. **Code after the concept.** Explained line by line, with the expected output.
-6. **Show the error, then fix it.** Debugging is part of the lesson.
-7. **Check understanding.** A short question, then the next step.
+A lesson is built like a class:
+
+1. **Recap, then agenda.** If there was a previous lesson, its board comes back first.
+2. **Why.** The problem, often with a question for you to think about first.
+3. **What.** A short definition, then the board builds one piece at a time, with a teacher line for each step.
+4. **How.** The mechanism, then code, explained line by line with the expected output.
+5. **Limits.** Where the idea breaks, and what is still uncertain.
+6. **Check.** "Yahan tak clear?", a question to explain it back, and homework that extends what was built.
+
+Lessons are single HTML files. They work offline and need no network.
 
 ## Courses and lessons
 
-`/course` and `/teach` produce single-file HTML lesson pages you open in your browser. Each page
-works offline, with no network needed.
+`/course <topic>` writes a `roadmap.md` first, planned backward from the skill you want at the end. Then it builds one lesson at a time, as you reach each one. Files go in `./virus-courses/<topic>/`:
 
-- **`/course <topic>`** writes a `roadmap.md` first (beginner to advanced, planned backward from the skill you want at the end). Then it builds `lesson-01.html`, `lesson-02.html` and so on, **one at a time as you reach each one**, never the whole course upfront.
-- **Boards carry over.** When a lesson closes, its final board is saved under `scenes/`. The next lesson opens with that board and extends it.
-- **`/teach <topic>`** can also build one standalone lesson page, with no roadmap.
-- Files are saved locally in your current folder under `./virus-courses/<topic>/`.
-- Re-running `/course` on the same topic reads the existing `roadmap.md` instead of starting over.
+```
+virus-courses/<topic>/
+  roadmap.md
+  lesson-01.html
+  lesson-02.html
+  scenes/
+    lesson-01.json      the board saved when lesson 1 closed
+```
 
-An 8-lecture FastAPI example (v3 format) is included under `plugins/virus/skills/virus/references/examples/course-demo/fastapi/`.
+When a lesson closes, its board is saved under `scenes/`. The next lesson opens with that board and extends it, so one diagram grows across the course.
 
-### Fast-changing facts
+`/teach <topic>` can also build one standalone lesson page, with no roadmap.
 
-Course and lecture pages try to check things that change quickly (library APIs, current syntax) against live documentation before writing code examples. This uses whatever browser tool your session has, or the plugin's optional bundled Playwright MCP server, which is offered on install and never required.
+## AI Engineering roadmap (`/ai-engineer`)
 
-This check is best effort. If no browser tool is available or a check fails, the page is still built, with an honest caveat in its text rather than unverified content presented as certain.
+`/ai-engineer` walks CampusX's AI Engineering roadmap, stage by stage:
+
+- **Part, then level, then module, then teach.** The roadmap's 16 levels are grouped into four parts of four.
+- **Prerequisites are a gate with a fix.** If a level needs one you haven't done, Virus says so and offers a quick check. You decide.
+- **Your place is kept in `./virus-ai-engineer/PLAN.md`.** Next time, it picks up where you left off.
+
+The roadmap is read live from its public repo, and never copied into Virus. Virus does not reproduce roadmap text.
 
 ## Learn by building (`/project`)
 
-Everyone learns by building something. `/project <topic>` finds you a real project to
-rebuild — not an invented exercise — and mentors you through it instead of building it
-for you.
+`/project <topic>` finds you a real project to rebuild, and mentors you through it instead of building it for you.
 
-1. **Pick a difficulty.** Six levels, by scope and concept-count (not time or stars):
-   Beginner (single file, one concept) → Easy → Intermediate → Advanced → Expert → Capstone
-   (multi-component, tested, deployed).
-2. **Virus searches GitHub** (via its optional bundled Playwright MCP server) and
-   shortlists 2-3 real repos matching your topic and level — picked by README scope and
-   file/folder count, not star count. You choose which one to rebuild.
-3. **It writes a `PROJECT_PLAN.md`** for your approval before any code — an iteration
-   roadmap with a done/pending status per step, modeled on the same CLAUDE.md pattern
-   CampusX's own "Learn AI Coding the Right Way" playlist recommends.
-4. **You build it, together, one runnable step at a time** — starting from a minimal
-   working version and growing it. Virus teaches the concept each step needs; **you
-   write the actual code**; Virus reviews it — shows an error, names it, root-causes it
-   before describing a fix in words (never handing you finished code, even for a
-   one-line change). It writes real code itself only when you're genuinely stuck, and
-   says so explicitly when it does.
+1. **Pick a difficulty.** Six levels, by scope and concept count: Beginner, Easy, Intermediate, Advanced, Expert, Capstone.
+2. **Virus searches GitHub** and shortlists 2-3 real repos for your topic and level, by README scope, not star count. You choose one.
+3. **It writes a `PROJECT_PLAN.md`** for your approval before any code.
+4. **You build it, one runnable step at a time.** Virus teaches the concept each step needs and reviews your code. You write it. Virus writes code itself only when you're genuinely stuck, and says so.
 
-**It never shows you the original repo's actual source.** It reads the repo's README and
-browses its file structure (never cloning it) purely to understand what to teach — you
-rebuild from that understanding and Virus's own explanations, never from copied code.
+It reads the repo's README and file structure to understand what to teach. It never clones the repo and never shows you its source.
 
-See a real worked example — a live GitHub search, a `PROJECT_PLAN.md`, and a scripted
-build session including a genuine bug fix — under
-`plugins/virus/skills/virus/references/examples/project-demo/url-shortener/`.
+A worked example, with a live GitHub search and a scripted build session, is under `plugins/virus/skills/virus/references/examples/project-demo/url-shortener/`.
+
+## Learner memory
+
+Your progress is kept in `./virus-progress/learner.json`, on your machine only. It holds the concepts you've covered, what's still open, and when to review each one. Each lesson opens with a short recap from this file. Mastery is never shown to you as a score.
 
 ## Language
 
-Hinglish is the default: Hindi sentence structure with English technical terms, written in Roman script. Say "english mein" or just ask in English to switch. The teaching method stays the same.
+Hinglish is the default: Hindi sentence structure with English technical terms, in Roman script. Say "english mein" or ask in English to switch. The teaching method stays the same.
 
 ## FAQ
 
 **Does it skip the basics?** No.
 
-**Will it let me copy-paste without understanding?** He'll notice.
+**Will it let me copy-paste without understanding?** It will ask you to explain it back.
 
-**Does it only work for topics from the original lectures?** No. The method generalizes to any topic, including ones that were never covered.
+**Does it only work for topics from the original lectures?** No. The method generalizes to any topic.
 
-**Can I ask in English?** Yes. Same sir, different language.
+**Can I ask in English?** Yes. Same teacher, different language.
 
 **Is it the real person?** No. See the disclaimer at the top.
 
+**I used `/code`, `/lecture` or `/learn` before. What now?** They are removed. Use `/teach`. In course folders, `lecture-NN.html` is now `lesson-NN.html`.
+
 **Why "Virus"?** Every class had one.
+
+## Screenshots
+
+The RAG example lesson, on one board, after its last step:
+
+<img src="assets/v4-lesson-board.png" width="100%" alt="The RAG board at its last step: PDF, chunks, numbers, store, question, retriever, prompt and LLM." />
+
+The same board, carried into lesson 2:
+
+<img src="assets/v4-lesson-board-grows.png" width="100%" alt="The RAG board in lesson 2, with the indexing nodes carried over and the retrieval nodes added." />
+
+## Style sources
+
+The teaching style comes from a study of CampusX lecture transcripts and notes. The evidence, and how sure we are of each rule, is in `plugins/virus/skills/virus/references/style-dna-v4.md`. Rules with thin evidence are not treated as hard rules.
 
 ## Known limitations
 
-- The teaching style comes from a limited set of lecture transcripts. Edge cases may feel less accurate than the common patterns.
+- The style comes from a limited set of lecture material. Edge cases may feel less accurate than the common patterns.
 - It approximates a teaching method. It has no opinions or facts about any real person beyond what is evidenced.
-- Lessons are generated lazily and stored locally. There is no database-backed progress tracker, only the files already on disk.
+- Lessons and courses are stored locally. There is no database, sync or account.
 - The worked RAG lessons use illustrative data: toy 8-topic vectors and sample text, labelled on the board. They are not a real embedding model.
-- Lesson pages were tested in Chromium only, so other browsers may differ.
-- There is no standalone quiz, revision or compare mode yet.
+- Lesson pages were tested in Chromium only.
+- There is no standalone quiz or compare-two-concepts mode yet.
 - It teaches from Claude's own knowledge plus optional live documentation checks. It does not read your books yet.
-- `/project`'s "write code only when you're stuck" rule is Virus's own design choice — it isn't something CampusX is on record saying; it's a reasonable inference from a related "you lead the AI" framing, reported honestly as such rather than attributed.
-- `/project` doesn't run your code for you or check test results automatically — it reviews what you share and reasons about it; you still run and paste back output/errors yourself.
+- `/project` doesn't run your code or check test results. You run it and paste back the output yourself.
+- `/project`'s "write code only when you're stuck" rule is Virus's own design choice. CampusX has not said it. It is a reasonable reading of their "you lead the AI" framing, and it is reported as that.
 
 ## Roadmap
 
 These are ideas, not promises.
 
-- Teaching from your own books, with a source tag on every slide
+- Teaching from your own books, with a source tag on every lesson
 - Revision and quiz mode
 - Compare-two-concepts mode
 
-## Updating the teaching style with more material
+## Updating the teaching style
 
 1. Add new transcript files in a local folder. Do not commit them.
 2. Re-run the style analysis against the new material.
-3. Update `references/style-guide.md` and `references/teaching-framework.md` with confirmed patterns only. Do not promote a one-off pattern into a hard rule.
+3. Update the reference files with confirmed patterns only. Do not promote a one-off pattern into a hard rule.
 
 ## How this was built
 
-v4 was planned and built through the wayfinder map at [issue #28](https://github.com/ladkrish233/Virus/issues/28), one decision and one ticket at a time.
+v4 was planned and built through the wayfinder map at [issue #28](https://github.com/ladkrish233/Virus/issues/28), one decision and one ticket at a time. Earlier versions are tracked in [issue #1](https://github.com/ladkrish233/virus/issues/1) (v1), [issue #10](https://github.com/ladkrish233/virus/issues/10) (v2) and [issue #19](https://github.com/ladkrish233/virus/issues/19) (v3).
 
-Planned and tracked via GitHub Issues through `wayfinder:map` issues — see [issue #1](https://github.com/ladkrish233/virus/issues/1) (v1), [issue #10](https://github.com/ladkrish233/virus/issues/10) (v2, `/course`/`/lecture`), and [issue #19](https://github.com/ladkrish233/virus/issues/19) (v3, `/project`).
+The v3 comparison of plain Claude against Virus is kept in [`docs/examples/see-the-difference.md`](docs/examples/see-the-difference.md).
 
 ## Contributing
 
-Issues and pull requests are welcome. Please do not add transcripts, book text or any third-party content you don't have the right to share. Examples must be original.
+Open an issue first. Changes to the teaching style need the evidence in `research/` and a confidence tier.
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
