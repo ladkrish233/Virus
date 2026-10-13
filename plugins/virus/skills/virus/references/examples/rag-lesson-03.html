@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Virus example — RAG lesson 3: Augmentation and generation</title>
+<link rel="stylesheet" href="../templates/blocks/blocks.css">
+<style>
+  body{margin:0;background:#141414;color:#f4f4f1;font:16px/1.6 system-ui,sans-serif;padding:20px 16px}
+  main{max-width:900px;margin:0 auto}
+  .kicker{font:600 12px ui-monospace,Consolas,monospace;letter-spacing:.1em;text-transform:uppercase;color:#FFB1D7;margin:0}
+  h1{font-size:26px;color:#F1950D;margin:.2em 0}
+  .lead{color:#a3a3ad}
+  .nav{display:flex;justify-content:space-between;margin-top:24px;font-size:14px}
+  .nav a{color:#9ED4E2}
+  .note{color:#a3a3ad;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<section class="lesson-head">
+<p class="kicker">Lesson 3</p>
+<h1>Augmentation aur generation: LLM ko context kaise dete hain</h1>
+<p class="lead">Pichli baar retrieval dekha. Aaj chunks prompt mein jaate hain, aur LLM sirf us context se jawab likhta hai.</p>
+</section>
+<div class="vb" data-block="recap-board"><script type="application/json">
+{
+ "title": "Pichle lesson ka board",
+ "viewBox": "0 0 960 240",
+ "nodes": [
+  {
+   "id": "pdf",
+   "x": 20,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "PDF",
+   "role": "input"
+  },
+  {
+   "id": "chunk",
+   "x": 250,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Chunks",
+   "role": "component"
+  },
+  {
+   "id": "emb",
+   "x": 480,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Numbers",
+   "role": "component"
+  },
+  {
+   "id": "vdb",
+   "x": 710,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Store",
+   "role": "source"
+  },
+  {
+   "id": "q",
+   "x": 20,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Question",
+   "role": "input"
+  },
+  {
+   "id": "ret",
+   "x": 250,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Retriever",
+   "role": "component"
+  }
+ ],
+ "arrows": [
+  {
+   "id": "a1",
+   "from": "pdf",
+   "to": "chunk"
+  },
+  {
+   "id": "a2",
+   "from": "chunk",
+   "to": "emb"
+  },
+  {
+   "id": "a3",
+   "from": "emb",
+   "to": "vdb"
+  },
+  {
+   "id": "a4",
+   "from": "q",
+   "to": "ret"
+  },
+  {
+   "id": "a5",
+   "from": "vdb",
+   "to": "ret",
+   "points": [
+    [
+     795,
+     130
+    ],
+    [
+     795,
+     150
+    ],
+    [
+     335,
+     150
+    ],
+    [
+     335,
+     170
+    ]
+   ]
+  }
+ ],
+ "previousLabel": "Pichli baar: retrieval tak.",
+ "today": "aug",
+ "say": "Aaj ka part: prompt aur jawab."
+}
+</script></div>
+<div class="vb" data-block="whiteboard"><script type="application/json">
+{
+ "title": "Poora RAG board",
+ "viewBox": "0 0 960 240",
+ "nodes": [
+  {
+   "id": "pdf",
+   "x": 20,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "PDF",
+   "role": "input"
+  },
+  {
+   "id": "chunk",
+   "x": 250,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Chunks",
+   "role": "component"
+  },
+  {
+   "id": "emb",
+   "x": 480,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Numbers",
+   "role": "component"
+  },
+  {
+   "id": "vdb",
+   "x": 710,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Store",
+   "role": "source"
+  },
+  {
+   "id": "q",
+   "x": 20,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Question",
+   "role": "input"
+  },
+  {
+   "id": "ret",
+   "x": 250,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Retriever",
+   "role": "component"
+  },
+  {
+   "id": "aug",
+   "x": 480,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "Prompt",
+   "role": "component"
+  },
+  {
+   "id": "llm",
+   "x": 710,
+   "y": 170,
+   "w": 170,
+   "h": 60,
+   "label": "LLM",
+   "role": "source"
+  }
+ ],
+ "arrows": [
+  {
+   "id": "a1",
+   "from": "pdf",
+   "to": "chunk"
+  },
+  {
+   "id": "a2",
+   "from": "chunk",
+   "to": "emb"
+  },
+  {
+   "id": "a3",
+   "from": "emb",
+   "to": "vdb"
+  },
+  {
+   "id": "a4",
+   "from": "q",
+   "to": "ret"
+  },
+  {
+   "id": "a5",
+   "from": "vdb",
+   "to": "ret",
+   "points": [
+    [
+     795,
+     130
+    ],
+    [
+     795,
+     150
+    ],
+    [
+     335,
+     150
+    ],
+    [
+     335,
+     170
+    ]
+   ]
+  },
+  {
+   "id": "a6",
+   "from": "ret",
+   "to": "aug"
+  },
+  {
+   "id": "a7",
+   "from": "aug",
+   "to": "llm"
+  }
+ ],
+ "steps": [
+  {
+   "caption": "Retrieval tak ka board yahin hai.",
+   "show": [
+    "pdf",
+    "chunk",
+    "emb",
+    "vdb",
+    "a1",
+    "a2",
+    "a3",
+    "q",
+    "ret",
+    "a4",
+    "a5"
+   ]
+  },
+  {
+   "caption": "Ab augmentation: retriever ke chunks aur question ek prompt mein jaate hain.",
+   "show": [
+    "aug",
+    "a6"
+   ],
+   "ring": "aug"
+  },
+  {
+   "caption": "Chautha step: LLM prompt padhta hai aur jawab likhta hai.",
+   "show": [
+    "llm",
+    "a7"
+   ],
+   "ring": "llm"
+  },
+  {
+   "caption": "Pura flow ek pass mein: question, retriever, prompt, LLM.",
+   "show": []
+  }
+ ],
+ "takeaway": "Indexing ek baar, retrieval aur generation har question pe."
+}
+</script></div>
+<div class="vb" data-block="ladder"><script type="application/json">
+{
+ "title": "Prompt ke 3 hisse",
+ "branches": [
+  "Instruction: sirf context se jawab do",
+  "Context: top chunks",
+  "Question: user ka sawaal"
+ ],
+ "takeaway": "Context ke bahar kuch nahi."
+}
+</script></div>
+<div class="vb" data-block="definition"><script type="application/json">
+{
+ "title": "Naya shabd: augmentation",
+ "text": "Augmentation ka matlab: question ke saath retrieved context jodna, taaki LLM ke paas sahi information ho.",
+ "keywords": [
+  "augmentation",
+  "retrieved context"
+ ],
+ "why": "Ise hi augmented prompt bolte hain."
+}
+</script></div>
+<div class="vb" data-block="worked-example"><script type="application/json">
+{
+ "title": "Context kitna bada hai?",
+ "setup": "Top 3 chunks, har ek lagbhag 500 tokens.",
+ "steps": [
+  {
+   "text": "3 chunks × 500 tokens",
+   "value": "1,500 tokens"
+  },
+  {
+   "text": "Instruction + question",
+   "value": "lagbhag 100 tokens"
+  },
+  {
+   "text": "Prompt ka total",
+   "value": "lagbhag 1,600 tokens"
+  }
+ ],
+ "takeaway": "Ye numbers lagbhag hain. Model aur chunk size ke hisaab se badlenge."
+}
+</script></div>
+<div class="vb" data-block="pause-socho"><script type="application/json">
+{
+ "title": "Ruko, socho",
+ "question": "Agar context mein jawab hi nahi hai, to LLM kya kare?",
+ "options": [
+  {
+   "text": "Apni yaad se jawab bana de",
+   "correct": false,
+   "why": "Yahi hallucination hai. Galat confident jawab."
+  },
+  {
+   "text": "Bolo ki context mein nahi hai",
+   "correct": true,
+   "why": "Prompt mein ye instruction likhna padta hai."
+  },
+  {
+   "text": "Kuch bhi bol de",
+   "correct": false,
+   "why": "Ye bhi hallucination hai."
+  }
+ ],
+ "answer": "Bolo ki context mein nahi hai. Ye prompt ki instruction se hota hai.",
+ "takeaway": "Context mein nahi = bolo pata nahi."
+}
+</script></div>
+<div class="vb" data-block="revision-cards"><script type="application/json">
+{
+ "title": "Quick revision",
+ "cards": [
+  {
+   "front": "Chunk kya hai?",
+   "back": "Ek idea ka chhota tukda.",
+   "example": "Ek paragraph ek chunk."
+  },
+  {
+   "front": "Retriever kya karta hai?",
+   "back": "Question ke liye sabse milte chunks laata hai.",
+   "example": "Top 3 chunks."
+  },
+  {
+   "front": "Augmentation kya hai?",
+   "back": "Question ke saath context jodna.",
+   "example": "Prompt = instruction + context + question."
+  },
+  {
+   "front": "Hallucination kya hai?",
+   "back": "LLM ka confident jawab jo data mein na ho.",
+   "example": "Context na ho to 'pata nahi' bolna."
+  }
+ ]
+}
+</script></div>
+<div class="vb" data-block="khud-ko-samjhao"><script type="application/json">
+{
+ "title": "Apne shabdon mein",
+ "prompt": "Pura RAG flow 4–5 lines mein samjhao, indexing se jawab tak."
+}
+</script></div>
+<div class="vb" data-block="homework"><script type="application/json">
+{
+ "task": "Ek chhota RAG flow apne words mein likho: indexing, retrieval, augmentation, generation. Har step ka ek example do.",
+ "hint": "Lesson 1 ka board dekho."
+}
+</script></div>
+<div class="vb" data-block="ask-virus"><script type="application/json">
+{
+ "title": "Aage kya poochoge?",
+ "label": "Prompt copy karo",
+ "prompt": "Virus, chunk overlap kab use karna chahiye? Ek example do."
+}
+</script></div>
+<p class="note">Ye teen lessons ek hi board pe bane hain: lesson 2 pichla board dikhata hai, lesson 3 retrieval tak ka board.</p>
+
+<nav class="nav"><a href="rag-lesson-02.html">&larr; Pichla lesson</a></nav>
+</main>
+<script src="../templates/blocks/blocks.js"></script>
+</body>
+</html>

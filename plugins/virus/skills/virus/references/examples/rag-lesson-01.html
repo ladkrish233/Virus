@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Virus example — RAG lesson 1: Indexing</title>
+<link rel="stylesheet" href="../templates/blocks/blocks.css">
+<style>
+  body{margin:0;background:#141414;color:#f4f4f1;font:16px/1.6 system-ui,sans-serif;padding:20px 16px}
+  main{max-width:900px;margin:0 auto}
+  .kicker{font:600 12px ui-monospace,Consolas,monospace;letter-spacing:.1em;text-transform:uppercase;color:#FFB1D7;margin:0}
+  h1{font-size:26px;color:#F1950D;margin:.2em 0}
+  .lead{color:#a3a3ad}
+  .nav{display:flex;justify-content:space-between;margin-top:24px;font-size:14px}
+  .nav a{color:#9ED4E2}
+  .note{color:#a3a3ad;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<section class="lesson-head">
+<p class="kicker">Lesson 1</p>
+<h1>Indexing: PDF se searchable store tak</h1>
+<p class="lead">Aaj hum dekhenge ki LLM PDF kyun nahi padh sakta, aur indexing usko kaise taiyaar karta hai. End tak aapke paas indexing ka poora flow hoga.</p>
+</section>
+<div class="vb" data-block="ladder"><script type="application/json">
+{
+ "title": "Is lesson mein 4 steps",
+ "branches": [
+  "PDF se text nikalna",
+  "Text ko chhote chunks mein todna",
+  "Har chunk ko numbers mein badalna",
+  "Numbers ko store mein rakhna"
+ ],
+ "takeaway": "Ye sab ek baar hota hai, indexing mein."
+}
+</script></div>
+<div class="vb" data-block="pause-socho"><script type="application/json">
+{
+ "title": "Pehle socho",
+ "question": "Agar company ki 40 pages ki PDF hai, to kya LLM ko poori PDF ek saath bhej dena chahiye?",
+ "options": [
+  {
+   "text": "Haan, poori PDF bhej do",
+   "correct": false,
+   "why": "Context window limited hai. Poori PDF ek saath mushkil hai, aur mehenga bhi."
+  },
+  {
+   "text": "Nahi, pehle tukde banao",
+   "correct": true,
+   "why": "Chhote tukde har question ke liye sahi hissa dhoondh sakte hain."
+  },
+  {
+   "text": "Ek page bhej do",
+   "correct": false,
+   "why": "Baaki pages ka jawab kahin se nahi aayega."
+  }
+ ],
+ "answer": "Nahi, pehle tukde banao. Isi se retrieval possible hota hai.",
+ "takeaway": "LLM ko poori PDF nahi, sahi hissa chahiye."
+}
+</script></div>
+<div class="vb" data-block="definition"><script type="application/json">
+{
+ "title": "Naya shabd: chunk",
+ "text": "Chunk ek chhota tukda hai jo ek idea cover kare.",
+ "keywords": [
+  "chunk",
+  "idea"
+ ],
+ "why": "Ye word aage har lesson mein aayega."
+}
+</script></div>
+<div class="vb" data-block="whiteboard"><script type="application/json">
+{
+ "title": "Indexing ka board",
+ "viewBox": "0 0 960 240",
+ "nodes": [
+  {
+   "id": "pdf",
+   "x": 20,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "PDF",
+   "role": "input"
+  },
+  {
+   "id": "chunk",
+   "x": 250,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Chunks",
+   "role": "component"
+  },
+  {
+   "id": "emb",
+   "x": 480,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Numbers",
+   "role": "component"
+  },
+  {
+   "id": "vdb",
+   "x": 710,
+   "y": 70,
+   "w": 170,
+   "h": 60,
+   "label": "Store",
+   "role": "source"
+  }
+ ],
+ "arrows": [
+  {
+   "id": "a1",
+   "from": "pdf",
+   "to": "chunk"
+  },
+  {
+   "id": "a2",
+   "from": "chunk",
+   "to": "emb"
+  },
+  {
+   "id": "a3",
+   "from": "emb",
+   "to": "vdb"
+  }
+ ],
+ "steps": [
+  {
+   "caption": "Chaar steps: PDF, chunks, numbers, store. Pehle PDF.",
+   "show": [
+    "pdf"
+   ]
+  },
+  {
+   "caption": "Dusra step: PDF ko tukdon mein todte hain.",
+   "show": [
+    "chunk",
+    "a1"
+   ],
+   "ring": "chunk"
+  },
+  {
+   "caption": "Teesra step: har chunk ko numbers ki list mein badalte hain.",
+   "show": [
+    "emb",
+    "a2"
+   ],
+   "ring": "emb"
+  },
+  {
+   "caption": "Chautha step: numbers store mein. Ye ek baar hota hai.",
+   "show": [
+    "vdb",
+    "a3"
+   ]
+  }
+ ],
+ "takeaway": "Indexing ek baar hota hai. Question har baar aata hai."
+}
+</script></div>
+<div class="vb" data-block="worked-example"><script type="application/json">
+{
+ "title": "Ek example, asli numbers",
+ "setup": "40 pages ki PDF. Har chunk lagbhag 500 tokens ka.",
+ "steps": [
+  {
+   "text": "Total tokens (lagbhag)",
+   "value": "20,000"
+  },
+  {
+   "text": "20,000 ÷ 500",
+   "value": "40 chunks"
+  },
+  {
+   "text": "Har chunk ka embedding",
+   "value": "1 list of numbers"
+  }
+ ],
+ "takeaway": "Numbers haath se check karo. Real count text pe depend karega."
+}
+</script></div>
+<div class="vb" data-block="output-kya-aayega"><script type="application/json">
+{
+ "title": "Chunking ka loop",
+ "code": [
+  "text = 'pehla para. dusra para.'",
+  "chunks = text.split('. ')",
+  "print(len(chunks))"
+ ],
+ "steps": [
+  {
+   "output": "(abhi kuch nahi)"
+  },
+  {
+   "output": "(abhi kuch nahi)"
+  },
+  {
+   "output": "2"
+  }
+ ],
+ "takeaway": "Output pehle socho, phir dekho."
+}
+</script></div>
+<div class="vb" data-block="yahan-tak-clear"><script type="application/json">
+{
+ "explainAgain": "Chunk ko ek box samjho, jisme ek idea rakha hai. Box bada ho to noise, chhota ho to idea toot jaata hai.",
+ "revisit": "#"
+}
+</script></div>
+<div class="vb" data-block="khud-ko-samjhao"><script type="application/json">
+{
+ "title": "Apne shabdon mein",
+ "prompt": "Kal koi pooche indexing kya hai, to kya aap 3–4 lines mein samjha paoge? Likh ke dekho."
+}
+</script></div>
+<div class="vb" data-block="homework"><script type="application/json">
+{
+ "task": "Apni koi PDF lo aur chunk count nikalo, do size mein: 200 words aur 500 words.",
+ "hint": "Total words ko chunk size se divide karo."
+}
+</script></div>
+<p class="note">Agla lesson: retrieval. Question aata hai, aur retriever sahi chunks dhoondhta hai.</p>
+
+<nav class="nav"><a href="rag-lesson-02.html">Agla lesson &rarr;</a></nav>
+</main>
+<script src="../templates/blocks/blocks.js"></script>
+</body>
+</html>

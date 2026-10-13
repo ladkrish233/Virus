@@ -55,10 +55,16 @@
     arrows.forEach(function (a) {
       var f = byId[a.from], t = byId[a.to];
       if (!f || !t) return;
-      var line = svgEl('line', {x1: f.x + f.w, y1: f.y + f.h / 2, x2: t.x, y2: t.y + t.h / 2, stroke: '#e9e9e2', 'stroke-width': 2});
-      line.setAttribute('class', 'vb-n');
-      line.setAttribute('data-id', a.id);
-      svg.appendChild(line);
+      // Straight line by default. An arrow may give its own route as points [[x,y],...] to avoid boxes.
+      var seg;
+      if (a.points && a.points.length > 1) {
+        seg = svgEl('polyline', {points: a.points.map(function (q) { return q.join(','); }).join(' '), fill: 'none', stroke: '#e9e9e2', 'stroke-width': 2});
+      } else {
+        seg = svgEl('line', {x1: f.x + f.w, y1: f.y + f.h / 2, x2: t.x, y2: t.y + t.h / 2, stroke: '#e9e9e2', 'stroke-width': 2});
+      }
+      seg.setAttribute('class', 'vb-n');
+      seg.setAttribute('data-id', a.id);
+      svg.appendChild(seg);
     });
     nodes.forEach(function (n) {
       var r = svgEl('rect', {x: n.x, y: n.y, width: n.w, height: n.h, rx: 10, fill: 'none', stroke: ROLE[n.role] || '#9be59b', 'stroke-width': 2.2});
